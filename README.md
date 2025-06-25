@@ -132,6 +132,3 @@ If you like the project, consider starring it 🌟 to support indie dev projects
 
 
 ---
-
-Would you like a **custom header/banner image**, animated badges, or screenshots added? I can help design or mock those too. Just say the word.
-
