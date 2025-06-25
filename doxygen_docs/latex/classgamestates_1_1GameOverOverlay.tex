@@ -1,0 +1,395 @@
+\hypertarget{classgamestates_1_1GameOverOverlay}{}\doxysection{gamestates.\+Game\+Over\+Overlay Class Reference}
+\label{classgamestates_1_1GameOverOverlay}\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+
+
+Reprezintă overlay-\/ul afișat la sfârșitul jocului (Game Over).  
+
+
+
+
+Inheritance diagram for gamestates.\+Game\+Over\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1GameOverOverlay__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Game\+Over\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1GameOverOverlay__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a240c98d19f27b48d07bd2f5480cc34d7}{Game\+Over\+Overlay}} (\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a773670d4391919e988cbecc18f05a616}{playing}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classgamestates_1_1GameOverOverlay}{Game\+Over\+Overlay}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_aae62f39f14d7f001490f81898dc243b5}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea overlay-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_ac1baef60af64e0368263624976a80357}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele overlay-\/ului Game Over. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_acaa178c4fe9aabfa0ffcbeab027b096b}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de click al mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_aad5caf7713540c3e8326edb4f39219ec}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a8d4c29f5167ffbd265f0889f309f04fa}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a79b44691859e32c45f7dfb3715cd14d6}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_ad6f39ab94b47ed9e47334756dcd61b4e}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a738c218e9fa832195eb07c978ca94b02}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a tastelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a5e737cac3d913f862e55b394e99e926d}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a tastei (neutilizat). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a713081eeb353728db0a46bb40291ee3c}{draw\+Back\+Button}} (Graphics2D g2d)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (suprascris din \mbox{\hyperlink{classgamestates_1_1State}{State}} pentru a folosi back\+Button\+Bounds local). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_ab8d2712379f7cb9e885a1dd89903aa33}{draw\+Retry\+Button}} (Graphics2D g2d)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul butonului \char`\"{}\+Retry\char`\"{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a1b6b7c80f94ecc7c5fb6fb378ff55fa5}{load\+Background}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea de fundal pentru ecranul Game Over. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a13771045a67ccbde2e0b3d66ccc56682}{load\+Custom\+Font}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă fontul personalizat folosit pentru afișarea textului în overlay. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_acf470aaa4a391ee8b18885485323d56c}{background\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a1b8e6862179cdaf7825e4d3ac6618112}{bgX}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_ab63a294b15b9fcd371a9523b456d911b}{retry\+Button\+Bounds}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_ac2d55c0d7ea3bb4cfec6772aff6cfa24}{back\+Button\+Bounds}}
+\item 
+Font \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_aad973bca811d565253a173cd83e5a595}{overlay\+Font}}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a773670d4391919e988cbecc18f05a616}{playing}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a7ed024caa3f48ce77bce6fb616ce4f38}{DB\+\_\+\+FILE}} = \char`\"{}data/gamedatabase.\+db\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către fișierul bazei de date pentru încărcarea scorului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă overlay-\/ul afișat la sfârșitul jocului (Game Over). 
+
+Permite jucătorului să reîncerce nivelul sau să se întoarcă la meniul principal. Afișează scorul final. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a240c98d19f27b48d07bd2f5480cc34d7}\label{classgamestates_1_1GameOverOverlay_a240c98d19f27b48d07bd2f5480cc34d7}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!GameOverOverlay@{GameOverOverlay}}
+\index{GameOverOverlay@{GameOverOverlay}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{GameOverOverlay()}{GameOverOverlay()}}
+{\footnotesize\ttfamily gamestates.\+Game\+Over\+Overlay.\+Game\+Over\+Overlay (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}}]{playing }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classgamestates_1_1GameOverOverlay}{Game\+Over\+Overlay}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em playing} & Referință la starea de joc \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} din care s-\/a ajuns aici. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_ac1baef60af64e0368263624976a80357}\label{classgamestates_1_1GameOverOverlay_ac1baef60af64e0368263624976a80357}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!draw@{draw}}
+\index{draw@{draw}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează elementele overlay-\/ului Game Over. 
+
+Include imaginea de fundal și scorul jucătorului. Opțional, desenează hitbox-\/urile butoanelor pentru depanare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a713081eeb353728db0a46bb40291ee3c}\label{classgamestates_1_1GameOverOverlay_a713081eeb353728db0a46bb40291ee3c}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!drawBackButton@{drawBackButton}}
+\index{drawBackButton@{drawBackButton}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{drawBackButton()}{drawBackButton()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+draw\+Back\+Button (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (suprascris din \mbox{\hyperlink{classgamestates_1_1State}{State}} pentru a folosi back\+Button\+Bounds local). 
+
+Folosit în scopuri de depanare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2d} & Contextul grafic 2D \mbox{\hyperlink{}{Graphics2D}}. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}{gamestates.\+State}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_ab8d2712379f7cb9e885a1dd89903aa33}\label{classgamestates_1_1GameOverOverlay_ab8d2712379f7cb9e885a1dd89903aa33}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!drawRetryButton@{drawRetryButton}}
+\index{drawRetryButton@{drawRetryButton}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{drawRetryButton()}{drawRetryButton()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+draw\+Retry\+Button (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul butonului \char`\"{}\+Retry\char`\"{}. 
+
+Folosit în scopuri de depanare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2d} & Contextul grafic 2D \mbox{\hyperlink{}{Graphics2D}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a738c218e9fa832195eb07c978ca94b02}\label{classgamestates_1_1GameOverOverlay_a738c218e9fa832195eb07c978ca94b02}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a tastelor. 
+
+Permite reîncercarea nivelului (Enter) sau întoarcerea la meniu (Escape).
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a5e737cac3d913f862e55b394e99e926d}\label{classgamestates_1_1GameOverOverlay_a5e737cac3d913f862e55b394e99e926d}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a1b6b7c80f94ecc7c5fb6fb378ff55fa5}\label{classgamestates_1_1GameOverOverlay_a1b6b7c80f94ecc7c5fb6fb378ff55fa5}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!loadBackground@{loadBackground}}
+\index{loadBackground@{loadBackground}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{loadBackground()}{loadBackground()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+load\+Background (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea de fundal pentru ecranul Game Over. 
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a13771045a67ccbde2e0b3d66ccc56682}\label{classgamestates_1_1GameOverOverlay_a13771045a67ccbde2e0b3d66ccc56682}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!loadCustomFont@{loadCustomFont}}
+\index{loadCustomFont@{loadCustomFont}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{loadCustomFont()}{loadCustomFont()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+load\+Custom\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă fontul personalizat folosit pentru afișarea textului în overlay. 
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_acaa178c4fe9aabfa0ffcbeab027b096b}\label{classgamestates_1_1GameOverOverlay_acaa178c4fe9aabfa0ffcbeab027b096b}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de click al mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_ad6f39ab94b47ed9e47334756dcd61b4e}\label{classgamestates_1_1GameOverOverlay_ad6f39ab94b47ed9e47334756dcd61b4e}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a79b44691859e32c45f7dfb3715cd14d6}\label{classgamestates_1_1GameOverOverlay_a79b44691859e32c45f7dfb3715cd14d6}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_aad5caf7713540c3e8326edb4f39219ec}\label{classgamestates_1_1GameOverOverlay_aad5caf7713540c3e8326edb4f39219ec}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a butonului mouse-\/ului. 
+
+Verifică dacă s-\/a apăsat pe butonul de reîncercare sau pe cel de întoarcere la meniu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a8d4c29f5167ffbd265f0889f309f04fa}\label{classgamestates_1_1GameOverOverlay_a8d4c29f5167ffbd265f0889f309f04fa}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_aae62f39f14d7f001490f81898dc243b5}\label{classgamestates_1_1GameOverOverlay_aae62f39f14d7f001490f81898dc243b5}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!update@{update}}
+\index{update@{update}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Game\+Over\+Overlay.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea overlay-\/ului. 
+
+Momentan, nu face nimic deoarece overlay-\/ul este static. 
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_ac2d55c0d7ea3bb4cfec6772aff6cfa24}\label{classgamestates_1_1GameOverOverlay_ac2d55c0d7ea3bb4cfec6772aff6cfa24}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!backButtonBounds@{backButtonBounds}}
+\index{backButtonBounds@{backButtonBounds}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{backButtonBounds}{backButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Game\+Over\+Overlay.\+back\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_acf470aaa4a391ee8b18885485323d56c}\label{classgamestates_1_1GameOverOverlay_acf470aaa4a391ee8b18885485323d56c}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!backgroundImg@{backgroundImg}}
+\index{backgroundImg@{backgroundImg}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{backgroundImg}{backgroundImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Game\+Over\+Overlay.\+background\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a1b8e6862179cdaf7825e4d3ac6618112}\label{classgamestates_1_1GameOverOverlay_a1b8e6862179cdaf7825e4d3ac6618112}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!bgX@{bgX}}
+\index{bgX@{bgX}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{bgX}{bgX}}
+{\footnotesize\ttfamily int gamestates.\+Game\+Over\+Overlay.\+bgX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a7ed024caa3f48ce77bce6fb616ce4f38}\label{classgamestates_1_1GameOverOverlay_a7ed024caa3f48ce77bce6fb616ce4f38}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!DB\_FILE@{DB\_FILE}}
+\index{DB\_FILE@{DB\_FILE}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{DB\_FILE}{DB\_FILE}}
+{\footnotesize\ttfamily final String gamestates.\+Game\+Over\+Overlay.\+DB\+\_\+\+FILE = \char`\"{}data/gamedatabase.\+db\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calea către fișierul bazei de date pentru încărcarea scorului. 
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_aad973bca811d565253a173cd83e5a595}\label{classgamestates_1_1GameOverOverlay_aad973bca811d565253a173cd83e5a595}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!overlayFont@{overlayFont}}
+\index{overlayFont@{overlayFont}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{overlayFont}{overlayFont}}
+{\footnotesize\ttfamily Font gamestates.\+Game\+Over\+Overlay.\+overlay\+Font\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_a773670d4391919e988cbecc18f05a616}\label{classgamestates_1_1GameOverOverlay_a773670d4391919e988cbecc18f05a616}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!playing@{playing}}
+\index{playing@{playing}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{playing}{playing}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} gamestates.\+Game\+Over\+Overlay.\+playing\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1GameOverOverlay_ab63a294b15b9fcd371a9523b456d911b}\label{classgamestates_1_1GameOverOverlay_ab63a294b15b9fcd371a9523b456d911b}} 
+\index{gamestates.GameOverOverlay@{gamestates.GameOverOverlay}!retryButtonBounds@{retryButtonBounds}}
+\index{retryButtonBounds@{retryButtonBounds}!gamestates.GameOverOverlay@{gamestates.GameOverOverlay}}
+\doxysubsubsection{\texorpdfstring{retryButtonBounds}{retryButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Game\+Over\+Overlay.\+retry\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{GameOverOverlay_8java}{Game\+Over\+Overlay.\+java}}\end{DoxyCompactItemize}

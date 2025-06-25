@@ -1,0 +1,139 @@
+@startuml
+title Simple Factory Pattern for Level Creation
+
+package levels {
+
+  class Level {
+    - levelData: int[][]
+    - levelId: int
+    --
+    + Level(levelData: int[][], levelId: int)
+    + getLevelData(): int[][]
+    + getSpriteIndex(x: int, y: int): int
+    + getLevelId(): int
+  }
+
+  class LevelFactory {
+    ' Constants for level dimensions (LEVEL1_ROWS, etc.)
+    --
+    ' Methods to get tileset info (getTilesetRows, getTilesetCols, getTileSize)
+    ' Methods to get asset paths (getLevelAtlasPath, getBackgroundPath)
+    --
+    + createLevel(levelNumber: int): Level
+    - createLevel1(): Level
+    - createLevel2(): Level
+    - createLevel3(): Level
+    - preprocessEnemySpawnPoints(levelData: int[][])
+  }
+
+  class LevelManager {
+    - game: Game
+    - currentLevel: Level
+    - levelFactory: LevelFactory
+    - currentLevelNumber: int
+    - background: BufferedImage
+    - levelSprite: BufferedImage[]
+    --
+    + LevelManager(game: Game)
+    + loadLevel(levelNumber: int)
+    - loadBackground(levelNumber: int)
+    - importOutsideSprites(levelNumber: int)
+    + draw(g: Graphics, xLvlOffset: int)
+    + update()
+    + getCurrentLevel(): Level
+    + getCurrentLevelNumber(): int
+  }
+}
+
+package utilz {
+  class LoadSave {
+    + {static} getLevelData(filePath: String): int[][]
+    + {static} getSpriteAtlas(filePath: String): BufferedImage
+    --
+    ' Constants for file paths (LEVEL1_DATA, LEVEL1_ATLAS, etc.)
+    ' LEVEL1_DATA, LEVEL2_DATA, LEVEL3_DATA
+    ' LEVEL1_ATLAS, LEVEL2_ATLAS, LEVEL3_ATLAS
+    ' LEVEL1_BACKGROUND, LEVEL2_BACKGROUND, LEVEL3_BACKGROUND
+  }
+}
+
+package main {
+  class Game {
+    ' Game class definition (simplified for this diagram)
+    + getPlaying(): Playing
+  }
+}
+
+package gamestates {
+    class Playing {
+        ' Playing class definition (simplified)
+        + getEnemyManager(): EnemyManager
+        + getPlayer(): Player
+    }
+}
+
+package entities {
+    class EnemyManager {
+        ' EnemyManager definition (simplified)
+        + loadEnemiesFromLevelData(levelData: int[][], level: Level)
+    }
+    class Player {
+        ' Player definition (simplified)
+        + resetToSpawn(level: Level)
+    }
+}
+
+
+' --- Relationships for Simple Factory ---
+
+' Client (LevelManager) holds an instance of the Factory
+LevelManager o--> LevelFactory : (creates and uses)
+
+' Client (LevelManager) requests a Product (Level) from the Factory
+LevelManager ..> LevelFactory : uses createLevel() >
+
+' Factory creates Concrete Products (specific Level instances)
+LevelFactory ..> Level : creates >
+' LevelFactory actually calls its private methods like createLevel1()
+' which then do 'new Level(...)'
+
+' Factory uses LoadSave to get level data for creating Levels
+LevelFactory ..> LoadSave : uses getLevelData()
+
+' LevelManager also uses LevelFactory for other level-specific info
+LevelManager ..> LevelFactory : uses getBackgroundPath(), getLevelAtlasPath(), etc.
+
+' LevelManager uses LoadSave directly for loading sprites/backgrounds
+' (though paths are obtained via LevelFactory)
+LevelManager ..> LoadSave : uses getSpriteAtlas()
+
+' LevelManager interacts with other game components
+LevelManager o--> Game : (passed in constructor)
+LevelManager ..> Playing : (via game.getPlaying())
+LevelManager ..> EnemyManager : (via game.getPlaying().getEnemyManager())
+LevelManager ..> Player : (via game.getPlaying().getPlayer())
+
+
+note right of LevelFactory
+  **Simple Factory:**
+  `LevelFactory` encapsulates the
+  logic for creating different
+  `Level` objects based on
+  `levelNumber`.
+end note
+
+note left of LevelManager
+  **Client:**
+  `LevelManager` uses `LevelFactory`
+  to obtain `Level` instances
+  without needing to know the
+  concrete creation details.
+end note
+
+note bottom of Level
+  **Product:**
+  `Level` is the product
+  created by the factory.
+end note
+
+@enduml

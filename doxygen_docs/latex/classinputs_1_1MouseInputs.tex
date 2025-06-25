@@ -1,0 +1,259 @@
+\hypertarget{classinputs_1_1MouseInputs}{}\doxysection{inputs.\+Mouse\+Inputs Class Reference}
+\label{classinputs_1_1MouseInputs}\index{inputs.MouseInputs@{inputs.MouseInputs}}
+
+
+Gestionează input-\/ul de la mouse pentru joc.  
+
+
+
+
+Inheritance diagram for inputs.\+Mouse\+Inputs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classinputs_1_1MouseInputs__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for inputs.\+Mouse\+Inputs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classinputs_1_1MouseInputs__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classinputs_1_1MouseInputs_a65107a983f573995ef52ac8587c77937}{Mouse\+Inputs}} (\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} \mbox{\hyperlink{classinputs_1_1MouseInputs_af49370a8a83678e485f289aa10048f81}{game\+Panel}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classinputs_1_1MouseInputs}{Mouse\+Inputs}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_af19a6a4614edf8f8299525ec2ba3fce0}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată la un click de mouse (apăsare și eliberare). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_a7b424a99721fa6871d0d8e52238df308}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată la apăsarea unui buton al mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_aba9dc96339f5f098a048df247f3064c8}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată la eliberarea unui buton al mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_aef7bc6f965f63b2ab865794970fd35c0}{mouse\+Entered}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată când cursorul mouse-\/ului intră în componentă. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_a3e205334d1f1a5e1963c11b56e53fa38}{mouse\+Exited}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată când cursorul mouse-\/ului iese din componentă. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_a0c55d43d0cc67e5fc7d10543b6dda6f4}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată când mouse-\/ul este mișcat cu un buton apăsat (drag). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_a65fd1538b3e157506225b073e786e1e1}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată când mouse-\/ul este mișcat (fără butoane apăsate). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1MouseInputs_a6737426eaf11feae0dc92996a6b4568c}{mouse\+Wheel\+Moved}} (Mouse\+Wheel\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată la mișcarea rotiței mouse-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} \mbox{\hyperlink{classinputs_1_1MouseInputs_af49370a8a83678e485f289aa10048f81}{game\+Panel}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gestionează input-\/ul de la mouse pentru joc. 
+
+Implementează interfețele \mbox{\hyperlink{}{Mouse\+Listener}}, \mbox{\hyperlink{}{Mouse\+Motion\+Listener}} și \mbox{\hyperlink{}{Mouse\+Wheel\+Listener}} și redirecționează evenimentele de mouse către starea de joc activă corespunzătoare. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_a65107a983f573995ef52ac8587c77937}\label{classinputs_1_1MouseInputs_a65107a983f573995ef52ac8587c77937}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!MouseInputs@{MouseInputs}}
+\index{MouseInputs@{MouseInputs}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{MouseInputs()}{MouseInputs()}}
+{\footnotesize\ttfamily inputs.\+Mouse\+Inputs.\+Mouse\+Inputs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}}}]{game\+Panel }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classinputs_1_1MouseInputs}{Mouse\+Inputs}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Panel} & Panoul principal al jocului \mbox{\hyperlink{}{Game\+Panel}} căruia i se atașează acest listener. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_af19a6a4614edf8f8299525ec2ba3fce0}\label{classinputs_1_1MouseInputs_af19a6a4614edf8f8299525ec2ba3fce0}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată la un click de mouse (apăsare și eliberare). 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1MouseInputs_af19a6a4614edf8f8299525ec2ba3fce0}{mouseClicked}} }
+
+\end{DoxyCode}
+ a stării de joc active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_a0c55d43d0cc67e5fc7d10543b6dda6f4}\label{classinputs_1_1MouseInputs_a0c55d43d0cc67e5fc7d10543b6dda6f4}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată când mouse-\/ul este mișcat cu un buton apăsat (drag). 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1MouseInputs_a0c55d43d0cc67e5fc7d10543b6dda6f4}{mouseDragged}} }
+
+\end{DoxyCode}
+ a stării de joc active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_aef7bc6f965f63b2ab865794970fd35c0}\label{classinputs_1_1MouseInputs_aef7bc6f965f63b2ab865794970fd35c0}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mouseEntered@{mouseEntered}}
+\index{mouseEntered@{mouseEntered}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mouseEntered()}{mouseEntered()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Entered (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată când cursorul mouse-\/ului intră în componentă. 
+
+Momentan neutilizată.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_a3e205334d1f1a5e1963c11b56e53fa38}\label{classinputs_1_1MouseInputs_a3e205334d1f1a5e1963c11b56e53fa38}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mouseExited@{mouseExited}}
+\index{mouseExited@{mouseExited}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mouseExited()}{mouseExited()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Exited (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată când cursorul mouse-\/ului iese din componentă. 
+
+Momentan neutilizată.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_a65fd1538b3e157506225b073e786e1e1}\label{classinputs_1_1MouseInputs_a65fd1538b3e157506225b073e786e1e1}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată când mouse-\/ul este mișcat (fără butoane apăsate). 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1MouseInputs_a65fd1538b3e157506225b073e786e1e1}{mouseMoved}} }
+
+\end{DoxyCode}
+ a stării de joc active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_a7b424a99721fa6871d0d8e52238df308}\label{classinputs_1_1MouseInputs_a7b424a99721fa6871d0d8e52238df308}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată la apăsarea unui buton al mouse-\/ului. 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1MouseInputs_a7b424a99721fa6871d0d8e52238df308}{mousePressed}} }
+
+\end{DoxyCode}
+ a stării de joc active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_aba9dc96339f5f098a048df247f3064c8}\label{classinputs_1_1MouseInputs_aba9dc96339f5f098a048df247f3064c8}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată la eliberarea unui buton al mouse-\/ului. 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1MouseInputs_aba9dc96339f5f098a048df247f3064c8}{mouseReleased}} }
+
+\end{DoxyCode}
+ a stării de joc active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_a6737426eaf11feae0dc92996a6b4568c}\label{classinputs_1_1MouseInputs_a6737426eaf11feae0dc92996a6b4568c}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!mouseWheelMoved@{mouseWheelMoved}}
+\index{mouseWheelMoved@{mouseWheelMoved}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{mouseWheelMoved()}{mouseWheelMoved()}}
+{\footnotesize\ttfamily void inputs.\+Mouse\+Inputs.\+mouse\+Wheel\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Wheel\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată la mișcarea rotiței mouse-\/ului. 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1MouseInputs_a6737426eaf11feae0dc92996a6b4568c}{mouseWheelMoved}} }
+
+\end{DoxyCode}
+ a stării de joc active (de ex., pentru derularea clasamentului).
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Wheel\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classinputs_1_1MouseInputs_af49370a8a83678e485f289aa10048f81}\label{classinputs_1_1MouseInputs_af49370a8a83678e485f289aa10048f81}} 
+\index{inputs.MouseInputs@{inputs.MouseInputs}!gamePanel@{gamePanel}}
+\index{gamePanel@{gamePanel}!inputs.MouseInputs@{inputs.MouseInputs}}
+\doxysubsubsection{\texorpdfstring{gamePanel}{gamePanel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} inputs.\+Mouse\+Inputs.\+game\+Panel\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/inputs/\mbox{\hyperlink{MouseInputs_8java}{Mouse\+Inputs.\+java}}\end{DoxyCompactItemize}

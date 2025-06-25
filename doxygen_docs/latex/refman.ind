@@ -1,0 +1,3265 @@
+\begin{theindex}
+
+  \item {actionCooldown}
+    \subitem {entities.GoblinBoss}, \hyperpage{136}
+    \subitem {entities.GolemBoss}, \hyperpage{154}
+  \item {actionTimer}
+    \subitem {entities.GoblinBoss}, \hyperpage{136}
+    \subitem {entities.GolemBoss}, \hyperpage{154}
+  \item {activateCrystalRush}
+    \subitem {entities.Player}, \hyperpage{323}
+  \item {active}
+    \subitem {entities.Banana}, \hyperpage{22}
+    \subitem {entities.Coconut}, \hyperpage{28}
+    \subitem {entities.Gem}, \hyperpage{104}
+    \subitem {entities.Projectile}, \hyperpage{371}
+  \item {addBanana}
+    \subitem {levels.Level}, \hyperpage{220}
+  \item {addCoconut}
+    \subitem {levels.Level}, \hyperpage{220}
+  \item {addProjectile}
+    \subitem {entities.EnemyManager}, \hyperpage{47}
+  \item {advanceToNextLevel}
+    \subitem {gamestates.Playing}, \hyperpage{347}
+  \item {airSpeed}
+    \subitem {entities.Goblin}, \hyperpage{117}
+    \subitem {entities.Karagor}, \hyperpage{196}
+    \subitem {entities.Nanite}, \hyperpage{303}
+    \subitem {entities.Player}, \hyperpage{333}
+  \item {airstrikeFont}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{66}
+    \subitem {gamestates.Leaderboard}, \hyperpage{215}
+    \subitem {gamestates.Options}, \hyperpage{317}
+    \subitem {gamestates.Playing}, \hyperpage{356}
+  \item {allEnemiesSpawned}
+    \subitem {entities.EnemyManager}, \hyperpage{57}
+  \item {aniIndex}
+    \subitem {entities.Enemy}, \hyperpage{36}
+  \item {animationIndex}
+    \subitem {entities.Karagor}, \hyperpage{196}
+  \item {animations}
+    \subitem {entities.GoblinBoss}, \hyperpage{136}
+    \subitem {entities.GolemBoss}, \hyperpage{154}
+    \subitem {entities.Karagor}, \hyperpage{196}
+    \subitem {entities.Player}, \hyperpage{333}
+  \item {animationSpeed}
+    \subitem {entities.Karagor}, \hyperpage{196}
+  \item {animationTick}
+    \subitem {entities.Karagor}, \hyperpage{196}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {aniSpeed}
+    \subitem {entities.Enemy}, \hyperpage{36}
+  \item {aniTick}
+    \subitem {entities.Enemy}, \hyperpage{37}
+  \item {applyGamestate}
+    \subitem {ui.LevelButton}, \hyperpage{227}
+    \subitem {ui.MenuButton}, \hyperpage{283}
+  \item {applyGravity}
+    \subitem {entities.GoblinBoss}, \hyperpage{128}
+    \subitem {entities.GolemBoss}, \hyperpage{147}
+  \item {applyKnockback}
+    \subitem {entities.EnemyManager}, \hyperpage{47}
+    \subitem {entities.Player}, \hyperpage{323}
+  \item {applyMeleeDamage}
+    \subitem {entities.GoblinBoss}, \hyperpage{128}
+    \subitem {entities.GolemBoss}, \hyperpage{147}
+  \item {ATTACK}
+    \subitem {entities.Goblin}, \hyperpage{117}
+    \subitem {entities.Nanite}, \hyperpage{303}
+  \item {attack}
+    \subitem {entities.Karagor}, \hyperpage{196}
+  \item {ATTACK\_COOLDOWN}
+    \subitem {entities.Karagor}, \hyperpage{197}
+  \item {ATTACK\_COOLDOWN\_MAX}
+    \subitem {entities.Goblin}, \hyperpage{117}
+    \subitem {entities.GoblinBoss}, \hyperpage{136}
+    \subitem {entities.GolemBoss}, \hyperpage{155}
+    \subitem {entities.Nanite}, \hyperpage{303}
+  \item {attackBox}
+    \subitem {entities.Goblin}, \hyperpage{118}
+    \subitem {entities.Nanite}, \hyperpage{303}
+  \item {attackChecked}
+    \subitem {entities.Goblin}, \hyperpage{118}
+    \subitem {entities.Nanite}, \hyperpage{304}
+  \item {attackCheckFrame}
+    \subitem {entities.GoblinBoss}, \hyperpage{136}
+    \subitem {entities.GolemBoss}, \hyperpage{155}
+  \item {attackCooldown}
+    \subitem {entities.Goblin}, \hyperpage{118}
+    \subitem {entities.Karagor}, \hyperpage{197}
+    \subitem {entities.Nanite}, \hyperpage{304}
+  \item {attackDamage}
+    \subitem {entities.Karagor}, \hyperpage{197}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {attackDamageAppliedThisAttack}
+    \subitem {entities.GoblinBoss}, \hyperpage{136}
+    \subitem {entities.GolemBoss}, \hyperpage{155}
+  \item {attackDamageBoss}
+    \subitem {entities.GoblinBoss}, \hyperpage{137}
+    \subitem {entities.GolemBoss}, \hyperpage{155}
+  \item {ATTACKING\_MELEE}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{15}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{17}
+  \item {ATTACKING\_RUN\_SLASH}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{15}
+  \item {attackRange}
+    \subitem {entities.Goblin}, \hyperpage{118}
+    \subitem {entities.Nanite}, \hyperpage{304}
+
+  \indexspace
+
+  \item {backButtonBounds}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{90}
+    \subitem {gamestates.Leaderboard}, \hyperpage{215}
+    \subitem {gamestates.Loadgame}, \hyperpage{262}
+    \subitem {gamestates.Menu}, \hyperpage{280}
+    \subitem {gamestates.Playing}, \hyperpage{356}
+    \subitem {gamestates.State}, \hyperpage{376}
+  \item {backgroundImage}
+    \subitem {levels.LevelManager}, \hyperpage{251}
+  \item {backgroundImg}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{91}
+    \subitem {gamestates.Leaderboard}, \hyperpage{215}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{245}
+    \subitem {gamestates.Loadgame}, \hyperpage{262}
+    \subitem {gamestates.Menu}, \hyperpage{280}
+    \subitem {gamestates.Options}, \hyperpage{317}
+  \item {Banana}
+    \subitem {entities.Banana}, \hyperpage{20}
+  \item {BANANA\_IMAGE}
+    \subitem {utilz.LoadSave}, \hyperpage{266}
+  \item {BANANA\_SPRITE}
+    \subitem {utilz.LoadSave}, \hyperpage{266}
+  \item {bananas}
+    \subitem {levels.Level}, \hyperpage{224}
+  \item {bgX}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{91}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{245}
+  \item {BOSS\_SCALE\_FACTOR}
+    \subitem {entities.GoblinBoss}, \hyperpage{137}
+    \subitem {entities.GolemBoss}, \hyperpage{155}
+  \item {bounds}
+    \subitem {ui.LevelButton}, \hyperpage{230}
+    \subitem {ui.MenuButton}, \hyperpage{286}
+  \item {boxSpacing}
+    \subitem {gamestates.Leaderboard}, \hyperpage{215}
+  \item {buffer}
+    \subitem {gamestates.Leaderboard}, \hyperpage{215}
+    \subitem {gamestates.Options}, \hyperpage{317}
+  \item {buttons}
+    \subitem {gamestates.Loadgame}, \hyperpage{262}
+    \subitem {gamestates.Menu}, \hyperpage{280}
+
+  \indexspace
+
+  \item {calculateBossHitboxHeight}
+    \subitem {entities.GoblinBoss}, \hyperpage{129}
+    \subitem {entities.GolemBoss}, \hyperpage{147}
+  \item {calculateBossHitboxWidth}
+    \subitem {entities.GoblinBoss}, \hyperpage{129}
+    \subitem {entities.GolemBoss}, \hyperpage{147}
+  \item {canAttackPlayer}
+    \subitem {entities.Goblin}, \hyperpage{111}
+    \subitem {entities.Nanite}, \hyperpage{297}
+  \item {canBossMoveHere}
+    \subitem {utilz.HelpMethods}, \hyperpage{168}
+  \item {canMoveHere}
+    \subitem {utilz.HelpMethods}, \hyperpage{169}
+  \item {canSeePlayer}
+    \subitem {entities.Goblin}, \hyperpage{111}
+    \subitem {entities.Nanite}, \hyperpage{297}
+  \item {canSpawnProjectileAndConsume}
+    \subitem {entities.Player}, \hyperpage{324}
+  \item {chaseMoveSpeed}
+    \subitem {entities.Goblin}, \hyperpage{118}
+    \subitem {entities.Nanite}, \hyperpage{304}
+  \item {CHASING}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{17}
+  \item {checkAttackHit}
+    \subitem {entities.Goblin}, \hyperpage{112}
+    \subitem {entities.Nanite}, \hyperpage{298}
+  \item {checkBananaCollision}
+    \subitem {gamestates.Playing}, \hyperpage{347}
+  \item {checkCloseToBorder}
+    \subitem {gamestates.Playing}, \hyperpage{347}
+  \item {checkCoconutCollision}
+    \subitem {gamestates.Playing}, \hyperpage{347}
+  \item {checkForNewEnemySpawn}
+    \subitem {entities.EnemyManager}, \hyperpage{48}
+  \item {checkGemCollision}
+    \subitem {gamestates.Playing}, \hyperpage{347}
+  \item {checkIfTableExists}
+    \subitem {database.InsertGet}, \hyperpage{174}
+  \item {checkPlayerAttackHits}
+    \subitem {gamestates.Playing}, \hyperpage{347}
+  \item {checkPlayerHit}
+    \subitem {entities.Goblin}, \hyperpage{112}
+    \subitem {entities.Nanite}, \hyperpage{298}
+  \item {checkPlayerThrow}
+    \subitem {gamestates.Playing}, \hyperpage{348}
+  \item {closeButtonBounds}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{67}
+  \item {Coconut}
+    \subitem {entities.Coconut}, \hyperpage{27}
+  \item {COCONUT\_IMAGE}
+    \subitem {utilz.LoadSave}, \hyperpage{266}
+  \item {COCONUT\_SPRITE}
+    \subitem {utilz.LoadSave}, \hyperpage{267}
+  \item {COCONUT\_THROWABLE\_IMAGE}
+    \subitem {utilz.LoadSave}, \hyperpage{267}
+  \item {COCONUT\_THROWABLE\_SPRITE}
+    \subitem {utilz.LoadSave}, \hyperpage{267}
+  \item {coconutIcon}
+    \subitem {gamestates.Playing}, \hyperpage{357}
+  \item {coconuts}
+    \subitem {levels.Level}, \hyperpage{224}
+    \subitem {utilz.LevelProgress}, \hyperpage{253}
+  \item {collectBananaEffect}
+    \subitem {entities.Player}, \hyperpage{324}
+  \item {collectCoconutEffect}
+    \subitem {entities.Player}, \hyperpage{324}
+  \item {COMBO\_STANDING}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{163}
+  \item {createLevel}
+    \subitem {levels.LevelFactory}, \hyperpage{232}
+  \item {createLevel1}
+    \subitem {levels.LevelFactory}, \hyperpage{232}
+  \item {createLevel2}
+    \subitem {levels.LevelFactory}, \hyperpage{232}
+  \item {createLevel3}
+    \subitem {levels.LevelFactory}, \hyperpage{233}
+  \item {createLevelProgressTable}
+    \subitem {database.InsertGet}, \hyperpage{174}
+  \item {crouch}
+    \subitem {entities.Karagor}, \hyperpage{197}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {CROUCH\_RUN}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{163}
+  \item {CROUCH\_SLAM}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{163}
+  \item {CROUCH\_THROW}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{163}
+  \item {CROUCH\_TO\_STAND}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{163}
+  \item {CROUCH\_WALK}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{163}
+  \item {CRYSTAL\_RUSH\_COOLDOWN\_DURATION}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {CRYSTAL\_RUSH\_DURATION}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {crystalIcon}
+    \subitem {gamestates.Playing}, \hyperpage{357}
+  \item {crystalRushAnimations}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {crystalRushCooldownTimer}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {crystalRushTimer}
+    \subitem {entities.Player}, \hyperpage{334}
+  \item {crystalRushUnlocked}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {currentActionState}
+    \subitem {entities.GoblinBoss}, \hyperpage{137}
+    \subitem {entities.GolemBoss}, \hyperpage{155}
+  \item {currentCoconuts}
+    \subitem {gamestates.Playing}, \hyperpage{357}
+  \item {currentHealth}
+    \subitem {entities.Karagor}, \hyperpage{197}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {currentHealthBoss}
+    \subitem {entities.GoblinBoss}, \hyperpage{137}
+    \subitem {entities.GolemBoss}, \hyperpage{156}
+  \item {currentLevel}
+    \subitem {entities.EnemyManager}, \hyperpage{57}
+    \subitem {gamestates.Playing}, \hyperpage{357}
+    \subitem {levels.LevelManager}, \hyperpage{251}
+  \item {currentLevelNumber}
+    \subitem {levels.LevelManager}, \hyperpage{251}
+  \item {currentMeleeHitbox}
+    \subitem {entities.GoblinBoss}, \hyperpage{137}
+    \subitem {entities.GolemBoss}, \hyperpage{156}
+  \item {currentScore}
+    \subitem {gamestates.Playing}, \hyperpage{357}
+
+  \indexspace
+
+  \item {damage}
+    \subitem {entities.Goblin}, \hyperpage{118}
+    \subitem {entities.Nanite}, \hyperpage{304}
+    \subitem {entities.Projectile}, \hyperpage{371}
+  \item {DAMAGE\_FLASH\_DURATION}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {damageFlashTimer}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {database}, \hyperpage{11}
+  \item {database.InsertGet}, \hyperpage{173}
+    \subitem {checkIfTableExists}, \hyperpage{174}
+    \subitem {createLevelProgressTable}, \hyperpage{174}
+    \subitem {DB\_URL}, \hyperpage{176}
+    \subitem {dbLock}, \hyperpage{177}
+    \subitem {ensurePlayerTableExists}, \hyperpage{174}
+    \subitem {getConnection}, \hyperpage{174}
+    \subitem {getPlayerList}, \hyperpage{174}
+    \subitem {LoadCoconutNumber}, \hyperpage{174}
+    \subitem {LoadCurrentHealth}, \hyperpage{175}
+    \subitem {loadLevelData}, \hyperpage{175}
+    \subitem {LoadLevelIndex}, \hyperpage{175}
+    \subitem {LoadScore}, \hyperpage{175}
+    \subitem {LoadTimer}, \hyperpage{175}
+    \subitem {LoadUsername}, \hyperpage{175}
+    \subitem {LoadXPosition}, \hyperpage{176}
+    \subitem {LoadYPosition}, \hyperpage{176}
+    \subitem {SaveIntoDatabase}, \hyperpage{176}
+    \subitem {SaveUsername}, \hyperpage{176}
+  \item {dateFormat}
+    \subitem {gamestates.Leaderboard}, \hyperpage{216}
+  \item {DB\_FILE}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{67}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{91}
+    \subitem {gamestates.Leaderboard}, \hyperpage{216}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{245}
+  \item {DB\_URL}
+    \subitem {database.InsertGet}, \hyperpage{176}
+  \item {dbLock}
+    \subitem {database.InsertGet}, \hyperpage{177}
+  \item {decideIdleAction}
+    \subitem {entities.GoblinBoss}, \hyperpage{129}
+    \subitem {entities.GolemBoss}, \hyperpage{148}
+  \item {decideNextAction}
+    \subitem {entities.GoblinBoss}, \hyperpage{129}
+    \subitem {entities.GolemBoss}, \hyperpage{148}
+  \item {DETECTED}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{17}
+  \item {detectionRange}
+    \subitem {entities.Goblin}, \hyperpage{119}
+    \subitem {entities.GoblinBoss}, \hyperpage{137}
+    \subitem {entities.GolemBoss}, \hyperpage{156}
+    \subitem {entities.Karagor}, \hyperpage{197}
+    \subitem {entities.Nanite}, \hyperpage{304}
+  \item {DIE\_CROUCHED}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{164}
+  \item {DIE\_STANDING}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{164}
+  \item {direction}
+    \subitem {entities.Goblin}, \hyperpage{119}
+    \subitem {entities.GoblinBoss}, \hyperpage{138}
+    \subitem {entities.GolemBoss}, \hyperpage{156}
+    \subitem {entities.Nanite}, \hyperpage{305}
+    \subitem {entities.Projectile}, \hyperpage{371}
+  \item {down}
+    \subitem {entities.Karagor}, \hyperpage{198}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {draw}
+    \subitem {entities.Banana}, \hyperpage{21}
+    \subitem {entities.Coconut}, \hyperpage{27}
+    \subitem {entities.EnemyManager}, \hyperpage{48}
+    \subitem {entities.Gem}, \hyperpage{102}
+    \subitem {entities.Projectile}, \hyperpage{369}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{62}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{86}
+    \subitem {gamestates.Leaderboard}, \hyperpage{210}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{241}
+    \subitem {gamestates.Loadgame}, \hyperpage{257}
+    \subitem {gamestates.Menu}, \hyperpage{276}
+    \subitem {gamestates.Options}, \hyperpage{312}
+    \subitem {gamestates.Playing}, \hyperpage{348}
+    \subitem {gamestates.Statemethods}, \hyperpage{378}
+    \subitem {levels.LevelManager}, \hyperpage{249}
+    \subitem {ui.LevelButton}, \hyperpage{227}
+    \subitem {ui.MenuButton}, \hyperpage{283}
+    \subitem {ui.ProgressBar}, \hyperpage{363}
+  \item {DRAW\_HEIGHT}
+    \subitem {entities.GoblinBoss}, \hyperpage{138}
+    \subitem {entities.GolemBoss}, \hyperpage{156}
+  \item {DRAW\_WIDTH}
+    \subitem {entities.GoblinBoss}, \hyperpage{138}
+    \subitem {entities.GolemBoss}, \hyperpage{156}
+  \item {drawBackButton}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{86}
+    \subitem {gamestates.Leaderboard}, \hyperpage{211}
+    \subitem {gamestates.Loadgame}, \hyperpage{257}
+    \subitem {gamestates.Menu}, \hyperpage{276}
+    \subitem {gamestates.Playing}, \hyperpage{348}
+    \subitem {gamestates.State}, \hyperpage{374}
+  \item {drawBananas}
+    \subitem {gamestates.Playing}, \hyperpage{348}
+  \item {drawCoconuts}
+    \subitem {gamestates.Playing}, \hyperpage{348}
+  \item {drawGems}
+    \subitem {entities.EnemyManager}, \hyperpage{48}
+  \item {drawGoblinBosses}
+    \subitem {entities.EnemyManager}, \hyperpage{49}
+  \item {drawGoblins}
+    \subitem {entities.EnemyManager}, \hyperpage{49}
+  \item {drawGolemBosses}
+    \subitem {entities.EnemyManager}, \hyperpage{49}
+  \item {drawHealthBar}
+    \subitem {entities.EnemyManager}, \hyperpage{50, 51}
+  \item {drawHitbox}
+    \subitem {entities.Banana}, \hyperpage{21}
+    \subitem {entities.Enemy}, \hyperpage{34}, \hyperpage{37}
+    \subitem {entities.Entity}, \hyperpage{72}
+    \subitem {entities.Karagor}, \hyperpage{198}
+  \item {drawHUD}
+    \subitem {gamestates.Playing}, \hyperpage{349}
+  \item {drawKaragors}
+    \subitem {entities.EnemyManager}, \hyperpage{51}
+  \item {drawNanites}
+    \subitem {entities.EnemyManager}, \hyperpage{52}
+  \item {drawProjectiles}
+    \subitem {entities.EnemyManager}, \hyperpage{52}
+  \item {drawRetryButton}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{86}
+  \item {DYING}
+    \subitem {entities.Goblin}, \hyperpage{119}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{18}
+    \subitem {entities.Nanite}, \hyperpage{305}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{40}
+
+  \indexspace
+
+  \item {elapsedSeconds}
+    \subitem {gamestates.Playing}, \hyperpage{357}
+  \item {Enemy}
+    \subitem {entities.Enemy}, \hyperpage{33}
+  \item {Enemy\_Animation\_Rows}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{39}
+  \item {EnemyManager}
+    \subitem {entities.EnemyManager}, \hyperpage{47}
+  \item {enemyManager}
+    \subitem {gamestates.Playing}, \hyperpage{357}
+  \item {enemyState}
+    \subitem {entities.Enemy}, \hyperpage{37}
+  \item {enemyType}
+    \subitem {entities.Enemy}, \hyperpage{37}
+  \item {ensurePlayerTableExists}
+    \subitem {database.InsertGet}, \hyperpage{174}
+  \item {ENTER\_NAME}
+    \subitem {gamestates.Gamestate}, \hyperpage{97}
+  \item {ENTER\_NAME\_FRAME}
+    \subitem {utilz.LoadSave}, \hyperpage{267}
+  \item {EnterNameOverlay}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{62}
+  \item {enterNameOverlay}
+    \subitem {main.Game}, \hyperpage{80}
+  \item {entities}, \hyperpage{11}
+  \item {entities.Banana}, \hyperpage{19}
+    \subitem {active}, \hyperpage{22}
+    \subitem {Banana}, \hyperpage{20}
+    \subitem {draw}, \hyperpage{21}
+    \subitem {drawHitbox}, \hyperpage{21}
+    \subitem {floatAmplitude}, \hyperpage{22}
+    \subitem {floatAngle}, \hyperpage{23}
+    \subitem {floatSpeed}, \hyperpage{23}
+    \subitem {image}, \hyperpage{23}
+    \subitem {isActive}, \hyperpage{21}
+    \subitem {levelData}, \hyperpage{23}
+    \subitem {maxScale}, \hyperpage{23}
+    \subitem {minScale}, \hyperpage{23}
+    \subitem {originalHeight}, \hyperpage{24}
+    \subitem {originalWidth}, \hyperpage{24}
+    \subitem {originalY}, \hyperpage{24}
+    \subitem {scaleFactor}, \hyperpage{24}
+    \subitem {scaleSpeed}, \hyperpage{24}
+    \subitem {scalingUp}, \hyperpage{24}
+    \subitem {setActive}, \hyperpage{22}
+    \subitem {update}, \hyperpage{22}
+  \item {entities.Coconut}, \hyperpage{25}
+    \subitem {active}, \hyperpage{28}
+    \subitem {Coconut}, \hyperpage{27}
+    \subitem {draw}, \hyperpage{27}
+    \subitem {floatAmplitude}, \hyperpage{28}
+    \subitem {floatAngle}, \hyperpage{29}
+    \subitem {floatSpeed}, \hyperpage{29}
+    \subitem {image}, \hyperpage{29}
+    \subitem {isActive}, \hyperpage{27}
+    \subitem {levelData}, \hyperpage{29}
+    \subitem {maxScale}, \hyperpage{29}
+    \subitem {minScale}, \hyperpage{29}
+    \subitem {originalHeight}, \hyperpage{30}
+    \subitem {originalWidth}, \hyperpage{30}
+    \subitem {originalY}, \hyperpage{30}
+    \subitem {scaleFactor}, \hyperpage{30}
+    \subitem {scaleSpeed}, \hyperpage{30}
+    \subitem {scalingUp}, \hyperpage{30}
+    \subitem {setActive}, \hyperpage{28}
+    \subitem {update}, \hyperpage{28}
+  \item {entities.Enemy}, \hyperpage{32}
+    \subitem {aniIndex}, \hyperpage{36}
+    \subitem {aniSpeed}, \hyperpage{36}
+    \subitem {aniTick}, \hyperpage{37}
+    \subitem {drawHitbox}, \hyperpage{34}, \hyperpage{37}
+    \subitem {Enemy}, \hyperpage{33}
+    \subitem {enemyState}, \hyperpage{37}
+    \subitem {enemyType}, \hyperpage{37}
+    \subitem {getAniIndex}, \hyperpage{34}
+    \subitem {getEnemyState}, \hyperpage{34}
+    \subitem {getEnemyType}, \hyperpage{34}
+    \subitem {getHitbox}, \hyperpage{35}
+    \subitem {isActive}, \hyperpage{35}, \hyperpage{37}
+    \subitem {setEnemyState}, \hyperpage{35}
+    \subitem {update}, \hyperpage{36}
+    \subitem {updateAnimationTick}, \hyperpage{36}
+  \item {entities.EnemyManager}, \hyperpage{44}
+    \subitem {addProjectile}, \hyperpage{47}
+    \subitem {allEnemiesSpawned}, \hyperpage{57}
+    \subitem {applyKnockback}, \hyperpage{47}
+    \subitem {checkForNewEnemySpawn}, \hyperpage{48}
+    \subitem {currentLevel}, \hyperpage{57}
+    \subitem {draw}, \hyperpage{48}
+    \subitem {drawGems}, \hyperpage{48}
+    \subitem {drawGoblinBosses}, \hyperpage{49}
+    \subitem {drawGoblins}, \hyperpage{49}
+    \subitem {drawGolemBosses}, \hyperpage{49}
+    \subitem {drawHealthBar}, \hyperpage{50, 51}
+    \subitem {drawKaragors}, \hyperpage{51}
+    \subitem {drawNanites}, \hyperpage{52}
+    \subitem {drawProjectiles}, \hyperpage{52}
+    \subitem {EnemyManager}, \hyperpage{47}
+    \subitem {gems}, \hyperpage{57}
+    \subitem {getCurrentLevel}, \hyperpage{52}
+    \subitem {getGems}, \hyperpage{52}
+    \subitem {getGoblinBosses}, \hyperpage{53}
+    \subitem {getGoblins}, \hyperpage{53}
+    \subitem {getGolemBosses}, \hyperpage{53}
+    \subitem {getKaragors}, \hyperpage{53}
+    \subitem {getNanites}, \hyperpage{54}
+    \subitem {goblinBosses}, \hyperpage{57}
+    \subitem {goblinHardImgs}, \hyperpage{57}
+    \subitem {goblinNoobImgs}, \hyperpage{58}
+    \subitem {goblins}, \hyperpage{58}
+    \subitem {golemBosses}, \hyperpage{58}
+    \subitem {karagors}, \hyperpage{58}
+    \subitem {levelData}, \hyperpage{58}
+    \subitem {loadEnemiesFromLevelData}, \hyperpage{54}
+    \subitem {loadEnemyImgs}, \hyperpage{54}
+    \subitem {loadSpriteSheet}, \hyperpage{54}
+    \subitem {naniteImgs}, \hyperpage{58}
+    \subitem {nanitePesteraImgs}, \hyperpage{58}
+    \subitem {nanites}, \hyperpage{58}
+    \subitem {playerDetectionDistance}, \hyperpage{59}
+    \subitem {playing}, \hyperpage{59}
+    \subitem {projectiles}, \hyperpage{59}
+    \subitem {random}, \hyperpage{59}
+    \subitem {resetEnemies}, \hyperpage{55}
+    \subitem {scanLevelForSpawnPoints}, \hyperpage{55}
+    \subitem {spawnAllEnemies}, \hyperpage{55}
+    \subitem {spawnEnemy}, \hyperpage{55}
+    \subitem {spawnGem}, \hyperpage{56}
+    \subitem {spawnPoints}, \hyperpage{59}
+    \subitem {trySpawnCollectible}, \hyperpage{56}
+    \subitem {update}, \hyperpage{57}
+  \item {entities.EnemyManager.Point}, \hyperpage{361}
+    \subitem {Point}, \hyperpage{361}
+  \item {entities.Entity}, \hyperpage{70}
+    \subitem {drawHitbox}, \hyperpage{72}
+    \subitem {Entity}, \hyperpage{71}
+    \subitem {getHitbox}, \hyperpage{72}
+    \subitem {height}, \hyperpage{73}
+    \subitem {hitbox}, \hyperpage{73}
+    \subitem {initHitbox}, \hyperpage{72}
+    \subitem {width}, \hyperpage{73}
+    \subitem {x}, \hyperpage{73}
+    \subitem {y}, \hyperpage{73}
+  \item {entities.Gem}, \hyperpage{100}
+    \subitem {active}, \hyperpage{104}
+    \subitem {draw}, \hyperpage{102}
+    \subitem {floatAmplitude}, \hyperpage{104}
+    \subitem {floatAngle}, \hyperpage{104}
+    \subitem {floatSpeed}, \hyperpage{104}
+    \subitem {Gem}, \hyperpage{102}
+    \subitem {getHitbox}, \hyperpage{103}
+    \subitem {hitbox}, \hyperpage{104}
+    \subitem {image}, \hyperpage{104}
+    \subitem {isActive}, \hyperpage{103}
+    \subitem {levelId}, \hyperpage{105}
+    \subitem {maxScale}, \hyperpage{105}
+    \subitem {minScale}, \hyperpage{105}
+    \subitem {originalHeight}, \hyperpage{105}
+    \subitem {originalWidth}, \hyperpage{105}
+    \subitem {originalY}, \hyperpage{105}
+    \subitem {scaleFactor}, \hyperpage{106}
+    \subitem {scaleSpeed}, \hyperpage{106}
+    \subitem {scalingUp}, \hyperpage{106}
+    \subitem {setActive}, \hyperpage{103}
+    \subitem {update}, \hyperpage{103}
+    \subitem {x}, \hyperpage{106}
+    \subitem {y}, \hyperpage{106}
+  \item {entities.Goblin}, \hyperpage{107}
+    \subitem {airSpeed}, \hyperpage{117}
+    \subitem {ATTACK}, \hyperpage{117}
+    \subitem {ATTACK\_COOLDOWN\_MAX}, \hyperpage{117}
+    \subitem {attackBox}, \hyperpage{118}
+    \subitem {attackChecked}, \hyperpage{118}
+    \subitem {attackCooldown}, \hyperpage{118}
+    \subitem {attackRange}, \hyperpage{118}
+    \subitem {canAttackPlayer}, \hyperpage{111}
+    \subitem {canSeePlayer}, \hyperpage{111}
+    \subitem {chaseMoveSpeed}, \hyperpage{118}
+    \subitem {checkAttackHit}, \hyperpage{112}
+    \subitem {checkPlayerHit}, \hyperpage{112}
+    \subitem {damage}, \hyperpage{118}
+    \subitem {detectionRange}, \hyperpage{119}
+    \subitem {direction}, \hyperpage{119}
+    \subitem {DYING}, \hyperpage{119}
+    \subitem {getAttackBox}, \hyperpage{112}
+    \subitem {getDamage}, \hyperpage{112}
+    \subitem {getDirection}, \hyperpage{113}
+    \subitem {getGoblinType}, \hyperpage{113}
+    \subitem {getHealth}, \hyperpage{113}
+    \subitem {getMaxHealth}, \hyperpage{113}
+    \subitem {Goblin}, \hyperpage{110}
+    \subitem {GOBLIN\_HARD}, \hyperpage{119}
+    \subitem {GOBLIN\_NOOB}, \hyperpage{119}
+    \subitem {gravity}, \hyperpage{119}
+    \subitem {health}, \hyperpage{120}
+    \subitem {HURT}, \hyperpage{120}
+    \subitem {IDLE}, \hyperpage{120}
+    \subitem {inAir}, \hyperpage{120}
+    \subitem {initPatrolBoundaries}, \hyperpage{114}
+    \subitem {isActive}, \hyperpage{114}, \hyperpage{120}
+    \subitem {isMoving}, \hyperpage{120}
+    \subitem {jumpSpeed}, \hyperpage{121}
+    \subitem {leftPatrolLimit}, \hyperpage{121}
+    \subitem {levelData}, \hyperpage{121}
+    \subitem {makeBoss}, \hyperpage{114}
+    \subitem {maxHealth}, \hyperpage{121}
+    \subitem {moveSpeed}, \hyperpage{121}
+    \subitem {patrolBoundariesSet}, \hyperpage{121}
+    \subitem {patrolDistance}, \hyperpage{122}
+    \subitem {patrolMoveSpeed}, \hyperpage{122}
+    \subitem {playerDetected}, \hyperpage{114}, \hyperpage{122}
+    \subitem {playerTouchCooldown}, \hyperpage{122}
+    \subitem {rightPatrolLimit}, \hyperpage{122}
+    \subitem {RUNNING}, \hyperpage{122}
+    \subitem {setLevelData}, \hyperpage{115}
+    \subitem {setState}, \hyperpage{115}
+    \subitem {takeDamage}, \hyperpage{115}
+    \subitem {ticksInState}, \hyperpage{123}
+    \subitem {touchDamageCooldown}, \hyperpage{123}
+    \subitem {update}, \hyperpage{115}
+    \subitem {updateAttackBox}, \hyperpage{116}
+    \subitem {updateBehavior}, \hyperpage{116}
+    \subitem {updateCooldowns}, \hyperpage{116}
+    \subitem {updatePosition}, \hyperpage{116}
+    \subitem {willLandOnGround}, \hyperpage{117}
+  \item {entities.GoblinBoss}, \hyperpage{123}
+    \subitem {actionCooldown}, \hyperpage{136}
+    \subitem {actionTimer}, \hyperpage{136}
+    \subitem {animations}, \hyperpage{136}
+    \subitem {applyGravity}, \hyperpage{128}
+    \subitem {applyMeleeDamage}, \hyperpage{128}
+    \subitem {ATTACK\_COOLDOWN\_MAX}, \hyperpage{136}
+    \subitem {attackCheckFrame}, \hyperpage{136}
+    \subitem {attackDamageAppliedThisAttack}, \hyperpage{136}
+    \subitem {attackDamageBoss}, \hyperpage{137}
+    \subitem {BOSS\_SCALE\_FACTOR}, \hyperpage{137}
+    \subitem {calculateBossHitboxHeight}, \hyperpage{129}
+    \subitem {calculateBossHitboxWidth}, \hyperpage{129}
+    \subitem {currentActionState}, \hyperpage{137}
+    \subitem {currentHealthBoss}, \hyperpage{137}
+    \subitem {currentMeleeHitbox}, \hyperpage{137}
+    \subitem {decideIdleAction}, \hyperpage{129}
+    \subitem {decideNextAction}, \hyperpage{129}
+    \subitem {detectionRange}, \hyperpage{137}
+    \subitem {direction}, \hyperpage{138}
+    \subitem {DRAW\_HEIGHT}, \hyperpage{138}
+    \subitem {DRAW\_WIDTH}, \hyperpage{138}
+    \subitem {flipImage}, \hyperpage{130}
+    \subitem {flippedAnimations}, \hyperpage{138}
+    \subitem {getAttackDamage}, \hyperpage{130}
+    \subitem {getCurrentHealth}, \hyperpage{130}
+    \subitem {getDistance}, \hyperpage{130}
+    \subitem {getMaxHealth}, \hyperpage{131}
+    \subitem {GoblinBoss}, \hyperpage{128}
+    \subitem {handleRepositionMovementLogic}, \hyperpage{131}
+    \subitem {handleStateMachine}, \hyperpage{131}
+    \subitem {IDLE\_DURATION\_MAX}, \hyperpage{138}
+    \subitem {IDLE\_DURATION\_MIN}, \hyperpage{138}
+    \subitem {initiateMeleeAttack}, \hyperpage{132}
+    \subitem {initiateReposition}, \hyperpage{132}
+    \subitem {initiateRunSlashAttack}, \hyperpage{132}
+    \subitem {initiateSlideReposition}, \hyperpage{132}
+    \subitem {initiateWalkReposition}, \hyperpage{132}
+    \subitem {isAlive}, \hyperpage{133}
+    \subitem {isPerformingAction}, \hyperpage{139}
+    \subitem {levelData}, \hyperpage{139}
+    \subitem {loadAnimations}, \hyperpage{133}
+    \subitem {maxHealthBoss}, \hyperpage{139}
+    \subitem {meleeAttackRange}, \hyperpage{139}
+    \subitem {moveTowardsPlayer}, \hyperpage{133}
+    \subitem {playerDetected}, \hyperpage{139}
+    \subitem {playing}, \hyperpage{139}
+    \subitem {PREPARE\_ATTACK\_DURATION}, \hyperpage{140}
+    \subitem {render}, \hyperpage{133}
+    \subitem {REPOSITION\_COOLDOWN\_MAX}, \hyperpage{140}
+    \subitem {runSpeed}, \hyperpage{140}
+    \subitem {setBossAnimation}, \hyperpage{134}
+    \subitem {setLevelData}, \hyperpage{134}
+    \subitem {sightRange}, \hyperpage{140}
+    \subitem {slideSpeed}, \hyperpage{140}
+    \subitem {takeDamage}, \hyperpage{134}
+    \subitem {targetX}, \hyperpage{140}
+    \subitem {update}, \hyperpage{135}
+    \subitem {updateCurrentMeleeHitbox}, \hyperpage{135}
+    \subitem {updateHitbox}, \hyperpage{135}
+    \subitem {updatePlayerDetection}, \hyperpage{135}
+    \subitem {walkSpeed}, \hyperpage{141}
+    \subitem {xDrawOffset}, \hyperpage{141}
+    \subitem {yDrawOffset}, \hyperpage{141}
+  \item {entities.GoblinBoss.ActionState}, \hyperpage{15}
+    \subitem {ATTACKING\_MELEE}, \hyperpage{15}
+    \subitem {ATTACKING\_RUN\_SLASH}, \hyperpage{15}
+    \subitem {CHASING}, \hyperpage{16}
+    \subitem {DETECTED}, \hyperpage{16}
+    \subitem {DYING}, \hyperpage{16}
+    \subitem {HURT}, \hyperpage{16}
+    \subitem {IDLE}, \hyperpage{16}
+    \subitem {PREPARING\_ATTACK}, \hyperpage{16}
+    \subitem {REPOSITIONING\_SLIDE}, \hyperpage{16}
+    \subitem {REPOSITIONING\_WALK}, \hyperpage{16}
+  \item {entities.GolemBoss}, \hyperpage{142}
+    \subitem {actionCooldown}, \hyperpage{154}
+    \subitem {actionTimer}, \hyperpage{154}
+    \subitem {animations}, \hyperpage{154}
+    \subitem {applyGravity}, \hyperpage{147}
+    \subitem {applyMeleeDamage}, \hyperpage{147}
+    \subitem {ATTACK\_COOLDOWN\_MAX}, \hyperpage{155}
+    \subitem {attackCheckFrame}, \hyperpage{155}
+    \subitem {attackDamageAppliedThisAttack}, \hyperpage{155}
+    \subitem {attackDamageBoss}, \hyperpage{155}
+    \subitem {BOSS\_SCALE\_FACTOR}, \hyperpage{155}
+    \subitem {calculateBossHitboxHeight}, \hyperpage{147}
+    \subitem {calculateBossHitboxWidth}, \hyperpage{147}
+    \subitem {currentActionState}, \hyperpage{155}
+    \subitem {currentHealthBoss}, \hyperpage{156}
+    \subitem {currentMeleeHitbox}, \hyperpage{156}
+    \subitem {decideIdleAction}, \hyperpage{148}
+    \subitem {decideNextAction}, \hyperpage{148}
+    \subitem {detectionRange}, \hyperpage{156}
+    \subitem {direction}, \hyperpage{156}
+    \subitem {DRAW\_HEIGHT}, \hyperpage{156}
+    \subitem {DRAW\_WIDTH}, \hyperpage{156}
+    \subitem {flipImage}, \hyperpage{148}
+    \subitem {flippedAnimations}, \hyperpage{157}
+    \subitem {getAttackDamage}, \hyperpage{149}
+    \subitem {getCurrentHealth}, \hyperpage{149}
+    \subitem {getDistance}, \hyperpage{149}
+    \subitem {getMaxHealth}, \hyperpage{149}
+    \subitem {GolemBoss}, \hyperpage{146}
+    \subitem {handleStateMachine}, \hyperpage{150}
+    \subitem {IDLE\_DURATION\_MAX}, \hyperpage{157}
+    \subitem {IDLE\_DURATION\_MIN}, \hyperpage{157}
+    \subitem {initiateMeleeAttack}, \hyperpage{150}
+    \subitem {isAlive}, \hyperpage{150}
+    \subitem {isPerformingAction}, \hyperpage{157}
+    \subitem {levelData}, \hyperpage{157}
+    \subitem {loadAnimations}, \hyperpage{150}
+    \subitem {maxHealthBoss}, \hyperpage{157}
+    \subitem {meleeAttackRange}, \hyperpage{158}
+    \subitem {moveTowardsPlayer}, \hyperpage{151}
+    \subitem {playerDetected}, \hyperpage{158}
+    \subitem {playing}, \hyperpage{158}
+    \subitem {PREPARE\_ATTACK\_DURATION}, \hyperpage{158}
+    \subitem {render}, \hyperpage{151}
+    \subitem {runSpeed}, \hyperpage{158}
+    \subitem {setBossAnimation}, \hyperpage{151}
+    \subitem {setLevelData}, \hyperpage{153}
+    \subitem {sightRange}, \hyperpage{158}
+    \subitem {takeDamage}, \hyperpage{153}
+    \subitem {update}, \hyperpage{153}
+    \subitem {updateCurrentMeleeHitbox}, \hyperpage{154}
+    \subitem {updateHitbox}, \hyperpage{154}
+    \subitem {updatePlayerDetection}, \hyperpage{154}
+    \subitem {walkSpeed}, \hyperpage{159}
+    \subitem {xDrawOffset}, \hyperpage{159}
+    \subitem {yDrawOffset}, \hyperpage{159}
+  \item {entities.GolemBoss.ActionState}, \hyperpage{17}
+    \subitem {ATTACKING\_MELEE}, \hyperpage{17}
+    \subitem {CHASING}, \hyperpage{17}
+    \subitem {DETECTED}, \hyperpage{17}
+    \subitem {DYING}, \hyperpage{18}
+    \subitem {HURT}, \hyperpage{18}
+    \subitem {IDLE}, \hyperpage{18}
+    \subitem {PREPARING\_ATTACK}, \hyperpage{18}
+    \subitem {WALKING\_TOWARDS\_PLAYER}, \hyperpage{18}
+  \item {entities.Karagor}, \hyperpage{177}
+    \subitem {airSpeed}, \hyperpage{196}
+    \subitem {animationIndex}, \hyperpage{196}
+    \subitem {animations}, \hyperpage{196}
+    \subitem {animationSpeed}, \hyperpage{196}
+    \subitem {animationTick}, \hyperpage{196}
+    \subitem {attack}, \hyperpage{196}
+    \subitem {ATTACK\_COOLDOWN}, \hyperpage{197}
+    \subitem {attackCooldown}, \hyperpage{197}
+    \subitem {attackDamage}, \hyperpage{197}
+    \subitem {crouch}, \hyperpage{197}
+    \subitem {currentHealth}, \hyperpage{197}
+    \subitem {detectionRange}, \hyperpage{197}
+    \subitem {down}, \hyperpage{198}
+    \subitem {drawHitbox}, \hyperpage{198}
+    \subitem {facingRight}, \hyperpage{198}
+    \subitem {fallSpeedAfterCollision}, \hyperpage{198}
+    \subitem {flippedAnimations}, \hyperpage{198}
+    \subitem {getAttackDamage}, \hyperpage{183}
+    \subitem {getAttackHitbox}, \hyperpage{183}
+    \subitem {getCurrentHealth}, \hyperpage{183}
+    \subitem {getMaxHealth}, \hyperpage{183}
+    \subitem {gravity}, \hyperpage{198}
+    \subitem {hasHit}, \hyperpage{184}, \hyperpage{199}
+    \subitem {heal}, \hyperpage{184}
+    \subitem {HURT\_ANIMATION\_DURATION}, \hyperpage{199}
+    \subitem {hurtTimer}, \hyperpage{199}
+    \subitem {inAir}, \hyperpage{199}
+    \subitem {isAlive}, \hyperpage{184}
+    \subitem {isAttack}, \hyperpage{185}
+    \subitem {isAttacking}, \hyperpage{185}, \hyperpage{199}
+    \subitem {isBoss}, \hyperpage{199}
+    \subitem {isCrouch}, \hyperpage{185}
+    \subitem {isDown}, \hyperpage{185}
+    \subitem {isHurt}, \hyperpage{200}
+    \subitem {isJump}, \hyperpage{186}
+    \subitem {isLanding}, \hyperpage{200}
+    \subitem {isLeft}, \hyperpage{186}
+    \subitem {isPunching}, \hyperpage{200}
+    \subitem {isRight}, \hyperpage{186}
+    \subitem {isTransitioning}, \hyperpage{200}
+    \subitem {isUp}, \hyperpage{186}
+    \subitem {jump}, \hyperpage{187}, \hyperpage{200}
+    \subitem {jumpSpeed}, \hyperpage{200}
+    \subitem {Karagor}, \hyperpage{182}
+    \subitem {karagorAction}, \hyperpage{201}
+    \subitem {karagorDirection}, \hyperpage{201}
+    \subitem {landingFrame}, \hyperpage{201}
+    \subitem {left}, \hyperpage{201}
+    \subitem {levelData}, \hyperpage{201}
+    \subitem {loadAnimations}, \hyperpage{187}
+    \subitem {loadLevelData}, \hyperpage{187}
+    \subitem {maxHealth}, \hyperpage{201}
+    \subitem {moving}, \hyperpage{202}
+    \subitem {performAttack}, \hyperpage{188}
+    \subitem {platformLeftBound}, \hyperpage{202}
+    \subitem {platformRightBound}, \hyperpage{202}
+    \subitem {playerSpeed}, \hyperpage{202}
+    \subitem {render}, \hyperpage{188}
+    \subitem {resetAnimationTick}, \hyperpage{188}
+    \subitem {resetDirBooleans}, \hyperpage{188}
+    \subitem {resetHealth}, \hyperpage{188}
+    \subitem {resetInAir}, \hyperpage{189}
+    \subitem {right}, \hyperpage{202}
+    \subitem {setAnimation}, \hyperpage{189}
+    \subitem {setAttack}, \hyperpage{189}
+    \subitem {setCrouch}, \hyperpage{189}
+    \subitem {setDown}, \hyperpage{190}
+    \subitem {setHasHit}, \hyperpage{190}
+    \subitem {setJump}, \hyperpage{190}
+    \subitem {setLeft}, \hyperpage{191}
+    \subitem {setLevelData}, \hyperpage{191}
+    \subitem {setPlatformBounds}, \hyperpage{191}
+    \subitem {setRight}, \hyperpage{193}
+    \subitem {setUp}, \hyperpage{193}
+    \subitem {takeDamage}, \hyperpage{193}
+    \subitem {up}, \hyperpage{202}
+    \subitem {update}, \hyperpage{194}
+    \subitem {updateAnimationTick}, \hyperpage{194}
+    \subitem {updateGravity}, \hyperpage{194}
+    \subitem {updateHurtState}, \hyperpage{194}
+    \subitem {updatePlayerPosition}, \hyperpage{195}
+    \subitem {updatePos}, \hyperpage{195}
+    \subitem {updateXPos}, \hyperpage{195}
+    \subitem {wasCrouchPressed}, \hyperpage{203}
+    \subitem {xDrawOffset}, \hyperpage{203}
+    \subitem {yDrawOffset}, \hyperpage{203}
+  \item {entities.Nanite}, \hyperpage{293}
+    \subitem {airSpeed}, \hyperpage{303}
+    \subitem {ATTACK}, \hyperpage{303}
+    \subitem {ATTACK\_COOLDOWN\_MAX}, \hyperpage{303}
+    \subitem {attackBox}, \hyperpage{303}
+    \subitem {attackChecked}, \hyperpage{304}
+    \subitem {attackCooldown}, \hyperpage{304}
+    \subitem {attackRange}, \hyperpage{304}
+    \subitem {canAttackPlayer}, \hyperpage{297}
+    \subitem {canSeePlayer}, \hyperpage{297}
+    \subitem {chaseMoveSpeed}, \hyperpage{304}
+    \subitem {checkAttackHit}, \hyperpage{298}
+    \subitem {checkPlayerHit}, \hyperpage{298}
+    \subitem {damage}, \hyperpage{304}
+    \subitem {detectionRange}, \hyperpage{304}
+    \subitem {direction}, \hyperpage{305}
+    \subitem {DYING}, \hyperpage{305}
+    \subitem {getAttackBox}, \hyperpage{298}
+    \subitem {getDamage}, \hyperpage{298}
+    \subitem {getDirection}, \hyperpage{299}
+    \subitem {getHealth}, \hyperpage{299}
+    \subitem {getMaxHealth}, \hyperpage{299}
+    \subitem {gravity}, \hyperpage{305}
+    \subitem {health}, \hyperpage{305}
+    \subitem {HURT}, \hyperpage{305}
+    \subitem {IDLE}, \hyperpage{305}
+    \subitem {inAir}, \hyperpage{306}
+    \subitem {initPatrolBoundaries}, \hyperpage{299}
+    \subitem {isActive}, \hyperpage{300}, \hyperpage{306}
+    \subitem {isMoving}, \hyperpage{306}
+    \subitem {jumpSpeed}, \hyperpage{306}
+    \subitem {leftPatrolLimit}, \hyperpage{306}
+    \subitem {levelData}, \hyperpage{306}
+    \subitem {makeBoss}, \hyperpage{300}
+    \subitem {maxHealth}, \hyperpage{307}
+    \subitem {moveSpeed}, \hyperpage{307}
+    \subitem {Nanite}, \hyperpage{296}
+    \subitem {NANITE\_JUNGLA}, \hyperpage{307}
+    \subitem {NANITE\_PESTERA}, \hyperpage{307}
+    \subitem {patrolBoundariesSet}, \hyperpage{307}
+    \subitem {patrolDistance}, \hyperpage{307}
+    \subitem {patrolMoveSpeed}, \hyperpage{308}
+    \subitem {playerDetected}, \hyperpage{300}, \hyperpage{308}
+    \subitem {playerTouchCooldown}, \hyperpage{308}
+    \subitem {rightPatrolLimit}, \hyperpage{308}
+    \subitem {RUNNING}, \hyperpage{308}
+    \subitem {setLevelData}, \hyperpage{301}
+    \subitem {setState}, \hyperpage{301}
+    \subitem {takeDamage}, \hyperpage{301}
+    \subitem {ticksInState}, \hyperpage{308}
+    \subitem {touchDamageCooldown}, \hyperpage{309}
+    \subitem {update}, \hyperpage{301}
+    \subitem {updateAttackBox}, \hyperpage{302}
+    \subitem {updateBehavior}, \hyperpage{302}
+    \subitem {updateCooldowns}, \hyperpage{302}
+    \subitem {updatePosition}, \hyperpage{302}
+    \subitem {willLandOnGround}, \hyperpage{302}
+  \item {entities.Player}, \hyperpage{320}
+    \subitem {activateCrystalRush}, \hyperpage{323}
+    \subitem {airSpeed}, \hyperpage{333}
+    \subitem {animations}, \hyperpage{333}
+    \subitem {animationTick}, \hyperpage{334}
+    \subitem {applyKnockback}, \hyperpage{323}
+    \subitem {attackDamage}, \hyperpage{334}
+    \subitem {canSpawnProjectileAndConsume}, \hyperpage{324}
+    \subitem {collectBananaEffect}, \hyperpage{324}
+    \subitem {collectCoconutEffect}, \hyperpage{324}
+    \subitem {crouch}, \hyperpage{334}
+    \subitem {CRYSTAL\_RUSH\_COOLDOWN\_DURATION}, \hyperpage{334}
+    \subitem {CRYSTAL\_RUSH\_DURATION}, \hyperpage{334}
+    \subitem {crystalRushAnimations}, \hyperpage{334}
+    \subitem {crystalRushCooldownTimer}, \hyperpage{334}
+    \subitem {crystalRushTimer}, \hyperpage{334}
+    \subitem {crystalRushUnlocked}, \hyperpage{335}
+    \subitem {currentHealth}, \hyperpage{335}
+    \subitem {DAMAGE\_FLASH\_DURATION}, \hyperpage{335}
+    \subitem {damageFlashTimer}, \hyperpage{335}
+    \subitem {down}, \hyperpage{335}
+    \subitem {facingRight}, \hyperpage{335}
+    \subitem {fallSpeedAfterCollision}, \hyperpage{335}
+    \subitem {flippedAnimations}, \hyperpage{335}
+    \subitem {flippedCrystalRushAnimations}, \hyperpage{336}
+    \subitem {getAnimationIndex}, \hyperpage{324}
+    \subitem {getAttackDamage}, \hyperpage{324}
+    \subitem {getAttackHitbox}, \hyperpage{324}
+    \subitem {getCurrentHealth}, \hyperpage{324}
+    \subitem {getJumpSlamHitbox}, \hyperpage{325}
+    \subitem {getMaxHealth}, \hyperpage{325}
+    \subitem {getWhackHitbox}, \hyperpage{325}
+    \subitem {getWhackIndex}, \hyperpage{325}
+    \subitem {gravity}, \hyperpage{336}
+    \subitem {hasHit}, \hyperpage{325}, \hyperpage{336}
+    \subitem {hasThrown}, \hyperpage{336}
+    \subitem {heal}, \hyperpage{325}
+    \subitem {inAir}, \hyperpage{336}
+    \subitem {isAlive}, \hyperpage{325}
+    \subitem {isAttack}, \hyperpage{326}
+    \subitem {isCrouch}, \hyperpage{326}
+    \subitem {isCrystalRushActive}, \hyperpage{326}, \hyperpage{336}
+    \subitem {isCrystalRushUnlocked}, \hyperpage{326}
+    \subitem {isDamaged}, \hyperpage{326}, \hyperpage{336}
+    \subitem {isDown}, \hyperpage{326}
+    \subitem {isFacingRight}, \hyperpage{326}
+    \subitem {isJump}, \hyperpage{327}
+    \subitem {isJumpSlamming}, \hyperpage{327}, \hyperpage{337}
+    \subitem {isLanding}, \hyperpage{337}
+    \subitem {isLeft}, \hyperpage{327}
+    \subitem {isPunching}, \hyperpage{327}, \hyperpage{337}
+    \subitem {isRight}, \hyperpage{327}
+    \subitem {isThrowing}, \hyperpage{327}, \hyperpage{337}
+    \subitem {isTransitioning}, \hyperpage{337}
+    \subitem {isUp}, \hyperpage{327}
+    \subitem {isWhacking}, \hyperpage{328}, \hyperpage{337}
+    \subitem {jump}, \hyperpage{328}, \hyperpage{337}
+    \subitem {JUMP\_SLAM\_COOLDOWN\_DURATION}, \hyperpage{338}
+    \subitem {JUMP\_SLAM\_DASH\_SPEED}, \hyperpage{338}
+    \subitem {jumpSlamCooldownTimer}, \hyperpage{338}
+    \subitem {jumpSlamTick}, \hyperpage{338}
+    \subitem {jumpSlamUnlocked}, \hyperpage{338}
+    \subitem {jumpSpeed}, \hyperpage{338}
+    \subitem {KNOCKBACK\_DURATION}, \hyperpage{338}
+    \subitem {knockbackDuration}, \hyperpage{339}
+    \subitem {knockbackX}, \hyperpage{339}
+    \subitem {knockbackY}, \hyperpage{339}
+    \subitem {landingFrame}, \hyperpage{339}
+    \subitem {left}, \hyperpage{339}
+    \subitem {levelData}, \hyperpage{339}
+    \subitem {loadAnimations}, \hyperpage{328}
+    \subitem {loadLevelData}, \hyperpage{328}
+    \subitem {maxHealth}, \hyperpage{339}
+    \subitem {moving}, \hyperpage{339}
+    \subitem {originalPlayerSpeed}, \hyperpage{340}
+    \subitem {permanentAttackDamageBonus}, \hyperpage{340}
+    \subitem {permanentMaxHpBonus}, \hyperpage{340}
+    \subitem {Player}, \hyperpage{323}
+    \subitem {playerAction}, \hyperpage{340}
+    \subitem {playerDirection}, \hyperpage{340}
+    \subitem {playerSpeed}, \hyperpage{340}
+    \subitem {punchTick}, \hyperpage{340}
+    \subitem {render}, \hyperpage{328}
+    \subitem {resetAnimationTick}, \hyperpage{328}
+    \subitem {resetDirBooleans}, \hyperpage{329}
+    \subitem {resetHealth}, \hyperpage{329}
+    \subitem {resetInAir}, \hyperpage{329}
+    \subitem {resetToStartPosition}, \hyperpage{329}
+    \subitem {right}, \hyperpage{340}
+    \subitem {setAnimation}, \hyperpage{329}
+    \subitem {setAttack}, \hyperpage{329}
+    \subitem {setCrouch}, \hyperpage{330}
+    \subitem {setCurrentHealth}, \hyperpage{330}
+    \subitem {setDown}, \hyperpage{330}
+    \subitem {setHasHit}, \hyperpage{330}
+    \subitem {setJump}, \hyperpage{330}
+    \subitem {setJumpSlamAttack}, \hyperpage{330}
+    \subitem {setJumpSlamUnlocked}, \hyperpage{331}
+    \subitem {setLeft}, \hyperpage{331}
+    \subitem {setPosition}, \hyperpage{331}
+    \subitem {setRight}, \hyperpage{331}
+    \subitem {setThrowAttack}, \hyperpage{331}
+    \subitem {setUp}, \hyperpage{331}
+    \subitem {setWhackAttack}, \hyperpage{332}
+    \subitem {takeDamage}, \hyperpage{332}
+    \subitem {throwTick}, \hyperpage{341}
+    \subitem {unlockCrystalRush}, \hyperpage{332}
+    \subitem {up}, \hyperpage{341}
+    \subitem {update}, \hyperpage{332}
+    \subitem {updateAnimationTick}, \hyperpage{332}
+    \subitem {updateDamageEffect}, \hyperpage{332}
+    \subitem {updateGravity}, \hyperpage{333}
+    \subitem {updateKnockback}, \hyperpage{333}
+    \subitem {updatePos}, \hyperpage{333}
+    \subitem {updateXPos}, \hyperpage{333}
+    \subitem {wasCrouchPressed}, \hyperpage{341}
+    \subitem {WHACK\_COOLDOWN\_DURATION}, \hyperpage{341}
+    \subitem {whackCooldownTimer}, \hyperpage{341}
+    \subitem {whackTick}, \hyperpage{341}
+    \subitem {xDrawOffset}, \hyperpage{341}
+    \subitem {yDrawOffset}, \hyperpage{341}
+  \item {entities.Projectile}, \hyperpage{366}
+    \subitem {active}, \hyperpage{371}
+    \subitem {damage}, \hyperpage{371}
+    \subitem {direction}, \hyperpage{371}
+    \subitem {draw}, \hyperpage{369}
+    \subitem {getDamage}, \hyperpage{370}
+    \subitem {getHitbox}, \hyperpage{370}
+    \subitem {img}, \hyperpage{371}
+    \subitem {isActive}, \hyperpage{370}
+    \subitem {Projectile}, \hyperpage{367}, \hyperpage{369}
+    \subitem {setActive}, \hyperpage{370}
+    \subitem {speed}, \hyperpage{372}
+    \subitem {update}, \hyperpage{371}
+  \item {Entity}
+    \subitem {entities.Entity}, \hyperpage{71}
+  \item {errorMessage}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{67}
+  \item {existingCoconuts}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{67}
+  \item {existingHealth}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{67}
+  \item {existingLevel}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{67}
+  \item {existingPosX}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{67}
+  \item {existingPosY}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{68}
+  \item {existingScore}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{68}
+
+  \indexspace
+
+  \item {facingRight}
+    \subitem {entities.Karagor}, \hyperpage{198}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {FALLING\_DOWN}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{40}
+  \item {fallSpeedAfterCollision}
+    \subitem {entities.Karagor}, \hyperpage{198}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {fillColor}
+    \subitem {ui.ProgressBar}, \hyperpage{365}
+  \item {flipImage}
+    \subitem {entities.GoblinBoss}, \hyperpage{130}
+    \subitem {entities.GolemBoss}, \hyperpage{148}
+  \item {flippedAnimations}
+    \subitem {entities.GoblinBoss}, \hyperpage{138}
+    \subitem {entities.GolemBoss}, \hyperpage{157}
+    \subitem {entities.Karagor}, \hyperpage{198}
+    \subitem {entities.Player}, \hyperpage{335}
+  \item {flippedCrystalRushAnimations}
+    \subitem {entities.Player}, \hyperpage{336}
+  \item {floatAmplitude}
+    \subitem {entities.Banana}, \hyperpage{22}
+    \subitem {entities.Coconut}, \hyperpage{28}
+    \subitem {entities.Gem}, \hyperpage{104}
+  \item {floatAngle}
+    \subitem {entities.Banana}, \hyperpage{23}
+    \subitem {entities.Coconut}, \hyperpage{29}
+    \subitem {entities.Gem}, \hyperpage{104}
+  \item {floatSpeed}
+    \subitem {entities.Banana}, \hyperpage{23}
+    \subitem {entities.Coconut}, \hyperpage{29}
+    \subitem {entities.Gem}, \hyperpage{104}
+  \item {FPS\_SET}
+    \subitem {main.Game}, \hyperpage{80}
+  \item {FRAME\_LOADGAME}
+    \subitem {utilz.LoadSave}, \hyperpage{267}
+  \item {frameCount}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{41}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{164}
+  \item {frameImg}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{68}
+  \item {frameX}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{68}
+
+  \indexspace
+
+  \item {Game}
+    \subitem {main.Game}, \hyperpage{77}
+  \item {game}
+    \subitem {gamestates.State}, \hyperpage{376}
+    \subitem {levels.LevelManager}, \hyperpage{251}
+    \subitem {main.GamePanel}, \hyperpage{95}
+  \item {GAME\_HEIGHT}
+    \subitem {main.Game}, \hyperpage{80}
+  \item {GAME\_UI}
+    \subitem {utilz.LoadSave}, \hyperpage{267}
+  \item {GAME\_WIDTH}
+    \subitem {main.Game}, \hyperpage{81}
+  \item {gameOver}
+    \subitem {gamestates.Playing}, \hyperpage{358}
+  \item {GameOverOverlay}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{85}
+  \item {gameOverOverlay}
+    \subitem {gamestates.Playing}, \hyperpage{358}
+  \item {GamePanel}
+    \subitem {main.GamePanel}, \hyperpage{94}
+  \item {gamePanel}
+    \subitem {inputs.KeyboardInputs}, \hyperpage{206}
+    \subitem {inputs.MouseInputs}, \hyperpage{292}
+    \subitem {main.Game}, \hyperpage{81}
+  \item {gamestates}, \hyperpage{12}
+  \item {gamestates.EnterNameOverlay}, \hyperpage{60}
+    \subitem {airstrikeFont}, \hyperpage{66}
+    \subitem {closeButtonBounds}, \hyperpage{67}
+    \subitem {DB\_FILE}, \hyperpage{67}
+    \subitem {draw}, \hyperpage{62}
+    \subitem {EnterNameOverlay}, \hyperpage{62}
+    \subitem {errorMessage}, \hyperpage{67}
+    \subitem {existingCoconuts}, \hyperpage{67}
+    \subitem {existingHealth}, \hyperpage{67}
+    \subitem {existingLevel}, \hyperpage{67}
+    \subitem {existingPosX}, \hyperpage{67}
+    \subitem {existingPosY}, \hyperpage{68}
+    \subitem {existingScore}, \hyperpage{68}
+    \subitem {frameImg}, \hyperpage{68}
+    \subitem {frameX}, \hyperpage{68}
+    \subitem {inputActive}, \hyperpage{68}
+    \subitem {keyPressed}, \hyperpage{63}
+    \subitem {keyReleased}, \hyperpage{63}
+    \subitem {loadButtons}, \hyperpage{63}
+    \subitem {loadCustomFont}, \hyperpage{64}
+    \subitem {loadFrame}, \hyperpage{64}
+    \subitem {loadStartImg}, \hyperpage{64}
+    \subitem {MAX\_NAME\_LENGTH}, \hyperpage{68}
+    \subitem {mouseClicked}, \hyperpage{64}
+    \subitem {mouseDragged}, \hyperpage{64}
+    \subitem {mouseMoved}, \hyperpage{65}
+    \subitem {mousePressed}, \hyperpage{65}
+    \subitem {mouseReleased}, \hyperpage{65}
+    \subitem {noButton}, \hyperpage{68}
+    \subitem {previousState}, \hyperpage{69}
+    \subitem {processUsername}, \hyperpage{66}
+    \subitem {showLoadPrompt}, \hyperpage{69}
+    \subitem {startbgImg}, \hyperpage{69}
+    \subitem {startbgX}, \hyperpage{69}
+    \subitem {startButton}, \hyperpage{69}
+    \subitem {update}, \hyperpage{66}
+    \subitem {username}, \hyperpage{69}
+    \subitem {yesButton}, \hyperpage{69}
+  \item {gamestates.GameOverOverlay}, \hyperpage{83}
+    \subitem {backButtonBounds}, \hyperpage{90}
+    \subitem {backgroundImg}, \hyperpage{91}
+    \subitem {bgX}, \hyperpage{91}
+    \subitem {DB\_FILE}, \hyperpage{91}
+    \subitem {draw}, \hyperpage{86}
+    \subitem {drawBackButton}, \hyperpage{86}
+    \subitem {drawRetryButton}, \hyperpage{86}
+    \subitem {GameOverOverlay}, \hyperpage{85}
+    \subitem {keyPressed}, \hyperpage{88}
+    \subitem {keyReleased}, \hyperpage{88}
+    \subitem {loadBackground}, \hyperpage{88}
+    \subitem {loadCustomFont}, \hyperpage{88}
+    \subitem {mouseClicked}, \hyperpage{89}
+    \subitem {mouseDragged}, \hyperpage{89}
+    \subitem {mouseMoved}, \hyperpage{89}
+    \subitem {mousePressed}, \hyperpage{90}
+    \subitem {mouseReleased}, \hyperpage{90}
+    \subitem {overlayFont}, \hyperpage{91}
+    \subitem {playing}, \hyperpage{91}
+    \subitem {retryButtonBounds}, \hyperpage{91}
+    \subitem {update}, \hyperpage{90}
+  \item {gamestates.Gamestate}, \hyperpage{96}
+    \subitem {ENTER\_NAME}, \hyperpage{97}
+    \subitem {LEADERBOARD}, \hyperpage{97}
+    \subitem {LOADGAME}, \hyperpage{97}
+    \subitem {MENU}, \hyperpage{98}
+    \subitem {OPTIONS}, \hyperpage{98}
+    \subitem {PLAYING}, \hyperpage{98}
+    \subitem {QUIT}, \hyperpage{98}
+    \subitem {state}, \hyperpage{98}
+  \item {gamestates.Leaderboard}, \hyperpage{207}
+    \subitem {airstrikeFont}, \hyperpage{215}
+    \subitem {backButtonBounds}, \hyperpage{215}
+    \subitem {backgroundImg}, \hyperpage{215}
+    \subitem {boxSpacing}, \hyperpage{215}
+    \subitem {buffer}, \hyperpage{215}
+    \subitem {dateFormat}, \hyperpage{216}
+    \subitem {DB\_FILE}, \hyperpage{216}
+    \subitem {draw}, \hyperpage{210}
+    \subitem {drawBackButton}, \hyperpage{211}
+    \subitem {grooverImg}, \hyperpage{216}
+    \subitem {keyPressed}, \hyperpage{211}
+    \subitem {keyReleased}, \hyperpage{212}
+    \subitem {knobImg}, \hyperpage{216}
+    \subitem {Leaderboard}, \hyperpage{210}
+    \subitem {leaderboardData}, \hyperpage{216}
+    \subitem {loadBackground}, \hyperpage{212}
+    \subitem {loadCustomFont}, \hyperpage{212}
+    \subitem {loadStartImg}, \hyperpage{212}
+    \subitem {mainMenuButtonBounds}, \hyperpage{216}
+    \subitem {menuX}, \hyperpage{216}
+    \subitem {mouseClicked}, \hyperpage{212}
+    \subitem {mouseDragged}, \hyperpage{213}
+    \subitem {mouseMoved}, \hyperpage{213}
+    \subitem {mousePressed}, \hyperpage{213}
+    \subitem {mouseReleased}, \hyperpage{214}
+    \subitem {mouseWheelMoved}, \hyperpage{214}
+    \subitem {needsRedraw}, \hyperpage{217}
+    \subitem {playerBoxImg}, \hyperpage{217}
+    \subitem {previousState}, \hyperpage{217}
+    \subitem {refreshLeaderboardData}, \hyperpage{214}
+    \subitem {scrollOffset}, \hyperpage{217}
+    \subitem {setPreviousState}, \hyperpage{214}
+    \subitem {startbgImg}, \hyperpage{217}
+    \subitem {startbgX}, \hyperpage{217}
+    \subitem {update}, \hyperpage{215}
+    \subitem {visibleAreaHeight}, \hyperpage{217}
+  \item {gamestates.LevelFinishedOverlay}, \hyperpage{238}
+    \subitem {backgroundImg}, \hyperpage{245}
+    \subitem {bgX}, \hyperpage{245}
+    \subitem {DB\_FILE}, \hyperpage{245}
+    \subitem {draw}, \hyperpage{241}
+    \subitem {keyPressed}, \hyperpage{241}
+    \subitem {keyReleased}, \hyperpage{241}
+    \subitem {LevelFinishedOverlay}, \hyperpage{240}
+    \subitem {loadBackground}, \hyperpage{243}
+    \subitem {loadButtons}, \hyperpage{243}
+    \subitem {loadCustomFont}, \hyperpage{243}
+    \subitem {menuButtonBounds}, \hyperpage{245}
+    \subitem {mouseClicked}, \hyperpage{243}
+    \subitem {mouseDragged}, \hyperpage{243}
+    \subitem {mouseMoved}, \hyperpage{244}
+    \subitem {mousePressed}, \hyperpage{244}
+    \subitem {mouseReleased}, \hyperpage{244}
+    \subitem {nextLevelButtonBounds}, \hyperpage{246}
+    \subitem {overlayFont}, \hyperpage{246}
+    \subitem {playing}, \hyperpage{246}
+    \subitem {update}, \hyperpage{245}
+  \item {gamestates.Loadgame}, \hyperpage{255}
+    \subitem {backButtonBounds}, \hyperpage{262}
+    \subitem {backgroundImg}, \hyperpage{262}
+    \subitem {buttons}, \hyperpage{262}
+    \subitem {draw}, \hyperpage{257}
+    \subitem {drawBackButton}, \hyperpage{257}
+    \subitem {keyPressed}, \hyperpage{258}
+    \subitem {keyReleased}, \hyperpage{258}
+    \subitem {levelButton}, \hyperpage{262}
+    \subitem {loadBackground}, \hyperpage{258}
+    \subitem {loadButtons}, \hyperpage{259}
+    \subitem {Loadgame}, \hyperpage{257}
+    \subitem {loadLevel}, \hyperpage{259}
+    \subitem {loadLevelButtons}, \hyperpage{259}
+    \subitem {loadStartImg}, \hyperpage{259}
+    \subitem {menuX}, \hyperpage{262}
+    \subitem {mouseClicked}, \hyperpage{259}
+    \subitem {mouseDragged}, \hyperpage{260}
+    \subitem {mouseMoved}, \hyperpage{260}
+    \subitem {mousePressed}, \hyperpage{260}
+    \subitem {mouseReleased}, \hyperpage{261}
+    \subitem {previousState}, \hyperpage{263}
+    \subitem {resetButtons}, \hyperpage{261}
+    \subitem {setPreviousState}, \hyperpage{261}
+    \subitem {startbgImg}, \hyperpage{263}
+    \subitem {startbgX}, \hyperpage{263}
+    \subitem {update}, \hyperpage{262}
+  \item {gamestates.Menu}, \hyperpage{273}
+    \subitem {backButtonBounds}, \hyperpage{280}
+    \subitem {backgroundImg}, \hyperpage{280}
+    \subitem {buttons}, \hyperpage{280}
+    \subitem {draw}, \hyperpage{276}
+    \subitem {drawBackButton}, \hyperpage{276}
+    \subitem {getPlayerName}, \hyperpage{276}
+    \subitem {keyPressed}, \hyperpage{277}
+    \subitem {keyReleased}, \hyperpage{277}
+    \subitem {loadBackground}, \hyperpage{277}
+    \subitem {loadButtons}, \hyperpage{277}
+    \subitem {loadStartImg}, \hyperpage{277}
+    \subitem {Menu}, \hyperpage{275}
+    \subitem {menuX}, \hyperpage{280}
+    \subitem {mouseClicked}, \hyperpage{278}
+    \subitem {mouseDragged}, \hyperpage{278}
+    \subitem {mouseMoved}, \hyperpage{278}
+    \subitem {mousePressed}, \hyperpage{279}
+    \subitem {mouseReleased}, \hyperpage{279}
+    \subitem {playerName}, \hyperpage{280}
+    \subitem {previousState}, \hyperpage{281}
+    \subitem {resetButtons}, \hyperpage{279}
+    \subitem {setPlayerName}, \hyperpage{279}
+    \subitem {startbgImg}, \hyperpage{281}
+    \subitem {startbgX}, \hyperpage{281}
+    \subitem {update}, \hyperpage{280}
+  \item {gamestates.Options}, \hyperpage{309}
+    \subitem {airstrikeFont}, \hyperpage{317}
+    \subitem {backgroundImg}, \hyperpage{317}
+    \subitem {buffer}, \hyperpage{317}
+    \subitem {draw}, \hyperpage{312}
+    \subitem {getMusicVolume}, \hyperpage{313}
+    \subitem {getSfxVolume}, \hyperpage{313}
+    \subitem {grooverImg}, \hyperpage{317}
+    \subitem {keyPressed}, \hyperpage{313}
+    \subitem {keyReleased}, \hyperpage{313}
+    \subitem {knobImg}, \hyperpage{318}
+    \subitem {loadBackground}, \hyperpage{314}
+    \subitem {loadCustomFont}, \hyperpage{314}
+    \subitem {loadSliderImages}, \hyperpage{314}
+    \subitem {loadStartImg}, \hyperpage{314}
+    \subitem {mainMenuButtonBounds}, \hyperpage{318}
+    \subitem {menuX}, \hyperpage{318}
+    \subitem {mouseClicked}, \hyperpage{314}
+    \subitem {mouseDragged}, \hyperpage{315}
+    \subitem {mouseMoved}, \hyperpage{315}
+    \subitem {mousePressed}, \hyperpage{315}
+    \subitem {mouseReleased}, \hyperpage{316}
+    \subitem {musicSliderBounds}, \hyperpage{318}
+    \subitem {musicSliderDragging}, \hyperpage{318}
+    \subitem {musicValue}, \hyperpage{318}
+    \subitem {needsRedraw}, \hyperpage{318}
+    \subitem {Options}, \hyperpage{312}
+    \subitem {previousState}, \hyperpage{319}
+    \subitem {setPreviousState}, \hyperpage{316}
+    \subitem {sfxSliderBounds}, \hyperpage{319}
+    \subitem {sfxSliderDragging}, \hyperpage{319}
+    \subitem {sfxValue}, \hyperpage{319}
+    \subitem {startbgImg}, \hyperpage{319}
+    \subitem {startbgX}, \hyperpage{319}
+    \subitem {update}, \hyperpage{316}
+    \subitem {updateMusicValue}, \hyperpage{316}
+    \subitem {updateSfxValue}, \hyperpage{317}
+  \item {gamestates.Playing}, \hyperpage{342}
+    \subitem {advanceToNextLevel}, \hyperpage{347}
+    \subitem {airstrikeFont}, \hyperpage{356}
+    \subitem {backButtonBounds}, \hyperpage{356}
+    \subitem {checkBananaCollision}, \hyperpage{347}
+    \subitem {checkCloseToBorder}, \hyperpage{347}
+    \subitem {checkCoconutCollision}, \hyperpage{347}
+    \subitem {checkGemCollision}, \hyperpage{347}
+    \subitem {checkPlayerAttackHits}, \hyperpage{347}
+    \subitem {checkPlayerThrow}, \hyperpage{348}
+    \subitem {coconutIcon}, \hyperpage{357}
+    \subitem {crystalIcon}, \hyperpage{357}
+    \subitem {currentCoconuts}, \hyperpage{357}
+    \subitem {currentLevel}, \hyperpage{357}
+    \subitem {currentScore}, \hyperpage{357}
+    \subitem {draw}, \hyperpage{348}
+    \subitem {drawBackButton}, \hyperpage{348}
+    \subitem {drawBananas}, \hyperpage{348}
+    \subitem {drawCoconuts}, \hyperpage{348}
+    \subitem {drawHUD}, \hyperpage{349}
+    \subitem {elapsedSeconds}, \hyperpage{357}
+    \subitem {enemyManager}, \hyperpage{357}
+    \subitem {gameOver}, \hyperpage{358}
+    \subitem {gameOverOverlay}, \hyperpage{358}
+    \subitem {gameUI}, \hyperpage{358}
+    \subitem {getCurrentCoconuts}, \hyperpage{349}
+    \subitem {getCurrentScore}, \hyperpage{349}
+    \subitem {getElapsedSeconds}, \hyperpage{349}
+    \subitem {getEnemyManager}, \hyperpage{349}
+    \subitem {getLevelManager}, \hyperpage{350}
+    \subitem {getPlayer}, \hyperpage{350}
+    \subitem {getPlayerName}, \hyperpage{350}
+    \subitem {getUsername}, \hyperpage{350}
+    \subitem {initClasses}, \hyperpage{350}
+    \subitem {keyPressed}, \hyperpage{351}
+    \subitem {keyReleased}, \hyperpage{351}
+    \subitem {leftBorder}, \hyperpage{358}
+    \subitem {levelFinished}, \hyperpage{358}
+    \subitem {levelFinishedOverlay}, \hyperpage{358}
+    \subitem {levelManager}, \hyperpage{358}
+    \subitem {levelStartTime}, \hyperpage{359}
+    \subitem {loadCustomFont}, \hyperpage{351}
+    \subitem {lvlTilesWide}, \hyperpage{359}
+    \subitem {maxLvlOffsetX}, \hyperpage{359}
+    \subitem {maxTilesOffset}, \hyperpage{359}
+    \subitem {mouseClicked}, \hyperpage{351}
+    \subitem {mouseDragged}, \hyperpage{352}
+    \subitem {mouseMoved}, \hyperpage{352}
+    \subitem {mousePressed}, \hyperpage{352}
+    \subitem {mouseReleased}, \hyperpage{353}
+    \subitem {paused}, \hyperpage{359}
+    \subitem {player}, \hyperpage{359}
+    \subitem {playerName}, \hyperpage{359}
+    \subitem {Playing}, \hyperpage{346}
+    \subitem {previousState}, \hyperpage{360}
+    \subitem {resetAll}, \hyperpage{353}
+    \subitem {rightBorder}, \hyperpage{360}
+    \subitem {setCurrentCoconuts}, \hyperpage{353}
+    \subitem {setCurrentScore}, \hyperpage{354}
+    \subitem {setGameOver}, \hyperpage{354}
+    \subitem {setLevelFinished}, \hyperpage{354}
+    \subitem {setPlayerName}, \hyperpage{354}
+    \subitem {setPreviousState}, \hyperpage{354}
+    \subitem {setTimer}, \hyperpage{355}
+    \subitem {setUsername}, \hyperpage{355}
+    \subitem {showGameOverOverlay}, \hyperpage{355}
+    \subitem {showLevelFinishedOverlay}, \hyperpage{355}
+    \subitem {timerStarted}, \hyperpage{360}
+    \subitem {update}, \hyperpage{355}
+    \subitem {updateBananas}, \hyperpage{356}
+    \subitem {updateCoconuts}, \hyperpage{356}
+    \subitem {username}, \hyperpage{360}
+    \subitem {windowFocusLost}, \hyperpage{356}
+    \subitem {xLvlOffset}, \hyperpage{360}
+  \item {gamestates.State}, \hyperpage{372}
+    \subitem {backButtonBounds}, \hyperpage{376}
+    \subitem {drawBackButton}, \hyperpage{374}
+    \subitem {game}, \hyperpage{376}
+    \subitem {getGame}, \hyperpage{375}
+    \subitem {isBackButtonPressed}, \hyperpage{375}
+    \subitem {isIn}, \hyperpage{375, 376}
+    \subitem {showDebugHitbox}, \hyperpage{377}
+    \subitem {State}, \hyperpage{374}
+  \item {gamestates.Statemethods}, \hyperpage{377}
+    \subitem {draw}, \hyperpage{378}
+    \subitem {keyPressed}, \hyperpage{378}
+    \subitem {keyReleased}, \hyperpage{379}
+    \subitem {mouseClicked}, \hyperpage{379}
+    \subitem {mouseDragged}, \hyperpage{379}
+    \subitem {mouseMoved}, \hyperpage{380}
+    \subitem {mousePressed}, \hyperpage{380}
+    \subitem {mouseReleased}, \hyperpage{380}
+    \subitem {update}, \hyperpage{381}
+  \item {gameThread}
+    \subitem {main.Game}, \hyperpage{81}
+  \item {gameUI}
+    \subitem {gamestates.Playing}, \hyperpage{358}
+  \item {GameWindow}
+    \subitem {main.GameWindow}, \hyperpage{99}
+  \item {gameWindow}
+    \subitem {main.Game}, \hyperpage{81}
+  \item {Gem}
+    \subitem {entities.Gem}, \hyperpage{102}
+  \item {gems}
+    \subitem {entities.EnemyManager}, \hyperpage{57}
+  \item {getAniIndex}
+    \subitem {entities.Enemy}, \hyperpage{34}
+  \item {getAnimationIndex}
+    \subitem {entities.Player}, \hyperpage{324}
+  \item {getAttackBox}
+    \subitem {entities.Goblin}, \hyperpage{112}
+    \subitem {entities.Nanite}, \hyperpage{298}
+  \item {getAttackDamage}
+    \subitem {entities.GoblinBoss}, \hyperpage{130}
+    \subitem {entities.GolemBoss}, \hyperpage{149}
+    \subitem {entities.Karagor}, \hyperpage{183}
+    \subitem {entities.Player}, \hyperpage{324}
+  \item {getAttackHitbox}
+    \subitem {entities.Karagor}, \hyperpage{183}
+    \subitem {entities.Player}, \hyperpage{324}
+  \item {getBackgroundPath}
+    \subitem {levels.LevelFactory}, \hyperpage{233}
+  \item {getBananas}
+    \subitem {levels.Level}, \hyperpage{221}
+  \item {getBounds}
+    \subitem {ui.LevelButton}, \hyperpage{227}
+    \subitem {ui.MenuButton}, \hyperpage{284}
+  \item {getCoconuts}
+    \subitem {levels.Level}, \hyperpage{221}
+  \item {getConnection}
+    \subitem {database.InsertGet}, \hyperpage{174}
+  \item {getCurrentCoconuts}
+    \subitem {gamestates.Playing}, \hyperpage{349}
+  \item {getCurrentHealth}
+    \subitem {entities.GoblinBoss}, \hyperpage{130}
+    \subitem {entities.GolemBoss}, \hyperpage{149}
+    \subitem {entities.Karagor}, \hyperpage{183}
+    \subitem {entities.Player}, \hyperpage{324}
+  \item {getCurrentLevel}
+    \subitem {entities.EnemyManager}, \hyperpage{52}
+    \subitem {levels.LevelManager}, \hyperpage{249}
+  \item {getCurrentLevelNumber}
+    \subitem {levels.LevelManager}, \hyperpage{249}
+  \item {getCurrentScore}
+    \subitem {gamestates.Playing}, \hyperpage{349}
+  \item {getDamage}
+    \subitem {entities.Goblin}, \hyperpage{112}
+    \subitem {entities.Nanite}, \hyperpage{298}
+    \subitem {entities.Projectile}, \hyperpage{370}
+  \item {getDirection}
+    \subitem {entities.Goblin}, \hyperpage{113}
+    \subitem {entities.Nanite}, \hyperpage{299}
+  \item {getDistance}
+    \subitem {entities.GoblinBoss}, \hyperpage{130}
+    \subitem {entities.GolemBoss}, \hyperpage{149}
+  \item {getElapsedSeconds}
+    \subitem {gamestates.Playing}, \hyperpage{349}
+  \item {getEnemyManager}
+    \subitem {gamestates.Playing}, \hyperpage{349}
+  \item {getEnemyState}
+    \subitem {entities.Enemy}, \hyperpage{34}
+  \item {getEnemyType}
+    \subitem {entities.Enemy}, \hyperpage{34}
+  \item {getEnterNameOverlay}
+    \subitem {main.Game}, \hyperpage{77}
+  \item {getEntityXPosNextToWall}
+    \subitem {utilz.HelpMethods}, \hyperpage{170}
+  \item {getEntityYPosUnderRoofOrAboveFloor}
+    \subitem {utilz.HelpMethods}, \hyperpage{170}
+  \item {getFrameCount}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{40}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{162}
+  \item {getGame}
+    \subitem {gamestates.State}, \hyperpage{375}
+    \subitem {main.GamePanel}, \hyperpage{94}
+  \item {getGems}
+    \subitem {entities.EnemyManager}, \hyperpage{52}
+  \item {getGoblinBosses}
+    \subitem {entities.EnemyManager}, \hyperpage{53}
+  \item {getGoblins}
+    \subitem {entities.EnemyManager}, \hyperpage{53}
+  \item {getGoblinType}
+    \subitem {entities.Goblin}, \hyperpage{113}
+  \item {getGolemBosses}
+    \subitem {entities.EnemyManager}, \hyperpage{53}
+  \item {getHealth}
+    \subitem {entities.Goblin}, \hyperpage{113}
+    \subitem {entities.Nanite}, \hyperpage{299}
+  \item {getHitbox}
+    \subitem {entities.Enemy}, \hyperpage{35}
+    \subitem {entities.Entity}, \hyperpage{72}
+    \subitem {entities.Gem}, \hyperpage{103}
+    \subitem {entities.Projectile}, \hyperpage{370}
+  \item {getJumpSlamHitbox}
+    \subitem {entities.Player}, \hyperpage{325}
+  \item {getKaragors}
+    \subitem {entities.EnemyManager}, \hyperpage{53}
+  \item {getLeaderboard}
+    \subitem {main.Game}, \hyperpage{77}
+  \item {getLevelAtlasPath}
+    \subitem {levels.LevelFactory}, \hyperpage{233}
+  \item {getLevelData}
+    \subitem {levels.Level}, \hyperpage{221}
+    \subitem {utilz.LoadSave}, \hyperpage{265}
+  \item {getLevelId}
+    \subitem {levels.Level}, \hyperpage{221}
+  \item {getLevelManager}
+    \subitem {gamestates.Playing}, \hyperpage{350}
+  \item {getLevelOffset}
+    \subitem {levels.Level}, \hyperpage{221}
+  \item {getLoadgame}
+    \subitem {main.Game}, \hyperpage{77}
+  \item {getMaxHealth}
+    \subitem {entities.Goblin}, \hyperpage{113}
+    \subitem {entities.GoblinBoss}, \hyperpage{131}
+    \subitem {entities.GolemBoss}, \hyperpage{149}
+    \subitem {entities.Karagor}, \hyperpage{183}
+    \subitem {entities.Nanite}, \hyperpage{299}
+    \subitem {entities.Player}, \hyperpage{325}
+  \item {getMaxLevelOffsetX}
+    \subitem {levels.Level}, \hyperpage{222}
+  \item {getMenu}
+    \subitem {main.Game}, \hyperpage{78}
+  \item {getMusicVolume}
+    \subitem {gamestates.Options}, \hyperpage{313}
+  \item {getNanites}
+    \subitem {entities.EnemyManager}, \hyperpage{54}
+  \item {getOptions}
+    \subitem {main.Game}, \hyperpage{78}
+  \item {getPlayer}
+    \subitem {gamestates.Playing}, \hyperpage{350}
+  \item {getPlayerList}
+    \subitem {database.InsertGet}, \hyperpage{174}
+  \item {getPlayerName}
+    \subitem {gamestates.Menu}, \hyperpage{276}
+    \subitem {gamestates.Playing}, \hyperpage{350}
+  \item {getPlaying}
+    \subitem {main.Game}, \hyperpage{78}
+  \item {getProgress}
+    \subitem {ui.ProgressBar}, \hyperpage{363}
+  \item {getRowIndex}
+    \subitem {ui.LevelButton}, \hyperpage{227}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{40}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{162}
+  \item {getSessionUsername}
+    \subitem {main.Game}, \hyperpage{78}
+  \item {getSfxVolume}
+    \subitem {gamestates.Options}, \hyperpage{313}
+  \item {getSpriteAtlas}
+    \subitem {utilz.LoadSave}, \hyperpage{266}
+  \item {getSpriteIndex}
+    \subitem {levels.Level}, \hyperpage{222}
+  \item {getState}
+    \subitem {ui.MenuButton}, \hyperpage{284}
+  \item {getTilesetCols}
+    \subitem {levels.LevelFactory}, \hyperpage{234}
+  \item {getTilesetRows}
+    \subitem {levels.LevelFactory}, \hyperpage{234}
+  \item {getTileSize}
+    \subitem {levels.LevelFactory}, \hyperpage{234}
+  \item {getUsername}
+    \subitem {gamestates.Playing}, \hyperpage{350}
+  \item {getWhackHitbox}
+    \subitem {entities.Player}, \hyperpage{325}
+  \item {getWhackIndex}
+    \subitem {entities.Player}, \hyperpage{325}
+  \item {Goblin}
+    \subitem {entities.Goblin}, \hyperpage{110}
+  \item {GOBLIN\_BOSS\_SPRITESHEET}
+    \subitem {utilz.LoadSave}, \hyperpage{268}
+  \item {GOBLIN\_HARD}
+    \subitem {entities.Goblin}, \hyperpage{119}
+  \item {GOBLIN\_HARD\_SPRITESHEET}
+    \subitem {utilz.LoadSave}, \hyperpage{268}
+  \item {GOBLIN\_NOOB}
+    \subitem {entities.Goblin}, \hyperpage{119}
+  \item {GOBLIN\_NOOB\_SPRITESHEET}
+    \subitem {utilz.LoadSave}, \hyperpage{268}
+  \item {GoblinBoss}
+    \subitem {entities.GoblinBoss}, \hyperpage{128}
+  \item {goblinBosses}
+    \subitem {entities.EnemyManager}, \hyperpage{57}
+  \item {goblinHardImgs}
+    \subitem {entities.EnemyManager}, \hyperpage{57}
+  \item {goblinNoobImgs}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+  \item {goblins}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+  \item {GOLEM\_BOSS\_SPRITESHEET}
+    \subitem {utilz.LoadSave}, \hyperpage{268}
+  \item {GolemBoss}
+    \subitem {entities.GolemBoss}, \hyperpage{146}
+  \item {golemBosses}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+  \item {Gorilla\_Animation\_rows}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{161, 162}
+  \item {gravity}
+    \subitem {entities.Goblin}, \hyperpage{119}
+    \subitem {entities.Karagor}, \hyperpage{198}
+    \subitem {entities.Nanite}, \hyperpage{305}
+    \subitem {entities.Player}, \hyperpage{336}
+  \item {GREEN\_GEM}
+    \subitem {utilz.LoadSave}, \hyperpage{268}
+  \item {grooverImg}
+    \subitem {gamestates.Leaderboard}, \hyperpage{216}
+    \subitem {gamestates.Options}, \hyperpage{317}
+    \subitem {ui.ProgressBar}, \hyperpage{365}
+
+  \indexspace
+
+  \item {handleRepositionMovementLogic}
+    \subitem {entities.GoblinBoss}, \hyperpage{131}
+  \item {handleStateMachine}
+    \subitem {entities.GoblinBoss}, \hyperpage{131}
+    \subitem {entities.GolemBoss}, \hyperpage{150}
+  \item {hasHit}
+    \subitem {entities.Karagor}, \hyperpage{184}, \hyperpage{199}
+    \subitem {entities.Player}, \hyperpage{325}, \hyperpage{336}
+  \item {hasThrown}
+    \subitem {entities.Player}, \hyperpage{336}
+  \item {heal}
+    \subitem {entities.Karagor}, \hyperpage{184}
+    \subitem {entities.Player}, \hyperpage{325}
+  \item {health}
+    \subitem {entities.Goblin}, \hyperpage{120}
+    \subitem {entities.Nanite}, \hyperpage{305}
+    \subitem {utilz.LevelProgress}, \hyperpage{253}
+  \item {height}
+    \subitem {entities.Entity}, \hyperpage{73}
+  \item {hitbox}
+    \subitem {entities.Entity}, \hyperpage{73}
+    \subitem {entities.Gem}, \hyperpage{104}
+  \item {HURT}
+    \subitem {entities.Goblin}, \hyperpage{120}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{18}
+    \subitem {entities.Nanite}, \hyperpage{305}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{41}
+  \item {HURT\_ANIMATION\_DURATION}
+    \subitem {entities.Karagor}, \hyperpage{199}
+  \item {HURT\_CROUCHED}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{164}
+  \item {HURT\_STANDING}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{164}
+  \item {hurtTimer}
+    \subitem {entities.Karagor}, \hyperpage{199}
+
+  \indexspace
+
+  \item {IDLE}
+    \subitem {entities.Goblin}, \hyperpage{120}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{18}
+    \subitem {entities.Nanite}, \hyperpage{305}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{41}
+  \item {IDLE\_CROUCHED}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{164}
+  \item {IDLE\_DURATION\_MAX}
+    \subitem {entities.GoblinBoss}, \hyperpage{138}
+    \subitem {entities.GolemBoss}, \hyperpage{157}
+  \item {IDLE\_DURATION\_MIN}
+    \subitem {entities.GoblinBoss}, \hyperpage{138}
+    \subitem {entities.GolemBoss}, \hyperpage{157}
+  \item {IDLE\_NO\_BLINK}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{41}
+  \item {IDLE\_STANDING}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{165}
+  \item {image}
+    \subitem {entities.Banana}, \hyperpage{23}
+    \subitem {entities.Coconut}, \hyperpage{29}
+    \subitem {entities.Gem}, \hyperpage{104}
+  \item {img}
+    \subitem {entities.Projectile}, \hyperpage{371}
+  \item {imgs}
+    \subitem {ui.LevelButton}, \hyperpage{230}
+    \subitem {ui.MenuButton}, \hyperpage{286}
+  \item {importBackgroundForLevel}
+    \subitem {levels.LevelManager}, \hyperpage{249}
+  \item {importSpritesForLevel}
+    \subitem {levels.LevelManager}, \hyperpage{250}
+  \item {inAir}
+    \subitem {entities.Goblin}, \hyperpage{120}
+    \subitem {entities.Karagor}, \hyperpage{199}
+    \subitem {entities.Nanite}, \hyperpage{306}
+    \subitem {entities.Player}, \hyperpage{336}
+  \item {index}
+    \subitem {ui.LevelButton}, \hyperpage{230}
+    \subitem {ui.MenuButton}, \hyperpage{286}
+  \item {initBounds}
+    \subitem {ui.LevelButton}, \hyperpage{228}
+    \subitem {ui.MenuButton}, \hyperpage{284}
+  \item {initClasses}
+    \subitem {gamestates.Playing}, \hyperpage{350}
+    \subitem {main.Game}, \hyperpage{78}
+  \item {initHitbox}
+    \subitem {entities.Entity}, \hyperpage{72}
+  \item {initiateMeleeAttack}
+    \subitem {entities.GoblinBoss}, \hyperpage{132}
+    \subitem {entities.GolemBoss}, \hyperpage{150}
+  \item {initiateReposition}
+    \subitem {entities.GoblinBoss}, \hyperpage{132}
+  \item {initiateRunSlashAttack}
+    \subitem {entities.GoblinBoss}, \hyperpage{132}
+  \item {initiateSlideReposition}
+    \subitem {entities.GoblinBoss}, \hyperpage{132}
+  \item {initiateWalkReposition}
+    \subitem {entities.GoblinBoss}, \hyperpage{132}
+  \item {initPatrolBoundaries}
+    \subitem {entities.Goblin}, \hyperpage{114}
+    \subitem {entities.Nanite}, \hyperpage{299}
+  \item {inputActive}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{68}
+  \item {inputs}, \hyperpage{12}
+  \item {inputs.KeyboardInputs}, \hyperpage{204}
+    \subitem {gamePanel}, \hyperpage{206}
+    \subitem {KeyboardInputs}, \hyperpage{205}
+    \subitem {keyPressed}, \hyperpage{205}
+    \subitem {keyReleased}, \hyperpage{206}
+    \subitem {keyTyped}, \hyperpage{206}
+  \item {inputs.MouseInputs}, \hyperpage{288}
+    \subitem {gamePanel}, \hyperpage{292}
+    \subitem {mouseClicked}, \hyperpage{290}
+    \subitem {mouseDragged}, \hyperpage{290}
+    \subitem {mouseEntered}, \hyperpage{290}
+    \subitem {mouseExited}, \hyperpage{291}
+    \subitem {MouseInputs}, \hyperpage{289}
+    \subitem {mouseMoved}, \hyperpage{291}
+    \subitem {mousePressed}, \hyperpage{291}
+    \subitem {mouseReleased}, \hyperpage{292}
+    \subitem {mouseWheelMoved}, \hyperpage{292}
+  \item {isActive}
+    \subitem {entities.Banana}, \hyperpage{21}
+    \subitem {entities.Coconut}, \hyperpage{27}
+    \subitem {entities.Enemy}, \hyperpage{35}, \hyperpage{37}
+    \subitem {entities.Gem}, \hyperpage{103}
+    \subitem {entities.Goblin}, \hyperpage{114}, \hyperpage{120}
+    \subitem {entities.Nanite}, \hyperpage{300}, \hyperpage{306}
+    \subitem {entities.Projectile}, \hyperpage{370}
+  \item {isAlive}
+    \subitem {entities.GoblinBoss}, \hyperpage{133}
+    \subitem {entities.GolemBoss}, \hyperpage{150}
+    \subitem {entities.Karagor}, \hyperpage{184}
+    \subitem {entities.Player}, \hyperpage{325}
+  \item {isAttack}
+    \subitem {entities.Karagor}, \hyperpage{185}
+    \subitem {entities.Player}, \hyperpage{326}
+  \item {isAttacking}
+    \subitem {entities.Karagor}, \hyperpage{185}, \hyperpage{199}
+  \item {isBackButtonPressed}
+    \subitem {gamestates.State}, \hyperpage{375}
+  \item {isBoss}
+    \subitem {entities.Karagor}, \hyperpage{199}
+  \item {isCrouch}
+    \subitem {entities.Karagor}, \hyperpage{185}
+    \subitem {entities.Player}, \hyperpage{326}
+  \item {isCrystalRushActive}
+    \subitem {entities.Player}, \hyperpage{326}, \hyperpage{336}
+  \item {isCrystalRushUnlocked}
+    \subitem {entities.Player}, \hyperpage{326}
+  \item {isDamaged}
+    \subitem {entities.Player}, \hyperpage{326}, \hyperpage{336}
+  \item {isDown}
+    \subitem {entities.Karagor}, \hyperpage{185}
+    \subitem {entities.Player}, \hyperpage{326}
+  \item {isEntityOnCeiling}
+    \subitem {utilz.HelpMethods}, \hyperpage{170}
+  \item {isEntityOnFloor}
+    \subitem {utilz.HelpMethods}, \hyperpage{171}
+  \item {isEntityOnWall}
+    \subitem {utilz.HelpMethods}, \hyperpage{171}
+  \item {isFacingRight}
+    \subitem {entities.Player}, \hyperpage{326}
+  \item {isHurt}
+    \subitem {entities.Karagor}, \hyperpage{200}
+  \item {isIn}
+    \subitem {gamestates.State}, \hyperpage{375, 376}
+  \item {isJump}
+    \subitem {entities.Karagor}, \hyperpage{186}
+    \subitem {entities.Player}, \hyperpage{327}
+  \item {isJumpSlamming}
+    \subitem {entities.Player}, \hyperpage{327}, \hyperpage{337}
+  \item {isLanding}
+    \subitem {entities.Karagor}, \hyperpage{200}
+    \subitem {entities.Player}, \hyperpage{337}
+  \item {isLeft}
+    \subitem {entities.Karagor}, \hyperpage{186}
+    \subitem {entities.Player}, \hyperpage{327}
+  \item {isMouseOver}
+    \subitem {ui.LevelButton}, \hyperpage{228}
+    \subitem {ui.MenuButton}, \hyperpage{284}
+  \item {isMousePressed}
+    \subitem {ui.LevelButton}, \hyperpage{228}
+    \subitem {ui.MenuButton}, \hyperpage{285}
+  \item {isMoving}
+    \subitem {entities.Goblin}, \hyperpage{120}
+    \subitem {entities.Nanite}, \hyperpage{306}
+  \item {isPerformingAction}
+    \subitem {entities.GoblinBoss}, \hyperpage{139}
+    \subitem {entities.GolemBoss}, \hyperpage{157}
+  \item {isPunching}
+    \subitem {entities.Karagor}, \hyperpage{200}
+    \subitem {entities.Player}, \hyperpage{327}, \hyperpage{337}
+  \item {isRight}
+    \subitem {entities.Karagor}, \hyperpage{186}
+    \subitem {entities.Player}, \hyperpage{327}
+  \item {isSolid}
+    \subitem {utilz.HelpMethods}, \hyperpage{172}
+  \item {isThrowing}
+    \subitem {entities.Player}, \hyperpage{327}, \hyperpage{337}
+  \item {isTransitioning}
+    \subitem {entities.Karagor}, \hyperpage{200}
+    \subitem {entities.Player}, \hyperpage{337}
+  \item {isUp}
+    \subitem {entities.Karagor}, \hyperpage{186}
+    \subitem {entities.Player}, \hyperpage{327}
+  \item {isWhacking}
+    \subitem {entities.Player}, \hyperpage{328}, \hyperpage{337}
+
+  \indexspace
+
+  \item {jframe}
+    \subitem {main.GameWindow}, \hyperpage{100}
+  \item {jump}
+    \subitem {entities.Karagor}, \hyperpage{187}, \hyperpage{200}
+    \subitem {entities.Player}, \hyperpage{328}, \hyperpage{337}
+  \item {JUMP\_LOOP}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{41}
+  \item {JUMP\_SLAM\_COOLDOWN\_DURATION}
+    \subitem {entities.Player}, \hyperpage{338}
+  \item {JUMP\_SLAM\_DASH\_SPEED}
+    \subitem {entities.Player}, \hyperpage{338}
+  \item {JUMP\_STANDING}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{165}
+  \item {JUMP\_START}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{41}
+  \item {jumpSlamCooldownTimer}
+    \subitem {entities.Player}, \hyperpage{338}
+  \item {jumpSlamTick}
+    \subitem {entities.Player}, \hyperpage{338}
+  \item {jumpSlamUnlocked}
+    \subitem {entities.Player}, \hyperpage{338}
+  \item {jumpSpeed}
+    \subitem {entities.Goblin}, \hyperpage{121}
+    \subitem {entities.Karagor}, \hyperpage{200}
+    \subitem {entities.Nanite}, \hyperpage{306}
+    \subitem {entities.Player}, \hyperpage{338}
+
+  \indexspace
+
+  \item {Karagor}
+    \subitem {entities.Karagor}, \hyperpage{182}
+  \item {KARAGOR\_SPRITESHEET}
+    \subitem {utilz.LoadSave}, \hyperpage{268}
+  \item {karagorAction}
+    \subitem {entities.Karagor}, \hyperpage{201}
+  \item {karagorDirection}
+    \subitem {entities.Karagor}, \hyperpage{201}
+  \item {karagors}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+  \item {KeyboardInputs}
+    \subitem {inputs.KeyboardInputs}, \hyperpage{205}
+  \item {keyboardInputs}
+    \subitem {main.GamePanel}, \hyperpage{96}
+  \item {keyPressed}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{63}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{88}
+    \subitem {gamestates.Leaderboard}, \hyperpage{211}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{241}
+    \subitem {gamestates.Loadgame}, \hyperpage{258}
+    \subitem {gamestates.Menu}, \hyperpage{277}
+    \subitem {gamestates.Options}, \hyperpage{313}
+    \subitem {gamestates.Playing}, \hyperpage{351}
+    \subitem {gamestates.Statemethods}, \hyperpage{378}
+    \subitem {inputs.KeyboardInputs}, \hyperpage{205}
+  \item {keyReleased}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{63}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{88}
+    \subitem {gamestates.Leaderboard}, \hyperpage{212}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{241}
+    \subitem {gamestates.Loadgame}, \hyperpage{258}
+    \subitem {gamestates.Menu}, \hyperpage{277}
+    \subitem {gamestates.Options}, \hyperpage{313}
+    \subitem {gamestates.Playing}, \hyperpage{351}
+    \subitem {gamestates.Statemethods}, \hyperpage{379}
+    \subitem {inputs.KeyboardInputs}, \hyperpage{206}
+  \item {keyTyped}
+    \subitem {inputs.KeyboardInputs}, \hyperpage{206}
+  \item {KICKING}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{42}
+  \item {knobImg}
+    \subitem {gamestates.Leaderboard}, \hyperpage{216}
+    \subitem {gamestates.Options}, \hyperpage{318}
+  \item {KNOCKBACK\_DURATION}
+    \subitem {entities.Player}, \hyperpage{338}
+  \item {knockbackDuration}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {knockbackX}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {knockbackY}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {KOBA\_RUSH}
+    \subitem {utilz.LoadSave}, \hyperpage{269}
+
+  \indexspace
+
+  \item {landingFrame}
+    \subitem {entities.Karagor}, \hyperpage{201}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {LEADERBOARD}
+    \subitem {gamestates.Gamestate}, \hyperpage{97}
+  \item {Leaderboard}
+    \subitem {gamestates.Leaderboard}, \hyperpage{210}
+  \item {leaderboard}
+    \subitem {main.Game}, \hyperpage{81}
+  \item {leaderboardData}
+    \subitem {gamestates.Leaderboard}, \hyperpage{216}
+  \item {left}
+    \subitem {entities.Karagor}, \hyperpage{201}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {leftBorder}
+    \subitem {gamestates.Playing}, \hyperpage{358}
+  \item {leftPatrolLimit}
+    \subitem {entities.Goblin}, \hyperpage{121}
+    \subitem {entities.Nanite}, \hyperpage{306}
+  \item {Level}
+    \subitem {levels.Level}, \hyperpage{219, 220}
+  \item {LEVEL1\_ATLAS}
+    \subitem {utilz.LoadSave}, \hyperpage{269}
+  \item {LEVEL1\_BACKGROUND}
+    \subitem {utilz.LoadSave}, \hyperpage{269}
+  \item {LEVEL1\_COLS}
+    \subitem {levels.LevelFactory}, \hyperpage{236}
+  \item {LEVEL1\_DATA}
+    \subitem {utilz.LoadSave}, \hyperpage{269}
+  \item {LEVEL1\_ROWS}
+    \subitem {levels.LevelFactory}, \hyperpage{236}
+  \item {LEVEL1\_TILE\_SIZE}
+    \subitem {levels.LevelFactory}, \hyperpage{236}
+  \item {LEVEL2\_ATLAS}
+    \subitem {utilz.LoadSave}, \hyperpage{269}
+  \item {LEVEL2\_BACKGROUND}
+    \subitem {utilz.LoadSave}, \hyperpage{269}
+  \item {LEVEL2\_COLS}
+    \subitem {levels.LevelFactory}, \hyperpage{237}
+  \item {LEVEL2\_DATA}
+    \subitem {utilz.LoadSave}, \hyperpage{270}
+  \item {LEVEL2\_ROWS}
+    \subitem {levels.LevelFactory}, \hyperpage{237}
+  \item {LEVEL2\_TILE\_SIZE}
+    \subitem {levels.LevelFactory}, \hyperpage{237}
+  \item {LEVEL3\_ATLAS}
+    \subitem {utilz.LoadSave}, \hyperpage{270}
+  \item {LEVEL3\_BACKGROUND}
+    \subitem {utilz.LoadSave}, \hyperpage{270}
+  \item {LEVEL3\_COLS}
+    \subitem {levels.LevelFactory}, \hyperpage{237}
+  \item {LEVEL3\_DATA}
+    \subitem {utilz.LoadSave}, \hyperpage{270}
+  \item {LEVEL3\_ROWS}
+    \subitem {levels.LevelFactory}, \hyperpage{237}
+  \item {LEVEL3\_TILE\_SIZE}
+    \subitem {levels.LevelFactory}, \hyperpage{237}
+  \item {LEVEL\_BUTTONS}
+    \subitem {utilz.LoadSave}, \hyperpage{270}
+  \item {LevelButton}
+    \subitem {ui.LevelButton}, \hyperpage{226}
+  \item {levelButton}
+    \subitem {gamestates.Loadgame}, \hyperpage{262}
+  \item {levelData}
+    \subitem {entities.Banana}, \hyperpage{23}
+    \subitem {entities.Coconut}, \hyperpage{29}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+    \subitem {entities.Goblin}, \hyperpage{121}
+    \subitem {entities.GoblinBoss}, \hyperpage{139}
+    \subitem {entities.GolemBoss}, \hyperpage{157}
+    \subitem {entities.Karagor}, \hyperpage{201}
+    \subitem {entities.Nanite}, \hyperpage{306}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {levelFactory}
+    \subitem {levels.LevelManager}, \hyperpage{252}
+  \item {levelFinished}
+    \subitem {gamestates.Playing}, \hyperpage{358}
+  \item {LevelFinishedOverlay}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{240}
+  \item {levelFinishedOverlay}
+    \subitem {gamestates.Playing}, \hyperpage{358}
+  \item {levelId}
+    \subitem {entities.Gem}, \hyperpage{105}
+    \subitem {levels.Level}, \hyperpage{224}
+  \item {LevelManager}
+    \subitem {levels.LevelManager}, \hyperpage{248}
+  \item {levelManager}
+    \subitem {gamestates.Playing}, \hyperpage{358}
+  \item {levelOffset}
+    \subitem {levels.Level}, \hyperpage{224}
+  \item {LevelProgress}
+    \subitem {utilz.LevelProgress}, \hyperpage{253}
+  \item {levels}, \hyperpage{12}
+  \item {levels.Level}, \hyperpage{218}
+    \subitem {addBanana}, \hyperpage{220}
+    \subitem {addCoconut}, \hyperpage{220}
+    \subitem {bananas}, \hyperpage{224}
+    \subitem {coconuts}, \hyperpage{224}
+    \subitem {getBananas}, \hyperpage{221}
+    \subitem {getCoconuts}, \hyperpage{221}
+    \subitem {getLevelData}, \hyperpage{221}
+    \subitem {getLevelId}, \hyperpage{221}
+    \subitem {getLevelOffset}, \hyperpage{221}
+    \subitem {getMaxLevelOffsetX}, \hyperpage{222}
+    \subitem {getSpriteIndex}, \hyperpage{222}
+    \subitem {Level}, \hyperpage{219, 220}
+    \subitem {levelId}, \hyperpage{224}
+    \subitem {levelOffset}, \hyperpage{224}
+    \subitem {lvlData}, \hyperpage{224}
+    \subitem {maxLevelOffsetX}, \hyperpage{224}
+    \subitem {maxTilesOffset}, \hyperpage{225}
+    \subitem {setBananas}, \hyperpage{222}
+    \subitem {setCoconuts}, \hyperpage{223}
+    \subitem {setLevelId}, \hyperpage{223}
+    \subitem {update}, \hyperpage{223}
+  \item {levels.LevelFactory}, \hyperpage{231}
+    \subitem {createLevel}, \hyperpage{232}
+    \subitem {createLevel1}, \hyperpage{232}
+    \subitem {createLevel2}, \hyperpage{232}
+    \subitem {createLevel3}, \hyperpage{233}
+    \subitem {getBackgroundPath}, \hyperpage{233}
+    \subitem {getLevelAtlasPath}, \hyperpage{233}
+    \subitem {getTilesetCols}, \hyperpage{234}
+    \subitem {getTilesetRows}, \hyperpage{234}
+    \subitem {getTileSize}, \hyperpage{234}
+    \subitem {LEVEL1\_COLS}, \hyperpage{236}
+    \subitem {LEVEL1\_ROWS}, \hyperpage{236}
+    \subitem {LEVEL1\_TILE\_SIZE}, \hyperpage{236}
+    \subitem {LEVEL2\_COLS}, \hyperpage{237}
+    \subitem {LEVEL2\_ROWS}, \hyperpage{237}
+    \subitem {LEVEL2\_TILE\_SIZE}, \hyperpage{237}
+    \subitem {LEVEL3\_COLS}, \hyperpage{237}
+    \subitem {LEVEL3\_ROWS}, \hyperpage{237}
+    \subitem {LEVEL3\_TILE\_SIZE}, \hyperpage{237}
+    \subitem {preprocessEnemySpawnPoints}, \hyperpage{236}
+  \item {levels.LevelManager}, \hyperpage{246}
+    \subitem {backgroundImage}, \hyperpage{251}
+    \subitem {currentLevel}, \hyperpage{251}
+    \subitem {currentLevelNumber}, \hyperpage{251}
+    \subitem {draw}, \hyperpage{249}
+    \subitem {game}, \hyperpage{251}
+    \subitem {getCurrentLevel}, \hyperpage{249}
+    \subitem {getCurrentLevelNumber}, \hyperpage{249}
+    \subitem {importBackgroundForLevel}, \hyperpage{249}
+    \subitem {importSpritesForLevel}, \hyperpage{250}
+    \subitem {levelFactory}, \hyperpage{252}
+    \subitem {LevelManager}, \hyperpage{248}
+    \subitem {levelSprite}, \hyperpage{252}
+    \subitem {loadLevel}, \hyperpage{250}
+    \subitem {nextLevel}, \hyperpage{250}
+    \subitem {previousLevel}, \hyperpage{250}
+    \subitem {update}, \hyperpage{251}
+  \item {levelSprite}
+    \subitem {levels.LevelManager}, \hyperpage{252}
+  \item {levelStartTime}
+    \subitem {gamestates.Playing}, \hyperpage{359}
+  \item {loadAnimations}
+    \subitem {entities.GoblinBoss}, \hyperpage{133}
+    \subitem {entities.GolemBoss}, \hyperpage{150}
+    \subitem {entities.Karagor}, \hyperpage{187}
+    \subitem {entities.Player}, \hyperpage{328}
+  \item {loadBackground}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{88}
+    \subitem {gamestates.Leaderboard}, \hyperpage{212}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{243}
+    \subitem {gamestates.Loadgame}, \hyperpage{258}
+    \subitem {gamestates.Menu}, \hyperpage{277}
+    \subitem {gamestates.Options}, \hyperpage{314}
+  \item {loadButtons}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{63}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{243}
+    \subitem {gamestates.Loadgame}, \hyperpage{259}
+    \subitem {gamestates.Menu}, \hyperpage{277}
+  \item {LoadCoconutNumber}
+    \subitem {database.InsertGet}, \hyperpage{174}
+  \item {LoadCurrentHealth}
+    \subitem {database.InsertGet}, \hyperpage{175}
+  \item {loadCustomFont}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{64}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{88}
+    \subitem {gamestates.Leaderboard}, \hyperpage{212}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{243}
+    \subitem {gamestates.Options}, \hyperpage{314}
+    \subitem {gamestates.Playing}, \hyperpage{351}
+  \item {loadEnemiesFromLevelData}
+    \subitem {entities.EnemyManager}, \hyperpage{54}
+  \item {loadEnemyImgs}
+    \subitem {entities.EnemyManager}, \hyperpage{54}
+  \item {loadFrame}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{64}
+  \item {LOADGAME}
+    \subitem {gamestates.Gamestate}, \hyperpage{97}
+  \item {Loadgame}
+    \subitem {gamestates.Loadgame}, \hyperpage{257}
+  \item {loadgame}
+    \subitem {main.Game}, \hyperpage{81}
+  \item {loadImages}
+    \subitem {ui.ProgressBar}, \hyperpage{364}
+  \item {loadImgs}
+    \subitem {ui.LevelButton}, \hyperpage{228}
+    \subitem {ui.MenuButton}, \hyperpage{285}
+  \item {loadLevel}
+    \subitem {gamestates.Loadgame}, \hyperpage{259}
+    \subitem {levels.LevelManager}, \hyperpage{250}
+  \item {loadLevelButtons}
+    \subitem {gamestates.Loadgame}, \hyperpage{259}
+  \item {loadLevelData}
+    \subitem {database.InsertGet}, \hyperpage{175}
+    \subitem {entities.Karagor}, \hyperpage{187}
+    \subitem {entities.Player}, \hyperpage{328}
+  \item {LoadLevelIndex}
+    \subitem {database.InsertGet}, \hyperpage{175}
+  \item {LoadScore}
+    \subitem {database.InsertGet}, \hyperpage{175}
+  \item {loadSliderImages}
+    \subitem {gamestates.Options}, \hyperpage{314}
+  \item {loadSpriteSheet}
+    \subitem {entities.EnemyManager}, \hyperpage{54}
+  \item {loadStartImg}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{64}
+    \subitem {gamestates.Leaderboard}, \hyperpage{212}
+    \subitem {gamestates.Loadgame}, \hyperpage{259}
+    \subitem {gamestates.Menu}, \hyperpage{277}
+    \subitem {gamestates.Options}, \hyperpage{314}
+  \item {LoadTimer}
+    \subitem {database.InsertGet}, \hyperpage{175}
+  \item {LoadUsername}
+    \subitem {database.InsertGet}, \hyperpage{175}
+  \item {LoadXPosition}
+    \subitem {database.InsertGet}, \hyperpage{176}
+  \item {LoadYPosition}
+    \subitem {database.InsertGet}, \hyperpage{176}
+  \item {lvlData}
+    \subitem {levels.Level}, \hyperpage{224}
+  \item {lvlTilesWide}
+    \subitem {gamestates.Playing}, \hyperpage{359}
+
+  \indexspace
+
+  \item {main}, \hyperpage{13}
+    \subitem {main.Main}, \hyperpage{272}
+  \item {main.Game}, \hyperpage{74}
+    \subitem {enterNameOverlay}, \hyperpage{80}
+    \subitem {FPS\_SET}, \hyperpage{80}
+    \subitem {Game}, \hyperpage{77}
+    \subitem {GAME\_HEIGHT}, \hyperpage{80}
+    \subitem {GAME\_WIDTH}, \hyperpage{81}
+    \subitem {gamePanel}, \hyperpage{81}
+    \subitem {gameThread}, \hyperpage{81}
+    \subitem {gameWindow}, \hyperpage{81}
+    \subitem {getEnterNameOverlay}, \hyperpage{77}
+    \subitem {getLeaderboard}, \hyperpage{77}
+    \subitem {getLoadgame}, \hyperpage{77}
+    \subitem {getMenu}, \hyperpage{78}
+    \subitem {getOptions}, \hyperpage{78}
+    \subitem {getPlaying}, \hyperpage{78}
+    \subitem {getSessionUsername}, \hyperpage{78}
+    \subitem {initClasses}, \hyperpage{78}
+    \subitem {leaderboard}, \hyperpage{81}
+    \subitem {loadgame}, \hyperpage{81}
+    \subitem {menu}, \hyperpage{81}
+    \subitem {options}, \hyperpage{82}
+    \subitem {playing}, \hyperpage{82}
+    \subitem {render}, \hyperpage{79}
+    \subitem {run}, \hyperpage{79}
+    \subitem {SCALE}, \hyperpage{82}
+    \subitem {sessionUsername}, \hyperpage{82}
+    \subitem {setSessionUsername}, \hyperpage{79}
+    \subitem {startGameLoop}, \hyperpage{79}
+    \subitem {TILES\_DEFAULT\_SIZE}, \hyperpage{82}
+    \subitem {TILES\_IN\_HEIGHT}, \hyperpage{82}
+    \subitem {TILES\_IN\_WIDTH}, \hyperpage{82}
+    \subitem {TILES\_SIZE}, \hyperpage{83}
+    \subitem {update}, \hyperpage{80}
+    \subitem {UPS\_SET}, \hyperpage{83}
+    \subitem {windowFocusLost}, \hyperpage{80}
+  \item {main.GamePanel}, \hyperpage{92}
+    \subitem {game}, \hyperpage{95}
+    \subitem {GamePanel}, \hyperpage{94}
+    \subitem {getGame}, \hyperpage{94}
+    \subitem {keyboardInputs}, \hyperpage{96}
+    \subitem {mouseInputs}, \hyperpage{96}
+    \subitem {paintComponent}, \hyperpage{95}
+    \subitem {setPanelSize}, \hyperpage{95}
+    \subitem {updateGame}, \hyperpage{95}
+  \item {main.GameWindow}, \hyperpage{99}
+    \subitem {GameWindow}, \hyperpage{99}
+    \subitem {jframe}, \hyperpage{100}
+  \item {main.Main}, \hyperpage{272}
+    \subitem {main}, \hyperpage{272}
+  \item {mainMenuButtonBounds}
+    \subitem {gamestates.Leaderboard}, \hyperpage{216}
+    \subitem {gamestates.Options}, \hyperpage{318}
+  \item {makeBoss}
+    \subitem {entities.Goblin}, \hyperpage{114}
+    \subitem {entities.Nanite}, \hyperpage{300}
+  \item {MAX\_NAME\_LENGTH}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{68}
+  \item {maxHealth}
+    \subitem {entities.Goblin}, \hyperpage{121}
+    \subitem {entities.Karagor}, \hyperpage{201}
+    \subitem {entities.Nanite}, \hyperpage{307}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {maxHealthBoss}
+    \subitem {entities.GoblinBoss}, \hyperpage{139}
+    \subitem {entities.GolemBoss}, \hyperpage{157}
+  \item {maxLevelOffsetX}
+    \subitem {levels.Level}, \hyperpage{224}
+  \item {maxLvlOffsetX}
+    \subitem {gamestates.Playing}, \hyperpage{359}
+  \item {maxScale}
+    \subitem {entities.Banana}, \hyperpage{23}
+    \subitem {entities.Coconut}, \hyperpage{29}
+    \subitem {entities.Gem}, \hyperpage{105}
+  \item {maxTilesOffset}
+    \subitem {gamestates.Playing}, \hyperpage{359}
+    \subitem {levels.Level}, \hyperpage{225}
+  \item {meleeAttackRange}
+    \subitem {entities.GoblinBoss}, \hyperpage{139}
+    \subitem {entities.GolemBoss}, \hyperpage{158}
+  \item {MENU}
+    \subitem {gamestates.Gamestate}, \hyperpage{98}
+  \item {Menu}
+    \subitem {gamestates.Menu}, \hyperpage{275}
+  \item {menu}
+    \subitem {main.Game}, \hyperpage{81}
+  \item {MENU\_BACKGROUND}
+    \subitem {utilz.LoadSave}, \hyperpage{270}
+  \item {MENU\_BUTTONS}
+    \subitem {utilz.LoadSave}, \hyperpage{271}
+  \item {MenuButton}
+    \subitem {ui.MenuButton}, \hyperpage{283}
+  \item {menuButtonBounds}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{245}
+  \item {menuX}
+    \subitem {gamestates.Leaderboard}, \hyperpage{216}
+    \subitem {gamestates.Loadgame}, \hyperpage{262}
+    \subitem {gamestates.Menu}, \hyperpage{280}
+    \subitem {gamestates.Options}, \hyperpage{318}
+  \item {minScale}
+    \subitem {entities.Banana}, \hyperpage{23}
+    \subitem {entities.Coconut}, \hyperpage{29}
+    \subitem {entities.Gem}, \hyperpage{105}
+  \item {mouseClicked}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{64}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{89}
+    \subitem {gamestates.Leaderboard}, \hyperpage{212}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{243}
+    \subitem {gamestates.Loadgame}, \hyperpage{259}
+    \subitem {gamestates.Menu}, \hyperpage{278}
+    \subitem {gamestates.Options}, \hyperpage{314}
+    \subitem {gamestates.Playing}, \hyperpage{351}
+    \subitem {gamestates.Statemethods}, \hyperpage{379}
+    \subitem {inputs.MouseInputs}, \hyperpage{290}
+  \item {mouseDragged}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{64}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{89}
+    \subitem {gamestates.Leaderboard}, \hyperpage{213}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{243}
+    \subitem {gamestates.Loadgame}, \hyperpage{260}
+    \subitem {gamestates.Menu}, \hyperpage{278}
+    \subitem {gamestates.Options}, \hyperpage{315}
+    \subitem {gamestates.Playing}, \hyperpage{352}
+    \subitem {gamestates.Statemethods}, \hyperpage{379}
+    \subitem {inputs.MouseInputs}, \hyperpage{290}
+  \item {mouseEntered}
+    \subitem {inputs.MouseInputs}, \hyperpage{290}
+  \item {mouseExited}
+    \subitem {inputs.MouseInputs}, \hyperpage{291}
+  \item {MouseInputs}
+    \subitem {inputs.MouseInputs}, \hyperpage{289}
+  \item {mouseInputs}
+    \subitem {main.GamePanel}, \hyperpage{96}
+  \item {mouseMoved}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{65}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{89}
+    \subitem {gamestates.Leaderboard}, \hyperpage{213}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{244}
+    \subitem {gamestates.Loadgame}, \hyperpage{260}
+    \subitem {gamestates.Menu}, \hyperpage{278}
+    \subitem {gamestates.Options}, \hyperpage{315}
+    \subitem {gamestates.Playing}, \hyperpage{352}
+    \subitem {gamestates.Statemethods}, \hyperpage{380}
+    \subitem {inputs.MouseInputs}, \hyperpage{291}
+  \item {mouseOver}
+    \subitem {ui.LevelButton}, \hyperpage{230}
+    \subitem {ui.MenuButton}, \hyperpage{287}
+  \item {mousePressed}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{65}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{90}
+    \subitem {gamestates.Leaderboard}, \hyperpage{213}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{244}
+    \subitem {gamestates.Loadgame}, \hyperpage{260}
+    \subitem {gamestates.Menu}, \hyperpage{279}
+    \subitem {gamestates.Options}, \hyperpage{315}
+    \subitem {gamestates.Playing}, \hyperpage{352}
+    \subitem {gamestates.Statemethods}, \hyperpage{380}
+    \subitem {inputs.MouseInputs}, \hyperpage{291}
+  \item {mouseReleased}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{65}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{90}
+    \subitem {gamestates.Leaderboard}, \hyperpage{214}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{244}
+    \subitem {gamestates.Loadgame}, \hyperpage{261}
+    \subitem {gamestates.Menu}, \hyperpage{279}
+    \subitem {gamestates.Options}, \hyperpage{316}
+    \subitem {gamestates.Playing}, \hyperpage{353}
+    \subitem {gamestates.Statemethods}, \hyperpage{380}
+    \subitem {inputs.MouseInputs}, \hyperpage{292}
+  \item {mouseWheelMoved}
+    \subitem {gamestates.Leaderboard}, \hyperpage{214}
+    \subitem {inputs.MouseInputs}, \hyperpage{292}
+  \item {moveSpeed}
+    \subitem {entities.Goblin}, \hyperpage{121}
+    \subitem {entities.Nanite}, \hyperpage{307}
+  \item {moveTowardsPlayer}
+    \subitem {entities.GoblinBoss}, \hyperpage{133}
+    \subitem {entities.GolemBoss}, \hyperpage{151}
+  \item {moving}
+    \subitem {entities.Karagor}, \hyperpage{202}
+    \subitem {entities.Player}, \hyperpage{339}
+  \item {musicSliderBounds}
+    \subitem {gamestates.Options}, \hyperpage{318}
+  \item {musicSliderDragging}
+    \subitem {gamestates.Options}, \hyperpage{318}
+  \item {musicValue}
+    \subitem {gamestates.Options}, \hyperpage{318}
+
+  \indexspace
+
+  \item {Nanite}
+    \subitem {entities.Nanite}, \hyperpage{296}
+  \item {NANITE\_JUNGLA}
+    \subitem {entities.Nanite}, \hyperpage{307}
+    \subitem {utilz.LoadSave}, \hyperpage{271}
+  \item {NANITE\_PESTERA}
+    \subitem {entities.Nanite}, \hyperpage{307}
+    \subitem {utilz.LoadSave}, \hyperpage{271}
+  \item {naniteImgs}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+  \item {nanitePesteraImgs}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+  \item {nanites}
+    \subitem {entities.EnemyManager}, \hyperpage{58}
+  \item {needsRedraw}
+    \subitem {gamestates.Leaderboard}, \hyperpage{217}
+    \subitem {gamestates.Options}, \hyperpage{318}
+  \item {nextLevel}
+    \subitem {levels.LevelManager}, \hyperpage{250}
+  \item {nextLevelButtonBounds}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{246}
+  \item {noButton}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{68}
+
+  \indexspace
+
+  \item {OPTIONS}
+    \subitem {gamestates.Gamestate}, \hyperpage{98}
+  \item {Options}
+    \subitem {gamestates.Options}, \hyperpage{312}
+  \item {options}
+    \subitem {main.Game}, \hyperpage{82}
+  \item {ORANGE\_GEM}
+    \subitem {utilz.LoadSave}, \hyperpage{271}
+  \item {originalHeight}
+    \subitem {entities.Banana}, \hyperpage{24}
+    \subitem {entities.Coconut}, \hyperpage{30}
+    \subitem {entities.Gem}, \hyperpage{105}
+  \item {originalPlayerSpeed}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {originalWidth}
+    \subitem {entities.Banana}, \hyperpage{24}
+    \subitem {entities.Coconut}, \hyperpage{30}
+    \subitem {entities.Gem}, \hyperpage{105}
+  \item {originalY}
+    \subitem {entities.Banana}, \hyperpage{24}
+    \subitem {entities.Coconut}, \hyperpage{30}
+    \subitem {entities.Gem}, \hyperpage{105}
+  \item {overlayFont}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{91}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{246}
+
+  \indexspace
+
+  \item {paintComponent}
+    \subitem {main.GamePanel}, \hyperpage{95}
+  \item {patrolBoundariesSet}
+    \subitem {entities.Goblin}, \hyperpage{121}
+    \subitem {entities.Nanite}, \hyperpage{307}
+  \item {patrolDistance}
+    \subitem {entities.Goblin}, \hyperpage{122}
+    \subitem {entities.Nanite}, \hyperpage{307}
+  \item {patrolMoveSpeed}
+    \subitem {entities.Goblin}, \hyperpage{122}
+    \subitem {entities.Nanite}, \hyperpage{308}
+  \item {paused}
+    \subitem {gamestates.Playing}, \hyperpage{359}
+  \item {performAttack}
+    \subitem {entities.Karagor}, \hyperpage{188}
+  \item {permanentAttackDamageBonus}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {permanentMaxHpBonus}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {platformLeftBound}
+    \subitem {entities.Karagor}, \hyperpage{202}
+  \item {platformRightBound}
+    \subitem {entities.Karagor}, \hyperpage{202}
+  \item {Player}
+    \subitem {entities.Player}, \hyperpage{323}
+  \item {player}
+    \subitem {gamestates.Playing}, \hyperpage{359}
+  \item {PLAYER\_ATLAS}
+    \subitem {utilz.LoadSave}, \hyperpage{271}
+  \item {playerAction}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {playerBoxImg}
+    \subitem {gamestates.Leaderboard}, \hyperpage{217}
+  \item {playerDetected}
+    \subitem {entities.Goblin}, \hyperpage{114}, \hyperpage{122}
+    \subitem {entities.GoblinBoss}, \hyperpage{139}
+    \subitem {entities.GolemBoss}, \hyperpage{158}
+    \subitem {entities.Nanite}, \hyperpage{300}, \hyperpage{308}
+  \item {playerDetectionDistance}
+    \subitem {entities.EnemyManager}, \hyperpage{59}
+  \item {playerDirection}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {playerName}
+    \subitem {gamestates.Menu}, \hyperpage{280}
+    \subitem {gamestates.Playing}, \hyperpage{359}
+  \item {playerSpeed}
+    \subitem {entities.Karagor}, \hyperpage{202}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {playerTouchCooldown}
+    \subitem {entities.Goblin}, \hyperpage{122}
+    \subitem {entities.Nanite}, \hyperpage{308}
+  \item {PLAYING}
+    \subitem {gamestates.Gamestate}, \hyperpage{98}
+  \item {Playing}
+    \subitem {gamestates.Playing}, \hyperpage{346}
+  \item {playing}
+    \subitem {entities.EnemyManager}, \hyperpage{59}
+    \subitem {entities.GoblinBoss}, \hyperpage{139}
+    \subitem {entities.GolemBoss}, \hyperpage{158}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{91}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{246}
+    \subitem {main.Game}, \hyperpage{82}
+  \item {Point}
+    \subitem {entities.EnemyManager.Point}, \hyperpage{361}
+  \item {posX}
+    \subitem {utilz.LevelProgress}, \hyperpage{254}
+  \item {posY}
+    \subitem {utilz.LevelProgress}, \hyperpage{254}
+  \item {PREPARE\_ATTACK\_DURATION}
+    \subitem {entities.GoblinBoss}, \hyperpage{140}
+    \subitem {entities.GolemBoss}, \hyperpage{158}
+  \item {PREPARING\_ATTACK}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{18}
+  \item {preprocessEnemySpawnPoints}
+    \subitem {levels.LevelFactory}, \hyperpage{236}
+  \item {previousLevel}
+    \subitem {levels.LevelManager}, \hyperpage{250}
+  \item {previousState}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{69}
+    \subitem {gamestates.Leaderboard}, \hyperpage{217}
+    \subitem {gamestates.Loadgame}, \hyperpage{263}
+    \subitem {gamestates.Menu}, \hyperpage{281}
+    \subitem {gamestates.Options}, \hyperpage{319}
+    \subitem {gamestates.Playing}, \hyperpage{360}
+  \item {processUsername}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{66}
+  \item {progress}
+    \subitem {ui.ProgressBar}, \hyperpage{365}
+  \item {ProgressBar}
+    \subitem {ui.ProgressBar}, \hyperpage{363}
+  \item {Projectile}
+    \subitem {entities.Projectile}, \hyperpage{367}, \hyperpage{369}
+  \item {projectiles}
+    \subitem {entities.EnemyManager}, \hyperpage{59}
+  \item {PUNCH\_CROUCHED}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{165}
+  \item {PUNCH\_STANDING}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{165}
+  \item {punchTick}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {PURPLE\_GEM}
+    \subitem {utilz.LoadSave}, \hyperpage{271}
+
+  \indexspace
+
+  \item {QUIT}
+    \subitem {gamestates.Gamestate}, \hyperpage{98}
+
+  \indexspace
+
+  \item {random}
+    \subitem {entities.EnemyManager}, \hyperpage{59}
+  \item {refreshLeaderboardData}
+    \subitem {gamestates.Leaderboard}, \hyperpage{214}
+  \item {render}
+    \subitem {entities.GoblinBoss}, \hyperpage{133}
+    \subitem {entities.GolemBoss}, \hyperpage{151}
+    \subitem {entities.Karagor}, \hyperpage{188}
+    \subitem {entities.Player}, \hyperpage{328}
+    \subitem {main.Game}, \hyperpage{79}
+  \item {REPOSITION\_COOLDOWN\_MAX}
+    \subitem {entities.GoblinBoss}, \hyperpage{140}
+  \item {REPOSITIONING\_SLIDE}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+  \item {REPOSITIONING\_WALK}
+    \subitem {entities.GoblinBoss.ActionState}, \hyperpage{16}
+  \item {resetAll}
+    \subitem {gamestates.Playing}, \hyperpage{353}
+  \item {resetAnimationTick}
+    \subitem {entities.Karagor}, \hyperpage{188}
+    \subitem {entities.Player}, \hyperpage{328}
+  \item {resetBools}
+    \subitem {ui.LevelButton}, \hyperpage{229}
+    \subitem {ui.MenuButton}, \hyperpage{285}
+  \item {resetButtons}
+    \subitem {gamestates.Loadgame}, \hyperpage{261}
+    \subitem {gamestates.Menu}, \hyperpage{279}
+  \item {resetDirBooleans}
+    \subitem {entities.Karagor}, \hyperpage{188}
+    \subitem {entities.Player}, \hyperpage{329}
+  \item {resetEnemies}
+    \subitem {entities.EnemyManager}, \hyperpage{55}
+  \item {resetHealth}
+    \subitem {entities.Karagor}, \hyperpage{188}
+    \subitem {entities.Player}, \hyperpage{329}
+  \item {resetInAir}
+    \subitem {entities.Karagor}, \hyperpage{189}
+    \subitem {entities.Player}, \hyperpage{329}
+  \item {resetToStartPosition}
+    \subitem {entities.Player}, \hyperpage{329}
+  \item {retryButtonBounds}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{91}
+  \item {right}
+    \subitem {entities.Karagor}, \hyperpage{202}
+    \subitem {entities.Player}, \hyperpage{340}
+  \item {rightBorder}
+    \subitem {gamestates.Playing}, \hyperpage{360}
+  \item {rightPatrolLimit}
+    \subitem {entities.Goblin}, \hyperpage{122}
+    \subitem {entities.Nanite}, \hyperpage{308}
+  \item {rowIndex}
+    \subitem {ui.LevelButton}, \hyperpage{230}
+    \subitem {ui.MenuButton}, \hyperpage{287}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{42}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{165}
+  \item {run}
+    \subitem {main.Game}, \hyperpage{79}
+  \item {RUN\_SLASING}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{42}
+  \item {RUN\_THROWING}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{42}
+  \item {RUNNING}
+    \subitem {entities.Goblin}, \hyperpage{122}
+    \subitem {entities.Nanite}, \hyperpage{308}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{42}
+  \item {runSpeed}
+    \subitem {entities.GoblinBoss}, \hyperpage{140}
+    \subitem {entities.GolemBoss}, \hyperpage{158}
+
+  \indexspace
+
+  \item {SaveIntoDatabase}
+    \subitem {database.InsertGet}, \hyperpage{176}
+  \item {SaveUsername}
+    \subitem {database.InsertGet}, \hyperpage{176}
+  \item {SCALE}
+    \subitem {main.Game}, \hyperpage{82}
+  \item {scaleFactor}
+    \subitem {entities.Banana}, \hyperpage{24}
+    \subitem {entities.Coconut}, \hyperpage{30}
+    \subitem {entities.Gem}, \hyperpage{106}
+  \item {scaleSpeed}
+    \subitem {entities.Banana}, \hyperpage{24}
+    \subitem {entities.Coconut}, \hyperpage{30}
+    \subitem {entities.Gem}, \hyperpage{106}
+  \item {scalingUp}
+    \subitem {entities.Banana}, \hyperpage{24}
+    \subitem {entities.Coconut}, \hyperpage{30}
+    \subitem {entities.Gem}, \hyperpage{106}
+  \item {scanLevelForSpawnPoints}
+    \subitem {entities.EnemyManager}, \hyperpage{55}
+  \item {score}
+    \subitem {utilz.LevelProgress}, \hyperpage{254}
+  \item {scrollOffset}
+    \subitem {gamestates.Leaderboard}, \hyperpage{217}
+  \item {sessionUsername}
+    \subitem {main.Game}, \hyperpage{82}
+  \item {setActive}
+    \subitem {entities.Banana}, \hyperpage{22}
+    \subitem {entities.Coconut}, \hyperpage{28}
+    \subitem {entities.Gem}, \hyperpage{103}
+    \subitem {entities.Projectile}, \hyperpage{370}
+  \item {setAnimation}
+    \subitem {entities.Karagor}, \hyperpage{189}
+    \subitem {entities.Player}, \hyperpage{329}
+  \item {setAttack}
+    \subitem {entities.Karagor}, \hyperpage{189}
+    \subitem {entities.Player}, \hyperpage{329}
+  \item {setBananas}
+    \subitem {levels.Level}, \hyperpage{222}
+  \item {setBossAnimation}
+    \subitem {entities.GoblinBoss}, \hyperpage{134}
+    \subitem {entities.GolemBoss}, \hyperpage{151}
+  \item {setCoconuts}
+    \subitem {levels.Level}, \hyperpage{223}
+  \item {setCrouch}
+    \subitem {entities.Karagor}, \hyperpage{189}
+    \subitem {entities.Player}, \hyperpage{330}
+  \item {setCurrentCoconuts}
+    \subitem {gamestates.Playing}, \hyperpage{353}
+  \item {setCurrentHealth}
+    \subitem {entities.Player}, \hyperpage{330}
+  \item {setCurrentScore}
+    \subitem {gamestates.Playing}, \hyperpage{354}
+  \item {setDimensions}
+    \subitem {ui.ProgressBar}, \hyperpage{364}
+  \item {setDown}
+    \subitem {entities.Karagor}, \hyperpage{190}
+    \subitem {entities.Player}, \hyperpage{330}
+  \item {setEnemyState}
+    \subitem {entities.Enemy}, \hyperpage{35}
+  \item {setFillColor}
+    \subitem {ui.ProgressBar}, \hyperpage{364}
+  \item {setGameOver}
+    \subitem {gamestates.Playing}, \hyperpage{354}
+  \item {setHasHit}
+    \subitem {entities.Karagor}, \hyperpage{190}
+    \subitem {entities.Player}, \hyperpage{330}
+  \item {setJump}
+    \subitem {entities.Karagor}, \hyperpage{190}
+    \subitem {entities.Player}, \hyperpage{330}
+  \item {setJumpSlamAttack}
+    \subitem {entities.Player}, \hyperpage{330}
+  \item {setJumpSlamUnlocked}
+    \subitem {entities.Player}, \hyperpage{331}
+  \item {setLeft}
+    \subitem {entities.Karagor}, \hyperpage{191}
+    \subitem {entities.Player}, \hyperpage{331}
+  \item {setLevelData}
+    \subitem {entities.Goblin}, \hyperpage{115}
+    \subitem {entities.GoblinBoss}, \hyperpage{134}
+    \subitem {entities.GolemBoss}, \hyperpage{153}
+    \subitem {entities.Karagor}, \hyperpage{191}
+    \subitem {entities.Nanite}, \hyperpage{301}
+  \item {setLevelFinished}
+    \subitem {gamestates.Playing}, \hyperpage{354}
+  \item {setLevelId}
+    \subitem {levels.Level}, \hyperpage{223}
+  \item {setMouseOver}
+    \subitem {ui.LevelButton}, \hyperpage{229}
+    \subitem {ui.MenuButton}, \hyperpage{285}
+  \item {setMousePressed}
+    \subitem {ui.LevelButton}, \hyperpage{229}
+    \subitem {ui.MenuButton}, \hyperpage{286}
+  \item {setPanelSize}
+    \subitem {main.GamePanel}, \hyperpage{95}
+  \item {setPlatformBounds}
+    \subitem {entities.Karagor}, \hyperpage{191}
+  \item {setPlayerName}
+    \subitem {gamestates.Menu}, \hyperpage{279}
+    \subitem {gamestates.Playing}, \hyperpage{354}
+  \item {setPosition}
+    \subitem {entities.Player}, \hyperpage{331}
+    \subitem {ui.ProgressBar}, \hyperpage{364}
+  \item {setPreviousState}
+    \subitem {gamestates.Leaderboard}, \hyperpage{214}
+    \subitem {gamestates.Loadgame}, \hyperpage{261}
+    \subitem {gamestates.Options}, \hyperpage{316}
+    \subitem {gamestates.Playing}, \hyperpage{354}
+  \item {setProgress}
+    \subitem {ui.ProgressBar}, \hyperpage{365}
+  \item {setRight}
+    \subitem {entities.Karagor}, \hyperpage{193}
+    \subitem {entities.Player}, \hyperpage{331}
+  \item {setSessionUsername}
+    \subitem {main.Game}, \hyperpage{79}
+  \item {setState}
+    \subitem {entities.Goblin}, \hyperpage{115}
+    \subitem {entities.Nanite}, \hyperpage{301}
+  \item {setThrowAttack}
+    \subitem {entities.Player}, \hyperpage{331}
+  \item {setTimer}
+    \subitem {gamestates.Playing}, \hyperpage{355}
+  \item {setUp}
+    \subitem {entities.Karagor}, \hyperpage{193}
+    \subitem {entities.Player}, \hyperpage{331}
+  \item {setUsername}
+    \subitem {gamestates.Playing}, \hyperpage{355}
+  \item {setWhackAttack}
+    \subitem {entities.Player}, \hyperpage{332}
+  \item {sfxSliderBounds}
+    \subitem {gamestates.Options}, \hyperpage{319}
+  \item {sfxSliderDragging}
+    \subitem {gamestates.Options}, \hyperpage{319}
+  \item {sfxValue}
+    \subitem {gamestates.Options}, \hyperpage{319}
+  \item {showDebugHitbox}
+    \subitem {gamestates.State}, \hyperpage{377}
+  \item {showGameOverOverlay}
+    \subitem {gamestates.Playing}, \hyperpage{355}
+  \item {showLevelFinishedOverlay}
+    \subitem {gamestates.Playing}, \hyperpage{355}
+  \item {showLoadPrompt}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{69}
+  \item {sightRange}
+    \subitem {entities.GoblinBoss}, \hyperpage{140}
+    \subitem {entities.GolemBoss}, \hyperpage{158}
+  \item {SLASHING}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{42}
+  \item {SLASHING\_IN\_THE\_AIR}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{43}
+  \item {slideSpeed}
+    \subitem {entities.GoblinBoss}, \hyperpage{140}
+  \item {SLIDING}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{43}
+  \item {spawnAllEnemies}
+    \subitem {entities.EnemyManager}, \hyperpage{55}
+  \item {spawnEnemy}
+    \subitem {entities.EnemyManager}, \hyperpage{55}
+  \item {spawnGem}
+    \subitem {entities.EnemyManager}, \hyperpage{56}
+  \item {spawnPoints}
+    \subitem {entities.EnemyManager}, \hyperpage{59}
+  \item {speed}
+    \subitem {entities.Projectile}, \hyperpage{372}
+  \item {src/database/InsertGet.java}, \hyperpage{383}
+  \item {src/entities/Banana.java}, \hyperpage{383}
+  \item {src/entities/Coconut.java}, \hyperpage{383}
+  \item {src/entities/Enemy.java}, \hyperpage{384}
+  \item {src/entities/EnemyManager.java}, \hyperpage{384}
+  \item {src/entities/Entity.java}, \hyperpage{384}
+  \item {src/entities/Gem.java}, \hyperpage{385}
+  \item {src/entities/Goblin.java}, \hyperpage{385}
+  \item {src/entities/GoblinBoss.java}, \hyperpage{385}
+  \item {src/entities/GolemBoss.java}, \hyperpage{385}
+  \item {src/entities/Karagor.java}, \hyperpage{386}
+  \item {src/entities/Nanite.java}, \hyperpage{386}
+  \item {src/entities/Player.java}, \hyperpage{386}
+  \item {src/entities/Projectile.java}, \hyperpage{386}
+  \item {src/gamestates/EnterNameOverlay.java}, \hyperpage{387}
+  \item {src/gamestates/GameOverOverlay.java}, \hyperpage{387}
+  \item {src/gamestates/Gamestate.java}, \hyperpage{387}
+  \item {src/gamestates/Leaderboard.java}, \hyperpage{387}
+  \item {src/gamestates/LevelFinishedOverlay.java}, \hyperpage{388}
+  \item {src/gamestates/Loadgame.java}, \hyperpage{388}
+  \item {src/gamestates/Menu.java}, \hyperpage{388}
+  \item {src/gamestates/Options.java}, \hyperpage{388}
+  \item {src/gamestates/Playing.java}, \hyperpage{389}
+  \item {src/gamestates/State.java}, \hyperpage{389}
+  \item {src/gamestates/Statemethods.java}, \hyperpage{389}
+  \item {src/inputs/KeyboardInputs.java}, \hyperpage{389}
+  \item {src/inputs/MouseInputs.java}, \hyperpage{390}
+  \item {src/levels/Level.java}, \hyperpage{390}
+  \item {src/levels/LevelFactory.java}, \hyperpage{390}
+  \item {src/levels/LevelManager.java}, \hyperpage{390}
+  \item {src/main/Game.java}, \hyperpage{391}
+  \item {src/main/GamePanel.java}, \hyperpage{391}
+  \item {src/main/GameWindow.java}, \hyperpage{391}
+  \item {src/main/Main.java}, \hyperpage{391}
+  \item {src/ui/LevelButton.java}, \hyperpage{392}
+  \item {src/ui/MenuButton.java}, \hyperpage{392}
+  \item {src/ui/ProgressBar.java}, \hyperpage{392}
+  \item {src/utilz/Constants.java}, \hyperpage{393}
+  \item {src/utilz/Enemy\_Animation\_Rows.java}, \hyperpage{393}
+  \item {src/utilz/Gorilla\_Animation\_rows.java}, \hyperpage{393}
+  \item {src/utilz/HelpMethods.java}, \hyperpage{394}
+  \item {src/utilz/LevelProgress.java}, \hyperpage{394}
+  \item {src/utilz/LoadSave.java}, \hyperpage{394}
+  \item {STAND\_SLAM}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{165}
+  \item {STAND\_THROW}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{166}
+  \item {STAND\_TO\_CROUCH}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{166}
+  \item {STAND\_WALK}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{166}
+  \item {STANDING\_BLOCK}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{166}
+  \item {STANDING\_JUMP\_SLAM}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{166}
+  \item {STANDING\_RUN}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{166}
+  \item {START\_BACKGROUND}
+    \subitem {utilz.LoadSave}, \hyperpage{272}
+  \item {startbgImg}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{69}
+    \subitem {gamestates.Leaderboard}, \hyperpage{217}
+    \subitem {gamestates.Loadgame}, \hyperpage{263}
+    \subitem {gamestates.Menu}, \hyperpage{281}
+    \subitem {gamestates.Options}, \hyperpage{319}
+  \item {startbgX}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{69}
+    \subitem {gamestates.Leaderboard}, \hyperpage{217}
+    \subitem {gamestates.Loadgame}, \hyperpage{263}
+    \subitem {gamestates.Menu}, \hyperpage{281}
+    \subitem {gamestates.Options}, \hyperpage{319}
+  \item {startButton}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{69}
+  \item {startGameLoop}
+    \subitem {main.Game}, \hyperpage{79}
+  \item {State}
+    \subitem {gamestates.State}, \hyperpage{374}
+  \item {state}
+    \subitem {gamestates.Gamestate}, \hyperpage{98}
+    \subitem {ui.LevelButton}, \hyperpage{230}
+    \subitem {ui.MenuButton}, \hyperpage{287}
+
+  \indexspace
+
+  \item {takeDamage}
+    \subitem {entities.Goblin}, \hyperpage{115}
+    \subitem {entities.GoblinBoss}, \hyperpage{134}
+    \subitem {entities.GolemBoss}, \hyperpage{153}
+    \subitem {entities.Karagor}, \hyperpage{193}
+    \subitem {entities.Nanite}, \hyperpage{301}
+    \subitem {entities.Player}, \hyperpage{332}
+  \item {targetX}
+    \subitem {entities.GoblinBoss}, \hyperpage{140}
+  \item {THROWING}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{43}
+  \item {THROWING\_IN\_THE\_AIR}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{43}
+  \item {throwTick}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {ticksInState}
+    \subitem {entities.Goblin}, \hyperpage{123}
+    \subitem {entities.Nanite}, \hyperpage{308}
+  \item {TILES\_DEFAULT\_SIZE}
+    \subitem {main.Game}, \hyperpage{82}
+  \item {TILES\_IN\_HEIGHT}
+    \subitem {main.Game}, \hyperpage{82}
+  \item {TILES\_IN\_WIDTH}
+    \subitem {main.Game}, \hyperpage{82}
+  \item {TILES\_SIZE}
+    \subitem {main.Game}, \hyperpage{83}
+  \item {timerStarted}
+    \subitem {gamestates.Playing}, \hyperpage{360}
+  \item {touchDamageCooldown}
+    \subitem {entities.Goblin}, \hyperpage{123}
+    \subitem {entities.Nanite}, \hyperpage{309}
+  \item {trySpawnCollectible}
+    \subitem {entities.EnemyManager}, \hyperpage{56}
+
+  \indexspace
+
+  \item {ui}, \hyperpage{13}
+  \item {ui.LevelButton}, \hyperpage{225}
+    \subitem {applyGamestate}, \hyperpage{227}
+    \subitem {bounds}, \hyperpage{230}
+    \subitem {draw}, \hyperpage{227}
+    \subitem {getBounds}, \hyperpage{227}
+    \subitem {getRowIndex}, \hyperpage{227}
+    \subitem {imgs}, \hyperpage{230}
+    \subitem {index}, \hyperpage{230}
+    \subitem {initBounds}, \hyperpage{228}
+    \subitem {isMouseOver}, \hyperpage{228}
+    \subitem {isMousePressed}, \hyperpage{228}
+    \subitem {LevelButton}, \hyperpage{226}
+    \subitem {loadImgs}, \hyperpage{228}
+    \subitem {mouseOver}, \hyperpage{230}
+    \subitem {resetBools}, \hyperpage{229}
+    \subitem {rowIndex}, \hyperpage{230}
+    \subitem {setMouseOver}, \hyperpage{229}
+    \subitem {setMousePressed}, \hyperpage{229}
+    \subitem {state}, \hyperpage{230}
+    \subitem {update}, \hyperpage{229}
+    \subitem {xOffsetCenter}, \hyperpage{230}
+    \subitem {xPos}, \hyperpage{231}
+  \item {ui.MenuButton}, \hyperpage{281}
+    \subitem {applyGamestate}, \hyperpage{283}
+    \subitem {bounds}, \hyperpage{286}
+    \subitem {draw}, \hyperpage{283}
+    \subitem {getBounds}, \hyperpage{284}
+    \subitem {getState}, \hyperpage{284}
+    \subitem {imgs}, \hyperpage{286}
+    \subitem {index}, \hyperpage{286}
+    \subitem {initBounds}, \hyperpage{284}
+    \subitem {isMouseOver}, \hyperpage{284}
+    \subitem {isMousePressed}, \hyperpage{285}
+    \subitem {loadImgs}, \hyperpage{285}
+    \subitem {MenuButton}, \hyperpage{283}
+    \subitem {mouseOver}, \hyperpage{287}
+    \subitem {resetBools}, \hyperpage{285}
+    \subitem {rowIndex}, \hyperpage{287}
+    \subitem {setMouseOver}, \hyperpage{285}
+    \subitem {setMousePressed}, \hyperpage{286}
+    \subitem {state}, \hyperpage{287}
+    \subitem {update}, \hyperpage{286}
+    \subitem {xOffsetCenter}, \hyperpage{287}
+    \subitem {xPos}, \hyperpage{287}
+  \item {ui.ProgressBar}, \hyperpage{361}
+    \subitem {draw}, \hyperpage{363}
+    \subitem {fillColor}, \hyperpage{365}
+    \subitem {getProgress}, \hyperpage{363}
+    \subitem {grooverImg}, \hyperpage{365}
+    \subitem {loadImages}, \hyperpage{364}
+    \subitem {progress}, \hyperpage{365}
+    \subitem {ProgressBar}, \hyperpage{363}
+    \subitem {setDimensions}, \hyperpage{364}
+    \subitem {setFillColor}, \hyperpage{364}
+    \subitem {setPosition}, \hyperpage{364}
+    \subitem {setProgress}, \hyperpage{365}
+    \subitem {x}, \hyperpage{366}
+  \item {unlockCrystalRush}
+    \subitem {entities.Player}, \hyperpage{332}
+  \item {up}
+    \subitem {entities.Karagor}, \hyperpage{202}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {update}
+    \subitem {entities.Banana}, \hyperpage{22}
+    \subitem {entities.Coconut}, \hyperpage{28}
+    \subitem {entities.Enemy}, \hyperpage{36}
+    \subitem {entities.EnemyManager}, \hyperpage{57}
+    \subitem {entities.Gem}, \hyperpage{103}
+    \subitem {entities.Goblin}, \hyperpage{115}
+    \subitem {entities.GoblinBoss}, \hyperpage{135}
+    \subitem {entities.GolemBoss}, \hyperpage{153}
+    \subitem {entities.Karagor}, \hyperpage{194}
+    \subitem {entities.Nanite}, \hyperpage{301}
+    \subitem {entities.Player}, \hyperpage{332}
+    \subitem {entities.Projectile}, \hyperpage{371}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{66}
+    \subitem {gamestates.GameOverOverlay}, \hyperpage{90}
+    \subitem {gamestates.Leaderboard}, \hyperpage{215}
+    \subitem {gamestates.LevelFinishedOverlay}, \hyperpage{245}
+    \subitem {gamestates.Loadgame}, \hyperpage{262}
+    \subitem {gamestates.Menu}, \hyperpage{280}
+    \subitem {gamestates.Options}, \hyperpage{316}
+    \subitem {gamestates.Playing}, \hyperpage{355}
+    \subitem {gamestates.Statemethods}, \hyperpage{381}
+    \subitem {levels.Level}, \hyperpage{223}
+    \subitem {levels.LevelManager}, \hyperpage{251}
+    \subitem {main.Game}, \hyperpage{80}
+    \subitem {ui.LevelButton}, \hyperpage{229}
+    \subitem {ui.MenuButton}, \hyperpage{286}
+  \item {updateAnimationTick}
+    \subitem {entities.Enemy}, \hyperpage{36}
+    \subitem {entities.Karagor}, \hyperpage{194}
+    \subitem {entities.Player}, \hyperpage{332}
+  \item {updateAttackBox}
+    \subitem {entities.Goblin}, \hyperpage{116}
+    \subitem {entities.Nanite}, \hyperpage{302}
+  \item {updateBananas}
+    \subitem {gamestates.Playing}, \hyperpage{356}
+  \item {updateBehavior}
+    \subitem {entities.Goblin}, \hyperpage{116}
+    \subitem {entities.Nanite}, \hyperpage{302}
+  \item {updateCoconuts}
+    \subitem {gamestates.Playing}, \hyperpage{356}
+  \item {updateCooldowns}
+    \subitem {entities.Goblin}, \hyperpage{116}
+    \subitem {entities.Nanite}, \hyperpage{302}
+  \item {updateCurrentMeleeHitbox}
+    \subitem {entities.GoblinBoss}, \hyperpage{135}
+    \subitem {entities.GolemBoss}, \hyperpage{154}
+  \item {updateDamageEffect}
+    \subitem {entities.Player}, \hyperpage{332}
+  \item {updateGame}
+    \subitem {main.GamePanel}, \hyperpage{95}
+  \item {updateGravity}
+    \subitem {entities.Karagor}, \hyperpage{194}
+    \subitem {entities.Player}, \hyperpage{333}
+  \item {updateHitbox}
+    \subitem {entities.GoblinBoss}, \hyperpage{135}
+    \subitem {entities.GolemBoss}, \hyperpage{154}
+  \item {updateHurtState}
+    \subitem {entities.Karagor}, \hyperpage{194}
+  \item {updateKnockback}
+    \subitem {entities.Player}, \hyperpage{333}
+  \item {updateMusicValue}
+    \subitem {gamestates.Options}, \hyperpage{316}
+  \item {updatePlayerDetection}
+    \subitem {entities.GoblinBoss}, \hyperpage{135}
+    \subitem {entities.GolemBoss}, \hyperpage{154}
+  \item {updatePlayerPosition}
+    \subitem {entities.Karagor}, \hyperpage{195}
+  \item {updatePos}
+    \subitem {entities.Karagor}, \hyperpage{195}
+    \subitem {entities.Player}, \hyperpage{333}
+  \item {updatePosition}
+    \subitem {entities.Goblin}, \hyperpage{116}
+    \subitem {entities.Nanite}, \hyperpage{302}
+  \item {updateSfxValue}
+    \subitem {gamestates.Options}, \hyperpage{317}
+  \item {updateXPos}
+    \subitem {entities.Karagor}, \hyperpage{195}
+    \subitem {entities.Player}, \hyperpage{333}
+  \item {UPS\_SET}
+    \subitem {main.Game}, \hyperpage{83}
+  \item {username}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{69}
+    \subitem {gamestates.Playing}, \hyperpage{360}
+  \item {utilz}, \hyperpage{13}
+  \item {utilz.Constants}, \hyperpage{31}
+  \item {utilz.Enemy\_Animation\_Rows}, \hyperpage{38}
+    \subitem {DYING}, \hyperpage{40}
+    \subitem {Enemy\_Animation\_Rows}, \hyperpage{39}
+    \subitem {FALLING\_DOWN}, \hyperpage{40}
+    \subitem {frameCount}, \hyperpage{41}
+    \subitem {getFrameCount}, \hyperpage{40}
+    \subitem {getRowIndex}, \hyperpage{40}
+    \subitem {HURT}, \hyperpage{41}
+    \subitem {IDLE}, \hyperpage{41}
+    \subitem {IDLE\_NO\_BLINK}, \hyperpage{41}
+    \subitem {JUMP\_LOOP}, \hyperpage{41}
+    \subitem {JUMP\_START}, \hyperpage{41}
+    \subitem {KICKING}, \hyperpage{42}
+    \subitem {rowIndex}, \hyperpage{42}
+    \subitem {RUN\_SLASING}, \hyperpage{42}
+    \subitem {RUN\_THROWING}, \hyperpage{42}
+    \subitem {RUNNING}, \hyperpage{42}
+    \subitem {SLASHING}, \hyperpage{42}
+    \subitem {SLASHING\_IN\_THE\_AIR}, \hyperpage{43}
+    \subitem {SLIDING}, \hyperpage{43}
+    \subitem {THROWING}, \hyperpage{43}
+    \subitem {THROWING\_IN\_THE\_AIR}, \hyperpage{43}
+    \subitem {WALKING}, \hyperpage{43}
+  \item {utilz.Gorilla\_Animation\_rows}, \hyperpage{159}
+    \subitem {COMBO\_STANDING}, \hyperpage{163}
+    \subitem {CROUCH\_RUN}, \hyperpage{163}
+    \subitem {CROUCH\_SLAM}, \hyperpage{163}
+    \subitem {CROUCH\_THROW}, \hyperpage{163}
+    \subitem {CROUCH\_TO\_STAND}, \hyperpage{163}
+    \subitem {CROUCH\_WALK}, \hyperpage{163}
+    \subitem {DIE\_CROUCHED}, \hyperpage{164}
+    \subitem {DIE\_STANDING}, \hyperpage{164}
+    \subitem {frameCount}, \hyperpage{164}
+    \subitem {getFrameCount}, \hyperpage{162}
+    \subitem {getRowIndex}, \hyperpage{162}
+    \subitem {Gorilla\_Animation\_rows}, \hyperpage{161, 162}
+    \subitem {HURT\_CROUCHED}, \hyperpage{164}
+    \subitem {HURT\_STANDING}, \hyperpage{164}
+    \subitem {IDLE\_CROUCHED}, \hyperpage{164}
+    \subitem {IDLE\_STANDING}, \hyperpage{165}
+    \subitem {JUMP\_STANDING}, \hyperpage{165}
+    \subitem {PUNCH\_CROUCHED}, \hyperpage{165}
+    \subitem {PUNCH\_STANDING}, \hyperpage{165}
+    \subitem {rowIndex}, \hyperpage{165}
+    \subitem {STAND\_SLAM}, \hyperpage{165}
+    \subitem {STAND\_THROW}, \hyperpage{166}
+    \subitem {STAND\_TO\_CROUCH}, \hyperpage{166}
+    \subitem {STAND\_WALK}, \hyperpage{166}
+    \subitem {STANDING\_BLOCK}, \hyperpage{166}
+    \subitem {STANDING\_JUMP\_SLAM}, \hyperpage{166}
+    \subitem {STANDING\_RUN}, \hyperpage{166}
+    \subitem {VINE\_18}, \hyperpage{167}
+    \subitem {VINE\_19}, \hyperpage{167}
+    \subitem {VINE\_20}, \hyperpage{167}
+    \subitem {VINE\_21}, \hyperpage{167}
+    \subitem {VINE\_22}, \hyperpage{167}
+    \subitem {VINE\_23}, \hyperpage{167}
+  \item {utilz.HelpMethods}, \hyperpage{168}
+    \subitem {canBossMoveHere}, \hyperpage{168}
+    \subitem {canMoveHere}, \hyperpage{169}
+    \subitem {getEntityXPosNextToWall}, \hyperpage{170}
+    \subitem {getEntityYPosUnderRoofOrAboveFloor}, \hyperpage{170}
+    \subitem {isEntityOnCeiling}, \hyperpage{170}
+    \subitem {isEntityOnFloor}, \hyperpage{171}
+    \subitem {isEntityOnWall}, \hyperpage{171}
+    \subitem {isSolid}, \hyperpage{172}
+  \item {utilz.LevelProgress}, \hyperpage{252}
+    \subitem {coconuts}, \hyperpage{253}
+    \subitem {health}, \hyperpage{253}
+    \subitem {LevelProgress}, \hyperpage{253}
+    \subitem {posX}, \hyperpage{254}
+    \subitem {posY}, \hyperpage{254}
+    \subitem {score}, \hyperpage{254}
+  \item {utilz.LoadSave}, \hyperpage{263}
+    \subitem {BANANA\_IMAGE}, \hyperpage{266}
+    \subitem {BANANA\_SPRITE}, \hyperpage{266}
+    \subitem {COCONUT\_IMAGE}, \hyperpage{266}
+    \subitem {COCONUT\_SPRITE}, \hyperpage{267}
+    \subitem {COCONUT\_THROWABLE\_IMAGE}, \hyperpage{267}
+    \subitem {COCONUT\_THROWABLE\_SPRITE}, \hyperpage{267}
+    \subitem {ENTER\_NAME\_FRAME}, \hyperpage{267}
+    \subitem {FRAME\_LOADGAME}, \hyperpage{267}
+    \subitem {GAME\_UI}, \hyperpage{267}
+    \subitem {getLevelData}, \hyperpage{265}
+    \subitem {getSpriteAtlas}, \hyperpage{266}
+    \subitem {GOBLIN\_BOSS\_SPRITESHEET}, \hyperpage{268}
+    \subitem {GOBLIN\_HARD\_SPRITESHEET}, \hyperpage{268}
+    \subitem {GOBLIN\_NOOB\_SPRITESHEET}, \hyperpage{268}
+    \subitem {GOLEM\_BOSS\_SPRITESHEET}, \hyperpage{268}
+    \subitem {GREEN\_GEM}, \hyperpage{268}
+    \subitem {KARAGOR\_SPRITESHEET}, \hyperpage{268}
+    \subitem {KOBA\_RUSH}, \hyperpage{269}
+    \subitem {LEVEL1\_ATLAS}, \hyperpage{269}
+    \subitem {LEVEL1\_BACKGROUND}, \hyperpage{269}
+    \subitem {LEVEL1\_DATA}, \hyperpage{269}
+    \subitem {LEVEL2\_ATLAS}, \hyperpage{269}
+    \subitem {LEVEL2\_BACKGROUND}, \hyperpage{269}
+    \subitem {LEVEL2\_DATA}, \hyperpage{270}
+    \subitem {LEVEL3\_ATLAS}, \hyperpage{270}
+    \subitem {LEVEL3\_BACKGROUND}, \hyperpage{270}
+    \subitem {LEVEL3\_DATA}, \hyperpage{270}
+    \subitem {LEVEL\_BUTTONS}, \hyperpage{270}
+    \subitem {MENU\_BACKGROUND}, \hyperpage{270}
+    \subitem {MENU\_BUTTONS}, \hyperpage{271}
+    \subitem {NANITE\_JUNGLA}, \hyperpage{271}
+    \subitem {NANITE\_PESTERA}, \hyperpage{271}
+    \subitem {ORANGE\_GEM}, \hyperpage{271}
+    \subitem {PLAYER\_ATLAS}, \hyperpage{271}
+    \subitem {PURPLE\_GEM}, \hyperpage{271}
+    \subitem {START\_BACKGROUND}, \hyperpage{272}
+
+  \indexspace
+
+  \item {VINE\_18}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{167}
+  \item {VINE\_19}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{167}
+  \item {VINE\_20}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{167}
+  \item {VINE\_21}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{167}
+  \item {VINE\_22}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{167}
+  \item {VINE\_23}
+    \subitem {utilz.Gorilla\_Animation\_rows}, \hyperpage{167}
+  \item {visibleAreaHeight}
+    \subitem {gamestates.Leaderboard}, \hyperpage{217}
+
+  \indexspace
+
+  \item {WALKING}
+    \subitem {utilz.Enemy\_Animation\_Rows}, \hyperpage{43}
+  \item {WALKING\_TOWARDS\_PLAYER}
+    \subitem {entities.GolemBoss.ActionState}, \hyperpage{18}
+  \item {walkSpeed}
+    \subitem {entities.GoblinBoss}, \hyperpage{141}
+    \subitem {entities.GolemBoss}, \hyperpage{159}
+  \item {wasCrouchPressed}
+    \subitem {entities.Karagor}, \hyperpage{203}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {WHACK\_COOLDOWN\_DURATION}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {whackCooldownTimer}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {whackTick}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {width}
+    \subitem {entities.Entity}, \hyperpage{73}
+  \item {willLandOnGround}
+    \subitem {entities.Goblin}, \hyperpage{117}
+    \subitem {entities.Nanite}, \hyperpage{302}
+  \item {windowFocusLost}
+    \subitem {gamestates.Playing}, \hyperpage{356}
+    \subitem {main.Game}, \hyperpage{80}
+
+  \indexspace
+
+  \item {x}
+    \subitem {entities.Entity}, \hyperpage{73}
+    \subitem {entities.Gem}, \hyperpage{106}
+    \subitem {ui.ProgressBar}, \hyperpage{366}
+  \item {xDrawOffset}
+    \subitem {entities.GoblinBoss}, \hyperpage{141}
+    \subitem {entities.GolemBoss}, \hyperpage{159}
+    \subitem {entities.Karagor}, \hyperpage{203}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {xLvlOffset}
+    \subitem {gamestates.Playing}, \hyperpage{360}
+  \item {xOffsetCenter}
+    \subitem {ui.LevelButton}, \hyperpage{230}
+    \subitem {ui.MenuButton}, \hyperpage{287}
+  \item {xPos}
+    \subitem {ui.LevelButton}, \hyperpage{231}
+    \subitem {ui.MenuButton}, \hyperpage{287}
+
+  \indexspace
+
+  \item {y}
+    \subitem {entities.Entity}, \hyperpage{73}
+    \subitem {entities.Gem}, \hyperpage{106}
+  \item {yDrawOffset}
+    \subitem {entities.GoblinBoss}, \hyperpage{141}
+    \subitem {entities.GolemBoss}, \hyperpage{159}
+    \subitem {entities.Karagor}, \hyperpage{203}
+    \subitem {entities.Player}, \hyperpage{341}
+  \item {yesButton}
+    \subitem {gamestates.EnterNameOverlay}, \hyperpage{69}
+
+\end{theindex}

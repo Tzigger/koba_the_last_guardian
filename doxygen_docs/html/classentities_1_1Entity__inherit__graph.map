@@ -1,0 +1,13 @@
+<map id="entities.Entity" name="entities.Entity">
+<area shape="rect" id="node1" title="Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici,..." alt="" coords="5,107,119,133"/>
+<area shape="rect" id="node2" href="$classentities_1_1Banana.html" title="Reprezintă un obiect colectabil de tip &quot;banană&quot; în joc." alt="" coords="173,5,297,32"/>
+<area shape="rect" id="node3" href="$classentities_1_1Coconut.html" title="Reprezintă un obiect colectabil de tip &quot;nucă de cocos&quot; în joc." alt="" coords="171,56,299,83"/>
+<area shape="rect" id="node4" href="$classentities_1_1Enemy.html" title="Clasă abstractă de bază pentru toți inamicii din joc." alt="" coords="175,107,295,133"/>
+<area shape="rect" id="node9" href="$classentities_1_1Player.html" title=" " alt="" coords="177,157,293,184"/>
+<area shape="rect" id="node11" href="$classentities_1_1Projectile.html" title="Reprezintă un proiectil în joc." alt="" coords="167,208,303,235"/>
+<area shape="rect" id="node5" href="$classentities_1_1Goblin.html" title="Reprezintă entitatea Goblin în joc." alt="" coords="367,5,484,32"/>
+<area shape="rect" id="node6" href="$classentities_1_1GoblinBoss.html" title="Reprezintă entitatea Goblin Boss în joc." alt="" coords="351,56,499,83"/>
+<area shape="rect" id="node7" href="$classentities_1_1GolemBoss.html" title="Reprezintă entitatea Golem Boss în joc." alt="" coords="351,107,500,133"/>
+<area shape="rect" id="node8" href="$classentities_1_1Nanite.html" title="Reprezintă entitatea Nanite în joc." alt="" coords="366,157,485,184"/>
+<area shape="rect" id="node10" href="$classentities_1_1Karagor.html" title="Reprezintă entitatea Karagor în joc, care poate funcționa ca un boss." alt="" coords="362,208,489,235"/>
+</map>

@@ -1,0 +1,122 @@
+@startuml
+title State Pattern Implementation (Simplified)
+
+package main {
+  class Game {
+    + update()
+    + render(g: Graphics)
+    --
+    ' Game holds references to concrete states
+    - menu: Menu
+    - playing: Playing
+    ' ... other states
+    --
+    ' Methods to get state objects
+    + getMenu(): Menu
+    + getPlaying(): Playing
+    ' ...
+  }
+}
+
+package gamestates {
+  enum Gamestate {
+    PLAYING
+    MENU
+    OPTIONS
+    ' ... other enum values
+    --
+    + {static} state: Gamestate
+  }
+
+  interface Statemethods {
+    + update()
+    + draw(g: Graphics)
+    + mouseClicked(e: MouseEvent)
+    + mousePressed(e: MouseEvent)
+    + mouseReleased(e: MouseEvent)
+    + mouseMoved(e: MouseEvent)
+    + keyPressed(e: KeyEvent)
+    + keyReleased(e: KeyEvent)
+    ' Potentially mouseDragged if used
+  }
+
+  class State {
+    # game: Game ' Reference to Context
+    --
+    + State(game: Game)
+    + getGame(): Game
+  }
+
+  class Menu extends State implements Statemethods {
+    + Menu(game: Game)
+    + update()
+    + draw(g: Graphics)
+    ' Implementation of mouse/key methods
+    ' Contains logic to change Gamestate.state
+  }
+
+  class Playing extends State implements Statemethods {
+    + Playing(game: Game)
+    + update()
+    + draw(g: Graphics)
+    ' Implementation of mouse/key methods
+    ' Contains logic to change Gamestate.state
+  }
+
+  ' Other concrete states like Options, Loadgame, etc.
+  ' would follow the same structure:
+  ' class Options extends State implements Statemethods { ... }
+  ' class Loadgame extends State implements Statemethods { ... }
+  ' For brevity, only Menu and Playing are fully shown.
+}
+
+' Relationships for State Pattern Core:
+Game o--> Menu : (creates and holds)
+Game o--> Playing : (creates and holds)
+' Game would similarly hold other concrete states
+
+State <|-- Menu
+State <|-- Playing
+' State <|-- Options
+' State <|-- Loadgame
+' ... etc.
+
+Menu ..|> Statemethods
+Playing ..|> Statemethods
+' Options ..|> Statemethods
+' Loadgame ..|> Statemethods
+' ... etc.
+
+State o--> Game : (has a)
+
+' Context (Game) delegates to the current state object
+Game ..> Gamestate : (reads Gamestate.state to decide which concrete state's methods to call)
+' Concrete states (Menu, Playing) modify Gamestate.state to transition
+Menu ..> Gamestate : (writes to Gamestate.state)
+Playing ..> Gamestate : (writes to Gamestate.state)
+
+
+note right of Game
+  **Context:**
+  Delegates behavior to
+  the current concrete state
+  object based on
+  `Gamestate.state`.
+end note
+
+note bottom of State
+  **Abstract State:**
+  (represented by `State` class
+  and `Statemethods` interface)
+  Defines common interface and
+  may hold reference to Context.
+end note
+
+note right of Menu
+  **Concrete State (e.g., Menu):**
+  Implements behavior specific
+  to this state. Can transition
+  to other states by modifying
+  `Gamestate.state`.
+end note
+@enduml

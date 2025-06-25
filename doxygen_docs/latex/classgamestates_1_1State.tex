@@ -1,0 +1,250 @@
+\hypertarget{classgamestates_1_1State}{}\doxysection{gamestates.\+State Class Reference}
+\label{classgamestates_1_1State}\index{gamestates.State@{gamestates.State}}
+
+
+Clasă de bază pentru diferitele stări ale jocului (de ex., Meniu, Joc propriu-\/zis).  
+
+
+
+
+Inheritance diagram for gamestates.\+State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1State__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1State__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1State_a83d4f23b06e026dcd92c3d831ad23437}{State}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classgamestates_1_1State}{State}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1State_af301d65adee91561c0e7a092dcfdbb41}{is\+In}} (Mouse\+Event e, \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}} mb)
+\begin{DoxyCompactList}\small\item\em Verifică dacă evenimentul de mouse s-\/a produs în interiorul limitelor unui buton de meniu. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1State_aa4a6d92c7d01a9ffff1932d86c37b896}{is\+In}} (Mouse\+Event e, \mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}} lb)
+\begin{DoxyCompactList}\small\item\em Verifică dacă evenimentul de mouse s-\/a produs în interiorul limitelor unui buton de nivel. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_a8a740bbfd30baaed7290a85ba947e27c}{get\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Returnează instanța principală a jocului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}{draw\+Back\+Button}} (Graphics2D g2d)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} dacă \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1State_a2baea80212dc44b2e21db3f9e449d4da}{is\+Back\+Button\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Verifică dacă butonul \char`\"{}Înapoi\char`\"{} a fost apăsat, pe baza coordonatelor evenimentului de mouse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}}
+\begin{DoxyCompactList}\small\item\em Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1State_a090a7574594f02e814a4e2a01ab1cef6}{back\+Button\+Bounds}}
+\begin{DoxyCompactList}\small\item\em Dreptunghiul care definește limitele butonului \char`\"{}Înapoi\char`\"{}, dacă există în această stare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1State_ab90e1a5dc3d84ee62cfc63b80fe4fcb7}{show\+Debug\+Hitbox}} = true
+\begin{DoxyCompactList}\small\item\em Flag pentru a afișa sau nu hitbox-\/urile în scop de depanare (implicit true). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasă de bază pentru diferitele stări ale jocului (de ex., Meniu, Joc propriu-\/zis). 
+
+Oferă funcționalități comune și o referință la obiectul principal al jocului. Deși nu este declarată abstractă, este concepută pentru a fi extinsă de stări specifice. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1State_a83d4f23b06e026dcd92c3d831ad23437}\label{classgamestates_1_1State_a83d4f23b06e026dcd92c3d831ad23437}} 
+\index{gamestates.State@{gamestates.State}!State@{State}}
+\index{State@{State}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{State()}{State()}}
+{\footnotesize\ttfamily gamestates.\+State.\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classgamestates_1_1State}{State}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}\label{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}} 
+\index{gamestates.State@{gamestates.State}!drawBackButton@{drawBackButton}}
+\index{drawBackButton@{drawBackButton}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{drawBackButton()}{drawBackButton()}}
+{\footnotesize\ttfamily void gamestates.\+State.\+draw\+Back\+Button (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} dacă 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1State_ab90e1a5dc3d84ee62cfc63b80fe4fcb7}{showDebugHitbox}} }
+
+\end{DoxyCode}
+ este true și 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1State_a090a7574594f02e814a4e2a01ab1cef6}{backButtonBounds}} }
+
+\end{DoxyCode}
+ este definit. Folosit în scopuri de depanare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g2d} & Contextul grafic 2D \mbox{\hyperlink{}{Graphics2D}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classgamestates_1_1Playing_ad621ea0699ee23af51660357deb57f3a}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Menu_ad1b555b03e539fec6babc58dcc2eb599}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_aaca18a2ae99f03d0643a3d8084659729}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_af6f157d7a7e6ea1c8fa04665f6b17a9c}{gamestates.\+Leaderboard}}, and \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a713081eeb353728db0a46bb40291ee3c}{gamestates.\+Game\+Over\+Overlay}}.
+
+\mbox{\Hypertarget{classgamestates_1_1State_a8a740bbfd30baaed7290a85ba947e27c}\label{classgamestates_1_1State_a8a740bbfd30baaed7290a85ba947e27c}} 
+\index{gamestates.State@{gamestates.State}!getGame@{getGame}}
+\index{getGame@{getGame}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{getGame()}{getGame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1Game}{Game}} gamestates.\+State.\+get\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează instanța principală a jocului. 
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{}{Game}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1State_a2baea80212dc44b2e21db3f9e449d4da}\label{classgamestates_1_1State_a2baea80212dc44b2e21db3f9e449d4da}} 
+\index{gamestates.State@{gamestates.State}!isBackButtonPressed@{isBackButtonPressed}}
+\index{isBackButtonPressed@{isBackButtonPressed}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{isBackButtonPressed()}{isBackButtonPressed()}}
+{\footnotesize\ttfamily boolean gamestates.\+State.\+is\+Back\+Button\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Verifică dacă butonul \char`\"{}Înapoi\char`\"{} a fost apăsat, pe baza coordonatelor evenimentului de mouse. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul de mouse \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă butonul \char`\"{}Înapoi\char`\"{} a fost apăsat,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel sau dacă nu este definit. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1State_aa4a6d92c7d01a9ffff1932d86c37b896}\label{classgamestates_1_1State_aa4a6d92c7d01a9ffff1932d86c37b896}} 
+\index{gamestates.State@{gamestates.State}!isIn@{isIn}}
+\index{isIn@{isIn}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{isIn()}{isIn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean gamestates.\+State.\+is\+In (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e,  }\item[{\mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}}}]{lb }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă evenimentul de mouse s-\/a produs în interiorul limitelor unui buton de nivel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul de mouse \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+{\em lb} & Butonul de nivel \mbox{\hyperlink{}{Level\+Button}} de verificat. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă mouse-\/ul este în interiorul butonului,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1State_af301d65adee91561c0e7a092dcfdbb41}\label{classgamestates_1_1State_af301d65adee91561c0e7a092dcfdbb41}} 
+\index{gamestates.State@{gamestates.State}!isIn@{isIn}}
+\index{isIn@{isIn}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{isIn()}{isIn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean gamestates.\+State.\+is\+In (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e,  }\item[{\mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}}}]{mb }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă evenimentul de mouse s-\/a produs în interiorul limitelor unui buton de meniu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul de mouse \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+{\em mb} & Butonul de meniu \mbox{\hyperlink{}{Menu\+Button}} de verificat. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă mouse-\/ul este în interiorul butonului,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1State_a090a7574594f02e814a4e2a01ab1cef6}\label{classgamestates_1_1State_a090a7574594f02e814a4e2a01ab1cef6}} 
+\index{gamestates.State@{gamestates.State}!backButtonBounds@{backButtonBounds}}
+\index{backButtonBounds@{backButtonBounds}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{backButtonBounds}{backButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+State.\+back\+Button\+Bounds\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dreptunghiul care definește limitele butonului \char`\"{}Înapoi\char`\"{}, dacă există în această stare. 
+
+\mbox{\Hypertarget{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}\label{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}} 
+\index{gamestates.State@{gamestates.State}!game@{game}}
+\index{game@{game}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{game}{game}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1Game}{Game}} gamestates.\+State.\+game\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. 
+
+\mbox{\Hypertarget{classgamestates_1_1State_ab90e1a5dc3d84ee62cfc63b80fe4fcb7}\label{classgamestates_1_1State_ab90e1a5dc3d84ee62cfc63b80fe4fcb7}} 
+\index{gamestates.State@{gamestates.State}!showDebugHitbox@{showDebugHitbox}}
+\index{showDebugHitbox@{showDebugHitbox}!gamestates.State@{gamestates.State}}
+\doxysubsubsection{\texorpdfstring{showDebugHitbox}{showDebugHitbox}}
+{\footnotesize\ttfamily boolean gamestates.\+State.\+show\+Debug\+Hitbox = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Flag pentru a afișa sau nu hitbox-\/urile în scop de depanare (implicit true). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{State_8java}{State.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,334 @@
+\hypertarget{enumutilz_1_1Enemy__Animation__Rows}{}\doxysection{utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows Enum Reference}
+\label{enumutilz_1_1Enemy__Animation__Rows}\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+
+
+Enumerație ce definește rândurile de animație și numărul de cadre pentru inamici.  
+
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Directions}
+\begin{DoxyCompactList}\small\item\em Clasă internă statică ce definește constante pentru direcții. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a10b46e5a76e272c0a76c2298a81b1101}{Enemy\+\_\+\+Animation\+\_\+\+Rows}} (int \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a7cc6ccabbf879dd3341d51e94ba7bbe7}{row\+Index}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru constantele enum care nu au un număr specific de cadre definit (implicit 0). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a98025137380fd2cee631be7fbd1539dc}{Enemy\+\_\+\+Animation\+\_\+\+Rows}} (int \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a7cc6ccabbf879dd3341d51e94ba7bbe7}{row\+Index}}, int \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a79f1b5b8f09b7030610105001f272824}{frame\+Count}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru constantele enum. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a7e205491dfcaf797a4dd66ede7a2f72b}{get\+Row\+Index}} ()
+\begin{DoxyCompactList}\small\item\em Returnează indexul rândului din spritesheet pentru această animație. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a08992ff2bed0081321d12e77a2e4199b}{get\+Frame\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Returnează numărul de cadre (frame-\/uri) pentru această animație. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_aa7493208fe01f8b71dd8ba6de1451736}{DYING}} =(0, 15)
+\begin{DoxyCompactList}\small\item\em Animația de moarte. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_ac98729ae81e3ca0ce9088fbe3de694c1}{FALLING\+\_\+\+DOWN}} =(1, 6)
+\begin{DoxyCompactList}\small\item\em Animația de cădere. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a6ce636db40db871d8b461e5cac172cc5}{HURT}} =(2, 12)
+\begin{DoxyCompactList}\small\item\em Animația de rănire. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_af88e580ae286b61fd02b91abfa99e60d}{IDLE}} =(3, 18)
+\begin{DoxyCompactList}\small\item\em Animația de repaus (idle), cu clipire. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a3bcf4f7ae59bfea2545e753230d0c21c}{IDLE\+\_\+\+NO\+\_\+\+BLINK}} =(4, 18)
+\begin{DoxyCompactList}\small\item\em Animația de repaus (idle), fără clipire. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a002b2a64f68f7959a1ad028cac3d014e}{JUMP\+\_\+\+LOOP}} =(5, 6)
+\begin{DoxyCompactList}\small\item\em Animația de buclă a săriturii (în aer). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a04067c0070fbe65cc1d89a923ec1bd80}{JUMP\+\_\+\+START}} =(6,6)
+\begin{DoxyCompactList}\small\item\em Animația de început a săriturii. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a47c8c0eaea1644a5b6fe2a3263531e45}{KICKING}} =(7, 12)
+\begin{DoxyCompactList}\small\item\em Animația de lovitură cu piciorul. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_aa11f1400593b58e823536f5667eec265}{RUN\+\_\+\+SLASING}} =(8,12)
+\begin{DoxyCompactList}\small\item\em Animația de atac cu tăietură în timpul alergării. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a634238df0a86992f463cc7f248babd7d}{RUN\+\_\+\+THROWING}} =(9,12)
+\begin{DoxyCompactList}\small\item\em Animația de aruncare în timpul alergării. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a025edd76457a84981d38134713b8238c}{RUNNING}} =(10,12)
+\begin{DoxyCompactList}\small\item\em Animația de alergare. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a97615385798fcde39251cb3385805d85}{SLASHING\+\_\+\+IN\+\_\+\+THE\+\_\+\+AIR}} =(11,12)
+\begin{DoxyCompactList}\small\item\em Animația de atac cu tăietură în aer. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a4eea3f87eed763b2f624c2698d0bfe53}{SLASHING}} =(12,12)
+\begin{DoxyCompactList}\small\item\em Animația de atac cu tăietură (la sol). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a451ce18012f9aacc93d810288bcfb3df}{SLIDING}} =(13,6)
+\begin{DoxyCompactList}\small\item\em Animația de alunecare. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_afed1dcc1dece31afbad0207a51bcc45a}{THROWING\+\_\+\+IN\+\_\+\+THE\+\_\+\+AIR}} =(14,6)
+\begin{DoxyCompactList}\small\item\em Animația de aruncare în aer. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_ab9370cc2acca1d7abeb606b796c70e39}{THROWING}} =(15,6)
+\begin{DoxyCompactList}\small\item\em Animația de aruncare (la sol). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a28dd2ce1c8769d12febd11cb81153d07}{WALKING}} =(16, 24)
+\begin{DoxyCompactList}\small\item\em Animația de mers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final int \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a7cc6ccabbf879dd3341d51e94ba7bbe7}{row\+Index}}
+\begin{DoxyCompactList}\small\item\em Indexul rândului din spritesheet corespunzător acestei animații. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows_a79f1b5b8f09b7030610105001f272824}{frame\+Count}}
+\begin{DoxyCompactList}\small\item\em Numărul de cadre (frame-\/uri) pentru această animație. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Enumerație ce definește rândurile de animație și numărul de cadre pentru inamici. 
+
+Fiecare constantă corespunde unui rând specific dintr-\/un spritesheet de animații pentru inamici. Este utilizată pentru a gestiona și accesa secvențele de animație. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a10b46e5a76e272c0a76c2298a81b1101}\label{enumutilz_1_1Enemy__Animation__Rows_a10b46e5a76e272c0a76c2298a81b1101}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!Enemy\_Animation\_Rows@{Enemy\_Animation\_Rows}}
+\index{Enemy\_Animation\_Rows@{Enemy\_Animation\_Rows}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{Enemy\_Animation\_Rows()}{Enemy\_Animation\_Rows()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Enemy\+\_\+\+Animation\+\_\+\+Rows (\begin{DoxyParamCaption}\item[{int}]{row\+Index }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru constantele enum care nu au un număr specific de cadre definit (implicit 0). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Index} & Indexul rândului animației. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a98025137380fd2cee631be7fbd1539dc}\label{enumutilz_1_1Enemy__Animation__Rows_a98025137380fd2cee631be7fbd1539dc}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!Enemy\_Animation\_Rows@{Enemy\_Animation\_Rows}}
+\index{Enemy\_Animation\_Rows@{Enemy\_Animation\_Rows}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{Enemy\_Animation\_Rows()}{Enemy\_Animation\_Rows()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Enemy\+\_\+\+Animation\+\_\+\+Rows (\begin{DoxyParamCaption}\item[{int}]{row\+Index,  }\item[{int}]{frame\+Count }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru constantele enum. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row\+Index} & Indexul rândului animației în spritesheet. \\
+\hline
+{\em frame\+Count} & Numărul de cadre pentru animație. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a08992ff2bed0081321d12e77a2e4199b}\label{enumutilz_1_1Enemy__Animation__Rows_a08992ff2bed0081321d12e77a2e4199b}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!getFrameCount@{getFrameCount}}
+\index{getFrameCount@{getFrameCount}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{getFrameCount()}{getFrameCount()}}
+{\footnotesize\ttfamily int utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+get\+Frame\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează numărul de cadre (frame-\/uri) pentru această animație. 
+
+\begin{DoxyReturn}{Returns}
+Numărul de cadre. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a7e205491dfcaf797a4dd66ede7a2f72b}\label{enumutilz_1_1Enemy__Animation__Rows_a7e205491dfcaf797a4dd66ede7a2f72b}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!getRowIndex@{getRowIndex}}
+\index{getRowIndex@{getRowIndex}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{getRowIndex()}{getRowIndex()}}
+{\footnotesize\ttfamily int utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+get\+Row\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează indexul rândului din spritesheet pentru această animație. 
+
+\begin{DoxyReturn}{Returns}
+Indexul rândului. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_aa7493208fe01f8b71dd8ba6de1451736}\label{enumutilz_1_1Enemy__Animation__Rows_aa7493208fe01f8b71dd8ba6de1451736}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!DYING@{DYING}}
+\index{DYING@{DYING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{DYING}{DYING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+DYING =(0, 15)}
+
+
+
+Animația de moarte. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_ac98729ae81e3ca0ce9088fbe3de694c1}\label{enumutilz_1_1Enemy__Animation__Rows_ac98729ae81e3ca0ce9088fbe3de694c1}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!FALLING\_DOWN@{FALLING\_DOWN}}
+\index{FALLING\_DOWN@{FALLING\_DOWN}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{FALLING\_DOWN}{FALLING\_DOWN}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+FALLING\+\_\+\+DOWN =(1, 6)}
+
+
+
+Animația de cădere. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a79f1b5b8f09b7030610105001f272824}\label{enumutilz_1_1Enemy__Animation__Rows_a79f1b5b8f09b7030610105001f272824}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!frameCount@{frameCount}}
+\index{frameCount@{frameCount}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{frameCount}{frameCount}}
+{\footnotesize\ttfamily final int utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+frame\+Count\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numărul de cadre (frame-\/uri) pentru această animație. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a6ce636db40db871d8b461e5cac172cc5}\label{enumutilz_1_1Enemy__Animation__Rows_a6ce636db40db871d8b461e5cac172cc5}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!HURT@{HURT}}
+\index{HURT@{HURT}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{HURT}{HURT}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+HURT =(2, 12)}
+
+
+
+Animația de rănire. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_af88e580ae286b61fd02b91abfa99e60d}\label{enumutilz_1_1Enemy__Animation__Rows_af88e580ae286b61fd02b91abfa99e60d}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!IDLE@{IDLE}}
+\index{IDLE@{IDLE}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{IDLE}{IDLE}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+IDLE =(3, 18)}
+
+
+
+Animația de repaus (idle), cu clipire. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a3bcf4f7ae59bfea2545e753230d0c21c}\label{enumutilz_1_1Enemy__Animation__Rows_a3bcf4f7ae59bfea2545e753230d0c21c}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!IDLE\_NO\_BLINK@{IDLE\_NO\_BLINK}}
+\index{IDLE\_NO\_BLINK@{IDLE\_NO\_BLINK}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{IDLE\_NO\_BLINK}{IDLE\_NO\_BLINK}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+IDLE\+\_\+\+NO\+\_\+\+BLINK =(4, 18)}
+
+
+
+Animația de repaus (idle), fără clipire. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a002b2a64f68f7959a1ad028cac3d014e}\label{enumutilz_1_1Enemy__Animation__Rows_a002b2a64f68f7959a1ad028cac3d014e}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!JUMP\_LOOP@{JUMP\_LOOP}}
+\index{JUMP\_LOOP@{JUMP\_LOOP}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{JUMP\_LOOP}{JUMP\_LOOP}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+JUMP\+\_\+\+LOOP =(5, 6)}
+
+
+
+Animația de buclă a săriturii (în aer). 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a04067c0070fbe65cc1d89a923ec1bd80}\label{enumutilz_1_1Enemy__Animation__Rows_a04067c0070fbe65cc1d89a923ec1bd80}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!JUMP\_START@{JUMP\_START}}
+\index{JUMP\_START@{JUMP\_START}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{JUMP\_START}{JUMP\_START}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+JUMP\+\_\+\+START =(6,6)}
+
+
+
+Animația de început a săriturii. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a47c8c0eaea1644a5b6fe2a3263531e45}\label{enumutilz_1_1Enemy__Animation__Rows_a47c8c0eaea1644a5b6fe2a3263531e45}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!KICKING@{KICKING}}
+\index{KICKING@{KICKING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{KICKING}{KICKING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+KICKING =(7, 12)}
+
+
+
+Animația de lovitură cu piciorul. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a7cc6ccabbf879dd3341d51e94ba7bbe7}\label{enumutilz_1_1Enemy__Animation__Rows_a7cc6ccabbf879dd3341d51e94ba7bbe7}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!rowIndex@{rowIndex}}
+\index{rowIndex@{rowIndex}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{rowIndex}{rowIndex}}
+{\footnotesize\ttfamily final int utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+row\+Index\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indexul rândului din spritesheet corespunzător acestei animații. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_aa11f1400593b58e823536f5667eec265}\label{enumutilz_1_1Enemy__Animation__Rows_aa11f1400593b58e823536f5667eec265}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!RUN\_SLASING@{RUN\_SLASING}}
+\index{RUN\_SLASING@{RUN\_SLASING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{RUN\_SLASING}{RUN\_SLASING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+RUN\+\_\+\+SLASING =(8,12)}
+
+
+
+Animația de atac cu tăietură în timpul alergării. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a634238df0a86992f463cc7f248babd7d}\label{enumutilz_1_1Enemy__Animation__Rows_a634238df0a86992f463cc7f248babd7d}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!RUN\_THROWING@{RUN\_THROWING}}
+\index{RUN\_THROWING@{RUN\_THROWING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{RUN\_THROWING}{RUN\_THROWING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+RUN\+\_\+\+THROWING =(9,12)}
+
+
+
+Animația de aruncare în timpul alergării. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a025edd76457a84981d38134713b8238c}\label{enumutilz_1_1Enemy__Animation__Rows_a025edd76457a84981d38134713b8238c}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!RUNNING@{RUNNING}}
+\index{RUNNING@{RUNNING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{RUNNING}{RUNNING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+RUNNING =(10,12)}
+
+
+
+Animația de alergare. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a4eea3f87eed763b2f624c2698d0bfe53}\label{enumutilz_1_1Enemy__Animation__Rows_a4eea3f87eed763b2f624c2698d0bfe53}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!SLASHING@{SLASHING}}
+\index{SLASHING@{SLASHING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{SLASHING}{SLASHING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+SLASHING =(12,12)}
+
+
+
+Animația de atac cu tăietură (la sol). 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a97615385798fcde39251cb3385805d85}\label{enumutilz_1_1Enemy__Animation__Rows_a97615385798fcde39251cb3385805d85}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!SLASHING\_IN\_THE\_AIR@{SLASHING\_IN\_THE\_AIR}}
+\index{SLASHING\_IN\_THE\_AIR@{SLASHING\_IN\_THE\_AIR}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{SLASHING\_IN\_THE\_AIR}{SLASHING\_IN\_THE\_AIR}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+SLASHING\+\_\+\+IN\+\_\+\+THE\+\_\+\+AIR =(11,12)}
+
+
+
+Animația de atac cu tăietură în aer. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a451ce18012f9aacc93d810288bcfb3df}\label{enumutilz_1_1Enemy__Animation__Rows_a451ce18012f9aacc93d810288bcfb3df}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!SLIDING@{SLIDING}}
+\index{SLIDING@{SLIDING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{SLIDING}{SLIDING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+SLIDING =(13,6)}
+
+
+
+Animația de alunecare. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_ab9370cc2acca1d7abeb606b796c70e39}\label{enumutilz_1_1Enemy__Animation__Rows_ab9370cc2acca1d7abeb606b796c70e39}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!THROWING@{THROWING}}
+\index{THROWING@{THROWING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{THROWING}{THROWING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+THROWING =(15,6)}
+
+
+
+Animația de aruncare (la sol). 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_afed1dcc1dece31afbad0207a51bcc45a}\label{enumutilz_1_1Enemy__Animation__Rows_afed1dcc1dece31afbad0207a51bcc45a}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!THROWING\_IN\_THE\_AIR@{THROWING\_IN\_THE\_AIR}}
+\index{THROWING\_IN\_THE\_AIR@{THROWING\_IN\_THE\_AIR}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{THROWING\_IN\_THE\_AIR}{THROWING\_IN\_THE\_AIR}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+THROWING\+\_\+\+IN\+\_\+\+THE\+\_\+\+AIR =(14,6)}
+
+
+
+Animația de aruncare în aer. 
+
+\mbox{\Hypertarget{enumutilz_1_1Enemy__Animation__Rows_a28dd2ce1c8769d12febd11cb81153d07}\label{enumutilz_1_1Enemy__Animation__Rows_a28dd2ce1c8769d12febd11cb81153d07}} 
+\index{utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}!WALKING@{WALKING}}
+\index{WALKING@{WALKING}!utilz.Enemy\_Animation\_Rows@{utilz.Enemy\_Animation\_Rows}}
+\doxysubsubsection{\texorpdfstring{WALKING}{WALKING}}
+{\footnotesize\ttfamily utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows.\+WALKING =(16, 24)}
+
+
+
+Animația de mers. 
+
+
+
+The documentation for this enum was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/utilz/\mbox{\hyperlink{Enemy__Animation__Rows_8java}{Enemy\+\_\+\+Animation\+\_\+\+Rows.\+java}}\end{DoxyCompactItemize}

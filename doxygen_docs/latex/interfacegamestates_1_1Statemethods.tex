@@ -1,0 +1,217 @@
+\hypertarget{interfacegamestates_1_1Statemethods}{}\doxysection{gamestates.\+Statemethods Interface Reference}
+\label{interfacegamestates_1_1Statemethods}\index{gamestates.Statemethods@{gamestates.Statemethods}}
+
+
+Interfață ce definește metodele comune pe care toate stările de joc (gamestates) trebuie să le implementeze.  
+
+
+
+
+Inheritance diagram for gamestates.\+Statemethods\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interfacegamestates_1_1Statemethods__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează logica specifică stării de joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele grafice specifice stării de joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentul de click al mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentul de apăsare a unui buton al mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentul de eliberare a unui buton al mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentul de mișcare a mouse-\/ului (fără butoane apăsate). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentul de mișcare a mouse-\/ului cu un buton apăsat (drag). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentul de apăsare a unei taste. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentul de eliberare a unei taste. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interfață ce definește metodele comune pe care toate stările de joc (gamestates) trebuie să le implementeze. 
+
+Aceste metode gestionează actualizarea logicii, desenarea și procesarea input-\/ului (mouse și tastatură). 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}\label{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!draw@{draw}}
+\index{draw@{draw}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează elementele grafice specifice stării de joc. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_a99940c255ab56ecf58d4b55586e31c55}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a7478147dcab20ca3d5e78d3894e8bdbd}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_a6325fd53ad48dd879f806daaf6cb945b}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_abba296201a6d4742ceb750c71b03d3b9}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a8bccea5ede276230160292c442cfea8c}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_af18b380949cc3073c08b239ed15d115f}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_ac1baef60af64e0368263624976a80357}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_afe6e00e8efa750bd0b89e8e367d71c9a}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}\label{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentul de apăsare a unei taste. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}} generat. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_a260f7a72b9a362e4791e449b98acb78e}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_aa4285e0986990bea0ff0e87b2a8622e1}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_ae7d7997ede03be458b43f650f45325d2}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_a903aae83f723226030ae6049ce797d27}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a79ac8f612b1211dddf5c30117ed110c0}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_a07a62a29be701ae262c611550df0ab0c}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a738c218e9fa832195eb07c978ca94b02}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a148b891d3d9e93bd99bfcb8e5c47cd59}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}\label{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentul de eliberare a unei taste. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}} generat. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_a3f52df580033fc884bc86565e656bb17}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a89d1cabbdb7d3766d339b90b3f42e337}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_a95097024db4ec6645ff5494fcb96811e}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_ae66551332c0248289e49f8f952abb3f2}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_ab7322c052d22e099ab2ef2b421d9f142}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_a95d4caf1427143742b60653a4a1e8fa6}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a5e737cac3d913f862e55b394e99e926d}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a10c9a61df14ac4b928f7b941ef45f950}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}\label{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentul de click al mouse-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}} generat. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_ac899be246459018309921a6b83be91d9}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a50afae230a2050c3baf51a964b8a1120}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_aef42befa32239a55e9b577e1e59ec96f}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_a3fde752312a2f021f825a5cdc938a37d}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a771ee28f47e0525f35962bdb8ec153b0}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_a8860597d8914616fe20af2019a4a0e3a}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_acaa178c4fe9aabfa0ffcbeab027b096b}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_af26f6d67f057ee9956fd98988ebda2e2}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}\label{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentul de mișcare a mouse-\/ului cu un buton apăsat (drag). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}} generat. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_a92d54046a9f6353706dbe214e50f68cf}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a3a2af86fa532627e4e782153688e4fac}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_a9e9df4215a279120e1a5f1a6fd953090}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_a5550f29fbe9efa4b171fac7c545b49e2}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a260c8b37aae4094289201338fec7f617}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_a4a6bbeb829533aeb951e98053076c96e}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_ad6f39ab94b47ed9e47334756dcd61b4e}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_ac85b5ad446d4d57d4beda1d01166df0c}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}\label{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentul de mișcare a mouse-\/ului (fără butoane apăsate). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}} generat. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_af76d77ca4a604b9bd37c353af9749750}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a737166c682f5a916c32c12f8cac7f383}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_abbe943623b557205df372c0ec4b46279}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_a3976bf8af26b33d04950a763585e4d0b}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_ad47d8d048dd61cc3f1fba9bd6a0cfb17}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_a1911ee9e4cdef8beffd319f81adfc7a3}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a79b44691859e32c45f7dfb3715cd14d6}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a131f155ab992a314bf8688f941ffea39}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}\label{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentul de apăsare a unui buton al mouse-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}} generat. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_aadb9e3ca9105af6fce1b06e3ba4d3c06}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a0b54cf00490bcbba7e867da65b2b57e9}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_a98bd4baf41c224dc1fea967335740cec}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_a29d4b41151e9be1e26b4d81e38fd9305}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a4e3c7ca48e8781ba8867b4d9bbd43f81}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_a95c604996450180d3ff414ef7d33666d}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_aad5caf7713540c3e8326edb4f39219ec}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a5b76795907c47c673b89ca643e4a309e}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}\label{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentul de eliberare a unui buton al mouse-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}} generat. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_ae3655bc36d71099e73a23cb9afffaf35}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a59bba68c91383353faf8d9470cea7f3a}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_aae9176903dbb1678b14887f492b56651}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_ab830041a9905f30168e0568320f5d58e}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a14ea475b56e7db3b85b0fcc10c6d69da}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_a191255a952d755c53baf6f98ed2ff4f1}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_a8d4c29f5167ffbd265f0889f309f04fa}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a6a16cb61013206f54321314a4dcb457f}{gamestates.\+Enter\+Name\+Overlay}}.
+
+\mbox{\Hypertarget{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}\label{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}} 
+\index{gamestates.Statemethods@{gamestates.Statemethods}!update@{update}}
+\index{update@{update}!gamestates.Statemethods@{gamestates.Statemethods}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Statemethods.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează logica specifică stării de joc. 
+
+Apelată în fiecare ciclu al buclei principale a jocului. 
+
+Implemented in \mbox{\hyperlink{classgamestates_1_1Playing_a1c5daa7bd446f6a4b6f360e591fcb8c0}{gamestates.\+Playing}}, \mbox{\hyperlink{classgamestates_1_1Options_a3f353af8ca884fe210b07bc0aa488da4}{gamestates.\+Options}}, \mbox{\hyperlink{classgamestates_1_1Menu_a197b7d1fdc1aa18db27bdf8d4744e985}{gamestates.\+Menu}}, \mbox{\hyperlink{classgamestates_1_1Loadgame_a868c74b0c3b1b373ce3b2106a6f8979a}{gamestates.\+Loadgame}}, \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a169609377ff7d00c849bf14a9469d7bf}{gamestates.\+Level\+Finished\+Overlay}}, \mbox{\hyperlink{classgamestates_1_1Leaderboard_af4be0529f543522bcd7d15170e69e42c}{gamestates.\+Leaderboard}}, \mbox{\hyperlink{classgamestates_1_1GameOverOverlay_aae62f39f14d7f001490f81898dc243b5}{gamestates.\+Game\+Over\+Overlay}}, and \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_aac0ec72c77765663888ae9cc8d7759a7}{gamestates.\+Enter\+Name\+Overlay}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{Statemethods_8java}{Statemethods.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,359 @@
+\hypertarget{classentities_1_1Gem}{}\doxysection{entities.\+Gem Class Reference}
+\label{classentities_1_1Gem}\index{entities.Gem@{entities.Gem}}
+
+
+Reprezintă un obiect de tip \char`\"{}\+Gem\char`\"{} (piatră prețioasă) în joc.  
+
+
+
+
+Collaboration diagram for entities.\+Gem\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classentities_1_1Gem__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Gem_a7c9840f952e7999545e01de76087488e}{Gem}} (float \mbox{\hyperlink{classentities_1_1Gem_a246f2844e2b4305887546efc42bc581a}{x}}, float \mbox{\hyperlink{classentities_1_1Gem_ae7f92834dbf62c305f98d6435c313104}{y}}, int \mbox{\hyperlink{classentities_1_1Gem_a8f350c30eddc42065f7ef232a25f0661}{level\+Id}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Gem}{Gem}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Gem_a1460fd3f6fb3538244f9b75d994a0ed1}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea gem-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Gem_a0cf40c5f4d5243f408098b584f286de9}{draw}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează gem-\/ul pe ecran. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Gem_adc41e84a43d1191b6205d7bebe2d65fc}{get\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Returnează hitbox-\/ul gem-\/ului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Gem_a17e741aa51d98ad7b501c5eb0f7f73e8}{is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă gem-\/ul este activ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Gem_a760fbccc26dfd390d03e6c6c5ce93f99}{set\+Active}} (boolean \mbox{\hyperlink{classentities_1_1Gem_af24bdac2f431fd0575c90d96935c2106}{active}})
+\begin{DoxyCompactList}\small\item\em Setează starea de activare a gem-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classentities_1_1Gem_a246f2844e2b4305887546efc42bc581a}{x}}
+\begin{DoxyCompactList}\small\item\em Coordonata x a colțului stânga-\/sus al gem-\/ului (pentru poziționarea inițială a hitbox-\/ului). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_ae7f92834dbf62c305f98d6435c313104}{y}}
+\begin{DoxyCompactList}\small\item\em Coordonata y a colțului stânga-\/sus al gem-\/ului (pentru poziționarea inițială a hitbox-\/ului). \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{classentities_1_1Gem_abda0f773c65a868d5f3f3002f942feda}{image}}
+\begin{DoxyCompactList}\small\item\em Imaginea (sprite-\/ul) gem-\/ului. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Gem_ace5d62f7b2e9adc828cff1acc57c36ee}{hitbox}}
+\begin{DoxyCompactList}\small\item\em Dreptunghiul de coliziune (hitbox) al gem-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_af3edfc8c507e5457f6d63e35143c81b7}{originalY}}
+\begin{DoxyCompactList}\small\item\em Coordonata Y inițială (de bază) pentru animația de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_a87607c57a63e8c8f4bb49a5814dff9d5}{float\+Speed}} = 0.\+05f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza animației de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_acfb28d94629fdb65c16d0651a8738a6e}{float\+Amplitude}} = 1.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Amplitudinea mișcării de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_adc5e54b8f78bf6749b74835da1b4509b}{float\+Angle}} = 0
+\begin{DoxyCompactList}\small\item\em Unghiul curent în ciclul de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_ab77ffffc319bb15301387d30333733ba}{original\+Width}}
+\begin{DoxyCompactList}\small\item\em Lățimea originală a imaginii gem-\/ului, scalată cu \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game\#\+SCALE}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_a289883ccca97a0de1b54b43d1bd9bcc7}{original\+Height}}
+\begin{DoxyCompactList}\small\item\em Înălțimea originală a imaginii gem-\/ului, scalată cu \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game\#\+SCALE}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_acfc832d0fe24a7533f5517863ddd7986}{scale\+Factor}} = 1.\+0f
+\begin{DoxyCompactList}\small\item\em Factorul de scalare curent pentru animația de respirație. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_ad771d69eea028a136f575f34c655ffd5}{scale\+Speed}} = 0.\+005f
+\begin{DoxyCompactList}\small\item\em Viteza cu care se schimbă factorul de scalare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_a76676c9ddcd3f78990ce10f427779476}{min\+Scale}} = 0.\+9f
+\begin{DoxyCompactList}\small\item\em Factorul minim de scalare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Gem_acb9250a6136216e0204146a4ea61adda}{max\+Scale}} = 1.\+1f
+\begin{DoxyCompactList}\small\item\em Factorul maxim de scalare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Gem_a3a5189c35a5facfa54a48b489c4afb33}{scaling\+Up}} = true
+\begin{DoxyCompactList}\small\item\em Indică dacă gem-\/ul se mărește (true) sau se micșorează (false) în animația de respirație. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Gem_af24bdac2f431fd0575c90d96935c2106}{active}} = true
+\begin{DoxyCompactList}\small\item\em Indică dacă gem-\/ul este activ (poate fi colectat și desenat). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Gem_a8f350c30eddc42065f7ef232a25f0661}{level\+Id}}
+\begin{DoxyCompactList}\small\item\em ID-\/ul nivelului în care a fost generat gem-\/ul, pentru a determina tipul de gem (culoarea). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă un obiect de tip \char`\"{}\+Gem\char`\"{} (piatră prețioasă) în joc. 
+
+Gem-\/urile sunt probabil obiecte speciale, posibil lăsate de boși la înfrângere. Această clasă gestionează animația de plutire și scalare a gem-\/ului. Nu extinde \mbox{\hyperlink{classentities_1_1Entity}{Entity}} direct, ci gestionează propriul hitbox. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Gem_a7c9840f952e7999545e01de76087488e}\label{classentities_1_1Gem_a7c9840f952e7999545e01de76087488e}} 
+\index{entities.Gem@{entities.Gem}!Gem@{Gem}}
+\index{Gem@{Gem}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{Gem()}{Gem()}}
+{\footnotesize\ttfamily entities.\+Gem.\+Gem (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{level\+Id }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Gem}{Gem}}. 
+
+Inițializează gem-\/ul la o poziție specificată, cu un sprite corespunzător ID-\/ului nivelului.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x unde va fi centrat gem-\/ul. \\
+\hline
+{\em y} & Poziția y unde va fi centrat gem-\/ul. \\
+\hline
+{\em level\+Id} & ID-\/ul nivelului, folosit pentru a alege sprite-\/ul gem-\/ului. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Gem_a0cf40c5f4d5243f408098b584f286de9}\label{classentities_1_1Gem_a0cf40c5f4d5243f408098b584f286de9}} 
+\index{entities.Gem@{entities.Gem}!draw@{draw}}
+\index{draw@{draw}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void entities.\+Gem.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Desenează gem-\/ul pe ecran. 
+
+Imaginea este desenată la dimensiunile și poziția hitbox-\/ului curent (care include efectele de animație).
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+{\em x\+Lvl\+Offset} & Offset-\/ul orizontal al nivelului pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Gem_adc41e84a43d1191b6205d7bebe2d65fc}\label{classentities_1_1Gem_adc41e84a43d1191b6205d7bebe2d65fc}} 
+\index{entities.Gem@{entities.Gem}!getHitbox@{getHitbox}}
+\index{getHitbox@{getHitbox}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{getHitbox()}{getHitbox()}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Gem.\+get\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează hitbox-\/ul gem-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{}{Rectangle2\+D.\+Float}} reprezentând hitbox-\/ul. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Gem_a17e741aa51d98ad7b501c5eb0f7f73e8}\label{classentities_1_1Gem_a17e741aa51d98ad7b501c5eb0f7f73e8}} 
+\index{entities.Gem@{entities.Gem}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean entities.\+Gem.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă gem-\/ul este activ. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă gem-\/ul este activ,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Gem_a760fbccc26dfd390d03e6c6c5ce93f99}\label{classentities_1_1Gem_a760fbccc26dfd390d03e6c6c5ce93f99}} 
+\index{entities.Gem@{entities.Gem}!setActive@{setActive}}
+\index{setActive@{setActive}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void entities.\+Gem.\+set\+Active (\begin{DoxyParamCaption}\item[{boolean}]{active }\end{DoxyParamCaption})}
+
+
+
+Setează starea de activare a gem-\/ului. 
+
+Un gem inactiv nu este actualizat sau desenat și nu poate fi colectat. 
+\begin{DoxyParams}{Parameters}
+{\em active} & Noua stare de activare. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Gem_a1460fd3f6fb3538244f9b75d994a0ed1}\label{classentities_1_1Gem_a1460fd3f6fb3538244f9b75d994a0ed1}} 
+\index{entities.Gem@{entities.Gem}!update@{update}}
+\index{update@{update}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Gem.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea gem-\/ului. 
+
+Gestionează animația de plutire și de \char`\"{}respirație\char`\"{} (scalare). Rulează doar dacă gem-\/ul este activ și are o imagine validă. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Gem_af24bdac2f431fd0575c90d96935c2106}\label{classentities_1_1Gem_af24bdac2f431fd0575c90d96935c2106}} 
+\index{entities.Gem@{entities.Gem}!active@{active}}
+\index{active@{active}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily boolean entities.\+Gem.\+active = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă gem-\/ul este activ (poate fi colectat și desenat). 
+
+\mbox{\Hypertarget{classentities_1_1Gem_acfb28d94629fdb65c16d0651a8738a6e}\label{classentities_1_1Gem_acfb28d94629fdb65c16d0651a8738a6e}} 
+\index{entities.Gem@{entities.Gem}!floatAmplitude@{floatAmplitude}}
+\index{floatAmplitude@{floatAmplitude}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{floatAmplitude}{floatAmplitude}}
+{\footnotesize\ttfamily float entities.\+Gem.\+float\+Amplitude = 1.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Amplitudinea mișcării de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_adc5e54b8f78bf6749b74835da1b4509b}\label{classentities_1_1Gem_adc5e54b8f78bf6749b74835da1b4509b}} 
+\index{entities.Gem@{entities.Gem}!floatAngle@{floatAngle}}
+\index{floatAngle@{floatAngle}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{floatAngle}{floatAngle}}
+{\footnotesize\ttfamily float entities.\+Gem.\+float\+Angle = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Unghiul curent în ciclul de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_a87607c57a63e8c8f4bb49a5814dff9d5}\label{classentities_1_1Gem_a87607c57a63e8c8f4bb49a5814dff9d5}} 
+\index{entities.Gem@{entities.Gem}!floatSpeed@{floatSpeed}}
+\index{floatSpeed@{floatSpeed}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{floatSpeed}{floatSpeed}}
+{\footnotesize\ttfamily float entities.\+Gem.\+float\+Speed = 0.\+05f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza animației de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_ace5d62f7b2e9adc828cff1acc57c36ee}\label{classentities_1_1Gem_ace5d62f7b2e9adc828cff1acc57c36ee}} 
+\index{entities.Gem@{entities.Gem}!hitbox@{hitbox}}
+\index{hitbox@{hitbox}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{hitbox}{hitbox}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Gem.\+hitbox\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dreptunghiul de coliziune (hitbox) al gem-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_abda0f773c65a868d5f3f3002f942feda}\label{classentities_1_1Gem_abda0f773c65a868d5f3f3002f942feda}} 
+\index{entities.Gem@{entities.Gem}!image@{image}}
+\index{image@{image}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily Buffered\+Image entities.\+Gem.\+image\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Imaginea (sprite-\/ul) gem-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_a8f350c30eddc42065f7ef232a25f0661}\label{classentities_1_1Gem_a8f350c30eddc42065f7ef232a25f0661}} 
+\index{entities.Gem@{entities.Gem}!levelId@{levelId}}
+\index{levelId@{levelId}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{levelId}{levelId}}
+{\footnotesize\ttfamily int entities.\+Gem.\+level\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ID-\/ul nivelului în care a fost generat gem-\/ul, pentru a determina tipul de gem (culoarea). 
+
+\mbox{\Hypertarget{classentities_1_1Gem_acb9250a6136216e0204146a4ea61adda}\label{classentities_1_1Gem_acb9250a6136216e0204146a4ea61adda}} 
+\index{entities.Gem@{entities.Gem}!maxScale@{maxScale}}
+\index{maxScale@{maxScale}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{maxScale}{maxScale}}
+{\footnotesize\ttfamily float entities.\+Gem.\+max\+Scale = 1.\+1f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul maxim de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_a76676c9ddcd3f78990ce10f427779476}\label{classentities_1_1Gem_a76676c9ddcd3f78990ce10f427779476}} 
+\index{entities.Gem@{entities.Gem}!minScale@{minScale}}
+\index{minScale@{minScale}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{minScale}{minScale}}
+{\footnotesize\ttfamily float entities.\+Gem.\+min\+Scale = 0.\+9f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul minim de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_a289883ccca97a0de1b54b43d1bd9bcc7}\label{classentities_1_1Gem_a289883ccca97a0de1b54b43d1bd9bcc7}} 
+\index{entities.Gem@{entities.Gem}!originalHeight@{originalHeight}}
+\index{originalHeight@{originalHeight}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{originalHeight}{originalHeight}}
+{\footnotesize\ttfamily float entities.\+Gem.\+original\+Height\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Înălțimea originală a imaginii gem-\/ului, scalată cu \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game\#\+SCALE}}. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_ab77ffffc319bb15301387d30333733ba}\label{classentities_1_1Gem_ab77ffffc319bb15301387d30333733ba}} 
+\index{entities.Gem@{entities.Gem}!originalWidth@{originalWidth}}
+\index{originalWidth@{originalWidth}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{originalWidth}{originalWidth}}
+{\footnotesize\ttfamily float entities.\+Gem.\+original\+Width\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lățimea originală a imaginii gem-\/ului, scalată cu \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game\#\+SCALE}}. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_af3edfc8c507e5457f6d63e35143c81b7}\label{classentities_1_1Gem_af3edfc8c507e5457f6d63e35143c81b7}} 
+\index{entities.Gem@{entities.Gem}!originalY@{originalY}}
+\index{originalY@{originalY}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{originalY}{originalY}}
+{\footnotesize\ttfamily float entities.\+Gem.\+originalY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordonata Y inițială (de bază) pentru animația de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_acfc832d0fe24a7533f5517863ddd7986}\label{classentities_1_1Gem_acfc832d0fe24a7533f5517863ddd7986}} 
+\index{entities.Gem@{entities.Gem}!scaleFactor@{scaleFactor}}
+\index{scaleFactor@{scaleFactor}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{scaleFactor}{scaleFactor}}
+{\footnotesize\ttfamily float entities.\+Gem.\+scale\+Factor = 1.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul de scalare curent pentru animația de respirație. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_ad771d69eea028a136f575f34c655ffd5}\label{classentities_1_1Gem_ad771d69eea028a136f575f34c655ffd5}} 
+\index{entities.Gem@{entities.Gem}!scaleSpeed@{scaleSpeed}}
+\index{scaleSpeed@{scaleSpeed}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{scaleSpeed}{scaleSpeed}}
+{\footnotesize\ttfamily float entities.\+Gem.\+scale\+Speed = 0.\+005f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza cu care se schimbă factorul de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_a3a5189c35a5facfa54a48b489c4afb33}\label{classentities_1_1Gem_a3a5189c35a5facfa54a48b489c4afb33}} 
+\index{entities.Gem@{entities.Gem}!scalingUp@{scalingUp}}
+\index{scalingUp@{scalingUp}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{scalingUp}{scalingUp}}
+{\footnotesize\ttfamily boolean entities.\+Gem.\+scaling\+Up = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă gem-\/ul se mărește (true) sau se micșorează (false) în animația de respirație. 
+
+\mbox{\Hypertarget{classentities_1_1Gem_a246f2844e2b4305887546efc42bc581a}\label{classentities_1_1Gem_a246f2844e2b4305887546efc42bc581a}} 
+\index{entities.Gem@{entities.Gem}!x@{x}}
+\index{x@{x}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily float entities.\+Gem.\+x\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordonata x a colțului stânga-\/sus al gem-\/ului (pentru poziționarea inițială a hitbox-\/ului). 
+
+\mbox{\Hypertarget{classentities_1_1Gem_ae7f92834dbf62c305f98d6435c313104}\label{classentities_1_1Gem_ae7f92834dbf62c305f98d6435c313104}} 
+\index{entities.Gem@{entities.Gem}!y@{y}}
+\index{y@{y}!entities.Gem@{entities.Gem}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily float entities.\+Gem.\+y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordonata y a colțului stânga-\/sus al gem-\/ului (pentru poziționarea inițială a hitbox-\/ului). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Gem_8java}{Gem.\+java}}\end{DoxyCompactItemize}

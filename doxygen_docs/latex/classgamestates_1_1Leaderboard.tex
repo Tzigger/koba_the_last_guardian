@@ -1,0 +1,568 @@
+\hypertarget{classgamestates_1_1Leaderboard}{}\doxysection{gamestates.\+Leaderboard Class Reference}
+\label{classgamestates_1_1Leaderboard}\index{gamestates.Leaderboard@{gamestates.Leaderboard}}
+
+
+Reprezintă starea de joc pentru afișarea clasamentului (\mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}}).  
+
+
+
+
+Inheritance diagram for gamestates.\+Leaderboard\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1Leaderboard__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Leaderboard\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1Leaderboard__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Player\+Data}
+\begin{DoxyCompactList}\small\item\em Clasă internă statică pentru a stoca datele unui jucător afișate în clasament. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Leaderboard_a3f6ac8a534bc5de65387571090746c62}{Leaderboard}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_af4be0529f543522bcd7d15170e69e42c}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea clasamentului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_af18b380949cc3073c08b239ed15d115f}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează clasamentul pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a9f4341c951b4f53282e3cdcce8415c05}{mouse\+Wheel\+Moved}} (Mouse\+Wheel\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de rotiță a mouse-\/ului pentru derularea listei clasamentului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a8860597d8914616fe20af2019a4a0e3a}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de click al mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a95c604996450180d3ff414ef7d33666d}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a191255a952d755c53baf6f98ed2ff4f1}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a1911ee9e4cdef8beffd319f81adfc7a3}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat, butoanele nu au efect de hover aici). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a4a6bbeb829533aeb951e98053076c96e}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a07a62a29be701ae262c611550df0ab0c}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de apăsare a tastei (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a95d4caf1427143742b60653a4a1e8fa6}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a tastei (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a2d51dea3d242b3d7021c39eb6c35b968}{set\+Previous\+State}} (\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} state)
+\begin{DoxyCompactList}\small\item\em Setează starea anterioară a jocului, pentru a permite revenirea la aceasta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_af6f157d7a7e6ea1c8fa04665f6b17a9c}{draw\+Back\+Button}} (Graphics2D g2d)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (X). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_abe651f47284916f1964e24afa06bc5d4}{refresh\+Leaderboard\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Reîmprospătează datele clasamentului prin încărcarea informațiilor despre toți jucătorii din baza de date și sortarea lor după scor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a2ee38db3e63d9fdff00f05cedabc0598}{load\+Custom\+Font}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă fontul personalizat folosit pentru textul din clasament. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a0401b74fab5de759164a52290ca32043}{load\+Start\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea de fundal generală. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Leaderboard_a33e047b466d18d0e98e79e597f70d9b3}{load\+Background}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea specifică a cadrului clasamentului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Leaderboard_ada11b62a1ffa3f2afeb3466df20bb8af}{background\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Leaderboard_aed475f09a264465b9cec52dfae08b128}{menuX}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Leaderboard_a44725ae37ad636d010f3cec11e7a8e1b}{startbg\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Leaderboard_a83646096a260e107be0d4643c04d23ad}{startbgX}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Leaderboard_ac7d0ef4af655245bcb7b527614aff7f2}{main\+Menu\+Button\+Bounds}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Leaderboard_ab14104cf6216f577dc64ad3185c95b57}{player\+Box\+Img}}
+\item 
+Font \mbox{\hyperlink{classgamestates_1_1Leaderboard_a1e287c7ebba9bfd1b4ce8cc979582b6a}{airstrike\+Font}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Leaderboard_a562e3dcfdcc2ce8bd1fd6b649ff63817}{knob\+Img}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Leaderboard_a0abd23623fb504e2069ef3f9b7232791}{groover\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Leaderboard_ad21e896f1bc2455898bad337113bf311}{scroll\+Offset}} = 0
+\begin{DoxyCompactList}\small\item\em Offset-\/ul curent de derulare verticală a listei. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Leaderboard_aeb8e55016fef723287fcddbd6551a5e1}{box\+Spacing}} = 110
+\begin{DoxyCompactList}\small\item\em Spațiul vertical (în pixeli) între fiecare intrare din clasament. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Leaderboard_a4a1197abeed2d14e6f581fed46c7241a}{visible\+Area\+Height}} = \mbox{\hyperlink{classgamestates_1_1Leaderboard_aeb8e55016fef723287fcddbd6551a5e1}{box\+Spacing}} $\ast$ 5
+\begin{DoxyCompactList}\small\item\em Înălțimea zonei vizibile a listei derulabile. \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Leaderboard_a150522c5409f63c7d58097c1b01aeba5}{buffer}}
+\begin{DoxyCompactList}\small\item\em Un buffer grafic pentru a desena conținutul înainte de a-\/l afișa pe ecran (pentru performanță/evitarea pâlpâirii). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Leaderboard_a47cc4c6a210f6f05d697c25ed7e45da6}{needs\+Redraw}} = true
+\begin{DoxyCompactList}\small\item\em Flag care indică dacă este necesară redesenarea conținutului buffer-\/ului. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Leaderboard_a43b571743719e2f7e68d166e350f9e7c}{back\+Button\+Bounds}}
+\item 
+\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classgamestates_1_1Leaderboard_aff6adb96094a759d40de1d3b0bee2cc6}{previous\+State}} = null
+\item 
+List$<$ Player\+Data $>$ \mbox{\hyperlink{classgamestates_1_1Leaderboard_a84a0593f7622d100f748bb903b441b46}{leaderboard\+Data}} = new Array\+List$<$$>$()
+\item 
+Simple\+Date\+Format \mbox{\hyperlink{classgamestates_1_1Leaderboard_ab63ef22d21c794d849093a097b0f50fa}{date\+Format}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classgamestates_1_1Leaderboard_a3e0f237fc51b8397f04ab9c3a27137fa}{DB\+\_\+\+FILE}} = \char`\"{}data/gamedatabase.\+db\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către fișierul bazei de date. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă starea de joc pentru afișarea clasamentului (\mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}}). 
+
+Încarcă datele jucătorilor din baza de date, le sortează după scor și le afișează într-\/o listă derulabilă. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a3f6ac8a534bc5de65387571090746c62}\label{classgamestates_1_1Leaderboard_a3f6ac8a534bc5de65387571090746c62}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!Leaderboard@{Leaderboard}}
+\index{Leaderboard@{Leaderboard}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{Leaderboard()}{Leaderboard()}}
+{\footnotesize\ttfamily gamestates.\+Leaderboard.\+Leaderboard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}}. 
+
+Inițializează elementele grafice, încarcă fonturile și datele din clasament.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_af18b380949cc3073c08b239ed15d115f}\label{classgamestates_1_1Leaderboard_af18b380949cc3073c08b239ed15d115f}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!draw@{draw}}
+\index{draw@{draw}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează clasamentul pe ecran. 
+
+Utilizează un buffer pentru a desena elementele doar atunci când este necesar (
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1Leaderboard_a47cc4c6a210f6f05d697c25ed7e45da6}{needsRedraw}} }
+
+\end{DoxyCode}
+ ). Afișează intrările jucătorilor, clasamentul, scorul și alte detalii, precum și o bară de derulare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_af6f157d7a7e6ea1c8fa04665f6b17a9c}\label{classgamestates_1_1Leaderboard_af6f157d7a7e6ea1c8fa04665f6b17a9c}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!drawBackButton@{drawBackButton}}
+\index{drawBackButton@{drawBackButton}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{drawBackButton()}{drawBackButton()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+draw\+Back\+Button (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (X). 
+
+Suprascrie metoda din \mbox{\hyperlink{classgamestates_1_1State}{State}} pentru a folosi
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1Leaderboard_a43b571743719e2f7e68d166e350f9e7c}{backButtonBounds}} }
+
+\end{DoxyCode}
+ specific acestei clase. 
+\begin{DoxyParams}{Parameters}
+{\em g2d} & Contextul grafic 2D. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}{gamestates.\+State}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a07a62a29be701ae262c611550df0ab0c}\label{classgamestates_1_1Leaderboard_a07a62a29be701ae262c611550df0ab0c}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de apăsare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a95d4caf1427143742b60653a4a1e8fa6}\label{classgamestates_1_1Leaderboard_a95d4caf1427143742b60653a4a1e8fa6}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a33e047b466d18d0e98e79e597f70d9b3}\label{classgamestates_1_1Leaderboard_a33e047b466d18d0e98e79e597f70d9b3}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!loadBackground@{loadBackground}}
+\index{loadBackground@{loadBackground}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{loadBackground()}{loadBackground()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+load\+Background (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea specifică a cadrului clasamentului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a2ee38db3e63d9fdff00f05cedabc0598}\label{classgamestates_1_1Leaderboard_a2ee38db3e63d9fdff00f05cedabc0598}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!loadCustomFont@{loadCustomFont}}
+\index{loadCustomFont@{loadCustomFont}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{loadCustomFont()}{loadCustomFont()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+load\+Custom\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă fontul personalizat folosit pentru textul din clasament. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a0401b74fab5de759164a52290ca32043}\label{classgamestates_1_1Leaderboard_a0401b74fab5de759164a52290ca32043}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!loadStartImg@{loadStartImg}}
+\index{loadStartImg@{loadStartImg}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{loadStartImg()}{loadStartImg()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+load\+Start\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea de fundal generală. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a8860597d8914616fe20af2019a4a0e3a}\label{classgamestates_1_1Leaderboard_a8860597d8914616fe20af2019a4a0e3a}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de click al mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a4a6bbeb829533aeb951e98053076c96e}\label{classgamestates_1_1Leaderboard_a4a6bbeb829533aeb951e98053076c96e}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a1911ee9e4cdef8beffd319f81adfc7a3}\label{classgamestates_1_1Leaderboard_a1911ee9e4cdef8beffd319f81adfc7a3}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat, butoanele nu au efect de hover aici). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a95c604996450180d3ff414ef7d33666d}\label{classgamestates_1_1Leaderboard_a95c604996450180d3ff414ef7d33666d}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a butonului mouse-\/ului. 
+
+Verifică dacă s-\/a apăsat pe butonul de întoarcere la meniul principal sau pe butonul \char`\"{}\+X\char`\"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a191255a952d755c53baf6f98ed2ff4f1}\label{classgamestates_1_1Leaderboard_a191255a952d755c53baf6f98ed2ff4f1}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a9f4341c951b4f53282e3cdcce8415c05}\label{classgamestates_1_1Leaderboard_a9f4341c951b4f53282e3cdcce8415c05}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!mouseWheelMoved@{mouseWheelMoved}}
+\index{mouseWheelMoved@{mouseWheelMoved}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{mouseWheelMoved()}{mouseWheelMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+mouse\+Wheel\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Wheel\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de rotiță a mouse-\/ului pentru derularea listei clasamentului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Wheel\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_abe651f47284916f1964e24afa06bc5d4}\label{classgamestates_1_1Leaderboard_abe651f47284916f1964e24afa06bc5d4}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!refreshLeaderboardData@{refreshLeaderboardData}}
+\index{refreshLeaderboardData@{refreshLeaderboardData}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{refreshLeaderboardData()}{refreshLeaderboardData()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+refresh\+Leaderboard\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reîmprospătează datele clasamentului prin încărcarea informațiilor despre toți jucătorii din baza de date și sortarea lor după scor. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a2d51dea3d242b3d7021c39eb6c35b968}\label{classgamestates_1_1Leaderboard_a2d51dea3d242b3d7021c39eb6c35b968}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!setPreviousState@{setPreviousState}}
+\index{setPreviousState@{setPreviousState}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{setPreviousState()}{setPreviousState()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+set\+Previous\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Setează starea anterioară a jocului, pentru a permite revenirea la aceasta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Starea anterioară \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_af4be0529f543522bcd7d15170e69e42c}\label{classgamestates_1_1Leaderboard_af4be0529f543522bcd7d15170e69e42c}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!update@{update}}
+\index{update@{update}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Leaderboard.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea clasamentului. 
+
+Momentan, nu necesită actualizări logice per frame, deoarece redesenarea este gestionată de flag-\/ul
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1Leaderboard_a47cc4c6a210f6f05d697c25ed7e45da6}{needsRedraw}} }
+
+\end{DoxyCode}
+ . 
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a1e287c7ebba9bfd1b4ce8cc979582b6a}\label{classgamestates_1_1Leaderboard_a1e287c7ebba9bfd1b4ce8cc979582b6a}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!airstrikeFont@{airstrikeFont}}
+\index{airstrikeFont@{airstrikeFont}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{airstrikeFont}{airstrikeFont}}
+{\footnotesize\ttfamily Font gamestates.\+Leaderboard.\+airstrike\+Font\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a43b571743719e2f7e68d166e350f9e7c}\label{classgamestates_1_1Leaderboard_a43b571743719e2f7e68d166e350f9e7c}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!backButtonBounds@{backButtonBounds}}
+\index{backButtonBounds@{backButtonBounds}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{backButtonBounds}{backButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Leaderboard.\+back\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_ada11b62a1ffa3f2afeb3466df20bb8af}\label{classgamestates_1_1Leaderboard_ada11b62a1ffa3f2afeb3466df20bb8af}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!backgroundImg@{backgroundImg}}
+\index{backgroundImg@{backgroundImg}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{backgroundImg}{backgroundImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Leaderboard.\+background\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_aeb8e55016fef723287fcddbd6551a5e1}\label{classgamestates_1_1Leaderboard_aeb8e55016fef723287fcddbd6551a5e1}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!boxSpacing@{boxSpacing}}
+\index{boxSpacing@{boxSpacing}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{boxSpacing}{boxSpacing}}
+{\footnotesize\ttfamily int gamestates.\+Leaderboard.\+box\+Spacing = 110\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Spațiul vertical (în pixeli) între fiecare intrare din clasament. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a150522c5409f63c7d58097c1b01aeba5}\label{classgamestates_1_1Leaderboard_a150522c5409f63c7d58097c1b01aeba5}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!buffer@{buffer}}
+\index{buffer@{buffer}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{buffer}{buffer}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Leaderboard.\+buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un buffer grafic pentru a desena conținutul înainte de a-\/l afișa pe ecran (pentru performanță/evitarea pâlpâirii). 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_ab63ef22d21c794d849093a097b0f50fa}\label{classgamestates_1_1Leaderboard_ab63ef22d21c794d849093a097b0f50fa}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!dateFormat@{dateFormat}}
+\index{dateFormat@{dateFormat}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{dateFormat}{dateFormat}}
+{\footnotesize\ttfamily Simple\+Date\+Format gamestates.\+Leaderboard.\+date\+Format\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a3e0f237fc51b8397f04ab9c3a27137fa}\label{classgamestates_1_1Leaderboard_a3e0f237fc51b8397f04ab9c3a27137fa}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!DB\_FILE@{DB\_FILE}}
+\index{DB\_FILE@{DB\_FILE}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{DB\_FILE}{DB\_FILE}}
+{\footnotesize\ttfamily final String gamestates.\+Leaderboard.\+DB\+\_\+\+FILE = \char`\"{}data/gamedatabase.\+db\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calea către fișierul bazei de date. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a0abd23623fb504e2069ef3f9b7232791}\label{classgamestates_1_1Leaderboard_a0abd23623fb504e2069ef3f9b7232791}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!grooverImg@{grooverImg}}
+\index{grooverImg@{grooverImg}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{grooverImg}{grooverImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Leaderboard.\+groover\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a562e3dcfdcc2ce8bd1fd6b649ff63817}\label{classgamestates_1_1Leaderboard_a562e3dcfdcc2ce8bd1fd6b649ff63817}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!knobImg@{knobImg}}
+\index{knobImg@{knobImg}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{knobImg}{knobImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Leaderboard.\+knob\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a84a0593f7622d100f748bb903b441b46}\label{classgamestates_1_1Leaderboard_a84a0593f7622d100f748bb903b441b46}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!leaderboardData@{leaderboardData}}
+\index{leaderboardData@{leaderboardData}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{leaderboardData}{leaderboardData}}
+{\footnotesize\ttfamily List$<$Player\+Data$>$ gamestates.\+Leaderboard.\+leaderboard\+Data = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_ac7d0ef4af655245bcb7b527614aff7f2}\label{classgamestates_1_1Leaderboard_ac7d0ef4af655245bcb7b527614aff7f2}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!mainMenuButtonBounds@{mainMenuButtonBounds}}
+\index{mainMenuButtonBounds@{mainMenuButtonBounds}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{mainMenuButtonBounds}{mainMenuButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Leaderboard.\+main\+Menu\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_aed475f09a264465b9cec52dfae08b128}\label{classgamestates_1_1Leaderboard_aed475f09a264465b9cec52dfae08b128}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!menuX@{menuX}}
+\index{menuX@{menuX}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{menuX}{menuX}}
+{\footnotesize\ttfamily int gamestates.\+Leaderboard.\+menuX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a47cc4c6a210f6f05d697c25ed7e45da6}\label{classgamestates_1_1Leaderboard_a47cc4c6a210f6f05d697c25ed7e45da6}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!needsRedraw@{needsRedraw}}
+\index{needsRedraw@{needsRedraw}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{needsRedraw}{needsRedraw}}
+{\footnotesize\ttfamily boolean gamestates.\+Leaderboard.\+needs\+Redraw = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Flag care indică dacă este necesară redesenarea conținutului buffer-\/ului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_ab14104cf6216f577dc64ad3185c95b57}\label{classgamestates_1_1Leaderboard_ab14104cf6216f577dc64ad3185c95b57}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!playerBoxImg@{playerBoxImg}}
+\index{playerBoxImg@{playerBoxImg}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{playerBoxImg}{playerBoxImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Leaderboard.\+player\+Box\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_aff6adb96094a759d40de1d3b0bee2cc6}\label{classgamestates_1_1Leaderboard_aff6adb96094a759d40de1d3b0bee2cc6}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!previousState@{previousState}}
+\index{previousState@{previousState}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{previousState}{previousState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} gamestates.\+Leaderboard.\+previous\+State = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_ad21e896f1bc2455898bad337113bf311}\label{classgamestates_1_1Leaderboard_ad21e896f1bc2455898bad337113bf311}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!scrollOffset@{scrollOffset}}
+\index{scrollOffset@{scrollOffset}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{scrollOffset}{scrollOffset}}
+{\footnotesize\ttfamily int gamestates.\+Leaderboard.\+scroll\+Offset = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset-\/ul curent de derulare verticală a listei. 
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a44725ae37ad636d010f3cec11e7a8e1b}\label{classgamestates_1_1Leaderboard_a44725ae37ad636d010f3cec11e7a8e1b}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!startbgImg@{startbgImg}}
+\index{startbgImg@{startbgImg}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{startbgImg}{startbgImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Leaderboard.\+startbg\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a83646096a260e107be0d4643c04d23ad}\label{classgamestates_1_1Leaderboard_a83646096a260e107be0d4643c04d23ad}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!startbgX@{startbgX}}
+\index{startbgX@{startbgX}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{startbgX}{startbgX}}
+{\footnotesize\ttfamily int gamestates.\+Leaderboard.\+startbgX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Leaderboard_a4a1197abeed2d14e6f581fed46c7241a}\label{classgamestates_1_1Leaderboard_a4a1197abeed2d14e6f581fed46c7241a}} 
+\index{gamestates.Leaderboard@{gamestates.Leaderboard}!visibleAreaHeight@{visibleAreaHeight}}
+\index{visibleAreaHeight@{visibleAreaHeight}!gamestates.Leaderboard@{gamestates.Leaderboard}}
+\doxysubsubsection{\texorpdfstring{visibleAreaHeight}{visibleAreaHeight}}
+{\footnotesize\ttfamily int gamestates.\+Leaderboard.\+visible\+Area\+Height = \mbox{\hyperlink{classgamestates_1_1Leaderboard_aeb8e55016fef723287fcddbd6551a5e1}{box\+Spacing}} $\ast$ 5\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Înălțimea zonei vizibile a listei derulabile. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{Leaderboard_8java}{Leaderboard.\+java}}\end{DoxyCompactItemize}

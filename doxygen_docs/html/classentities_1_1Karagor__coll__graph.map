@@ -1,0 +1,7 @@
+<map id="entities.Karagor" name="entities.Karagor">
+<area shape="rect" id="node1" title="Reprezintă entitatea Karagor în joc, care poate funcționa ca un boss." alt="" coords="151,307,277,333"/>
+<area shape="rect" id="node2" href="$classentities_1_1Player.html" title=" " alt="" coords="48,229,164,256"/>
+<area shape="rect" id="node3" href="$classentities_1_1Entity.html" title="Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici,..." alt="" coords="5,95,119,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="9,5,115,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="203,95,321,121"/>
+</map>

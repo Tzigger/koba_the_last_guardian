@@ -1,0 +1,793 @@
+\hypertarget{classentities_1_1EnemyManager}{}\doxysection{entities.\+Enemy\+Manager Class Reference}
+\label{classentities_1_1EnemyManager}\index{entities.EnemyManager@{entities.EnemyManager}}
+
+
+Gestionează toți inamicii din joc, inclusiv Nanites, Karagors, Goblins, Goblin\+Bosses și Golem\+Bosses.  
+
+
+
+
+Collaboration diagram for entities.\+Enemy\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classentities_1_1EnemyManager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classentities_1_1EnemyManager_1_1Point}{Point}}
+\begin{DoxyCompactList}\small\item\em Clasă internă simplă pentru a stoca informații despre un punct de spawn\+: coordonatele (x, y) și codul numeric al inamicului care trebuie spawnaț. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1EnemyManager_acd9d56b5f97a6cf45c6505891a91aad5}{Enemy\+Manager}} (\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classentities_1_1EnemyManager_ab49f9f7ad5f97f65129a474d09a9b102}{playing}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_ad5ddcbe731dec0b092246dd329260fe5}{update}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Actualizează starea tuturor inamicilor activi, proiectilelor și gem-\/urilor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a9753d18cb82f46ffe334953a8d8072ae}{draw}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toți inamicii activi, proiectilele și gem-\/urile pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_ade0b12a5b037e9f6c999de885c149f96}{load\+Enemies\+From\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1EnemyManager_a66624cae547ef886e89b8adc829f891d}{level\+Data}}, \mbox{\hyperlink{classlevels_1_1Level}{Level}} level)
+\begin{DoxyCompactList}\small\item\em Încarcă inamicii dintr-\/un nivel pe baza datelor acestuia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a18ecf8c71370a1892a29e7d310614261}{spawn\+All\+Enemies}} ()
+\begin{DoxyCompactList}\small\item\em Spawnează toți inamicii identificați în punctele de spawn. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a73ce2d25af4c1d767fb605bc2cba76df}{reset\+Enemies}} ()
+\begin{DoxyCompactList}\small\item\em Resetează toți inamicii din nivel. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1EnemyManager_a0d48f8e02edc65c6d4cef120ea874ab6}{get\+Current\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Returnează ID-\/ul nivelului curent. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a9d1a505f3889293315167c80d9d44cc7}{get\+Nanites}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de Nanites activi. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_ae2b6edcb9f82d857fd81c3a2c70ec351}{get\+Karagors}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de Karagors activi. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_aca5244e4ef71acbcbae0c280aaa8e21a}{get\+Goblins}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de Goblini activi. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_ac210150482179f8ed074a2b83ae3d30d}{get\+Goblin\+Bosses}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de Goblin\+Bosses activi. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Gem}{Gem}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_aafb20c2af3a19db241fb5bdd8c4a7f4d}{get\+Gems}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de Gem-\/uri active. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a7e33711d5b3d5424283a4770a4ea10ee}{get\+Golem\+Bosses}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de Golem\+Bosses activi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a6c985080d04784ced58a6b95f5fe0ce0}{add\+Projectile}} (\mbox{\hyperlink{classentities_1_1Projectile}{Projectile}} p)
+\begin{DoxyCompactList}\small\item\em Adaugă un proiectil la lista de proiectile active gestionate de \mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a26a0411985fb3c854c11ac1e52a9f6c4}{load\+Enemy\+Imgs}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă imaginile pentru toți inamicii (Nanites, Goblins). \end{DoxyCompactList}\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1EnemyManager_a0a76d80adaf061611f2dd6d2fb216992}{load\+Sprite\+Sheet}} (String path, int sprite\+Width, int sprite\+Height)
+\begin{DoxyCompactList}\small\item\em Încarcă un sprite sheet dintr-\/o cale specificată și îl împarte în frame-\/uri individuale. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_ab3dd3312a55f6b3ec5fccdae757c6664}{draw\+Golem\+Bosses}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toți Golem\+Bosses activi pe ecran, inclusiv bara lor de viață. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_afc05103f02b20bd9791f82f0f6547522}{draw\+Projectiles}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toate proiectilele active pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_aaf4ca93136287173623d5a02c4d87efb}{draw\+Goblin\+Bosses}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toți Goblin\+Bosses activi pe ecran, inclusiv bara lor de viață. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a7211c7f61e411f8fd9fbc88fa3c975fc}{draw\+Gems}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toate gem-\/urile active pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a79d73beb318ef208489e795dc6f89aba}{draw\+Goblins}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toți Goblinii activi (Noob și Hard) pe ecran, inclusiv bara lor de viață și hitbox-\/ul (dacă este activat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_ab096b6588da07792c90724e6ce7cf833}{draw\+Nanites}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toți Nanites activi (Jungla și Pestera) pe ecran, inclusiv bara lor de viață și hitbox-\/ul (dacă este activat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_af8377b3cd3454dc1aa8386c25884322f}{draw\+Karagors}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează toți Karagors activi pe ecran, inclusiv bara lor de viață. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_abc5870f0471e0b3ec6249c6a47884407}{draw\+Health\+Bar}} (Graphics g, \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} karagor, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_add25a634fecd762d6348dbf9cb2e0c6b}{draw\+Health\+Bar}} (Graphics g, \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} nanite, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a2bc5852d651fbc3107cbd389305c894d}{draw\+Health\+Bar}} (Graphics g, \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} goblin, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a603a8ae25ad8b32711bb91aee5ca4c06}{draw\+Health\+Bar}} (Graphics g, \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}} boss, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_af8deb170ff5665a4160a3772f6b718f1}{draw\+Health\+Bar}} (Graphics g, \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}} boss, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_addc4f9a2b475a458b5dbc99e56ac9135}{scan\+Level\+For\+Spawn\+Points}} ()
+\begin{DoxyCompactList}\small\item\em Scanează datele nivelului pentru a identifica punctele de spawn ale inamicilor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_ab0feb05b010b892e381e243c7dd771e9}{spawn\+Enemy}} (float x, float y, int enemy\+Code)
+\begin{DoxyCompactList}\small\item\em Spawnează un inamic la o poziție specificată, pe baza codului său. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_acc20cffeee2000c83dc6ae436af28ae9}{check\+For\+New\+Enemy\+Spawn}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Verifică dacă trebuie spawnați noi inamici pe baza proximității jucătorului față de punctele de spawn rămase. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a2451ef6fb143a3dd072e49091baeb5d1}{apply\+Knockback}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player, boolean enemy\+Hit\+From\+Left)
+\begin{DoxyCompactList}\small\item\em Aplică un efect de knockback jucătorului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_a289bc691ddcaf057d490435bd2673f00}{spawn\+Gem}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Spawnează un gem la o poziție specificată. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1EnemyManager_ae3153650fc5b642e7fa174f013f476fe}{try\+Spawn\+Collectible}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Încearcă să spawneze un obiect colectabil (banană sau nucă de cocos) la o poziție specificată, cu o șansă de 50\% pentru fiecare. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classentities_1_1EnemyManager_ab49f9f7ad5f97f65129a474d09a9b102}{playing}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1EnemyManager_a1cfd812e1fc45d5a002b2fb622cf5aa6}{nanite\+Imgs}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1EnemyManager_a1a3595d515953fb9ab78a372d21ba827}{nanite\+Pestera\+Imgs}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1EnemyManager_a0ac91decaa64d4a33b6497a99f1f0d93}{goblin\+Noob\+Imgs}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1EnemyManager_a3e34c82b45a5eaa64e165169e1227470}{goblin\+Hard\+Imgs}}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a25d5f62330cf529806384486f1f2ec6a}{nanites}} = new Array\+List$<$$>$()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a970f57504f17cc10ed0e41e9eb19aa7b}{karagors}} = new Array\+List$<$$>$()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a8e3f968a6e575d8e063c1118ac9d773f}{goblins}} = new Array\+List$<$$>$()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a109b42147cf7d9b6e0e8a7397b27095a}{goblin\+Bosses}} = new Array\+List$<$$>$()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a170cac67d46b8455863228fbf838dfdc}{golem\+Bosses}} = new Array\+List$<$$>$()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Projectile}{Projectile}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_ac6268f35ecaa08689740a4445939f07b}{projectiles}} = new Array\+List$<$$>$()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Gem}{Gem}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_aa254d467a66a730dc430412bc09a7cc3}{gems}} = new Array\+List$<$$>$()
+\item 
+Random \mbox{\hyperlink{classentities_1_1EnemyManager_a65372af739bf11e19b4713db59ad1899}{random}} = new Random()
+\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1EnemyManager_a66624cae547ef886e89b8adc829f891d}{level\+Data}}
+\item 
+int \mbox{\hyperlink{classentities_1_1EnemyManager_a4b8095b367600f8c3ecd2488d5cee219}{current\+Level}}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1EnemyManager_1_1Point}{Point}} $>$ \mbox{\hyperlink{classentities_1_1EnemyManager_a85d3b1a46b0b1da029d89f09bc034c7d}{spawn\+Points}} = new Array\+List$<$$>$()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1EnemyManager_addec1f15f7df6529c3f853439a1000ef}{all\+Enemies\+Spawned}} = false
+\item 
+float \mbox{\hyperlink{classentities_1_1EnemyManager_acd52316b2f8ec0367856f98d9fb1be71}{player\+Detection\+Distance}} = 400
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gestionează toți inamicii din joc, inclusiv Nanites, Karagors, Goblins, Goblin\+Bosses și Golem\+Bosses. 
+
+Se ocupă de încărcarea imaginilor inamicilor, actualizarea stării lor, desenarea lor pe ecran, gestionarea coliziunilor cu jucătorul și proiectilele, și spawn-\/ul inamicilor și al obiectelor colectabile. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_acd9d56b5f97a6cf45c6505891a91aad5}\label{classentities_1_1EnemyManager_acd9d56b5f97a6cf45c6505891a91aad5}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!EnemyManager@{EnemyManager}}
+\index{EnemyManager@{EnemyManager}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{EnemyManager()}{EnemyManager()}}
+{\footnotesize\ttfamily entities.\+Enemy\+Manager.\+Enemy\+Manager (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}}]{playing }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}}. 
+
+Inițializează managerul cu o referință la starea de joc \char`\"{}\+Playing\char`\"{}, încarcă imaginile inamicilor și setează nivelul curent la 1. 
+\begin{DoxyParams}{Parameters}
+{\em playing} & Referință la starea de joc \char`\"{}\+Playing\char`\"{}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a6c985080d04784ced58a6b95f5fe0ce0}\label{classentities_1_1EnemyManager_a6c985080d04784ced58a6b95f5fe0ce0}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!addProjectile@{addProjectile}}
+\index{addProjectile@{addProjectile}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{addProjectile()}{addProjectile()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+add\+Projectile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Projectile}{Projectile}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Adaugă un proiectil la lista de proiectile active gestionate de \mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & Proiectilul care trebuie adăugat. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a2451ef6fb143a3dd072e49091baeb5d1}\label{classentities_1_1EnemyManager_a2451ef6fb143a3dd072e49091baeb5d1}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!applyKnockback@{applyKnockback}}
+\index{applyKnockback@{applyKnockback}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{applyKnockback()}{applyKnockback()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+apply\+Knockback (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player,  }\item[{boolean}]{enemy\+Hit\+From\+Left }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Aplică un efect de knockback jucătorului. 
+
+Direcția knockback-\/ului depinde de partea din care a fost lovit jucătorul. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul care primește knockback. \\
+\hline
+{\em enemy\+Hit\+From\+Left} & true dacă inamicul a lovit din stânga jucătorului, false altfel. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_acc20cffeee2000c83dc6ae436af28ae9}\label{classentities_1_1EnemyManager_acc20cffeee2000c83dc6ae436af28ae9}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!checkForNewEnemySpawn@{checkForNewEnemySpawn}}
+\index{checkForNewEnemySpawn@{checkForNewEnemySpawn}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{checkForNewEnemySpawn()}{checkForNewEnemySpawn()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+check\+For\+New\+Enemy\+Spawn (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă trebuie spawnați noi inamici pe baza proximității jucătorului față de punctele de spawn rămase. 
+
+Dacă un punct de spawn este suficient de aproape de jucător, inamicul corespunzător este spawnaț și punctul este eliminat din listă. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru a calcula distanța. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a9753d18cb82f46ffe334953a8d8072ae}\label{classentities_1_1EnemyManager_a9753d18cb82f46ffe334953a8d8072ae}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!draw@{draw}}
+\index{draw@{draw}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Desenează toți inamicii activi, proiectilele și gem-\/urile pe ecran. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic pentru desenare. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul pe axa X al nivelului, pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a7211c7f61e411f8fd9fbc88fa3c975fc}\label{classentities_1_1EnemyManager_a7211c7f61e411f8fd9fbc88fa3c975fc}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawGems@{drawGems}}
+\index{drawGems@{drawGems}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawGems()}{drawGems()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Gems (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează toate gem-\/urile active pe ecran. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_aaf4ca93136287173623d5a02c4d87efb}\label{classentities_1_1EnemyManager_aaf4ca93136287173623d5a02c4d87efb}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawGoblinBosses@{drawGoblinBosses}}
+\index{drawGoblinBosses@{drawGoblinBosses}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawGoblinBosses()}{drawGoblinBosses()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Goblin\+Bosses (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează toți Goblin\+Bosses activi pe ecran, inclusiv bara lor de viață. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a79d73beb318ef208489e795dc6f89aba}\label{classentities_1_1EnemyManager_a79d73beb318ef208489e795dc6f89aba}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawGoblins@{drawGoblins}}
+\index{drawGoblins@{drawGoblins}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawGoblins()}{drawGoblins()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Goblins (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează toți Goblinii activi (Noob și Hard) pe ecran, inclusiv bara lor de viață și hitbox-\/ul (dacă este activat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ab3dd3312a55f6b3ec5fccdae757c6664}\label{classentities_1_1EnemyManager_ab3dd3312a55f6b3ec5fccdae757c6664}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawGolemBosses@{drawGolemBosses}}
+\index{drawGolemBosses@{drawGolemBosses}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawGolemBosses()}{drawGolemBosses()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Golem\+Bosses (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează toți Golem\+Bosses activi pe ecran, inclusiv bara lor de viață. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a2bc5852d651fbc3107cbd389305c894d}\label{classentities_1_1EnemyManager_a2bc5852d651fbc3107cbd389305c894d}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawHealthBar@{drawHealthBar}}
+\index{drawHealthBar@{drawHealthBar}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawHealthBar()}{drawHealthBar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Health\+Bar (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{\mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}}]{goblin,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em goblin} & Goblin-\/ul pentru care se desenează bara de viață. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a603a8ae25ad8b32711bb91aee5ca4c06}\label{classentities_1_1EnemyManager_a603a8ae25ad8b32711bb91aee5ca4c06}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawHealthBar@{drawHealthBar}}
+\index{drawHealthBar@{drawHealthBar}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawHealthBar()}{drawHealthBar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Health\+Bar (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{\mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}}]{boss,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em boss} & Goblin\+Boss-\/ul pentru care se desenează bara de viață. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_af8deb170ff5665a4160a3772f6b718f1}\label{classentities_1_1EnemyManager_af8deb170ff5665a4160a3772f6b718f1}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawHealthBar@{drawHealthBar}}
+\index{drawHealthBar@{drawHealthBar}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawHealthBar()}{drawHealthBar()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Health\+Bar (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{\mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}}]{boss,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em boss} & Golem\+Boss-\/ul pentru care se desenează bara de viață. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_abc5870f0471e0b3ec6249c6a47884407}\label{classentities_1_1EnemyManager_abc5870f0471e0b3ec6249c6a47884407}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawHealthBar@{drawHealthBar}}
+\index{drawHealthBar@{drawHealthBar}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawHealthBar()}{drawHealthBar()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Health\+Bar (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}}]{karagor,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em karagor} & Karagor-\/ul pentru care se desenează bara de viață. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_add25a634fecd762d6348dbf9cb2e0c6b}\label{classentities_1_1EnemyManager_add25a634fecd762d6348dbf9cb2e0c6b}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawHealthBar@{drawHealthBar}}
+\index{drawHealthBar@{drawHealthBar}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawHealthBar()}{drawHealthBar()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Health\+Bar (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{\mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}}]{nanite,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează bara de viață pentru un \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em nanite} & Nanite-\/ul pentru care se desenează bara de viață. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_af8377b3cd3454dc1aa8386c25884322f}\label{classentities_1_1EnemyManager_af8377b3cd3454dc1aa8386c25884322f}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawKaragors@{drawKaragors}}
+\index{drawKaragors@{drawKaragors}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawKaragors()}{drawKaragors()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Karagors (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează toți Karagors activi pe ecran, inclusiv bara lor de viață. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ab096b6588da07792c90724e6ce7cf833}\label{classentities_1_1EnemyManager_ab096b6588da07792c90724e6ce7cf833}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawNanites@{drawNanites}}
+\index{drawNanites@{drawNanites}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawNanites()}{drawNanites()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Nanites (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează toți Nanites activi (Jungla și Pestera) pe ecran, inclusiv bara lor de viață și hitbox-\/ul (dacă este activat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_afc05103f02b20bd9791f82f0f6547522}\label{classentities_1_1EnemyManager_afc05103f02b20bd9791f82f0f6547522}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!drawProjectiles@{drawProjectiles}}
+\index{drawProjectiles@{drawProjectiles}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{drawProjectiles()}{drawProjectiles()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+draw\+Projectiles (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează toate proiectilele active pe ecran. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul nivelului pe axa X. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a0d48f8e02edc65c6d4cef120ea874ab6}\label{classentities_1_1EnemyManager_a0d48f8e02edc65c6d4cef120ea874ab6}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!getCurrentLevel@{getCurrentLevel}}
+\index{getCurrentLevel@{getCurrentLevel}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{getCurrentLevel()}{getCurrentLevel()}}
+{\footnotesize\ttfamily int entities.\+Enemy\+Manager.\+get\+Current\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează ID-\/ul nivelului curent. 
+
+\begin{DoxyReturn}{Returns}
+ID-\/ul nivelului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_aafb20c2af3a19db241fb5bdd8c4a7f4d}\label{classentities_1_1EnemyManager_aafb20c2af3a19db241fb5bdd8c4a7f4d}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!getGems@{getGems}}
+\index{getGems@{getGems}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{getGems()}{getGems()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Gem}{Gem}}$>$ entities.\+Enemy\+Manager.\+get\+Gems (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de Gem-\/uri active. 
+
+\begin{DoxyReturn}{Returns}
+O \mbox{\hyperlink{}{Array\+List}} de obiecte \mbox{\hyperlink{classentities_1_1Gem}{Gem}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ac210150482179f8ed074a2b83ae3d30d}\label{classentities_1_1EnemyManager_ac210150482179f8ed074a2b83ae3d30d}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!getGoblinBosses@{getGoblinBosses}}
+\index{getGoblinBosses@{getGoblinBosses}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{getGoblinBosses()}{getGoblinBosses()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}$>$ entities.\+Enemy\+Manager.\+get\+Goblin\+Bosses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de Goblin\+Bosses activi. 
+
+\begin{DoxyReturn}{Returns}
+O \mbox{\hyperlink{}{Array\+List}} de obiecte \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_aca5244e4ef71acbcbae0c280aaa8e21a}\label{classentities_1_1EnemyManager_aca5244e4ef71acbcbae0c280aaa8e21a}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!getGoblins@{getGoblins}}
+\index{getGoblins@{getGoblins}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{getGoblins()}{getGoblins()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}$>$ entities.\+Enemy\+Manager.\+get\+Goblins (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de Goblini activi. 
+
+\begin{DoxyReturn}{Returns}
+O \mbox{\hyperlink{}{Array\+List}} de obiecte \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a7e33711d5b3d5424283a4770a4ea10ee}\label{classentities_1_1EnemyManager_a7e33711d5b3d5424283a4770a4ea10ee}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!getGolemBosses@{getGolemBosses}}
+\index{getGolemBosses@{getGolemBosses}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{getGolemBosses()}{getGolemBosses()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}$>$ entities.\+Enemy\+Manager.\+get\+Golem\+Bosses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de Golem\+Bosses activi. 
+
+\begin{DoxyReturn}{Returns}
+O \mbox{\hyperlink{}{Array\+List}} de obiecte \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ae2b6edcb9f82d857fd81c3a2c70ec351}\label{classentities_1_1EnemyManager_ae2b6edcb9f82d857fd81c3a2c70ec351}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!getKaragors@{getKaragors}}
+\index{getKaragors@{getKaragors}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{getKaragors()}{getKaragors()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}$>$ entities.\+Enemy\+Manager.\+get\+Karagors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de Karagors activi. 
+
+\begin{DoxyReturn}{Returns}
+O \mbox{\hyperlink{}{Array\+List}} de obiecte \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a9d1a505f3889293315167c80d9d44cc7}\label{classentities_1_1EnemyManager_a9d1a505f3889293315167c80d9d44cc7}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!getNanites@{getNanites}}
+\index{getNanites@{getNanites}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{getNanites()}{getNanites()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}$>$ entities.\+Enemy\+Manager.\+get\+Nanites (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de Nanites activi. 
+
+\begin{DoxyReturn}{Returns}
+O \mbox{\hyperlink{}{Array\+List}} de obiecte \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ade0b12a5b037e9f6c999de885c149f96}\label{classentities_1_1EnemyManager_ade0b12a5b037e9f6c999de885c149f96}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!loadEnemiesFromLevelData@{loadEnemiesFromLevelData}}
+\index{loadEnemiesFromLevelData@{loadEnemiesFromLevelData}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{loadEnemiesFromLevelData()}{loadEnemiesFromLevelData()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+load\+Enemies\+From\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{classlevels_1_1Level}{Level}}}]{level }\end{DoxyParamCaption})}
+
+
+
+Încarcă inamicii dintr-\/un nivel pe baza datelor acestuia. 
+
+Golește listele de inamici existenți și scanează datele nivelului pentru puncte de spawn. Pentru anumite niveluri (1, 2, 3), toți inamicii sunt spawnați imediat. 
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & Datele nivelului (matrice de tile-\/uri). \\
+\hline
+{\em level} & Obiectul Level curent, pentru a obține ID-\/ul nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a26a0411985fb3c854c11ac1e52a9f6c4}\label{classentities_1_1EnemyManager_a26a0411985fb3c854c11ac1e52a9f6c4}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!loadEnemyImgs@{loadEnemyImgs}}
+\index{loadEnemyImgs@{loadEnemyImgs}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{loadEnemyImgs()}{loadEnemyImgs()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+load\+Enemy\+Imgs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă imaginile pentru toți inamicii (Nanites, Goblins). 
+
+Boss-\/ii (\mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}, \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}) își încarcă propriile sprite-\/uri în clasele lor. \mbox{\Hypertarget{classentities_1_1EnemyManager_a0a76d80adaf061611f2dd6d2fb216992}\label{classentities_1_1EnemyManager_a0a76d80adaf061611f2dd6d2fb216992}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!loadSpriteSheet@{loadSpriteSheet}}
+\index{loadSpriteSheet@{loadSpriteSheet}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{loadSpriteSheet()}{loadSpriteSheet()}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Enemy\+Manager.\+load\+Sprite\+Sheet (\begin{DoxyParamCaption}\item[{String}]{path,  }\item[{int}]{sprite\+Width,  }\item[{int}]{sprite\+Height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă un sprite sheet dintr-\/o cale specificată și îl împarte în frame-\/uri individuale. 
+
+Determină numărul maxim de coloane necesar pe baza definițiilor din \mbox{\hyperlink{}{Enemy\+\_\+\+Animation\+\_\+\+Rows}}. 
+\begin{DoxyParams}{Parameters}
+{\em path} & Calea către fișierul sprite sheet. \\
+\hline
+{\em sprite\+Width} & Lățimea unui singur sprite. \\
+\hline
+{\em sprite\+Height} & Înălțimea unui singur sprite. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O matrice bidimensională de imagini (frame-\/uri de animație). Returnează o matrice goală dacă încărcarea eșuează pentru a evita Null\+Pointer\+Exception. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a73ce2d25af4c1d767fb605bc2cba76df}\label{classentities_1_1EnemyManager_a73ce2d25af4c1d767fb605bc2cba76df}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!resetEnemies@{resetEnemies}}
+\index{resetEnemies@{resetEnemies}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{resetEnemies()}{resetEnemies()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+reset\+Enemies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resetează toți inamicii din nivel. 
+
+Golește listele de inamici și reîncarcă punctele de spawn din datele nivelului. Pentru anumite niveluri (1, 2, 3), toți inamicii sunt spawnați imediat după resetare. \mbox{\Hypertarget{classentities_1_1EnemyManager_addc4f9a2b475a458b5dbc99e56ac9135}\label{classentities_1_1EnemyManager_addc4f9a2b475a458b5dbc99e56ac9135}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!scanLevelForSpawnPoints@{scanLevelForSpawnPoints}}
+\index{scanLevelForSpawnPoints@{scanLevelForSpawnPoints}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{scanLevelForSpawnPoints()}{scanLevelForSpawnPoints()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+scan\+Level\+For\+Spawn\+Points (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Scanează datele nivelului pentru a identifica punctele de spawn ale inamicilor. 
+
+Stochează aceste puncte (coordonate și codul inamicului) într-\/o listă pentru spawn ulterior. Afișează în consolă numărul de puncte de spawn găsite. \mbox{\Hypertarget{classentities_1_1EnemyManager_a18ecf8c71370a1892a29e7d310614261}\label{classentities_1_1EnemyManager_a18ecf8c71370a1892a29e7d310614261}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!spawnAllEnemies@{spawnAllEnemies}}
+\index{spawnAllEnemies@{spawnAllEnemies}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{spawnAllEnemies()}{spawnAllEnemies()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+spawn\+All\+Enemies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Spawnează toți inamicii identificați în punctele de spawn. 
+
+Marchează {\ttfamily all\+Enemies\+Spawned} ca true după ce toți inamicii au fost spawnați. Afișează în consolă numărul de inamici spawnați. \mbox{\Hypertarget{classentities_1_1EnemyManager_ab0feb05b010b892e381e243c7dd771e9}\label{classentities_1_1EnemyManager_ab0feb05b010b892e381e243c7dd771e9}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!spawnEnemy@{spawnEnemy}}
+\index{spawnEnemy@{spawnEnemy}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{spawnEnemy()}{spawnEnemy()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+spawn\+Enemy (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{enemy\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Spawnează un inamic la o poziție specificată, pe baza codului său. 
+
+Adaugă inamicul nou creat la lista corespunzătoare și îi setează datele nivelului. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordonata X a punctului de spawn. \\
+\hline
+{\em y} & Coordonata Y a punctului de spawn. \\
+\hline
+{\em enemy\+Code} & Codul numeric care identifică tipul de inamic. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a289bc691ddcaf057d490435bd2673f00}\label{classentities_1_1EnemyManager_a289bc691ddcaf057d490435bd2673f00}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!spawnGem@{spawnGem}}
+\index{spawnGem@{spawnGem}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{spawnGem()}{spawnGem()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+spawn\+Gem (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Spawnează un gem la o poziție specificată. 
+
+Tipul gem-\/ului depinde de nivelul curent. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordonata X a punctului de spawn pentru gem. \\
+\hline
+{\em y} & Coordonata Y a punctului de spawn pentru gem. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ae3153650fc5b642e7fa174f013f476fe}\label{classentities_1_1EnemyManager_ae3153650fc5b642e7fa174f013f476fe}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!trySpawnCollectible@{trySpawnCollectible}}
+\index{trySpawnCollectible@{trySpawnCollectible}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{trySpawnCollectible()}{trySpawnCollectible()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+try\+Spawn\+Collectible (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încearcă să spawneze un obiect colectabil (banană sau nucă de cocos) la o poziție specificată, cu o șansă de 50\% pentru fiecare. 
+
+Verifică dacă imaginile pentru colectabile sunt încărcate. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordonata X a punctului de spawn pentru obiectul colectabil. \\
+\hline
+{\em y} & Coordonata Y a punctului de spawn pentru obiectul colectabil. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ad5ddcbe731dec0b092246dd329260fe5}\label{classentities_1_1EnemyManager_ad5ddcbe731dec0b092246dd329260fe5}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!update@{update}}
+\index{update@{update}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Enemy\+Manager.\+update (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea tuturor inamicilor activi, proiectilelor și gem-\/urilor. 
+
+Gestionează spawn-\/ul inamicilor pe baza proximității jucătorului (dacă este cazul pentru nivelul curent), coliziunile, aplicarea daunelor și efectele de knockback. De asemenea, gestionează drop-\/urile de la inamici. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru interacțiuni și detectare. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1EnemyManager_addec1f15f7df6529c3f853439a1000ef}\label{classentities_1_1EnemyManager_addec1f15f7df6529c3f853439a1000ef}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!allEnemiesSpawned@{allEnemiesSpawned}}
+\index{allEnemiesSpawned@{allEnemiesSpawned}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{allEnemiesSpawned}{allEnemiesSpawned}}
+{\footnotesize\ttfamily boolean entities.\+Enemy\+Manager.\+all\+Enemies\+Spawned = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a4b8095b367600f8c3ecd2488d5cee219}\label{classentities_1_1EnemyManager_a4b8095b367600f8c3ecd2488d5cee219}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!currentLevel@{currentLevel}}
+\index{currentLevel@{currentLevel}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{currentLevel}{currentLevel}}
+{\footnotesize\ttfamily int entities.\+Enemy\+Manager.\+current\+Level\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_aa254d467a66a730dc430412bc09a7cc3}\label{classentities_1_1EnemyManager_aa254d467a66a730dc430412bc09a7cc3}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!gems@{gems}}
+\index{gems@{gems}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{gems}{gems}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Gem}{Gem}}$>$ entities.\+Enemy\+Manager.\+gems = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a109b42147cf7d9b6e0e8a7397b27095a}\label{classentities_1_1EnemyManager_a109b42147cf7d9b6e0e8a7397b27095a}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!goblinBosses@{goblinBosses}}
+\index{goblinBosses@{goblinBosses}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{goblinBosses}{goblinBosses}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}$>$ entities.\+Enemy\+Manager.\+goblin\+Bosses = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a3e34c82b45a5eaa64e165169e1227470}\label{classentities_1_1EnemyManager_a3e34c82b45a5eaa64e165169e1227470}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!goblinHardImgs@{goblinHardImgs}}
+\index{goblinHardImgs@{goblinHardImgs}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{goblinHardImgs}{goblinHardImgs}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Enemy\+Manager.\+goblin\+Hard\+Imgs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a0ac91decaa64d4a33b6497a99f1f0d93}\label{classentities_1_1EnemyManager_a0ac91decaa64d4a33b6497a99f1f0d93}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!goblinNoobImgs@{goblinNoobImgs}}
+\index{goblinNoobImgs@{goblinNoobImgs}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{goblinNoobImgs}{goblinNoobImgs}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Enemy\+Manager.\+goblin\+Noob\+Imgs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a8e3f968a6e575d8e063c1118ac9d773f}\label{classentities_1_1EnemyManager_a8e3f968a6e575d8e063c1118ac9d773f}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!goblins@{goblins}}
+\index{goblins@{goblins}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{goblins}{goblins}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}$>$ entities.\+Enemy\+Manager.\+goblins = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a170cac67d46b8455863228fbf838dfdc}\label{classentities_1_1EnemyManager_a170cac67d46b8455863228fbf838dfdc}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!golemBosses@{golemBosses}}
+\index{golemBosses@{golemBosses}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{golemBosses}{golemBosses}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}$>$ entities.\+Enemy\+Manager.\+golem\+Bosses = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a970f57504f17cc10ed0e41e9eb19aa7b}\label{classentities_1_1EnemyManager_a970f57504f17cc10ed0e41e9eb19aa7b}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!karagors@{karagors}}
+\index{karagors@{karagors}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{karagors}{karagors}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}$>$ entities.\+Enemy\+Manager.\+karagors = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a66624cae547ef886e89b8adc829f891d}\label{classentities_1_1EnemyManager_a66624cae547ef886e89b8adc829f891d}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Enemy\+Manager.\+level\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a1cfd812e1fc45d5a002b2fb622cf5aa6}\label{classentities_1_1EnemyManager_a1cfd812e1fc45d5a002b2fb622cf5aa6}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!naniteImgs@{naniteImgs}}
+\index{naniteImgs@{naniteImgs}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{naniteImgs}{naniteImgs}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Enemy\+Manager.\+nanite\+Imgs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a1a3595d515953fb9ab78a372d21ba827}\label{classentities_1_1EnemyManager_a1a3595d515953fb9ab78a372d21ba827}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!nanitePesteraImgs@{nanitePesteraImgs}}
+\index{nanitePesteraImgs@{nanitePesteraImgs}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{nanitePesteraImgs}{nanitePesteraImgs}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Enemy\+Manager.\+nanite\+Pestera\+Imgs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a25d5f62330cf529806384486f1f2ec6a}\label{classentities_1_1EnemyManager_a25d5f62330cf529806384486f1f2ec6a}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!nanites@{nanites}}
+\index{nanites@{nanites}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{nanites}{nanites}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}$>$ entities.\+Enemy\+Manager.\+nanites = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_acd52316b2f8ec0367856f98d9fb1be71}\label{classentities_1_1EnemyManager_acd52316b2f8ec0367856f98d9fb1be71}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!playerDetectionDistance@{playerDetectionDistance}}
+\index{playerDetectionDistance@{playerDetectionDistance}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{playerDetectionDistance}{playerDetectionDistance}}
+{\footnotesize\ttfamily float entities.\+Enemy\+Manager.\+player\+Detection\+Distance = 400\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ab49f9f7ad5f97f65129a474d09a9b102}\label{classentities_1_1EnemyManager_ab49f9f7ad5f97f65129a474d09a9b102}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!playing@{playing}}
+\index{playing@{playing}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{playing}{playing}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} entities.\+Enemy\+Manager.\+playing\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_ac6268f35ecaa08689740a4445939f07b}\label{classentities_1_1EnemyManager_ac6268f35ecaa08689740a4445939f07b}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!projectiles@{projectiles}}
+\index{projectiles@{projectiles}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{projectiles}{projectiles}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Projectile}{Projectile}}$>$ entities.\+Enemy\+Manager.\+projectiles = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a65372af739bf11e19b4713db59ad1899}\label{classentities_1_1EnemyManager_a65372af739bf11e19b4713db59ad1899}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!random@{random}}
+\index{random@{random}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{random}{random}}
+{\footnotesize\ttfamily Random entities.\+Enemy\+Manager.\+random = new Random()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1EnemyManager_a85d3b1a46b0b1da029d89f09bc034c7d}\label{classentities_1_1EnemyManager_a85d3b1a46b0b1da029d89f09bc034c7d}} 
+\index{entities.EnemyManager@{entities.EnemyManager}!spawnPoints@{spawnPoints}}
+\index{spawnPoints@{spawnPoints}!entities.EnemyManager@{entities.EnemyManager}}
+\doxysubsubsection{\texorpdfstring{spawnPoints}{spawnPoints}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1EnemyManager_1_1Point}{Point}}$>$ entities.\+Enemy\+Manager.\+spawn\+Points = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{EnemyManager_8java}{Enemy\+Manager.\+java}}\end{DoxyCompactItemize}

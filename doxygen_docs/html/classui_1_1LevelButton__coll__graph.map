@@ -1,0 +1,6 @@
+<map id="ui.LevelButton" name="ui.LevelButton">
+<area shape="rect" id="node1" title="Reprezintă un buton specific pentru selectarea nivelurilor în interfața utilizator." alt="" coords="251,95,367,121"/>
+<area shape="rect" id="node2" href="$enumgamestates_1_1Gamestate.html" title="Enumerație ce definește diferitele stări posibile ale jocului." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="265,5,352,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="376,5,495,32"/>
+</map>

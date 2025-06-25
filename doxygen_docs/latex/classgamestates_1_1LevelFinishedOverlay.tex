@@ -1,0 +1,362 @@
+\hypertarget{classgamestates_1_1LevelFinishedOverlay}{}\doxysection{gamestates.\+Level\+Finished\+Overlay Class Reference}
+\label{classgamestates_1_1LevelFinishedOverlay}\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+
+
+Reprezintă overlay-\/ul afișat la finalizarea cu succes a unui nivel.  
+
+
+
+
+Inheritance diagram for gamestates.\+Level\+Finished\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1LevelFinishedOverlay__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Level\+Finished\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1LevelFinishedOverlay__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a24ca1fb0d7e1f91146cfe203a38961ed}{Level\+Finished\+Overlay}} (\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a4eedbbc6fb56e4c70fc05fbd338be787}{playing}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay}{Level\+Finished\+Overlay}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a169609377ff7d00c849bf14a9469d7bf}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea overlay-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a8bccea5ede276230160292c442cfea8c}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele overlay-\/ului de finalizare a nivelului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a771ee28f47e0525f35962bdb8ec153b0}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de click al mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a4e3c7ca48e8781ba8867b4d9bbd43f81}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a14ea475b56e7db3b85b0fcc10c6d69da}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_ad47d8d048dd61cc3f1fba9bd6a0cfb17}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a260c8b37aae4094289201338fec7f617}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a79ac8f612b1211dddf5c30117ed110c0}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a tastelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_ab7322c052d22e099ab2ef2b421d9f142}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a tastei (neutilizat). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_ad31f36050d6b85a5bdf8a911abdf3cf2}{load\+Background}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea de fundal pentru ecranul de finalizare a nivelului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a4b893e136219dfcf4df139eab0744c13}{load\+Buttons}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează limitele butoanelor pentru \char`\"{}\+Nivelul Următor\char`\"{} și \char`\"{}\+Meniu\char`\"{} (butonul X). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a911025eb164c873bcd1cc10fdbbe6302}{load\+Custom\+Font}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă fontul personalizat folosit pentru afișarea textului în overlay. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a8c95d8e094b8975766cd694336c83d79}{background\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a3bc61afb1dbe48fe0a77aa4240b59c64}{bgX}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_aff1727d2bb2d76d0228d49bdc23a22fc}{next\+Level\+Button\+Bounds}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_ab455ff0b1be204e9a0216eb684b93f19}{menu\+Button\+Bounds}}
+\item 
+Font \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a38dfc76394994f20935c441634405f6d}{overlay\+Font}}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a4eedbbc6fb56e4c70fc05fbd338be787}{playing}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_aa554656ef7bfe852aa81ad0d20e6bbfa}{DB\+\_\+\+FILE}} = \char`\"{}data/gamedatabase.\+db\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către fișierul bazei de date pentru salvarea/încărcarea scorului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă overlay-\/ul afișat la finalizarea cu succes a unui nivel. 
+
+Permite jucătorului să treacă la nivelul următor sau să se întoarcă la meniul principal. Afișează scorul obținut pentru nivelul finalizat. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a24ca1fb0d7e1f91146cfe203a38961ed}\label{classgamestates_1_1LevelFinishedOverlay_a24ca1fb0d7e1f91146cfe203a38961ed}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!LevelFinishedOverlay@{LevelFinishedOverlay}}
+\index{LevelFinishedOverlay@{LevelFinishedOverlay}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{LevelFinishedOverlay()}{LevelFinishedOverlay()}}
+{\footnotesize\ttfamily gamestates.\+Level\+Finished\+Overlay.\+Level\+Finished\+Overlay (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}}]{playing }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay}{Level\+Finished\+Overlay}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em playing} & Referință la starea de joc \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} din care s-\/a ajuns aici. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a8bccea5ede276230160292c442cfea8c}\label{classgamestates_1_1LevelFinishedOverlay_a8bccea5ede276230160292c442cfea8c}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!draw@{draw}}
+\index{draw@{draw}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează elementele overlay-\/ului de finalizare a nivelului. 
+
+Include imaginea de fundal și scorul jucătorului.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a79ac8f612b1211dddf5c30117ed110c0}\label{classgamestates_1_1LevelFinishedOverlay_a79ac8f612b1211dddf5c30117ed110c0}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a tastelor. 
+
+Permite trecerea la starea de joc (Enter) sau la meniu (Escape). Notă\+: Trecerea directă la PLAYING cu Enter poate sări peste logica de avansare la nivelul următor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_ab7322c052d22e099ab2ef2b421d9f142}\label{classgamestates_1_1LevelFinishedOverlay_ab7322c052d22e099ab2ef2b421d9f142}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_ad31f36050d6b85a5bdf8a911abdf3cf2}\label{classgamestates_1_1LevelFinishedOverlay_ad31f36050d6b85a5bdf8a911abdf3cf2}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!loadBackground@{loadBackground}}
+\index{loadBackground@{loadBackground}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{loadBackground()}{loadBackground()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+load\+Background (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea de fundal pentru ecranul de finalizare a nivelului. 
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a4b893e136219dfcf4df139eab0744c13}\label{classgamestates_1_1LevelFinishedOverlay_a4b893e136219dfcf4df139eab0744c13}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!loadButtons@{loadButtons}}
+\index{loadButtons@{loadButtons}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{loadButtons()}{loadButtons()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+load\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează limitele butoanelor pentru \char`\"{}\+Nivelul Următor\char`\"{} și \char`\"{}\+Meniu\char`\"{} (butonul X). 
+
+Coordonatele sunt specifice imaginii de fundal \char`\"{}level\+\_\+finished.\+png\char`\"{}. \mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a911025eb164c873bcd1cc10fdbbe6302}\label{classgamestates_1_1LevelFinishedOverlay_a911025eb164c873bcd1cc10fdbbe6302}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!loadCustomFont@{loadCustomFont}}
+\index{loadCustomFont@{loadCustomFont}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{loadCustomFont()}{loadCustomFont()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+load\+Custom\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă fontul personalizat folosit pentru afișarea textului în overlay. 
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a771ee28f47e0525f35962bdb8ec153b0}\label{classgamestates_1_1LevelFinishedOverlay_a771ee28f47e0525f35962bdb8ec153b0}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de click al mouse-\/ului (neutilizat). 
+
+Acțiunile sunt gestionate în \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay_a4e3c7ca48e8781ba8867b4d9bbd43f81}{mouse\+Pressed(\+Mouse\+Event)}}. 
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a260c8b37aae4094289201338fec7f617}\label{classgamestates_1_1LevelFinishedOverlay_a260c8b37aae4094289201338fec7f617}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_ad47d8d048dd61cc3f1fba9bd6a0cfb17}\label{classgamestates_1_1LevelFinishedOverlay_ad47d8d048dd61cc3f1fba9bd6a0cfb17}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a4e3c7ca48e8781ba8867b4d9bbd43f81}\label{classgamestates_1_1LevelFinishedOverlay_a4e3c7ca48e8781ba8867b4d9bbd43f81}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a butonului mouse-\/ului. 
+
+Verifică dacă s-\/a apăsat pe butonul pentru nivelul următor sau pe cel de întoarcere la meniu. Salvează progresul jucătorului înainte de a trece la nivelul următor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a14ea475b56e7db3b85b0fcc10c6d69da}\label{classgamestates_1_1LevelFinishedOverlay_a14ea475b56e7db3b85b0fcc10c6d69da}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a169609377ff7d00c849bf14a9469d7bf}\label{classgamestates_1_1LevelFinishedOverlay_a169609377ff7d00c849bf14a9469d7bf}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!update@{update}}
+\index{update@{update}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Level\+Finished\+Overlay.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea overlay-\/ului. 
+
+Momentan, nu face nimic deoarece overlay-\/ul este static. 
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a8c95d8e094b8975766cd694336c83d79}\label{classgamestates_1_1LevelFinishedOverlay_a8c95d8e094b8975766cd694336c83d79}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!backgroundImg@{backgroundImg}}
+\index{backgroundImg@{backgroundImg}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{backgroundImg}{backgroundImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Level\+Finished\+Overlay.\+background\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a3bc61afb1dbe48fe0a77aa4240b59c64}\label{classgamestates_1_1LevelFinishedOverlay_a3bc61afb1dbe48fe0a77aa4240b59c64}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!bgX@{bgX}}
+\index{bgX@{bgX}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{bgX}{bgX}}
+{\footnotesize\ttfamily int gamestates.\+Level\+Finished\+Overlay.\+bgX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_aa554656ef7bfe852aa81ad0d20e6bbfa}\label{classgamestates_1_1LevelFinishedOverlay_aa554656ef7bfe852aa81ad0d20e6bbfa}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!DB\_FILE@{DB\_FILE}}
+\index{DB\_FILE@{DB\_FILE}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{DB\_FILE}{DB\_FILE}}
+{\footnotesize\ttfamily final String gamestates.\+Level\+Finished\+Overlay.\+DB\+\_\+\+FILE = \char`\"{}data/gamedatabase.\+db\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calea către fișierul bazei de date pentru salvarea/încărcarea scorului. 
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_ab455ff0b1be204e9a0216eb684b93f19}\label{classgamestates_1_1LevelFinishedOverlay_ab455ff0b1be204e9a0216eb684b93f19}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!menuButtonBounds@{menuButtonBounds}}
+\index{menuButtonBounds@{menuButtonBounds}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{menuButtonBounds}{menuButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Level\+Finished\+Overlay.\+menu\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_aff1727d2bb2d76d0228d49bdc23a22fc}\label{classgamestates_1_1LevelFinishedOverlay_aff1727d2bb2d76d0228d49bdc23a22fc}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!nextLevelButtonBounds@{nextLevelButtonBounds}}
+\index{nextLevelButtonBounds@{nextLevelButtonBounds}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{nextLevelButtonBounds}{nextLevelButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Level\+Finished\+Overlay.\+next\+Level\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a38dfc76394994f20935c441634405f6d}\label{classgamestates_1_1LevelFinishedOverlay_a38dfc76394994f20935c441634405f6d}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!overlayFont@{overlayFont}}
+\index{overlayFont@{overlayFont}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{overlayFont}{overlayFont}}
+{\footnotesize\ttfamily Font gamestates.\+Level\+Finished\+Overlay.\+overlay\+Font\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1LevelFinishedOverlay_a4eedbbc6fb56e4c70fc05fbd338be787}\label{classgamestates_1_1LevelFinishedOverlay_a4eedbbc6fb56e4c70fc05fbd338be787}} 
+\index{gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}!playing@{playing}}
+\index{playing@{playing}!gamestates.LevelFinishedOverlay@{gamestates.LevelFinishedOverlay}}
+\doxysubsubsection{\texorpdfstring{playing}{playing}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} gamestates.\+Level\+Finished\+Overlay.\+playing\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{LevelFinishedOverlay_8java}{Level\+Finished\+Overlay.\+java}}\end{DoxyCompactItemize}

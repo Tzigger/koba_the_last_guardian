@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['facingright_1302',['facingRight',['../classentities_1_1Player.html#acb760abd2e6c5200b28e170f61705de9',1,'entities.Player.facingRight()'],['../classentities_1_1Karagor.html#abf73fa3b23bbe88c7a98efd782ac8c20',1,'entities.Karagor.facingRight()']]],
+  ['falling_5fdown_1303',['FALLING_DOWN',['../enumutilz_1_1Enemy__Animation__Rows.html#ac98729ae81e3ca0ce9088fbe3de694c1',1,'utilz::Enemy_Animation_Rows']]],
+  ['fallspeedaftercollision_1304',['fallSpeedAfterCollision',['../classentities_1_1Karagor.html#a584991880d82ca2682ab2f34937e999f',1,'entities.Karagor.fallSpeedAfterCollision()'],['../classentities_1_1Player.html#a42ce65ff9bd619361d213d663790a1eb',1,'entities.Player.fallSpeedAfterCollision()']]],
+  ['fillcolor_1305',['fillColor',['../classui_1_1ProgressBar.html#ad6f8f0abae20c38e62cc52daf576c2e0',1,'ui::ProgressBar']]],
+  ['flippedanimations_1306',['flippedAnimations',['../classentities_1_1GoblinBoss.html#a39cf2ca5233cada924c19424670a085e',1,'entities.GoblinBoss.flippedAnimations()'],['../classentities_1_1GolemBoss.html#a208ba6c9ab85282aa1d95ef3f347f0b2',1,'entities.GolemBoss.flippedAnimations()'],['../classentities_1_1Karagor.html#a5fca7db5e962adbad7c3cb9d77d12a93',1,'entities.Karagor.flippedAnimations()'],['../classentities_1_1Player.html#ad0500b5ae2afa41f7fb34cbabc7979a6',1,'entities.Player.flippedAnimations()']]],
+  ['flippedcrystalrushanimations_1307',['flippedCrystalRushAnimations',['../classentities_1_1Player.html#a9d38658e5b0f12fe5fd53c43f827a1f2',1,'entities::Player']]],
+  ['floatamplitude_1308',['floatAmplitude',['../classentities_1_1Gem.html#acfb28d94629fdb65c16d0651a8738a6e',1,'entities.Gem.floatAmplitude()'],['../classentities_1_1Coconut.html#aa4842e13aefd39b2c453b4b9ec679548',1,'entities.Coconut.floatAmplitude()'],['../classentities_1_1Banana.html#aefcf07fcc54e5c3399eca7096187c1f2',1,'entities.Banana.floatAmplitude()']]],
+  ['floatangle_1309',['floatAngle',['../classentities_1_1Banana.html#a231d2ef35dc1ca219cbc520f9a660051',1,'entities.Banana.floatAngle()'],['../classentities_1_1Coconut.html#ac90914b183aa96a36301e77eeb099936',1,'entities.Coconut.floatAngle()'],['../classentities_1_1Gem.html#adc5e54b8f78bf6749b74835da1b4509b',1,'entities.Gem.floatAngle()']]],
+  ['floatspeed_1310',['floatSpeed',['../classentities_1_1Banana.html#a1dbd482a00c0b43a23856f3ef6ae7128',1,'entities.Banana.floatSpeed()'],['../classentities_1_1Coconut.html#a30f7d02544326e00dd3c83db760e52bf',1,'entities.Coconut.floatSpeed()'],['../classentities_1_1Gem.html#a87607c57a63e8c8f4bb49a5814dff9d5',1,'entities.Gem.floatSpeed()']]],
+  ['fps_5fset_1311',['FPS_SET',['../classmain_1_1Game.html#adcc9a26dac06028a6fed9178c10e4d8a',1,'main::Game']]],
+  ['frame_5floadgame_1312',['FRAME_LOADGAME',['../classutilz_1_1LoadSave.html#a5b21a00b2bbb16723d832f594f14fa8f',1,'utilz::LoadSave']]],
+  ['framecount_1313',['frameCount',['../enumutilz_1_1Enemy__Animation__Rows.html#a79f1b5b8f09b7030610105001f272824',1,'utilz.Enemy_Animation_Rows.frameCount()'],['../enumutilz_1_1Gorilla__Animation__rows.html#a0354120a8d26e553356403c5cab2cee6',1,'utilz.Gorilla_Animation_rows.frameCount()']]],
+  ['frameimg_1314',['frameImg',['../classgamestates_1_1EnterNameOverlay.html#a7f812f4356fd1d324444c8e5eb055cc0',1,'gamestates::EnterNameOverlay']]],
+  ['framex_1315',['frameX',['../classgamestates_1_1EnterNameOverlay.html#a39e66570c8976d848896ae7c3f1005b8',1,'gamestates::EnterNameOverlay']]]
+];

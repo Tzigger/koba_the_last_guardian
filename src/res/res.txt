@@ -1,0 +1,4 @@
+koba_spritesheet - 1361 918
+koba_compressed  - 272 183
+
+koba ratio : 1.4825 : 1 

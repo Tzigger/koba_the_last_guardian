@@ -1,0 +1,49 @@
+<map id="inputs.MouseInputs" name="inputs.MouseInputs">
+<area shape="rect" id="node1" title="Gestionează input&#45;ul de la mouse pentru joc." alt="" coords="217,1411,367,1437"/>
+<area shape="rect" id="node5" href="$classmain_1_1GamePanel.html" title="Panoul principal al jocului, extinzând JPanel." alt="" coords="545,1435,679,1461"/>
+<area shape="rect" id="node2" title=" " alt="" coords="28,1360,145,1387"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,1411,168,1437"/>
+<area shape="rect" id="node4" title=" " alt="" coords="7,1461,166,1488"/>
+<area shape="rect" id="node7" href="$classmain_1_1Game.html" title="Clasa principală a jocului, responsabilă pentru gestionarea stărilor de joc, bucla principală a jocul..." alt="" coords="911,1457,1010,1484"/>
+<area shape="rect" id="node46" href="$classinputs_1_1KeyboardInputs.html" title="Gestionează input&#45;ul de la tastatură pentru joc." alt="" coords="877,1299,1044,1325"/>
+<area shape="rect" id="node6" title=" " alt="" coords="261,1479,323,1505"/>
+<area shape="rect" id="node10" href="$classgamestates_1_1State.html" title="Clasă de bază pentru diferitele stări ale jocului (de ex., Meniu, Joc propriu&#45;zis)." alt="" coords="1322,1008,1459,1035"/>
+<area shape="rect" id="node40" href="$classlevels_1_1LevelManager.html" title="Gestionează încărcarea, desenarea și tranziția între nivelurile jocului." alt="" coords="1312,2335,1469,2361"/>
+<area shape="rect" id="node8" title=" " alt="" coords="571,1524,653,1551"/>
+<area shape="rect" id="node9" href="$classgamestates_1_1Leaderboard.html" title="Reprezintă starea de joc pentru afișarea clasamentului (Leaderboard)." alt="" coords="1713,1663,1897,1689"/>
+<area shape="rect" id="node19" href="$classgamestates_1_1EnterNameOverlay.html" title="Reprezintă un overlay pentru introducerea numelui jucătorului." alt="" coords="1692,663,1919,689"/>
+<area shape="rect" id="node21" href="$classgamestates_1_1Loadgame.html" title="Reprezintă starea de joc pentru ecranul de încărcare a unui joc salvat." alt="" coords="1720,343,1891,369"/>
+<area shape="rect" id="node23" href="$classgamestates_1_1Menu.html" title="Reprezintă starea de joc pentru meniul principal." alt="" coords="1736,897,1875,924"/>
+<area shape="rect" id="node24" href="$classgamestates_1_1Options.html" title="Reprezintă starea de joc pentru meniul de opțiuni." alt="" coords="1729,1255,1882,1281"/>
+<area shape="rect" id="node25" href="$classgamestates_1_1Playing.html" title="Reprezintă starea principală de joc (gameplay&#45;ul propriu&#45;zis)." alt="" coords="1730,2044,1881,2071"/>
+<area shape="rect" id="node36" href="$classgamestates_1_1LevelFinishedOverlay.html" title="Reprezintă overlay&#45;ul afișat la finalizarea cu succes a unui nivel." alt="" coords="2124,1594,2316,1635"/>
+<area shape="rect" id="node45" href="$classgamestates_1_1GameOverOverlay.html" title="Reprezintă overlay&#45;ul afișat la sfârșitul jocului (Game Over)." alt="" coords="2108,1123,2332,1149"/>
+<area shape="rect" id="node11" title=" " alt="" coords="917,681,1004,708"/>
+<area shape="rect" id="node20" href="$classui_1_1MenuButton.html" title="Reprezintă un buton generic pentru meniurile din interfața utilizator." alt="" coords="1332,537,1449,564"/>
+<area shape="rect" id="node22" href="$classui_1_1LevelButton.html" title="Reprezintă un buton specific pentru selectarea nivelurilor în interfața utilizator." alt="" coords="1333,347,1449,373"/>
+<area shape="rect" id="node12" href="$interfacegamestates_1_1Statemethods.html" title="Interfață ce definește metodele comune pe care toate stările de joc (gamestates) trebuie să le implem..." alt="" coords="1293,1136,1488,1163"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1317,1953,1464,1980"/>
+<area shape="rect" id="node14" href="$enumgamestates_1_1Gamestate.html" title="Enumerație ce definește diferitele stări posibile ale jocului." alt="" coords="873,420,1048,447"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1319,1767,1463,1793"/>
+<area shape="rect" id="node16" title=" " alt="" coords="901,1708,1020,1735"/>
+<area shape="rect" id="node26" href="$classentities_1_1EnemyManager.html" title="Gestionează toți inamicii din joc, inclusiv Nanites, Karagors, Goblins, GoblinBosses și GolemBosses." alt="" coords="2131,2629,2309,2656"/>
+<area shape="rect" id="node37" href="$classentities_1_1Player.html" title=" " alt="" coords="1333,2284,1449,2311"/>
+<area shape="rect" id="node17" href="$classmain_1_1GameWindow.html" title="Reprezintă fereastra principală a jocului." alt="" coords="537,1344,687,1371"/>
+<area shape="rect" id="node18" title=" " alt="" coords="259,1344,325,1371"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1702,2939,1909,2965"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1703,2488,1908,2515"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1709,2721,1902,2762"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1693,2539,1917,2565"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1710,2590,1901,2631"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1710,2655,1901,2697"/>
+<area shape="rect" id="node33" title=" " alt="" coords="1767,2888,1843,2915"/>
+<area shape="rect" id="node34" title=" " alt="" coords="1708,2787,1903,2813"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1698,2837,1913,2864"/>
+<area shape="rect" id="node38" href="$classentities_1_1Entity.html" title="Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici,..." alt="" coords="904,2291,1017,2317"/>
+<area shape="rect" id="node39" title=" " alt="" coords="559,2291,665,2317"/>
+<area shape="rect" id="node41" href="$classlevels_1_1LevelFactory.html" title="Clasă de tip Factory responsabilă pentru crearea obiectelor de tip Level." alt="" coords="887,2341,1034,2368"/>
+<area shape="rect" id="node42" href="$classlevels_1_1Level.html" title="Reprezintă un nivel individual în joc." alt="" coords="911,2472,1011,2499"/>
+<area shape="rect" id="node43" title=" " alt="" coords="504,2497,720,2524"/>
+<area shape="rect" id="node44" title=" " alt="" coords="506,2447,718,2473"/>
+<area shape="rect" id="node47" title=" " alt="" coords="563,1264,661,1291"/>
+</map>

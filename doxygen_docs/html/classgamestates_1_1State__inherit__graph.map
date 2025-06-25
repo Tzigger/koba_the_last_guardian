@@ -1,0 +1,11 @@
+<map id="gamestates.State" name="gamestates.State">
+<area shape="rect" id="node1" title="Clasă de bază pentru diferitele stări ale jocului (de ex., Meniu, Joc propriu&#45;zis)." alt="" coords="5,195,143,221"/>
+<area shape="rect" id="node2" href="$classgamestates_1_1EnterNameOverlay.html" title="Reprezintă un overlay pentru introducerea numelui jucătorului." alt="" coords="191,5,417,32"/>
+<area shape="rect" id="node3" href="$classgamestates_1_1GameOverOverlay.html" title="Reprezintă overlay&#45;ul afișat la sfârșitul jocului (Game Over)." alt="" coords="192,56,416,83"/>
+<area shape="rect" id="node4" href="$classgamestates_1_1Leaderboard.html" title="Reprezintă starea de joc pentru afișarea clasamentului (Leaderboard)." alt="" coords="212,107,396,133"/>
+<area shape="rect" id="node5" href="$classgamestates_1_1LevelFinishedOverlay.html" title="Reprezintă overlay&#45;ul afișat la finalizarea cu succes a unui nivel." alt="" coords="208,158,400,199"/>
+<area shape="rect" id="node6" href="$classgamestates_1_1Loadgame.html" title="Reprezintă starea de joc pentru ecranul de încărcare a unui joc salvat." alt="" coords="219,224,389,251"/>
+<area shape="rect" id="node7" href="$classgamestates_1_1Menu.html" title="Reprezintă starea de joc pentru meniul principal." alt="" coords="235,275,373,301"/>
+<area shape="rect" id="node8" href="$classgamestates_1_1Options.html" title="Reprezintă starea de joc pentru meniul de opțiuni." alt="" coords="227,325,381,352"/>
+<area shape="rect" id="node9" href="$classgamestates_1_1Playing.html" title="Reprezintă starea principală de joc (gameplay&#45;ul propriu&#45;zis)." alt="" coords="229,376,379,403"/>
+</map>

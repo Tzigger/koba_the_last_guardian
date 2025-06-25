@@ -1,0 +1,330 @@
+\hypertarget{classlevels_1_1LevelFactory}{}\doxysection{levels.\+Level\+Factory Class Reference}
+\label{classlevels_1_1LevelFactory}\index{levels.LevelFactory@{levels.LevelFactory}}
+
+
+Clasă de tip Factory responsabilă pentru crearea obiectelor de tip \mbox{\hyperlink{classlevels_1_1Level}{Level}}.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classlevels_1_1LevelFactory_a6167fd40fdd4fd1b3485c9204bf585a9}{get\+Tileset\+Rows}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Returnează numărul de rânduri din tileset pentru nivelul specificat. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1LevelFactory_aaf24f7c093e9c72a0c1337b3716632bc}{get\+Tileset\+Cols}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Returnează numărul de coloane din tileset pentru nivelul specificat. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1LevelFactory_a5579d1e81330d3c4de5e1a628c814e19}{get\+Tile\+Size}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Returnează dimensiunea unui tile (în pixeli) pentru nivelul specificat. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1Level}{Level}} \mbox{\hyperlink{classlevels_1_1LevelFactory_a1915c333a6dd84f76abae98d1b3ef11b}{create\+Level}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Creează un obiect \mbox{\hyperlink{classlevels_1_1Level}{Level}} pe baza numărului de nivel specificat. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classlevels_1_1LevelFactory_aadc8089a5f118445fd40e5f25fac09ee}{get\+Level\+Atlas\+Path}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Returnează calea către atlasul de tile-\/uri (spritesheet) corespunzător numărului de nivel. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classlevels_1_1LevelFactory_a71993566e87cc182e83aea5bfaa44ff7}{get\+Background\+Path}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Returnează calea către imaginea de fundal corespunzătoare numărului de nivel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_a46d76a2a1f0737a12985a305f52fcaa9}{LEVEL1\+\_\+\+ROWS}} = 8
+\begin{DoxyCompactList}\small\item\em Numărul de rânduri în tileset-\/ul pentru Nivelul 1. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_a02713828afb30669ff597e8bab654b38}{LEVEL1\+\_\+\+COLS}} = 12
+\begin{DoxyCompactList}\small\item\em Numărul de coloane în tileset-\/ul pentru Nivelul 1. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_acebe511fcf4ed35f271f5d5330f309ea}{LEVEL1\+\_\+\+TILE\+\_\+\+SIZE}} = 32
+\begin{DoxyCompactList}\small\item\em Dimensiunea unui tile (în pixeli) pentru Nivelul 1. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_af15974c06b0e8d00a0d6904eceab5155}{LEVEL2\+\_\+\+ROWS}} = 9
+\begin{DoxyCompactList}\small\item\em Numărul de rânduri în tileset-\/ul pentru Nivelul 2. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_aa4af214535ab8e7e769d0370fe9f7243}{LEVEL2\+\_\+\+COLS}} = 9
+\begin{DoxyCompactList}\small\item\em Numărul de coloane în tileset-\/ul pentru Nivelul 2. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_afd4140c724d67df47cad9414fa3c3f7d}{LEVEL2\+\_\+\+TILE\+\_\+\+SIZE}} = 32
+\begin{DoxyCompactList}\small\item\em Dimensiunea unui tile (în pixeli) pentru Nivelul 2. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_a823715345375aba240ae445e9a4db90b}{LEVEL3\+\_\+\+ROWS}} = 18
+\begin{DoxyCompactList}\small\item\em Numărul de rânduri în tileset-\/ul pentru Nivelul 3. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_ac4c6d8089dd374d0f2b84e1e60c3d283}{LEVEL3\+\_\+\+COLS}} = 15
+\begin{DoxyCompactList}\small\item\em Numărul de coloane în tileset-\/ul pentru Nivelul 3. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classlevels_1_1LevelFactory_aab6b8cbd9bed26051586924beedee161}{LEVEL3\+\_\+\+TILE\+\_\+\+SIZE}} = 16
+\begin{DoxyCompactList}\small\item\em Dimensiunea unui tile (în pixeli) pentru Nivelul 3. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classlevels_1_1LevelFactory_aa1c26b5f6b2249ae182bb6af4e643023}{preprocess\+Enemy\+Spawn\+Points}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} level\+Data)
+\begin{DoxyCompactList}\small\item\em Pre-\/procesează datele nivelului pentru a gestiona punctele de spawn ale inamicilor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1Level}{Level}} \mbox{\hyperlink{classlevels_1_1LevelFactory_acaa0272767d92b1cd17bf450effae2ee}{create\+Level1}} ()
+\begin{DoxyCompactList}\small\item\em Creează și returnează Nivelul 1. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1Level}{Level}} \mbox{\hyperlink{classlevels_1_1LevelFactory_ab27278fb32618eb8e9ca67d7f7e7954d}{create\+Level2}} ()
+\begin{DoxyCompactList}\small\item\em Creează și returnează Nivelul 2. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1Level}{Level}} \mbox{\hyperlink{classlevels_1_1LevelFactory_ad8728f8a592887baf6fadad345b30381}{create\+Level3}} ()
+\begin{DoxyCompactList}\small\item\em Creează și returnează Nivelul 3. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasă de tip Factory responsabilă pentru crearea obiectelor de tip \mbox{\hyperlink{classlevels_1_1Level}{Level}}. 
+
+Implementează modelul de proiectare Factory pentru a abstractiza procesul de creare a nivelurilor. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_a1915c333a6dd84f76abae98d1b3ef11b}\label{classlevels_1_1LevelFactory_a1915c333a6dd84f76abae98d1b3ef11b}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!createLevel@{createLevel}}
+\index{createLevel@{createLevel}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{createLevel()}{createLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1Level}{Level}} levels.\+Level\+Factory.\+create\+Level (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})}
+
+
+
+Creează un obiect \mbox{\hyperlink{classlevels_1_1Level}{Level}} pe baza numărului de nivel specificat. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului de creat. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} creat. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_acaa0272767d92b1cd17bf450effae2ee}\label{classlevels_1_1LevelFactory_acaa0272767d92b1cd17bf450effae2ee}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!createLevel1@{createLevel1}}
+\index{createLevel1@{createLevel1}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{createLevel1()}{createLevel1()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1Level}{Level}} levels.\+Level\+Factory.\+create\+Level1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Creează și returnează Nivelul 1. 
+
+Încarcă datele specifice nivelului și le pre-\/procesează.
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} pentru Nivelul 1. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_ab27278fb32618eb8e9ca67d7f7e7954d}\label{classlevels_1_1LevelFactory_ab27278fb32618eb8e9ca67d7f7e7954d}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!createLevel2@{createLevel2}}
+\index{createLevel2@{createLevel2}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{createLevel2()}{createLevel2()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1Level}{Level}} levels.\+Level\+Factory.\+create\+Level2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Creează și returnează Nivelul 2. 
+
+Încarcă datele specifice nivelului și le pre-\/procesează.
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} pentru Nivelul 2. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_ad8728f8a592887baf6fadad345b30381}\label{classlevels_1_1LevelFactory_ad8728f8a592887baf6fadad345b30381}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!createLevel3@{createLevel3}}
+\index{createLevel3@{createLevel3}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{createLevel3()}{createLevel3()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1Level}{Level}} levels.\+Level\+Factory.\+create\+Level3 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Creează și returnează Nivelul 3. 
+
+Încarcă datele specifice nivelului și le pre-\/procesează.
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} pentru Nivelul 3. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_a71993566e87cc182e83aea5bfaa44ff7}\label{classlevels_1_1LevelFactory_a71993566e87cc182e83aea5bfaa44ff7}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!getBackgroundPath@{getBackgroundPath}}
+\index{getBackgroundPath@{getBackgroundPath}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{getBackgroundPath()}{getBackgroundPath()}}
+{\footnotesize\ttfamily String levels.\+Level\+Factory.\+get\+Background\+Path (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})}
+
+
+
+Returnează calea către imaginea de fundal corespunzătoare numărului de nivel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Calea către fișierul imaginii de fundal. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_aadc8089a5f118445fd40e5f25fac09ee}\label{classlevels_1_1LevelFactory_aadc8089a5f118445fd40e5f25fac09ee}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!getLevelAtlasPath@{getLevelAtlasPath}}
+\index{getLevelAtlasPath@{getLevelAtlasPath}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{getLevelAtlasPath()}{getLevelAtlasPath()}}
+{\footnotesize\ttfamily String levels.\+Level\+Factory.\+get\+Level\+Atlas\+Path (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})}
+
+
+
+Returnează calea către atlasul de tile-\/uri (spritesheet) corespunzător numărului de nivel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Calea către fișierul atlas. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_aaf24f7c093e9c72a0c1337b3716632bc}\label{classlevels_1_1LevelFactory_aaf24f7c093e9c72a0c1337b3716632bc}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!getTilesetCols@{getTilesetCols}}
+\index{getTilesetCols@{getTilesetCols}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{getTilesetCols()}{getTilesetCols()}}
+{\footnotesize\ttfamily int levels.\+Level\+Factory.\+get\+Tileset\+Cols (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})}
+
+
+
+Returnează numărul de coloane din tileset pentru nivelul specificat. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Numărul de coloane din tileset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_a6167fd40fdd4fd1b3485c9204bf585a9}\label{classlevels_1_1LevelFactory_a6167fd40fdd4fd1b3485c9204bf585a9}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!getTilesetRows@{getTilesetRows}}
+\index{getTilesetRows@{getTilesetRows}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{getTilesetRows()}{getTilesetRows()}}
+{\footnotesize\ttfamily int levels.\+Level\+Factory.\+get\+Tileset\+Rows (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})}
+
+
+
+Returnează numărul de rânduri din tileset pentru nivelul specificat. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Numărul de rânduri din tileset. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_a5579d1e81330d3c4de5e1a628c814e19}\label{classlevels_1_1LevelFactory_a5579d1e81330d3c4de5e1a628c814e19}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!getTileSize@{getTileSize}}
+\index{getTileSize@{getTileSize}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{getTileSize()}{getTileSize()}}
+{\footnotesize\ttfamily int levels.\+Level\+Factory.\+get\+Tile\+Size (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})}
+
+
+
+Returnează dimensiunea unui tile (în pixeli) pentru nivelul specificat. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Dimensiunea unui tile în pixeli. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_aa1c26b5f6b2249ae182bb6af4e643023}\label{classlevels_1_1LevelFactory_aa1c26b5f6b2249ae182bb6af4e643023}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!preprocessEnemySpawnPoints@{preprocessEnemySpawnPoints}}
+\index{preprocessEnemySpawnPoints@{preprocessEnemySpawnPoints}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{preprocessEnemySpawnPoints()}{preprocessEnemySpawnPoints()}}
+{\footnotesize\ttfamily void levels.\+Level\+Factory.\+preprocess\+Enemy\+Spawn\+Points (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pre-\/procesează datele nivelului pentru a gestiona punctele de spawn ale inamicilor. 
+
+Această metodă este apelată înainte de crearea obiectului \mbox{\hyperlink{classlevels_1_1Level}{Level}} pentru a se asigura că tile-\/urile corespunzătoare punctelor de spawn ale inamicilor nu sunt interpretate ca blocuri solide sau alte elemente de decor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & Datele nivelului de procesat. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_a02713828afb30669ff597e8bab654b38}\label{classlevels_1_1LevelFactory_a02713828afb30669ff597e8bab654b38}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL1\_COLS@{LEVEL1\_COLS}}
+\index{LEVEL1\_COLS@{LEVEL1\_COLS}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL1\_COLS}{LEVEL1\_COLS}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL1\+\_\+\+COLS = 12\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de coloane în tileset-\/ul pentru Nivelul 1. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_a46d76a2a1f0737a12985a305f52fcaa9}\label{classlevels_1_1LevelFactory_a46d76a2a1f0737a12985a305f52fcaa9}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL1\_ROWS@{LEVEL1\_ROWS}}
+\index{LEVEL1\_ROWS@{LEVEL1\_ROWS}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL1\_ROWS}{LEVEL1\_ROWS}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL1\+\_\+\+ROWS = 8\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de rânduri în tileset-\/ul pentru Nivelul 1. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_acebe511fcf4ed35f271f5d5330f309ea}\label{classlevels_1_1LevelFactory_acebe511fcf4ed35f271f5d5330f309ea}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL1\_TILE\_SIZE@{LEVEL1\_TILE\_SIZE}}
+\index{LEVEL1\_TILE\_SIZE@{LEVEL1\_TILE\_SIZE}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL1\_TILE\_SIZE}{LEVEL1\_TILE\_SIZE}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL1\+\_\+\+TILE\+\_\+\+SIZE = 32\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Dimensiunea unui tile (în pixeli) pentru Nivelul 1. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_aa4af214535ab8e7e769d0370fe9f7243}\label{classlevels_1_1LevelFactory_aa4af214535ab8e7e769d0370fe9f7243}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL2\_COLS@{LEVEL2\_COLS}}
+\index{LEVEL2\_COLS@{LEVEL2\_COLS}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL2\_COLS}{LEVEL2\_COLS}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL2\+\_\+\+COLS = 9\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de coloane în tileset-\/ul pentru Nivelul 2. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_af15974c06b0e8d00a0d6904eceab5155}\label{classlevels_1_1LevelFactory_af15974c06b0e8d00a0d6904eceab5155}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL2\_ROWS@{LEVEL2\_ROWS}}
+\index{LEVEL2\_ROWS@{LEVEL2\_ROWS}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL2\_ROWS}{LEVEL2\_ROWS}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL2\+\_\+\+ROWS = 9\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de rânduri în tileset-\/ul pentru Nivelul 2. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_afd4140c724d67df47cad9414fa3c3f7d}\label{classlevels_1_1LevelFactory_afd4140c724d67df47cad9414fa3c3f7d}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL2\_TILE\_SIZE@{LEVEL2\_TILE\_SIZE}}
+\index{LEVEL2\_TILE\_SIZE@{LEVEL2\_TILE\_SIZE}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL2\_TILE\_SIZE}{LEVEL2\_TILE\_SIZE}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL2\+\_\+\+TILE\+\_\+\+SIZE = 32\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Dimensiunea unui tile (în pixeli) pentru Nivelul 2. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_ac4c6d8089dd374d0f2b84e1e60c3d283}\label{classlevels_1_1LevelFactory_ac4c6d8089dd374d0f2b84e1e60c3d283}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL3\_COLS@{LEVEL3\_COLS}}
+\index{LEVEL3\_COLS@{LEVEL3\_COLS}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL3\_COLS}{LEVEL3\_COLS}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL3\+\_\+\+COLS = 15\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de coloane în tileset-\/ul pentru Nivelul 3. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_a823715345375aba240ae445e9a4db90b}\label{classlevels_1_1LevelFactory_a823715345375aba240ae445e9a4db90b}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL3\_ROWS@{LEVEL3\_ROWS}}
+\index{LEVEL3\_ROWS@{LEVEL3\_ROWS}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL3\_ROWS}{LEVEL3\_ROWS}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL3\+\_\+\+ROWS = 18\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de rânduri în tileset-\/ul pentru Nivelul 3. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelFactory_aab6b8cbd9bed26051586924beedee161}\label{classlevels_1_1LevelFactory_aab6b8cbd9bed26051586924beedee161}} 
+\index{levels.LevelFactory@{levels.LevelFactory}!LEVEL3\_TILE\_SIZE@{LEVEL3\_TILE\_SIZE}}
+\index{LEVEL3\_TILE\_SIZE@{LEVEL3\_TILE\_SIZE}!levels.LevelFactory@{levels.LevelFactory}}
+\doxysubsubsection{\texorpdfstring{LEVEL3\_TILE\_SIZE}{LEVEL3\_TILE\_SIZE}}
+{\footnotesize\ttfamily final int levels.\+Level\+Factory.\+LEVEL3\+\_\+\+TILE\+\_\+\+SIZE = 16\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Dimensiunea unui tile (în pixeli) pentru Nivelul 3. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/levels/\mbox{\hyperlink{LevelFactory_8java}{Level\+Factory.\+java}}\end{DoxyCompactItemize}

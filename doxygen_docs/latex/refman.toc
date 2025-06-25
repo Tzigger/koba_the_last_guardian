@@ -1,0 +1,1492 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Packages}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{9}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Package database}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Package entities}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Package gamestates}{12}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Package inputs}{12}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Package levels}{12}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Package main}{13}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Package ui}{13}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Package utilz}{13}{section.5.8}%
+\contentsline {chapter}{\numberline {6}Class Documentation}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Goblin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boss.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Action\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}State Enum Reference}{15}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{15}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Member Data Documentation}{15}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}ATTACKING\_MELEE}{15}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}ATTACKING\_RUN\_SLASH}{16}{subsubsection.6.1.2.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.3}CHASING}{16}{subsubsection.6.1.2.3}%
+\contentsline {subsubsection}{\numberline {6.1.2.4}DETECTED}{16}{subsubsection.6.1.2.4}%
+\contentsline {subsubsection}{\numberline {6.1.2.5}DYING}{16}{subsubsection.6.1.2.5}%
+\contentsline {subsubsection}{\numberline {6.1.2.6}HURT}{16}{subsubsection.6.1.2.6}%
+\contentsline {subsubsection}{\numberline {6.1.2.7}IDLE}{16}{subsubsection.6.1.2.7}%
+\contentsline {subsubsection}{\numberline {6.1.2.8}PREPARING\_ATTACK}{16}{subsubsection.6.1.2.8}%
+\contentsline {subsubsection}{\numberline {6.1.2.9}REPOSITIONING\_SLIDE}{16}{subsubsection.6.1.2.9}%
+\contentsline {subsubsection}{\numberline {6.1.2.10}REPOSITIONING\_WALK}{17}{subsubsection.6.1.2.10}%
+\contentsline {section}{\numberline {6.2}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Golem\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boss.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Action\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}State Enum Reference}{17}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{17}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Member Data Documentation}{17}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}ATTACKING\_MELEE}{17}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}CHASING}{17}{subsubsection.6.2.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.3}DETECTED}{18}{subsubsection.6.2.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.2.4}DYING}{18}{subsubsection.6.2.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.2.5}HURT}{18}{subsubsection.6.2.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.2.6}IDLE}{18}{subsubsection.6.2.2.6}%
+\contentsline {subsubsection}{\numberline {6.2.2.7}PREPARING\_ATTACK}{18}{subsubsection.6.2.2.7}%
+\contentsline {subsubsection}{\numberline {6.2.2.8}WALKING\_TOWARDS\_PLAYER}{18}{subsubsection.6.2.2.8}%
+\contentsline {section}{\numberline {6.3}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banana Class Reference}{19}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{20}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Constructor \& Destructor Documentation}{20}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}Banana()}{20}{subsubsection.6.3.2.1}%
+\contentsline {subsection}{\numberline {6.3.3}Member Function Documentation}{21}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}draw()}{21}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}drawHitbox()}{21}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}isActive()}{22}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}setActive()}{22}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}update()}{22}{subsubsection.6.3.3.5}%
+\contentsline {subsection}{\numberline {6.3.4}Member Data Documentation}{22}{subsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.4.1}active}{22}{subsubsection.6.3.4.1}%
+\contentsline {subsubsection}{\numberline {6.3.4.2}floatAmplitude}{23}{subsubsection.6.3.4.2}%
+\contentsline {subsubsection}{\numberline {6.3.4.3}floatAngle}{23}{subsubsection.6.3.4.3}%
+\contentsline {subsubsection}{\numberline {6.3.4.4}floatSpeed}{23}{subsubsection.6.3.4.4}%
+\contentsline {subsubsection}{\numberline {6.3.4.5}image}{23}{subsubsection.6.3.4.5}%
+\contentsline {subsubsection}{\numberline {6.3.4.6}levelData}{23}{subsubsection.6.3.4.6}%
+\contentsline {subsubsection}{\numberline {6.3.4.7}maxScale}{23}{subsubsection.6.3.4.7}%
+\contentsline {subsubsection}{\numberline {6.3.4.8}minScale}{24}{subsubsection.6.3.4.8}%
+\contentsline {subsubsection}{\numberline {6.3.4.9}originalHeight}{24}{subsubsection.6.3.4.9}%
+\contentsline {subsubsection}{\numberline {6.3.4.10}originalWidth}{24}{subsubsection.6.3.4.10}%
+\contentsline {subsubsection}{\numberline {6.3.4.11}originalY}{24}{subsubsection.6.3.4.11}%
+\contentsline {subsubsection}{\numberline {6.3.4.12}scaleFactor}{24}{subsubsection.6.3.4.12}%
+\contentsline {subsubsection}{\numberline {6.3.4.13}scaleSpeed}{24}{subsubsection.6.3.4.13}%
+\contentsline {subsubsection}{\numberline {6.3.4.14}scalingUp}{25}{subsubsection.6.3.4.14}%
+\contentsline {section}{\numberline {6.4}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Coconut Class Reference}{25}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{26}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Constructor \& Destructor Documentation}{27}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}Coconut()}{27}{subsubsection.6.4.2.1}%
+\contentsline {subsection}{\numberline {6.4.3}Member Function Documentation}{27}{subsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}draw()}{27}{subsubsection.6.4.3.1}%
+\contentsline {subsubsection}{\numberline {6.4.3.2}isActive()}{27}{subsubsection.6.4.3.2}%
+\contentsline {subsubsection}{\numberline {6.4.3.3}setActive()}{28}{subsubsection.6.4.3.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.4}update()}{28}{subsubsection.6.4.3.4}%
+\contentsline {subsection}{\numberline {6.4.4}Member Data Documentation}{28}{subsection.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.4.4.1}active}{28}{subsubsection.6.4.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.4.2}floatAmplitude}{29}{subsubsection.6.4.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.4.3}floatAngle}{29}{subsubsection.6.4.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4.4}floatSpeed}{29}{subsubsection.6.4.4.4}%
+\contentsline {subsubsection}{\numberline {6.4.4.5}image}{29}{subsubsection.6.4.4.5}%
+\contentsline {subsubsection}{\numberline {6.4.4.6}levelData}{29}{subsubsection.6.4.4.6}%
+\contentsline {subsubsection}{\numberline {6.4.4.7}maxScale}{29}{subsubsection.6.4.4.7}%
+\contentsline {subsubsection}{\numberline {6.4.4.8}minScale}{30}{subsubsection.6.4.4.8}%
+\contentsline {subsubsection}{\numberline {6.4.4.9}originalHeight}{30}{subsubsection.6.4.4.9}%
+\contentsline {subsubsection}{\numberline {6.4.4.10}originalWidth}{30}{subsubsection.6.4.4.10}%
+\contentsline {subsubsection}{\numberline {6.4.4.11}originalY}{30}{subsubsection.6.4.4.11}%
+\contentsline {subsubsection}{\numberline {6.4.4.12}scaleFactor}{30}{subsubsection.6.4.4.12}%
+\contentsline {subsubsection}{\numberline {6.4.4.13}scaleSpeed}{30}{subsubsection.6.4.4.13}%
+\contentsline {subsubsection}{\numberline {6.4.4.14}scalingUp}{31}{subsubsection.6.4.4.14}%
+\contentsline {section}{\numberline {6.5}utilz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants Class Reference}{31}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{31}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enemy Class Reference}{32}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{33}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Constructor \& Destructor Documentation}{33}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}Enemy()}{33}{subsubsection.6.6.2.1}%
+\contentsline {subsection}{\numberline {6.6.3}Member Function Documentation}{34}{subsection.6.6.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.1}drawHitbox()}{34}{subsubsection.6.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.6.3.2}getAniIndex()}{34}{subsubsection.6.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.6.3.3}getEnemyState()}{34}{subsubsection.6.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.6.3.4}getEnemyType()}{35}{subsubsection.6.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.6.3.5}getHitbox()}{35}{subsubsection.6.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.6.3.6}isActive()}{35}{subsubsection.6.6.3.6}%
+\contentsline {subsubsection}{\numberline {6.6.3.7}setEnemyState()}{35}{subsubsection.6.6.3.7}%
+\contentsline {subsubsection}{\numberline {6.6.3.8}update()}{36}{subsubsection.6.6.3.8}%
+\contentsline {subsubsection}{\numberline {6.6.3.9}updateAnimationTick()}{36}{subsubsection.6.6.3.9}%
+\contentsline {subsection}{\numberline {6.6.4}Member Data Documentation}{36}{subsection.6.6.4}%
+\contentsline {subsubsection}{\numberline {6.6.4.1}aniIndex}{36}{subsubsection.6.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.6.4.2}aniSpeed}{37}{subsubsection.6.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.6.4.3}aniTick}{37}{subsubsection.6.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.6.4.4}drawHitbox}{37}{subsubsection.6.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.6.4.5}enemyState}{37}{subsubsection.6.6.4.5}%
+\contentsline {subsubsection}{\numberline {6.6.4.6}enemyType}{37}{subsubsection.6.6.4.6}%
+\contentsline {subsubsection}{\numberline {6.6.4.7}isActive}{37}{subsubsection.6.6.4.7}%
+\contentsline {section}{\numberline {6.7}utilz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enemy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Animation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rows Enum Reference}{38}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{39}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Constructor \& Destructor Documentation}{39}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}Enemy\_Animation\_Rows()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{39}{subsubsection.6.7.2.1}%
+\contentsline {subsubsection}{\numberline {6.7.2.2}Enemy\_Animation\_Rows()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{39}{subsubsection.6.7.2.2}%
+\contentsline {subsection}{\numberline {6.7.3}Member Function Documentation}{40}{subsection.6.7.3}%
+\contentsline {subsubsection}{\numberline {6.7.3.1}getFrameCount()}{40}{subsubsection.6.7.3.1}%
+\contentsline {subsubsection}{\numberline {6.7.3.2}getRowIndex()}{40}{subsubsection.6.7.3.2}%
+\contentsline {subsection}{\numberline {6.7.4}Member Data Documentation}{40}{subsection.6.7.4}%
+\contentsline {subsubsection}{\numberline {6.7.4.1}DYING}{40}{subsubsection.6.7.4.1}%
+\contentsline {subsubsection}{\numberline {6.7.4.2}FALLING\_DOWN}{41}{subsubsection.6.7.4.2}%
+\contentsline {subsubsection}{\numberline {6.7.4.3}frameCount}{41}{subsubsection.6.7.4.3}%
+\contentsline {subsubsection}{\numberline {6.7.4.4}HURT}{41}{subsubsection.6.7.4.4}%
+\contentsline {subsubsection}{\numberline {6.7.4.5}IDLE}{41}{subsubsection.6.7.4.5}%
+\contentsline {subsubsection}{\numberline {6.7.4.6}IDLE\_NO\_BLINK}{41}{subsubsection.6.7.4.6}%
+\contentsline {subsubsection}{\numberline {6.7.4.7}JUMP\_LOOP}{41}{subsubsection.6.7.4.7}%
+\contentsline {subsubsection}{\numberline {6.7.4.8}JUMP\_START}{42}{subsubsection.6.7.4.8}%
+\contentsline {subsubsection}{\numberline {6.7.4.9}KICKING}{42}{subsubsection.6.7.4.9}%
+\contentsline {subsubsection}{\numberline {6.7.4.10}rowIndex}{42}{subsubsection.6.7.4.10}%
+\contentsline {subsubsection}{\numberline {6.7.4.11}RUN\_SLASING}{42}{subsubsection.6.7.4.11}%
+\contentsline {subsubsection}{\numberline {6.7.4.12}RUN\_THROWING}{42}{subsubsection.6.7.4.12}%
+\contentsline {subsubsection}{\numberline {6.7.4.13}RUNNING}{42}{subsubsection.6.7.4.13}%
+\contentsline {subsubsection}{\numberline {6.7.4.14}SLASHING}{43}{subsubsection.6.7.4.14}%
+\contentsline {subsubsection}{\numberline {6.7.4.15}SLASHING\_IN\_THE\_AIR}{43}{subsubsection.6.7.4.15}%
+\contentsline {subsubsection}{\numberline {6.7.4.16}SLIDING}{43}{subsubsection.6.7.4.16}%
+\contentsline {subsubsection}{\numberline {6.7.4.17}THROWING}{43}{subsubsection.6.7.4.17}%
+\contentsline {subsubsection}{\numberline {6.7.4.18}THROWING\_IN\_THE\_AIR}{43}{subsubsection.6.7.4.18}%
+\contentsline {subsubsection}{\numberline {6.7.4.19}WALKING}{43}{subsubsection.6.7.4.19}%
+\contentsline {section}{\numberline {6.8}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enemy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{44}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{46}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Constructor \& Destructor Documentation}{47}{subsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.1}EnemyManager()}{47}{subsubsection.6.8.2.1}%
+\contentsline {subsection}{\numberline {6.8.3}Member Function Documentation}{47}{subsection.6.8.3}%
+\contentsline {subsubsection}{\numberline {6.8.3.1}addProjectile()}{47}{subsubsection.6.8.3.1}%
+\contentsline {subsubsection}{\numberline {6.8.3.2}applyKnockback()}{47}{subsubsection.6.8.3.2}%
+\contentsline {subsubsection}{\numberline {6.8.3.3}checkForNewEnemySpawn()}{48}{subsubsection.6.8.3.3}%
+\contentsline {subsubsection}{\numberline {6.8.3.4}draw()}{48}{subsubsection.6.8.3.4}%
+\contentsline {subsubsection}{\numberline {6.8.3.5}drawGems()}{48}{subsubsection.6.8.3.5}%
+\contentsline {subsubsection}{\numberline {6.8.3.6}drawGoblinBosses()}{49}{subsubsection.6.8.3.6}%
+\contentsline {subsubsection}{\numberline {6.8.3.7}drawGoblins()}{49}{subsubsection.6.8.3.7}%
+\contentsline {subsubsection}{\numberline {6.8.3.8}drawGolemBosses()}{49}{subsubsection.6.8.3.8}%
+\contentsline {subsubsection}{\numberline {6.8.3.9}drawHealthBar()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{50}{subsubsection.6.8.3.9}%
+\contentsline {subsubsection}{\numberline {6.8.3.10}drawHealthBar()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{50}{subsubsection.6.8.3.10}%
+\contentsline {subsubsection}{\numberline {6.8.3.11}drawHealthBar()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{50}{subsubsection.6.8.3.11}%
+\contentsline {subsubsection}{\numberline {6.8.3.12}drawHealthBar()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{51}{subsubsection.6.8.3.12}%
+\contentsline {subsubsection}{\numberline {6.8.3.13}drawHealthBar()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{51}{subsubsection.6.8.3.13}%
+\contentsline {subsubsection}{\numberline {6.8.3.14}drawKaragors()}{51}{subsubsection.6.8.3.14}%
+\contentsline {subsubsection}{\numberline {6.8.3.15}drawNanites()}{52}{subsubsection.6.8.3.15}%
+\contentsline {subsubsection}{\numberline {6.8.3.16}drawProjectiles()}{52}{subsubsection.6.8.3.16}%
+\contentsline {subsubsection}{\numberline {6.8.3.17}getCurrentLevel()}{52}{subsubsection.6.8.3.17}%
+\contentsline {subsubsection}{\numberline {6.8.3.18}getGems()}{53}{subsubsection.6.8.3.18}%
+\contentsline {subsubsection}{\numberline {6.8.3.19}getGoblinBosses()}{53}{subsubsection.6.8.3.19}%
+\contentsline {subsubsection}{\numberline {6.8.3.20}getGoblins()}{53}{subsubsection.6.8.3.20}%
+\contentsline {subsubsection}{\numberline {6.8.3.21}getGolemBosses()}{53}{subsubsection.6.8.3.21}%
+\contentsline {subsubsection}{\numberline {6.8.3.22}getKaragors()}{54}{subsubsection.6.8.3.22}%
+\contentsline {subsubsection}{\numberline {6.8.3.23}getNanites()}{54}{subsubsection.6.8.3.23}%
+\contentsline {subsubsection}{\numberline {6.8.3.24}loadEnemiesFromLevelData()}{54}{subsubsection.6.8.3.24}%
+\contentsline {subsubsection}{\numberline {6.8.3.25}loadEnemyImgs()}{54}{subsubsection.6.8.3.25}%
+\contentsline {subsubsection}{\numberline {6.8.3.26}loadSpriteSheet()}{55}{subsubsection.6.8.3.26}%
+\contentsline {subsubsection}{\numberline {6.8.3.27}resetEnemies()}{55}{subsubsection.6.8.3.27}%
+\contentsline {subsubsection}{\numberline {6.8.3.28}scanLevelForSpawnPoints()}{55}{subsubsection.6.8.3.28}%
+\contentsline {subsubsection}{\numberline {6.8.3.29}spawnAllEnemies()}{55}{subsubsection.6.8.3.29}%
+\contentsline {subsubsection}{\numberline {6.8.3.30}spawnEnemy()}{56}{subsubsection.6.8.3.30}%
+\contentsline {subsubsection}{\numberline {6.8.3.31}spawnGem()}{56}{subsubsection.6.8.3.31}%
+\contentsline {subsubsection}{\numberline {6.8.3.32}trySpawnCollectible()}{56}{subsubsection.6.8.3.32}%
+\contentsline {subsubsection}{\numberline {6.8.3.33}update()}{57}{subsubsection.6.8.3.33}%
+\contentsline {subsection}{\numberline {6.8.4}Member Data Documentation}{57}{subsection.6.8.4}%
+\contentsline {subsubsection}{\numberline {6.8.4.1}allEnemiesSpawned}{57}{subsubsection.6.8.4.1}%
+\contentsline {subsubsection}{\numberline {6.8.4.2}currentLevel}{57}{subsubsection.6.8.4.2}%
+\contentsline {subsubsection}{\numberline {6.8.4.3}gems}{57}{subsubsection.6.8.4.3}%
+\contentsline {subsubsection}{\numberline {6.8.4.4}goblinBosses}{57}{subsubsection.6.8.4.4}%
+\contentsline {subsubsection}{\numberline {6.8.4.5}goblinHardImgs}{58}{subsubsection.6.8.4.5}%
+\contentsline {subsubsection}{\numberline {6.8.4.6}goblinNoobImgs}{58}{subsubsection.6.8.4.6}%
+\contentsline {subsubsection}{\numberline {6.8.4.7}goblins}{58}{subsubsection.6.8.4.7}%
+\contentsline {subsubsection}{\numberline {6.8.4.8}golemBosses}{58}{subsubsection.6.8.4.8}%
+\contentsline {subsubsection}{\numberline {6.8.4.9}karagors}{58}{subsubsection.6.8.4.9}%
+\contentsline {subsubsection}{\numberline {6.8.4.10}levelData}{58}{subsubsection.6.8.4.10}%
+\contentsline {subsubsection}{\numberline {6.8.4.11}naniteImgs}{58}{subsubsection.6.8.4.11}%
+\contentsline {subsubsection}{\numberline {6.8.4.12}nanitePesteraImgs}{58}{subsubsection.6.8.4.12}%
+\contentsline {subsubsection}{\numberline {6.8.4.13}nanites}{59}{subsubsection.6.8.4.13}%
+\contentsline {subsubsection}{\numberline {6.8.4.14}playerDetectionDistance}{59}{subsubsection.6.8.4.14}%
+\contentsline {subsubsection}{\numberline {6.8.4.15}playing}{59}{subsubsection.6.8.4.15}%
+\contentsline {subsubsection}{\numberline {6.8.4.16}projectiles}{59}{subsubsection.6.8.4.16}%
+\contentsline {subsubsection}{\numberline {6.8.4.17}random}{59}{subsubsection.6.8.4.17}%
+\contentsline {subsubsection}{\numberline {6.8.4.18}spawnPoints}{59}{subsubsection.6.8.4.18}%
+\contentsline {section}{\numberline {6.9}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enter\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Name\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Overlay Class Reference}{60}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{62}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Constructor \& Destructor Documentation}{62}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}EnterNameOverlay()}{62}{subsubsection.6.9.2.1}%
+\contentsline {subsection}{\numberline {6.9.3}Member Function Documentation}{62}{subsection.6.9.3}%
+\contentsline {subsubsection}{\numberline {6.9.3.1}draw()}{63}{subsubsection.6.9.3.1}%
+\contentsline {subsubsection}{\numberline {6.9.3.2}keyPressed()}{63}{subsubsection.6.9.3.2}%
+\contentsline {subsubsection}{\numberline {6.9.3.3}keyReleased()}{63}{subsubsection.6.9.3.3}%
+\contentsline {subsubsection}{\numberline {6.9.3.4}loadButtons()}{64}{subsubsection.6.9.3.4}%
+\contentsline {subsubsection}{\numberline {6.9.3.5}loadCustomFont()}{64}{subsubsection.6.9.3.5}%
+\contentsline {subsubsection}{\numberline {6.9.3.6}loadFrame()}{64}{subsubsection.6.9.3.6}%
+\contentsline {subsubsection}{\numberline {6.9.3.7}loadStartImg()}{64}{subsubsection.6.9.3.7}%
+\contentsline {subsubsection}{\numberline {6.9.3.8}mouseClicked()}{64}{subsubsection.6.9.3.8}%
+\contentsline {subsubsection}{\numberline {6.9.3.9}mouseDragged()}{65}{subsubsection.6.9.3.9}%
+\contentsline {subsubsection}{\numberline {6.9.3.10}mouseMoved()}{65}{subsubsection.6.9.3.10}%
+\contentsline {subsubsection}{\numberline {6.9.3.11}mousePressed()}{65}{subsubsection.6.9.3.11}%
+\contentsline {subsubsection}{\numberline {6.9.3.12}mouseReleased()}{66}{subsubsection.6.9.3.12}%
+\contentsline {subsubsection}{\numberline {6.9.3.13}processUsername()}{66}{subsubsection.6.9.3.13}%
+\contentsline {subsubsection}{\numberline {6.9.3.14}update()}{66}{subsubsection.6.9.3.14}%
+\contentsline {subsection}{\numberline {6.9.4}Member Data Documentation}{66}{subsection.6.9.4}%
+\contentsline {subsubsection}{\numberline {6.9.4.1}airstrikeFont}{67}{subsubsection.6.9.4.1}%
+\contentsline {subsubsection}{\numberline {6.9.4.2}closeButtonBounds}{67}{subsubsection.6.9.4.2}%
+\contentsline {subsubsection}{\numberline {6.9.4.3}DB\_FILE}{67}{subsubsection.6.9.4.3}%
+\contentsline {subsubsection}{\numberline {6.9.4.4}errorMessage}{67}{subsubsection.6.9.4.4}%
+\contentsline {subsubsection}{\numberline {6.9.4.5}existingCoconuts}{67}{subsubsection.6.9.4.5}%
+\contentsline {subsubsection}{\numberline {6.9.4.6}existingHealth}{67}{subsubsection.6.9.4.6}%
+\contentsline {subsubsection}{\numberline {6.9.4.7}existingLevel}{67}{subsubsection.6.9.4.7}%
+\contentsline {subsubsection}{\numberline {6.9.4.8}existingPosX}{68}{subsubsection.6.9.4.8}%
+\contentsline {subsubsection}{\numberline {6.9.4.9}existingPosY}{68}{subsubsection.6.9.4.9}%
+\contentsline {subsubsection}{\numberline {6.9.4.10}existingScore}{68}{subsubsection.6.9.4.10}%
+\contentsline {subsubsection}{\numberline {6.9.4.11}frameImg}{68}{subsubsection.6.9.4.11}%
+\contentsline {subsubsection}{\numberline {6.9.4.12}frameX}{68}{subsubsection.6.9.4.12}%
+\contentsline {subsubsection}{\numberline {6.9.4.13}inputActive}{68}{subsubsection.6.9.4.13}%
+\contentsline {subsubsection}{\numberline {6.9.4.14}MAX\_NAME\_LENGTH}{68}{subsubsection.6.9.4.14}%
+\contentsline {subsubsection}{\numberline {6.9.4.15}noButton}{69}{subsubsection.6.9.4.15}%
+\contentsline {subsubsection}{\numberline {6.9.4.16}previousState}{69}{subsubsection.6.9.4.16}%
+\contentsline {subsubsection}{\numberline {6.9.4.17}showLoadPrompt}{69}{subsubsection.6.9.4.17}%
+\contentsline {subsubsection}{\numberline {6.9.4.18}startbgImg}{69}{subsubsection.6.9.4.18}%
+\contentsline {subsubsection}{\numberline {6.9.4.19}startbgX}{69}{subsubsection.6.9.4.19}%
+\contentsline {subsubsection}{\numberline {6.9.4.20}startButton}{69}{subsubsection.6.9.4.20}%
+\contentsline {subsubsection}{\numberline {6.9.4.21}username}{69}{subsubsection.6.9.4.21}%
+\contentsline {subsubsection}{\numberline {6.9.4.22}yesButton}{70}{subsubsection.6.9.4.22}%
+\contentsline {section}{\numberline {6.10}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Entity Class Reference}{70}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{71}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Constructor \& Destructor Documentation}{71}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}Entity()}{71}{subsubsection.6.10.2.1}%
+\contentsline {subsection}{\numberline {6.10.3}Member Function Documentation}{72}{subsection.6.10.3}%
+\contentsline {subsubsection}{\numberline {6.10.3.1}drawHitbox()}{72}{subsubsection.6.10.3.1}%
+\contentsline {subsubsection}{\numberline {6.10.3.2}getHitbox()}{72}{subsubsection.6.10.3.2}%
+\contentsline {subsubsection}{\numberline {6.10.3.3}initHitbox()}{72}{subsubsection.6.10.3.3}%
+\contentsline {subsection}{\numberline {6.10.4}Member Data Documentation}{73}{subsection.6.10.4}%
+\contentsline {subsubsection}{\numberline {6.10.4.1}height}{73}{subsubsection.6.10.4.1}%
+\contentsline {subsubsection}{\numberline {6.10.4.2}hitbox}{73}{subsubsection.6.10.4.2}%
+\contentsline {subsubsection}{\numberline {6.10.4.3}width}{73}{subsubsection.6.10.4.3}%
+\contentsline {subsubsection}{\numberline {6.10.4.4}x}{73}{subsubsection.6.10.4.4}%
+\contentsline {subsubsection}{\numberline {6.10.4.5}y}{74}{subsubsection.6.10.4.5}%
+\contentsline {section}{\numberline {6.11}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game Class Reference}{74}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{77}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Constructor \& Destructor Documentation}{77}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}Game()}{77}{subsubsection.6.11.2.1}%
+\contentsline {subsection}{\numberline {6.11.3}Member Function Documentation}{77}{subsection.6.11.3}%
+\contentsline {subsubsection}{\numberline {6.11.3.1}getEnterNameOverlay()}{77}{subsubsection.6.11.3.1}%
+\contentsline {subsubsection}{\numberline {6.11.3.2}getLeaderboard()}{77}{subsubsection.6.11.3.2}%
+\contentsline {subsubsection}{\numberline {6.11.3.3}getLoadgame()}{78}{subsubsection.6.11.3.3}%
+\contentsline {subsubsection}{\numberline {6.11.3.4}getMenu()}{78}{subsubsection.6.11.3.4}%
+\contentsline {subsubsection}{\numberline {6.11.3.5}getOptions()}{78}{subsubsection.6.11.3.5}%
+\contentsline {subsubsection}{\numberline {6.11.3.6}getPlaying()}{78}{subsubsection.6.11.3.6}%
+\contentsline {subsubsection}{\numberline {6.11.3.7}getSessionUsername()}{78}{subsubsection.6.11.3.7}%
+\contentsline {subsubsection}{\numberline {6.11.3.8}initClasses()}{79}{subsubsection.6.11.3.8}%
+\contentsline {subsubsection}{\numberline {6.11.3.9}render()}{79}{subsubsection.6.11.3.9}%
+\contentsline {subsubsection}{\numberline {6.11.3.10}run()}{79}{subsubsection.6.11.3.10}%
+\contentsline {subsubsection}{\numberline {6.11.3.11}setSessionUsername()}{79}{subsubsection.6.11.3.11}%
+\contentsline {subsubsection}{\numberline {6.11.3.12}startGameLoop()}{80}{subsubsection.6.11.3.12}%
+\contentsline {subsubsection}{\numberline {6.11.3.13}update()}{80}{subsubsection.6.11.3.13}%
+\contentsline {subsubsection}{\numberline {6.11.3.14}windowFocusLost()}{80}{subsubsection.6.11.3.14}%
+\contentsline {subsection}{\numberline {6.11.4}Member Data Documentation}{80}{subsection.6.11.4}%
+\contentsline {subsubsection}{\numberline {6.11.4.1}enterNameOverlay}{80}{subsubsection.6.11.4.1}%
+\contentsline {subsubsection}{\numberline {6.11.4.2}FPS\_SET}{80}{subsubsection.6.11.4.2}%
+\contentsline {subsubsection}{\numberline {6.11.4.3}GAME\_HEIGHT}{81}{subsubsection.6.11.4.3}%
+\contentsline {subsubsection}{\numberline {6.11.4.4}GAME\_WIDTH}{81}{subsubsection.6.11.4.4}%
+\contentsline {subsubsection}{\numberline {6.11.4.5}gamePanel}{81}{subsubsection.6.11.4.5}%
+\contentsline {subsubsection}{\numberline {6.11.4.6}gameThread}{81}{subsubsection.6.11.4.6}%
+\contentsline {subsubsection}{\numberline {6.11.4.7}gameWindow}{81}{subsubsection.6.11.4.7}%
+\contentsline {subsubsection}{\numberline {6.11.4.8}leaderboard}{81}{subsubsection.6.11.4.8}%
+\contentsline {subsubsection}{\numberline {6.11.4.9}loadgame}{81}{subsubsection.6.11.4.9}%
+\contentsline {subsubsection}{\numberline {6.11.4.10}menu}{82}{subsubsection.6.11.4.10}%
+\contentsline {subsubsection}{\numberline {6.11.4.11}options}{82}{subsubsection.6.11.4.11}%
+\contentsline {subsubsection}{\numberline {6.11.4.12}playing}{82}{subsubsection.6.11.4.12}%
+\contentsline {subsubsection}{\numberline {6.11.4.13}SCALE}{82}{subsubsection.6.11.4.13}%
+\contentsline {subsubsection}{\numberline {6.11.4.14}sessionUsername}{82}{subsubsection.6.11.4.14}%
+\contentsline {subsubsection}{\numberline {6.11.4.15}TILES\_DEFAULT\_SIZE}{82}{subsubsection.6.11.4.15}%
+\contentsline {subsubsection}{\numberline {6.11.4.16}TILES\_IN\_HEIGHT}{82}{subsubsection.6.11.4.16}%
+\contentsline {subsubsection}{\numberline {6.11.4.17}TILES\_IN\_WIDTH}{83}{subsubsection.6.11.4.17}%
+\contentsline {subsubsection}{\numberline {6.11.4.18}TILES\_SIZE}{83}{subsubsection.6.11.4.18}%
+\contentsline {subsubsection}{\numberline {6.11.4.19}UPS\_SET}{83}{subsubsection.6.11.4.19}%
+\contentsline {section}{\numberline {6.12}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Over\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Overlay Class Reference}{83}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{85}{subsection.6.12.1}%
+\contentsline {subsection}{\numberline {6.12.2}Constructor \& Destructor Documentation}{85}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}GameOverOverlay()}{85}{subsubsection.6.12.2.1}%
+\contentsline {subsection}{\numberline {6.12.3}Member Function Documentation}{86}{subsection.6.12.3}%
+\contentsline {subsubsection}{\numberline {6.12.3.1}draw()}{86}{subsubsection.6.12.3.1}%
+\contentsline {subsubsection}{\numberline {6.12.3.2}drawBackButton()}{86}{subsubsection.6.12.3.2}%
+\contentsline {subsubsection}{\numberline {6.12.3.3}drawRetryButton()}{86}{subsubsection.6.12.3.3}%
+\contentsline {subsubsection}{\numberline {6.12.3.4}keyPressed()}{88}{subsubsection.6.12.3.4}%
+\contentsline {subsubsection}{\numberline {6.12.3.5}keyReleased()}{88}{subsubsection.6.12.3.5}%
+\contentsline {subsubsection}{\numberline {6.12.3.6}loadBackground()}{88}{subsubsection.6.12.3.6}%
+\contentsline {subsubsection}{\numberline {6.12.3.7}loadCustomFont()}{89}{subsubsection.6.12.3.7}%
+\contentsline {subsubsection}{\numberline {6.12.3.8}mouseClicked()}{89}{subsubsection.6.12.3.8}%
+\contentsline {subsubsection}{\numberline {6.12.3.9}mouseDragged()}{89}{subsubsection.6.12.3.9}%
+\contentsline {subsubsection}{\numberline {6.12.3.10}mouseMoved()}{89}{subsubsection.6.12.3.10}%
+\contentsline {subsubsection}{\numberline {6.12.3.11}mousePressed()}{90}{subsubsection.6.12.3.11}%
+\contentsline {subsubsection}{\numberline {6.12.3.12}mouseReleased()}{90}{subsubsection.6.12.3.12}%
+\contentsline {subsubsection}{\numberline {6.12.3.13}update()}{90}{subsubsection.6.12.3.13}%
+\contentsline {subsection}{\numberline {6.12.4}Member Data Documentation}{90}{subsection.6.12.4}%
+\contentsline {subsubsection}{\numberline {6.12.4.1}backButtonBounds}{91}{subsubsection.6.12.4.1}%
+\contentsline {subsubsection}{\numberline {6.12.4.2}backgroundImg}{91}{subsubsection.6.12.4.2}%
+\contentsline {subsubsection}{\numberline {6.12.4.3}bgX}{91}{subsubsection.6.12.4.3}%
+\contentsline {subsubsection}{\numberline {6.12.4.4}DB\_FILE}{91}{subsubsection.6.12.4.4}%
+\contentsline {subsubsection}{\numberline {6.12.4.5}overlayFont}{91}{subsubsection.6.12.4.5}%
+\contentsline {subsubsection}{\numberline {6.12.4.6}playing}{91}{subsubsection.6.12.4.6}%
+\contentsline {subsubsection}{\numberline {6.12.4.7}retryButtonBounds}{91}{subsubsection.6.12.4.7}%
+\contentsline {section}{\numberline {6.13}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel Class Reference}{92}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{94}{subsection.6.13.1}%
+\contentsline {subsection}{\numberline {6.13.2}Constructor \& Destructor Documentation}{94}{subsection.6.13.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.1}GamePanel()}{94}{subsubsection.6.13.2.1}%
+\contentsline {subsection}{\numberline {6.13.3}Member Function Documentation}{94}{subsection.6.13.3}%
+\contentsline {subsubsection}{\numberline {6.13.3.1}getGame()}{94}{subsubsection.6.13.3.1}%
+\contentsline {subsubsection}{\numberline {6.13.3.2}paintComponent()}{95}{subsubsection.6.13.3.2}%
+\contentsline {subsubsection}{\numberline {6.13.3.3}setPanelSize()}{95}{subsubsection.6.13.3.3}%
+\contentsline {subsubsection}{\numberline {6.13.3.4}updateGame()}{95}{subsubsection.6.13.3.4}%
+\contentsline {subsection}{\numberline {6.13.4}Member Data Documentation}{95}{subsection.6.13.4}%
+\contentsline {subsubsection}{\numberline {6.13.4.1}game}{96}{subsubsection.6.13.4.1}%
+\contentsline {subsubsection}{\numberline {6.13.4.2}keyboardInputs}{96}{subsubsection.6.13.4.2}%
+\contentsline {subsubsection}{\numberline {6.13.4.3}mouseInputs}{96}{subsubsection.6.13.4.3}%
+\contentsline {section}{\numberline {6.14}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gamestate Enum Reference}{96}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Detailed Description}{97}{subsection.6.14.1}%
+\contentsline {subsection}{\numberline {6.14.2}Member Data Documentation}{97}{subsection.6.14.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.1}ENTER\_NAME}{97}{subsubsection.6.14.2.1}%
+\contentsline {subsubsection}{\numberline {6.14.2.2}LEADERBOARD}{97}{subsubsection.6.14.2.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.3}LOADGAME}{98}{subsubsection.6.14.2.3}%
+\contentsline {subsubsection}{\numberline {6.14.2.4}MENU}{98}{subsubsection.6.14.2.4}%
+\contentsline {subsubsection}{\numberline {6.14.2.5}OPTIONS}{98}{subsubsection.6.14.2.5}%
+\contentsline {subsubsection}{\numberline {6.14.2.6}PLAYING}{98}{subsubsection.6.14.2.6}%
+\contentsline {subsubsection}{\numberline {6.14.2.7}QUIT}{98}{subsubsection.6.14.2.7}%
+\contentsline {subsubsection}{\numberline {6.14.2.8}state}{98}{subsubsection.6.14.2.8}%
+\contentsline {section}{\numberline {6.15}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{99}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}Detailed Description}{99}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}Constructor \& Destructor Documentation}{99}{subsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.1}GameWindow()}{99}{subsubsection.6.15.2.1}%
+\contentsline {subsection}{\numberline {6.15.3}Member Data Documentation}{100}{subsection.6.15.3}%
+\contentsline {subsubsection}{\numberline {6.15.3.1}jframe}{100}{subsubsection.6.15.3.1}%
+\contentsline {section}{\numberline {6.16}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gem Class Reference}{100}{section.6.16}%
+\contentsline {subsection}{\numberline {6.16.1}Detailed Description}{102}{subsection.6.16.1}%
+\contentsline {subsection}{\numberline {6.16.2}Constructor \& Destructor Documentation}{102}{subsection.6.16.2}%
+\contentsline {subsubsection}{\numberline {6.16.2.1}Gem()}{102}{subsubsection.6.16.2.1}%
+\contentsline {subsection}{\numberline {6.16.3}Member Function Documentation}{102}{subsection.6.16.3}%
+\contentsline {subsubsection}{\numberline {6.16.3.1}draw()}{102}{subsubsection.6.16.3.1}%
+\contentsline {subsubsection}{\numberline {6.16.3.2}getHitbox()}{103}{subsubsection.6.16.3.2}%
+\contentsline {subsubsection}{\numberline {6.16.3.3}isActive()}{103}{subsubsection.6.16.3.3}%
+\contentsline {subsubsection}{\numberline {6.16.3.4}setActive()}{103}{subsubsection.6.16.3.4}%
+\contentsline {subsubsection}{\numberline {6.16.3.5}update()}{103}{subsubsection.6.16.3.5}%
+\contentsline {subsection}{\numberline {6.16.4}Member Data Documentation}{104}{subsection.6.16.4}%
+\contentsline {subsubsection}{\numberline {6.16.4.1}active}{104}{subsubsection.6.16.4.1}%
+\contentsline {subsubsection}{\numberline {6.16.4.2}floatAmplitude}{104}{subsubsection.6.16.4.2}%
+\contentsline {subsubsection}{\numberline {6.16.4.3}floatAngle}{104}{subsubsection.6.16.4.3}%
+\contentsline {subsubsection}{\numberline {6.16.4.4}floatSpeed}{104}{subsubsection.6.16.4.4}%
+\contentsline {subsubsection}{\numberline {6.16.4.5}hitbox}{104}{subsubsection.6.16.4.5}%
+\contentsline {subsubsection}{\numberline {6.16.4.6}image}{105}{subsubsection.6.16.4.6}%
+\contentsline {subsubsection}{\numberline {6.16.4.7}levelId}{105}{subsubsection.6.16.4.7}%
+\contentsline {subsubsection}{\numberline {6.16.4.8}maxScale}{105}{subsubsection.6.16.4.8}%
+\contentsline {subsubsection}{\numberline {6.16.4.9}minScale}{105}{subsubsection.6.16.4.9}%
+\contentsline {subsubsection}{\numberline {6.16.4.10}originalHeight}{105}{subsubsection.6.16.4.10}%
+\contentsline {subsubsection}{\numberline {6.16.4.11}originalWidth}{105}{subsubsection.6.16.4.11}%
+\contentsline {subsubsection}{\numberline {6.16.4.12}originalY}{106}{subsubsection.6.16.4.12}%
+\contentsline {subsubsection}{\numberline {6.16.4.13}scaleFactor}{106}{subsubsection.6.16.4.13}%
+\contentsline {subsubsection}{\numberline {6.16.4.14}scaleSpeed}{106}{subsubsection.6.16.4.14}%
+\contentsline {subsubsection}{\numberline {6.16.4.15}scalingUp}{106}{subsubsection.6.16.4.15}%
+\contentsline {subsubsection}{\numberline {6.16.4.16}x}{106}{subsubsection.6.16.4.16}%
+\contentsline {subsubsection}{\numberline {6.16.4.17}y}{106}{subsubsection.6.16.4.17}%
+\contentsline {section}{\numberline {6.17}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Goblin Class Reference}{107}{section.6.17}%
+\contentsline {subsection}{\numberline {6.17.1}Detailed Description}{110}{subsection.6.17.1}%
+\contentsline {subsection}{\numberline {6.17.2}Constructor \& Destructor Documentation}{110}{subsection.6.17.2}%
+\contentsline {subsubsection}{\numberline {6.17.2.1}Goblin()}{111}{subsubsection.6.17.2.1}%
+\contentsline {subsection}{\numberline {6.17.3}Member Function Documentation}{111}{subsection.6.17.3}%
+\contentsline {subsubsection}{\numberline {6.17.3.1}canAttackPlayer()}{111}{subsubsection.6.17.3.1}%
+\contentsline {subsubsection}{\numberline {6.17.3.2}canSeePlayer()}{111}{subsubsection.6.17.3.2}%
+\contentsline {subsubsection}{\numberline {6.17.3.3}checkAttackHit()}{112}{subsubsection.6.17.3.3}%
+\contentsline {subsubsection}{\numberline {6.17.3.4}checkPlayerHit()}{112}{subsubsection.6.17.3.4}%
+\contentsline {subsubsection}{\numberline {6.17.3.5}getAttackBox()}{112}{subsubsection.6.17.3.5}%
+\contentsline {subsubsection}{\numberline {6.17.3.6}getDamage()}{113}{subsubsection.6.17.3.6}%
+\contentsline {subsubsection}{\numberline {6.17.3.7}getDirection()}{113}{subsubsection.6.17.3.7}%
+\contentsline {subsubsection}{\numberline {6.17.3.8}getGoblinType()}{113}{subsubsection.6.17.3.8}%
+\contentsline {subsubsection}{\numberline {6.17.3.9}getHealth()}{113}{subsubsection.6.17.3.9}%
+\contentsline {subsubsection}{\numberline {6.17.3.10}getMaxHealth()}{114}{subsubsection.6.17.3.10}%
+\contentsline {subsubsection}{\numberline {6.17.3.11}initPatrolBoundaries()}{114}{subsubsection.6.17.3.11}%
+\contentsline {subsubsection}{\numberline {6.17.3.12}isActive()}{114}{subsubsection.6.17.3.12}%
+\contentsline {subsubsection}{\numberline {6.17.3.13}makeBoss()}{114}{subsubsection.6.17.3.13}%
+\contentsline {subsubsection}{\numberline {6.17.3.14}playerDetected()}{114}{subsubsection.6.17.3.14}%
+\contentsline {subsubsection}{\numberline {6.17.3.15}setLevelData()}{115}{subsubsection.6.17.3.15}%
+\contentsline {subsubsection}{\numberline {6.17.3.16}setState()}{115}{subsubsection.6.17.3.16}%
+\contentsline {subsubsection}{\numberline {6.17.3.17}takeDamage()}{115}{subsubsection.6.17.3.17}%
+\contentsline {subsubsection}{\numberline {6.17.3.18}update()}{116}{subsubsection.6.17.3.18}%
+\contentsline {subsubsection}{\numberline {6.17.3.19}updateAttackBox()}{116}{subsubsection.6.17.3.19}%
+\contentsline {subsubsection}{\numberline {6.17.3.20}updateBehavior()}{116}{subsubsection.6.17.3.20}%
+\contentsline {subsubsection}{\numberline {6.17.3.21}updateCooldowns()}{116}{subsubsection.6.17.3.21}%
+\contentsline {subsubsection}{\numberline {6.17.3.22}updatePosition()}{117}{subsubsection.6.17.3.22}%
+\contentsline {subsubsection}{\numberline {6.17.3.23}willLandOnGround()}{117}{subsubsection.6.17.3.23}%
+\contentsline {subsection}{\numberline {6.17.4}Member Data Documentation}{117}{subsection.6.17.4}%
+\contentsline {subsubsection}{\numberline {6.17.4.1}airSpeed}{117}{subsubsection.6.17.4.1}%
+\contentsline {subsubsection}{\numberline {6.17.4.2}ATTACK}{117}{subsubsection.6.17.4.2}%
+\contentsline {subsubsection}{\numberline {6.17.4.3}ATTACK\_COOLDOWN\_MAX}{118}{subsubsection.6.17.4.3}%
+\contentsline {subsubsection}{\numberline {6.17.4.4}attackBox}{118}{subsubsection.6.17.4.4}%
+\contentsline {subsubsection}{\numberline {6.17.4.5}attackChecked}{118}{subsubsection.6.17.4.5}%
+\contentsline {subsubsection}{\numberline {6.17.4.6}attackCooldown}{118}{subsubsection.6.17.4.6}%
+\contentsline {subsubsection}{\numberline {6.17.4.7}attackRange}{118}{subsubsection.6.17.4.7}%
+\contentsline {subsubsection}{\numberline {6.17.4.8}chaseMoveSpeed}{118}{subsubsection.6.17.4.8}%
+\contentsline {subsubsection}{\numberline {6.17.4.9}damage}{119}{subsubsection.6.17.4.9}%
+\contentsline {subsubsection}{\numberline {6.17.4.10}detectionRange}{119}{subsubsection.6.17.4.10}%
+\contentsline {subsubsection}{\numberline {6.17.4.11}direction}{119}{subsubsection.6.17.4.11}%
+\contentsline {subsubsection}{\numberline {6.17.4.12}DYING}{119}{subsubsection.6.17.4.12}%
+\contentsline {subsubsection}{\numberline {6.17.4.13}GOBLIN\_HARD}{119}{subsubsection.6.17.4.13}%
+\contentsline {subsubsection}{\numberline {6.17.4.14}GOBLIN\_NOOB}{119}{subsubsection.6.17.4.14}%
+\contentsline {subsubsection}{\numberline {6.17.4.15}gravity}{120}{subsubsection.6.17.4.15}%
+\contentsline {subsubsection}{\numberline {6.17.4.16}health}{120}{subsubsection.6.17.4.16}%
+\contentsline {subsubsection}{\numberline {6.17.4.17}HURT}{120}{subsubsection.6.17.4.17}%
+\contentsline {subsubsection}{\numberline {6.17.4.18}IDLE}{120}{subsubsection.6.17.4.18}%
+\contentsline {subsubsection}{\numberline {6.17.4.19}inAir}{120}{subsubsection.6.17.4.19}%
+\contentsline {subsubsection}{\numberline {6.17.4.20}isActive}{120}{subsubsection.6.17.4.20}%
+\contentsline {subsubsection}{\numberline {6.17.4.21}isMoving}{121}{subsubsection.6.17.4.21}%
+\contentsline {subsubsection}{\numberline {6.17.4.22}jumpSpeed}{121}{subsubsection.6.17.4.22}%
+\contentsline {subsubsection}{\numberline {6.17.4.23}leftPatrolLimit}{121}{subsubsection.6.17.4.23}%
+\contentsline {subsubsection}{\numberline {6.17.4.24}levelData}{121}{subsubsection.6.17.4.24}%
+\contentsline {subsubsection}{\numberline {6.17.4.25}maxHealth}{121}{subsubsection.6.17.4.25}%
+\contentsline {subsubsection}{\numberline {6.17.4.26}moveSpeed}{121}{subsubsection.6.17.4.26}%
+\contentsline {subsubsection}{\numberline {6.17.4.27}patrolBoundariesSet}{122}{subsubsection.6.17.4.27}%
+\contentsline {subsubsection}{\numberline {6.17.4.28}patrolDistance}{122}{subsubsection.6.17.4.28}%
+\contentsline {subsubsection}{\numberline {6.17.4.29}patrolMoveSpeed}{122}{subsubsection.6.17.4.29}%
+\contentsline {subsubsection}{\numberline {6.17.4.30}playerDetected}{122}{subsubsection.6.17.4.30}%
+\contentsline {subsubsection}{\numberline {6.17.4.31}playerTouchCooldown}{122}{subsubsection.6.17.4.31}%
+\contentsline {subsubsection}{\numberline {6.17.4.32}rightPatrolLimit}{122}{subsubsection.6.17.4.32}%
+\contentsline {subsubsection}{\numberline {6.17.4.33}RUNNING}{123}{subsubsection.6.17.4.33}%
+\contentsline {subsubsection}{\numberline {6.17.4.34}ticksInState}{123}{subsubsection.6.17.4.34}%
+\contentsline {subsubsection}{\numberline {6.17.4.35}touchDamageCooldown}{123}{subsubsection.6.17.4.35}%
+\contentsline {section}{\numberline {6.18}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Goblin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boss Class Reference}{123}{section.6.18}%
+\contentsline {subsection}{\numberline {6.18.1}Detailed Description}{127}{subsection.6.18.1}%
+\contentsline {subsection}{\numberline {6.18.2}Constructor \& Destructor Documentation}{128}{subsection.6.18.2}%
+\contentsline {subsubsection}{\numberline {6.18.2.1}GoblinBoss()}{128}{subsubsection.6.18.2.1}%
+\contentsline {subsection}{\numberline {6.18.3}Member Function Documentation}{128}{subsection.6.18.3}%
+\contentsline {subsubsection}{\numberline {6.18.3.1}applyGravity()}{128}{subsubsection.6.18.3.1}%
+\contentsline {subsubsection}{\numberline {6.18.3.2}applyMeleeDamage()}{128}{subsubsection.6.18.3.2}%
+\contentsline {subsubsection}{\numberline {6.18.3.3}calculateBossHitboxHeight()}{129}{subsubsection.6.18.3.3}%
+\contentsline {subsubsection}{\numberline {6.18.3.4}calculateBossHitboxWidth()}{129}{subsubsection.6.18.3.4}%
+\contentsline {subsubsection}{\numberline {6.18.3.5}decideIdleAction()}{129}{subsubsection.6.18.3.5}%
+\contentsline {subsubsection}{\numberline {6.18.3.6}decideNextAction()}{129}{subsubsection.6.18.3.6}%
+\contentsline {subsubsection}{\numberline {6.18.3.7}flipImage()}{130}{subsubsection.6.18.3.7}%
+\contentsline {subsubsection}{\numberline {6.18.3.8}getAttackDamage()}{130}{subsubsection.6.18.3.8}%
+\contentsline {subsubsection}{\numberline {6.18.3.9}getCurrentHealth()}{130}{subsubsection.6.18.3.9}%
+\contentsline {subsubsection}{\numberline {6.18.3.10}getDistance()}{130}{subsubsection.6.18.3.10}%
+\contentsline {subsubsection}{\numberline {6.18.3.11}getMaxHealth()}{131}{subsubsection.6.18.3.11}%
+\contentsline {subsubsection}{\numberline {6.18.3.12}handleRepositionMovementLogic()}{131}{subsubsection.6.18.3.12}%
+\contentsline {subsubsection}{\numberline {6.18.3.13}handleStateMachine()}{131}{subsubsection.6.18.3.13}%
+\contentsline {subsubsection}{\numberline {6.18.3.14}initiateMeleeAttack()}{132}{subsubsection.6.18.3.14}%
+\contentsline {subsubsection}{\numberline {6.18.3.15}initiateReposition()}{132}{subsubsection.6.18.3.15}%
+\contentsline {subsubsection}{\numberline {6.18.3.16}initiateRunSlashAttack()}{132}{subsubsection.6.18.3.16}%
+\contentsline {subsubsection}{\numberline {6.18.3.17}initiateSlideReposition()}{132}{subsubsection.6.18.3.17}%
+\contentsline {subsubsection}{\numberline {6.18.3.18}initiateWalkReposition()}{133}{subsubsection.6.18.3.18}%
+\contentsline {subsubsection}{\numberline {6.18.3.19}isAlive()}{133}{subsubsection.6.18.3.19}%
+\contentsline {subsubsection}{\numberline {6.18.3.20}loadAnimations()}{133}{subsubsection.6.18.3.20}%
+\contentsline {subsubsection}{\numberline {6.18.3.21}moveTowardsPlayer()}{133}{subsubsection.6.18.3.21}%
+\contentsline {subsubsection}{\numberline {6.18.3.22}render()}{133}{subsubsection.6.18.3.22}%
+\contentsline {subsubsection}{\numberline {6.18.3.23}setBossAnimation()}{134}{subsubsection.6.18.3.23}%
+\contentsline {subsubsection}{\numberline {6.18.3.24}setLevelData()}{134}{subsubsection.6.18.3.24}%
+\contentsline {subsubsection}{\numberline {6.18.3.25}takeDamage()}{134}{subsubsection.6.18.3.25}%
+\contentsline {subsubsection}{\numberline {6.18.3.26}update()}{135}{subsubsection.6.18.3.26}%
+\contentsline {subsubsection}{\numberline {6.18.3.27}updateCurrentMeleeHitbox()}{135}{subsubsection.6.18.3.27}%
+\contentsline {subsubsection}{\numberline {6.18.3.28}updateHitbox()}{135}{subsubsection.6.18.3.28}%
+\contentsline {subsubsection}{\numberline {6.18.3.29}updatePlayerDetection()}{135}{subsubsection.6.18.3.29}%
+\contentsline {subsection}{\numberline {6.18.4}Member Data Documentation}{136}{subsection.6.18.4}%
+\contentsline {subsubsection}{\numberline {6.18.4.1}actionCooldown}{136}{subsubsection.6.18.4.1}%
+\contentsline {subsubsection}{\numberline {6.18.4.2}actionTimer}{136}{subsubsection.6.18.4.2}%
+\contentsline {subsubsection}{\numberline {6.18.4.3}animations}{136}{subsubsection.6.18.4.3}%
+\contentsline {subsubsection}{\numberline {6.18.4.4}ATTACK\_COOLDOWN\_MAX}{136}{subsubsection.6.18.4.4}%
+\contentsline {subsubsection}{\numberline {6.18.4.5}attackCheckFrame}{136}{subsubsection.6.18.4.5}%
+\contentsline {subsubsection}{\numberline {6.18.4.6}attackDamageAppliedThisAttack}{137}{subsubsection.6.18.4.6}%
+\contentsline {subsubsection}{\numberline {6.18.4.7}attackDamageBoss}{137}{subsubsection.6.18.4.7}%
+\contentsline {subsubsection}{\numberline {6.18.4.8}BOSS\_SCALE\_FACTOR}{137}{subsubsection.6.18.4.8}%
+\contentsline {subsubsection}{\numberline {6.18.4.9}currentActionState}{137}{subsubsection.6.18.4.9}%
+\contentsline {subsubsection}{\numberline {6.18.4.10}currentHealthBoss}{137}{subsubsection.6.18.4.10}%
+\contentsline {subsubsection}{\numberline {6.18.4.11}currentMeleeHitbox}{137}{subsubsection.6.18.4.11}%
+\contentsline {subsubsection}{\numberline {6.18.4.12}detectionRange}{138}{subsubsection.6.18.4.12}%
+\contentsline {subsubsection}{\numberline {6.18.4.13}direction}{138}{subsubsection.6.18.4.13}%
+\contentsline {subsubsection}{\numberline {6.18.4.14}DRAW\_HEIGHT}{138}{subsubsection.6.18.4.14}%
+\contentsline {subsubsection}{\numberline {6.18.4.15}DRAW\_WIDTH}{138}{subsubsection.6.18.4.15}%
+\contentsline {subsubsection}{\numberline {6.18.4.16}flippedAnimations}{138}{subsubsection.6.18.4.16}%
+\contentsline {subsubsection}{\numberline {6.18.4.17}IDLE\_DURATION\_MAX}{138}{subsubsection.6.18.4.17}%
+\contentsline {subsubsection}{\numberline {6.18.4.18}IDLE\_DURATION\_MIN}{139}{subsubsection.6.18.4.18}%
+\contentsline {subsubsection}{\numberline {6.18.4.19}isPerformingAction}{139}{subsubsection.6.18.4.19}%
+\contentsline {subsubsection}{\numberline {6.18.4.20}levelData}{139}{subsubsection.6.18.4.20}%
+\contentsline {subsubsection}{\numberline {6.18.4.21}maxHealthBoss}{139}{subsubsection.6.18.4.21}%
+\contentsline {subsubsection}{\numberline {6.18.4.22}meleeAttackRange}{139}{subsubsection.6.18.4.22}%
+\contentsline {subsubsection}{\numberline {6.18.4.23}playerDetected}{139}{subsubsection.6.18.4.23}%
+\contentsline {subsubsection}{\numberline {6.18.4.24}playing}{140}{subsubsection.6.18.4.24}%
+\contentsline {subsubsection}{\numberline {6.18.4.25}PREPARE\_ATTACK\_DURATION}{140}{subsubsection.6.18.4.25}%
+\contentsline {subsubsection}{\numberline {6.18.4.26}REPOSITION\_COOLDOWN\_MAX}{140}{subsubsection.6.18.4.26}%
+\contentsline {subsubsection}{\numberline {6.18.4.27}runSpeed}{140}{subsubsection.6.18.4.27}%
+\contentsline {subsubsection}{\numberline {6.18.4.28}sightRange}{140}{subsubsection.6.18.4.28}%
+\contentsline {subsubsection}{\numberline {6.18.4.29}slideSpeed}{140}{subsubsection.6.18.4.29}%
+\contentsline {subsubsection}{\numberline {6.18.4.30}targetX}{141}{subsubsection.6.18.4.30}%
+\contentsline {subsubsection}{\numberline {6.18.4.31}walkSpeed}{141}{subsubsection.6.18.4.31}%
+\contentsline {subsubsection}{\numberline {6.18.4.32}xDrawOffset}{141}{subsubsection.6.18.4.32}%
+\contentsline {subsubsection}{\numberline {6.18.4.33}yDrawOffset}{141}{subsubsection.6.18.4.33}%
+\contentsline {section}{\numberline {6.19}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Golem\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boss Class Reference}{142}{section.6.19}%
+\contentsline {subsection}{\numberline {6.19.1}Detailed Description}{146}{subsection.6.19.1}%
+\contentsline {subsection}{\numberline {6.19.2}Constructor \& Destructor Documentation}{146}{subsection.6.19.2}%
+\contentsline {subsubsection}{\numberline {6.19.2.1}GolemBoss()}{146}{subsubsection.6.19.2.1}%
+\contentsline {subsection}{\numberline {6.19.3}Member Function Documentation}{147}{subsection.6.19.3}%
+\contentsline {subsubsection}{\numberline {6.19.3.1}applyGravity()}{147}{subsubsection.6.19.3.1}%
+\contentsline {subsubsection}{\numberline {6.19.3.2}applyMeleeDamage()}{147}{subsubsection.6.19.3.2}%
+\contentsline {subsubsection}{\numberline {6.19.3.3}calculateBossHitboxHeight()}{147}{subsubsection.6.19.3.3}%
+\contentsline {subsubsection}{\numberline {6.19.3.4}calculateBossHitboxWidth()}{148}{subsubsection.6.19.3.4}%
+\contentsline {subsubsection}{\numberline {6.19.3.5}decideIdleAction()}{148}{subsubsection.6.19.3.5}%
+\contentsline {subsubsection}{\numberline {6.19.3.6}decideNextAction()}{148}{subsubsection.6.19.3.6}%
+\contentsline {subsubsection}{\numberline {6.19.3.7}flipImage()}{148}{subsubsection.6.19.3.7}%
+\contentsline {subsubsection}{\numberline {6.19.3.8}getAttackDamage()}{149}{subsubsection.6.19.3.8}%
+\contentsline {subsubsection}{\numberline {6.19.3.9}getCurrentHealth()}{149}{subsubsection.6.19.3.9}%
+\contentsline {subsubsection}{\numberline {6.19.3.10}getDistance()}{149}{subsubsection.6.19.3.10}%
+\contentsline {subsubsection}{\numberline {6.19.3.11}getMaxHealth()}{150}{subsubsection.6.19.3.11}%
+\contentsline {subsubsection}{\numberline {6.19.3.12}handleStateMachine()}{150}{subsubsection.6.19.3.12}%
+\contentsline {subsubsection}{\numberline {6.19.3.13}initiateMeleeAttack()}{150}{subsubsection.6.19.3.13}%
+\contentsline {subsubsection}{\numberline {6.19.3.14}isAlive()}{150}{subsubsection.6.19.3.14}%
+\contentsline {subsubsection}{\numberline {6.19.3.15}loadAnimations()}{151}{subsubsection.6.19.3.15}%
+\contentsline {subsubsection}{\numberline {6.19.3.16}moveTowardsPlayer()}{151}{subsubsection.6.19.3.16}%
+\contentsline {subsubsection}{\numberline {6.19.3.17}render()}{151}{subsubsection.6.19.3.17}%
+\contentsline {subsubsection}{\numberline {6.19.3.18}setBossAnimation()}{151}{subsubsection.6.19.3.18}%
+\contentsline {subsubsection}{\numberline {6.19.3.19}setLevelData()}{153}{subsubsection.6.19.3.19}%
+\contentsline {subsubsection}{\numberline {6.19.3.20}takeDamage()}{153}{subsubsection.6.19.3.20}%
+\contentsline {subsubsection}{\numberline {6.19.3.21}update()}{153}{subsubsection.6.19.3.21}%
+\contentsline {subsubsection}{\numberline {6.19.3.22}updateCurrentMeleeHitbox()}{154}{subsubsection.6.19.3.22}%
+\contentsline {subsubsection}{\numberline {6.19.3.23}updateHitbox()}{154}{subsubsection.6.19.3.23}%
+\contentsline {subsubsection}{\numberline {6.19.3.24}updatePlayerDetection()}{154}{subsubsection.6.19.3.24}%
+\contentsline {subsection}{\numberline {6.19.4}Member Data Documentation}{154}{subsection.6.19.4}%
+\contentsline {subsubsection}{\numberline {6.19.4.1}actionCooldown}{154}{subsubsection.6.19.4.1}%
+\contentsline {subsubsection}{\numberline {6.19.4.2}actionTimer}{154}{subsubsection.6.19.4.2}%
+\contentsline {subsubsection}{\numberline {6.19.4.3}animations}{155}{subsubsection.6.19.4.3}%
+\contentsline {subsubsection}{\numberline {6.19.4.4}ATTACK\_COOLDOWN\_MAX}{155}{subsubsection.6.19.4.4}%
+\contentsline {subsubsection}{\numberline {6.19.4.5}attackCheckFrame}{155}{subsubsection.6.19.4.5}%
+\contentsline {subsubsection}{\numberline {6.19.4.6}attackDamageAppliedThisAttack}{155}{subsubsection.6.19.4.6}%
+\contentsline {subsubsection}{\numberline {6.19.4.7}attackDamageBoss}{155}{subsubsection.6.19.4.7}%
+\contentsline {subsubsection}{\numberline {6.19.4.8}BOSS\_SCALE\_FACTOR}{155}{subsubsection.6.19.4.8}%
+\contentsline {subsubsection}{\numberline {6.19.4.9}currentActionState}{156}{subsubsection.6.19.4.9}%
+\contentsline {subsubsection}{\numberline {6.19.4.10}currentHealthBoss}{156}{subsubsection.6.19.4.10}%
+\contentsline {subsubsection}{\numberline {6.19.4.11}currentMeleeHitbox}{156}{subsubsection.6.19.4.11}%
+\contentsline {subsubsection}{\numberline {6.19.4.12}detectionRange}{156}{subsubsection.6.19.4.12}%
+\contentsline {subsubsection}{\numberline {6.19.4.13}direction}{156}{subsubsection.6.19.4.13}%
+\contentsline {subsubsection}{\numberline {6.19.4.14}DRAW\_HEIGHT}{156}{subsubsection.6.19.4.14}%
+\contentsline {subsubsection}{\numberline {6.19.4.15}DRAW\_WIDTH}{157}{subsubsection.6.19.4.15}%
+\contentsline {subsubsection}{\numberline {6.19.4.16}flippedAnimations}{157}{subsubsection.6.19.4.16}%
+\contentsline {subsubsection}{\numberline {6.19.4.17}IDLE\_DURATION\_MAX}{157}{subsubsection.6.19.4.17}%
+\contentsline {subsubsection}{\numberline {6.19.4.18}IDLE\_DURATION\_MIN}{157}{subsubsection.6.19.4.18}%
+\contentsline {subsubsection}{\numberline {6.19.4.19}isPerformingAction}{157}{subsubsection.6.19.4.19}%
+\contentsline {subsubsection}{\numberline {6.19.4.20}levelData}{157}{subsubsection.6.19.4.20}%
+\contentsline {subsubsection}{\numberline {6.19.4.21}maxHealthBoss}{158}{subsubsection.6.19.4.21}%
+\contentsline {subsubsection}{\numberline {6.19.4.22}meleeAttackRange}{158}{subsubsection.6.19.4.22}%
+\contentsline {subsubsection}{\numberline {6.19.4.23}playerDetected}{158}{subsubsection.6.19.4.23}%
+\contentsline {subsubsection}{\numberline {6.19.4.24}playing}{158}{subsubsection.6.19.4.24}%
+\contentsline {subsubsection}{\numberline {6.19.4.25}PREPARE\_ATTACK\_DURATION}{158}{subsubsection.6.19.4.25}%
+\contentsline {subsubsection}{\numberline {6.19.4.26}runSpeed}{158}{subsubsection.6.19.4.26}%
+\contentsline {subsubsection}{\numberline {6.19.4.27}sightRange}{159}{subsubsection.6.19.4.27}%
+\contentsline {subsubsection}{\numberline {6.19.4.28}walkSpeed}{159}{subsubsection.6.19.4.28}%
+\contentsline {subsubsection}{\numberline {6.19.4.29}xDrawOffset}{159}{subsubsection.6.19.4.29}%
+\contentsline {subsubsection}{\numberline {6.19.4.30}yDrawOffset}{159}{subsubsection.6.19.4.30}%
+\contentsline {section}{\numberline {6.20}utilz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gorilla\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Animation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rows Enum Reference}{159}{section.6.20}%
+\contentsline {subsection}{\numberline {6.20.1}Detailed Description}{161}{subsection.6.20.1}%
+\contentsline {subsection}{\numberline {6.20.2}Constructor \& Destructor Documentation}{161}{subsection.6.20.2}%
+\contentsline {subsubsection}{\numberline {6.20.2.1}Gorilla\_Animation\_rows()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{161}{subsubsection.6.20.2.1}%
+\contentsline {subsubsection}{\numberline {6.20.2.2}Gorilla\_Animation\_rows()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{162}{subsubsection.6.20.2.2}%
+\contentsline {subsection}{\numberline {6.20.3}Member Function Documentation}{162}{subsection.6.20.3}%
+\contentsline {subsubsection}{\numberline {6.20.3.1}getFrameCount()}{162}{subsubsection.6.20.3.1}%
+\contentsline {subsubsection}{\numberline {6.20.3.2}getRowIndex()}{162}{subsubsection.6.20.3.2}%
+\contentsline {subsection}{\numberline {6.20.4}Member Data Documentation}{163}{subsection.6.20.4}%
+\contentsline {subsubsection}{\numberline {6.20.4.1}COMBO\_STANDING}{163}{subsubsection.6.20.4.1}%
+\contentsline {subsubsection}{\numberline {6.20.4.2}CROUCH\_RUN}{163}{subsubsection.6.20.4.2}%
+\contentsline {subsubsection}{\numberline {6.20.4.3}CROUCH\_SLAM}{163}{subsubsection.6.20.4.3}%
+\contentsline {subsubsection}{\numberline {6.20.4.4}CROUCH\_THROW}{163}{subsubsection.6.20.4.4}%
+\contentsline {subsubsection}{\numberline {6.20.4.5}CROUCH\_TO\_STAND}{163}{subsubsection.6.20.4.5}%
+\contentsline {subsubsection}{\numberline {6.20.4.6}CROUCH\_WALK}{164}{subsubsection.6.20.4.6}%
+\contentsline {subsubsection}{\numberline {6.20.4.7}DIE\_CROUCHED}{164}{subsubsection.6.20.4.7}%
+\contentsline {subsubsection}{\numberline {6.20.4.8}DIE\_STANDING}{164}{subsubsection.6.20.4.8}%
+\contentsline {subsubsection}{\numberline {6.20.4.9}frameCount}{164}{subsubsection.6.20.4.9}%
+\contentsline {subsubsection}{\numberline {6.20.4.10}HURT\_CROUCHED}{164}{subsubsection.6.20.4.10}%
+\contentsline {subsubsection}{\numberline {6.20.4.11}HURT\_STANDING}{164}{subsubsection.6.20.4.11}%
+\contentsline {subsubsection}{\numberline {6.20.4.12}IDLE\_CROUCHED}{165}{subsubsection.6.20.4.12}%
+\contentsline {subsubsection}{\numberline {6.20.4.13}IDLE\_STANDING}{165}{subsubsection.6.20.4.13}%
+\contentsline {subsubsection}{\numberline {6.20.4.14}JUMP\_STANDING}{165}{subsubsection.6.20.4.14}%
+\contentsline {subsubsection}{\numberline {6.20.4.15}PUNCH\_CROUCHED}{165}{subsubsection.6.20.4.15}%
+\contentsline {subsubsection}{\numberline {6.20.4.16}PUNCH\_STANDING}{165}{subsubsection.6.20.4.16}%
+\contentsline {subsubsection}{\numberline {6.20.4.17}rowIndex}{165}{subsubsection.6.20.4.17}%
+\contentsline {subsubsection}{\numberline {6.20.4.18}STAND\_SLAM}{166}{subsubsection.6.20.4.18}%
+\contentsline {subsubsection}{\numberline {6.20.4.19}STAND\_THROW}{166}{subsubsection.6.20.4.19}%
+\contentsline {subsubsection}{\numberline {6.20.4.20}STAND\_TO\_CROUCH}{166}{subsubsection.6.20.4.20}%
+\contentsline {subsubsection}{\numberline {6.20.4.21}STAND\_WALK}{166}{subsubsection.6.20.4.21}%
+\contentsline {subsubsection}{\numberline {6.20.4.22}STANDING\_BLOCK}{166}{subsubsection.6.20.4.22}%
+\contentsline {subsubsection}{\numberline {6.20.4.23}STANDING\_JUMP\_SLAM}{166}{subsubsection.6.20.4.23}%
+\contentsline {subsubsection}{\numberline {6.20.4.24}STANDING\_RUN}{167}{subsubsection.6.20.4.24}%
+\contentsline {subsubsection}{\numberline {6.20.4.25}VINE\_18}{167}{subsubsection.6.20.4.25}%
+\contentsline {subsubsection}{\numberline {6.20.4.26}VINE\_19}{167}{subsubsection.6.20.4.26}%
+\contentsline {subsubsection}{\numberline {6.20.4.27}VINE\_20}{167}{subsubsection.6.20.4.27}%
+\contentsline {subsubsection}{\numberline {6.20.4.28}VINE\_21}{167}{subsubsection.6.20.4.28}%
+\contentsline {subsubsection}{\numberline {6.20.4.29}VINE\_22}{167}{subsubsection.6.20.4.29}%
+\contentsline {subsubsection}{\numberline {6.20.4.30}VINE\_23}{168}{subsubsection.6.20.4.30}%
+\contentsline {section}{\numberline {6.21}utilz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Help\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Methods Class Reference}{168}{section.6.21}%
+\contentsline {subsection}{\numberline {6.21.1}Detailed Description}{168}{subsection.6.21.1}%
+\contentsline {subsection}{\numberline {6.21.2}Member Function Documentation}{168}{subsection.6.21.2}%
+\contentsline {subsubsection}{\numberline {6.21.2.1}canBossMoveHere()}{169}{subsubsection.6.21.2.1}%
+\contentsline {subsubsection}{\numberline {6.21.2.2}canMoveHere()}{169}{subsubsection.6.21.2.2}%
+\contentsline {subsubsection}{\numberline {6.21.2.3}getEntityXPosNextToWall()}{170}{subsubsection.6.21.2.3}%
+\contentsline {subsubsection}{\numberline {6.21.2.4}getEntityYPosUnderRoofOrAboveFloor()}{170}{subsubsection.6.21.2.4}%
+\contentsline {subsubsection}{\numberline {6.21.2.5}isEntityOnCeiling()}{171}{subsubsection.6.21.2.5}%
+\contentsline {subsubsection}{\numberline {6.21.2.6}isEntityOnFloor()}{171}{subsubsection.6.21.2.6}%
+\contentsline {subsubsection}{\numberline {6.21.2.7}isEntityOnWall()}{172}{subsubsection.6.21.2.7}%
+\contentsline {subsubsection}{\numberline {6.21.2.8}isSolid()}{172}{subsubsection.6.21.2.8}%
+\contentsline {section}{\numberline {6.22}database.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Insert\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Get Class Reference}{173}{section.6.22}%
+\contentsline {subsection}{\numberline {6.22.1}Member Function Documentation}{174}{subsection.6.22.1}%
+\contentsline {subsubsection}{\numberline {6.22.1.1}checkIfTableExists()}{174}{subsubsection.6.22.1.1}%
+\contentsline {subsubsection}{\numberline {6.22.1.2}createLevelProgressTable()}{174}{subsubsection.6.22.1.2}%
+\contentsline {subsubsection}{\numberline {6.22.1.3}ensurePlayerTableExists()}{174}{subsubsection.6.22.1.3}%
+\contentsline {subsubsection}{\numberline {6.22.1.4}getConnection()}{174}{subsubsection.6.22.1.4}%
+\contentsline {subsubsection}{\numberline {6.22.1.5}getPlayerList()}{174}{subsubsection.6.22.1.5}%
+\contentsline {subsubsection}{\numberline {6.22.1.6}LoadCoconutNumber()}{175}{subsubsection.6.22.1.6}%
+\contentsline {subsubsection}{\numberline {6.22.1.7}LoadCurrentHealth()}{175}{subsubsection.6.22.1.7}%
+\contentsline {subsubsection}{\numberline {6.22.1.8}loadLevelData()}{175}{subsubsection.6.22.1.8}%
+\contentsline {subsubsection}{\numberline {6.22.1.9}LoadLevelIndex()}{175}{subsubsection.6.22.1.9}%
+\contentsline {subsubsection}{\numberline {6.22.1.10}LoadScore()}{175}{subsubsection.6.22.1.10}%
+\contentsline {subsubsection}{\numberline {6.22.1.11}LoadTimer()}{175}{subsubsection.6.22.1.11}%
+\contentsline {subsubsection}{\numberline {6.22.1.12}LoadUsername()}{176}{subsubsection.6.22.1.12}%
+\contentsline {subsubsection}{\numberline {6.22.1.13}LoadXPosition()}{176}{subsubsection.6.22.1.13}%
+\contentsline {subsubsection}{\numberline {6.22.1.14}LoadYPosition()}{176}{subsubsection.6.22.1.14}%
+\contentsline {subsubsection}{\numberline {6.22.1.15}SaveIntoDatabase()}{176}{subsubsection.6.22.1.15}%
+\contentsline {subsubsection}{\numberline {6.22.1.16}SaveUsername()}{176}{subsubsection.6.22.1.16}%
+\contentsline {subsection}{\numberline {6.22.2}Member Data Documentation}{176}{subsection.6.22.2}%
+\contentsline {subsubsection}{\numberline {6.22.2.1}DB\_URL}{177}{subsubsection.6.22.2.1}%
+\contentsline {subsubsection}{\numberline {6.22.2.2}dbLock}{177}{subsubsection.6.22.2.2}%
+\contentsline {section}{\numberline {6.23}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Karagor Class Reference}{177}{section.6.23}%
+\contentsline {subsection}{\numberline {6.23.1}Detailed Description}{182}{subsection.6.23.1}%
+\contentsline {subsection}{\numberline {6.23.2}Constructor \& Destructor Documentation}{182}{subsection.6.23.2}%
+\contentsline {subsubsection}{\numberline {6.23.2.1}Karagor()}{182}{subsubsection.6.23.2.1}%
+\contentsline {subsection}{\numberline {6.23.3}Member Function Documentation}{183}{subsection.6.23.3}%
+\contentsline {subsubsection}{\numberline {6.23.3.1}getAttackDamage()}{183}{subsubsection.6.23.3.1}%
+\contentsline {subsubsection}{\numberline {6.23.3.2}getAttackHitbox()}{183}{subsubsection.6.23.3.2}%
+\contentsline {subsubsection}{\numberline {6.23.3.3}getCurrentHealth()}{183}{subsubsection.6.23.3.3}%
+\contentsline {subsubsection}{\numberline {6.23.3.4}getMaxHealth()}{184}{subsubsection.6.23.3.4}%
+\contentsline {subsubsection}{\numberline {6.23.3.5}hasHit()}{184}{subsubsection.6.23.3.5}%
+\contentsline {subsubsection}{\numberline {6.23.3.6}heal()}{184}{subsubsection.6.23.3.6}%
+\contentsline {subsubsection}{\numberline {6.23.3.7}isAlive()}{184}{subsubsection.6.23.3.7}%
+\contentsline {subsubsection}{\numberline {6.23.3.8}isAttack()}{185}{subsubsection.6.23.3.8}%
+\contentsline {subsubsection}{\numberline {6.23.3.9}isAttacking()}{185}{subsubsection.6.23.3.9}%
+\contentsline {subsubsection}{\numberline {6.23.3.10}isCrouch()}{185}{subsubsection.6.23.3.10}%
+\contentsline {subsubsection}{\numberline {6.23.3.11}isDown()}{186}{subsubsection.6.23.3.11}%
+\contentsline {subsubsection}{\numberline {6.23.3.12}isJump()}{186}{subsubsection.6.23.3.12}%
+\contentsline {subsubsection}{\numberline {6.23.3.13}isLeft()}{186}{subsubsection.6.23.3.13}%
+\contentsline {subsubsection}{\numberline {6.23.3.14}isRight()}{186}{subsubsection.6.23.3.14}%
+\contentsline {subsubsection}{\numberline {6.23.3.15}isUp()}{187}{subsubsection.6.23.3.15}%
+\contentsline {subsubsection}{\numberline {6.23.3.16}jump()}{187}{subsubsection.6.23.3.16}%
+\contentsline {subsubsection}{\numberline {6.23.3.17}loadAnimations()}{187}{subsubsection.6.23.3.17}%
+\contentsline {subsubsection}{\numberline {6.23.3.18}loadLevelData()}{187}{subsubsection.6.23.3.18}%
+\contentsline {subsubsection}{\numberline {6.23.3.19}performAttack()}{188}{subsubsection.6.23.3.19}%
+\contentsline {subsubsection}{\numberline {6.23.3.20}render()}{188}{subsubsection.6.23.3.20}%
+\contentsline {subsubsection}{\numberline {6.23.3.21}resetAnimationTick()}{188}{subsubsection.6.23.3.21}%
+\contentsline {subsubsection}{\numberline {6.23.3.22}resetDirBooleans()}{188}{subsubsection.6.23.3.22}%
+\contentsline {subsubsection}{\numberline {6.23.3.23}resetHealth()}{189}{subsubsection.6.23.3.23}%
+\contentsline {subsubsection}{\numberline {6.23.3.24}resetInAir()}{189}{subsubsection.6.23.3.24}%
+\contentsline {subsubsection}{\numberline {6.23.3.25}setAnimation()}{189}{subsubsection.6.23.3.25}%
+\contentsline {subsubsection}{\numberline {6.23.3.26}setAttack()}{189}{subsubsection.6.23.3.26}%
+\contentsline {subsubsection}{\numberline {6.23.3.27}setCrouch()}{190}{subsubsection.6.23.3.27}%
+\contentsline {subsubsection}{\numberline {6.23.3.28}setDown()}{190}{subsubsection.6.23.3.28}%
+\contentsline {subsubsection}{\numberline {6.23.3.29}setHasHit()}{190}{subsubsection.6.23.3.29}%
+\contentsline {subsubsection}{\numberline {6.23.3.30}setJump()}{191}{subsubsection.6.23.3.30}%
+\contentsline {subsubsection}{\numberline {6.23.3.31}setLeft()}{191}{subsubsection.6.23.3.31}%
+\contentsline {subsubsection}{\numberline {6.23.3.32}setLevelData()}{191}{subsubsection.6.23.3.32}%
+\contentsline {subsubsection}{\numberline {6.23.3.33}setPlatformBounds()}{191}{subsubsection.6.23.3.33}%
+\contentsline {subsubsection}{\numberline {6.23.3.34}setRight()}{193}{subsubsection.6.23.3.34}%
+\contentsline {subsubsection}{\numberline {6.23.3.35}setUp()}{193}{subsubsection.6.23.3.35}%
+\contentsline {subsubsection}{\numberline {6.23.3.36}takeDamage()}{193}{subsubsection.6.23.3.36}%
+\contentsline {subsubsection}{\numberline {6.23.3.37}update()}{194}{subsubsection.6.23.3.37}%
+\contentsline {subsubsection}{\numberline {6.23.3.38}updateAnimationTick()}{194}{subsubsection.6.23.3.38}%
+\contentsline {subsubsection}{\numberline {6.23.3.39}updateGravity()}{194}{subsubsection.6.23.3.39}%
+\contentsline {subsubsection}{\numberline {6.23.3.40}updateHurtState()}{195}{subsubsection.6.23.3.40}%
+\contentsline {subsubsection}{\numberline {6.23.3.41}updatePlayerPosition()}{195}{subsubsection.6.23.3.41}%
+\contentsline {subsubsection}{\numberline {6.23.3.42}updatePos()}{195}{subsubsection.6.23.3.42}%
+\contentsline {subsubsection}{\numberline {6.23.3.43}updateXPos()}{195}{subsubsection.6.23.3.43}%
+\contentsline {subsection}{\numberline {6.23.4}Member Data Documentation}{196}{subsection.6.23.4}%
+\contentsline {subsubsection}{\numberline {6.23.4.1}airSpeed}{196}{subsubsection.6.23.4.1}%
+\contentsline {subsubsection}{\numberline {6.23.4.2}animationIndex}{196}{subsubsection.6.23.4.2}%
+\contentsline {subsubsection}{\numberline {6.23.4.3}animations}{196}{subsubsection.6.23.4.3}%
+\contentsline {subsubsection}{\numberline {6.23.4.4}animationSpeed}{196}{subsubsection.6.23.4.4}%
+\contentsline {subsubsection}{\numberline {6.23.4.5}animationTick}{196}{subsubsection.6.23.4.5}%
+\contentsline {subsubsection}{\numberline {6.23.4.6}attack}{197}{subsubsection.6.23.4.6}%
+\contentsline {subsubsection}{\numberline {6.23.4.7}ATTACK\_COOLDOWN}{197}{subsubsection.6.23.4.7}%
+\contentsline {subsubsection}{\numberline {6.23.4.8}attackCooldown}{197}{subsubsection.6.23.4.8}%
+\contentsline {subsubsection}{\numberline {6.23.4.9}attackDamage}{197}{subsubsection.6.23.4.9}%
+\contentsline {subsubsection}{\numberline {6.23.4.10}crouch}{197}{subsubsection.6.23.4.10}%
+\contentsline {subsubsection}{\numberline {6.23.4.11}currentHealth}{197}{subsubsection.6.23.4.11}%
+\contentsline {subsubsection}{\numberline {6.23.4.12}detectionRange}{198}{subsubsection.6.23.4.12}%
+\contentsline {subsubsection}{\numberline {6.23.4.13}down}{198}{subsubsection.6.23.4.13}%
+\contentsline {subsubsection}{\numberline {6.23.4.14}drawHitbox}{198}{subsubsection.6.23.4.14}%
+\contentsline {subsubsection}{\numberline {6.23.4.15}facingRight}{198}{subsubsection.6.23.4.15}%
+\contentsline {subsubsection}{\numberline {6.23.4.16}fallSpeedAfterCollision}{198}{subsubsection.6.23.4.16}%
+\contentsline {subsubsection}{\numberline {6.23.4.17}flippedAnimations}{198}{subsubsection.6.23.4.17}%
+\contentsline {subsubsection}{\numberline {6.23.4.18}gravity}{199}{subsubsection.6.23.4.18}%
+\contentsline {subsubsection}{\numberline {6.23.4.19}hasHit}{199}{subsubsection.6.23.4.19}%
+\contentsline {subsubsection}{\numberline {6.23.4.20}HURT\_ANIMATION\_DURATION}{199}{subsubsection.6.23.4.20}%
+\contentsline {subsubsection}{\numberline {6.23.4.21}hurtTimer}{199}{subsubsection.6.23.4.21}%
+\contentsline {subsubsection}{\numberline {6.23.4.22}inAir}{199}{subsubsection.6.23.4.22}%
+\contentsline {subsubsection}{\numberline {6.23.4.23}isAttacking}{199}{subsubsection.6.23.4.23}%
+\contentsline {subsubsection}{\numberline {6.23.4.24}isBoss}{200}{subsubsection.6.23.4.24}%
+\contentsline {subsubsection}{\numberline {6.23.4.25}isHurt}{200}{subsubsection.6.23.4.25}%
+\contentsline {subsubsection}{\numberline {6.23.4.26}isLanding}{200}{subsubsection.6.23.4.26}%
+\contentsline {subsubsection}{\numberline {6.23.4.27}isPunching}{200}{subsubsection.6.23.4.27}%
+\contentsline {subsubsection}{\numberline {6.23.4.28}isTransitioning}{200}{subsubsection.6.23.4.28}%
+\contentsline {subsubsection}{\numberline {6.23.4.29}jump}{200}{subsubsection.6.23.4.29}%
+\contentsline {subsubsection}{\numberline {6.23.4.30}jumpSpeed}{201}{subsubsection.6.23.4.30}%
+\contentsline {subsubsection}{\numberline {6.23.4.31}karagorAction}{201}{subsubsection.6.23.4.31}%
+\contentsline {subsubsection}{\numberline {6.23.4.32}karagorDirection}{201}{subsubsection.6.23.4.32}%
+\contentsline {subsubsection}{\numberline {6.23.4.33}landingFrame}{201}{subsubsection.6.23.4.33}%
+\contentsline {subsubsection}{\numberline {6.23.4.34}left}{201}{subsubsection.6.23.4.34}%
+\contentsline {subsubsection}{\numberline {6.23.4.35}levelData}{201}{subsubsection.6.23.4.35}%
+\contentsline {subsubsection}{\numberline {6.23.4.36}maxHealth}{202}{subsubsection.6.23.4.36}%
+\contentsline {subsubsection}{\numberline {6.23.4.37}moving}{202}{subsubsection.6.23.4.37}%
+\contentsline {subsubsection}{\numberline {6.23.4.38}platformLeftBound}{202}{subsubsection.6.23.4.38}%
+\contentsline {subsubsection}{\numberline {6.23.4.39}platformRightBound}{202}{subsubsection.6.23.4.39}%
+\contentsline {subsubsection}{\numberline {6.23.4.40}playerSpeed}{202}{subsubsection.6.23.4.40}%
+\contentsline {subsubsection}{\numberline {6.23.4.41}right}{202}{subsubsection.6.23.4.41}%
+\contentsline {subsubsection}{\numberline {6.23.4.42}up}{203}{subsubsection.6.23.4.42}%
+\contentsline {subsubsection}{\numberline {6.23.4.43}wasCrouchPressed}{203}{subsubsection.6.23.4.43}%
+\contentsline {subsubsection}{\numberline {6.23.4.44}xDrawOffset}{203}{subsubsection.6.23.4.44}%
+\contentsline {subsubsection}{\numberline {6.23.4.45}yDrawOffset}{203}{subsubsection.6.23.4.45}%
+\contentsline {section}{\numberline {6.24}inputs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inputs Class Reference}{204}{section.6.24}%
+\contentsline {subsection}{\numberline {6.24.1}Detailed Description}{205}{subsection.6.24.1}%
+\contentsline {subsection}{\numberline {6.24.2}Constructor \& Destructor Documentation}{205}{subsection.6.24.2}%
+\contentsline {subsubsection}{\numberline {6.24.2.1}KeyboardInputs()}{205}{subsubsection.6.24.2.1}%
+\contentsline {subsection}{\numberline {6.24.3}Member Function Documentation}{205}{subsection.6.24.3}%
+\contentsline {subsubsection}{\numberline {6.24.3.1}keyPressed()}{205}{subsubsection.6.24.3.1}%
+\contentsline {subsubsection}{\numberline {6.24.3.2}keyReleased()}{206}{subsubsection.6.24.3.2}%
+\contentsline {subsubsection}{\numberline {6.24.3.3}keyTyped()}{206}{subsubsection.6.24.3.3}%
+\contentsline {subsection}{\numberline {6.24.4}Member Data Documentation}{206}{subsection.6.24.4}%
+\contentsline {subsubsection}{\numberline {6.24.4.1}gamePanel}{207}{subsubsection.6.24.4.1}%
+\contentsline {section}{\numberline {6.25}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Leaderboard Class Reference}{207}{section.6.25}%
+\contentsline {subsection}{\numberline {6.25.1}Detailed Description}{210}{subsection.6.25.1}%
+\contentsline {subsection}{\numberline {6.25.2}Constructor \& Destructor Documentation}{210}{subsection.6.25.2}%
+\contentsline {subsubsection}{\numberline {6.25.2.1}Leaderboard()}{210}{subsubsection.6.25.2.1}%
+\contentsline {subsection}{\numberline {6.25.3}Member Function Documentation}{210}{subsection.6.25.3}%
+\contentsline {subsubsection}{\numberline {6.25.3.1}draw()}{211}{subsubsection.6.25.3.1}%
+\contentsline {subsubsection}{\numberline {6.25.3.2}drawBackButton()}{211}{subsubsection.6.25.3.2}%
+\contentsline {subsubsection}{\numberline {6.25.3.3}keyPressed()}{211}{subsubsection.6.25.3.3}%
+\contentsline {subsubsection}{\numberline {6.25.3.4}keyReleased()}{212}{subsubsection.6.25.3.4}%
+\contentsline {subsubsection}{\numberline {6.25.3.5}loadBackground()}{212}{subsubsection.6.25.3.5}%
+\contentsline {subsubsection}{\numberline {6.25.3.6}loadCustomFont()}{212}{subsubsection.6.25.3.6}%
+\contentsline {subsubsection}{\numberline {6.25.3.7}loadStartImg()}{212}{subsubsection.6.25.3.7}%
+\contentsline {subsubsection}{\numberline {6.25.3.8}mouseClicked()}{212}{subsubsection.6.25.3.8}%
+\contentsline {subsubsection}{\numberline {6.25.3.9}mouseDragged()}{213}{subsubsection.6.25.3.9}%
+\contentsline {subsubsection}{\numberline {6.25.3.10}mouseMoved()}{213}{subsubsection.6.25.3.10}%
+\contentsline {subsubsection}{\numberline {6.25.3.11}mousePressed()}{213}{subsubsection.6.25.3.11}%
+\contentsline {subsubsection}{\numberline {6.25.3.12}mouseReleased()}{214}{subsubsection.6.25.3.12}%
+\contentsline {subsubsection}{\numberline {6.25.3.13}mouseWheelMoved()}{214}{subsubsection.6.25.3.13}%
+\contentsline {subsubsection}{\numberline {6.25.3.14}refreshLeaderboardData()}{214}{subsubsection.6.25.3.14}%
+\contentsline {subsubsection}{\numberline {6.25.3.15}setPreviousState()}{214}{subsubsection.6.25.3.15}%
+\contentsline {subsubsection}{\numberline {6.25.3.16}update()}{215}{subsubsection.6.25.3.16}%
+\contentsline {subsection}{\numberline {6.25.4}Member Data Documentation}{215}{subsection.6.25.4}%
+\contentsline {subsubsection}{\numberline {6.25.4.1}airstrikeFont}{215}{subsubsection.6.25.4.1}%
+\contentsline {subsubsection}{\numberline {6.25.4.2}backButtonBounds}{215}{subsubsection.6.25.4.2}%
+\contentsline {subsubsection}{\numberline {6.25.4.3}backgroundImg}{215}{subsubsection.6.25.4.3}%
+\contentsline {subsubsection}{\numberline {6.25.4.4}boxSpacing}{215}{subsubsection.6.25.4.4}%
+\contentsline {subsubsection}{\numberline {6.25.4.5}buffer}{216}{subsubsection.6.25.4.5}%
+\contentsline {subsubsection}{\numberline {6.25.4.6}dateFormat}{216}{subsubsection.6.25.4.6}%
+\contentsline {subsubsection}{\numberline {6.25.4.7}DB\_FILE}{216}{subsubsection.6.25.4.7}%
+\contentsline {subsubsection}{\numberline {6.25.4.8}grooverImg}{216}{subsubsection.6.25.4.8}%
+\contentsline {subsubsection}{\numberline {6.25.4.9}knobImg}{216}{subsubsection.6.25.4.9}%
+\contentsline {subsubsection}{\numberline {6.25.4.10}leaderboardData}{216}{subsubsection.6.25.4.10}%
+\contentsline {subsubsection}{\numberline {6.25.4.11}mainMenuButtonBounds}{216}{subsubsection.6.25.4.11}%
+\contentsline {subsubsection}{\numberline {6.25.4.12}menuX}{217}{subsubsection.6.25.4.12}%
+\contentsline {subsubsection}{\numberline {6.25.4.13}needsRedraw}{217}{subsubsection.6.25.4.13}%
+\contentsline {subsubsection}{\numberline {6.25.4.14}playerBoxImg}{217}{subsubsection.6.25.4.14}%
+\contentsline {subsubsection}{\numberline {6.25.4.15}previousState}{217}{subsubsection.6.25.4.15}%
+\contentsline {subsubsection}{\numberline {6.25.4.16}scrollOffset}{217}{subsubsection.6.25.4.16}%
+\contentsline {subsubsection}{\numberline {6.25.4.17}startbgImg}{217}{subsubsection.6.25.4.17}%
+\contentsline {subsubsection}{\numberline {6.25.4.18}startbgX}{217}{subsubsection.6.25.4.18}%
+\contentsline {subsubsection}{\numberline {6.25.4.19}visibleAreaHeight}{218}{subsubsection.6.25.4.19}%
+\contentsline {section}{\numberline {6.26}levels.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level Class Reference}{218}{section.6.26}%
+\contentsline {subsection}{\numberline {6.26.1}Detailed Description}{219}{subsection.6.26.1}%
+\contentsline {subsection}{\numberline {6.26.2}Constructor \& Destructor Documentation}{219}{subsection.6.26.2}%
+\contentsline {subsubsection}{\numberline {6.26.2.1}Level()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{219}{subsubsection.6.26.2.1}%
+\contentsline {subsubsection}{\numberline {6.26.2.2}Level()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{220}{subsubsection.6.26.2.2}%
+\contentsline {subsection}{\numberline {6.26.3}Member Function Documentation}{220}{subsection.6.26.3}%
+\contentsline {subsubsection}{\numberline {6.26.3.1}addBanana()}{220}{subsubsection.6.26.3.1}%
+\contentsline {subsubsection}{\numberline {6.26.3.2}addCoconut()}{220}{subsubsection.6.26.3.2}%
+\contentsline {subsubsection}{\numberline {6.26.3.3}getBananas()}{221}{subsubsection.6.26.3.3}%
+\contentsline {subsubsection}{\numberline {6.26.3.4}getCoconuts()}{221}{subsubsection.6.26.3.4}%
+\contentsline {subsubsection}{\numberline {6.26.3.5}getLevelData()}{221}{subsubsection.6.26.3.5}%
+\contentsline {subsubsection}{\numberline {6.26.3.6}getLevelId()}{221}{subsubsection.6.26.3.6}%
+\contentsline {subsubsection}{\numberline {6.26.3.7}getLevelOffset()}{222}{subsubsection.6.26.3.7}%
+\contentsline {subsubsection}{\numberline {6.26.3.8}getMaxLevelOffsetX()}{222}{subsubsection.6.26.3.8}%
+\contentsline {subsubsection}{\numberline {6.26.3.9}getSpriteIndex()}{222}{subsubsection.6.26.3.9}%
+\contentsline {subsubsection}{\numberline {6.26.3.10}setBananas()}{222}{subsubsection.6.26.3.10}%
+\contentsline {subsubsection}{\numberline {6.26.3.11}setCoconuts()}{223}{subsubsection.6.26.3.11}%
+\contentsline {subsubsection}{\numberline {6.26.3.12}setLevelId()}{223}{subsubsection.6.26.3.12}%
+\contentsline {subsubsection}{\numberline {6.26.3.13}update()}{223}{subsubsection.6.26.3.13}%
+\contentsline {subsection}{\numberline {6.26.4}Member Data Documentation}{224}{subsection.6.26.4}%
+\contentsline {subsubsection}{\numberline {6.26.4.1}bananas}{224}{subsubsection.6.26.4.1}%
+\contentsline {subsubsection}{\numberline {6.26.4.2}coconuts}{224}{subsubsection.6.26.4.2}%
+\contentsline {subsubsection}{\numberline {6.26.4.3}levelId}{224}{subsubsection.6.26.4.3}%
+\contentsline {subsubsection}{\numberline {6.26.4.4}levelOffset}{224}{subsubsection.6.26.4.4}%
+\contentsline {subsubsection}{\numberline {6.26.4.5}lvlData}{224}{subsubsection.6.26.4.5}%
+\contentsline {subsubsection}{\numberline {6.26.4.6}maxLevelOffsetX}{225}{subsubsection.6.26.4.6}%
+\contentsline {subsubsection}{\numberline {6.26.4.7}maxTilesOffset}{225}{subsubsection.6.26.4.7}%
+\contentsline {section}{\numberline {6.27}ui.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button Class Reference}{225}{section.6.27}%
+\contentsline {subsection}{\numberline {6.27.1}Detailed Description}{226}{subsection.6.27.1}%
+\contentsline {subsection}{\numberline {6.27.2}Constructor \& Destructor Documentation}{226}{subsection.6.27.2}%
+\contentsline {subsubsection}{\numberline {6.27.2.1}LevelButton()}{226}{subsubsection.6.27.2.1}%
+\contentsline {subsection}{\numberline {6.27.3}Member Function Documentation}{227}{subsection.6.27.3}%
+\contentsline {subsubsection}{\numberline {6.27.3.1}applyGamestate()}{227}{subsubsection.6.27.3.1}%
+\contentsline {subsubsection}{\numberline {6.27.3.2}draw()}{227}{subsubsection.6.27.3.2}%
+\contentsline {subsubsection}{\numberline {6.27.3.3}getBounds()}{227}{subsubsection.6.27.3.3}%
+\contentsline {subsubsection}{\numberline {6.27.3.4}getRowIndex()}{228}{subsubsection.6.27.3.4}%
+\contentsline {subsubsection}{\numberline {6.27.3.5}initBounds()}{228}{subsubsection.6.27.3.5}%
+\contentsline {subsubsection}{\numberline {6.27.3.6}isMouseOver()}{228}{subsubsection.6.27.3.6}%
+\contentsline {subsubsection}{\numberline {6.27.3.7}isMousePressed()}{228}{subsubsection.6.27.3.7}%
+\contentsline {subsubsection}{\numberline {6.27.3.8}loadImgs()}{229}{subsubsection.6.27.3.8}%
+\contentsline {subsubsection}{\numberline {6.27.3.9}resetBools()}{229}{subsubsection.6.27.3.9}%
+\contentsline {subsubsection}{\numberline {6.27.3.10}setMouseOver()}{229}{subsubsection.6.27.3.10}%
+\contentsline {subsubsection}{\numberline {6.27.3.11}setMousePressed()}{229}{subsubsection.6.27.3.11}%
+\contentsline {subsubsection}{\numberline {6.27.3.12}update()}{229}{subsubsection.6.27.3.12}%
+\contentsline {subsection}{\numberline {6.27.4}Member Data Documentation}{230}{subsection.6.27.4}%
+\contentsline {subsubsection}{\numberline {6.27.4.1}bounds}{230}{subsubsection.6.27.4.1}%
+\contentsline {subsubsection}{\numberline {6.27.4.2}imgs}{230}{subsubsection.6.27.4.2}%
+\contentsline {subsubsection}{\numberline {6.27.4.3}index}{230}{subsubsection.6.27.4.3}%
+\contentsline {subsubsection}{\numberline {6.27.4.4}mouseOver}{230}{subsubsection.6.27.4.4}%
+\contentsline {subsubsection}{\numberline {6.27.4.5}rowIndex}{230}{subsubsection.6.27.4.5}%
+\contentsline {subsubsection}{\numberline {6.27.4.6}state}{230}{subsubsection.6.27.4.6}%
+\contentsline {subsubsection}{\numberline {6.27.4.7}xOffsetCenter}{231}{subsubsection.6.27.4.7}%
+\contentsline {subsubsection}{\numberline {6.27.4.8}xPos}{231}{subsubsection.6.27.4.8}%
+\contentsline {section}{\numberline {6.28}levels.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory Class Reference}{231}{section.6.28}%
+\contentsline {subsection}{\numberline {6.28.1}Detailed Description}{232}{subsection.6.28.1}%
+\contentsline {subsection}{\numberline {6.28.2}Member Function Documentation}{232}{subsection.6.28.2}%
+\contentsline {subsubsection}{\numberline {6.28.2.1}createLevel()}{232}{subsubsection.6.28.2.1}%
+\contentsline {subsubsection}{\numberline {6.28.2.2}createLevel1()}{232}{subsubsection.6.28.2.2}%
+\contentsline {subsubsection}{\numberline {6.28.2.3}createLevel2()}{233}{subsubsection.6.28.2.3}%
+\contentsline {subsubsection}{\numberline {6.28.2.4}createLevel3()}{233}{subsubsection.6.28.2.4}%
+\contentsline {subsubsection}{\numberline {6.28.2.5}getBackgroundPath()}{233}{subsubsection.6.28.2.5}%
+\contentsline {subsubsection}{\numberline {6.28.2.6}getLevelAtlasPath()}{233}{subsubsection.6.28.2.6}%
+\contentsline {subsubsection}{\numberline {6.28.2.7}getTilesetCols()}{234}{subsubsection.6.28.2.7}%
+\contentsline {subsubsection}{\numberline {6.28.2.8}getTilesetRows()}{234}{subsubsection.6.28.2.8}%
+\contentsline {subsubsection}{\numberline {6.28.2.9}getTileSize()}{234}{subsubsection.6.28.2.9}%
+\contentsline {subsubsection}{\numberline {6.28.2.10}preprocessEnemySpawnPoints()}{236}{subsubsection.6.28.2.10}%
+\contentsline {subsection}{\numberline {6.28.3}Member Data Documentation}{236}{subsection.6.28.3}%
+\contentsline {subsubsection}{\numberline {6.28.3.1}LEVEL1\_COLS}{236}{subsubsection.6.28.3.1}%
+\contentsline {subsubsection}{\numberline {6.28.3.2}LEVEL1\_ROWS}{236}{subsubsection.6.28.3.2}%
+\contentsline {subsubsection}{\numberline {6.28.3.3}LEVEL1\_TILE\_SIZE}{237}{subsubsection.6.28.3.3}%
+\contentsline {subsubsection}{\numberline {6.28.3.4}LEVEL2\_COLS}{237}{subsubsection.6.28.3.4}%
+\contentsline {subsubsection}{\numberline {6.28.3.5}LEVEL2\_ROWS}{237}{subsubsection.6.28.3.5}%
+\contentsline {subsubsection}{\numberline {6.28.3.6}LEVEL2\_TILE\_SIZE}{237}{subsubsection.6.28.3.6}%
+\contentsline {subsubsection}{\numberline {6.28.3.7}LEVEL3\_COLS}{237}{subsubsection.6.28.3.7}%
+\contentsline {subsubsection}{\numberline {6.28.3.8}LEVEL3\_ROWS}{237}{subsubsection.6.28.3.8}%
+\contentsline {subsubsection}{\numberline {6.28.3.9}LEVEL3\_TILE\_SIZE}{238}{subsubsection.6.28.3.9}%
+\contentsline {section}{\numberline {6.29}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Finished\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Overlay Class Reference}{238}{section.6.29}%
+\contentsline {subsection}{\numberline {6.29.1}Detailed Description}{240}{subsection.6.29.1}%
+\contentsline {subsection}{\numberline {6.29.2}Constructor \& Destructor Documentation}{240}{subsection.6.29.2}%
+\contentsline {subsubsection}{\numberline {6.29.2.1}LevelFinishedOverlay()}{240}{subsubsection.6.29.2.1}%
+\contentsline {subsection}{\numberline {6.29.3}Member Function Documentation}{241}{subsection.6.29.3}%
+\contentsline {subsubsection}{\numberline {6.29.3.1}draw()}{241}{subsubsection.6.29.3.1}%
+\contentsline {subsubsection}{\numberline {6.29.3.2}keyPressed()}{241}{subsubsection.6.29.3.2}%
+\contentsline {subsubsection}{\numberline {6.29.3.3}keyReleased()}{241}{subsubsection.6.29.3.3}%
+\contentsline {subsubsection}{\numberline {6.29.3.4}loadBackground()}{243}{subsubsection.6.29.3.4}%
+\contentsline {subsubsection}{\numberline {6.29.3.5}loadButtons()}{243}{subsubsection.6.29.3.5}%
+\contentsline {subsubsection}{\numberline {6.29.3.6}loadCustomFont()}{243}{subsubsection.6.29.3.6}%
+\contentsline {subsubsection}{\numberline {6.29.3.7}mouseClicked()}{243}{subsubsection.6.29.3.7}%
+\contentsline {subsubsection}{\numberline {6.29.3.8}mouseDragged()}{244}{subsubsection.6.29.3.8}%
+\contentsline {subsubsection}{\numberline {6.29.3.9}mouseMoved()}{244}{subsubsection.6.29.3.9}%
+\contentsline {subsubsection}{\numberline {6.29.3.10}mousePressed()}{244}{subsubsection.6.29.3.10}%
+\contentsline {subsubsection}{\numberline {6.29.3.11}mouseReleased()}{245}{subsubsection.6.29.3.11}%
+\contentsline {subsubsection}{\numberline {6.29.3.12}update()}{245}{subsubsection.6.29.3.12}%
+\contentsline {subsection}{\numberline {6.29.4}Member Data Documentation}{245}{subsection.6.29.4}%
+\contentsline {subsubsection}{\numberline {6.29.4.1}backgroundImg}{245}{subsubsection.6.29.4.1}%
+\contentsline {subsubsection}{\numberline {6.29.4.2}bgX}{245}{subsubsection.6.29.4.2}%
+\contentsline {subsubsection}{\numberline {6.29.4.3}DB\_FILE}{245}{subsubsection.6.29.4.3}%
+\contentsline {subsubsection}{\numberline {6.29.4.4}menuButtonBounds}{246}{subsubsection.6.29.4.4}%
+\contentsline {subsubsection}{\numberline {6.29.4.5}nextLevelButtonBounds}{246}{subsubsection.6.29.4.5}%
+\contentsline {subsubsection}{\numberline {6.29.4.6}overlayFont}{246}{subsubsection.6.29.4.6}%
+\contentsline {subsubsection}{\numberline {6.29.4.7}playing}{246}{subsubsection.6.29.4.7}%
+\contentsline {section}{\numberline {6.30}levels.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{246}{section.6.30}%
+\contentsline {subsection}{\numberline {6.30.1}Detailed Description}{248}{subsection.6.30.1}%
+\contentsline {subsection}{\numberline {6.30.2}Constructor \& Destructor Documentation}{248}{subsection.6.30.2}%
+\contentsline {subsubsection}{\numberline {6.30.2.1}LevelManager()}{248}{subsubsection.6.30.2.1}%
+\contentsline {subsection}{\numberline {6.30.3}Member Function Documentation}{249}{subsection.6.30.3}%
+\contentsline {subsubsection}{\numberline {6.30.3.1}draw()}{249}{subsubsection.6.30.3.1}%
+\contentsline {subsubsection}{\numberline {6.30.3.2}getCurrentLevel()}{249}{subsubsection.6.30.3.2}%
+\contentsline {subsubsection}{\numberline {6.30.3.3}getCurrentLevelNumber()}{249}{subsubsection.6.30.3.3}%
+\contentsline {subsubsection}{\numberline {6.30.3.4}importBackgroundForLevel()}{249}{subsubsection.6.30.3.4}%
+\contentsline {subsubsection}{\numberline {6.30.3.5}importSpritesForLevel()}{250}{subsubsection.6.30.3.5}%
+\contentsline {subsubsection}{\numberline {6.30.3.6}loadLevel()}{250}{subsubsection.6.30.3.6}%
+\contentsline {subsubsection}{\numberline {6.30.3.7}nextLevel()}{250}{subsubsection.6.30.3.7}%
+\contentsline {subsubsection}{\numberline {6.30.3.8}previousLevel()}{251}{subsubsection.6.30.3.8}%
+\contentsline {subsubsection}{\numberline {6.30.3.9}update()}{251}{subsubsection.6.30.3.9}%
+\contentsline {subsection}{\numberline {6.30.4}Member Data Documentation}{251}{subsection.6.30.4}%
+\contentsline {subsubsection}{\numberline {6.30.4.1}backgroundImage}{251}{subsubsection.6.30.4.1}%
+\contentsline {subsubsection}{\numberline {6.30.4.2}currentLevel}{251}{subsubsection.6.30.4.2}%
+\contentsline {subsubsection}{\numberline {6.30.4.3}currentLevelNumber}{251}{subsubsection.6.30.4.3}%
+\contentsline {subsubsection}{\numberline {6.30.4.4}game}{252}{subsubsection.6.30.4.4}%
+\contentsline {subsubsection}{\numberline {6.30.4.5}levelFactory}{252}{subsubsection.6.30.4.5}%
+\contentsline {subsubsection}{\numberline {6.30.4.6}levelSprite}{252}{subsubsection.6.30.4.6}%
+\contentsline {section}{\numberline {6.31}utilz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Progress Class Reference}{252}{section.6.31}%
+\contentsline {subsection}{\numberline {6.31.1}Detailed Description}{253}{subsection.6.31.1}%
+\contentsline {subsection}{\numberline {6.31.2}Constructor \& Destructor Documentation}{253}{subsection.6.31.2}%
+\contentsline {subsubsection}{\numberline {6.31.2.1}LevelProgress()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{253}{subsubsection.6.31.2.1}%
+\contentsline {subsubsection}{\numberline {6.31.2.2}LevelProgress()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{253}{subsubsection.6.31.2.2}%
+\contentsline {subsection}{\numberline {6.31.3}Member Data Documentation}{253}{subsection.6.31.3}%
+\contentsline {subsubsection}{\numberline {6.31.3.1}coconuts}{253}{subsubsection.6.31.3.1}%
+\contentsline {subsubsection}{\numberline {6.31.3.2}health}{254}{subsubsection.6.31.3.2}%
+\contentsline {subsubsection}{\numberline {6.31.3.3}posX}{254}{subsubsection.6.31.3.3}%
+\contentsline {subsubsection}{\numberline {6.31.3.4}posY}{254}{subsubsection.6.31.3.4}%
+\contentsline {subsubsection}{\numberline {6.31.3.5}score}{254}{subsubsection.6.31.3.5}%
+\contentsline {section}{\numberline {6.32}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loadgame Class Reference}{255}{section.6.32}%
+\contentsline {subsection}{\numberline {6.32.1}Detailed Description}{257}{subsection.6.32.1}%
+\contentsline {subsection}{\numberline {6.32.2}Constructor \& Destructor Documentation}{257}{subsection.6.32.2}%
+\contentsline {subsubsection}{\numberline {6.32.2.1}Loadgame()}{257}{subsubsection.6.32.2.1}%
+\contentsline {subsection}{\numberline {6.32.3}Member Function Documentation}{257}{subsection.6.32.3}%
+\contentsline {subsubsection}{\numberline {6.32.3.1}draw()}{257}{subsubsection.6.32.3.1}%
+\contentsline {subsubsection}{\numberline {6.32.3.2}drawBackButton()}{258}{subsubsection.6.32.3.2}%
+\contentsline {subsubsection}{\numberline {6.32.3.3}keyPressed()}{258}{subsubsection.6.32.3.3}%
+\contentsline {subsubsection}{\numberline {6.32.3.4}keyReleased()}{258}{subsubsection.6.32.3.4}%
+\contentsline {subsubsection}{\numberline {6.32.3.5}loadBackground()}{259}{subsubsection.6.32.3.5}%
+\contentsline {subsubsection}{\numberline {6.32.3.6}loadButtons()}{259}{subsubsection.6.32.3.6}%
+\contentsline {subsubsection}{\numberline {6.32.3.7}loadLevel()}{259}{subsubsection.6.32.3.7}%
+\contentsline {subsubsection}{\numberline {6.32.3.8}loadLevelButtons()}{259}{subsubsection.6.32.3.8}%
+\contentsline {subsubsection}{\numberline {6.32.3.9}loadStartImg()}{259}{subsubsection.6.32.3.9}%
+\contentsline {subsubsection}{\numberline {6.32.3.10}mouseClicked()}{260}{subsubsection.6.32.3.10}%
+\contentsline {subsubsection}{\numberline {6.32.3.11}mouseDragged()}{260}{subsubsection.6.32.3.11}%
+\contentsline {subsubsection}{\numberline {6.32.3.12}mouseMoved()}{260}{subsubsection.6.32.3.12}%
+\contentsline {subsubsection}{\numberline {6.32.3.13}mousePressed()}{261}{subsubsection.6.32.3.13}%
+\contentsline {subsubsection}{\numberline {6.32.3.14}mouseReleased()}{261}{subsubsection.6.32.3.14}%
+\contentsline {subsubsection}{\numberline {6.32.3.15}resetButtons()}{261}{subsubsection.6.32.3.15}%
+\contentsline {subsubsection}{\numberline {6.32.3.16}setPreviousState()}{261}{subsubsection.6.32.3.16}%
+\contentsline {subsubsection}{\numberline {6.32.3.17}update()}{262}{subsubsection.6.32.3.17}%
+\contentsline {subsection}{\numberline {6.32.4}Member Data Documentation}{262}{subsection.6.32.4}%
+\contentsline {subsubsection}{\numberline {6.32.4.1}backButtonBounds}{262}{subsubsection.6.32.4.1}%
+\contentsline {subsubsection}{\numberline {6.32.4.2}backgroundImg}{262}{subsubsection.6.32.4.2}%
+\contentsline {subsubsection}{\numberline {6.32.4.3}buttons}{262}{subsubsection.6.32.4.3}%
+\contentsline {subsubsection}{\numberline {6.32.4.4}levelButton}{262}{subsubsection.6.32.4.4}%
+\contentsline {subsubsection}{\numberline {6.32.4.5}menuX}{263}{subsubsection.6.32.4.5}%
+\contentsline {subsubsection}{\numberline {6.32.4.6}previousState}{263}{subsubsection.6.32.4.6}%
+\contentsline {subsubsection}{\numberline {6.32.4.7}startbgImg}{263}{subsubsection.6.32.4.7}%
+\contentsline {subsubsection}{\numberline {6.32.4.8}startbgX}{263}{subsubsection.6.32.4.8}%
+\contentsline {section}{\numberline {6.33}utilz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Load\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Save Class Reference}{263}{section.6.33}%
+\contentsline {subsection}{\numberline {6.33.1}Detailed Description}{265}{subsection.6.33.1}%
+\contentsline {subsection}{\numberline {6.33.2}Member Function Documentation}{265}{subsection.6.33.2}%
+\contentsline {subsubsection}{\numberline {6.33.2.1}getLevelData()}{265}{subsubsection.6.33.2.1}%
+\contentsline {subsubsection}{\numberline {6.33.2.2}getSpriteAtlas()}{266}{subsubsection.6.33.2.2}%
+\contentsline {subsection}{\numberline {6.33.3}Member Data Documentation}{266}{subsection.6.33.3}%
+\contentsline {subsubsection}{\numberline {6.33.3.1}BANANA\_IMAGE}{266}{subsubsection.6.33.3.1}%
+\contentsline {subsubsection}{\numberline {6.33.3.2}BANANA\_SPRITE}{266}{subsubsection.6.33.3.2}%
+\contentsline {subsubsection}{\numberline {6.33.3.3}COCONUT\_IMAGE}{267}{subsubsection.6.33.3.3}%
+\contentsline {subsubsection}{\numberline {6.33.3.4}COCONUT\_SPRITE}{267}{subsubsection.6.33.3.4}%
+\contentsline {subsubsection}{\numberline {6.33.3.5}COCONUT\_THROWABLE\_IMAGE}{267}{subsubsection.6.33.3.5}%
+\contentsline {subsubsection}{\numberline {6.33.3.6}COCONUT\_THROWABLE\_SPRITE}{267}{subsubsection.6.33.3.6}%
+\contentsline {subsubsection}{\numberline {6.33.3.7}ENTER\_NAME\_FRAME}{267}{subsubsection.6.33.3.7}%
+\contentsline {subsubsection}{\numberline {6.33.3.8}FRAME\_LOADGAME}{267}{subsubsection.6.33.3.8}%
+\contentsline {subsubsection}{\numberline {6.33.3.9}GAME\_UI}{268}{subsubsection.6.33.3.9}%
+\contentsline {subsubsection}{\numberline {6.33.3.10}GOBLIN\_BOSS\_SPRITESHEET}{268}{subsubsection.6.33.3.10}%
+\contentsline {subsubsection}{\numberline {6.33.3.11}GOBLIN\_HARD\_SPRITESHEET}{268}{subsubsection.6.33.3.11}%
+\contentsline {subsubsection}{\numberline {6.33.3.12}GOBLIN\_NOOB\_SPRITESHEET}{268}{subsubsection.6.33.3.12}%
+\contentsline {subsubsection}{\numberline {6.33.3.13}GOLEM\_BOSS\_SPRITESHEET}{268}{subsubsection.6.33.3.13}%
+\contentsline {subsubsection}{\numberline {6.33.3.14}GREEN\_GEM}{268}{subsubsection.6.33.3.14}%
+\contentsline {subsubsection}{\numberline {6.33.3.15}KARAGOR\_SPRITESHEET}{269}{subsubsection.6.33.3.15}%
+\contentsline {subsubsection}{\numberline {6.33.3.16}KOBA\_RUSH}{269}{subsubsection.6.33.3.16}%
+\contentsline {subsubsection}{\numberline {6.33.3.17}LEVEL1\_ATLAS}{269}{subsubsection.6.33.3.17}%
+\contentsline {subsubsection}{\numberline {6.33.3.18}LEVEL1\_BACKGROUND}{269}{subsubsection.6.33.3.18}%
+\contentsline {subsubsection}{\numberline {6.33.3.19}LEVEL1\_DATA}{269}{subsubsection.6.33.3.19}%
+\contentsline {subsubsection}{\numberline {6.33.3.20}LEVEL2\_ATLAS}{269}{subsubsection.6.33.3.20}%
+\contentsline {subsubsection}{\numberline {6.33.3.21}LEVEL2\_BACKGROUND}{270}{subsubsection.6.33.3.21}%
+\contentsline {subsubsection}{\numberline {6.33.3.22}LEVEL2\_DATA}{270}{subsubsection.6.33.3.22}%
+\contentsline {subsubsection}{\numberline {6.33.3.23}LEVEL3\_ATLAS}{270}{subsubsection.6.33.3.23}%
+\contentsline {subsubsection}{\numberline {6.33.3.24}LEVEL3\_BACKGROUND}{270}{subsubsection.6.33.3.24}%
+\contentsline {subsubsection}{\numberline {6.33.3.25}LEVEL3\_DATA}{270}{subsubsection.6.33.3.25}%
+\contentsline {subsubsection}{\numberline {6.33.3.26}LEVEL\_BUTTONS}{270}{subsubsection.6.33.3.26}%
+\contentsline {subsubsection}{\numberline {6.33.3.27}MENU\_BACKGROUND}{271}{subsubsection.6.33.3.27}%
+\contentsline {subsubsection}{\numberline {6.33.3.28}MENU\_BUTTONS}{271}{subsubsection.6.33.3.28}%
+\contentsline {subsubsection}{\numberline {6.33.3.29}NANITE\_JUNGLA}{271}{subsubsection.6.33.3.29}%
+\contentsline {subsubsection}{\numberline {6.33.3.30}NANITE\_PESTERA}{271}{subsubsection.6.33.3.30}%
+\contentsline {subsubsection}{\numberline {6.33.3.31}ORANGE\_GEM}{271}{subsubsection.6.33.3.31}%
+\contentsline {subsubsection}{\numberline {6.33.3.32}PLAYER\_ATLAS}{271}{subsubsection.6.33.3.32}%
+\contentsline {subsubsection}{\numberline {6.33.3.33}PURPLE\_GEM}{272}{subsubsection.6.33.3.33}%
+\contentsline {subsubsection}{\numberline {6.33.3.34}START\_BACKGROUND}{272}{subsubsection.6.33.3.34}%
+\contentsline {section}{\numberline {6.34}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main Class Reference}{272}{section.6.34}%
+\contentsline {subsection}{\numberline {6.34.1}Detailed Description}{272}{subsection.6.34.1}%
+\contentsline {subsection}{\numberline {6.34.2}Member Function Documentation}{272}{subsection.6.34.2}%
+\contentsline {subsubsection}{\numberline {6.34.2.1}main()}{272}{subsubsection.6.34.2.1}%
+\contentsline {section}{\numberline {6.35}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{273}{section.6.35}%
+\contentsline {subsection}{\numberline {6.35.1}Detailed Description}{275}{subsection.6.35.1}%
+\contentsline {subsection}{\numberline {6.35.2}Constructor \& Destructor Documentation}{275}{subsection.6.35.2}%
+\contentsline {subsubsection}{\numberline {6.35.2.1}Menu()}{275}{subsubsection.6.35.2.1}%
+\contentsline {subsection}{\numberline {6.35.3}Member Function Documentation}{276}{subsection.6.35.3}%
+\contentsline {subsubsection}{\numberline {6.35.3.1}draw()}{276}{subsubsection.6.35.3.1}%
+\contentsline {subsubsection}{\numberline {6.35.3.2}drawBackButton()}{276}{subsubsection.6.35.3.2}%
+\contentsline {subsubsection}{\numberline {6.35.3.3}getPlayerName()}{276}{subsubsection.6.35.3.3}%
+\contentsline {subsubsection}{\numberline {6.35.3.4}keyPressed()}{277}{subsubsection.6.35.3.4}%
+\contentsline {subsubsection}{\numberline {6.35.3.5}keyReleased()}{277}{subsubsection.6.35.3.5}%
+\contentsline {subsubsection}{\numberline {6.35.3.6}loadBackground()}{277}{subsubsection.6.35.3.6}%
+\contentsline {subsubsection}{\numberline {6.35.3.7}loadButtons()}{277}{subsubsection.6.35.3.7}%
+\contentsline {subsubsection}{\numberline {6.35.3.8}loadStartImg()}{278}{subsubsection.6.35.3.8}%
+\contentsline {subsubsection}{\numberline {6.35.3.9}mouseClicked()}{278}{subsubsection.6.35.3.9}%
+\contentsline {subsubsection}{\numberline {6.35.3.10}mouseDragged()}{278}{subsubsection.6.35.3.10}%
+\contentsline {subsubsection}{\numberline {6.35.3.11}mouseMoved()}{278}{subsubsection.6.35.3.11}%
+\contentsline {subsubsection}{\numberline {6.35.3.12}mousePressed()}{279}{subsubsection.6.35.3.12}%
+\contentsline {subsubsection}{\numberline {6.35.3.13}mouseReleased()}{279}{subsubsection.6.35.3.13}%
+\contentsline {subsubsection}{\numberline {6.35.3.14}resetButtons()}{279}{subsubsection.6.35.3.14}%
+\contentsline {subsubsection}{\numberline {6.35.3.15}setPlayerName()}{280}{subsubsection.6.35.3.15}%
+\contentsline {subsubsection}{\numberline {6.35.3.16}update()}{280}{subsubsection.6.35.3.16}%
+\contentsline {subsection}{\numberline {6.35.4}Member Data Documentation}{280}{subsection.6.35.4}%
+\contentsline {subsubsection}{\numberline {6.35.4.1}backButtonBounds}{280}{subsubsection.6.35.4.1}%
+\contentsline {subsubsection}{\numberline {6.35.4.2}backgroundImg}{280}{subsubsection.6.35.4.2}%
+\contentsline {subsubsection}{\numberline {6.35.4.3}buttons}{280}{subsubsection.6.35.4.3}%
+\contentsline {subsubsection}{\numberline {6.35.4.4}menuX}{280}{subsubsection.6.35.4.4}%
+\contentsline {subsubsection}{\numberline {6.35.4.5}playerName}{281}{subsubsection.6.35.4.5}%
+\contentsline {subsubsection}{\numberline {6.35.4.6}previousState}{281}{subsubsection.6.35.4.6}%
+\contentsline {subsubsection}{\numberline {6.35.4.7}startbgImg}{281}{subsubsection.6.35.4.7}%
+\contentsline {subsubsection}{\numberline {6.35.4.8}startbgX}{281}{subsubsection.6.35.4.8}%
+\contentsline {section}{\numberline {6.36}ui.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button Class Reference}{281}{section.6.36}%
+\contentsline {subsection}{\numberline {6.36.1}Detailed Description}{283}{subsection.6.36.1}%
+\contentsline {subsection}{\numberline {6.36.2}Constructor \& Destructor Documentation}{283}{subsection.6.36.2}%
+\contentsline {subsubsection}{\numberline {6.36.2.1}MenuButton()}{283}{subsubsection.6.36.2.1}%
+\contentsline {subsection}{\numberline {6.36.3}Member Function Documentation}{283}{subsection.6.36.3}%
+\contentsline {subsubsection}{\numberline {6.36.3.1}applyGamestate()}{283}{subsubsection.6.36.3.1}%
+\contentsline {subsubsection}{\numberline {6.36.3.2}draw()}{283}{subsubsection.6.36.3.2}%
+\contentsline {subsubsection}{\numberline {6.36.3.3}getBounds()}{284}{subsubsection.6.36.3.3}%
+\contentsline {subsubsection}{\numberline {6.36.3.4}getState()}{284}{subsubsection.6.36.3.4}%
+\contentsline {subsubsection}{\numberline {6.36.3.5}initBounds()}{284}{subsubsection.6.36.3.5}%
+\contentsline {subsubsection}{\numberline {6.36.3.6}isMouseOver()}{285}{subsubsection.6.36.3.6}%
+\contentsline {subsubsection}{\numberline {6.36.3.7}isMousePressed()}{285}{subsubsection.6.36.3.7}%
+\contentsline {subsubsection}{\numberline {6.36.3.8}loadImgs()}{285}{subsubsection.6.36.3.8}%
+\contentsline {subsubsection}{\numberline {6.36.3.9}resetBools()}{285}{subsubsection.6.36.3.9}%
+\contentsline {subsubsection}{\numberline {6.36.3.10}setMouseOver()}{285}{subsubsection.6.36.3.10}%
+\contentsline {subsubsection}{\numberline {6.36.3.11}setMousePressed()}{286}{subsubsection.6.36.3.11}%
+\contentsline {subsubsection}{\numberline {6.36.3.12}update()}{286}{subsubsection.6.36.3.12}%
+\contentsline {subsection}{\numberline {6.36.4}Member Data Documentation}{286}{subsection.6.36.4}%
+\contentsline {subsubsection}{\numberline {6.36.4.1}bounds}{286}{subsubsection.6.36.4.1}%
+\contentsline {subsubsection}{\numberline {6.36.4.2}imgs}{286}{subsubsection.6.36.4.2}%
+\contentsline {subsubsection}{\numberline {6.36.4.3}index}{287}{subsubsection.6.36.4.3}%
+\contentsline {subsubsection}{\numberline {6.36.4.4}mouseOver}{287}{subsubsection.6.36.4.4}%
+\contentsline {subsubsection}{\numberline {6.36.4.5}rowIndex}{287}{subsubsection.6.36.4.5}%
+\contentsline {subsubsection}{\numberline {6.36.4.6}state}{287}{subsubsection.6.36.4.6}%
+\contentsline {subsubsection}{\numberline {6.36.4.7}xOffsetCenter}{287}{subsubsection.6.36.4.7}%
+\contentsline {subsubsection}{\numberline {6.36.4.8}xPos}{287}{subsubsection.6.36.4.8}%
+\contentsline {section}{\numberline {6.37}inputs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mouse\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inputs Class Reference}{288}{section.6.37}%
+\contentsline {subsection}{\numberline {6.37.1}Detailed Description}{289}{subsection.6.37.1}%
+\contentsline {subsection}{\numberline {6.37.2}Constructor \& Destructor Documentation}{289}{subsection.6.37.2}%
+\contentsline {subsubsection}{\numberline {6.37.2.1}MouseInputs()}{289}{subsubsection.6.37.2.1}%
+\contentsline {subsection}{\numberline {6.37.3}Member Function Documentation}{290}{subsection.6.37.3}%
+\contentsline {subsubsection}{\numberline {6.37.3.1}mouseClicked()}{290}{subsubsection.6.37.3.1}%
+\contentsline {subsubsection}{\numberline {6.37.3.2}mouseDragged()}{290}{subsubsection.6.37.3.2}%
+\contentsline {subsubsection}{\numberline {6.37.3.3}mouseEntered()}{290}{subsubsection.6.37.3.3}%
+\contentsline {subsubsection}{\numberline {6.37.3.4}mouseExited()}{291}{subsubsection.6.37.3.4}%
+\contentsline {subsubsection}{\numberline {6.37.3.5}mouseMoved()}{291}{subsubsection.6.37.3.5}%
+\contentsline {subsubsection}{\numberline {6.37.3.6}mousePressed()}{291}{subsubsection.6.37.3.6}%
+\contentsline {subsubsection}{\numberline {6.37.3.7}mouseReleased()}{292}{subsubsection.6.37.3.7}%
+\contentsline {subsubsection}{\numberline {6.37.3.8}mouseWheelMoved()}{292}{subsubsection.6.37.3.8}%
+\contentsline {subsection}{\numberline {6.37.4}Member Data Documentation}{292}{subsection.6.37.4}%
+\contentsline {subsubsection}{\numberline {6.37.4.1}gamePanel}{292}{subsubsection.6.37.4.1}%
+\contentsline {section}{\numberline {6.38}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Nanite Class Reference}{293}{section.6.38}%
+\contentsline {subsection}{\numberline {6.38.1}Detailed Description}{296}{subsection.6.38.1}%
+\contentsline {subsection}{\numberline {6.38.2}Constructor \& Destructor Documentation}{296}{subsection.6.38.2}%
+\contentsline {subsubsection}{\numberline {6.38.2.1}Nanite()}{297}{subsubsection.6.38.2.1}%
+\contentsline {subsection}{\numberline {6.38.3}Member Function Documentation}{297}{subsection.6.38.3}%
+\contentsline {subsubsection}{\numberline {6.38.3.1}canAttackPlayer()}{297}{subsubsection.6.38.3.1}%
+\contentsline {subsubsection}{\numberline {6.38.3.2}canSeePlayer()}{297}{subsubsection.6.38.3.2}%
+\contentsline {subsubsection}{\numberline {6.38.3.3}checkAttackHit()}{298}{subsubsection.6.38.3.3}%
+\contentsline {subsubsection}{\numberline {6.38.3.4}checkPlayerHit()}{298}{subsubsection.6.38.3.4}%
+\contentsline {subsubsection}{\numberline {6.38.3.5}getAttackBox()}{298}{subsubsection.6.38.3.5}%
+\contentsline {subsubsection}{\numberline {6.38.3.6}getDamage()}{299}{subsubsection.6.38.3.6}%
+\contentsline {subsubsection}{\numberline {6.38.3.7}getDirection()}{299}{subsubsection.6.38.3.7}%
+\contentsline {subsubsection}{\numberline {6.38.3.8}getHealth()}{299}{subsubsection.6.38.3.8}%
+\contentsline {subsubsection}{\numberline {6.38.3.9}getMaxHealth()}{299}{subsubsection.6.38.3.9}%
+\contentsline {subsubsection}{\numberline {6.38.3.10}initPatrolBoundaries()}{300}{subsubsection.6.38.3.10}%
+\contentsline {subsubsection}{\numberline {6.38.3.11}isActive()}{300}{subsubsection.6.38.3.11}%
+\contentsline {subsubsection}{\numberline {6.38.3.12}makeBoss()}{300}{subsubsection.6.38.3.12}%
+\contentsline {subsubsection}{\numberline {6.38.3.13}playerDetected()}{300}{subsubsection.6.38.3.13}%
+\contentsline {subsubsection}{\numberline {6.38.3.14}setLevelData()}{301}{subsubsection.6.38.3.14}%
+\contentsline {subsubsection}{\numberline {6.38.3.15}setState()}{301}{subsubsection.6.38.3.15}%
+\contentsline {subsubsection}{\numberline {6.38.3.16}takeDamage()}{301}{subsubsection.6.38.3.16}%
+\contentsline {subsubsection}{\numberline {6.38.3.17}update()}{301}{subsubsection.6.38.3.17}%
+\contentsline {subsubsection}{\numberline {6.38.3.18}updateAttackBox()}{302}{subsubsection.6.38.3.18}%
+\contentsline {subsubsection}{\numberline {6.38.3.19}updateBehavior()}{302}{subsubsection.6.38.3.19}%
+\contentsline {subsubsection}{\numberline {6.38.3.20}updateCooldowns()}{302}{subsubsection.6.38.3.20}%
+\contentsline {subsubsection}{\numberline {6.38.3.21}updatePosition()}{302}{subsubsection.6.38.3.21}%
+\contentsline {subsubsection}{\numberline {6.38.3.22}willLandOnGround()}{303}{subsubsection.6.38.3.22}%
+\contentsline {subsection}{\numberline {6.38.4}Member Data Documentation}{303}{subsection.6.38.4}%
+\contentsline {subsubsection}{\numberline {6.38.4.1}airSpeed}{303}{subsubsection.6.38.4.1}%
+\contentsline {subsubsection}{\numberline {6.38.4.2}ATTACK}{303}{subsubsection.6.38.4.2}%
+\contentsline {subsubsection}{\numberline {6.38.4.3}ATTACK\_COOLDOWN\_MAX}{303}{subsubsection.6.38.4.3}%
+\contentsline {subsubsection}{\numberline {6.38.4.4}attackBox}{304}{subsubsection.6.38.4.4}%
+\contentsline {subsubsection}{\numberline {6.38.4.5}attackChecked}{304}{subsubsection.6.38.4.5}%
+\contentsline {subsubsection}{\numberline {6.38.4.6}attackCooldown}{304}{subsubsection.6.38.4.6}%
+\contentsline {subsubsection}{\numberline {6.38.4.7}attackRange}{304}{subsubsection.6.38.4.7}%
+\contentsline {subsubsection}{\numberline {6.38.4.8}chaseMoveSpeed}{304}{subsubsection.6.38.4.8}%
+\contentsline {subsubsection}{\numberline {6.38.4.9}damage}{304}{subsubsection.6.38.4.9}%
+\contentsline {subsubsection}{\numberline {6.38.4.10}detectionRange}{305}{subsubsection.6.38.4.10}%
+\contentsline {subsubsection}{\numberline {6.38.4.11}direction}{305}{subsubsection.6.38.4.11}%
+\contentsline {subsubsection}{\numberline {6.38.4.12}DYING}{305}{subsubsection.6.38.4.12}%
+\contentsline {subsubsection}{\numberline {6.38.4.13}gravity}{305}{subsubsection.6.38.4.13}%
+\contentsline {subsubsection}{\numberline {6.38.4.14}health}{305}{subsubsection.6.38.4.14}%
+\contentsline {subsubsection}{\numberline {6.38.4.15}HURT}{305}{subsubsection.6.38.4.15}%
+\contentsline {subsubsection}{\numberline {6.38.4.16}IDLE}{306}{subsubsection.6.38.4.16}%
+\contentsline {subsubsection}{\numberline {6.38.4.17}inAir}{306}{subsubsection.6.38.4.17}%
+\contentsline {subsubsection}{\numberline {6.38.4.18}isActive}{306}{subsubsection.6.38.4.18}%
+\contentsline {subsubsection}{\numberline {6.38.4.19}isMoving}{306}{subsubsection.6.38.4.19}%
+\contentsline {subsubsection}{\numberline {6.38.4.20}jumpSpeed}{306}{subsubsection.6.38.4.20}%
+\contentsline {subsubsection}{\numberline {6.38.4.21}leftPatrolLimit}{306}{subsubsection.6.38.4.21}%
+\contentsline {subsubsection}{\numberline {6.38.4.22}levelData}{307}{subsubsection.6.38.4.22}%
+\contentsline {subsubsection}{\numberline {6.38.4.23}maxHealth}{307}{subsubsection.6.38.4.23}%
+\contentsline {subsubsection}{\numberline {6.38.4.24}moveSpeed}{307}{subsubsection.6.38.4.24}%
+\contentsline {subsubsection}{\numberline {6.38.4.25}NANITE\_JUNGLA}{307}{subsubsection.6.38.4.25}%
+\contentsline {subsubsection}{\numberline {6.38.4.26}NANITE\_PESTERA}{307}{subsubsection.6.38.4.26}%
+\contentsline {subsubsection}{\numberline {6.38.4.27}patrolBoundariesSet}{307}{subsubsection.6.38.4.27}%
+\contentsline {subsubsection}{\numberline {6.38.4.28}patrolDistance}{308}{subsubsection.6.38.4.28}%
+\contentsline {subsubsection}{\numberline {6.38.4.29}patrolMoveSpeed}{308}{subsubsection.6.38.4.29}%
+\contentsline {subsubsection}{\numberline {6.38.4.30}playerDetected}{308}{subsubsection.6.38.4.30}%
+\contentsline {subsubsection}{\numberline {6.38.4.31}playerTouchCooldown}{308}{subsubsection.6.38.4.31}%
+\contentsline {subsubsection}{\numberline {6.38.4.32}rightPatrolLimit}{308}{subsubsection.6.38.4.32}%
+\contentsline {subsubsection}{\numberline {6.38.4.33}RUNNING}{308}{subsubsection.6.38.4.33}%
+\contentsline {subsubsection}{\numberline {6.38.4.34}ticksInState}{309}{subsubsection.6.38.4.34}%
+\contentsline {subsubsection}{\numberline {6.38.4.35}touchDamageCooldown}{309}{subsubsection.6.38.4.35}%
+\contentsline {section}{\numberline {6.39}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Options Class Reference}{309}{section.6.39}%
+\contentsline {subsection}{\numberline {6.39.1}Detailed Description}{312}{subsection.6.39.1}%
+\contentsline {subsection}{\numberline {6.39.2}Constructor \& Destructor Documentation}{312}{subsection.6.39.2}%
+\contentsline {subsubsection}{\numberline {6.39.2.1}Options()}{312}{subsubsection.6.39.2.1}%
+\contentsline {subsection}{\numberline {6.39.3}Member Function Documentation}{312}{subsection.6.39.3}%
+\contentsline {subsubsection}{\numberline {6.39.3.1}draw()}{312}{subsubsection.6.39.3.1}%
+\contentsline {subsubsection}{\numberline {6.39.3.2}getMusicVolume()}{313}{subsubsection.6.39.3.2}%
+\contentsline {subsubsection}{\numberline {6.39.3.3}getSfxVolume()}{313}{subsubsection.6.39.3.3}%
+\contentsline {subsubsection}{\numberline {6.39.3.4}keyPressed()}{313}{subsubsection.6.39.3.4}%
+\contentsline {subsubsection}{\numberline {6.39.3.5}keyReleased()}{313}{subsubsection.6.39.3.5}%
+\contentsline {subsubsection}{\numberline {6.39.3.6}loadBackground()}{314}{subsubsection.6.39.3.6}%
+\contentsline {subsubsection}{\numberline {6.39.3.7}loadCustomFont()}{314}{subsubsection.6.39.3.7}%
+\contentsline {subsubsection}{\numberline {6.39.3.8}loadSliderImages()}{314}{subsubsection.6.39.3.8}%
+\contentsline {subsubsection}{\numberline {6.39.3.9}loadStartImg()}{314}{subsubsection.6.39.3.9}%
+\contentsline {subsubsection}{\numberline {6.39.3.10}mouseClicked()}{314}{subsubsection.6.39.3.10}%
+\contentsline {subsubsection}{\numberline {6.39.3.11}mouseDragged()}{315}{subsubsection.6.39.3.11}%
+\contentsline {subsubsection}{\numberline {6.39.3.12}mouseMoved()}{315}{subsubsection.6.39.3.12}%
+\contentsline {subsubsection}{\numberline {6.39.3.13}mousePressed()}{315}{subsubsection.6.39.3.13}%
+\contentsline {subsubsection}{\numberline {6.39.3.14}mouseReleased()}{316}{subsubsection.6.39.3.14}%
+\contentsline {subsubsection}{\numberline {6.39.3.15}setPreviousState()}{316}{subsubsection.6.39.3.15}%
+\contentsline {subsubsection}{\numberline {6.39.3.16}update()}{316}{subsubsection.6.39.3.16}%
+\contentsline {subsubsection}{\numberline {6.39.3.17}updateMusicValue()}{317}{subsubsection.6.39.3.17}%
+\contentsline {subsubsection}{\numberline {6.39.3.18}updateSfxValue()}{317}{subsubsection.6.39.3.18}%
+\contentsline {subsection}{\numberline {6.39.4}Member Data Documentation}{317}{subsection.6.39.4}%
+\contentsline {subsubsection}{\numberline {6.39.4.1}airstrikeFont}{317}{subsubsection.6.39.4.1}%
+\contentsline {subsubsection}{\numberline {6.39.4.2}backgroundImg}{317}{subsubsection.6.39.4.2}%
+\contentsline {subsubsection}{\numberline {6.39.4.3}buffer}{317}{subsubsection.6.39.4.3}%
+\contentsline {subsubsection}{\numberline {6.39.4.4}grooverImg}{318}{subsubsection.6.39.4.4}%
+\contentsline {subsubsection}{\numberline {6.39.4.5}knobImg}{318}{subsubsection.6.39.4.5}%
+\contentsline {subsubsection}{\numberline {6.39.4.6}mainMenuButtonBounds}{318}{subsubsection.6.39.4.6}%
+\contentsline {subsubsection}{\numberline {6.39.4.7}menuX}{318}{subsubsection.6.39.4.7}%
+\contentsline {subsubsection}{\numberline {6.39.4.8}musicSliderBounds}{318}{subsubsection.6.39.4.8}%
+\contentsline {subsubsection}{\numberline {6.39.4.9}musicSliderDragging}{318}{subsubsection.6.39.4.9}%
+\contentsline {subsubsection}{\numberline {6.39.4.10}musicValue}{318}{subsubsection.6.39.4.10}%
+\contentsline {subsubsection}{\numberline {6.39.4.11}needsRedraw}{319}{subsubsection.6.39.4.11}%
+\contentsline {subsubsection}{\numberline {6.39.4.12}previousState}{319}{subsubsection.6.39.4.12}%
+\contentsline {subsubsection}{\numberline {6.39.4.13}sfxSliderBounds}{319}{subsubsection.6.39.4.13}%
+\contentsline {subsubsection}{\numberline {6.39.4.14}sfxSliderDragging}{319}{subsubsection.6.39.4.14}%
+\contentsline {subsubsection}{\numberline {6.39.4.15}sfxValue}{319}{subsubsection.6.39.4.15}%
+\contentsline {subsubsection}{\numberline {6.39.4.16}startbgImg}{319}{subsubsection.6.39.4.16}%
+\contentsline {subsubsection}{\numberline {6.39.4.17}startbgX}{320}{subsubsection.6.39.4.17}%
+\contentsline {section}{\numberline {6.40}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Player Class Reference}{320}{section.6.40}%
+\contentsline {subsection}{\numberline {6.40.1}Constructor \& Destructor Documentation}{323}{subsection.6.40.1}%
+\contentsline {subsubsection}{\numberline {6.40.1.1}Player()}{323}{subsubsection.6.40.1.1}%
+\contentsline {subsection}{\numberline {6.40.2}Member Function Documentation}{323}{subsection.6.40.2}%
+\contentsline {subsubsection}{\numberline {6.40.2.1}activateCrystalRush()}{323}{subsubsection.6.40.2.1}%
+\contentsline {subsubsection}{\numberline {6.40.2.2}applyKnockback()}{324}{subsubsection.6.40.2.2}%
+\contentsline {subsubsection}{\numberline {6.40.2.3}canSpawnProjectileAndConsume()}{324}{subsubsection.6.40.2.3}%
+\contentsline {subsubsection}{\numberline {6.40.2.4}collectBananaEffect()}{324}{subsubsection.6.40.2.4}%
+\contentsline {subsubsection}{\numberline {6.40.2.5}collectCoconutEffect()}{324}{subsubsection.6.40.2.5}%
+\contentsline {subsubsection}{\numberline {6.40.2.6}getAnimationIndex()}{324}{subsubsection.6.40.2.6}%
+\contentsline {subsubsection}{\numberline {6.40.2.7}getAttackDamage()}{324}{subsubsection.6.40.2.7}%
+\contentsline {subsubsection}{\numberline {6.40.2.8}getAttackHitbox()}{324}{subsubsection.6.40.2.8}%
+\contentsline {subsubsection}{\numberline {6.40.2.9}getCurrentHealth()}{325}{subsubsection.6.40.2.9}%
+\contentsline {subsubsection}{\numberline {6.40.2.10}getJumpSlamHitbox()}{325}{subsubsection.6.40.2.10}%
+\contentsline {subsubsection}{\numberline {6.40.2.11}getMaxHealth()}{325}{subsubsection.6.40.2.11}%
+\contentsline {subsubsection}{\numberline {6.40.2.12}getWhackHitbox()}{325}{subsubsection.6.40.2.12}%
+\contentsline {subsubsection}{\numberline {6.40.2.13}getWhackIndex()}{325}{subsubsection.6.40.2.13}%
+\contentsline {subsubsection}{\numberline {6.40.2.14}hasHit()}{325}{subsubsection.6.40.2.14}%
+\contentsline {subsubsection}{\numberline {6.40.2.15}heal()}{325}{subsubsection.6.40.2.15}%
+\contentsline {subsubsection}{\numberline {6.40.2.16}isAlive()}{326}{subsubsection.6.40.2.16}%
+\contentsline {subsubsection}{\numberline {6.40.2.17}isAttack()}{326}{subsubsection.6.40.2.17}%
+\contentsline {subsubsection}{\numberline {6.40.2.18}isCrouch()}{326}{subsubsection.6.40.2.18}%
+\contentsline {subsubsection}{\numberline {6.40.2.19}isCrystalRushActive()}{326}{subsubsection.6.40.2.19}%
+\contentsline {subsubsection}{\numberline {6.40.2.20}isCrystalRushUnlocked()}{326}{subsubsection.6.40.2.20}%
+\contentsline {subsubsection}{\numberline {6.40.2.21}isDamaged()}{326}{subsubsection.6.40.2.21}%
+\contentsline {subsubsection}{\numberline {6.40.2.22}isDown()}{326}{subsubsection.6.40.2.22}%
+\contentsline {subsubsection}{\numberline {6.40.2.23}isFacingRight()}{327}{subsubsection.6.40.2.23}%
+\contentsline {subsubsection}{\numberline {6.40.2.24}isJump()}{327}{subsubsection.6.40.2.24}%
+\contentsline {subsubsection}{\numberline {6.40.2.25}isJumpSlamming()}{327}{subsubsection.6.40.2.25}%
+\contentsline {subsubsection}{\numberline {6.40.2.26}isLeft()}{327}{subsubsection.6.40.2.26}%
+\contentsline {subsubsection}{\numberline {6.40.2.27}isPunching()}{327}{subsubsection.6.40.2.27}%
+\contentsline {subsubsection}{\numberline {6.40.2.28}isRight()}{327}{subsubsection.6.40.2.28}%
+\contentsline {subsubsection}{\numberline {6.40.2.29}isThrowing()}{327}{subsubsection.6.40.2.29}%
+\contentsline {subsubsection}{\numberline {6.40.2.30}isUp()}{328}{subsubsection.6.40.2.30}%
+\contentsline {subsubsection}{\numberline {6.40.2.31}isWhacking()}{328}{subsubsection.6.40.2.31}%
+\contentsline {subsubsection}{\numberline {6.40.2.32}jump()}{328}{subsubsection.6.40.2.32}%
+\contentsline {subsubsection}{\numberline {6.40.2.33}loadAnimations()}{328}{subsubsection.6.40.2.33}%
+\contentsline {subsubsection}{\numberline {6.40.2.34}loadLevelData()}{328}{subsubsection.6.40.2.34}%
+\contentsline {subsubsection}{\numberline {6.40.2.35}render()}{328}{subsubsection.6.40.2.35}%
+\contentsline {subsubsection}{\numberline {6.40.2.36}resetAnimationTick()}{329}{subsubsection.6.40.2.36}%
+\contentsline {subsubsection}{\numberline {6.40.2.37}resetDirBooleans()}{329}{subsubsection.6.40.2.37}%
+\contentsline {subsubsection}{\numberline {6.40.2.38}resetHealth()}{329}{subsubsection.6.40.2.38}%
+\contentsline {subsubsection}{\numberline {6.40.2.39}resetInAir()}{329}{subsubsection.6.40.2.39}%
+\contentsline {subsubsection}{\numberline {6.40.2.40}resetToStartPosition()}{329}{subsubsection.6.40.2.40}%
+\contentsline {subsubsection}{\numberline {6.40.2.41}setAnimation()}{329}{subsubsection.6.40.2.41}%
+\contentsline {subsubsection}{\numberline {6.40.2.42}setAttack()}{330}{subsubsection.6.40.2.42}%
+\contentsline {subsubsection}{\numberline {6.40.2.43}setCrouch()}{330}{subsubsection.6.40.2.43}%
+\contentsline {subsubsection}{\numberline {6.40.2.44}setCurrentHealth()}{330}{subsubsection.6.40.2.44}%
+\contentsline {subsubsection}{\numberline {6.40.2.45}setDown()}{330}{subsubsection.6.40.2.45}%
+\contentsline {subsubsection}{\numberline {6.40.2.46}setHasHit()}{330}{subsubsection.6.40.2.46}%
+\contentsline {subsubsection}{\numberline {6.40.2.47}setJump()}{330}{subsubsection.6.40.2.47}%
+\contentsline {subsubsection}{\numberline {6.40.2.48}setJumpSlamAttack()}{331}{subsubsection.6.40.2.48}%
+\contentsline {subsubsection}{\numberline {6.40.2.49}setJumpSlamUnlocked()}{331}{subsubsection.6.40.2.49}%
+\contentsline {subsubsection}{\numberline {6.40.2.50}setLeft()}{331}{subsubsection.6.40.2.50}%
+\contentsline {subsubsection}{\numberline {6.40.2.51}setPosition()}{331}{subsubsection.6.40.2.51}%
+\contentsline {subsubsection}{\numberline {6.40.2.52}setRight()}{331}{subsubsection.6.40.2.52}%
+\contentsline {subsubsection}{\numberline {6.40.2.53}setThrowAttack()}{331}{subsubsection.6.40.2.53}%
+\contentsline {subsubsection}{\numberline {6.40.2.54}setUp()}{332}{subsubsection.6.40.2.54}%
+\contentsline {subsubsection}{\numberline {6.40.2.55}setWhackAttack()}{332}{subsubsection.6.40.2.55}%
+\contentsline {subsubsection}{\numberline {6.40.2.56}takeDamage()}{332}{subsubsection.6.40.2.56}%
+\contentsline {subsubsection}{\numberline {6.40.2.57}unlockCrystalRush()}{332}{subsubsection.6.40.2.57}%
+\contentsline {subsubsection}{\numberline {6.40.2.58}update()}{332}{subsubsection.6.40.2.58}%
+\contentsline {subsubsection}{\numberline {6.40.2.59}updateAnimationTick()}{332}{subsubsection.6.40.2.59}%
+\contentsline {subsubsection}{\numberline {6.40.2.60}updateDamageEffect()}{333}{subsubsection.6.40.2.60}%
+\contentsline {subsubsection}{\numberline {6.40.2.61}updateGravity()}{333}{subsubsection.6.40.2.61}%
+\contentsline {subsubsection}{\numberline {6.40.2.62}updateKnockback()}{333}{subsubsection.6.40.2.62}%
+\contentsline {subsubsection}{\numberline {6.40.2.63}updatePos()}{333}{subsubsection.6.40.2.63}%
+\contentsline {subsubsection}{\numberline {6.40.2.64}updateXPos()}{333}{subsubsection.6.40.2.64}%
+\contentsline {subsection}{\numberline {6.40.3}Member Data Documentation}{333}{subsection.6.40.3}%
+\contentsline {subsubsection}{\numberline {6.40.3.1}airSpeed}{333}{subsubsection.6.40.3.1}%
+\contentsline {subsubsection}{\numberline {6.40.3.2}animations}{334}{subsubsection.6.40.3.2}%
+\contentsline {subsubsection}{\numberline {6.40.3.3}animationTick}{334}{subsubsection.6.40.3.3}%
+\contentsline {subsubsection}{\numberline {6.40.3.4}attackDamage}{334}{subsubsection.6.40.3.4}%
+\contentsline {subsubsection}{\numberline {6.40.3.5}crouch}{334}{subsubsection.6.40.3.5}%
+\contentsline {subsubsection}{\numberline {6.40.3.6}CRYSTAL\_RUSH\_COOLDOWN\_DURATION}{334}{subsubsection.6.40.3.6}%
+\contentsline {subsubsection}{\numberline {6.40.3.7}CRYSTAL\_RUSH\_DURATION}{334}{subsubsection.6.40.3.7}%
+\contentsline {subsubsection}{\numberline {6.40.3.8}crystalRushAnimations}{334}{subsubsection.6.40.3.8}%
+\contentsline {subsubsection}{\numberline {6.40.3.9}crystalRushCooldownTimer}{334}{subsubsection.6.40.3.9}%
+\contentsline {subsubsection}{\numberline {6.40.3.10}crystalRushTimer}{335}{subsubsection.6.40.3.10}%
+\contentsline {subsubsection}{\numberline {6.40.3.11}crystalRushUnlocked}{335}{subsubsection.6.40.3.11}%
+\contentsline {subsubsection}{\numberline {6.40.3.12}currentHealth}{335}{subsubsection.6.40.3.12}%
+\contentsline {subsubsection}{\numberline {6.40.3.13}DAMAGE\_FLASH\_DURATION}{335}{subsubsection.6.40.3.13}%
+\contentsline {subsubsection}{\numberline {6.40.3.14}damageFlashTimer}{335}{subsubsection.6.40.3.14}%
+\contentsline {subsubsection}{\numberline {6.40.3.15}down}{335}{subsubsection.6.40.3.15}%
+\contentsline {subsubsection}{\numberline {6.40.3.16}facingRight}{335}{subsubsection.6.40.3.16}%
+\contentsline {subsubsection}{\numberline {6.40.3.17}fallSpeedAfterCollision}{335}{subsubsection.6.40.3.17}%
+\contentsline {subsubsection}{\numberline {6.40.3.18}flippedAnimations}{336}{subsubsection.6.40.3.18}%
+\contentsline {subsubsection}{\numberline {6.40.3.19}flippedCrystalRushAnimations}{336}{subsubsection.6.40.3.19}%
+\contentsline {subsubsection}{\numberline {6.40.3.20}gravity}{336}{subsubsection.6.40.3.20}%
+\contentsline {subsubsection}{\numberline {6.40.3.21}hasHit}{336}{subsubsection.6.40.3.21}%
+\contentsline {subsubsection}{\numberline {6.40.3.22}hasThrown}{336}{subsubsection.6.40.3.22}%
+\contentsline {subsubsection}{\numberline {6.40.3.23}inAir}{336}{subsubsection.6.40.3.23}%
+\contentsline {subsubsection}{\numberline {6.40.3.24}isCrystalRushActive}{336}{subsubsection.6.40.3.24}%
+\contentsline {subsubsection}{\numberline {6.40.3.25}isDamaged}{337}{subsubsection.6.40.3.25}%
+\contentsline {subsubsection}{\numberline {6.40.3.26}isJumpSlamming}{337}{subsubsection.6.40.3.26}%
+\contentsline {subsubsection}{\numberline {6.40.3.27}isLanding}{337}{subsubsection.6.40.3.27}%
+\contentsline {subsubsection}{\numberline {6.40.3.28}isPunching}{337}{subsubsection.6.40.3.28}%
+\contentsline {subsubsection}{\numberline {6.40.3.29}isThrowing}{337}{subsubsection.6.40.3.29}%
+\contentsline {subsubsection}{\numberline {6.40.3.30}isTransitioning}{337}{subsubsection.6.40.3.30}%
+\contentsline {subsubsection}{\numberline {6.40.3.31}isWhacking}{337}{subsubsection.6.40.3.31}%
+\contentsline {subsubsection}{\numberline {6.40.3.32}jump}{338}{subsubsection.6.40.3.32}%
+\contentsline {subsubsection}{\numberline {6.40.3.33}JUMP\_SLAM\_COOLDOWN\_DURATION}{338}{subsubsection.6.40.3.33}%
+\contentsline {subsubsection}{\numberline {6.40.3.34}JUMP\_SLAM\_DASH\_SPEED}{338}{subsubsection.6.40.3.34}%
+\contentsline {subsubsection}{\numberline {6.40.3.35}jumpSlamCooldownTimer}{338}{subsubsection.6.40.3.35}%
+\contentsline {subsubsection}{\numberline {6.40.3.36}jumpSlamTick}{338}{subsubsection.6.40.3.36}%
+\contentsline {subsubsection}{\numberline {6.40.3.37}jumpSlamUnlocked}{338}{subsubsection.6.40.3.37}%
+\contentsline {subsubsection}{\numberline {6.40.3.38}jumpSpeed}{338}{subsubsection.6.40.3.38}%
+\contentsline {subsubsection}{\numberline {6.40.3.39}KNOCKBACK\_DURATION}{339}{subsubsection.6.40.3.39}%
+\contentsline {subsubsection}{\numberline {6.40.3.40}knockbackDuration}{339}{subsubsection.6.40.3.40}%
+\contentsline {subsubsection}{\numberline {6.40.3.41}knockbackX}{339}{subsubsection.6.40.3.41}%
+\contentsline {subsubsection}{\numberline {6.40.3.42}knockbackY}{339}{subsubsection.6.40.3.42}%
+\contentsline {subsubsection}{\numberline {6.40.3.43}landingFrame}{339}{subsubsection.6.40.3.43}%
+\contentsline {subsubsection}{\numberline {6.40.3.44}left}{339}{subsubsection.6.40.3.44}%
+\contentsline {subsubsection}{\numberline {6.40.3.45}levelData}{339}{subsubsection.6.40.3.45}%
+\contentsline {subsubsection}{\numberline {6.40.3.46}maxHealth}{339}{subsubsection.6.40.3.46}%
+\contentsline {subsubsection}{\numberline {6.40.3.47}moving}{340}{subsubsection.6.40.3.47}%
+\contentsline {subsubsection}{\numberline {6.40.3.48}originalPlayerSpeed}{340}{subsubsection.6.40.3.48}%
+\contentsline {subsubsection}{\numberline {6.40.3.49}permanentAttackDamageBonus}{340}{subsubsection.6.40.3.49}%
+\contentsline {subsubsection}{\numberline {6.40.3.50}permanentMaxHpBonus}{340}{subsubsection.6.40.3.50}%
+\contentsline {subsubsection}{\numberline {6.40.3.51}playerAction}{340}{subsubsection.6.40.3.51}%
+\contentsline {subsubsection}{\numberline {6.40.3.52}playerDirection}{340}{subsubsection.6.40.3.52}%
+\contentsline {subsubsection}{\numberline {6.40.3.53}playerSpeed}{340}{subsubsection.6.40.3.53}%
+\contentsline {subsubsection}{\numberline {6.40.3.54}punchTick}{340}{subsubsection.6.40.3.54}%
+\contentsline {subsubsection}{\numberline {6.40.3.55}right}{341}{subsubsection.6.40.3.55}%
+\contentsline {subsubsection}{\numberline {6.40.3.56}throwTick}{341}{subsubsection.6.40.3.56}%
+\contentsline {subsubsection}{\numberline {6.40.3.57}up}{341}{subsubsection.6.40.3.57}%
+\contentsline {subsubsection}{\numberline {6.40.3.58}wasCrouchPressed}{341}{subsubsection.6.40.3.58}%
+\contentsline {subsubsection}{\numberline {6.40.3.59}WHACK\_COOLDOWN\_DURATION}{341}{subsubsection.6.40.3.59}%
+\contentsline {subsubsection}{\numberline {6.40.3.60}whackCooldownTimer}{341}{subsubsection.6.40.3.60}%
+\contentsline {subsubsection}{\numberline {6.40.3.61}whackTick}{341}{subsubsection.6.40.3.61}%
+\contentsline {subsubsection}{\numberline {6.40.3.62}xDrawOffset}{341}{subsubsection.6.40.3.62}%
+\contentsline {subsubsection}{\numberline {6.40.3.63}yDrawOffset}{342}{subsubsection.6.40.3.63}%
+\contentsline {section}{\numberline {6.41}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Playing Class Reference}{342}{section.6.41}%
+\contentsline {subsection}{\numberline {6.41.1}Detailed Description}{346}{subsection.6.41.1}%
+\contentsline {subsection}{\numberline {6.41.2}Constructor \& Destructor Documentation}{346}{subsection.6.41.2}%
+\contentsline {subsubsection}{\numberline {6.41.2.1}Playing()}{346}{subsubsection.6.41.2.1}%
+\contentsline {subsection}{\numberline {6.41.3}Member Function Documentation}{347}{subsection.6.41.3}%
+\contentsline {subsubsection}{\numberline {6.41.3.1}advanceToNextLevel()}{347}{subsubsection.6.41.3.1}%
+\contentsline {subsubsection}{\numberline {6.41.3.2}checkBananaCollision()}{347}{subsubsection.6.41.3.2}%
+\contentsline {subsubsection}{\numberline {6.41.3.3}checkCloseToBorder()}{347}{subsubsection.6.41.3.3}%
+\contentsline {subsubsection}{\numberline {6.41.3.4}checkCoconutCollision()}{347}{subsubsection.6.41.3.4}%
+\contentsline {subsubsection}{\numberline {6.41.3.5}checkGemCollision()}{347}{subsubsection.6.41.3.5}%
+\contentsline {subsubsection}{\numberline {6.41.3.6}checkPlayerAttackHits()}{348}{subsubsection.6.41.3.6}%
+\contentsline {subsubsection}{\numberline {6.41.3.7}checkPlayerThrow()}{348}{subsubsection.6.41.3.7}%
+\contentsline {subsubsection}{\numberline {6.41.3.8}draw()}{348}{subsubsection.6.41.3.8}%
+\contentsline {subsubsection}{\numberline {6.41.3.9}drawBackButton()}{348}{subsubsection.6.41.3.9}%
+\contentsline {subsubsection}{\numberline {6.41.3.10}drawBananas()}{348}{subsubsection.6.41.3.10}%
+\contentsline {subsubsection}{\numberline {6.41.3.11}drawCoconuts()}{349}{subsubsection.6.41.3.11}%
+\contentsline {subsubsection}{\numberline {6.41.3.12}drawHUD()}{349}{subsubsection.6.41.3.12}%
+\contentsline {subsubsection}{\numberline {6.41.3.13}getCurrentCoconuts()}{349}{subsubsection.6.41.3.13}%
+\contentsline {subsubsection}{\numberline {6.41.3.14}getCurrentScore()}{349}{subsubsection.6.41.3.14}%
+\contentsline {subsubsection}{\numberline {6.41.3.15}getElapsedSeconds()}{349}{subsubsection.6.41.3.15}%
+\contentsline {subsubsection}{\numberline {6.41.3.16}getEnemyManager()}{350}{subsubsection.6.41.3.16}%
+\contentsline {subsubsection}{\numberline {6.41.3.17}getLevelManager()}{350}{subsubsection.6.41.3.17}%
+\contentsline {subsubsection}{\numberline {6.41.3.18}getPlayer()}{350}{subsubsection.6.41.3.18}%
+\contentsline {subsubsection}{\numberline {6.41.3.19}getPlayerName()}{350}{subsubsection.6.41.3.19}%
+\contentsline {subsubsection}{\numberline {6.41.3.20}getUsername()}{350}{subsubsection.6.41.3.20}%
+\contentsline {subsubsection}{\numberline {6.41.3.21}initClasses()}{351}{subsubsection.6.41.3.21}%
+\contentsline {subsubsection}{\numberline {6.41.3.22}keyPressed()}{351}{subsubsection.6.41.3.22}%
+\contentsline {subsubsection}{\numberline {6.41.3.23}keyReleased()}{351}{subsubsection.6.41.3.23}%
+\contentsline {subsubsection}{\numberline {6.41.3.24}loadCustomFont()}{351}{subsubsection.6.41.3.24}%
+\contentsline {subsubsection}{\numberline {6.41.3.25}mouseClicked()}{352}{subsubsection.6.41.3.25}%
+\contentsline {subsubsection}{\numberline {6.41.3.26}mouseDragged()}{352}{subsubsection.6.41.3.26}%
+\contentsline {subsubsection}{\numberline {6.41.3.27}mouseMoved()}{352}{subsubsection.6.41.3.27}%
+\contentsline {subsubsection}{\numberline {6.41.3.28}mousePressed()}{352}{subsubsection.6.41.3.28}%
+\contentsline {subsubsection}{\numberline {6.41.3.29}mouseReleased()}{353}{subsubsection.6.41.3.29}%
+\contentsline {subsubsection}{\numberline {6.41.3.30}resetAll()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{353}{subsubsection.6.41.3.30}%
+\contentsline {subsubsection}{\numberline {6.41.3.31}resetAll()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{353}{subsubsection.6.41.3.31}%
+\contentsline {subsubsection}{\numberline {6.41.3.32}setCurrentCoconuts()}{353}{subsubsection.6.41.3.32}%
+\contentsline {subsubsection}{\numberline {6.41.3.33}setCurrentScore()}{354}{subsubsection.6.41.3.33}%
+\contentsline {subsubsection}{\numberline {6.41.3.34}setGameOver()}{354}{subsubsection.6.41.3.34}%
+\contentsline {subsubsection}{\numberline {6.41.3.35}setLevelFinished()}{354}{subsubsection.6.41.3.35}%
+\contentsline {subsubsection}{\numberline {6.41.3.36}setPlayerName()}{354}{subsubsection.6.41.3.36}%
+\contentsline {subsubsection}{\numberline {6.41.3.37}setPreviousState()}{355}{subsubsection.6.41.3.37}%
+\contentsline {subsubsection}{\numberline {6.41.3.38}setTimer()}{355}{subsubsection.6.41.3.38}%
+\contentsline {subsubsection}{\numberline {6.41.3.39}setUsername()}{355}{subsubsection.6.41.3.39}%
+\contentsline {subsubsection}{\numberline {6.41.3.40}showGameOverOverlay()}{355}{subsubsection.6.41.3.40}%
+\contentsline {subsubsection}{\numberline {6.41.3.41}showLevelFinishedOverlay()}{355}{subsubsection.6.41.3.41}%
+\contentsline {subsubsection}{\numberline {6.41.3.42}update()}{356}{subsubsection.6.41.3.42}%
+\contentsline {subsubsection}{\numberline {6.41.3.43}updateBananas()}{356}{subsubsection.6.41.3.43}%
+\contentsline {subsubsection}{\numberline {6.41.3.44}updateCoconuts()}{356}{subsubsection.6.41.3.44}%
+\contentsline {subsubsection}{\numberline {6.41.3.45}windowFocusLost()}{356}{subsubsection.6.41.3.45}%
+\contentsline {subsection}{\numberline {6.41.4}Member Data Documentation}{356}{subsection.6.41.4}%
+\contentsline {subsubsection}{\numberline {6.41.4.1}airstrikeFont}{356}{subsubsection.6.41.4.1}%
+\contentsline {subsubsection}{\numberline {6.41.4.2}backButtonBounds}{357}{subsubsection.6.41.4.2}%
+\contentsline {subsubsection}{\numberline {6.41.4.3}coconutIcon}{357}{subsubsection.6.41.4.3}%
+\contentsline {subsubsection}{\numberline {6.41.4.4}crystalIcon}{357}{subsubsection.6.41.4.4}%
+\contentsline {subsubsection}{\numberline {6.41.4.5}currentCoconuts}{357}{subsubsection.6.41.4.5}%
+\contentsline {subsubsection}{\numberline {6.41.4.6}currentLevel}{357}{subsubsection.6.41.4.6}%
+\contentsline {subsubsection}{\numberline {6.41.4.7}currentScore}{357}{subsubsection.6.41.4.7}%
+\contentsline {subsubsection}{\numberline {6.41.4.8}elapsedSeconds}{357}{subsubsection.6.41.4.8}%
+\contentsline {subsubsection}{\numberline {6.41.4.9}enemyManager}{358}{subsubsection.6.41.4.9}%
+\contentsline {subsubsection}{\numberline {6.41.4.10}gameOver}{358}{subsubsection.6.41.4.10}%
+\contentsline {subsubsection}{\numberline {6.41.4.11}gameOverOverlay}{358}{subsubsection.6.41.4.11}%
+\contentsline {subsubsection}{\numberline {6.41.4.12}gameUI}{358}{subsubsection.6.41.4.12}%
+\contentsline {subsubsection}{\numberline {6.41.4.13}leftBorder}{358}{subsubsection.6.41.4.13}%
+\contentsline {subsubsection}{\numberline {6.41.4.14}levelFinished}{358}{subsubsection.6.41.4.14}%
+\contentsline {subsubsection}{\numberline {6.41.4.15}levelFinishedOverlay}{358}{subsubsection.6.41.4.15}%
+\contentsline {subsubsection}{\numberline {6.41.4.16}levelManager}{359}{subsubsection.6.41.4.16}%
+\contentsline {subsubsection}{\numberline {6.41.4.17}levelStartTime}{359}{subsubsection.6.41.4.17}%
+\contentsline {subsubsection}{\numberline {6.41.4.18}lvlTilesWide}{359}{subsubsection.6.41.4.18}%
+\contentsline {subsubsection}{\numberline {6.41.4.19}maxLvlOffsetX}{359}{subsubsection.6.41.4.19}%
+\contentsline {subsubsection}{\numberline {6.41.4.20}maxTilesOffset}{359}{subsubsection.6.41.4.20}%
+\contentsline {subsubsection}{\numberline {6.41.4.21}paused}{359}{subsubsection.6.41.4.21}%
+\contentsline {subsubsection}{\numberline {6.41.4.22}player}{359}{subsubsection.6.41.4.22}%
+\contentsline {subsubsection}{\numberline {6.41.4.23}playerName}{360}{subsubsection.6.41.4.23}%
+\contentsline {subsubsection}{\numberline {6.41.4.24}previousState}{360}{subsubsection.6.41.4.24}%
+\contentsline {subsubsection}{\numberline {6.41.4.25}rightBorder}{360}{subsubsection.6.41.4.25}%
+\contentsline {subsubsection}{\numberline {6.41.4.26}timerStarted}{360}{subsubsection.6.41.4.26}%
+\contentsline {subsubsection}{\numberline {6.41.4.27}username}{360}{subsubsection.6.41.4.27}%
+\contentsline {subsubsection}{\numberline {6.41.4.28}xLvlOffset}{360}{subsubsection.6.41.4.28}%
+\contentsline {section}{\numberline {6.42}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enemy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Point Class Reference}{361}{section.6.42}%
+\contentsline {subsection}{\numberline {6.42.1}Detailed Description}{361}{subsection.6.42.1}%
+\contentsline {subsection}{\numberline {6.42.2}Constructor \& Destructor Documentation}{361}{subsection.6.42.2}%
+\contentsline {subsubsection}{\numberline {6.42.2.1}Point()}{361}{subsubsection.6.42.2.1}%
+\contentsline {section}{\numberline {6.43}ui.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Progress\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bar Class Reference}{361}{section.6.43}%
+\contentsline {subsection}{\numberline {6.43.1}Detailed Description}{363}{subsection.6.43.1}%
+\contentsline {subsection}{\numberline {6.43.2}Constructor \& Destructor Documentation}{363}{subsection.6.43.2}%
+\contentsline {subsubsection}{\numberline {6.43.2.1}ProgressBar()}{363}{subsubsection.6.43.2.1}%
+\contentsline {subsection}{\numberline {6.43.3}Member Function Documentation}{363}{subsection.6.43.3}%
+\contentsline {subsubsection}{\numberline {6.43.3.1}draw()}{363}{subsubsection.6.43.3.1}%
+\contentsline {subsubsection}{\numberline {6.43.3.2}getProgress()}{364}{subsubsection.6.43.3.2}%
+\contentsline {subsubsection}{\numberline {6.43.3.3}loadImages()}{364}{subsubsection.6.43.3.3}%
+\contentsline {subsubsection}{\numberline {6.43.3.4}setDimensions()}{364}{subsubsection.6.43.3.4}%
+\contentsline {subsubsection}{\numberline {6.43.3.5}setFillColor()}{364}{subsubsection.6.43.3.5}%
+\contentsline {subsubsection}{\numberline {6.43.3.6}setPosition()}{365}{subsubsection.6.43.3.6}%
+\contentsline {subsubsection}{\numberline {6.43.3.7}setProgress()}{365}{subsubsection.6.43.3.7}%
+\contentsline {subsection}{\numberline {6.43.4}Member Data Documentation}{365}{subsection.6.43.4}%
+\contentsline {subsubsection}{\numberline {6.43.4.1}fillColor}{365}{subsubsection.6.43.4.1}%
+\contentsline {subsubsection}{\numberline {6.43.4.2}grooverImg}{365}{subsubsection.6.43.4.2}%
+\contentsline {subsubsection}{\numberline {6.43.4.3}progress}{366}{subsubsection.6.43.4.3}%
+\contentsline {subsubsection}{\numberline {6.43.4.4}x}{366}{subsubsection.6.43.4.4}%
+\contentsline {section}{\numberline {6.44}entities.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projectile Class Reference}{366}{section.6.44}%
+\contentsline {subsection}{\numberline {6.44.1}Detailed Description}{367}{subsection.6.44.1}%
+\contentsline {subsection}{\numberline {6.44.2}Constructor \& Destructor Documentation}{367}{subsection.6.44.2}%
+\contentsline {subsubsection}{\numberline {6.44.2.1}Projectile()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{368}{subsubsection.6.44.2.1}%
+\contentsline {subsubsection}{\numberline {6.44.2.2}Projectile()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{369}{subsubsection.6.44.2.2}%
+\contentsline {subsection}{\numberline {6.44.3}Member Function Documentation}{369}{subsection.6.44.3}%
+\contentsline {subsubsection}{\numberline {6.44.3.1}draw()}{369}{subsubsection.6.44.3.1}%
+\contentsline {subsubsection}{\numberline {6.44.3.2}getDamage()}{370}{subsubsection.6.44.3.2}%
+\contentsline {subsubsection}{\numberline {6.44.3.3}getHitbox()}{370}{subsubsection.6.44.3.3}%
+\contentsline {subsubsection}{\numberline {6.44.3.4}isActive()}{370}{subsubsection.6.44.3.4}%
+\contentsline {subsubsection}{\numberline {6.44.3.5}setActive()}{370}{subsubsection.6.44.3.5}%
+\contentsline {subsubsection}{\numberline {6.44.3.6}update()}{371}{subsubsection.6.44.3.6}%
+\contentsline {subsection}{\numberline {6.44.4}Member Data Documentation}{371}{subsection.6.44.4}%
+\contentsline {subsubsection}{\numberline {6.44.4.1}active}{371}{subsubsection.6.44.4.1}%
+\contentsline {subsubsection}{\numberline {6.44.4.2}damage}{371}{subsubsection.6.44.4.2}%
+\contentsline {subsubsection}{\numberline {6.44.4.3}direction}{371}{subsubsection.6.44.4.3}%
+\contentsline {subsubsection}{\numberline {6.44.4.4}img}{372}{subsubsection.6.44.4.4}%
+\contentsline {subsubsection}{\numberline {6.44.4.5}speed}{372}{subsubsection.6.44.4.5}%
+\contentsline {section}{\numberline {6.45}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}State Class Reference}{372}{section.6.45}%
+\contentsline {subsection}{\numberline {6.45.1}Detailed Description}{374}{subsection.6.45.1}%
+\contentsline {subsection}{\numberline {6.45.2}Constructor \& Destructor Documentation}{374}{subsection.6.45.2}%
+\contentsline {subsubsection}{\numberline {6.45.2.1}State()}{374}{subsubsection.6.45.2.1}%
+\contentsline {subsection}{\numberline {6.45.3}Member Function Documentation}{374}{subsection.6.45.3}%
+\contentsline {subsubsection}{\numberline {6.45.3.1}drawBackButton()}{374}{subsubsection.6.45.3.1}%
+\contentsline {subsubsection}{\numberline {6.45.3.2}getGame()}{375}{subsubsection.6.45.3.2}%
+\contentsline {subsubsection}{\numberline {6.45.3.3}isBackButtonPressed()}{375}{subsubsection.6.45.3.3}%
+\contentsline {subsubsection}{\numberline {6.45.3.4}isIn()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{375}{subsubsection.6.45.3.4}%
+\contentsline {subsubsection}{\numberline {6.45.3.5}isIn()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{376}{subsubsection.6.45.3.5}%
+\contentsline {subsection}{\numberline {6.45.4}Member Data Documentation}{376}{subsection.6.45.4}%
+\contentsline {subsubsection}{\numberline {6.45.4.1}backButtonBounds}{376}{subsubsection.6.45.4.1}%
+\contentsline {subsubsection}{\numberline {6.45.4.2}game}{377}{subsubsection.6.45.4.2}%
+\contentsline {subsubsection}{\numberline {6.45.4.3}showDebugHitbox}{377}{subsubsection.6.45.4.3}%
+\contentsline {section}{\numberline {6.46}gamestates.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statemethods Interface Reference}{377}{section.6.46}%
+\contentsline {subsection}{\numberline {6.46.1}Detailed Description}{378}{subsection.6.46.1}%
+\contentsline {subsection}{\numberline {6.46.2}Member Function Documentation}{378}{subsection.6.46.2}%
+\contentsline {subsubsection}{\numberline {6.46.2.1}draw()}{378}{subsubsection.6.46.2.1}%
+\contentsline {subsubsection}{\numberline {6.46.2.2}keyPressed()}{379}{subsubsection.6.46.2.2}%
+\contentsline {subsubsection}{\numberline {6.46.2.3}keyReleased()}{379}{subsubsection.6.46.2.3}%
+\contentsline {subsubsection}{\numberline {6.46.2.4}mouseClicked()}{379}{subsubsection.6.46.2.4}%
+\contentsline {subsubsection}{\numberline {6.46.2.5}mouseDragged()}{380}{subsubsection.6.46.2.5}%
+\contentsline {subsubsection}{\numberline {6.46.2.6}mouseMoved()}{380}{subsubsection.6.46.2.6}%
+\contentsline {subsubsection}{\numberline {6.46.2.7}mousePressed()}{380}{subsubsection.6.46.2.7}%
+\contentsline {subsubsection}{\numberline {6.46.2.8}mouseReleased()}{381}{subsubsection.6.46.2.8}%
+\contentsline {subsubsection}{\numberline {6.46.2.9}update()}{381}{subsubsection.6.46.2.9}%
+\contentsline {chapter}{\numberline {7}File Documentation}{383}{chapter.7}%
+\contentsline {section}{\numberline {7.1}src/database/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Insert\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Get.java File Reference}{383}{section.7.1}%
+\contentsline {section}{\numberline {7.2}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banana.java File Reference}{383}{section.7.2}%
+\contentsline {section}{\numberline {7.3}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Coconut.java File Reference}{383}{section.7.3}%
+\contentsline {section}{\numberline {7.4}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enemy.java File Reference}{384}{section.7.4}%
+\contentsline {section}{\numberline {7.5}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enemy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.java File Reference}{384}{section.7.5}%
+\contentsline {section}{\numberline {7.6}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Entity.java File Reference}{384}{section.7.6}%
+\contentsline {section}{\numberline {7.7}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gem.java File Reference}{385}{section.7.7}%
+\contentsline {section}{\numberline {7.8}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Goblin.java File Reference}{385}{section.7.8}%
+\contentsline {section}{\numberline {7.9}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Goblin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boss.java File Reference}{385}{section.7.9}%
+\contentsline {section}{\numberline {7.10}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Golem\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boss.java File Reference}{385}{section.7.10}%
+\contentsline {section}{\numberline {7.11}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Karagor.java File Reference}{386}{section.7.11}%
+\contentsline {section}{\numberline {7.12}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Nanite.java File Reference}{386}{section.7.12}%
+\contentsline {section}{\numberline {7.13}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Player.java File Reference}{386}{section.7.13}%
+\contentsline {section}{\numberline {7.14}src/entities/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projectile.java File Reference}{386}{section.7.14}%
+\contentsline {section}{\numberline {7.15}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enter\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Name\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Overlay.java File Reference}{387}{section.7.15}%
+\contentsline {section}{\numberline {7.16}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Over\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Overlay.java File Reference}{387}{section.7.16}%
+\contentsline {section}{\numberline {7.17}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gamestate.java File Reference}{387}{section.7.17}%
+\contentsline {section}{\numberline {7.18}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Leaderboard.java File Reference}{387}{section.7.18}%
+\contentsline {section}{\numberline {7.19}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Finished\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Overlay.java File Reference}{388}{section.7.19}%
+\contentsline {section}{\numberline {7.20}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loadgame.java File Reference}{388}{section.7.20}%
+\contentsline {section}{\numberline {7.21}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.java File Reference}{388}{section.7.21}%
+\contentsline {section}{\numberline {7.22}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Options.java File Reference}{388}{section.7.22}%
+\contentsline {section}{\numberline {7.23}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Playing.java File Reference}{389}{section.7.23}%
+\contentsline {section}{\numberline {7.24}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}State.java File Reference}{389}{section.7.24}%
+\contentsline {section}{\numberline {7.25}src/gamestates/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statemethods.java File Reference}{389}{section.7.25}%
+\contentsline {section}{\numberline {7.26}src/inputs/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inputs.java File Reference}{389}{section.7.26}%
+\contentsline {section}{\numberline {7.27}src/inputs/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mouse\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inputs.java File Reference}{390}{section.7.27}%
+\contentsline {section}{\numberline {7.28}src/levels/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level.java File Reference}{390}{section.7.28}%
+\contentsline {section}{\numberline {7.29}src/levels/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory.java File Reference}{390}{section.7.29}%
+\contentsline {section}{\numberline {7.30}src/levels/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.java File Reference}{390}{section.7.30}%
+\contentsline {section}{\numberline {7.31}src/main/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game.java File Reference}{391}{section.7.31}%
+\contentsline {section}{\numberline {7.32}src/main/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel.java File Reference}{391}{section.7.32}%
+\contentsline {section}{\numberline {7.33}src/main/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window.java File Reference}{391}{section.7.33}%
+\contentsline {section}{\numberline {7.34}src/main/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main.java File Reference}{391}{section.7.34}%
+\contentsline {section}{\numberline {7.35}src/ui/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.java File Reference}{392}{section.7.35}%
+\contentsline {section}{\numberline {7.36}src/ui/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.java File Reference}{392}{section.7.36}%
+\contentsline {section}{\numberline {7.37}src/ui/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Progress\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bar.java File Reference}{392}{section.7.37}%
+\contentsline {section}{\numberline {7.38}src/utilz/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants.java File Reference}{393}{section.7.38}%
+\contentsline {section}{\numberline {7.39}src/utilz/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enemy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Animation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rows.java File Reference}{393}{section.7.39}%
+\contentsline {section}{\numberline {7.40}src/utilz/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gorilla\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Animation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}rows.java File Reference}{393}{section.7.40}%
+\contentsline {section}{\numberline {7.41}src/utilz/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Help\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Methods.java File Reference}{394}{section.7.41}%
+\contentsline {section}{\numberline {7.42}src/utilz/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Level\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Progress.java File Reference}{394}{section.7.42}%
+\contentsline {section}{\numberline {7.43}src/utilz/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Load\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Save.java File Reference}{394}{section.7.43}%
+\contentsline {chapter}{Index}{395}{section*.316}%

@@ -1,0 +1,863 @@
+\hypertarget{classentities_1_1Nanite}{}\doxysection{entities.\+Nanite Class Reference}
+\label{classentities_1_1Nanite}\index{entities.Nanite@{entities.Nanite}}
+
+
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} în joc.  
+
+
+
+
+Inheritance diagram for entities.\+Nanite\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{classentities_1_1Nanite__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Nanite\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classentities_1_1Nanite__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Nanite_a77b9044f4bf0eaa03ce8426fd89e654a}{Nanite}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}}, int \mbox{\hyperlink{classentities_1_1Enemy_a7799664baf333d3413beeeed639e2cd5}{enemy\+Type}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_aed6d46469799927961f623a95e4ff8b8}{update}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Actualizează starea Nanite-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_a965e82c8821a84bdaa7b20cc82c94ebe}{take\+Damage}} (int \mbox{\hyperlink{classentities_1_1Nanite_a5477784ad858df1b0d05a4427fcde0a6}{damage}})
+\begin{DoxyCompactList}\small\item\em Aplică daune Nanite-\/ului atunci când este atacat. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_a2521d3814ca7b754f15e30d001718859}{check\+Player\+Hit}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Verifică dacă jucătorul atinge Nanite-\/ul și aplică daune dacă este cazul și nu este în cooldown. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_a4d356fc5f6c577e5f176f29ccf27a44d}{can\+Attack\+Player}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Verifică dacă Nanite-\/ul poate ataca jucătorul (dacă jucătorul este în raza de atac și Nanite-\/ul nu este în cooldown). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_a0b053708407ec512c37e3793a6104ea4}{player\+Detected}} (float playerX, float playerY)
+\begin{DoxyCompactList}\small\item\em Detectează jucătorul dacă se află în raza de vizualizare și ajustează direcția Nanite-\/ului pentru a se îndrepta către jucător. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_ae9a224d28641fb11cfacf752fccbfe28}{set\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Nanite_a12ab3d3618a5957f17fb0b7a4784f2ed}{level\+Data}})
+\begin{DoxyCompactList}\small\item\em Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}, folosite pentru coliziuni și navigație. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_ac72563055d848d1faf005c16659fd032}{is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă Nanite-\/ul este activ în joc. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a46b76e6aa8f4d7cc8d7fdd3d845023fb}{get\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea curentă a Nanite-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a8d74e6bb342915037293a44baa3a487f}{get\+Max\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea maximă a Nanite-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_afaa68c9fcfc3dfe55fa692d0306333ef}{get\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Returnează daunele de atac ale Nanite-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_afef8af3dc49f11a6681853c2727abd28}{get\+Direction}} ()
+\begin{DoxyCompactList}\small\item\em Returnează direcția curentă a Nanite-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_ad6c64574a43436e217279447ad517fa0}{make\+Boss}} ()
+\begin{DoxyCompactList}\small\item\em Transformă acest \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} într-\/un boss (\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}). \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Nanite_acc078740a63d8dc7a44b39f8209ffe9f}{get\+Attack\+Box}} ()
+\begin{DoxyCompactList}\small\item\em Returnează hitbox-\/ul de atac al Nanite-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_a0e10c43e200c15408d5414a6a753ec29}{NANITE\+\_\+\+JUNGLA}} = 0
+\begin{DoxyCompactList}\small\item\em Tipul de \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} \char`\"{}\+Jungla\char`\"{} (implicit). \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_acc109f70dd4ba82825347ea66458718f}{NANITE\+\_\+\+PESTERA}} = 1
+\begin{DoxyCompactList}\small\item\em Tipul de \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} \char`\"{}\+Pestera\char`\"{} (variantă de peșteră). \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_acba639f1228c59749899fc519713923f}{IDLE}} = 3
+\begin{DoxyCompactList}\small\item\em Starea IDLE a Nanite-\/ului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_ab1cbbae606ca7a2d78c7976e6909f52d}{RUNNING}} = 10
+\begin{DoxyCompactList}\small\item\em Starea RUNNING (alergare) a Nanite-\/ului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_a79de3f46b270fc5f93f7eb871ab83d0f}{ATTACK}} = 12
+\begin{DoxyCompactList}\small\item\em Starea ATTACK (atac) a Nanite-\/ului (corespunde animației SLASHING). \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_a68d572b29683dd4dd67e0f1018ee9264}{HURT}} = 2
+\begin{DoxyCompactList}\small\item\em Starea HURT (lovit) a Nanite-\/ului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_af7846b5987cb8641bcb56946a386179a}{DYING}} = 0
+\begin{DoxyCompactList}\small\item\em Starea DYING (moarte) a Nanite-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_afe52beb7b8e47588cb6e4319637584e9}{update\+Attack\+Box}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția și dimensiunea hitbox-\/ului de atac în funcție de direcția Nanite-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_a0b9a4e70ca18394c8340763ab0549d89}{update\+Cooldowns}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează cronometrele de cooldown pentru atac și atingerea jucătorului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_a1676a97c52e50b6056c247dc47415678}{init\+Patrol\+Boundaries}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează limitele de patrulare pentru \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} pe baza poziției sale curente. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_a153895aa310c9949ed6e6b893a3ff094}{can\+See\+Player}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Verifică dacă Nanite-\/ul poate vedea jucătorul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_a267cf6bea6bbdf26649a35b7d605c5b4}{update\+Behavior}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Actualizează comportamentul Nanite-\/ului pe baza stării curente și a interacțiunii cu jucătorul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_a11072abe0d655a6e50b6218ed1184b49}{update\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția Nanite-\/ului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_a153cd53ac1993ebc7b290ee575ede68d}{will\+Land\+On\+Ground}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}})
+\begin{DoxyCompactList}\small\item\em Verifică dacă Nanite-\/ul va ateriza pe o suprafață solidă la poziția specificată. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_a76a059c5426d5288f077cc7d9a6022e1}{check\+Attack\+Hit}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă atacul Nanite-\/ului a lovit jucătorul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Nanite_aaa7eea56533ec35277f667e7efede649}{set\+State}} (int state)
+\begin{DoxyCompactList}\small\item\em Setează starea curentă a Nanite-\/ului și resetează cronometrul pentru starea respectivă. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_adffcf6d958066307982e29f52f14b6da}{health}}
+\begin{DoxyCompactList}\small\item\em Sănătatea curentă a Nanite-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_aeac3c939e2309f9fddbe4135a46f8c0c}{max\+Health}}
+\begin{DoxyCompactList}\small\item\em Sănătatea maximă a Nanite-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a5477784ad858df1b0d05a4427fcde0a6}{damage}}
+\begin{DoxyCompactList}\small\item\em Daunele provocate de atacul Nanite-\/ului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_af6a63e41c83b67b7c0e3a8e0c247c5a3}{is\+Active}} = true
+\begin{DoxyCompactList}\small\item\em Indicator dacă Nanite-\/ul este activ în joc. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a73c664e4a5e019710afab936f5684a6e}{attack\+Range}} = 30
+\begin{DoxyCompactList}\small\item\em Distanța de atac a Nanite-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a5c76f111a78ecb9cc2feb1c2f115b11e}{ticks\+In\+State}} = 0
+\begin{DoxyCompactList}\small\item\em Numărul de tick-\/uri petrecute în starea curentă. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a7d9208bc0dd57e6561836574ee2e3232}{attack\+Cooldown}} = 0
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul dintre atacuri. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_a9934670cb99a28c4d61c57b900304650}{attack\+Checked}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă lovitura de atac a fost verificată în animația curentă. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_a4efba32f177d533cbaa56530ddce0d0b}{player\+Detected}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă jucătorul a fost detectat de \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_a24f6f97158b49d8ec1a4080606cdf1b2}{left\+Patrol\+Limit}}
+\begin{DoxyCompactList}\small\item\em Limita stângă a zonei de patrulare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_a11bee4efc541cdf1f13db73791d8e535}{right\+Patrol\+Limit}}
+\begin{DoxyCompactList}\small\item\em Limita dreaptă a zonei de patrulare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_ac6598182150d70b14d7c5418caa33ec7}{patrol\+Boundaries\+Set}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă limitele de patrulare au fost setate. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_af412337b3770b28e4cd067b758b3cffa}{is\+Moving}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă Nanite-\/ul se mișcă. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_af5c6579ea4974ce0902c01ec0a87297e}{direction}} = 1
+\begin{DoxyCompactList}\small\item\em Direcția de mișcare a Nanite-\/ului (1 = dreapta, -\/1 = stânga). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_a16610245307a22d63e9d7beab0e5d27a}{move\+Speed}} = 0.\+5f
+\begin{DoxyCompactList}\small\item\em Viteza de mișcare curentă a Nanite-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_ae2a8f981ab489ca3fb9f1ac0f5251b68}{patrol\+Move\+Speed}}
+\begin{DoxyCompactList}\small\item\em Viteza de mișcare în timpul patrulării. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_aa1488dba0bb05c8cf56f44d0e741c261}{chase\+Move\+Speed}}
+\begin{DoxyCompactList}\small\item\em Viteza de mișcare în timpul urmăririi jucătorului. \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Nanite_a12ab3d3618a5957f17fb0b7a4784f2ed}{level\+Data}}
+\begin{DoxyCompactList}\small\item\em Datele nivelului curent, folosite pentru coliziuni și navigație. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Nanite_a4edd3542c90f24f40401121a6e328cb9}{in\+Air}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă Nanite-\/ul se află în aer. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_a4b49f09895a847952acda08d3548b2ed}{air\+Speed}} = 0f
+\begin{DoxyCompactList}\small\item\em Viteza verticală a Nanite-\/ului în aer. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_a091ca4f63e2b5b6c3a34f1d4768d99d6}{gravity}} = 0.\+04f
+\begin{DoxyCompactList}\small\item\em Valoarea gravitației aplicate Nanite-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_a8321882d371454b216e55ff06150c99d}{jump\+Speed}} = -\/3.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de săritură a Nanite-\/ului. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Nanite_a80087c78402c6c1083c1d4e9f0f83592}{attack\+Box}}
+\begin{DoxyCompactList}\small\item\em Hitbox-\/ul pentru atacul Nanite-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a7b9879cd4af18af31895b34d0339beca}{player\+Touch\+Cooldown}} = 0
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul pentru daunele provocate prin atingerea jucătorului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_aa5d73b0f0e305809dab6ba745fa53403}{touch\+Damage\+Cooldown}} = 60
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul dintre daunele provocate prin atingere (în frame-\/uri). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Nanite_a5c66852bb7a7b3786e412ae6a2a8b3ab}{patrol\+Distance}} = 100.\+0f
+\begin{DoxyCompactList}\small\item\em Distanța pe care Nanite-\/ul o patrulează în fiecare direcție de la punctul de start. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Nanite_a4c02f07c81502abce17a24fdbfe74d11}{detection\+Range}} = 300
+\begin{DoxyCompactList}\small\item\em Distanța la care Nanite-\/ul poate detecta jucătorul. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classentities_1_1Nanite_a0a36d31d2e202ac3e68abf7080cbdb45}{ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX}} = 120
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul maxim dintre atacuri (aproximativ 2 secunde la 60 FPS). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} în joc. 
+
+Această clasă extinde clasa \mbox{\hyperlink{classentities_1_1Enemy}{Enemy}} și definește comportamentul specific și atributele pentru Nanites, inamici mici și agili. Include tipuri de \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} (Jungla, Pestera), stări, logică de patrulare, atac și interacțiune cu jucătorul. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Nanite_a77b9044f4bf0eaa03ce8426fd89e654a}\label{classentities_1_1Nanite_a77b9044f4bf0eaa03ce8426fd89e654a}} 
+\index{entities.Nanite@{entities.Nanite}!Nanite@{Nanite}}
+\index{Nanite@{Nanite}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{Nanite()}{Nanite()}}
+{\footnotesize\ttfamily entities.\+Nanite.\+Nanite (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int}]{enemy\+Type }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}. 
+
+Inițializează Nanite-\/ul cu o poziție, dimensiuni și tip specific (Jungla sau Pestera). Setează atributele în funcție de tip, inițializează parametrii de patrulare, starea inițială și hitbox-\/ul. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția inițială pe axa X. \\
+\hline
+{\em y} & Poziția inițială pe axa Y. \\
+\hline
+{\em width} & Lățimea entității (de obicei dimensiunea sprite-\/ului). \\
+\hline
+{\em height} & Înălțimea entității (de obicei dimensiunea sprite-\/ului). \\
+\hline
+{\em enemy\+Type} & Tipul Nanite-\/ului (NANITE\+\_\+\+JUNGLA sau NANITE\+\_\+\+PESTERA). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Nanite_a4d356fc5f6c577e5f176f29ccf27a44d}\label{classentities_1_1Nanite_a4d356fc5f6c577e5f176f29ccf27a44d}} 
+\index{entities.Nanite@{entities.Nanite}!canAttackPlayer@{canAttackPlayer}}
+\index{canAttackPlayer@{canAttackPlayer}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{canAttackPlayer()}{canAttackPlayer()}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+can\+Attack\+Player (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă Nanite-\/ul poate ataca jucătorul (dacă jucătorul este în raza de atac și Nanite-\/ul nu este în cooldown). 
+
+Dacă da, inițiază starea de atac. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă Nanite-\/ul poate ataca și a inițiat atacul, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_a153895aa310c9949ed6e6b893a3ff094}\label{classentities_1_1Nanite_a153895aa310c9949ed6e6b893a3ff094}} 
+\index{entities.Nanite@{entities.Nanite}!canSeePlayer@{canSeePlayer}}
+\index{canSeePlayer@{canSeePlayer}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{canSeePlayer()}{canSeePlayer()}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+can\+See\+Player (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă Nanite-\/ul poate vedea jucătorul. 
+
+Condițiile includ distanța orizontală, alinierea verticală (aproximativ același nivel) și direcția în care privește Nanite-\/ul. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă jucătorul este vizibil, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_a76a059c5426d5288f077cc7d9a6022e1}\label{classentities_1_1Nanite_a76a059c5426d5288f077cc7d9a6022e1}} 
+\index{entities.Nanite@{entities.Nanite}!checkAttackHit@{checkAttackHit}}
+\index{checkAttackHit@{checkAttackHit}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{checkAttackHit()}{checkAttackHit()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+check\+Attack\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă atacul Nanite-\/ului a lovit jucătorul. 
+
+Într-\/un joc real, aici s-\/ar verifica coliziunea cu hitbox-\/ul jucătorului și s-\/ar aplica daune dacă există o coliziune. (Momentan, este un placeholder). \mbox{\Hypertarget{classentities_1_1Nanite_a2521d3814ca7b754f15e30d001718859}\label{classentities_1_1Nanite_a2521d3814ca7b754f15e30d001718859}} 
+\index{entities.Nanite@{entities.Nanite}!checkPlayerHit@{checkPlayerHit}}
+\index{checkPlayerHit@{checkPlayerHit}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{checkPlayerHit()}{checkPlayerHit()}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+check\+Player\+Hit (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă jucătorul atinge Nanite-\/ul și aplică daune dacă este cazul și nu este în cooldown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă jucătorul a lovit Nanite-\/ul și daunele au fost aplicate (sau ar trebui aplicate), false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_acc078740a63d8dc7a44b39f8209ffe9f}\label{classentities_1_1Nanite_acc078740a63d8dc7a44b39f8209ffe9f}} 
+\index{entities.Nanite@{entities.Nanite}!getAttackBox@{getAttackBox}}
+\index{getAttackBox@{getAttackBox}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{getAttackBox()}{getAttackBox()}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Nanite.\+get\+Attack\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează hitbox-\/ul de atac al Nanite-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Dreptunghiul reprezentând hitbox-\/ul de atac. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_afaa68c9fcfc3dfe55fa692d0306333ef}\label{classentities_1_1Nanite_afaa68c9fcfc3dfe55fa692d0306333ef}} 
+\index{entities.Nanite@{entities.Nanite}!getDamage@{getDamage}}
+\index{getDamage@{getDamage}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{getDamage()}{getDamage()}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+get\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează daunele de atac ale Nanite-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Daunele de atac. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_afef8af3dc49f11a6681853c2727abd28}\label{classentities_1_1Nanite_afef8af3dc49f11a6681853c2727abd28}} 
+\index{entities.Nanite@{entities.Nanite}!getDirection@{getDirection}}
+\index{getDirection@{getDirection}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{getDirection()}{getDirection()}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează direcția curentă a Nanite-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Direcția (1 pentru dreapta, -\/1 pentru stânga). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_a46b76e6aa8f4d7cc8d7fdd3d845023fb}\label{classentities_1_1Nanite_a46b76e6aa8f4d7cc8d7fdd3d845023fb}} 
+\index{entities.Nanite@{entities.Nanite}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+get\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea curentă a Nanite-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea curentă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_a8d74e6bb342915037293a44baa3a487f}\label{classentities_1_1Nanite_a8d74e6bb342915037293a44baa3a487f}} 
+\index{entities.Nanite@{entities.Nanite}!getMaxHealth@{getMaxHealth}}
+\index{getMaxHealth@{getMaxHealth}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{getMaxHealth()}{getMaxHealth()}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+get\+Max\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea maximă a Nanite-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea maximă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Nanite_a1676a97c52e50b6056c247dc47415678}\label{classentities_1_1Nanite_a1676a97c52e50b6056c247dc47415678}} 
+\index{entities.Nanite@{entities.Nanite}!initPatrolBoundaries@{initPatrolBoundaries}}
+\index{initPatrolBoundaries@{initPatrolBoundaries}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{initPatrolBoundaries()}{initPatrolBoundaries()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+init\+Patrol\+Boundaries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează limitele de patrulare pentru \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} pe baza poziției sale curente. 
+
+Această metodă ar trebui apelată după ce Nanite-\/ul s-\/a așezat pe o platformă. Caută marginile platformei pentru a stabili limitele, asigurând o zonă minimă de patrulare. \mbox{\Hypertarget{classentities_1_1Nanite_ac72563055d848d1faf005c16659fd032}\label{classentities_1_1Nanite_ac72563055d848d1faf005c16659fd032}} 
+\index{entities.Nanite@{entities.Nanite}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă Nanite-\/ul este activ în joc. 
+
+\begin{DoxyReturn}{Returns}
+true dacă Nanite-\/ul este activ, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Enemy_a2e0dd7a9809637e903c91a9993a1729d}{entities.\+Enemy}}.
+
+\mbox{\Hypertarget{classentities_1_1Nanite_ad6c64574a43436e217279447ad517fa0}\label{classentities_1_1Nanite_ad6c64574a43436e217279447ad517fa0}} 
+\index{entities.Nanite@{entities.Nanite}!makeBoss@{makeBoss}}
+\index{makeBoss@{makeBoss}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{makeBoss()}{makeBoss()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+make\+Boss (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Transformă acest \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} într-\/un boss (\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}). 
+
+Această metodă pare a fi un placeholder sau o funcționalitate specifică jocului unde un \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} se poate transforma. Mărește atributele și dimensiunea. \mbox{\Hypertarget{classentities_1_1Nanite_a0b053708407ec512c37e3793a6104ea4}\label{classentities_1_1Nanite_a0b053708407ec512c37e3793a6104ea4}} 
+\index{entities.Nanite@{entities.Nanite}!playerDetected@{playerDetected}}
+\index{playerDetected@{playerDetected}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{playerDetected()}{playerDetected()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+player\+Detected (\begin{DoxyParamCaption}\item[{float}]{playerX,  }\item[{float}]{playerY }\end{DoxyParamCaption})}
+
+
+
+Detectează jucătorul dacă se află în raza de vizualizare și ajustează direcția Nanite-\/ului pentru a se îndrepta către jucător. 
+
+Trece în modul de urmărire (chase) dacă jucătorul este detectat și Nanite-\/ul era în IDLE. Revine la modul de patrulare dacă jucătorul iese din raza de detecție extinsă. 
+\begin{DoxyParams}{Parameters}
+{\em playerX} & Coordonata X a jucătorului. \\
+\hline
+{\em playerY} & Coordonata Y a jucătorului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Nanite_ae9a224d28641fb11cfacf752fccbfe28}\label{classentities_1_1Nanite_ae9a224d28641fb11cfacf752fccbfe28}} 
+\index{entities.Nanite@{entities.Nanite}!setLevelData@{setLevelData}}
+\index{setLevelData@{setLevelData}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{setLevelData()}{setLevelData()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+set\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}, folosite pentru coliziuni și navigație. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & O matrice bidimensională reprezentând tile-\/urile nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Nanite_aaa7eea56533ec35277f667e7efede649}\label{classentities_1_1Nanite_aaa7eea56533ec35277f667e7efede649}} 
+\index{entities.Nanite@{entities.Nanite}!setState@{setState}}
+\index{setState@{setState}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{setState()}{setState()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+set\+State (\begin{DoxyParamCaption}\item[{int}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Setează starea curentă a Nanite-\/ului și resetează cronometrul pentru starea respectivă. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Noua stare a Nanite-\/ului (folosind constantele definite în clasă, ex\+: IDLE, RUNNING). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Nanite_a965e82c8821a84bdaa7b20cc82c94ebe}\label{classentities_1_1Nanite_a965e82c8821a84bdaa7b20cc82c94ebe}} 
+\index{entities.Nanite@{entities.Nanite}!takeDamage@{takeDamage}}
+\index{takeDamage@{takeDamage}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{takeDamage()}{takeDamage()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+take\+Damage (\begin{DoxyParamCaption}\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+Aplică daune Nanite-\/ului atunci când este atacat. 
+
+Reduce sănătatea și gestionează tranziția la starea HURT sau DYING. 
+\begin{DoxyParams}{Parameters}
+{\em damage} & Cantitatea de daune primite. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Nanite_aed6d46469799927961f623a95e4ff8b8}\label{classentities_1_1Nanite_aed6d46469799927961f623a95e4ff8b8}} 
+\index{entities.Nanite@{entities.Nanite}!update@{update}}
+\index{update@{update}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+update (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea Nanite-\/ului. 
+
+Aceasta include actualizarea hitbox-\/ului de atac, cooldown-\/urilor, comportamentului și poziției. De asemenea, inițializează limitele de patrulare dacă este necesar. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru interacțiuni. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Enemy_a0f78251e47b88172248672da898b8dfc}{entities.\+Enemy}}.
+
+\mbox{\Hypertarget{classentities_1_1Nanite_afe52beb7b8e47588cb6e4319637584e9}\label{classentities_1_1Nanite_afe52beb7b8e47588cb6e4319637584e9}} 
+\index{entities.Nanite@{entities.Nanite}!updateAttackBox@{updateAttackBox}}
+\index{updateAttackBox@{updateAttackBox}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{updateAttackBox()}{updateAttackBox()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+update\+Attack\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția și dimensiunea hitbox-\/ului de atac în funcție de direcția Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a267cf6bea6bbdf26649a35b7d605c5b4}\label{classentities_1_1Nanite_a267cf6bea6bbdf26649a35b7d605c5b4}} 
+\index{entities.Nanite@{entities.Nanite}!updateBehavior@{updateBehavior}}
+\index{updateBehavior@{updateBehavior}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{updateBehavior()}{updateBehavior()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+update\+Behavior (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează comportamentul Nanite-\/ului pe baza stării curente și a interacțiunii cu jucătorul. 
+
+Gestionează tranzițiile între stări (IDLE, RUNNING, ATTACK, HURT, DYING) și logica specifică fiecărei stări, inclusiv patrularea și atacul. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru a lua decizii. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Nanite_a0b9a4e70ca18394c8340763ab0549d89}\label{classentities_1_1Nanite_a0b9a4e70ca18394c8340763ab0549d89}} 
+\index{entities.Nanite@{entities.Nanite}!updateCooldowns@{updateCooldowns}}
+\index{updateCooldowns@{updateCooldowns}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{updateCooldowns()}{updateCooldowns()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+update\+Cooldowns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează cronometrele de cooldown pentru atac și atingerea jucătorului. 
+
+Incrementează și contorul de tick-\/uri în starea curentă. \mbox{\Hypertarget{classentities_1_1Nanite_a11072abe0d655a6e50b6218ed1184b49}\label{classentities_1_1Nanite_a11072abe0d655a6e50b6218ed1184b49}} 
+\index{entities.Nanite@{entities.Nanite}!updatePosition@{updatePosition}}
+\index{updatePosition@{updatePosition}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{updatePosition()}{updatePosition()}}
+{\footnotesize\ttfamily void entities.\+Nanite.\+update\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția Nanite-\/ului. 
+
+Aplică gravitația, gestionează mișcarea verticală și orizontală, verifică coliziunile cu pereții și podeaua, și previne căderea de pe platforme. \mbox{\Hypertarget{classentities_1_1Nanite_a153cd53ac1993ebc7b290ee575ede68d}\label{classentities_1_1Nanite_a153cd53ac1993ebc7b290ee575ede68d}} 
+\index{entities.Nanite@{entities.Nanite}!willLandOnGround@{willLandOnGround}}
+\index{willLandOnGround@{willLandOnGround}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{willLandOnGround()}{willLandOnGround()}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+will\+Land\+On\+Ground (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă Nanite-\/ul va ateriza pe o suprafață solidă la poziția specificată. 
+
+Creează un hitbox de test la poziția viitoare și verifică dacă este pe podea. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordonata X a poziției viitoare. \\
+\hline
+{\em y} & Coordonata Y a poziției viitoare. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă Nanite-\/ul va ateriza pe sol, false altfel. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Nanite_a4b49f09895a847952acda08d3548b2ed}\label{classentities_1_1Nanite_a4b49f09895a847952acda08d3548b2ed}} 
+\index{entities.Nanite@{entities.Nanite}!airSpeed@{airSpeed}}
+\index{airSpeed@{airSpeed}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{airSpeed}{airSpeed}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+air\+Speed = 0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza verticală a Nanite-\/ului în aer. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a79de3f46b270fc5f93f7eb871ab83d0f}\label{classentities_1_1Nanite_a79de3f46b270fc5f93f7eb871ab83d0f}} 
+\index{entities.Nanite@{entities.Nanite}!ATTACK@{ATTACK}}
+\index{ATTACK@{ATTACK}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{ATTACK}{ATTACK}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+ATTACK = 12\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea ATTACK (atac) a Nanite-\/ului (corespunde animației SLASHING). 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a0a36d31d2e202ac3e68abf7080cbdb45}\label{classentities_1_1Nanite_a0a36d31d2e202ac3e68abf7080cbdb45}} 
+\index{entities.Nanite@{entities.Nanite}!ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}}
+\index{ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{ATTACK\_COOLDOWN\_MAX}{ATTACK\_COOLDOWN\_MAX}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX = 120\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Cooldown-\/ul maxim dintre atacuri (aproximativ 2 secunde la 60 FPS). 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a80087c78402c6c1083c1d4e9f0f83592}\label{classentities_1_1Nanite_a80087c78402c6c1083c1d4e9f0f83592}} 
+\index{entities.Nanite@{entities.Nanite}!attackBox@{attackBox}}
+\index{attackBox@{attackBox}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{attackBox}{attackBox}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Nanite.\+attack\+Box\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hitbox-\/ul pentru atacul Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a9934670cb99a28c4d61c57b900304650}\label{classentities_1_1Nanite_a9934670cb99a28c4d61c57b900304650}} 
+\index{entities.Nanite@{entities.Nanite}!attackChecked@{attackChecked}}
+\index{attackChecked@{attackChecked}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{attackChecked}{attackChecked}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+attack\+Checked = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă lovitura de atac a fost verificată în animația curentă. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a7d9208bc0dd57e6561836574ee2e3232}\label{classentities_1_1Nanite_a7d9208bc0dd57e6561836574ee2e3232}} 
+\index{entities.Nanite@{entities.Nanite}!attackCooldown@{attackCooldown}}
+\index{attackCooldown@{attackCooldown}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{attackCooldown}{attackCooldown}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+attack\+Cooldown = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul dintre atacuri. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a73c664e4a5e019710afab936f5684a6e}\label{classentities_1_1Nanite_a73c664e4a5e019710afab936f5684a6e}} 
+\index{entities.Nanite@{entities.Nanite}!attackRange@{attackRange}}
+\index{attackRange@{attackRange}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{attackRange}{attackRange}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+attack\+Range = 30\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța de atac a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_aa1488dba0bb05c8cf56f44d0e741c261}\label{classentities_1_1Nanite_aa1488dba0bb05c8cf56f44d0e741c261}} 
+\index{entities.Nanite@{entities.Nanite}!chaseMoveSpeed@{chaseMoveSpeed}}
+\index{chaseMoveSpeed@{chaseMoveSpeed}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{chaseMoveSpeed}{chaseMoveSpeed}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+chase\+Move\+Speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mișcare în timpul urmăririi jucătorului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a5477784ad858df1b0d05a4427fcde0a6}\label{classentities_1_1Nanite_a5477784ad858df1b0d05a4427fcde0a6}} 
+\index{entities.Nanite@{entities.Nanite}!damage@{damage}}
+\index{damage@{damage}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{damage}{damage}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+damage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Daunele provocate de atacul Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a4c02f07c81502abce17a24fdbfe74d11}\label{classentities_1_1Nanite_a4c02f07c81502abce17a24fdbfe74d11}} 
+\index{entities.Nanite@{entities.Nanite}!detectionRange@{detectionRange}}
+\index{detectionRange@{detectionRange}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{detectionRange}{detectionRange}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+detection\+Range = 300\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța la care Nanite-\/ul poate detecta jucătorul. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_af5c6579ea4974ce0902c01ec0a87297e}\label{classentities_1_1Nanite_af5c6579ea4974ce0902c01ec0a87297e}} 
+\index{entities.Nanite@{entities.Nanite}!direction@{direction}}
+\index{direction@{direction}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{direction}{direction}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+direction = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Direcția de mișcare a Nanite-\/ului (1 = dreapta, -\/1 = stânga). 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_af7846b5987cb8641bcb56946a386179a}\label{classentities_1_1Nanite_af7846b5987cb8641bcb56946a386179a}} 
+\index{entities.Nanite@{entities.Nanite}!DYING@{DYING}}
+\index{DYING@{DYING}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{DYING}{DYING}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+DYING = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea DYING (moarte) a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a091ca4f63e2b5b6c3a34f1d4768d99d6}\label{classentities_1_1Nanite_a091ca4f63e2b5b6c3a34f1d4768d99d6}} 
+\index{entities.Nanite@{entities.Nanite}!gravity@{gravity}}
+\index{gravity@{gravity}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{gravity}{gravity}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+gravity = 0.\+04f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valoarea gravitației aplicate Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_adffcf6d958066307982e29f52f14b6da}\label{classentities_1_1Nanite_adffcf6d958066307982e29f52f14b6da}} 
+\index{entities.Nanite@{entities.Nanite}!health@{health}}
+\index{health@{health}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{health}{health}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+health\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea curentă a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a68d572b29683dd4dd67e0f1018ee9264}\label{classentities_1_1Nanite_a68d572b29683dd4dd67e0f1018ee9264}} 
+\index{entities.Nanite@{entities.Nanite}!HURT@{HURT}}
+\index{HURT@{HURT}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{HURT}{HURT}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+HURT = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea HURT (lovit) a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_acba639f1228c59749899fc519713923f}\label{classentities_1_1Nanite_acba639f1228c59749899fc519713923f}} 
+\index{entities.Nanite@{entities.Nanite}!IDLE@{IDLE}}
+\index{IDLE@{IDLE}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{IDLE}{IDLE}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+IDLE = 3\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea IDLE a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a4edd3542c90f24f40401121a6e328cb9}\label{classentities_1_1Nanite_a4edd3542c90f24f40401121a6e328cb9}} 
+\index{entities.Nanite@{entities.Nanite}!inAir@{inAir}}
+\index{inAir@{inAir}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{inAir}{inAir}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+in\+Air = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă Nanite-\/ul se află în aer. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_af6a63e41c83b67b7c0e3a8e0c247c5a3}\label{classentities_1_1Nanite_af6a63e41c83b67b7c0e3a8e0c247c5a3}} 
+\index{entities.Nanite@{entities.Nanite}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{isActive}{isActive}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+is\+Active = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă Nanite-\/ul este activ în joc. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_af412337b3770b28e4cd067b758b3cffa}\label{classentities_1_1Nanite_af412337b3770b28e4cd067b758b3cffa}} 
+\index{entities.Nanite@{entities.Nanite}!isMoving@{isMoving}}
+\index{isMoving@{isMoving}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{isMoving}{isMoving}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+is\+Moving = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă Nanite-\/ul se mișcă. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a8321882d371454b216e55ff06150c99d}\label{classentities_1_1Nanite_a8321882d371454b216e55ff06150c99d}} 
+\index{entities.Nanite@{entities.Nanite}!jumpSpeed@{jumpSpeed}}
+\index{jumpSpeed@{jumpSpeed}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{jumpSpeed}{jumpSpeed}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+jump\+Speed = -\/3.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de săritură a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a24f6f97158b49d8ec1a4080606cdf1b2}\label{classentities_1_1Nanite_a24f6f97158b49d8ec1a4080606cdf1b2}} 
+\index{entities.Nanite@{entities.Nanite}!leftPatrolLimit@{leftPatrolLimit}}
+\index{leftPatrolLimit@{leftPatrolLimit}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{leftPatrolLimit}{leftPatrolLimit}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+left\+Patrol\+Limit\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita stângă a zonei de patrulare. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a12ab3d3618a5957f17fb0b7a4784f2ed}\label{classentities_1_1Nanite_a12ab3d3618a5957f17fb0b7a4784f2ed}} 
+\index{entities.Nanite@{entities.Nanite}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Nanite.\+level\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Datele nivelului curent, folosite pentru coliziuni și navigație. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_aeac3c939e2309f9fddbe4135a46f8c0c}\label{classentities_1_1Nanite_aeac3c939e2309f9fddbe4135a46f8c0c}} 
+\index{entities.Nanite@{entities.Nanite}!maxHealth@{maxHealth}}
+\index{maxHealth@{maxHealth}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{maxHealth}{maxHealth}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+max\+Health\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea maximă a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a16610245307a22d63e9d7beab0e5d27a}\label{classentities_1_1Nanite_a16610245307a22d63e9d7beab0e5d27a}} 
+\index{entities.Nanite@{entities.Nanite}!moveSpeed@{moveSpeed}}
+\index{moveSpeed@{moveSpeed}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{moveSpeed}{moveSpeed}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+move\+Speed = 0.\+5f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mișcare curentă a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a0e10c43e200c15408d5414a6a753ec29}\label{classentities_1_1Nanite_a0e10c43e200c15408d5414a6a753ec29}} 
+\index{entities.Nanite@{entities.Nanite}!NANITE\_JUNGLA@{NANITE\_JUNGLA}}
+\index{NANITE\_JUNGLA@{NANITE\_JUNGLA}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{NANITE\_JUNGLA}{NANITE\_JUNGLA}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+NANITE\+\_\+\+JUNGLA = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tipul de \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} \char`\"{}\+Jungla\char`\"{} (implicit). 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_acc109f70dd4ba82825347ea66458718f}\label{classentities_1_1Nanite_acc109f70dd4ba82825347ea66458718f}} 
+\index{entities.Nanite@{entities.Nanite}!NANITE\_PESTERA@{NANITE\_PESTERA}}
+\index{NANITE\_PESTERA@{NANITE\_PESTERA}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{NANITE\_PESTERA}{NANITE\_PESTERA}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+NANITE\+\_\+\+PESTERA = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tipul de \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}} \char`\"{}\+Pestera\char`\"{} (variantă de peșteră). 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_ac6598182150d70b14d7c5418caa33ec7}\label{classentities_1_1Nanite_ac6598182150d70b14d7c5418caa33ec7}} 
+\index{entities.Nanite@{entities.Nanite}!patrolBoundariesSet@{patrolBoundariesSet}}
+\index{patrolBoundariesSet@{patrolBoundariesSet}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{patrolBoundariesSet}{patrolBoundariesSet}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+patrol\+Boundaries\+Set = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă limitele de patrulare au fost setate. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a5c66852bb7a7b3786e412ae6a2a8b3ab}\label{classentities_1_1Nanite_a5c66852bb7a7b3786e412ae6a2a8b3ab}} 
+\index{entities.Nanite@{entities.Nanite}!patrolDistance@{patrolDistance}}
+\index{patrolDistance@{patrolDistance}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{patrolDistance}{patrolDistance}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+patrol\+Distance = 100.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța pe care Nanite-\/ul o patrulează în fiecare direcție de la punctul de start. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_ae2a8f981ab489ca3fb9f1ac0f5251b68}\label{classentities_1_1Nanite_ae2a8f981ab489ca3fb9f1ac0f5251b68}} 
+\index{entities.Nanite@{entities.Nanite}!patrolMoveSpeed@{patrolMoveSpeed}}
+\index{patrolMoveSpeed@{patrolMoveSpeed}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{patrolMoveSpeed}{patrolMoveSpeed}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+patrol\+Move\+Speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mișcare în timpul patrulării. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a4efba32f177d533cbaa56530ddce0d0b}\label{classentities_1_1Nanite_a4efba32f177d533cbaa56530ddce0d0b}} 
+\index{entities.Nanite@{entities.Nanite}!playerDetected@{playerDetected}}
+\index{playerDetected@{playerDetected}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{playerDetected}{playerDetected}}
+{\footnotesize\ttfamily boolean entities.\+Nanite.\+player\+Detected = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă jucătorul a fost detectat de \mbox{\hyperlink{classentities_1_1Nanite}{Nanite}}. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a7b9879cd4af18af31895b34d0339beca}\label{classentities_1_1Nanite_a7b9879cd4af18af31895b34d0339beca}} 
+\index{entities.Nanite@{entities.Nanite}!playerTouchCooldown@{playerTouchCooldown}}
+\index{playerTouchCooldown@{playerTouchCooldown}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{playerTouchCooldown}{playerTouchCooldown}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+player\+Touch\+Cooldown = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul pentru daunele provocate prin atingerea jucătorului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a11bee4efc541cdf1f13db73791d8e535}\label{classentities_1_1Nanite_a11bee4efc541cdf1f13db73791d8e535}} 
+\index{entities.Nanite@{entities.Nanite}!rightPatrolLimit@{rightPatrolLimit}}
+\index{rightPatrolLimit@{rightPatrolLimit}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{rightPatrolLimit}{rightPatrolLimit}}
+{\footnotesize\ttfamily float entities.\+Nanite.\+right\+Patrol\+Limit\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita dreaptă a zonei de patrulare. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_ab1cbbae606ca7a2d78c7976e6909f52d}\label{classentities_1_1Nanite_ab1cbbae606ca7a2d78c7976e6909f52d}} 
+\index{entities.Nanite@{entities.Nanite}!RUNNING@{RUNNING}}
+\index{RUNNING@{RUNNING}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{RUNNING}{RUNNING}}
+{\footnotesize\ttfamily final int entities.\+Nanite.\+RUNNING = 10\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea RUNNING (alergare) a Nanite-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_a5c76f111a78ecb9cc2feb1c2f115b11e}\label{classentities_1_1Nanite_a5c76f111a78ecb9cc2feb1c2f115b11e}} 
+\index{entities.Nanite@{entities.Nanite}!ticksInState@{ticksInState}}
+\index{ticksInState@{ticksInState}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{ticksInState}{ticksInState}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+ticks\+In\+State = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numărul de tick-\/uri petrecute în starea curentă. 
+
+\mbox{\Hypertarget{classentities_1_1Nanite_aa5d73b0f0e305809dab6ba745fa53403}\label{classentities_1_1Nanite_aa5d73b0f0e305809dab6ba745fa53403}} 
+\index{entities.Nanite@{entities.Nanite}!touchDamageCooldown@{touchDamageCooldown}}
+\index{touchDamageCooldown@{touchDamageCooldown}!entities.Nanite@{entities.Nanite}}
+\doxysubsubsection{\texorpdfstring{touchDamageCooldown}{touchDamageCooldown}}
+{\footnotesize\ttfamily int entities.\+Nanite.\+touch\+Damage\+Cooldown = 60\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul dintre daunele provocate prin atingere (în frame-\/uri). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Nanite_8java}{Nanite.\+java}}\end{DoxyCompactItemize}

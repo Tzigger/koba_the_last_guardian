@@ -1,0 +1,5 @@
+<map id="levels.Level" name="levels.Level">
+<area shape="rect" id="node1" title="Reprezintă un nivel individual în joc." alt="" coords="182,95,282,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,221,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="246,5,458,32"/>
+</map>

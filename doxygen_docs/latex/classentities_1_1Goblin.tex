@@ -1,0 +1,878 @@
+\hypertarget{classentities_1_1Goblin}{}\doxysection{entities.\+Goblin Class Reference}
+\label{classentities_1_1Goblin}\index{entities.Goblin@{entities.Goblin}}
+
+
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} în joc.  
+
+
+
+
+Inheritance diagram for entities.\+Goblin\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{classentities_1_1Goblin__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Goblin\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classentities_1_1Goblin__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Goblin_aa0508daa48d14cbe16bdf68ea6070965}{Goblin}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}}, int \mbox{\hyperlink{classentities_1_1Enemy_a7799664baf333d3413beeeed639e2cd5}{enemy\+Type}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_a17ef543630faa038c3b1dbbee3abf997}{update}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Actualizează starea Goblinului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_afe060fba1d665fbea94537f2fb0da89a}{take\+Damage}} (int \mbox{\hyperlink{classentities_1_1Goblin_a1c0c24b464ceddb45faf848d554a5005}{damage}})
+\begin{DoxyCompactList}\small\item\em Aplică daune Goblinului atunci când este atacat de jucător. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_ae81d818c4358d8aaee6dd0ecf05e5689}{check\+Player\+Hit}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Verifică dacă jucătorul atinge Goblinul și aplică daune dacă este cazul. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a7a388ece72712e61fb255e9a21766bcf}{can\+Attack\+Player}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Verifică dacă Goblinul poate ataca jucătorul (dacă jucătorul este în raza de atac). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_a88102dddf3b4be9a4972b87e3cd3ea66}{player\+Detected}} (float playerX, float playerY)
+\begin{DoxyCompactList}\small\item\em Detectează jucătorul dacă se află în raza de vizualizare și ajustează direcția Goblinului pentru a se îndrepta către jucător. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_a9e1c2a5027b0c374be1c5057e7df7290}{set\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Goblin_a38dbea34a19063af75143134c5de518e}{level\+Data}})
+\begin{DoxyCompactList}\small\item\em Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_af4d26284b8c2255ac0e64a14357cef5e}{is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă Goblinul este activ în joc. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_ae9f5048c4cad37e0c19794d06e5ad46b}{get\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea curentă a Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a7c1ddac9abadd58e06a75e67a6cfcae4}{get\+Max\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea maximă a Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_ad53ac08b8f419b412c9c09295066c5b1}{get\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Returnează daunele de atac ale Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a9e1fcb2e2957c355f5927ed33abbca87}{get\+Direction}} ()
+\begin{DoxyCompactList}\small\item\em Returnează direcția curentă a Goblinului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_a721f831e5f956b459327ccb49f93e3ed}{make\+Boss}} ()
+\begin{DoxyCompactList}\small\item\em Transformă acest \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} într-\/un boss (\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}). \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Goblin_a9d75897a08d3a350ca9610ae8e53d4d2}{get\+Attack\+Box}} ()
+\begin{DoxyCompactList}\small\item\em Returnează hitbox-\/ul de atac al Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a41e0d0b100bd0320e861fa43e91071b2}{get\+Goblin\+Type}} ()
+\begin{DoxyCompactList}\small\item\em Returnează tipul Goblinului (de exemplu, NOOB, HARD). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_a4fbbe86419e35b4f74d2861101b49c10}{GOBLIN\+\_\+\+NOOB}} = 0
+\begin{DoxyCompactList}\small\item\em Tipul de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} \char`\"{}\+Noob\char`\"{}. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_abe9e42e04e8922ec531affcbc1b04e6b}{GOBLIN\+\_\+\+HARD}} = 1
+\begin{DoxyCompactList}\small\item\em Tipul de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} \char`\"{}\+Hard\char`\"{}. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_a2da60da9d5cbf7aa8f14348587006b09}{IDLE}} = 3
+\begin{DoxyCompactList}\small\item\em Starea IDLE a Goblinului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_adb523cc5d745fc381da73d981ace3d06}{RUNNING}} = 10
+\begin{DoxyCompactList}\small\item\em Starea RUNNING (alergare) a Goblinului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_ad5232c5c2d1c733b1c8cfb429c9790be}{ATTACK}} = 12
+\begin{DoxyCompactList}\small\item\em Starea ATTACK (atac) a Goblinului (corespunde animației SLASHING). \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_ac042c0150b10d1e9b8ef72f9f98020ca}{HURT}} = 2
+\begin{DoxyCompactList}\small\item\em Starea HURT (lovit) a Goblinului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_a7c9472e90e422e77353550124dd22352}{DYING}} = 0
+\begin{DoxyCompactList}\small\item\em Starea DYING (moarte) a Goblinului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_abe91fcf337461684b335cabebe1f1e7f}{update\+Attack\+Box}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția și dimensiunea hitbox-\/ului de atac în funcție de direcția Goblinului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_aa5d35aecc206cf34fc4e804b4cdfa6ae}{update\+Cooldowns}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează cronometrele de cooldown pentru atac și atingerea jucătorului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_aac8ea3ad7e03fa0d832f605ca6f95267}{init\+Patrol\+Boundaries}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează limitele de patrulare pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} pe baza poziției sale curente. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a2c50a4bea345a5153616c971fb3be3e8}{can\+See\+Player}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Verifică dacă Goblinul poate vedea jucătorul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_a474a4db29691fc4f2edf67976d6b7cbe}{update\+Behavior}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Actualizează comportamentul Goblinului pe baza stării curente și a interacțiunii cu jucătorul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_ad104caf6458276cbac76d77560ace025}{update\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția Goblinului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a9ad1ec8b83171a74fa2e3615bfbae9ea}{will\+Land\+On\+Ground}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}})
+\begin{DoxyCompactList}\small\item\em Verifică dacă Goblinul va ateriza pe o suprafață solidă la poziția specificată. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_a8a5697dbe1ed61d51ebf65381fc65a11}{check\+Attack\+Hit}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă atacul Goblinului a lovit jucătorul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Goblin_aa7fac00fabfa96ac52cd99bd74210220}{set\+State}} (int state)
+\begin{DoxyCompactList}\small\item\em Setează starea curentă a Goblinului și resetează cronometrul pentru starea respectivă. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_ad943b9e5e5c6a1317214013748fbd280}{health}}
+\begin{DoxyCompactList}\small\item\em Sănătatea curentă a Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a542b77a72691548feb98d59c087ae341}{max\+Health}}
+\begin{DoxyCompactList}\small\item\em Sănătatea maximă a Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a1c0c24b464ceddb45faf848d554a5005}{damage}}
+\begin{DoxyCompactList}\small\item\em Daunele provocate de atacul Goblinului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a07267b195c56e93a71840526791aac48}{is\+Active}} = true
+\begin{DoxyCompactList}\small\item\em Indicator dacă Goblinul este activ în joc. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_afd3dce2960124344259b6d2a1a439761}{attack\+Range}} = 30
+\begin{DoxyCompactList}\small\item\em Distanța de atac a Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_af7fe82cc90ded4955caae6075fe82dd6}{ticks\+In\+State}} = 0
+\begin{DoxyCompactList}\small\item\em Numărul de tick-\/uri petrecute în starea curentă. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_ac5e51b7546ba4d9fa46a334af96b5b16}{attack\+Cooldown}} = 0
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul dintre atacuri. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a27e3f38bbe92cabfa1edcdbf19619973}{attack\+Checked}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă lovitura de atac a fost verificată în animația curentă. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a4944b97bb8a40207b6120d23be4bc119}{player\+Detected}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă jucătorul a fost detectat de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_ae0ca0baace917c93dc4d9393c288d8e5}{left\+Patrol\+Limit}}
+\begin{DoxyCompactList}\small\item\em Limita stângă a zonei de patrulare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_ab01d1d4f4ba4b48b6cbca0ac8bf63f18}{right\+Patrol\+Limit}}
+\begin{DoxyCompactList}\small\item\em Limita dreaptă a zonei de patrulare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a767d0ac4db9e9fce568823bf4f799578}{patrol\+Boundaries\+Set}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă limitele de patrulare au fost setate. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_a9528b6a430de59770c3b9be0c7fcc2ec}{is\+Moving}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă Goblinul se mișcă. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a5e50dc6530f16f745ec83dbe7ce35f93}{direction}} = 1
+\begin{DoxyCompactList}\small\item\em Direcția de mișcare a Goblinului (1 = dreapta, -\/1 = stânga). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_a23608a0d8a469da5ff673a6418a0e661}{move\+Speed}} = 0.\+5f
+\begin{DoxyCompactList}\small\item\em Viteza de mișcare curentă a Goblinului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_a144fc3cf8c6602f756aa19949e90e401}{patrol\+Move\+Speed}}
+\begin{DoxyCompactList}\small\item\em Viteza de mișcare în timpul patrulării. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_a6a7541cae1106b105c2ad05cd734fbb7}{chase\+Move\+Speed}}
+\begin{DoxyCompactList}\small\item\em Viteza de mișcare în timpul urmăririi jucătorului. \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Goblin_a38dbea34a19063af75143134c5de518e}{level\+Data}}
+\begin{DoxyCompactList}\small\item\em Datele nivelului curent, folosite pentru coliziuni și navigație. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Goblin_ace0a85911959c7c6a207ee77c12d9051}{in\+Air}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă Goblinul se află în aer. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_a6de2fd788f26dc5fe37979606a481e12}{air\+Speed}} = 0f
+\begin{DoxyCompactList}\small\item\em Viteza verticală a Goblinului în aer. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_a2429cc6fdad11057d01cfd14d739361a}{gravity}} = 0.\+04f
+\begin{DoxyCompactList}\small\item\em Valoarea gravitației aplicate Goblinului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_afd38a078d9d793c3c409364e542a46fa}{jump\+Speed}} = -\/3.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de săritură a Goblinului. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Goblin_ad23a6aa9f063846d64f132a2a3a3bf31}{attack\+Box}}
+\begin{DoxyCompactList}\small\item\em Hitbox-\/ul pentru atacul Goblinului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_aea10e258e396daaf834d7eb155f79dfe}{player\+Touch\+Cooldown}} = 0
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul pentru daunele provocate prin atingerea jucătorului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a6f464e83b2146cb824160fd684f39e3f}{touch\+Damage\+Cooldown}} = 60
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul dintre daunele provocate prin atingere (în frame-\/uri). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Goblin_a61debd3566bdb3b593d65fdba7024df2}{patrol\+Distance}} = 100.\+0f
+\begin{DoxyCompactList}\small\item\em Distanța pe care Goblinul o patrulează în fiecare direcție de la punctul de start. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Goblin_a26a4ee323cff08170c1d51b833cf6c21}{detection\+Range}} = 300
+\begin{DoxyCompactList}\small\item\em Distanța la care Goblinul poate detecta jucătorul. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classentities_1_1Goblin_aec781ef488274f2630ceadd02e6fb5b2}{ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX}} = 120
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul maxim dintre atacuri (aproximativ 2 secunde la 60 FPS). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} în joc. 
+
+Această clasă extinde clasa \mbox{\hyperlink{classentities_1_1Enemy}{Enemy}} și definește comportamentul specific și atributele pentru Goblini, inclusiv tipurile (Noob, Hard), stările, logica de patrulare, atac și interacțiunea cu jucătorul. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Goblin_aa0508daa48d14cbe16bdf68ea6070965}\label{classentities_1_1Goblin_aa0508daa48d14cbe16bdf68ea6070965}} 
+\index{entities.Goblin@{entities.Goblin}!Goblin@{Goblin}}
+\index{Goblin@{Goblin}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{Goblin()}{Goblin()}}
+{\footnotesize\ttfamily entities.\+Goblin.\+Goblin (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int}]{enemy\+Type }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. 
+
+Inițializează Goblinul cu o poziție, dimensiuni și tip specific. Setează atributele în funcție de tip (Noob sau Hard), inițializează parametrii de patrulare, starea inițială și hitbox-\/ul. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția inițială pe axa X. \\
+\hline
+{\em y} & Poziția inițială pe axa Y. \\
+\hline
+{\em width} & Lățimea entității. \\
+\hline
+{\em height} & Înălțimea entității. \\
+\hline
+{\em enemy\+Type} & Tipul Goblinului (GOBLIN\+\_\+\+NOOB sau GOBLIN\+\_\+\+HARD). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Goblin_a7a388ece72712e61fb255e9a21766bcf}\label{classentities_1_1Goblin_a7a388ece72712e61fb255e9a21766bcf}} 
+\index{entities.Goblin@{entities.Goblin}!canAttackPlayer@{canAttackPlayer}}
+\index{canAttackPlayer@{canAttackPlayer}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{canAttackPlayer()}{canAttackPlayer()}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+can\+Attack\+Player (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă Goblinul poate ataca jucătorul (dacă jucătorul este în raza de atac). 
+
+Dacă da, inițiază starea de atac. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă Goblinul poate ataca și a inițiat atacul, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_a2c50a4bea345a5153616c971fb3be3e8}\label{classentities_1_1Goblin_a2c50a4bea345a5153616c971fb3be3e8}} 
+\index{entities.Goblin@{entities.Goblin}!canSeePlayer@{canSeePlayer}}
+\index{canSeePlayer@{canSeePlayer}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{canSeePlayer()}{canSeePlayer()}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+can\+See\+Player (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă Goblinul poate vedea jucătorul. 
+
+Condițiile includ distanța, alinierea verticală și direcția în care privește Goblinul. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă jucătorul este vizibil, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_a8a5697dbe1ed61d51ebf65381fc65a11}\label{classentities_1_1Goblin_a8a5697dbe1ed61d51ebf65381fc65a11}} 
+\index{entities.Goblin@{entities.Goblin}!checkAttackHit@{checkAttackHit}}
+\index{checkAttackHit@{checkAttackHit}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{checkAttackHit()}{checkAttackHit()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+check\+Attack\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă atacul Goblinului a lovit jucătorul. 
+
+Într-\/un joc real, aici s-\/ar verifica coliziunea cu hitbox-\/ul jucătorului și s-\/ar aplica daune dacă există o coliziune. \mbox{\Hypertarget{classentities_1_1Goblin_ae81d818c4358d8aaee6dd0ecf05e5689}\label{classentities_1_1Goblin_ae81d818c4358d8aaee6dd0ecf05e5689}} 
+\index{entities.Goblin@{entities.Goblin}!checkPlayerHit@{checkPlayerHit}}
+\index{checkPlayerHit@{checkPlayerHit}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{checkPlayerHit()}{checkPlayerHit()}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+check\+Player\+Hit (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă jucătorul atinge Goblinul și aplică daune dacă este cazul. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă jucătorul a lovit Goblinul și daunele au fost aplicate, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_a9d75897a08d3a350ca9610ae8e53d4d2}\label{classentities_1_1Goblin_a9d75897a08d3a350ca9610ae8e53d4d2}} 
+\index{entities.Goblin@{entities.Goblin}!getAttackBox@{getAttackBox}}
+\index{getAttackBox@{getAttackBox}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{getAttackBox()}{getAttackBox()}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Goblin.\+get\+Attack\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează hitbox-\/ul de atac al Goblinului. 
+
+\begin{DoxyReturn}{Returns}
+Dreptunghiul reprezentând hitbox-\/ul de atac. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_ad53ac08b8f419b412c9c09295066c5b1}\label{classentities_1_1Goblin_ad53ac08b8f419b412c9c09295066c5b1}} 
+\index{entities.Goblin@{entities.Goblin}!getDamage@{getDamage}}
+\index{getDamage@{getDamage}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{getDamage()}{getDamage()}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+get\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează daunele de atac ale Goblinului. 
+
+\begin{DoxyReturn}{Returns}
+Daunele de atac. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_a9e1fcb2e2957c355f5927ed33abbca87}\label{classentities_1_1Goblin_a9e1fcb2e2957c355f5927ed33abbca87}} 
+\index{entities.Goblin@{entities.Goblin}!getDirection@{getDirection}}
+\index{getDirection@{getDirection}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{getDirection()}{getDirection()}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează direcția curentă a Goblinului. 
+
+\begin{DoxyReturn}{Returns}
+Direcția (1 pentru dreapta, -\/1 pentru stânga). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_a41e0d0b100bd0320e861fa43e91071b2}\label{classentities_1_1Goblin_a41e0d0b100bd0320e861fa43e91071b2}} 
+\index{entities.Goblin@{entities.Goblin}!getGoblinType@{getGoblinType}}
+\index{getGoblinType@{getGoblinType}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{getGoblinType()}{getGoblinType()}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+get\+Goblin\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează tipul Goblinului (de exemplu, NOOB, HARD). 
+
+Acesta corespunde valorii {\ttfamily enemy\+Type} transmise în constructor. \begin{DoxyReturn}{Returns}
+Tipul Goblinului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_ae9f5048c4cad37e0c19794d06e5ad46b}\label{classentities_1_1Goblin_ae9f5048c4cad37e0c19794d06e5ad46b}} 
+\index{entities.Goblin@{entities.Goblin}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+get\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea curentă a Goblinului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea curentă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_a7c1ddac9abadd58e06a75e67a6cfcae4}\label{classentities_1_1Goblin_a7c1ddac9abadd58e06a75e67a6cfcae4}} 
+\index{entities.Goblin@{entities.Goblin}!getMaxHealth@{getMaxHealth}}
+\index{getMaxHealth@{getMaxHealth}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{getMaxHealth()}{getMaxHealth()}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+get\+Max\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea maximă a Goblinului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea maximă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Goblin_aac8ea3ad7e03fa0d832f605ca6f95267}\label{classentities_1_1Goblin_aac8ea3ad7e03fa0d832f605ca6f95267}} 
+\index{entities.Goblin@{entities.Goblin}!initPatrolBoundaries@{initPatrolBoundaries}}
+\index{initPatrolBoundaries@{initPatrolBoundaries}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{initPatrolBoundaries()}{initPatrolBoundaries()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+init\+Patrol\+Boundaries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează limitele de patrulare pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} pe baza poziției sale curente. 
+
+Această metodă ar trebui apelată după ce Goblinul s-\/a așezat pe o platformă. Caută marginile platformei pentru a stabili limitele. \mbox{\Hypertarget{classentities_1_1Goblin_af4d26284b8c2255ac0e64a14357cef5e}\label{classentities_1_1Goblin_af4d26284b8c2255ac0e64a14357cef5e}} 
+\index{entities.Goblin@{entities.Goblin}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă Goblinul este activ în joc. 
+
+\begin{DoxyReturn}{Returns}
+true dacă Goblinul este activ, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Enemy_a2e0dd7a9809637e903c91a9993a1729d}{entities.\+Enemy}}.
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a721f831e5f956b459327ccb49f93e3ed}\label{classentities_1_1Goblin_a721f831e5f956b459327ccb49f93e3ed}} 
+\index{entities.Goblin@{entities.Goblin}!makeBoss@{makeBoss}}
+\index{makeBoss@{makeBoss}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{makeBoss()}{makeBoss()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+make\+Boss (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Transformă acest \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} într-\/un boss (\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}). 
+
+Mărește dimensiunea, sănătatea, daunele și alte atribute. Această metodă modifică instanța curentă de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. \mbox{\Hypertarget{classentities_1_1Goblin_a88102dddf3b4be9a4972b87e3cd3ea66}\label{classentities_1_1Goblin_a88102dddf3b4be9a4972b87e3cd3ea66}} 
+\index{entities.Goblin@{entities.Goblin}!playerDetected@{playerDetected}}
+\index{playerDetected@{playerDetected}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{playerDetected()}{playerDetected()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+player\+Detected (\begin{DoxyParamCaption}\item[{float}]{playerX,  }\item[{float}]{playerY }\end{DoxyParamCaption})}
+
+
+
+Detectează jucătorul dacă se află în raza de vizualizare și ajustează direcția Goblinului pentru a se îndrepta către jucător. 
+
+Trece în modul de urmărire (chase) dacă jucătorul este detectat. 
+\begin{DoxyParams}{Parameters}
+{\em playerX} & Coordonata X a jucătorului. \\
+\hline
+{\em playerY} & Coordonata Y a jucătorului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Goblin_a9e1c2a5027b0c374be1c5057e7df7290}\label{classentities_1_1Goblin_a9e1c2a5027b0c374be1c5057e7df7290}} 
+\index{entities.Goblin@{entities.Goblin}!setLevelData@{setLevelData}}
+\index{setLevelData@{setLevelData}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{setLevelData()}{setLevelData()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+set\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & O matrice bidimensională reprezentând tile-\/urile nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Goblin_aa7fac00fabfa96ac52cd99bd74210220}\label{classentities_1_1Goblin_aa7fac00fabfa96ac52cd99bd74210220}} 
+\index{entities.Goblin@{entities.Goblin}!setState@{setState}}
+\index{setState@{setState}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{setState()}{setState()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+set\+State (\begin{DoxyParamCaption}\item[{int}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Setează starea curentă a Goblinului și resetează cronometrul pentru starea respectivă. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Noua stare a Goblinului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Goblin_afe060fba1d665fbea94537f2fb0da89a}\label{classentities_1_1Goblin_afe060fba1d665fbea94537f2fb0da89a}} 
+\index{entities.Goblin@{entities.Goblin}!takeDamage@{takeDamage}}
+\index{takeDamage@{takeDamage}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{takeDamage()}{takeDamage()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+take\+Damage (\begin{DoxyParamCaption}\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+Aplică daune Goblinului atunci când este atacat de jucător. 
+
+Reduce sănătatea și gestionează tranziția la starea HURT sau DYING. 
+\begin{DoxyParams}{Parameters}
+{\em damage} & Cantitatea de daune primite. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Goblin_a17ef543630faa038c3b1dbbee3abf997}\label{classentities_1_1Goblin_a17ef543630faa038c3b1dbbee3abf997}} 
+\index{entities.Goblin@{entities.Goblin}!update@{update}}
+\index{update@{update}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+update (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea Goblinului. 
+
+Aceasta include actualizarea hitbox-\/ului de atac, cooldown-\/urilor, comportamentului și poziției. De asemenea, inițializează limitele de patrulare dacă este necesar. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru interacțiuni. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Enemy_a0f78251e47b88172248672da898b8dfc}{entities.\+Enemy}}.
+
+\mbox{\Hypertarget{classentities_1_1Goblin_abe91fcf337461684b335cabebe1f1e7f}\label{classentities_1_1Goblin_abe91fcf337461684b335cabebe1f1e7f}} 
+\index{entities.Goblin@{entities.Goblin}!updateAttackBox@{updateAttackBox}}
+\index{updateAttackBox@{updateAttackBox}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{updateAttackBox()}{updateAttackBox()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+update\+Attack\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția și dimensiunea hitbox-\/ului de atac în funcție de direcția Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a474a4db29691fc4f2edf67976d6b7cbe}\label{classentities_1_1Goblin_a474a4db29691fc4f2edf67976d6b7cbe}} 
+\index{entities.Goblin@{entities.Goblin}!updateBehavior@{updateBehavior}}
+\index{updateBehavior@{updateBehavior}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{updateBehavior()}{updateBehavior()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+update\+Behavior (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează comportamentul Goblinului pe baza stării curente și a interacțiunii cu jucătorul. 
+
+Gestionează tranzițiile între stări (IDLE, RUNNING, ATTACK, HURT, DYING) și logica specifică fiecărei stări. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru a lua decizii. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Goblin_aa5d35aecc206cf34fc4e804b4cdfa6ae}\label{classentities_1_1Goblin_aa5d35aecc206cf34fc4e804b4cdfa6ae}} 
+\index{entities.Goblin@{entities.Goblin}!updateCooldowns@{updateCooldowns}}
+\index{updateCooldowns@{updateCooldowns}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{updateCooldowns()}{updateCooldowns()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+update\+Cooldowns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează cronometrele de cooldown pentru atac și atingerea jucătorului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ad104caf6458276cbac76d77560ace025}\label{classentities_1_1Goblin_ad104caf6458276cbac76d77560ace025}} 
+\index{entities.Goblin@{entities.Goblin}!updatePosition@{updatePosition}}
+\index{updatePosition@{updatePosition}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{updatePosition()}{updatePosition()}}
+{\footnotesize\ttfamily void entities.\+Goblin.\+update\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția Goblinului. 
+
+Aplică gravitația, gestionează mișcarea verticală și orizontală, verifică coliziunile cu pereții și podeaua, și previne căderea de pe platforme. \mbox{\Hypertarget{classentities_1_1Goblin_a9ad1ec8b83171a74fa2e3615bfbae9ea}\label{classentities_1_1Goblin_a9ad1ec8b83171a74fa2e3615bfbae9ea}} 
+\index{entities.Goblin@{entities.Goblin}!willLandOnGround@{willLandOnGround}}
+\index{willLandOnGround@{willLandOnGround}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{willLandOnGround()}{willLandOnGround()}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+will\+Land\+On\+Ground (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă Goblinul va ateriza pe o suprafață solidă la poziția specificată. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordonata X a poziției viitoare. \\
+\hline
+{\em y} & Coordonata Y a poziției viitoare. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă Goblinul va ateriza pe sol, false altfel. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Goblin_a6de2fd788f26dc5fe37979606a481e12}\label{classentities_1_1Goblin_a6de2fd788f26dc5fe37979606a481e12}} 
+\index{entities.Goblin@{entities.Goblin}!airSpeed@{airSpeed}}
+\index{airSpeed@{airSpeed}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{airSpeed}{airSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+air\+Speed = 0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza verticală a Goblinului în aer. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ad5232c5c2d1c733b1c8cfb429c9790be}\label{classentities_1_1Goblin_ad5232c5c2d1c733b1c8cfb429c9790be}} 
+\index{entities.Goblin@{entities.Goblin}!ATTACK@{ATTACK}}
+\index{ATTACK@{ATTACK}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{ATTACK}{ATTACK}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+ATTACK = 12\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea ATTACK (atac) a Goblinului (corespunde animației SLASHING). 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_aec781ef488274f2630ceadd02e6fb5b2}\label{classentities_1_1Goblin_aec781ef488274f2630ceadd02e6fb5b2}} 
+\index{entities.Goblin@{entities.Goblin}!ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}}
+\index{ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{ATTACK\_COOLDOWN\_MAX}{ATTACK\_COOLDOWN\_MAX}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX = 120\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Cooldown-\/ul maxim dintre atacuri (aproximativ 2 secunde la 60 FPS). 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ad23a6aa9f063846d64f132a2a3a3bf31}\label{classentities_1_1Goblin_ad23a6aa9f063846d64f132a2a3a3bf31}} 
+\index{entities.Goblin@{entities.Goblin}!attackBox@{attackBox}}
+\index{attackBox@{attackBox}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{attackBox}{attackBox}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Goblin.\+attack\+Box\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hitbox-\/ul pentru atacul Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a27e3f38bbe92cabfa1edcdbf19619973}\label{classentities_1_1Goblin_a27e3f38bbe92cabfa1edcdbf19619973}} 
+\index{entities.Goblin@{entities.Goblin}!attackChecked@{attackChecked}}
+\index{attackChecked@{attackChecked}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{attackChecked}{attackChecked}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+attack\+Checked = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă lovitura de atac a fost verificată în animația curentă. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ac5e51b7546ba4d9fa46a334af96b5b16}\label{classentities_1_1Goblin_ac5e51b7546ba4d9fa46a334af96b5b16}} 
+\index{entities.Goblin@{entities.Goblin}!attackCooldown@{attackCooldown}}
+\index{attackCooldown@{attackCooldown}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{attackCooldown}{attackCooldown}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+attack\+Cooldown = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul dintre atacuri. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_afd3dce2960124344259b6d2a1a439761}\label{classentities_1_1Goblin_afd3dce2960124344259b6d2a1a439761}} 
+\index{entities.Goblin@{entities.Goblin}!attackRange@{attackRange}}
+\index{attackRange@{attackRange}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{attackRange}{attackRange}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+attack\+Range = 30\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța de atac a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a6a7541cae1106b105c2ad05cd734fbb7}\label{classentities_1_1Goblin_a6a7541cae1106b105c2ad05cd734fbb7}} 
+\index{entities.Goblin@{entities.Goblin}!chaseMoveSpeed@{chaseMoveSpeed}}
+\index{chaseMoveSpeed@{chaseMoveSpeed}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{chaseMoveSpeed}{chaseMoveSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+chase\+Move\+Speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mișcare în timpul urmăririi jucătorului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a1c0c24b464ceddb45faf848d554a5005}\label{classentities_1_1Goblin_a1c0c24b464ceddb45faf848d554a5005}} 
+\index{entities.Goblin@{entities.Goblin}!damage@{damage}}
+\index{damage@{damage}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{damage}{damage}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+damage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Daunele provocate de atacul Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a26a4ee323cff08170c1d51b833cf6c21}\label{classentities_1_1Goblin_a26a4ee323cff08170c1d51b833cf6c21}} 
+\index{entities.Goblin@{entities.Goblin}!detectionRange@{detectionRange}}
+\index{detectionRange@{detectionRange}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{detectionRange}{detectionRange}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+detection\+Range = 300\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța la care Goblinul poate detecta jucătorul. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a5e50dc6530f16f745ec83dbe7ce35f93}\label{classentities_1_1Goblin_a5e50dc6530f16f745ec83dbe7ce35f93}} 
+\index{entities.Goblin@{entities.Goblin}!direction@{direction}}
+\index{direction@{direction}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{direction}{direction}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+direction = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Direcția de mișcare a Goblinului (1 = dreapta, -\/1 = stânga). 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a7c9472e90e422e77353550124dd22352}\label{classentities_1_1Goblin_a7c9472e90e422e77353550124dd22352}} 
+\index{entities.Goblin@{entities.Goblin}!DYING@{DYING}}
+\index{DYING@{DYING}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{DYING}{DYING}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+DYING = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea DYING (moarte) a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_abe9e42e04e8922ec531affcbc1b04e6b}\label{classentities_1_1Goblin_abe9e42e04e8922ec531affcbc1b04e6b}} 
+\index{entities.Goblin@{entities.Goblin}!GOBLIN\_HARD@{GOBLIN\_HARD}}
+\index{GOBLIN\_HARD@{GOBLIN\_HARD}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{GOBLIN\_HARD}{GOBLIN\_HARD}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+GOBLIN\+\_\+\+HARD = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tipul de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} \char`\"{}\+Hard\char`\"{}. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a4fbbe86419e35b4f74d2861101b49c10}\label{classentities_1_1Goblin_a4fbbe86419e35b4f74d2861101b49c10}} 
+\index{entities.Goblin@{entities.Goblin}!GOBLIN\_NOOB@{GOBLIN\_NOOB}}
+\index{GOBLIN\_NOOB@{GOBLIN\_NOOB}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{GOBLIN\_NOOB}{GOBLIN\_NOOB}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+GOBLIN\+\_\+\+NOOB = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tipul de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} \char`\"{}\+Noob\char`\"{}. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a2429cc6fdad11057d01cfd14d739361a}\label{classentities_1_1Goblin_a2429cc6fdad11057d01cfd14d739361a}} 
+\index{entities.Goblin@{entities.Goblin}!gravity@{gravity}}
+\index{gravity@{gravity}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{gravity}{gravity}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+gravity = 0.\+04f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valoarea gravitației aplicate Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ad943b9e5e5c6a1317214013748fbd280}\label{classentities_1_1Goblin_ad943b9e5e5c6a1317214013748fbd280}} 
+\index{entities.Goblin@{entities.Goblin}!health@{health}}
+\index{health@{health}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{health}{health}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+health\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea curentă a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ac042c0150b10d1e9b8ef72f9f98020ca}\label{classentities_1_1Goblin_ac042c0150b10d1e9b8ef72f9f98020ca}} 
+\index{entities.Goblin@{entities.Goblin}!HURT@{HURT}}
+\index{HURT@{HURT}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{HURT}{HURT}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+HURT = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea HURT (lovit) a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a2da60da9d5cbf7aa8f14348587006b09}\label{classentities_1_1Goblin_a2da60da9d5cbf7aa8f14348587006b09}} 
+\index{entities.Goblin@{entities.Goblin}!IDLE@{IDLE}}
+\index{IDLE@{IDLE}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{IDLE}{IDLE}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+IDLE = 3\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea IDLE a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ace0a85911959c7c6a207ee77c12d9051}\label{classentities_1_1Goblin_ace0a85911959c7c6a207ee77c12d9051}} 
+\index{entities.Goblin@{entities.Goblin}!inAir@{inAir}}
+\index{inAir@{inAir}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{inAir}{inAir}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+in\+Air = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă Goblinul se află în aer. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a07267b195c56e93a71840526791aac48}\label{classentities_1_1Goblin_a07267b195c56e93a71840526791aac48}} 
+\index{entities.Goblin@{entities.Goblin}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{isActive}{isActive}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+is\+Active = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă Goblinul este activ în joc. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a9528b6a430de59770c3b9be0c7fcc2ec}\label{classentities_1_1Goblin_a9528b6a430de59770c3b9be0c7fcc2ec}} 
+\index{entities.Goblin@{entities.Goblin}!isMoving@{isMoving}}
+\index{isMoving@{isMoving}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{isMoving}{isMoving}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+is\+Moving = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă Goblinul se mișcă. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_afd38a078d9d793c3c409364e542a46fa}\label{classentities_1_1Goblin_afd38a078d9d793c3c409364e542a46fa}} 
+\index{entities.Goblin@{entities.Goblin}!jumpSpeed@{jumpSpeed}}
+\index{jumpSpeed@{jumpSpeed}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{jumpSpeed}{jumpSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+jump\+Speed = -\/3.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de săritură a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ae0ca0baace917c93dc4d9393c288d8e5}\label{classentities_1_1Goblin_ae0ca0baace917c93dc4d9393c288d8e5}} 
+\index{entities.Goblin@{entities.Goblin}!leftPatrolLimit@{leftPatrolLimit}}
+\index{leftPatrolLimit@{leftPatrolLimit}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{leftPatrolLimit}{leftPatrolLimit}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+left\+Patrol\+Limit\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita stângă a zonei de patrulare. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a38dbea34a19063af75143134c5de518e}\label{classentities_1_1Goblin_a38dbea34a19063af75143134c5de518e}} 
+\index{entities.Goblin@{entities.Goblin}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Goblin.\+level\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Datele nivelului curent, folosite pentru coliziuni și navigație. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a542b77a72691548feb98d59c087ae341}\label{classentities_1_1Goblin_a542b77a72691548feb98d59c087ae341}} 
+\index{entities.Goblin@{entities.Goblin}!maxHealth@{maxHealth}}
+\index{maxHealth@{maxHealth}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{maxHealth}{maxHealth}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+max\+Health\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea maximă a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a23608a0d8a469da5ff673a6418a0e661}\label{classentities_1_1Goblin_a23608a0d8a469da5ff673a6418a0e661}} 
+\index{entities.Goblin@{entities.Goblin}!moveSpeed@{moveSpeed}}
+\index{moveSpeed@{moveSpeed}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{moveSpeed}{moveSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+move\+Speed = 0.\+5f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mișcare curentă a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a767d0ac4db9e9fce568823bf4f799578}\label{classentities_1_1Goblin_a767d0ac4db9e9fce568823bf4f799578}} 
+\index{entities.Goblin@{entities.Goblin}!patrolBoundariesSet@{patrolBoundariesSet}}
+\index{patrolBoundariesSet@{patrolBoundariesSet}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{patrolBoundariesSet}{patrolBoundariesSet}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+patrol\+Boundaries\+Set = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă limitele de patrulare au fost setate. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a61debd3566bdb3b593d65fdba7024df2}\label{classentities_1_1Goblin_a61debd3566bdb3b593d65fdba7024df2}} 
+\index{entities.Goblin@{entities.Goblin}!patrolDistance@{patrolDistance}}
+\index{patrolDistance@{patrolDistance}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{patrolDistance}{patrolDistance}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+patrol\+Distance = 100.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța pe care Goblinul o patrulează în fiecare direcție de la punctul de start. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a144fc3cf8c6602f756aa19949e90e401}\label{classentities_1_1Goblin_a144fc3cf8c6602f756aa19949e90e401}} 
+\index{entities.Goblin@{entities.Goblin}!patrolMoveSpeed@{patrolMoveSpeed}}
+\index{patrolMoveSpeed@{patrolMoveSpeed}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{patrolMoveSpeed}{patrolMoveSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+patrol\+Move\+Speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mișcare în timpul patrulării. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a4944b97bb8a40207b6120d23be4bc119}\label{classentities_1_1Goblin_a4944b97bb8a40207b6120d23be4bc119}} 
+\index{entities.Goblin@{entities.Goblin}!playerDetected@{playerDetected}}
+\index{playerDetected@{playerDetected}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{playerDetected}{playerDetected}}
+{\footnotesize\ttfamily boolean entities.\+Goblin.\+player\+Detected = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă jucătorul a fost detectat de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}}. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_aea10e258e396daaf834d7eb155f79dfe}\label{classentities_1_1Goblin_aea10e258e396daaf834d7eb155f79dfe}} 
+\index{entities.Goblin@{entities.Goblin}!playerTouchCooldown@{playerTouchCooldown}}
+\index{playerTouchCooldown@{playerTouchCooldown}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{playerTouchCooldown}{playerTouchCooldown}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+player\+Touch\+Cooldown = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul pentru daunele provocate prin atingerea jucătorului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_ab01d1d4f4ba4b48b6cbca0ac8bf63f18}\label{classentities_1_1Goblin_ab01d1d4f4ba4b48b6cbca0ac8bf63f18}} 
+\index{entities.Goblin@{entities.Goblin}!rightPatrolLimit@{rightPatrolLimit}}
+\index{rightPatrolLimit@{rightPatrolLimit}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{rightPatrolLimit}{rightPatrolLimit}}
+{\footnotesize\ttfamily float entities.\+Goblin.\+right\+Patrol\+Limit\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita dreaptă a zonei de patrulare. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_adb523cc5d745fc381da73d981ace3d06}\label{classentities_1_1Goblin_adb523cc5d745fc381da73d981ace3d06}} 
+\index{entities.Goblin@{entities.Goblin}!RUNNING@{RUNNING}}
+\index{RUNNING@{RUNNING}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{RUNNING}{RUNNING}}
+{\footnotesize\ttfamily final int entities.\+Goblin.\+RUNNING = 10\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starea RUNNING (alergare) a Goblinului. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_af7fe82cc90ded4955caae6075fe82dd6}\label{classentities_1_1Goblin_af7fe82cc90ded4955caae6075fe82dd6}} 
+\index{entities.Goblin@{entities.Goblin}!ticksInState@{ticksInState}}
+\index{ticksInState@{ticksInState}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{ticksInState}{ticksInState}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+ticks\+In\+State = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numărul de tick-\/uri petrecute în starea curentă. 
+
+\mbox{\Hypertarget{classentities_1_1Goblin_a6f464e83b2146cb824160fd684f39e3f}\label{classentities_1_1Goblin_a6f464e83b2146cb824160fd684f39e3f}} 
+\index{entities.Goblin@{entities.Goblin}!touchDamageCooldown@{touchDamageCooldown}}
+\index{touchDamageCooldown@{touchDamageCooldown}!entities.Goblin@{entities.Goblin}}
+\doxysubsubsection{\texorpdfstring{touchDamageCooldown}{touchDamageCooldown}}
+{\footnotesize\ttfamily int entities.\+Goblin.\+touch\+Damage\+Cooldown = 60\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul dintre daunele provocate prin atingere (în frame-\/uri). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Goblin_8java}{Goblin.\+java}}\end{DoxyCompactItemize}

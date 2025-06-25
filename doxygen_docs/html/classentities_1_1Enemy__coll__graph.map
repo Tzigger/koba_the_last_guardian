@@ -1,0 +1,5 @@
+<map id="entities.Enemy" name="entities.Enemy">
+<area shape="rect" id="node1" title="Clasă abstractă de bază pentru toți inamicii din joc." alt="" coords="5,171,125,197"/>
+<area shape="rect" id="node2" href="$classentities_1_1Entity.html" title="Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici,..." alt="" coords="9,95,122,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="13,5,118,32"/>
+</map>

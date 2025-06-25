@@ -1,0 +1,144 @@
+\hypertarget{classinputs_1_1KeyboardInputs}{}\doxysection{inputs.\+Keyboard\+Inputs Class Reference}
+\label{classinputs_1_1KeyboardInputs}\index{inputs.KeyboardInputs@{inputs.KeyboardInputs}}
+
+
+Gestionează input-\/ul de la tastatură pentru joc.  
+
+
+
+
+Inheritance diagram for inputs.\+Keyboard\+Inputs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{classinputs_1_1KeyboardInputs__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for inputs.\+Keyboard\+Inputs\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classinputs_1_1KeyboardInputs__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classinputs_1_1KeyboardInputs_a12b04ceaf539953030ec019e9119682f}{Keyboard\+Inputs}} (\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} \mbox{\hyperlink{classinputs_1_1KeyboardInputs_aa74a07eaace916b5de0b69c8cccda661}{game\+Panel}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classinputs_1_1KeyboardInputs}{Keyboard\+Inputs}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1KeyboardInputs_a14c463f7d5d7045abaf334d00a10b228}{key\+Typed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată când o tastă este \char`\"{}typed\char`\"{} (apăsată și eliberată, generând un caracter). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1KeyboardInputs_a8f785a3b1ce587304a91f5c8763b9c55}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată la apăsarea unei taste. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classinputs_1_1KeyboardInputs_ad9d197aff7ff41875e42cf48e2809342}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Metodă apelată la eliberarea unei taste. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} \mbox{\hyperlink{classinputs_1_1KeyboardInputs_aa74a07eaace916b5de0b69c8cccda661}{game\+Panel}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gestionează input-\/ul de la tastatură pentru joc. 
+
+Implementează interfața \mbox{\hyperlink{}{Key\+Listener}} și redirecționează evenimentele de tastatură către starea de joc activă corespunzătoare. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classinputs_1_1KeyboardInputs_a12b04ceaf539953030ec019e9119682f}\label{classinputs_1_1KeyboardInputs_a12b04ceaf539953030ec019e9119682f}} 
+\index{inputs.KeyboardInputs@{inputs.KeyboardInputs}!KeyboardInputs@{KeyboardInputs}}
+\index{KeyboardInputs@{KeyboardInputs}!inputs.KeyboardInputs@{inputs.KeyboardInputs}}
+\doxysubsubsection{\texorpdfstring{KeyboardInputs()}{KeyboardInputs()}}
+{\footnotesize\ttfamily inputs.\+Keyboard\+Inputs.\+Keyboard\+Inputs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}}}]{game\+Panel }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classinputs_1_1KeyboardInputs}{Keyboard\+Inputs}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Panel} & Panoul principal al jocului \mbox{\hyperlink{}{Game\+Panel}} căruia i se atașează acest listener. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classinputs_1_1KeyboardInputs_a8f785a3b1ce587304a91f5c8763b9c55}\label{classinputs_1_1KeyboardInputs_a8f785a3b1ce587304a91f5c8763b9c55}} 
+\index{inputs.KeyboardInputs@{inputs.KeyboardInputs}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!inputs.KeyboardInputs@{inputs.KeyboardInputs}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void inputs.\+Keyboard\+Inputs.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată la apăsarea unei taste. 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1KeyboardInputs_a8f785a3b1ce587304a91f5c8763b9c55}{keyPressed}} }
+
+\end{DoxyCode}
+ a stării de joc active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1KeyboardInputs_ad9d197aff7ff41875e42cf48e2809342}\label{classinputs_1_1KeyboardInputs_ad9d197aff7ff41875e42cf48e2809342}} 
+\index{inputs.KeyboardInputs@{inputs.KeyboardInputs}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!inputs.KeyboardInputs@{inputs.KeyboardInputs}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void inputs.\+Keyboard\+Inputs.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată la eliberarea unei taste. 
+
+Redirecționează evenimentul către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classinputs_1_1KeyboardInputs_ad9d197aff7ff41875e42cf48e2809342}{keyReleased}} }
+
+\end{DoxyCode}
+ a stării de joc active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classinputs_1_1KeyboardInputs_a14c463f7d5d7045abaf334d00a10b228}\label{classinputs_1_1KeyboardInputs_a14c463f7d5d7045abaf334d00a10b228}} 
+\index{inputs.KeyboardInputs@{inputs.KeyboardInputs}!keyTyped@{keyTyped}}
+\index{keyTyped@{keyTyped}!inputs.KeyboardInputs@{inputs.KeyboardInputs}}
+\doxysubsubsection{\texorpdfstring{keyTyped()}{keyTyped()}}
+{\footnotesize\ttfamily void inputs.\+Keyboard\+Inputs.\+key\+Typed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată când o tastă este \char`\"{}typed\char`\"{} (apăsată și eliberată, generând un caracter). 
+
+Momentan neutilizată.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classinputs_1_1KeyboardInputs_aa74a07eaace916b5de0b69c8cccda661}\label{classinputs_1_1KeyboardInputs_aa74a07eaace916b5de0b69c8cccda661}} 
+\index{inputs.KeyboardInputs@{inputs.KeyboardInputs}!gamePanel@{gamePanel}}
+\index{gamePanel@{gamePanel}!inputs.KeyboardInputs@{inputs.KeyboardInputs}}
+\doxysubsubsection{\texorpdfstring{gamePanel}{gamePanel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} inputs.\+Keyboard\+Inputs.\+game\+Panel\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/inputs/\mbox{\hyperlink{KeyboardInputs_8java}{Keyboard\+Inputs.\+java}}\end{DoxyCompactItemize}

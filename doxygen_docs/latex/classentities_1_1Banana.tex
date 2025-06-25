@@ -1,0 +1,331 @@
+\hypertarget{classentities_1_1Banana}{}\doxysection{entities.\+Banana Class Reference}
+\label{classentities_1_1Banana}\index{entities.Banana@{entities.Banana}}
+
+
+Reprezintă un obiect colectabil de tip \char`\"{}banană\char`\"{} în joc.  
+
+
+
+
+Inheritance diagram for entities.\+Banana\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{classentities_1_1Banana__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Banana\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{classentities_1_1Banana__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Banana_acfd6256cd4ab5b82e62b379826d5bede}{Banana}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Banana_a452cc52881484154352edfc1aeee754d}{level\+Data}}, Buffered\+Image \mbox{\hyperlink{classentities_1_1Banana_a96f0ebe61b916ad8a9f5b4e4c2bfbeac}{image}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Banana}{Banana}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Banana_a78ab46e927c42ae55e05fc50b9038c5f}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea bananei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Banana_a0700f2ab0b8432fe930dedd98080aa96}{draw}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează banana pe ecran. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Banana_a7a8b73641c3885a564796db31bd2346d}{is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă banana este activă. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Banana_a8e9a8edb7db28a034c2fa33c35c83cf0}{set\+Active}} (boolean \mbox{\hyperlink{classentities_1_1Banana_a46ed502e5e227e13a3c864bb8588c50a}{active}})
+\begin{DoxyCompactList}\small\item\em Setează starea de activare a bananei. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Banana_ac0d72a65b9e7c0c56292f849d2d78960}{draw\+Hitbox}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul bananei (suprascris din \mbox{\hyperlink{classentities_1_1Entity}{Entity}}). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{classentities_1_1Banana_a96f0ebe61b916ad8a9f5b4e4c2bfbeac}{image}}
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Banana_a46ed502e5e227e13a3c864bb8588c50a}{active}} = true
+\begin{DoxyCompactList}\small\item\em Indică dacă banana este activă (poate fi colectată și desenată). \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Banana_a452cc52881484154352edfc1aeee754d}{level\+Data}}
+\begin{DoxyCompactList}\small\item\em Datele nivelului, potențial pentru interacțiuni viitoare cu terenul (momentan neutilizat activ pentru banane). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a0ba461038289bb58c713e0a89f545718}{originalY}}
+\begin{DoxyCompactList}\small\item\em Coordonata Y inițială (de bază) pentru animația de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a1dbd482a00c0b43a23856f3ef6ae7128}{float\+Speed}} = 0.\+05f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza animației de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_aefcf07fcc54e5c3399eca7096187c1f2}{float\+Amplitude}} = 2.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Amplitudinea mișcării de plutire (cât de mult se mișcă sus/jos). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a231d2ef35dc1ca219cbc520f9a660051}{float\+Angle}} = 0
+\begin{DoxyCompactList}\small\item\em Unghiul curent în ciclul de plutire (pentru funcția sinus). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a8e0ff1c1aefa57a4e4cc9260a7764ab5}{original\+Width}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a82d55b281a1e8cf30653a9e10a5f70b3}{original\+Height}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a2c383cb60e16dcacd0f6b42b9c83ba53}{scale\+Factor}} = 1.\+0f
+\begin{DoxyCompactList}\small\item\em Factorul de scalare curent pentru animația de respirație. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a3b2b4a95711f201ccbbfec1d46054ddc}{scale\+Speed}} = 0.\+005f
+\begin{DoxyCompactList}\small\item\em Viteza cu care se schimbă factorul de scalare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a15ff458636885cd0b665e1a441f25688}{min\+Scale}} = 0.\+9f
+\begin{DoxyCompactList}\small\item\em Factorul minim de scalare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Banana_a0c483a5c4add705db32ded0a8821508b}{max\+Scale}} = 1.\+1f
+\begin{DoxyCompactList}\small\item\em Factorul maxim de scalare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Banana_aba9446a7bb6da7213b316abd07a1b1f3}{scaling\+Up}} = true
+\begin{DoxyCompactList}\small\item\em Indică dacă banana se mărește (true) sau se micșorează (false) în animația de respirație. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă un obiect colectabil de tip \char`\"{}banană\char`\"{} în joc. 
+
+Bananele pot oferi bonusuri jucătorului la colectare. Această clasă gestionează animația de plutire și scalare a bananei. Extinde clasa \mbox{\hyperlink{classentities_1_1Entity}{Entity}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Banana_acfd6256cd4ab5b82e62b379826d5bede}\label{classentities_1_1Banana_acfd6256cd4ab5b82e62b379826d5bede}} 
+\index{entities.Banana@{entities.Banana}!Banana@{Banana}}
+\index{Banana@{Banana}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{Banana()}{Banana()}}
+{\footnotesize\ttfamily entities.\+Banana.\+Banana (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{Buffered\+Image}]{image }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Banana}{Banana}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x inițială a colțului stânga-\/sus al bananei. \\
+\hline
+{\em y} & Poziția y inițială a colțului stânga-\/sus al bananei. \\
+\hline
+{\em level\+Data} & Datele nivelului (momentan neutilizate activ pentru logica bananei). \\
+\hline
+{\em image} & Imaginea (sprite-\/ul) pentru banană. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Banana_a0700f2ab0b8432fe930dedd98080aa96}\label{classentities_1_1Banana_a0700f2ab0b8432fe930dedd98080aa96}} 
+\index{entities.Banana@{entities.Banana}!draw@{draw}}
+\index{draw@{draw}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void entities.\+Banana.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Desenează banana pe ecran. 
+
+Aplică animația de scalare pentru efectul de \char`\"{}respirație\char`\"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+{\em x\+Lvl\+Offset} & Offset-\/ul orizontal al nivelului pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Banana_ac0d72a65b9e7c0c56292f849d2d78960}\label{classentities_1_1Banana_ac0d72a65b9e7c0c56292f849d2d78960}} 
+\index{entities.Banana@{entities.Banana}!drawHitbox@{drawHitbox}}
+\index{drawHitbox@{drawHitbox}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{drawHitbox()}{drawHitbox()}}
+{\footnotesize\ttfamily void entities.\+Banana.\+draw\+Hitbox (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul bananei (suprascris din \mbox{\hyperlink{classentities_1_1Entity}{Entity}}). 
+
+Folosit pentru depanare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic. \\
+\hline
+{\em x\+Lvl\+Offset} & Offset-\/ul orizontal al nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Banana_a7a8b73641c3885a564796db31bd2346d}\label{classentities_1_1Banana_a7a8b73641c3885a564796db31bd2346d}} 
+\index{entities.Banana@{entities.Banana}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean entities.\+Banana.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă banana este activă. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă banana este activă,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Banana_a8e9a8edb7db28a034c2fa33c35c83cf0}\label{classentities_1_1Banana_a8e9a8edb7db28a034c2fa33c35c83cf0}} 
+\index{entities.Banana@{entities.Banana}!setActive@{setActive}}
+\index{setActive@{setActive}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void entities.\+Banana.\+set\+Active (\begin{DoxyParamCaption}\item[{boolean}]{active }\end{DoxyParamCaption})}
+
+
+
+Setează starea de activare a bananei. 
+
+O banană inactivă nu este actualizată sau desenată și nu poate fi colectată. 
+\begin{DoxyParams}{Parameters}
+{\em active} & Noua stare de activare. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Banana_a78ab46e927c42ae55e05fc50b9038c5f}\label{classentities_1_1Banana_a78ab46e927c42ae55e05fc50b9038c5f}} 
+\index{entities.Banana@{entities.Banana}!update@{update}}
+\index{update@{update}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Banana.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea bananei. 
+
+Gestionează animația de plutire și de \char`\"{}respirație\char`\"{} (scalare). Rulează doar dacă banana este activă și are o imagine validă. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Banana_a46ed502e5e227e13a3c864bb8588c50a}\label{classentities_1_1Banana_a46ed502e5e227e13a3c864bb8588c50a}} 
+\index{entities.Banana@{entities.Banana}!active@{active}}
+\index{active@{active}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily boolean entities.\+Banana.\+active = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă banana este activă (poate fi colectată și desenată). 
+
+\mbox{\Hypertarget{classentities_1_1Banana_aefcf07fcc54e5c3399eca7096187c1f2}\label{classentities_1_1Banana_aefcf07fcc54e5c3399eca7096187c1f2}} 
+\index{entities.Banana@{entities.Banana}!floatAmplitude@{floatAmplitude}}
+\index{floatAmplitude@{floatAmplitude}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{floatAmplitude}{floatAmplitude}}
+{\footnotesize\ttfamily float entities.\+Banana.\+float\+Amplitude = 2.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Amplitudinea mișcării de plutire (cât de mult se mișcă sus/jos). 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a231d2ef35dc1ca219cbc520f9a660051}\label{classentities_1_1Banana_a231d2ef35dc1ca219cbc520f9a660051}} 
+\index{entities.Banana@{entities.Banana}!floatAngle@{floatAngle}}
+\index{floatAngle@{floatAngle}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{floatAngle}{floatAngle}}
+{\footnotesize\ttfamily float entities.\+Banana.\+float\+Angle = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Unghiul curent în ciclul de plutire (pentru funcția sinus). 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a1dbd482a00c0b43a23856f3ef6ae7128}\label{classentities_1_1Banana_a1dbd482a00c0b43a23856f3ef6ae7128}} 
+\index{entities.Banana@{entities.Banana}!floatSpeed@{floatSpeed}}
+\index{floatSpeed@{floatSpeed}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{floatSpeed}{floatSpeed}}
+{\footnotesize\ttfamily float entities.\+Banana.\+float\+Speed = 0.\+05f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza animației de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a96f0ebe61b916ad8a9f5b4e4c2bfbeac}\label{classentities_1_1Banana_a96f0ebe61b916ad8a9f5b4e4c2bfbeac}} 
+\index{entities.Banana@{entities.Banana}!image@{image}}
+\index{image@{image}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily Buffered\+Image entities.\+Banana.\+image\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Banana_a452cc52881484154352edfc1aeee754d}\label{classentities_1_1Banana_a452cc52881484154352edfc1aeee754d}} 
+\index{entities.Banana@{entities.Banana}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Banana.\+level\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Datele nivelului, potențial pentru interacțiuni viitoare cu terenul (momentan neutilizat activ pentru banane). 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a0c483a5c4add705db32ded0a8821508b}\label{classentities_1_1Banana_a0c483a5c4add705db32ded0a8821508b}} 
+\index{entities.Banana@{entities.Banana}!maxScale@{maxScale}}
+\index{maxScale@{maxScale}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{maxScale}{maxScale}}
+{\footnotesize\ttfamily float entities.\+Banana.\+max\+Scale = 1.\+1f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul maxim de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a15ff458636885cd0b665e1a441f25688}\label{classentities_1_1Banana_a15ff458636885cd0b665e1a441f25688}} 
+\index{entities.Banana@{entities.Banana}!minScale@{minScale}}
+\index{minScale@{minScale}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{minScale}{minScale}}
+{\footnotesize\ttfamily float entities.\+Banana.\+min\+Scale = 0.\+9f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul minim de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a82d55b281a1e8cf30653a9e10a5f70b3}\label{classentities_1_1Banana_a82d55b281a1e8cf30653a9e10a5f70b3}} 
+\index{entities.Banana@{entities.Banana}!originalHeight@{originalHeight}}
+\index{originalHeight@{originalHeight}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{originalHeight}{originalHeight}}
+{\footnotesize\ttfamily float entities.\+Banana.\+original\+Height\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Banana_a8e0ff1c1aefa57a4e4cc9260a7764ab5}\label{classentities_1_1Banana_a8e0ff1c1aefa57a4e4cc9260a7764ab5}} 
+\index{entities.Banana@{entities.Banana}!originalWidth@{originalWidth}}
+\index{originalWidth@{originalWidth}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{originalWidth}{originalWidth}}
+{\footnotesize\ttfamily float entities.\+Banana.\+original\+Width\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Banana_a0ba461038289bb58c713e0a89f545718}\label{classentities_1_1Banana_a0ba461038289bb58c713e0a89f545718}} 
+\index{entities.Banana@{entities.Banana}!originalY@{originalY}}
+\index{originalY@{originalY}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{originalY}{originalY}}
+{\footnotesize\ttfamily float entities.\+Banana.\+originalY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordonata Y inițială (de bază) pentru animația de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a2c383cb60e16dcacd0f6b42b9c83ba53}\label{classentities_1_1Banana_a2c383cb60e16dcacd0f6b42b9c83ba53}} 
+\index{entities.Banana@{entities.Banana}!scaleFactor@{scaleFactor}}
+\index{scaleFactor@{scaleFactor}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{scaleFactor}{scaleFactor}}
+{\footnotesize\ttfamily float entities.\+Banana.\+scale\+Factor = 1.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul de scalare curent pentru animația de respirație. 
+
+\mbox{\Hypertarget{classentities_1_1Banana_a3b2b4a95711f201ccbbfec1d46054ddc}\label{classentities_1_1Banana_a3b2b4a95711f201ccbbfec1d46054ddc}} 
+\index{entities.Banana@{entities.Banana}!scaleSpeed@{scaleSpeed}}
+\index{scaleSpeed@{scaleSpeed}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{scaleSpeed}{scaleSpeed}}
+{\footnotesize\ttfamily float entities.\+Banana.\+scale\+Speed = 0.\+005f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza cu care se schimbă factorul de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Banana_aba9446a7bb6da7213b316abd07a1b1f3}\label{classentities_1_1Banana_aba9446a7bb6da7213b316abd07a1b1f3}} 
+\index{entities.Banana@{entities.Banana}!scalingUp@{scalingUp}}
+\index{scalingUp@{scalingUp}!entities.Banana@{entities.Banana}}
+\doxysubsubsection{\texorpdfstring{scalingUp}{scalingUp}}
+{\footnotesize\ttfamily boolean entities.\+Banana.\+scaling\+Up = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă banana se mărește (true) sau se micșorează (false) în animația de respirație. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Banana_8java}{Banana.\+java}}\end{DoxyCompactItemize}

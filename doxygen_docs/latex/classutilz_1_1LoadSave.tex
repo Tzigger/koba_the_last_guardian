@@ -1,0 +1,504 @@
+\hypertarget{classutilz_1_1LoadSave}{}\doxysection{utilz.\+Load\+Save Class Reference}
+\label{classutilz_1_1LoadSave}\index{utilz.LoadSave@{utilz.LoadSave}}
+
+
+Clasă utilitară responsabilă pentru încărcarea resurselor jocului, cum ar fi imaginile (sprite atlas-\/uri) și datele nivelurilor din fișiere.  
+
+
+
+
+Collaboration diagram for utilz.\+Load\+Save\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{classutilz_1_1LoadSave__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Buffered\+Image \mbox{\hyperlink{classutilz_1_1LoadSave_aea10acd9625412c5027bce9987c67990}{get\+Sprite\+Atlas}} (String filename)
+\begin{DoxyCompactList}\small\item\em Încarcă o imagine (sprite atlas) din directorul de resurse. \end{DoxyCompactList}\item 
+static int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classutilz_1_1LoadSave_a27894c348e0faa573e720ca82eeed00f}{get\+Level\+Data}} (String file\+Path)
+\begin{DoxyCompactList}\small\item\em Încarcă datele unui nivel dintr-\/un fișier CSV specificat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aef993892e2361e50e106940016cffbcb}{PLAYER\+\_\+\+ATLAS}} = \char`\"{}koba\+\_\+compressed\+\_\+spritesheet.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către atlasul de sprite-\/uri pentru jucător (Koba). \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a22b7fd102dc8aa97c5690244cbf71b50}{KOBA\+\_\+\+RUSH}} = \char`\"{}koba\+\_\+compressed\+\_\+spritesheet\+\_\+cristal.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către atlasul de sprite-\/uri pentru Koba în starea \char`\"{}\+Crystal Rush\char`\"{}. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a4dae9f8f0e6407905859a34f9ffd6e1f}{LEVEL1\+\_\+\+ATLAS}} = \char`\"{}Tileset\+\_\+niv1.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către atlasul de tile-\/uri pentru Nivelul 1. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a8306bcb39c121aa4bac9a4849e2bbd88}{LEVEL1\+\_\+\+BACKGROUND}} = \char`\"{}lvl1\+\_\+bg.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea de fundal pentru Nivelul 1. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aa800da30f9e58cf25b4fd65632cc227d}{LEVEL1\+\_\+\+DATA}} = \char`\"{}level1.\+csv\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către fișierul CSV cu datele pentru Nivelul 1. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a7986f13f225add7cdd053efa28f044a4}{LEVEL2\+\_\+\+ATLAS}} = \char`\"{}Tileset\+\_\+niv2.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către atlasul de tile-\/uri pentru Nivelul 2. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_ab3d1d219d37ef28aae346b0c8097ffe4}{LEVEL2\+\_\+\+BACKGROUND}} = \char`\"{}lvl2\+\_\+bg.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea de fundal pentru Nivelul 2. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_afa22d5d381519246b2d30f03801c1a1e}{LEVEL2\+\_\+\+DATA}} = \char`\"{}level2.\+csv\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către fișierul CSV cu datele pentru Nivelul 2. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a4b5a632c83dcf73ea6d6d764dba84527}{LEVEL3\+\_\+\+ATLAS}} = \char`\"{}Tileset\+\_\+niv3.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către atlasul de tile-\/uri pentru Nivelul 3. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_abcf8fd7a7be6b141f338a6565f749729}{LEVEL3\+\_\+\+BACKGROUND}} = \char`\"{}lvl3\+\_\+bg.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea de fundal pentru Nivelul 3. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aea087dd87107ec6303f29c7adc5b4975}{LEVEL3\+\_\+\+DATA}} = \char`\"{}level3.\+csv\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către fișierul CSV cu datele pentru Nivelul 3. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a6d5e81003c344bef3fd29d765ff58d90}{MENU\+\_\+\+BUTTONS}} = \char`\"{}sheet\+\_\+but.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru butoanele de meniu. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aa2b1eb37ec7f78abe7a979172d7b93c8}{MENU\+\_\+\+BACKGROUND}} = \char`\"{}menu \+\_\+background.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea de fundal pentru meniul principal. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a013867d87126e7d458db591050ddbcb2}{START\+\_\+\+BACKGROUND}} = \char`\"{}start\+\_\+bg.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea de fundal pentru ecranul de start/introducere nume. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a5b21a00b2bbb16723d832f594f14fa8f}{FRAME\+\_\+\+LOADGAME}} = \char`\"{}frame\+\_\+load\+\_\+game.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea cadrului pentru ecranul de încărcare a jocului. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aea6820793b1ed435a6feb466456c7ac1}{LEVEL\+\_\+\+BUTTONS}} = \char`\"{}level\+\_\+but.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru butoanele de selecție a nivelului. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a8184de4285d2bcdf063801e63586c54e}{ENTER\+\_\+\+NAME\+\_\+\+FRAME}} = \char`\"{}NAME.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea cadrului pentru ecranul de introducere a numelui. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a72e3ba277e160f36f54690249a9bf38a}{NANITE\+\_\+\+JUNGLA}} = \char`\"{}compressed\+\_\+\+Nanite\+\_\+\+Negre\+\_\+\+Jungla.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru Nanite-\/ii din junglă. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aedecf06833e0d21a0149bb140782c31a}{NANITE\+\_\+\+PESTERA}} = \char`\"{}compressed\+\_\+\+Nanite\+\_\+\+Negre\+\_\+\+Pestera.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru Nanite-\/ii din peșteră. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_ac8c7db52a223de672146979797d15832}{GAME\+\_\+\+UI}} = \char`\"{}game UI\+\_\+clean.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea pentru interfața utilizator (HUD). \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_acb609583a584afd71c9c85ff66aca116}{KARAGOR\+\_\+\+SPRITESHEET}} = \char`\"{}karagor\+\_\+compressed\+\_\+spritesheet.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru inamicul Karagor. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aa037bd22e035835c8acca8ebf5e28821}{GREEN\+\_\+\+GEM}} = \char`\"{}green\+\_\+gem.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea pentru piatra prețioasă verde. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a4027a6be7fb51c09c626a98256805d69}{ORANGE\+\_\+\+GEM}} = \char`\"{}orange\+\_\+gem.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea pentru piatra prețioasă portocalie. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a4e647bfa1280cc195ff13084ae55baf3}{PURPLE\+\_\+\+GEM}} = \char`\"{}purple\+\_\+gem.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către imaginea pentru piatra prețioasă mov. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a758764fcbd0314513a70864a5f6e4edc}{BANANA\+\_\+\+SPRITE}} = \char`\"{}banana.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către sprite-\/ul pentru banană (colectabil). \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a3c552356eef21e7eb3d67258e58f852e}{COCONUT\+\_\+\+SPRITE}} = \char`\"{}coconut\+\_\+static.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către sprite-\/ul pentru nuca de cocos statică (colectabil). \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a52fb28b358c8914aa4c36ea741c0cd85}{COCONUT\+\_\+\+THROWABLE\+\_\+\+SPRITE}} = \char`\"{}coconut.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către sprite-\/ul pentru nuca de cocos aruncabilă (proiectil). \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_ace3bb0723ffb62f5c71f1dea72ab9d0f}{GOBLIN\+\_\+\+NOOB\+\_\+\+SPRITESHEET}} = \char`\"{}compressed\+\_\+goblin\+\_\+mob\+\_\+noob.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru Goblinii de tip \char`\"{}noob\char`\"{}. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_ac57c3505df99d50fc4946c6fd361318a}{GOBLIN\+\_\+\+HARD\+\_\+\+SPRITESHEET}} = \char`\"{}compressed\+\_\+goblin\+\_\+mob\+\_\+hard.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru Goblinii de tip \char`\"{}hard\char`\"{}. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_aed2a035e2237b14fc87344aff7f29a1a}{GOBLIN\+\_\+\+BOSS\+\_\+\+SPRITESHEET}} = \char`\"{}compressed\+\_\+goblin\+\_\+boss.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru Goblin Boss. \end{DoxyCompactList}\item 
+static final String \mbox{\hyperlink{classutilz_1_1LoadSave_a61660b327293ed95420a9489bdac759d}{GOLEM\+\_\+\+BOSS\+\_\+\+SPRITESHEET}} = \char`\"{}compressed\+\_\+golem\+\_\+boss\+\_\+purple.\+png\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către spritesheet-\/ul pentru Golem Boss. \end{DoxyCompactList}\item 
+static Buffered\+Image \mbox{\hyperlink{classutilz_1_1LoadSave_a1aa0abacaff8433a1a0d277bf0c5f4da}{BANANA\+\_\+\+IMAGE}}
+\begin{DoxyCompactList}\small\item\em Imaginea preîncărcată pentru banană. \end{DoxyCompactList}\item 
+static Buffered\+Image \mbox{\hyperlink{classutilz_1_1LoadSave_ad10db9619a09ac9c1ddaeb6466b31910}{COCONUT\+\_\+\+IMAGE}}
+\begin{DoxyCompactList}\small\item\em Imaginea preîncărcată pentru nuca de cocos statică (colectabil). \end{DoxyCompactList}\item 
+static Buffered\+Image \mbox{\hyperlink{classutilz_1_1LoadSave_a18fae713ae797f21dcc4ada2097b4c89}{COCONUT\+\_\+\+THROWABLE\+\_\+\+IMAGE}}
+\begin{DoxyCompactList}\small\item\em Imaginea preîncărcată pentru nuca de cocos aruncabilă. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasă utilitară responsabilă pentru încărcarea resurselor jocului, cum ar fi imaginile (sprite atlas-\/uri) și datele nivelurilor din fișiere. 
+
+Conține constante pentru căile către fișierele de resurse și metode statice pentru a accesa aceste resurse. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a27894c348e0faa573e720ca82eeed00f}\label{classutilz_1_1LoadSave_a27894c348e0faa573e720ca82eeed00f}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!getLevelData@{getLevelData}}
+\index{getLevelData@{getLevelData}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{getLevelData()}{getLevelData()}}
+{\footnotesize\ttfamily static int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} utilz.\+Load\+Save.\+get\+Level\+Data (\begin{DoxyParamCaption}\item[{String}]{file\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Încarcă datele unui nivel dintr-\/un fișier CSV specificat. 
+
+Fișierul CSV trebuie să fie localizat în directorul de resurse (\char`\"{}/res/\char`\"{}). Fiecare linie din CSV reprezintă un rând de tile-\/uri, iar valorile sunt separate prin spații.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Calea către fișierul CSV, relativă la directorul \char`\"{}/res/\char`\"{} (de ex., \char`\"{}level1.\+csv\char`\"{}). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O matrice bidimensională de întregi (
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int}[][] }
+
+\end{DoxyCode}
+ ) reprezentând datele nivelului. Returnează un array gol (
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{new} \textcolor{keywordtype}{int}[0][0] }
+
+\end{DoxyCode}
+ ) dacă fișierul nu este găsit sau apare o eroare. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aea10acd9625412c5027bce9987c67990}\label{classutilz_1_1LoadSave_aea10acd9625412c5027bce9987c67990}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!getSpriteAtlas@{getSpriteAtlas}}
+\index{getSpriteAtlas@{getSpriteAtlas}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{getSpriteAtlas()}{getSpriteAtlas()}}
+{\footnotesize\ttfamily static Buffered\+Image utilz.\+Load\+Save.\+get\+Sprite\+Atlas (\begin{DoxyParamCaption}\item[{String}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Încarcă o imagine (sprite atlas) din directorul de resurse. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Numele fișierului imagine (de ex., \char`\"{}player\+\_\+atlas.\+png\char`\"{}). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un obiect \mbox{\hyperlink{}{Buffered\+Image}} reprezentând imaginea încărcată, sau
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+
+\end{DoxyCode}
+ dacă încărcarea eșuează. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a1aa0abacaff8433a1a0d277bf0c5f4da}\label{classutilz_1_1LoadSave_a1aa0abacaff8433a1a0d277bf0c5f4da}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!BANANA\_IMAGE@{BANANA\_IMAGE}}
+\index{BANANA\_IMAGE@{BANANA\_IMAGE}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{BANANA\_IMAGE}{BANANA\_IMAGE}}
+{\footnotesize\ttfamily Buffered\+Image utilz.\+Load\+Save.\+BANANA\+\_\+\+IMAGE\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Imaginea preîncărcată pentru banană. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a758764fcbd0314513a70864a5f6e4edc}\label{classutilz_1_1LoadSave_a758764fcbd0314513a70864a5f6e4edc}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!BANANA\_SPRITE@{BANANA\_SPRITE}}
+\index{BANANA\_SPRITE@{BANANA\_SPRITE}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{BANANA\_SPRITE}{BANANA\_SPRITE}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+BANANA\+\_\+\+SPRITE = \char`\"{}banana.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către sprite-\/ul pentru banană (colectabil). 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_ad10db9619a09ac9c1ddaeb6466b31910}\label{classutilz_1_1LoadSave_ad10db9619a09ac9c1ddaeb6466b31910}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!COCONUT\_IMAGE@{COCONUT\_IMAGE}}
+\index{COCONUT\_IMAGE@{COCONUT\_IMAGE}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{COCONUT\_IMAGE}{COCONUT\_IMAGE}}
+{\footnotesize\ttfamily Buffered\+Image utilz.\+Load\+Save.\+COCONUT\+\_\+\+IMAGE\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Imaginea preîncărcată pentru nuca de cocos statică (colectabil). 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a3c552356eef21e7eb3d67258e58f852e}\label{classutilz_1_1LoadSave_a3c552356eef21e7eb3d67258e58f852e}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!COCONUT\_SPRITE@{COCONUT\_SPRITE}}
+\index{COCONUT\_SPRITE@{COCONUT\_SPRITE}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{COCONUT\_SPRITE}{COCONUT\_SPRITE}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+COCONUT\+\_\+\+SPRITE = \char`\"{}coconut\+\_\+static.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către sprite-\/ul pentru nuca de cocos statică (colectabil). 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a18fae713ae797f21dcc4ada2097b4c89}\label{classutilz_1_1LoadSave_a18fae713ae797f21dcc4ada2097b4c89}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!COCONUT\_THROWABLE\_IMAGE@{COCONUT\_THROWABLE\_IMAGE}}
+\index{COCONUT\_THROWABLE\_IMAGE@{COCONUT\_THROWABLE\_IMAGE}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{COCONUT\_THROWABLE\_IMAGE}{COCONUT\_THROWABLE\_IMAGE}}
+{\footnotesize\ttfamily Buffered\+Image utilz.\+Load\+Save.\+COCONUT\+\_\+\+THROWABLE\+\_\+\+IMAGE\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Imaginea preîncărcată pentru nuca de cocos aruncabilă. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a52fb28b358c8914aa4c36ea741c0cd85}\label{classutilz_1_1LoadSave_a52fb28b358c8914aa4c36ea741c0cd85}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!COCONUT\_THROWABLE\_SPRITE@{COCONUT\_THROWABLE\_SPRITE}}
+\index{COCONUT\_THROWABLE\_SPRITE@{COCONUT\_THROWABLE\_SPRITE}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{COCONUT\_THROWABLE\_SPRITE}{COCONUT\_THROWABLE\_SPRITE}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+COCONUT\+\_\+\+THROWABLE\+\_\+\+SPRITE = \char`\"{}coconut.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către sprite-\/ul pentru nuca de cocos aruncabilă (proiectil). 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a8184de4285d2bcdf063801e63586c54e}\label{classutilz_1_1LoadSave_a8184de4285d2bcdf063801e63586c54e}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!ENTER\_NAME\_FRAME@{ENTER\_NAME\_FRAME}}
+\index{ENTER\_NAME\_FRAME@{ENTER\_NAME\_FRAME}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{ENTER\_NAME\_FRAME}{ENTER\_NAME\_FRAME}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+ENTER\+\_\+\+NAME\+\_\+\+FRAME = \char`\"{}NAME.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea cadrului pentru ecranul de introducere a numelui. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a5b21a00b2bbb16723d832f594f14fa8f}\label{classutilz_1_1LoadSave_a5b21a00b2bbb16723d832f594f14fa8f}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!FRAME\_LOADGAME@{FRAME\_LOADGAME}}
+\index{FRAME\_LOADGAME@{FRAME\_LOADGAME}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{FRAME\_LOADGAME}{FRAME\_LOADGAME}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+FRAME\+\_\+\+LOADGAME = \char`\"{}frame\+\_\+load\+\_\+game.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea cadrului pentru ecranul de încărcare a jocului. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_ac8c7db52a223de672146979797d15832}\label{classutilz_1_1LoadSave_ac8c7db52a223de672146979797d15832}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!GAME\_UI@{GAME\_UI}}
+\index{GAME\_UI@{GAME\_UI}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{GAME\_UI}{GAME\_UI}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+GAME\+\_\+\+UI = \char`\"{}game UI\+\_\+clean.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea pentru interfața utilizator (HUD). 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aed2a035e2237b14fc87344aff7f29a1a}\label{classutilz_1_1LoadSave_aed2a035e2237b14fc87344aff7f29a1a}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!GOBLIN\_BOSS\_SPRITESHEET@{GOBLIN\_BOSS\_SPRITESHEET}}
+\index{GOBLIN\_BOSS\_SPRITESHEET@{GOBLIN\_BOSS\_SPRITESHEET}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{GOBLIN\_BOSS\_SPRITESHEET}{GOBLIN\_BOSS\_SPRITESHEET}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+GOBLIN\+\_\+\+BOSS\+\_\+\+SPRITESHEET = \char`\"{}compressed\+\_\+goblin\+\_\+boss.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru Goblin Boss. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_ac57c3505df99d50fc4946c6fd361318a}\label{classutilz_1_1LoadSave_ac57c3505df99d50fc4946c6fd361318a}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!GOBLIN\_HARD\_SPRITESHEET@{GOBLIN\_HARD\_SPRITESHEET}}
+\index{GOBLIN\_HARD\_SPRITESHEET@{GOBLIN\_HARD\_SPRITESHEET}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{GOBLIN\_HARD\_SPRITESHEET}{GOBLIN\_HARD\_SPRITESHEET}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+GOBLIN\+\_\+\+HARD\+\_\+\+SPRITESHEET = \char`\"{}compressed\+\_\+goblin\+\_\+mob\+\_\+hard.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru Goblinii de tip \char`\"{}hard\char`\"{}. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_ace3bb0723ffb62f5c71f1dea72ab9d0f}\label{classutilz_1_1LoadSave_ace3bb0723ffb62f5c71f1dea72ab9d0f}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!GOBLIN\_NOOB\_SPRITESHEET@{GOBLIN\_NOOB\_SPRITESHEET}}
+\index{GOBLIN\_NOOB\_SPRITESHEET@{GOBLIN\_NOOB\_SPRITESHEET}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{GOBLIN\_NOOB\_SPRITESHEET}{GOBLIN\_NOOB\_SPRITESHEET}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+GOBLIN\+\_\+\+NOOB\+\_\+\+SPRITESHEET = \char`\"{}compressed\+\_\+goblin\+\_\+mob\+\_\+noob.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru Goblinii de tip \char`\"{}noob\char`\"{}. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a61660b327293ed95420a9489bdac759d}\label{classutilz_1_1LoadSave_a61660b327293ed95420a9489bdac759d}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!GOLEM\_BOSS\_SPRITESHEET@{GOLEM\_BOSS\_SPRITESHEET}}
+\index{GOLEM\_BOSS\_SPRITESHEET@{GOLEM\_BOSS\_SPRITESHEET}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{GOLEM\_BOSS\_SPRITESHEET}{GOLEM\_BOSS\_SPRITESHEET}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+GOLEM\+\_\+\+BOSS\+\_\+\+SPRITESHEET = \char`\"{}compressed\+\_\+golem\+\_\+boss\+\_\+purple.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru Golem Boss. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aa037bd22e035835c8acca8ebf5e28821}\label{classutilz_1_1LoadSave_aa037bd22e035835c8acca8ebf5e28821}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!GREEN\_GEM@{GREEN\_GEM}}
+\index{GREEN\_GEM@{GREEN\_GEM}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{GREEN\_GEM}{GREEN\_GEM}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+GREEN\+\_\+\+GEM = \char`\"{}green\+\_\+gem.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea pentru piatra prețioasă verde. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_acb609583a584afd71c9c85ff66aca116}\label{classutilz_1_1LoadSave_acb609583a584afd71c9c85ff66aca116}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!KARAGOR\_SPRITESHEET@{KARAGOR\_SPRITESHEET}}
+\index{KARAGOR\_SPRITESHEET@{KARAGOR\_SPRITESHEET}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{KARAGOR\_SPRITESHEET}{KARAGOR\_SPRITESHEET}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+KARAGOR\+\_\+\+SPRITESHEET = \char`\"{}karagor\+\_\+compressed\+\_\+spritesheet.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru inamicul Karagor. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a22b7fd102dc8aa97c5690244cbf71b50}\label{classutilz_1_1LoadSave_a22b7fd102dc8aa97c5690244cbf71b50}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!KOBA\_RUSH@{KOBA\_RUSH}}
+\index{KOBA\_RUSH@{KOBA\_RUSH}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{KOBA\_RUSH}{KOBA\_RUSH}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+KOBA\+\_\+\+RUSH = \char`\"{}koba\+\_\+compressed\+\_\+spritesheet\+\_\+cristal.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către atlasul de sprite-\/uri pentru Koba în starea \char`\"{}\+Crystal Rush\char`\"{}. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a4dae9f8f0e6407905859a34f9ffd6e1f}\label{classutilz_1_1LoadSave_a4dae9f8f0e6407905859a34f9ffd6e1f}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL1\_ATLAS@{LEVEL1\_ATLAS}}
+\index{LEVEL1\_ATLAS@{LEVEL1\_ATLAS}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL1\_ATLAS}{LEVEL1\_ATLAS}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL1\+\_\+\+ATLAS = \char`\"{}Tileset\+\_\+niv1.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către atlasul de tile-\/uri pentru Nivelul 1. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a8306bcb39c121aa4bac9a4849e2bbd88}\label{classutilz_1_1LoadSave_a8306bcb39c121aa4bac9a4849e2bbd88}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL1\_BACKGROUND@{LEVEL1\_BACKGROUND}}
+\index{LEVEL1\_BACKGROUND@{LEVEL1\_BACKGROUND}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL1\_BACKGROUND}{LEVEL1\_BACKGROUND}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL1\+\_\+\+BACKGROUND = \char`\"{}lvl1\+\_\+bg.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea de fundal pentru Nivelul 1. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aa800da30f9e58cf25b4fd65632cc227d}\label{classutilz_1_1LoadSave_aa800da30f9e58cf25b4fd65632cc227d}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL1\_DATA@{LEVEL1\_DATA}}
+\index{LEVEL1\_DATA@{LEVEL1\_DATA}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL1\_DATA}{LEVEL1\_DATA}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL1\+\_\+\+DATA = \char`\"{}level1.\+csv\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către fișierul CSV cu datele pentru Nivelul 1. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a7986f13f225add7cdd053efa28f044a4}\label{classutilz_1_1LoadSave_a7986f13f225add7cdd053efa28f044a4}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL2\_ATLAS@{LEVEL2\_ATLAS}}
+\index{LEVEL2\_ATLAS@{LEVEL2\_ATLAS}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL2\_ATLAS}{LEVEL2\_ATLAS}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL2\+\_\+\+ATLAS = \char`\"{}Tileset\+\_\+niv2.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către atlasul de tile-\/uri pentru Nivelul 2. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_ab3d1d219d37ef28aae346b0c8097ffe4}\label{classutilz_1_1LoadSave_ab3d1d219d37ef28aae346b0c8097ffe4}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL2\_BACKGROUND@{LEVEL2\_BACKGROUND}}
+\index{LEVEL2\_BACKGROUND@{LEVEL2\_BACKGROUND}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL2\_BACKGROUND}{LEVEL2\_BACKGROUND}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL2\+\_\+\+BACKGROUND = \char`\"{}lvl2\+\_\+bg.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea de fundal pentru Nivelul 2. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_afa22d5d381519246b2d30f03801c1a1e}\label{classutilz_1_1LoadSave_afa22d5d381519246b2d30f03801c1a1e}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL2\_DATA@{LEVEL2\_DATA}}
+\index{LEVEL2\_DATA@{LEVEL2\_DATA}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL2\_DATA}{LEVEL2\_DATA}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL2\+\_\+\+DATA = \char`\"{}level2.\+csv\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către fișierul CSV cu datele pentru Nivelul 2. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a4b5a632c83dcf73ea6d6d764dba84527}\label{classutilz_1_1LoadSave_a4b5a632c83dcf73ea6d6d764dba84527}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL3\_ATLAS@{LEVEL3\_ATLAS}}
+\index{LEVEL3\_ATLAS@{LEVEL3\_ATLAS}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL3\_ATLAS}{LEVEL3\_ATLAS}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL3\+\_\+\+ATLAS = \char`\"{}Tileset\+\_\+niv3.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către atlasul de tile-\/uri pentru Nivelul 3. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_abcf8fd7a7be6b141f338a6565f749729}\label{classutilz_1_1LoadSave_abcf8fd7a7be6b141f338a6565f749729}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL3\_BACKGROUND@{LEVEL3\_BACKGROUND}}
+\index{LEVEL3\_BACKGROUND@{LEVEL3\_BACKGROUND}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL3\_BACKGROUND}{LEVEL3\_BACKGROUND}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL3\+\_\+\+BACKGROUND = \char`\"{}lvl3\+\_\+bg.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea de fundal pentru Nivelul 3. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aea087dd87107ec6303f29c7adc5b4975}\label{classutilz_1_1LoadSave_aea087dd87107ec6303f29c7adc5b4975}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL3\_DATA@{LEVEL3\_DATA}}
+\index{LEVEL3\_DATA@{LEVEL3\_DATA}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL3\_DATA}{LEVEL3\_DATA}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL3\+\_\+\+DATA = \char`\"{}level3.\+csv\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către fișierul CSV cu datele pentru Nivelul 3. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aea6820793b1ed435a6feb466456c7ac1}\label{classutilz_1_1LoadSave_aea6820793b1ed435a6feb466456c7ac1}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!LEVEL\_BUTTONS@{LEVEL\_BUTTONS}}
+\index{LEVEL\_BUTTONS@{LEVEL\_BUTTONS}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{LEVEL\_BUTTONS}{LEVEL\_BUTTONS}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+LEVEL\+\_\+\+BUTTONS = \char`\"{}level\+\_\+but.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru butoanele de selecție a nivelului. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aa2b1eb37ec7f78abe7a979172d7b93c8}\label{classutilz_1_1LoadSave_aa2b1eb37ec7f78abe7a979172d7b93c8}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!MENU\_BACKGROUND@{MENU\_BACKGROUND}}
+\index{MENU\_BACKGROUND@{MENU\_BACKGROUND}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{MENU\_BACKGROUND}{MENU\_BACKGROUND}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+MENU\+\_\+\+BACKGROUND = \char`\"{}menu \+\_\+background.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea de fundal pentru meniul principal. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a6d5e81003c344bef3fd29d765ff58d90}\label{classutilz_1_1LoadSave_a6d5e81003c344bef3fd29d765ff58d90}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!MENU\_BUTTONS@{MENU\_BUTTONS}}
+\index{MENU\_BUTTONS@{MENU\_BUTTONS}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{MENU\_BUTTONS}{MENU\_BUTTONS}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+MENU\+\_\+\+BUTTONS = \char`\"{}sheet\+\_\+but.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru butoanele de meniu. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a72e3ba277e160f36f54690249a9bf38a}\label{classutilz_1_1LoadSave_a72e3ba277e160f36f54690249a9bf38a}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!NANITE\_JUNGLA@{NANITE\_JUNGLA}}
+\index{NANITE\_JUNGLA@{NANITE\_JUNGLA}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{NANITE\_JUNGLA}{NANITE\_JUNGLA}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+NANITE\+\_\+\+JUNGLA = \char`\"{}compressed\+\_\+\+Nanite\+\_\+\+Negre\+\_\+\+Jungla.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru Nanite-\/ii din junglă. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aedecf06833e0d21a0149bb140782c31a}\label{classutilz_1_1LoadSave_aedecf06833e0d21a0149bb140782c31a}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!NANITE\_PESTERA@{NANITE\_PESTERA}}
+\index{NANITE\_PESTERA@{NANITE\_PESTERA}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{NANITE\_PESTERA}{NANITE\_PESTERA}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+NANITE\+\_\+\+PESTERA = \char`\"{}compressed\+\_\+\+Nanite\+\_\+\+Negre\+\_\+\+Pestera.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către spritesheet-\/ul pentru Nanite-\/ii din peșteră. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a4027a6be7fb51c09c626a98256805d69}\label{classutilz_1_1LoadSave_a4027a6be7fb51c09c626a98256805d69}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!ORANGE\_GEM@{ORANGE\_GEM}}
+\index{ORANGE\_GEM@{ORANGE\_GEM}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{ORANGE\_GEM}{ORANGE\_GEM}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+ORANGE\+\_\+\+GEM = \char`\"{}orange\+\_\+gem.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea pentru piatra prețioasă portocalie. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_aef993892e2361e50e106940016cffbcb}\label{classutilz_1_1LoadSave_aef993892e2361e50e106940016cffbcb}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!PLAYER\_ATLAS@{PLAYER\_ATLAS}}
+\index{PLAYER\_ATLAS@{PLAYER\_ATLAS}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{PLAYER\_ATLAS}{PLAYER\_ATLAS}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+PLAYER\+\_\+\+ATLAS = \char`\"{}koba\+\_\+compressed\+\_\+spritesheet.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către atlasul de sprite-\/uri pentru jucător (Koba). 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a4e647bfa1280cc195ff13084ae55baf3}\label{classutilz_1_1LoadSave_a4e647bfa1280cc195ff13084ae55baf3}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!PURPLE\_GEM@{PURPLE\_GEM}}
+\index{PURPLE\_GEM@{PURPLE\_GEM}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{PURPLE\_GEM}{PURPLE\_GEM}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+PURPLE\+\_\+\+GEM = \char`\"{}purple\+\_\+gem.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea pentru piatra prețioasă mov. 
+
+\mbox{\Hypertarget{classutilz_1_1LoadSave_a013867d87126e7d458db591050ddbcb2}\label{classutilz_1_1LoadSave_a013867d87126e7d458db591050ddbcb2}} 
+\index{utilz.LoadSave@{utilz.LoadSave}!START\_BACKGROUND@{START\_BACKGROUND}}
+\index{START\_BACKGROUND@{START\_BACKGROUND}!utilz.LoadSave@{utilz.LoadSave}}
+\doxysubsubsection{\texorpdfstring{START\_BACKGROUND}{START\_BACKGROUND}}
+{\footnotesize\ttfamily final String utilz.\+Load\+Save.\+START\+\_\+\+BACKGROUND = \char`\"{}start\+\_\+bg.\+png\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calea către imaginea de fundal pentru ecranul de start/introducere nume. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/utilz/\mbox{\hyperlink{LoadSave_8java}{Load\+Save.\+java}}\end{DoxyCompactItemize}

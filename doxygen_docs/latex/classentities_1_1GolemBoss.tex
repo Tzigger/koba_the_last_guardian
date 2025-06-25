@@ -1,0 +1,831 @@
+\hypertarget{classentities_1_1GolemBoss}{}\doxysection{entities.\+Golem\+Boss Class Reference}
+\label{classentities_1_1GolemBoss}\index{entities.GolemBoss@{entities.GolemBoss}}
+
+
+Reprezintă entitatea Golem Boss în joc.  
+
+
+
+
+Inheritance diagram for entities.\+Golem\+Boss\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classentities_1_1GolemBoss__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Golem\+Boss\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classentities_1_1GolemBoss__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{enumentities_1_1GolemBoss_1_1ActionState}{Action\+State}}
+\begin{DoxyCompactList}\small\item\em Enumerare pentru stările de acțiune specifice Golem Boss-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1GolemBoss_aa550f217c9031e1140bf9b624d6fa189}{Golem\+Boss}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classentities_1_1GolemBoss_a9e8e65b39ac6a0c4ab981d4dc4a66398}{playing}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a8bcafc4ba4a83a8fdd55ed260464ee60}{update}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data)
+\begin{DoxyCompactList}\small\item\em Actualizează starea Golem Boss-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a0a5f8e0b6eea299f8a2d5e21aa823b35}{set\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GolemBoss_a29cf700400ce578d8097beeb6a824fd0}{level\+Data}})
+\begin{DoxyCompactList}\small\item\em Setează datele nivelului pentru Golem Boss. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a2e2a5f24f6816dc1c0e65d203a3d220f}{render}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Randează Golem Boss-\/ul pe ecran. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GolemBoss_aa4115b7957e9238156c6bc0660a43842}{is\+Alive}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă Golem Boss-\/ul este în viață. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a55f2612999b4234e468f74b6a4b9a33a}{take\+Damage}} (int damage)
+\begin{DoxyCompactList}\small\item\em Aplică daune Golem Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_afcc0586f3c43b9ca71b011babde69458}{get\+Attack\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Returnează daunele de atac ale Golem Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_af57c395b32ae31972b9f1d08162ba9c3}{get\+Current\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea curentă a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_ad020deec38447bfef8b634ce8a5215eb}{get\+Max\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea maximă a Golem Boss-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_af396b813f8cecc43953b74f2bb4ab83a}{direction}} = Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Directions.\+LEFT
+\begin{DoxyCompactList}\small\item\em Direcția curentă a Golem Boss-\/ului (stânga sau dreapta). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a1eb297196131e8a20d2b58d6581abfd2}{load\+Animations}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă animațiile pentru Golem Boss din sprite sheet-\/ul specific. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a62d345b0fe3600427dd6fc99291584a9}{get\+Distance}} (Rectangle2\+D.\+Float r1, Rectangle2\+D.\+Float r2)
+\begin{DoxyCompactList}\small\item\em Calculează distanța euclidiană între centrele a două dreptunghiuri. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_aecd0f6ed7e1c213b8e70a42e00edf9aa}{update\+Player\+Detection}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Actualizează starea de detectare a jucătorului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a8401f65535079e5cb2530c8c6a32fcd3}{handle\+State\+Machine}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Gestionează mașina de stări a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a7480326b2d5e0f5f9b3df6d1437a6a68}{decide\+Next\+Action}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Decide următoarea acțiune a Golem Boss-\/ului când jucătorul este detectat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_aab337a06c138eabd9721584d0aba902c}{initiate\+Melee\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Inițiază un atac melee. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a8e2938f3ba02e604367a9b274763bfb5}{decide\+Idle\+Action}} ()
+\begin{DoxyCompactList}\small\item\em Decide o acțiune aleatorie pentru starea IDLE a Golemului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a29fc0e86c08ac330d7426085ddb369db}{move\+Towards\+Player}} (Rectangle2\+D.\+Float player\+Hitbox, float speed)
+\begin{DoxyCompactList}\small\item\em Mută Golem Boss-\/ul către jucător cu viteza specificată. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_aef934d56e8e1610e6ec4f56aee29101e}{update\+Current\+Melee\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează hitbox-\/ul pentru atacurile melee ale Golemului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a9781f13637a3f8958435552900618ca9}{apply\+Melee\+Damage}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Aplică daune jucătorului dacă atacul melee al Golemului îl lovește. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a318d167d2a4387c2c6893216f83e1c05}{set\+Boss\+Animation}} (\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{Enemy\+\_\+\+Animation\+\_\+\+Rows}} anim\+Type)
+\begin{DoxyCompactList}\small\item\em Setează animația curentă a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_aad2326f62a6d6648917d3e6ea100233e}{apply\+Gravity}} ()
+\begin{DoxyCompactList}\small\item\em Aplică gravitația Golem Boss-\/ului dacă acesta nu se află pe o suprafață solidă. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GolemBoss_a7d1a936571558fc6f1d5595f9789c6ad}{update\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția hitbox-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classentities_1_1GolemBoss_aa6d3672fbedc77e8ad5f1dd9d6cd77c0}{calculate\+Boss\+Hitbox\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Calculează lățimea hitbox-\/ului pentru Golem Boss. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{classentities_1_1GolemBoss_a73f81357c5875f18676733774fb226b4}{calculate\+Boss\+Hitbox\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Calculează înălțimea hitbox-\/ului pentru Golem Boss. \end{DoxyCompactList}\item 
+static Buffered\+Image \mbox{\hyperlink{classentities_1_1GolemBoss_ac175e90476295bc7538f2ce58bcb7b58}{flip\+Image}} (Buffered\+Image image)
+\begin{DoxyCompactList}\small\item\em Inversează (flip) o imagine pe orizontală. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GolemBoss_a7dfbd21780d8555a82447957665f0fbf}{animations}}
+\begin{DoxyCompactList}\small\item\em Matrice bidimensională pentru stocarea animațiilor normale ale boss-\/ului. \end{DoxyCompactList}\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GolemBoss_a208ba6c9ab85282aa1d95ef3f347f0b2}{flipped\+Animations}}
+\begin{DoxyCompactList}\small\item\em Matrice bidimensională pentru stocarea animațiilor inversate (flipped) ale boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_aa9305ded06266492f99c17586e9eac7e}{max\+Health\+Boss}} = 450
+\begin{DoxyCompactList}\small\item\em Sănătatea maximă a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_a155bd9452690b3d7c413cb7e944f59b7}{current\+Health\+Boss}}
+\begin{DoxyCompactList}\small\item\em Sănătatea curentă a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_a1168f00f0e3166c98b26bd4cfb537052}{attack\+Damage\+Boss}} = 20
+\begin{DoxyCompactList}\small\item\em Daunele provocate de atacul Golem Boss-\/ului. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GolemBoss_af55d7e4c895ce6240cdda5ce3e7b3115}{DRAW\+\_\+\+WIDTH}} = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+BOSS\+\_\+\+SPRITE\+\_\+\+SOURCE\+\_\+\+WIDTH\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})
+\begin{DoxyCompactList}\small\item\em Lățimea de desenare a Golem Boss-\/ului, ajustată cu factorul de scalare și scala jocului. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GolemBoss_aa23ac15ddf1ba87faee18ec16385ff0c}{DRAW\+\_\+\+HEIGHT}} = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+BOSS\+\_\+\+SPRITE\+\_\+\+SOURCE\+\_\+\+HEIGHT\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})
+\begin{DoxyCompactList}\small\item\em Înălțimea de desenare a Golem Boss-\/ului, ajustată cu factorul de scalare și scala jocului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a21ba143665fa59682c5a9f9d0db0f0c4}{x\+Draw\+Offset}} = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+X $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}
+\begin{DoxyCompactList}\small\item\em Decalajul pe axa X pentru desenarea sprite-\/ului Golem Boss-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a674c829367ed3c0f40a9fa82e8bfe746}{y\+Draw\+Offset}} = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+Y $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}
+\begin{DoxyCompactList}\small\item\em Decalajul pe axa Y pentru desenarea sprite-\/ului Golem Boss-\/ului. \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GolemBoss_a29cf700400ce578d8097beeb6a824fd0}{level\+Data}}
+\begin{DoxyCompactList}\small\item\em Datele nivelului curent, folosite pentru coliziuni și navigație. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classentities_1_1GolemBoss_a9e8e65b39ac6a0c4ab981d4dc4a66398}{playing}}
+\begin{DoxyCompactList}\small\item\em Referință la starea de joc \char`\"{}\+Playing\char`\"{}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumentities_1_1GolemBoss_1_1ActionState}{Action\+State}} \mbox{\hyperlink{classentities_1_1GolemBoss_a35fe3130ec586c519235517d5cb2817d}{current\+Action\+State}} = \mbox{\hyperlink{enumentities_1_1GolemBoss_1_1ActionState_aad8936c1b79ddf06d80c3dfb7c57b779}{Action\+State.\+IDLE}}
+\begin{DoxyCompactList}\small\item\em Starea de acțiune curentă a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GolemBoss_a293978c4006f29ee1059ed622cbe0d25}{player\+Detected}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă jucătorul a fost detectat de Golem Boss. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a85d9503e1a5c7e8070e732453d8caa14}{detection\+Range}} = 500f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Distanța la care Golem Boss-\/ul poate detecta jucătorul. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a3dd409dde184adf88aca10b439ca93ae}{sight\+Range}} = 600f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Distanța vizuală a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a03bafac0d6e730a0a875d70fa1aebcbd}{melee\+Attack\+Range}}
+\begin{DoxyCompactList}\small\item\em Distanța de la care Golem Boss-\/ul poate efectua un atac melee. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a8a674eacdec16c826cceeb73be4c3794}{walk\+Speed}} = 0.\+4f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de mers a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GolemBoss_a04f9269cc2f88a81c2f8ebaf8e756b3e}{run\+Speed}} = 1.\+2f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de alergare a Golem Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_a2f7cd8d8c9caec53275a7d8656c19427}{action\+Timer}} = 0
+\begin{DoxyCompactList}\small\item\em Cronometru pentru durata acțiunilor curente. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_a6033b919bc0f634d5013f2a8581ea280}{action\+Cooldown}} = 0
+\begin{DoxyCompactList}\small\item\em Cronometru pentru cooldown-\/ul dintre acțiuni. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GolemBoss_a075dac523cc3af798e0b17a3e9259b99}{IDLE\+\_\+\+DURATION\+\_\+\+MIN}} = 80
+\begin{DoxyCompactList}\small\item\em Durata minimă a stării IDLE. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GolemBoss_af7e73b8326d2ae9a8a06f24ea198b486}{IDLE\+\_\+\+DURATION\+\_\+\+MAX}} = 160
+\begin{DoxyCompactList}\small\item\em Durata maximă a stării IDLE. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GolemBoss_abdce10329fb593027e8ab3840da7eda6}{PREPARE\+\_\+\+ATTACK\+\_\+\+DURATION}} = 60
+\begin{DoxyCompactList}\small\item\em Durata pregătirii unui atac (telegraph). \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GolemBoss_aabd8aed14be7c8ceb42b8f399fe1199d}{ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX}} = 120
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul maxim după un atac. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GolemBoss_ab1f641512d2ec1e38178c5a531209c47}{is\+Performing\+Action}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă Golem Boss-\/ul execută o acțiune în prezent. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GolemBoss_ad4cf492cb247c7d8b935abf9dcf3e061}{attack\+Check\+Frame}}
+\begin{DoxyCompactList}\small\item\em Frame-\/ul specific din animația de atac la care se verifică aplicarea daunelor. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GolemBoss_a6e13909228b511c025dee8e3d8f7e6e3}{attack\+Damage\+Applied\+This\+Attack}}
+\begin{DoxyCompactList}\small\item\em Indicator dacă daunele au fost aplicate în timpul atacului curent. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1GolemBoss_a45b9bb06b5e4b54a68fc1d530914a1e5}{current\+Melee\+Hitbox}}
+\begin{DoxyCompactList}\small\item\em Hitbox-\/ul curent pentru atacurile melee. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final float \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} = 3.\+0f
+\begin{DoxyCompactList}\small\item\em Factorul de scalare specific pentru dimensiunile Golem Boss-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă entitatea Golem Boss în joc. 
+
+Această clasă extinde clasa \mbox{\hyperlink{classentities_1_1Enemy}{Enemy}} și definește comportamentul specific și atributele pentru Golem Boss, un inamic puternic cu atacuri devastatoare. Include gestionarea animațiilor, stărilor de acțiune, logicii de atac și interacțiunii cu jucătorul. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aa550f217c9031e1140bf9b624d6fa189}\label{classentities_1_1GolemBoss_aa550f217c9031e1140bf9b624d6fa189}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!GolemBoss@{GolemBoss}}
+\index{GolemBoss@{GolemBoss}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{GolemBoss()}{GolemBoss()}}
+{\footnotesize\ttfamily entities.\+Golem\+Boss.\+Golem\+Boss (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}}]{playing }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1GolemBoss}{Golem\+Boss}}. 
+
+Inițializează Golem Boss-\/ul cu o poziție specifică și o referință la starea de joc \char`\"{}\+Playing\char`\"{}. Setează sănătatea, încarcă animațiile și inițializează hitbox-\/ul. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția inițială pe axa X. \\
+\hline
+{\em y} & Poziția inițială pe axa Y. \\
+\hline
+{\em playing} & Referință la obiectul Playing, pentru interacțiuni cu starea jocului. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aad2326f62a6d6648917d3e6ea100233e}\label{classentities_1_1GolemBoss_aad2326f62a6d6648917d3e6ea100233e}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!applyGravity@{applyGravity}}
+\index{applyGravity@{applyGravity}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{applyGravity()}{applyGravity()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+apply\+Gravity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Aplică gravitația Golem Boss-\/ului dacă acesta nu se află pe o suprafață solidă. 
+
+Golemul este mai greu și cade mai repede. \mbox{\Hypertarget{classentities_1_1GolemBoss_a9781f13637a3f8958435552900618ca9}\label{classentities_1_1GolemBoss_a9781f13637a3f8958435552900618ca9}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!applyMeleeDamage@{applyMeleeDamage}}
+\index{applyMeleeDamage@{applyMeleeDamage}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{applyMeleeDamage()}{applyMeleeDamage()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+apply\+Melee\+Damage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Aplică daune jucătorului dacă atacul melee al Golemului îl lovește. 
+
+Verifică intersecția dintre hitbox-\/ul de atac și hitbox-\/ul jucătorului. Aplică și un efect de knockback puternic jucătorului. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul care poate fi lovit. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a73f81357c5875f18676733774fb226b4}\label{classentities_1_1GolemBoss_a73f81357c5875f18676733774fb226b4}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!calculateBossHitboxHeight@{calculateBossHitboxHeight}}
+\index{calculateBossHitboxHeight@{calculateBossHitboxHeight}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{calculateBossHitboxHeight()}{calculateBossHitboxHeight()}}
+{\footnotesize\ttfamily static int entities.\+Golem\+Boss.\+calculate\+Boss\+Hitbox\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calculează înălțimea hitbox-\/ului pentru Golem Boss. 
+
+Se bazează pe dimensiunile sprite-\/ului sursă și factorii de scalare. \begin{DoxyReturn}{Returns}
+Înălțimea calculată a hitbox-\/ului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aa6d3672fbedc77e8ad5f1dd9d6cd77c0}\label{classentities_1_1GolemBoss_aa6d3672fbedc77e8ad5f1dd9d6cd77c0}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!calculateBossHitboxWidth@{calculateBossHitboxWidth}}
+\index{calculateBossHitboxWidth@{calculateBossHitboxWidth}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{calculateBossHitboxWidth()}{calculateBossHitboxWidth()}}
+{\footnotesize\ttfamily static int entities.\+Golem\+Boss.\+calculate\+Boss\+Hitbox\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calculează lățimea hitbox-\/ului pentru Golem Boss. 
+
+Se bazează pe dimensiunile sprite-\/ului sursă și factorii de scalare. \begin{DoxyReturn}{Returns}
+Lățimea calculată a hitbox-\/ului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a8e2938f3ba02e604367a9b274763bfb5}\label{classentities_1_1GolemBoss_a8e2938f3ba02e604367a9b274763bfb5}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!decideIdleAction@{decideIdleAction}}
+\index{decideIdleAction@{decideIdleAction}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{decideIdleAction()}{decideIdleAction()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+decide\+Idle\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decide o acțiune aleatorie pentru starea IDLE a Golemului. 
+
+Golemul este mai puțin agitat; poate să se întoarcă sau să rămână pe loc. \mbox{\Hypertarget{classentities_1_1GolemBoss_a7480326b2d5e0f5f9b3df6d1437a6a68}\label{classentities_1_1GolemBoss_a7480326b2d5e0f5f9b3df6d1437a6a68}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!decideNextAction@{decideNextAction}}
+\index{decideNextAction@{decideNextAction}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{decideNextAction()}{decideNextAction()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+decide\+Next\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decide următoarea acțiune a Golem Boss-\/ului când jucătorul este detectat. 
+
+Aceasta poate fi un atac, urmărirea jucătorului (mers sau alergare). 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul, pentru a evalua distanța și a lua decizii. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_ac175e90476295bc7538f2ce58bcb7b58}\label{classentities_1_1GolemBoss_ac175e90476295bc7538f2ce58bcb7b58}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!flipImage@{flipImage}}
+\index{flipImage@{flipImage}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{flipImage()}{flipImage()}}
+{\footnotesize\ttfamily static Buffered\+Image entities.\+Golem\+Boss.\+flip\+Image (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Inversează (flip) o imagine pe orizontală. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & Imaginea care trebuie inversată. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Imaginea inversată sau null dacă imaginea de intrare este null. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_afcc0586f3c43b9ca71b011babde69458}\label{classentities_1_1GolemBoss_afcc0586f3c43b9ca71b011babde69458}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!getAttackDamage@{getAttackDamage}}
+\index{getAttackDamage@{getAttackDamage}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{getAttackDamage()}{getAttackDamage()}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+get\+Attack\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează daunele de atac ale Golem Boss-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Daunele de atac. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_af57c395b32ae31972b9f1d08162ba9c3}\label{classentities_1_1GolemBoss_af57c395b32ae31972b9f1d08162ba9c3}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!getCurrentHealth@{getCurrentHealth}}
+\index{getCurrentHealth@{getCurrentHealth}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{getCurrentHealth()}{getCurrentHealth()}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+get\+Current\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea curentă a Golem Boss-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea curentă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a62d345b0fe3600427dd6fc99291584a9}\label{classentities_1_1GolemBoss_a62d345b0fe3600427dd6fc99291584a9}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!getDistance@{getDistance}}
+\index{getDistance@{getDistance}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{getDistance()}{getDistance()}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+get\+Distance (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{r1,  }\item[{Rectangle2\+D.\+Float}]{r2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calculează distanța euclidiană între centrele a două dreptunghiuri. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r1} & Primul dreptunghi. \\
+\hline
+{\em r2} & Al doilea dreptunghi. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Distanța dintre centrele celor două dreptunghiuri. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_ad020deec38447bfef8b634ce8a5215eb}\label{classentities_1_1GolemBoss_ad020deec38447bfef8b634ce8a5215eb}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!getMaxHealth@{getMaxHealth}}
+\index{getMaxHealth@{getMaxHealth}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{getMaxHealth()}{getMaxHealth()}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+get\+Max\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea maximă a Golem Boss-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea maximă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a8401f65535079e5cb2530c8c6a32fcd3}\label{classentities_1_1GolemBoss_a8401f65535079e5cb2530c8c6a32fcd3}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!handleStateMachine@{handleStateMachine}}
+\index{handleStateMachine@{handleStateMachine}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{handleStateMachine()}{handleStateMachine()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+handle\+State\+Machine (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gestionează mașina de stări a Golem Boss-\/ului. 
+
+Determină acțiunile curente și tranzițiile între stări pe baza detectării jucătorului, cooldown-\/urilor și altor condiții specifice Golemului. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul, pentru a lua decizii bazate pe poziția și starea acestuia. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aab337a06c138eabd9721584d0aba902c}\label{classentities_1_1GolemBoss_aab337a06c138eabd9721584d0aba902c}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!initiateMeleeAttack@{initiateMeleeAttack}}
+\index{initiateMeleeAttack@{initiateMeleeAttack}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{initiateMeleeAttack()}{initiateMeleeAttack()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+initiate\+Melee\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițiază un atac melee. 
+
+Golemul poate efectua un \char`\"{}\+Heavy Swing\char`\"{} (animația SLASHING) sau un \char`\"{}\+Ground Stomp\char`\"{} (animația KICKING). Setează animația corespunzătoare, starea de atac și actualizează hitbox-\/ul de atac. \mbox{\Hypertarget{classentities_1_1GolemBoss_aa4115b7957e9238156c6bc0660a43842}\label{classentities_1_1GolemBoss_aa4115b7957e9238156c6bc0660a43842}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!isAlive@{isAlive}}
+\index{isAlive@{isAlive}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{isAlive()}{isAlive()}}
+{\footnotesize\ttfamily boolean entities.\+Golem\+Boss.\+is\+Alive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă Golem Boss-\/ul este în viață. 
+
+\begin{DoxyReturn}{Returns}
+true dacă sănătatea curentă este mai mare decât 0, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a1eb297196131e8a20d2b58d6581abfd2}\label{classentities_1_1GolemBoss_a1eb297196131e8a20d2b58d6581abfd2}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!loadAnimations@{loadAnimations}}
+\index{loadAnimations@{loadAnimations}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{loadAnimations()}{loadAnimations()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+load\+Animations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă animațiile pentru Golem Boss din sprite sheet-\/ul specific. 
+
+Sprite sheet-\/ul este încărcat folosind clasa Load\+Save. Animațiile sunt stocate în matricile {\ttfamily animations} și {\ttfamily flipped\+Animations}. \mbox{\Hypertarget{classentities_1_1GolemBoss_a29fc0e86c08ac330d7426085ddb369db}\label{classentities_1_1GolemBoss_a29fc0e86c08ac330d7426085ddb369db}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!moveTowardsPlayer@{moveTowardsPlayer}}
+\index{moveTowardsPlayer@{moveTowardsPlayer}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{moveTowardsPlayer()}{moveTowardsPlayer()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+move\+Towards\+Player (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox,  }\item[{float}]{speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Mută Golem Boss-\/ul către jucător cu viteza specificată. 
+
+Include verificarea limitelor nivelului. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru a determina direcția. \\
+\hline
+{\em speed} & Viteza cu care se mișcă boss-\/ul. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a2e2a5f24f6816dc1c0e65d203a3d220f}\label{classentities_1_1GolemBoss_a2e2a5f24f6816dc1c0e65d203a3d220f}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!render@{render}}
+\index{render@{render}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+render (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Randează Golem Boss-\/ul pe ecran. 
+
+Desenează animația curentă la poziția corectă, luând în considerare decalajul nivelului. Poate desena și hitbox-\/ul și hitbox-\/ul de atac (dacă {\ttfamily draw\+Hitbox} este true). 
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic pentru desenare. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul pe axa X al nivelului, pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a318d167d2a4387c2c6893216f83e1c05}\label{classentities_1_1GolemBoss_a318d167d2a4387c2c6893216f83e1c05}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!setBossAnimation@{setBossAnimation}}
+\index{setBossAnimation@{setBossAnimation}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{setBossAnimation()}{setBossAnimation()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+set\+Boss\+Animation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{Enemy\+\_\+\+Animation\+\_\+\+Rows}}}]{anim\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Setează animația curentă a Golem Boss-\/ului. 
+
+Resetează indexul și tick-\/ul animației dacă noua animație este diferită. 
+\begin{DoxyParams}{Parameters}
+{\em anim\+Type} & Tipul de animație (rândul din sprite sheet) care trebuie setat. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a0a5f8e0b6eea299f8a2d5e21aa823b35}\label{classentities_1_1GolemBoss_a0a5f8e0b6eea299f8a2d5e21aa823b35}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!setLevelData@{setLevelData}}
+\index{setLevelData@{setLevelData}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{setLevelData()}{setLevelData()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+set\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Setează datele nivelului pentru Golem Boss. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & O matrice bidimensională reprezentând tile-\/urile nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a55f2612999b4234e468f74b6a4b9a33a}\label{classentities_1_1GolemBoss_a55f2612999b4234e468f74b6a4b9a33a}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!takeDamage@{takeDamage}}
+\index{takeDamage@{takeDamage}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{takeDamage()}{takeDamage()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+take\+Damage (\begin{DoxyParamCaption}\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+Aplică daune Golem Boss-\/ului. 
+
+Reduce sănătatea curentă și gestionează tranziția la starea HURT sau DYING. 
+\begin{DoxyParams}{Parameters}
+{\em damage} & Cantitatea de daune primite. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a8bcafc4ba4a83a8fdd55ed260464ee60}\label{classentities_1_1GolemBoss_a8bcafc4ba4a83a8fdd55ed260464ee60}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!update@{update}}
+\index{update@{update}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player,  }\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea Golem Boss-\/ului. 
+
+Aceasta include actualizarea animației, cronometrelor de acțiune, detectarea jucătorului, gestionarea mașinii de stări, aplicarea gravitației și actualizarea hitbox-\/ului. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul, pentru interacțiuni și detectare. \\
+\hline
+{\em lvl\+Data} & Datele nivelului curent, pentru coliziuni. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aef934d56e8e1610e6ec4f56aee29101e}\label{classentities_1_1GolemBoss_aef934d56e8e1610e6ec4f56aee29101e}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!updateCurrentMeleeHitbox@{updateCurrentMeleeHitbox}}
+\index{updateCurrentMeleeHitbox@{updateCurrentMeleeHitbox}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{updateCurrentMeleeHitbox()}{updateCurrentMeleeHitbox()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+update\+Current\+Melee\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează hitbox-\/ul pentru atacurile melee ale Golemului. 
+
+Poziția și dimensiunea hitbox-\/ului de atac depind de tipul de atac (stomp sau swing) și direcția boss-\/ului. \mbox{\Hypertarget{classentities_1_1GolemBoss_a7d1a936571558fc6f1d5595f9789c6ad}\label{classentities_1_1GolemBoss_a7d1a936571558fc6f1d5595f9789c6ad}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!updateHitbox@{updateHitbox}}
+\index{updateHitbox@{updateHitbox}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{updateHitbox()}{updateHitbox()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+update\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția hitbox-\/ului. 
+
+Momentan nu este necesară, deoarece metodele de mișcare actualizează direct {\ttfamily hitbox.\+x} și {\ttfamily hitbox.\+y}. \mbox{\Hypertarget{classentities_1_1GolemBoss_aecd0f6ed7e1c213b8e70a42e00edf9aa}\label{classentities_1_1GolemBoss_aecd0f6ed7e1c213b8e70a42e00edf9aa}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!updatePlayerDetection@{updatePlayerDetection}}
+\index{updatePlayerDetection@{updatePlayerDetection}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{updatePlayerDetection()}{updatePlayerDetection()}}
+{\footnotesize\ttfamily void entities.\+Golem\+Boss.\+update\+Player\+Detection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează starea de detectare a jucătorului. 
+
+Verifică dacă jucătorul se află în raza de vizualizare și setează direcția boss-\/ului către jucător. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul care trebuie detectat. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a6033b919bc0f634d5013f2a8581ea280}\label{classentities_1_1GolemBoss_a6033b919bc0f634d5013f2a8581ea280}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!actionCooldown@{actionCooldown}}
+\index{actionCooldown@{actionCooldown}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{actionCooldown}{actionCooldown}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+action\+Cooldown = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cronometru pentru cooldown-\/ul dintre acțiuni. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a2f7cd8d8c9caec53275a7d8656c19427}\label{classentities_1_1GolemBoss_a2f7cd8d8c9caec53275a7d8656c19427}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!actionTimer@{actionTimer}}
+\index{actionTimer@{actionTimer}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{actionTimer}{actionTimer}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+action\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cronometru pentru durata acțiunilor curente. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a7dfbd21780d8555a82447957665f0fbf}\label{classentities_1_1GolemBoss_a7dfbd21780d8555a82447957665f0fbf}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!animations@{animations}}
+\index{animations@{animations}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{animations}{animations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Golem\+Boss.\+animations\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Matrice bidimensională pentru stocarea animațiilor normale ale boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aabd8aed14be7c8ceb42b8f399fe1199d}\label{classentities_1_1GolemBoss_aabd8aed14be7c8ceb42b8f399fe1199d}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}}
+\index{ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{ATTACK\_COOLDOWN\_MAX}{ATTACK\_COOLDOWN\_MAX}}
+{\footnotesize\ttfamily final int entities.\+Golem\+Boss.\+ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX = 120\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul maxim după un atac. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_ad4cf492cb247c7d8b935abf9dcf3e061}\label{classentities_1_1GolemBoss_ad4cf492cb247c7d8b935abf9dcf3e061}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!attackCheckFrame@{attackCheckFrame}}
+\index{attackCheckFrame@{attackCheckFrame}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{attackCheckFrame}{attackCheckFrame}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+attack\+Check\+Frame\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Frame-\/ul specific din animația de atac la care se verifică aplicarea daunelor. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a6e13909228b511c025dee8e3d8f7e6e3}\label{classentities_1_1GolemBoss_a6e13909228b511c025dee8e3d8f7e6e3}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!attackDamageAppliedThisAttack@{attackDamageAppliedThisAttack}}
+\index{attackDamageAppliedThisAttack@{attackDamageAppliedThisAttack}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{attackDamageAppliedThisAttack}{attackDamageAppliedThisAttack}}
+{\footnotesize\ttfamily boolean entities.\+Golem\+Boss.\+attack\+Damage\+Applied\+This\+Attack\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă daunele au fost aplicate în timpul atacului curent. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a1168f00f0e3166c98b26bd4cfb537052}\label{classentities_1_1GolemBoss_a1168f00f0e3166c98b26bd4cfb537052}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!attackDamageBoss@{attackDamageBoss}}
+\index{attackDamageBoss@{attackDamageBoss}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{attackDamageBoss}{attackDamageBoss}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+attack\+Damage\+Boss = 20\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Daunele provocate de atacul Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}\label{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!BOSS\_SCALE\_FACTOR@{BOSS\_SCALE\_FACTOR}}
+\index{BOSS\_SCALE\_FACTOR@{BOSS\_SCALE\_FACTOR}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{BOSS\_SCALE\_FACTOR}{BOSS\_SCALE\_FACTOR}}
+{\footnotesize\ttfamily final float entities.\+Golem\+Boss.\+BOSS\+\_\+\+SCALE\+\_\+\+FACTOR = 3.\+0f\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Factorul de scalare specific pentru dimensiunile Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a35fe3130ec586c519235517d5cb2817d}\label{classentities_1_1GolemBoss_a35fe3130ec586c519235517d5cb2817d}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!currentActionState@{currentActionState}}
+\index{currentActionState@{currentActionState}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{currentActionState}{currentActionState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumentities_1_1GolemBoss_1_1ActionState}{Action\+State}} entities.\+Golem\+Boss.\+current\+Action\+State = \mbox{\hyperlink{enumentities_1_1GolemBoss_1_1ActionState_aad8936c1b79ddf06d80c3dfb7c57b779}{Action\+State.\+IDLE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Starea de acțiune curentă a Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a155bd9452690b3d7c413cb7e944f59b7}\label{classentities_1_1GolemBoss_a155bd9452690b3d7c413cb7e944f59b7}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!currentHealthBoss@{currentHealthBoss}}
+\index{currentHealthBoss@{currentHealthBoss}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{currentHealthBoss}{currentHealthBoss}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+current\+Health\+Boss\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea curentă a Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a45b9bb06b5e4b54a68fc1d530914a1e5}\label{classentities_1_1GolemBoss_a45b9bb06b5e4b54a68fc1d530914a1e5}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!currentMeleeHitbox@{currentMeleeHitbox}}
+\index{currentMeleeHitbox@{currentMeleeHitbox}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{currentMeleeHitbox}{currentMeleeHitbox}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Golem\+Boss.\+current\+Melee\+Hitbox\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hitbox-\/ul curent pentru atacurile melee. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a85d9503e1a5c7e8070e732453d8caa14}\label{classentities_1_1GolemBoss_a85d9503e1a5c7e8070e732453d8caa14}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!detectionRange@{detectionRange}}
+\index{detectionRange@{detectionRange}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{detectionRange}{detectionRange}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+detection\+Range = 500f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța la care Golem Boss-\/ul poate detecta jucătorul. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_af396b813f8cecc43953b74f2bb4ab83a}\label{classentities_1_1GolemBoss_af396b813f8cecc43953b74f2bb4ab83a}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!direction@{direction}}
+\index{direction@{direction}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{direction}{direction}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+direction = Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Directions.\+LEFT\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Direcția curentă a Golem Boss-\/ului (stânga sau dreapta). 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aa23ac15ddf1ba87faee18ec16385ff0c}\label{classentities_1_1GolemBoss_aa23ac15ddf1ba87faee18ec16385ff0c}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!DRAW\_HEIGHT@{DRAW\_HEIGHT}}
+\index{DRAW\_HEIGHT@{DRAW\_HEIGHT}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{DRAW\_HEIGHT}{DRAW\_HEIGHT}}
+{\footnotesize\ttfamily final int entities.\+Golem\+Boss.\+DRAW\+\_\+\+HEIGHT = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+BOSS\+\_\+\+SPRITE\+\_\+\+SOURCE\+\_\+\+HEIGHT\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Înălțimea de desenare a Golem Boss-\/ului, ajustată cu factorul de scalare și scala jocului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_af55d7e4c895ce6240cdda5ce3e7b3115}\label{classentities_1_1GolemBoss_af55d7e4c895ce6240cdda5ce3e7b3115}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!DRAW\_WIDTH@{DRAW\_WIDTH}}
+\index{DRAW\_WIDTH@{DRAW\_WIDTH}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{DRAW\_WIDTH}{DRAW\_WIDTH}}
+{\footnotesize\ttfamily final int entities.\+Golem\+Boss.\+DRAW\+\_\+\+WIDTH = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+BOSS\+\_\+\+SPRITE\+\_\+\+SOURCE\+\_\+\+WIDTH\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lățimea de desenare a Golem Boss-\/ului, ajustată cu factorul de scalare și scala jocului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a208ba6c9ab85282aa1d95ef3f347f0b2}\label{classentities_1_1GolemBoss_a208ba6c9ab85282aa1d95ef3f347f0b2}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!flippedAnimations@{flippedAnimations}}
+\index{flippedAnimations@{flippedAnimations}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{flippedAnimations}{flippedAnimations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Golem\+Boss.\+flipped\+Animations\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Matrice bidimensională pentru stocarea animațiilor inversate (flipped) ale boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_af7e73b8326d2ae9a8a06f24ea198b486}\label{classentities_1_1GolemBoss_af7e73b8326d2ae9a8a06f24ea198b486}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!IDLE\_DURATION\_MAX@{IDLE\_DURATION\_MAX}}
+\index{IDLE\_DURATION\_MAX@{IDLE\_DURATION\_MAX}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{IDLE\_DURATION\_MAX}{IDLE\_DURATION\_MAX}}
+{\footnotesize\ttfamily final int entities.\+Golem\+Boss.\+IDLE\+\_\+\+DURATION\+\_\+\+MAX = 160\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Durata maximă a stării IDLE. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a075dac523cc3af798e0b17a3e9259b99}\label{classentities_1_1GolemBoss_a075dac523cc3af798e0b17a3e9259b99}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!IDLE\_DURATION\_MIN@{IDLE\_DURATION\_MIN}}
+\index{IDLE\_DURATION\_MIN@{IDLE\_DURATION\_MIN}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{IDLE\_DURATION\_MIN}{IDLE\_DURATION\_MIN}}
+{\footnotesize\ttfamily final int entities.\+Golem\+Boss.\+IDLE\+\_\+\+DURATION\+\_\+\+MIN = 80\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Durata minimă a stării IDLE. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_ab1f641512d2ec1e38178c5a531209c47}\label{classentities_1_1GolemBoss_ab1f641512d2ec1e38178c5a531209c47}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!isPerformingAction@{isPerformingAction}}
+\index{isPerformingAction@{isPerformingAction}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{isPerformingAction}{isPerformingAction}}
+{\footnotesize\ttfamily boolean entities.\+Golem\+Boss.\+is\+Performing\+Action = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă Golem Boss-\/ul execută o acțiune în prezent. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a29cf700400ce578d8097beeb6a824fd0}\label{classentities_1_1GolemBoss_a29cf700400ce578d8097beeb6a824fd0}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Golem\+Boss.\+level\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Datele nivelului curent, folosite pentru coliziuni și navigație. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_aa9305ded06266492f99c17586e9eac7e}\label{classentities_1_1GolemBoss_aa9305ded06266492f99c17586e9eac7e}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!maxHealthBoss@{maxHealthBoss}}
+\index{maxHealthBoss@{maxHealthBoss}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{maxHealthBoss}{maxHealthBoss}}
+{\footnotesize\ttfamily int entities.\+Golem\+Boss.\+max\+Health\+Boss = 450\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea maximă a Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a03bafac0d6e730a0a875d70fa1aebcbd}\label{classentities_1_1GolemBoss_a03bafac0d6e730a0a875d70fa1aebcbd}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!meleeAttackRange@{meleeAttackRange}}
+\index{meleeAttackRange@{meleeAttackRange}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{meleeAttackRange}{meleeAttackRange}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+melee\+Attack\+Range\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța de la care Golem Boss-\/ul poate efectua un atac melee. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a293978c4006f29ee1059ed622cbe0d25}\label{classentities_1_1GolemBoss_a293978c4006f29ee1059ed622cbe0d25}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!playerDetected@{playerDetected}}
+\index{playerDetected@{playerDetected}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{playerDetected}{playerDetected}}
+{\footnotesize\ttfamily boolean entities.\+Golem\+Boss.\+player\+Detected = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă jucătorul a fost detectat de Golem Boss. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a9e8e65b39ac6a0c4ab981d4dc4a66398}\label{classentities_1_1GolemBoss_a9e8e65b39ac6a0c4ab981d4dc4a66398}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!playing@{playing}}
+\index{playing@{playing}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{playing}{playing}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} entities.\+Golem\+Boss.\+playing\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referință la starea de joc \char`\"{}\+Playing\char`\"{}. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_abdce10329fb593027e8ab3840da7eda6}\label{classentities_1_1GolemBoss_abdce10329fb593027e8ab3840da7eda6}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!PREPARE\_ATTACK\_DURATION@{PREPARE\_ATTACK\_DURATION}}
+\index{PREPARE\_ATTACK\_DURATION@{PREPARE\_ATTACK\_DURATION}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{PREPARE\_ATTACK\_DURATION}{PREPARE\_ATTACK\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Golem\+Boss.\+PREPARE\+\_\+\+ATTACK\+\_\+\+DURATION = 60\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Durata pregătirii unui atac (telegraph). 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a04f9269cc2f88a81c2f8ebaf8e756b3e}\label{classentities_1_1GolemBoss_a04f9269cc2f88a81c2f8ebaf8e756b3e}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!runSpeed@{runSpeed}}
+\index{runSpeed@{runSpeed}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{runSpeed}{runSpeed}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+run\+Speed = 1.\+2f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de alergare a Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a3dd409dde184adf88aca10b439ca93ae}\label{classentities_1_1GolemBoss_a3dd409dde184adf88aca10b439ca93ae}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!sightRange@{sightRange}}
+\index{sightRange@{sightRange}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{sightRange}{sightRange}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+sight\+Range = 600f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța vizuală a Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a8a674eacdec16c826cceeb73be4c3794}\label{classentities_1_1GolemBoss_a8a674eacdec16c826cceeb73be4c3794}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!walkSpeed@{walkSpeed}}
+\index{walkSpeed@{walkSpeed}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{walkSpeed}{walkSpeed}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+walk\+Speed = 0.\+4f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mers a Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a21ba143665fa59682c5a9f9d0db0f0c4}\label{classentities_1_1GolemBoss_a21ba143665fa59682c5a9f9d0db0f0c4}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!xDrawOffset@{xDrawOffset}}
+\index{xDrawOffset@{xDrawOffset}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{xDrawOffset}{xDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+x\+Draw\+Offset = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+X $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decalajul pe axa X pentru desenarea sprite-\/ului Golem Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GolemBoss_a674c829367ed3c0f40a9fa82e8bfe746}\label{classentities_1_1GolemBoss_a674c829367ed3c0f40a9fa82e8bfe746}} 
+\index{entities.GolemBoss@{entities.GolemBoss}!yDrawOffset@{yDrawOffset}}
+\index{yDrawOffset@{yDrawOffset}!entities.GolemBoss@{entities.GolemBoss}}
+\doxysubsubsection{\texorpdfstring{yDrawOffset}{yDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Golem\+Boss.\+y\+Draw\+Offset = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+Y $\ast$ \mbox{\hyperlink{classentities_1_1GolemBoss_a9d8ffdd54c57aed43be0e40be2033703}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decalajul pe axa Y pentru desenarea sprite-\/ului Golem Boss-\/ului. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{GolemBoss_8java}{Golem\+Boss.\+java}}\end{DoxyCompactItemize}

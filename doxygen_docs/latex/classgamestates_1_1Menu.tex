@@ -1,0 +1,437 @@
+\hypertarget{classgamestates_1_1Menu}{}\doxysection{gamestates.\+Menu Class Reference}
+\label{classgamestates_1_1Menu}\index{gamestates.Menu@{gamestates.Menu}}
+
+
+Reprezintă starea de joc pentru meniul principal.  
+
+
+
+
+Inheritance diagram for gamestates.\+Menu\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1Menu__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Menu\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1Menu__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Menu_af7598e12d3e750c11e04fcfd18ac3429}{Menu}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Menu}{Menu}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_a197b7d1fdc1aa18db27bdf8d4744e985}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea butoanelor din meniu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_a6325fd53ad48dd879f806daaf6cb945b}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele meniului principal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_aef42befa32239a55e9b577e1e59ec96f}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de click al mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_a98bd4baf41c224dc1fea967335740cec}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_aae9176903dbb1678b14887f492b56651}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de eliberare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_abbe943623b557205df372c0ec4b46279}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de mișcare a mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_a9e9df4215a279120e1a5f1a6fd953090}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_ae7d7997ede03be458b43f650f45325d2}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a tastelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_a95097024db4ec6645ff5494fcb96811e}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a tastei (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_a08842216b96184fa907a0958fb1bc5ae}{set\+Player\+Name}} (String name)
+\begin{DoxyCompactList}\small\item\em Setează numele jucătorului. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classgamestates_1_1Menu_a3876e97c1abbc2f0cee359807e70648b}{get\+Player\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Returnează numele jucătorului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_ad1b555b03e539fec6babc58dcc2eb599}{draw\+Back\+Button}} (Graphics2D g2d)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (X). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_ac2cab93da962d30fa6ac1604c008ee7c}{load\+Start\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea de fundal generală. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_a744e367f5ed3869fda12e9eec2949c17}{load\+Background}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea specifică a cadrului meniului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_af6f30e9e151fe8231908015200d3ea33}{load\+Buttons}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează și poziționează butoanele din meniul principal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Menu_abd8b1accb82556793c60224e00d5d930}{reset\+Buttons}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classgamestates_1_1Menu_a656504c9d0be809cd0613c0a75903915}{player\+Name}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em Numele jucătorului, poate fi afișat în meniu. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classgamestates_1_1Menu_a541bcbd39311f58863ebc58688767fa1}{buttons}} = new \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}}\mbox{[}5\mbox{]}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Menu_afef82b6b3dc6af79a9391e18c3fe1628}{background\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Menu_a05de359200e35d9ad1dfa754b849c1ec}{menuX}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Menu_aa8319a2d1c1b5e0b22884d70f0ae27d3}{startbg\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Menu_a3402bfad82a88cd7b5a8fc2c87c434d9}{startbgX}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Menu_a5aa5c71444f8d6cd8c85aa4c30609fa3}{back\+Button\+Bounds}}
+\item 
+\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classgamestates_1_1Menu_ac148637323388b1d5ad4b9bbc1d9b44b}{previous\+State}} = null
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă starea de joc pentru meniul principal. 
+
+Afișează opțiuni precum \char`\"{}\+Start Joc\char`\"{}, \char`\"{}Încarcă Joc\char`\"{}, \char`\"{}\+Clasament\char`\"{}, \char`\"{}\+Opțiuni\char`\"{} și \char`\"{}\+Ieșire\char`\"{}. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Menu_af7598e12d3e750c11e04fcfd18ac3429}\label{classgamestates_1_1Menu_af7598e12d3e750c11e04fcfd18ac3429}} 
+\index{gamestates.Menu@{gamestates.Menu}!Menu@{Menu}}
+\index{Menu@{Menu}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{Menu()}{Menu()}}
+{\footnotesize\ttfamily gamestates.\+Menu.\+Menu (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Menu}{Menu}}. 
+
+Inițializează butoanele și imaginile de fundal.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Menu_a6325fd53ad48dd879f806daaf6cb945b}\label{classgamestates_1_1Menu_a6325fd53ad48dd879f806daaf6cb945b}} 
+\index{gamestates.Menu@{gamestates.Menu}!draw@{draw}}
+\index{draw@{draw}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează elementele meniului principal. 
+
+Include fundalul, cadrul și butoanele.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_ad1b555b03e539fec6babc58dcc2eb599}\label{classgamestates_1_1Menu_ad1b555b03e539fec6babc58dcc2eb599}} 
+\index{gamestates.Menu@{gamestates.Menu}!drawBackButton@{drawBackButton}}
+\index{drawBackButton@{drawBackButton}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{drawBackButton()}{drawBackButton()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+draw\+Back\+Button (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (X). 
+
+Suprascrie metoda din \mbox{\hyperlink{classgamestates_1_1State}{State}}. 
+\begin{DoxyParams}{Parameters}
+{\em g2d} & Contextul grafic 2D. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}{gamestates.\+State}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a3876e97c1abbc2f0cee359807e70648b}\label{classgamestates_1_1Menu_a3876e97c1abbc2f0cee359807e70648b}} 
+\index{gamestates.Menu@{gamestates.Menu}!getPlayerName@{getPlayerName}}
+\index{getPlayerName@{getPlayerName}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{getPlayerName()}{getPlayerName()}}
+{\footnotesize\ttfamily String gamestates.\+Menu.\+get\+Player\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează numele jucătorului. 
+
+\begin{DoxyReturn}{Returns}
+Numele jucătorului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Menu_ae7d7997ede03be458b43f650f45325d2}\label{classgamestates_1_1Menu_ae7d7997ede03be458b43f650f45325d2}} 
+\index{gamestates.Menu@{gamestates.Menu}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a tastelor. 
+
+Tasta Enter poate fi folosită pentru a începe un joc nou.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a95097024db4ec6645ff5494fcb96811e}\label{classgamestates_1_1Menu_a95097024db4ec6645ff5494fcb96811e}} 
+\index{gamestates.Menu@{gamestates.Menu}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a744e367f5ed3869fda12e9eec2949c17}\label{classgamestates_1_1Menu_a744e367f5ed3869fda12e9eec2949c17}} 
+\index{gamestates.Menu@{gamestates.Menu}!loadBackground@{loadBackground}}
+\index{loadBackground@{loadBackground}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{loadBackground()}{loadBackground()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+load\+Background (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea specifică a cadrului meniului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_af6f30e9e151fe8231908015200d3ea33}\label{classgamestates_1_1Menu_af6f30e9e151fe8231908015200d3ea33}} 
+\index{gamestates.Menu@{gamestates.Menu}!loadButtons@{loadButtons}}
+\index{loadButtons@{loadButtons}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{loadButtons()}{loadButtons()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+load\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează și poziționează butoanele din meniul principal. 
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_ac2cab93da962d30fa6ac1604c008ee7c}\label{classgamestates_1_1Menu_ac2cab93da962d30fa6ac1604c008ee7c}} 
+\index{gamestates.Menu@{gamestates.Menu}!loadStartImg@{loadStartImg}}
+\index{loadStartImg@{loadStartImg}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{loadStartImg()}{loadStartImg()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+load\+Start\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea de fundal generală. 
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_aef42befa32239a55e9b577e1e59ec96f}\label{classgamestates_1_1Menu_aef42befa32239a55e9b577e1e59ec96f}} 
+\index{gamestates.Menu@{gamestates.Menu}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de click al mouse-\/ului (neutilizat). 
+
+Acțiunile sunt gestionate în \mbox{\hyperlink{classgamestates_1_1Menu_a98bd4baf41c224dc1fea967335740cec}{mouse\+Pressed(\+Mouse\+Event)}} și \mbox{\hyperlink{classgamestates_1_1Menu_aae9176903dbb1678b14887f492b56651}{mouse\+Released(\+Mouse\+Event)}}. 
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a9e9df4215a279120e1a5f1a6fd953090}\label{classgamestates_1_1Menu_a9e9df4215a279120e1a5f1a6fd953090}} 
+\index{gamestates.Menu@{gamestates.Menu}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_abbe943623b557205df372c0ec4b46279}\label{classgamestates_1_1Menu_abbe943623b557205df372c0ec4b46279}} 
+\index{gamestates.Menu@{gamestates.Menu}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de mișcare a mouse-\/ului. 
+
+Setează starea \char`\"{}mouse over\char`\"{} pentru butoanele interactive.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a98bd4baf41c224dc1fea967335740cec}\label{classgamestates_1_1Menu_a98bd4baf41c224dc1fea967335740cec}} 
+\index{gamestates.Menu@{gamestates.Menu}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a butonului mouse-\/ului. 
+
+Setează starea de apăsare pentru butoanele interactive și gestionează butonul \char`\"{}\+X\char`\"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_aae9176903dbb1678b14887f492b56651}\label{classgamestates_1_1Menu_aae9176903dbb1678b14887f492b56651}} 
+\index{gamestates.Menu@{gamestates.Menu}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de eliberare a butonului mouse-\/ului. 
+
+Aplică starea de joc corespunzătoare butonului apăsat. Setează starea anterioară pentru ecranele de Opțiuni și Încarcă Joc. Resetează jocul dacă se intră în starea PLAYING.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_abd8b1accb82556793c60224e00d5d930}\label{classgamestates_1_1Menu_abd8b1accb82556793c60224e00d5d930}} 
+\index{gamestates.Menu@{gamestates.Menu}!resetButtons@{resetButtons}}
+\index{resetButtons@{resetButtons}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{resetButtons()}{resetButtons()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+reset\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a08842216b96184fa907a0958fb1bc5ae}\label{classgamestates_1_1Menu_a08842216b96184fa907a0958fb1bc5ae}} 
+\index{gamestates.Menu@{gamestates.Menu}!setPlayerName@{setPlayerName}}
+\index{setPlayerName@{setPlayerName}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{setPlayerName()}{setPlayerName()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+set\+Player\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+
+
+Setează numele jucătorului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Numele jucătorului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Menu_a197b7d1fdc1aa18db27bdf8d4744e985}\label{classgamestates_1_1Menu_a197b7d1fdc1aa18db27bdf8d4744e985}} 
+\index{gamestates.Menu@{gamestates.Menu}!update@{update}}
+\index{update@{update}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Menu.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea butoanelor din meniu. 
+
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Menu_a5aa5c71444f8d6cd8c85aa4c30609fa3}\label{classgamestates_1_1Menu_a5aa5c71444f8d6cd8c85aa4c30609fa3}} 
+\index{gamestates.Menu@{gamestates.Menu}!backButtonBounds@{backButtonBounds}}
+\index{backButtonBounds@{backButtonBounds}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{backButtonBounds}{backButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Menu.\+back\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_afef82b6b3dc6af79a9391e18c3fe1628}\label{classgamestates_1_1Menu_afef82b6b3dc6af79a9391e18c3fe1628}} 
+\index{gamestates.Menu@{gamestates.Menu}!backgroundImg@{backgroundImg}}
+\index{backgroundImg@{backgroundImg}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{backgroundImg}{backgroundImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Menu.\+background\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a541bcbd39311f58863ebc58688767fa1}\label{classgamestates_1_1Menu_a541bcbd39311f58863ebc58688767fa1}} 
+\index{gamestates.Menu@{gamestates.Menu}!buttons@{buttons}}
+\index{buttons@{buttons}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{buttons}{buttons}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}} \mbox{[}$\,$\mbox{]} gamestates.\+Menu.\+buttons = new \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}}\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a05de359200e35d9ad1dfa754b849c1ec}\label{classgamestates_1_1Menu_a05de359200e35d9ad1dfa754b849c1ec}} 
+\index{gamestates.Menu@{gamestates.Menu}!menuX@{menuX}}
+\index{menuX@{menuX}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{menuX}{menuX}}
+{\footnotesize\ttfamily int gamestates.\+Menu.\+menuX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a656504c9d0be809cd0613c0a75903915}\label{classgamestates_1_1Menu_a656504c9d0be809cd0613c0a75903915}} 
+\index{gamestates.Menu@{gamestates.Menu}!playerName@{playerName}}
+\index{playerName@{playerName}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{playerName}{playerName}}
+{\footnotesize\ttfamily String gamestates.\+Menu.\+player\+Name = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numele jucătorului, poate fi afișat în meniu. 
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_ac148637323388b1d5ad4b9bbc1d9b44b}\label{classgamestates_1_1Menu_ac148637323388b1d5ad4b9bbc1d9b44b}} 
+\index{gamestates.Menu@{gamestates.Menu}!previousState@{previousState}}
+\index{previousState@{previousState}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{previousState}{previousState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} gamestates.\+Menu.\+previous\+State = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_aa8319a2d1c1b5e0b22884d70f0ae27d3}\label{classgamestates_1_1Menu_aa8319a2d1c1b5e0b22884d70f0ae27d3}} 
+\index{gamestates.Menu@{gamestates.Menu}!startbgImg@{startbgImg}}
+\index{startbgImg@{startbgImg}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{startbgImg}{startbgImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Menu.\+startbg\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Menu_a3402bfad82a88cd7b5a8fc2c87c434d9}\label{classgamestates_1_1Menu_a3402bfad82a88cd7b5a8fc2c87c434d9}} 
+\index{gamestates.Menu@{gamestates.Menu}!startbgX@{startbgX}}
+\index{startbgX@{startbgX}!gamestates.Menu@{gamestates.Menu}}
+\doxysubsubsection{\texorpdfstring{startbgX}{startbgX}}
+{\footnotesize\ttfamily int gamestates.\+Menu.\+startbgX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{Menu_8java}{Menu.\+java}}\end{DoxyCompactItemize}

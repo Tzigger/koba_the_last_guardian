@@ -1,0 +1,941 @@
+\hypertarget{classentities_1_1GoblinBoss}{}\doxysection{entities.\+Goblin\+Boss Class Reference}
+\label{classentities_1_1GoblinBoss}\index{entities.GoblinBoss@{entities.GoblinBoss}}
+
+
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss în joc.  
+
+
+
+
+Inheritance diagram for entities.\+Goblin\+Boss\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=191pt]{classentities_1_1GoblinBoss__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Goblin\+Boss\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classentities_1_1GoblinBoss__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{enumentities_1_1GoblinBoss_1_1ActionState}{Action\+State}}
+\begin{DoxyCompactList}\small\item\em Enumerare pentru stările de acțiune posibile ale \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1GoblinBoss_a0377e94be5d47fe870c86267b9fef35c}{Goblin\+Boss}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classentities_1_1GoblinBoss_a91b635f95bbeae0a5f9110ca595ee4cc}{playing}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_ac09b84fbdcb4c60d3ed4ba51e2613a05}{update}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data)
+\begin{DoxyCompactList}\small\item\em Actualizează starea \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a341635db3f94d88411da7f4e927cf75f}{set\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GoblinBoss_aa28f3c7388ed7419d0d746666207dea1}{level\+Data}})
+\begin{DoxyCompactList}\small\item\em Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_abfe29f280e51339174d99a32393a1ac8}{render}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Randează \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul pe ecran. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GoblinBoss_a20a6e2751d32272985a097bc07d14c09}{is\+Alive}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul este în viață. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_ae38934d138cfeb2d6dea3cfb869740dc}{take\+Damage}} (int damage)
+\begin{DoxyCompactList}\small\item\em Aplică daune \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_ae7fd3b014003e233954cfb92e4305a61}{get\+Attack\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Returnează daunele de atac ale \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_a59233ad3802352410da5e084bfacafbc}{get\+Current\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_a7b5b490686f82d9a567c068d1958b627}{get\+Max\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea maximă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_a4177a946962e49ac3a25796079171dca}{direction}} = Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Directions.\+LEFT
+\begin{DoxyCompactList}\small\item\em Direcția curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului (stânga sau dreapta). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_a6c17e410b7193b5aaba671703375b588}{get\+Distance}} (Rectangle2\+D.\+Float r1, Rectangle2\+D.\+Float r2)
+\begin{DoxyCompactList}\small\item\em Calculează distanța euclidiană între centrele a două dreptunghiuri. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a94adc92fc2a40de416975ba9cc830792}{load\+Animations}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă animațiile pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss din sprite sheet. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_aefda3047a9e0934638750fd62dd718c3}{update\+Player\+Detection}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Actualizează starea de detectare a jucătorului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_ad810e9caf2f97d15cb967d32ba7a327b}{handle\+State\+Machine}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Gestionează mașina de stări a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a2b5755ddd19ebcfe707a89cc9a62ad10}{decide\+Next\+Action}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Decide următoarea acțiune a boss-\/ului când jucătorul este detectat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a5179a49496f6c5f068eed98917750a62}{initiate\+Melee\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Inițiază un atac melee standard (lovitură sau picior). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a2c865a1ed77c0a32347757877e68cc70}{initiate\+Run\+Slash\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Inițiază un atac de tip \char`\"{}run slash\char`\"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a875157e04684656a080cd381a321be05}{initiate\+Reposition}} (boolean prefer\+Fast\+Slide)
+\begin{DoxyCompactList}\small\item\em Inițiază o acțiune de repoziționare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a8dc98ffdf546f6a0cf4a8dfd24128ee2}{initiate\+Slide\+Reposition}} ()
+\begin{DoxyCompactList}\small\item\em Inițiază o repoziționare prin alunecare (slide). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a6c6b371f685d5a65032f58a6ca7463cf}{initiate\+Walk\+Reposition}} ()
+\begin{DoxyCompactList}\small\item\em Inițiază o repoziționare prin mers. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_aeae9a56ae8271da1b4e63fa6d8cbd747}{handle\+Reposition\+Movement\+Logic}} (float speed, \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{Enemy\+\_\+\+Animation\+\_\+\+Rows}} anim, float timeout\+Ticks)
+\begin{DoxyCompactList}\small\item\em Gestionează logica de mișcare pentru repoziționare (mers sau alunecare). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_ab2dc1e72c55ee4e0c2ab41f03bd83c35}{decide\+Idle\+Action}} ()
+\begin{DoxyCompactList}\small\item\em Decide o acțiune aleatorie pentru starea IDLE. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a2facd09008e90d4a061bd7ab39cf9fa0}{move\+Towards\+Player}} (Rectangle2\+D.\+Float player\+Hitbox, float speed)
+\begin{DoxyCompactList}\small\item\em Mută \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul către jucător. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a9a4e45aaf047d5286f2a543db19685a1}{update\+Current\+Melee\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează hitbox-\/ul pentru atacurile melee. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a37f867fb558e6f03697a266ab04f4d28}{apply\+Melee\+Damage}} (\mbox{\hyperlink{classentities_1_1Player}{Player}} player)
+\begin{DoxyCompactList}\small\item\em Aplică daune jucătorului dacă atacul melee îl lovește. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a5a14a5270e5f27350011a66e8714b352}{set\+Boss\+Animation}} (\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{Enemy\+\_\+\+Animation\+\_\+\+Rows}} anim\+Type)
+\begin{DoxyCompactList}\small\item\em Setează animația curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_a1772122a66d5322f7b8640cf871ee14c}{apply\+Gravity}} ()
+\begin{DoxyCompactList}\small\item\em Aplică gravitația \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului dacă acesta nu se află pe o suprafață solidă. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1GoblinBoss_ae68a7f329079a5c2ac5a169f375cc048}{update\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția hitbox-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classentities_1_1GoblinBoss_abaa3ed5e371eb79240e0ff80e52975d5}{calculate\+Boss\+Hitbox\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Calculează lățimea hitbox-\/ului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{classentities_1_1GoblinBoss_a4bb07ae33729d3afbd2e60281335f4c0}{calculate\+Boss\+Hitbox\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Calculează înălțimea hitbox-\/ului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. \end{DoxyCompactList}\item 
+static Buffered\+Image \mbox{\hyperlink{classentities_1_1GoblinBoss_a03ccff98a709d9733615b135c0c90c0f}{flip\+Image}} (Buffered\+Image image)
+\begin{DoxyCompactList}\small\item\em Inversează (flip) o imagine pe orizontală. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GoblinBoss_ab28d478228581786b76f33833beeec9a}{animations}}
+\begin{DoxyCompactList}\small\item\em Matrice bidimensională pentru stocarea animațiilor normale ale boss-\/ului. \end{DoxyCompactList}\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GoblinBoss_a39cf2ca5233cada924c19424670a085e}{flipped\+Animations}}
+\begin{DoxyCompactList}\small\item\em Matrice bidimensională pentru stocarea animațiilor inversate (flipped) ale boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_a3e4b6d9bf534fa26894ade6ea879f54c}{max\+Health\+Boss}} = 300
+\begin{DoxyCompactList}\small\item\em Sănătatea maximă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_a03c32403939b7dceced94634052a92c1}{current\+Health\+Boss}}
+\begin{DoxyCompactList}\small\item\em Sănătatea curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_a486674a914676d09960f9009f2d0fd49}{attack\+Damage\+Boss}} = 10
+\begin{DoxyCompactList}\small\item\em Daunele provocate de atacul \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GoblinBoss_a87eb37043fe4f742642795d5a8d26555}{DRAW\+\_\+\+WIDTH}} = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+WIDTH\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})
+\begin{DoxyCompactList}\small\item\em Lățimea de desenare a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului, ajustată cu factorul de scalare și scala jocului. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GoblinBoss_a0ab927281082f37ec6823f0f34cc0afb}{DRAW\+\_\+\+HEIGHT}} = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+HEIGHT\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})
+\begin{DoxyCompactList}\small\item\em Înălțimea de desenare a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului, ajustată cu factorul de scalare și scala jocului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_a2a59e25ff12cd75568d4f55fde9b769e}{x\+Draw\+Offset}} = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+X $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}
+\begin{DoxyCompactList}\small\item\em Decalajul pe axa X pentru desenarea sprite-\/ului \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_a74186bd9557ee6e61c21e8f8f0840ec0}{y\+Draw\+Offset}} = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+Y $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}
+\begin{DoxyCompactList}\small\item\em Decalajul pe axa Y pentru desenarea sprite-\/ului \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1GoblinBoss_aa28f3c7388ed7419d0d746666207dea1}{level\+Data}}
+\begin{DoxyCompactList}\small\item\em Datele nivelului curent, folosite pentru coliziuni și navigație. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classentities_1_1GoblinBoss_a91b635f95bbeae0a5f9110ca595ee4cc}{playing}}
+\begin{DoxyCompactList}\small\item\em Referință la starea de joc \char`\"{}\+Playing\char`\"{}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumentities_1_1GoblinBoss_1_1ActionState}{Action\+State}} \mbox{\hyperlink{classentities_1_1GoblinBoss_afa808cb9713deb3fb396ac7f96308b16}{current\+Action\+State}} = \mbox{\hyperlink{enumentities_1_1GoblinBoss_1_1ActionState_afab71c6fd97bd13336adc4865f327daa}{Action\+State.\+IDLE}}
+\begin{DoxyCompactList}\small\item\em Starea de acțiune curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GoblinBoss_a54c35e59d7b17e8f9873d66e99a806b9}{player\+Detected}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă jucătorul a fost detectat de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_adbf33f4eb49e894b0321b607b8605520}{detection\+Range}} = 450f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Distanța la care \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul poate detecta jucătorul. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_a42edc7513b8cd279839a475b605da9aa}{sight\+Range}} = 500f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Distanța vizuală a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_a4e7e130bd4ad009c2dcff6c8056a9c57}{melee\+Attack\+Range}} = hitbox.\+width $\ast$ 0.\+7f
+\begin{DoxyCompactList}\small\item\em Distanța de la care \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul poate efectua un atac melee. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_a01c156e46cf651139a349ab6d077d179}{walk\+Speed}} = 0.\+6f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de mers a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_ad41ebdd84d369492240e3c34e8d115b7}{run\+Speed}} = 1.\+8f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de alergare a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_a9a70dca2aad6bb9ca5aa14d6e4876374}{slide\+Speed}} = 3.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de alunecare (slide) a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_ab87059c133bfb541b6df0bf8388e677b}{action\+Timer}} = 0
+\begin{DoxyCompactList}\small\item\em Cronometru pentru durata acțiunilor curente. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_ae32ccafe78eaca76999123151c809292}{action\+Cooldown}} = 0
+\begin{DoxyCompactList}\small\item\em Cronometru pentru cooldown-\/ul dintre acțiuni. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GoblinBoss_a4a45a13d6b37b846bfde9007aedf3f73}{IDLE\+\_\+\+DURATION\+\_\+\+MIN}} = 60
+\begin{DoxyCompactList}\small\item\em Durata minimă a stării IDLE. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GoblinBoss_aa8a435898a3e7a0e41341830b5814af7}{IDLE\+\_\+\+DURATION\+\_\+\+MAX}} = 120
+\begin{DoxyCompactList}\small\item\em Durata maximă a stării IDLE. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GoblinBoss_ad2cc7fd6cdff37b3ff44d5a039b6c606}{PREPARE\+\_\+\+ATTACK\+\_\+\+DURATION}} = 45
+\begin{DoxyCompactList}\small\item\em Durata pregătirii unui atac. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GoblinBoss_abdba104023068c87f6451f56b7a0afdb}{ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX}} = 90
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul maxim după un atac. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1GoblinBoss_a63b19de3f6355678bf3ad92bc1d6cd65}{REPOSITION\+\_\+\+COOLDOWN\+\_\+\+MAX}} = 75
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul maxim după o repoziționare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GoblinBoss_ad01dfa68be9a32dd30d708b377a33787}{is\+Performing\+Action}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul execută o acțiune în prezent. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1GoblinBoss_ad710c2eb5f88c5db5f632fa1a5ddc32c}{attack\+Check\+Frame}}
+\begin{DoxyCompactList}\small\item\em Frame-\/ul specific din animația de atac la care se verifică aplicarea daunelor. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1GoblinBoss_a6e11f18fdda92fbfabc9e7f3c98a832f}{attack\+Damage\+Applied\+This\+Attack}}
+\begin{DoxyCompactList}\small\item\em Indicator dacă daunele au fost aplicate în timpul atacului curent. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1GoblinBoss_a0694bf7f038012f3d1709b7d6d8953da}{current\+Melee\+Hitbox}}
+\begin{DoxyCompactList}\small\item\em Hitbox-\/ul curent pentru atacurile melee. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1GoblinBoss_ae61ccab10f44cb703da92cefe2ec8de1}{targetX}}
+\begin{DoxyCompactList}\small\item\em Coordonata X țintă pentru mișcările de repoziționare. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final float \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} = 2.\+0f
+\begin{DoxyCompactList}\small\item\em Factorul de scalare specific pentru dimensiunile \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss în joc. 
+
+Această clasă extinde clasa \mbox{\hyperlink{classentities_1_1Enemy}{Enemy}} și definește comportamentul specific și atributele pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss, inclusiv animațiile, stările de acțiune, logica de atac și interacțiunea cu jucătorul. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a0377e94be5d47fe870c86267b9fef35c}\label{classentities_1_1GoblinBoss_a0377e94be5d47fe870c86267b9fef35c}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!GoblinBoss@{GoblinBoss}}
+\index{GoblinBoss@{GoblinBoss}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{GoblinBoss()}{GoblinBoss()}}
+{\footnotesize\ttfamily entities.\+Goblin\+Boss.\+Goblin\+Boss (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}}]{playing }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1GoblinBoss}{Goblin\+Boss}}. 
+
+Inițializează \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul cu o poziție specifică și o referință la starea de joc \char`\"{}\+Playing\char`\"{}. Setează sănătatea, încarcă animațiile și inițializează hitbox-\/ul. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția inițială pe axa X. \\
+\hline
+{\em y} & Poziția inițială pe axa Y. \\
+\hline
+{\em playing} & Referință la obiectul Playing, pentru interacțiuni cu starea jocului. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a1772122a66d5322f7b8640cf871ee14c}\label{classentities_1_1GoblinBoss_a1772122a66d5322f7b8640cf871ee14c}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!applyGravity@{applyGravity}}
+\index{applyGravity@{applyGravity}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{applyGravity()}{applyGravity()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+apply\+Gravity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Aplică gravitația \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului dacă acesta nu se află pe o suprafață solidă. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a37f867fb558e6f03697a266ab04f4d28}\label{classentities_1_1GoblinBoss_a37f867fb558e6f03697a266ab04f4d28}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!applyMeleeDamage@{applyMeleeDamage}}
+\index{applyMeleeDamage@{applyMeleeDamage}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{applyMeleeDamage()}{applyMeleeDamage()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+apply\+Melee\+Damage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Aplică daune jucătorului dacă atacul melee îl lovește. 
+
+Verifică intersecția dintre hitbox-\/ul de atac și hitbox-\/ul jucătorului. Aplică și un efect de knockback jucătorului. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul care poate fi lovit. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a4bb07ae33729d3afbd2e60281335f4c0}\label{classentities_1_1GoblinBoss_a4bb07ae33729d3afbd2e60281335f4c0}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!calculateBossHitboxHeight@{calculateBossHitboxHeight}}
+\index{calculateBossHitboxHeight@{calculateBossHitboxHeight}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{calculateBossHitboxHeight()}{calculateBossHitboxHeight()}}
+{\footnotesize\ttfamily static int entities.\+Goblin\+Boss.\+calculate\+Boss\+Hitbox\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calculează înălțimea hitbox-\/ului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. 
+
+Aceasta se bazează pe dimensiunile sprite-\/ului sursă și factorii de scalare. \begin{DoxyReturn}{Returns}
+Înălțimea calculată a hitbox-\/ului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_abaa3ed5e371eb79240e0ff80e52975d5}\label{classentities_1_1GoblinBoss_abaa3ed5e371eb79240e0ff80e52975d5}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!calculateBossHitboxWidth@{calculateBossHitboxWidth}}
+\index{calculateBossHitboxWidth@{calculateBossHitboxWidth}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{calculateBossHitboxWidth()}{calculateBossHitboxWidth()}}
+{\footnotesize\ttfamily static int entities.\+Goblin\+Boss.\+calculate\+Boss\+Hitbox\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calculează lățimea hitbox-\/ului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. 
+
+Aceasta se bazează pe dimensiunile sprite-\/ului sursă și factorii de scalare. \begin{DoxyReturn}{Returns}
+Lățimea calculată a hitbox-\/ului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ab2dc1e72c55ee4e0c2ab41f03bd83c35}\label{classentities_1_1GoblinBoss_ab2dc1e72c55ee4e0c2ab41f03bd83c35}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!decideIdleAction@{decideIdleAction}}
+\index{decideIdleAction@{decideIdleAction}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{decideIdleAction()}{decideIdleAction()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+decide\+Idle\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decide o acțiune aleatorie pentru starea IDLE. 
+
+Boss-\/ul poate să se întoarcă, să meargă puțin sau să rămână pe loc. \mbox{\Hypertarget{classentities_1_1GoblinBoss_a2b5755ddd19ebcfe707a89cc9a62ad10}\label{classentities_1_1GoblinBoss_a2b5755ddd19ebcfe707a89cc9a62ad10}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!decideNextAction@{decideNextAction}}
+\index{decideNextAction@{decideNextAction}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{decideNextAction()}{decideNextAction()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+decide\+Next\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decide următoarea acțiune a boss-\/ului când jucătorul este detectat. 
+
+Aceasta poate fi un atac, urmărirea jucătorului sau repoziționarea. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul, pentru a evalua distanța și a lua decizii. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a03ccff98a709d9733615b135c0c90c0f}\label{classentities_1_1GoblinBoss_a03ccff98a709d9733615b135c0c90c0f}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!flipImage@{flipImage}}
+\index{flipImage@{flipImage}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{flipImage()}{flipImage()}}
+{\footnotesize\ttfamily static Buffered\+Image entities.\+Goblin\+Boss.\+flip\+Image (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Inversează (flip) o imagine pe orizontală. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & Imaginea care trebuie inversată. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Imaginea inversată sau null dacă imaginea de intrare este null. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ae7fd3b014003e233954cfb92e4305a61}\label{classentities_1_1GoblinBoss_ae7fd3b014003e233954cfb92e4305a61}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!getAttackDamage@{getAttackDamage}}
+\index{getAttackDamage@{getAttackDamage}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{getAttackDamage()}{getAttackDamage()}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+get\+Attack\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează daunele de atac ale \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Daunele de atac. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a59233ad3802352410da5e084bfacafbc}\label{classentities_1_1GoblinBoss_a59233ad3802352410da5e084bfacafbc}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!getCurrentHealth@{getCurrentHealth}}
+\index{getCurrentHealth@{getCurrentHealth}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{getCurrentHealth()}{getCurrentHealth()}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+get\+Current\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea curentă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a6c17e410b7193b5aaba671703375b588}\label{classentities_1_1GoblinBoss_a6c17e410b7193b5aaba671703375b588}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!getDistance@{getDistance}}
+\index{getDistance@{getDistance}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{getDistance()}{getDistance()}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+get\+Distance (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{r1,  }\item[{Rectangle2\+D.\+Float}]{r2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calculează distanța euclidiană între centrele a două dreptunghiuri. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r1} & Primul dreptunghi. \\
+\hline
+{\em r2} & Al doilea dreptunghi. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Distanța dintre centrele celor două dreptunghiuri. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a7b5b490686f82d9a567c068d1958b627}\label{classentities_1_1GoblinBoss_a7b5b490686f82d9a567c068d1958b627}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!getMaxHealth@{getMaxHealth}}
+\index{getMaxHealth@{getMaxHealth}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{getMaxHealth()}{getMaxHealth()}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+get\+Max\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea maximă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\begin{DoxyReturn}{Returns}
+Sănătatea maximă. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_aeae9a56ae8271da1b4e63fa6d8cbd747}\label{classentities_1_1GoblinBoss_aeae9a56ae8271da1b4e63fa6d8cbd747}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!handleRepositionMovementLogic@{handleRepositionMovementLogic}}
+\index{handleRepositionMovementLogic@{handleRepositionMovementLogic}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{handleRepositionMovementLogic()}{handleRepositionMovementLogic()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+handle\+Reposition\+Movement\+Logic (\begin{DoxyParamCaption}\item[{float}]{speed,  }\item[{\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{Enemy\+\_\+\+Animation\+\_\+\+Rows}}}]{anim,  }\item[{float}]{timeout\+Ticks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gestionează logica de mișcare pentru repoziționare (mers sau alunecare). 
+
+Mută boss-\/ul către {\ttfamily targetX} cu viteza specificată și gestionează timeout-\/ul acțiunii. 
+\begin{DoxyParams}{Parameters}
+{\em speed} & Viteza de mișcare. \\
+\hline
+{\em anim} & Animația care trebuie redată în timpul mișcării. \\
+\hline
+{\em timeout\+Ticks} & Numărul de tick-\/uri după care acțiunea de repoziționare expiră. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ad810e9caf2f97d15cb967d32ba7a327b}\label{classentities_1_1GoblinBoss_ad810e9caf2f97d15cb967d32ba7a327b}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!handleStateMachine@{handleStateMachine}}
+\index{handleStateMachine@{handleStateMachine}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{handleStateMachine()}{handleStateMachine()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+handle\+State\+Machine (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Gestionează mașina de stări a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+Determină acțiunile curente și tranzițiile între stări pe baza detectării jucătorului, cooldown-\/urilor și altor condiții. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul, pentru a lua decizii bazate pe poziția și starea acestuia. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a5179a49496f6c5f068eed98917750a62}\label{classentities_1_1GoblinBoss_a5179a49496f6c5f068eed98917750a62}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!initiateMeleeAttack@{initiateMeleeAttack}}
+\index{initiateMeleeAttack@{initiateMeleeAttack}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{initiateMeleeAttack()}{initiateMeleeAttack()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+initiate\+Melee\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițiază un atac melee standard (lovitură sau picior). 
+
+Setează animația corespunzătoare și starea de atac. \mbox{\Hypertarget{classentities_1_1GoblinBoss_a875157e04684656a080cd381a321be05}\label{classentities_1_1GoblinBoss_a875157e04684656a080cd381a321be05}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!initiateReposition@{initiateReposition}}
+\index{initiateReposition@{initiateReposition}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{initiateReposition()}{initiateReposition()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+initiate\+Reposition (\begin{DoxyParamCaption}\item[{boolean}]{prefer\+Fast\+Slide }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițiază o acțiune de repoziționare. 
+
+Decide dacă repoziționarea va fi o alunecare rapidă sau un mers. 
+\begin{DoxyParams}{Parameters}
+{\em prefer\+Fast\+Slide} & Indică dacă alunecarea rapidă este preferată. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a2c865a1ed77c0a32347757877e68cc70}\label{classentities_1_1GoblinBoss_a2c865a1ed77c0a32347757877e68cc70}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!initiateRunSlashAttack@{initiateRunSlashAttack}}
+\index{initiateRunSlashAttack@{initiateRunSlashAttack}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{initiateRunSlashAttack()}{initiateRunSlashAttack()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+initiate\+Run\+Slash\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițiază un atac de tip \char`\"{}run slash\char`\"{}. 
+
+Setează animația și starea corespunzătoare. \mbox{\Hypertarget{classentities_1_1GoblinBoss_a8dc98ffdf546f6a0cf4a8dfd24128ee2}\label{classentities_1_1GoblinBoss_a8dc98ffdf546f6a0cf4a8dfd24128ee2}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!initiateSlideReposition@{initiateSlideReposition}}
+\index{initiateSlideReposition@{initiateSlideReposition}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{initiateSlideReposition()}{initiateSlideReposition()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+initiate\+Slide\+Reposition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițiază o repoziționare prin alunecare (slide). 
+
+Calculează o poziție țintă și setează starea și animația corespunzătoare. \mbox{\Hypertarget{classentities_1_1GoblinBoss_a6c6b371f685d5a65032f58a6ca7463cf}\label{classentities_1_1GoblinBoss_a6c6b371f685d5a65032f58a6ca7463cf}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!initiateWalkReposition@{initiateWalkReposition}}
+\index{initiateWalkReposition@{initiateWalkReposition}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{initiateWalkReposition()}{initiateWalkReposition()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+initiate\+Walk\+Reposition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițiază o repoziționare prin mers. 
+
+Calculează o poziție țintă și setează starea și animația corespunzătoare. \mbox{\Hypertarget{classentities_1_1GoblinBoss_a20a6e2751d32272985a097bc07d14c09}\label{classentities_1_1GoblinBoss_a20a6e2751d32272985a097bc07d14c09}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!isAlive@{isAlive}}
+\index{isAlive@{isAlive}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{isAlive()}{isAlive()}}
+{\footnotesize\ttfamily boolean entities.\+Goblin\+Boss.\+is\+Alive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul este în viață. 
+
+\begin{DoxyReturn}{Returns}
+true dacă sănătatea curentă este mai mare decât 0, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a94adc92fc2a40de416975ba9cc830792}\label{classentities_1_1GoblinBoss_a94adc92fc2a40de416975ba9cc830792}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!loadAnimations@{loadAnimations}}
+\index{loadAnimations@{loadAnimations}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{loadAnimations()}{loadAnimations()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+load\+Animations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă animațiile pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss din sprite sheet. 
+
+Sprite sheet-\/ul este încărcat folosind clasa Load\+Save. Animațiile sunt stocate în matricile {\ttfamily animations} și {\ttfamily flipped\+Animations}. \mbox{\Hypertarget{classentities_1_1GoblinBoss_a2facd09008e90d4a061bd7ab39cf9fa0}\label{classentities_1_1GoblinBoss_a2facd09008e90d4a061bd7ab39cf9fa0}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!moveTowardsPlayer@{moveTowardsPlayer}}
+\index{moveTowardsPlayer@{moveTowardsPlayer}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{moveTowardsPlayer()}{moveTowardsPlayer()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+move\+Towards\+Player (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox,  }\item[{float}]{speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Mută \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul către jucător. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru a determina direcția. \\
+\hline
+{\em speed} & Viteza cu care se mișcă boss-\/ul. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_abfe29f280e51339174d99a32393a1ac8}\label{classentities_1_1GoblinBoss_abfe29f280e51339174d99a32393a1ac8}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!render@{render}}
+\index{render@{render}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+render (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Randează \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul pe ecran. 
+
+Desenează animația curentă la poziția corectă, luând în considerare decalajul nivelului. Poate desena și hitbox-\/ul dacă {\ttfamily draw\+Hitbox} este true. 
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic pentru desenare. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul pe axa X al nivelului, pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a5a14a5270e5f27350011a66e8714b352}\label{classentities_1_1GoblinBoss_a5a14a5270e5f27350011a66e8714b352}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!setBossAnimation@{setBossAnimation}}
+\index{setBossAnimation@{setBossAnimation}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{setBossAnimation()}{setBossAnimation()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+set\+Boss\+Animation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{Enemy\+\_\+\+Animation\+\_\+\+Rows}}}]{anim\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Setează animația curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+Resetează indexul și tick-\/ul animației dacă noua animație este diferită sau dacă boss-\/ul nu execută o acțiune (pentru a reseta animațiile IDLE). 
+\begin{DoxyParams}{Parameters}
+{\em anim\+Type} & Tipul de animație (rândul din sprite sheet) care trebuie setat. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a341635db3f94d88411da7f4e927cf75f}\label{classentities_1_1GoblinBoss_a341635db3f94d88411da7f4e927cf75f}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!setLevelData@{setLevelData}}
+\index{setLevelData@{setLevelData}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{setLevelData()}{setLevelData()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+set\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & O matrice bidimensională reprezentând tile-\/urile nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ae38934d138cfeb2d6dea3cfb869740dc}\label{classentities_1_1GoblinBoss_ae38934d138cfeb2d6dea3cfb869740dc}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!takeDamage@{takeDamage}}
+\index{takeDamage@{takeDamage}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{takeDamage()}{takeDamage()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+take\+Damage (\begin{DoxyParamCaption}\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+Aplică daune \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+Reduce sănătatea curentă și gestionează tranziția la starea HURT sau DYING. 
+\begin{DoxyParams}{Parameters}
+{\em damage} & Cantitatea de daune primite. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ac09b84fbdcb4c60d3ed4ba51e2613a05}\label{classentities_1_1GoblinBoss_ac09b84fbdcb4c60d3ed4ba51e2613a05}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!update@{update}}
+\index{update@{update}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player,  }\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+Aceasta include actualizarea animației, cronometrelor de acțiune, detectarea jucătorului, gestionarea mașinii de stări, aplicarea gravitației și actualizarea hitbox-\/ului. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul, pentru interacțiuni și detectare. \\
+\hline
+{\em lvl\+Data} & Datele nivelului curent, pentru coliziuni. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a9a4e45aaf047d5286f2a543db19685a1}\label{classentities_1_1GoblinBoss_a9a4e45aaf047d5286f2a543db19685a1}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!updateCurrentMeleeHitbox@{updateCurrentMeleeHitbox}}
+\index{updateCurrentMeleeHitbox@{updateCurrentMeleeHitbox}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{updateCurrentMeleeHitbox()}{updateCurrentMeleeHitbox()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+update\+Current\+Melee\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează hitbox-\/ul pentru atacurile melee. 
+
+Poziția și dimensiunea hitbox-\/ului de atac depind de direcția boss-\/ului. \mbox{\Hypertarget{classentities_1_1GoblinBoss_ae68a7f329079a5c2ac5a169f375cc048}\label{classentities_1_1GoblinBoss_ae68a7f329079a5c2ac5a169f375cc048}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!updateHitbox@{updateHitbox}}
+\index{updateHitbox@{updateHitbox}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{updateHitbox()}{updateHitbox()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+update\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția hitbox-\/ului. 
+
+În implementarea curentă, metodele de mișcare modifică direct {\ttfamily hitbox.\+x} și {\ttfamily hitbox.\+y}, deci această metodă ar putea fi goală sau folosită pentru ajustări fine dacă este necesar. \mbox{\Hypertarget{classentities_1_1GoblinBoss_aefda3047a9e0934638750fd62dd718c3}\label{classentities_1_1GoblinBoss_aefda3047a9e0934638750fd62dd718c3}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!updatePlayerDetection@{updatePlayerDetection}}
+\index{updatePlayerDetection@{updatePlayerDetection}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{updatePlayerDetection()}{updatePlayerDetection()}}
+{\footnotesize\ttfamily void entities.\+Goblin\+Boss.\+update\+Player\+Detection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Player}{Player}}}]{player }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează starea de detectare a jucătorului. 
+
+Verifică dacă jucătorul se află în raza de vizualizare și setează direcția boss-\/ului către jucător. 
+\begin{DoxyParams}{Parameters}
+{\em player} & Jucătorul care trebuie detectat. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ae32ccafe78eaca76999123151c809292}\label{classentities_1_1GoblinBoss_ae32ccafe78eaca76999123151c809292}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!actionCooldown@{actionCooldown}}
+\index{actionCooldown@{actionCooldown}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{actionCooldown}{actionCooldown}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+action\+Cooldown = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cronometru pentru cooldown-\/ul dintre acțiuni. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ab87059c133bfb541b6df0bf8388e677b}\label{classentities_1_1GoblinBoss_ab87059c133bfb541b6df0bf8388e677b}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!actionTimer@{actionTimer}}
+\index{actionTimer@{actionTimer}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{actionTimer}{actionTimer}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+action\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cronometru pentru durata acțiunilor curente. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ab28d478228581786b76f33833beeec9a}\label{classentities_1_1GoblinBoss_ab28d478228581786b76f33833beeec9a}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!animations@{animations}}
+\index{animations@{animations}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{animations}{animations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Goblin\+Boss.\+animations\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Matrice bidimensională pentru stocarea animațiilor normale ale boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_abdba104023068c87f6451f56b7a0afdb}\label{classentities_1_1GoblinBoss_abdba104023068c87f6451f56b7a0afdb}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}}
+\index{ATTACK\_COOLDOWN\_MAX@{ATTACK\_COOLDOWN\_MAX}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{ATTACK\_COOLDOWN\_MAX}{ATTACK\_COOLDOWN\_MAX}}
+{\footnotesize\ttfamily final int entities.\+Goblin\+Boss.\+ATTACK\+\_\+\+COOLDOWN\+\_\+\+MAX = 90\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul maxim după un atac. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ad710c2eb5f88c5db5f632fa1a5ddc32c}\label{classentities_1_1GoblinBoss_ad710c2eb5f88c5db5f632fa1a5ddc32c}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!attackCheckFrame@{attackCheckFrame}}
+\index{attackCheckFrame@{attackCheckFrame}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{attackCheckFrame}{attackCheckFrame}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+attack\+Check\+Frame\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Frame-\/ul specific din animația de atac la care se verifică aplicarea daunelor. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a6e11f18fdda92fbfabc9e7f3c98a832f}\label{classentities_1_1GoblinBoss_a6e11f18fdda92fbfabc9e7f3c98a832f}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!attackDamageAppliedThisAttack@{attackDamageAppliedThisAttack}}
+\index{attackDamageAppliedThisAttack@{attackDamageAppliedThisAttack}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{attackDamageAppliedThisAttack}{attackDamageAppliedThisAttack}}
+{\footnotesize\ttfamily boolean entities.\+Goblin\+Boss.\+attack\+Damage\+Applied\+This\+Attack\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă daunele au fost aplicate în timpul atacului curent. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a486674a914676d09960f9009f2d0fd49}\label{classentities_1_1GoblinBoss_a486674a914676d09960f9009f2d0fd49}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!attackDamageBoss@{attackDamageBoss}}
+\index{attackDamageBoss@{attackDamageBoss}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{attackDamageBoss}{attackDamageBoss}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+attack\+Damage\+Boss = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Daunele provocate de atacul \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}\label{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!BOSS\_SCALE\_FACTOR@{BOSS\_SCALE\_FACTOR}}
+\index{BOSS\_SCALE\_FACTOR@{BOSS\_SCALE\_FACTOR}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{BOSS\_SCALE\_FACTOR}{BOSS\_SCALE\_FACTOR}}
+{\footnotesize\ttfamily final float entities.\+Goblin\+Boss.\+BOSS\+\_\+\+SCALE\+\_\+\+FACTOR = 2.\+0f\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Factorul de scalare specific pentru dimensiunile \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_afa808cb9713deb3fb396ac7f96308b16}\label{classentities_1_1GoblinBoss_afa808cb9713deb3fb396ac7f96308b16}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!currentActionState@{currentActionState}}
+\index{currentActionState@{currentActionState}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{currentActionState}{currentActionState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumentities_1_1GoblinBoss_1_1ActionState}{Action\+State}} entities.\+Goblin\+Boss.\+current\+Action\+State = \mbox{\hyperlink{enumentities_1_1GoblinBoss_1_1ActionState_afab71c6fd97bd13336adc4865f327daa}{Action\+State.\+IDLE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Starea de acțiune curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a03c32403939b7dceced94634052a92c1}\label{classentities_1_1GoblinBoss_a03c32403939b7dceced94634052a92c1}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!currentHealthBoss@{currentHealthBoss}}
+\index{currentHealthBoss@{currentHealthBoss}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{currentHealthBoss}{currentHealthBoss}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+current\+Health\+Boss\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a0694bf7f038012f3d1709b7d6d8953da}\label{classentities_1_1GoblinBoss_a0694bf7f038012f3d1709b7d6d8953da}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!currentMeleeHitbox@{currentMeleeHitbox}}
+\index{currentMeleeHitbox@{currentMeleeHitbox}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{currentMeleeHitbox}{currentMeleeHitbox}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Goblin\+Boss.\+current\+Melee\+Hitbox\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hitbox-\/ul curent pentru atacurile melee. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_adbf33f4eb49e894b0321b607b8605520}\label{classentities_1_1GoblinBoss_adbf33f4eb49e894b0321b607b8605520}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!detectionRange@{detectionRange}}
+\index{detectionRange@{detectionRange}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{detectionRange}{detectionRange}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+detection\+Range = 450f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța la care \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul poate detecta jucătorul. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a4177a946962e49ac3a25796079171dca}\label{classentities_1_1GoblinBoss_a4177a946962e49ac3a25796079171dca}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!direction@{direction}}
+\index{direction@{direction}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{direction}{direction}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+direction = Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Directions.\+LEFT\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Direcția curentă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului (stânga sau dreapta). 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a0ab927281082f37ec6823f0f34cc0afb}\label{classentities_1_1GoblinBoss_a0ab927281082f37ec6823f0f34cc0afb}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!DRAW\_HEIGHT@{DRAW\_HEIGHT}}
+\index{DRAW\_HEIGHT@{DRAW\_HEIGHT}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{DRAW\_HEIGHT}{DRAW\_HEIGHT}}
+{\footnotesize\ttfamily final int entities.\+Goblin\+Boss.\+DRAW\+\_\+\+HEIGHT = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+HEIGHT\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Înălțimea de desenare a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului, ajustată cu factorul de scalare și scala jocului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a87eb37043fe4f742642795d5a8d26555}\label{classentities_1_1GoblinBoss_a87eb37043fe4f742642795d5a8d26555}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!DRAW\_WIDTH@{DRAW\_WIDTH}}
+\index{DRAW\_WIDTH@{DRAW\_WIDTH}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{DRAW\_WIDTH}{DRAW\_WIDTH}}
+{\footnotesize\ttfamily final int entities.\+Goblin\+Boss.\+DRAW\+\_\+\+WIDTH = (int) (Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+WIDTH\+\_\+\+DEFAULT $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lățimea de desenare a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului, ajustată cu factorul de scalare și scala jocului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a39cf2ca5233cada924c19424670a085e}\label{classentities_1_1GoblinBoss_a39cf2ca5233cada924c19424670a085e}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!flippedAnimations@{flippedAnimations}}
+\index{flippedAnimations@{flippedAnimations}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{flippedAnimations}{flippedAnimations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Goblin\+Boss.\+flipped\+Animations\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Matrice bidimensională pentru stocarea animațiilor inversate (flipped) ale boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_aa8a435898a3e7a0e41341830b5814af7}\label{classentities_1_1GoblinBoss_aa8a435898a3e7a0e41341830b5814af7}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!IDLE\_DURATION\_MAX@{IDLE\_DURATION\_MAX}}
+\index{IDLE\_DURATION\_MAX@{IDLE\_DURATION\_MAX}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{IDLE\_DURATION\_MAX}{IDLE\_DURATION\_MAX}}
+{\footnotesize\ttfamily final int entities.\+Goblin\+Boss.\+IDLE\+\_\+\+DURATION\+\_\+\+MAX = 120\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Durata maximă a stării IDLE. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a4a45a13d6b37b846bfde9007aedf3f73}\label{classentities_1_1GoblinBoss_a4a45a13d6b37b846bfde9007aedf3f73}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!IDLE\_DURATION\_MIN@{IDLE\_DURATION\_MIN}}
+\index{IDLE\_DURATION\_MIN@{IDLE\_DURATION\_MIN}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{IDLE\_DURATION\_MIN}{IDLE\_DURATION\_MIN}}
+{\footnotesize\ttfamily final int entities.\+Goblin\+Boss.\+IDLE\+\_\+\+DURATION\+\_\+\+MIN = 60\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Durata minimă a stării IDLE. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ad01dfa68be9a32dd30d708b377a33787}\label{classentities_1_1GoblinBoss_ad01dfa68be9a32dd30d708b377a33787}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!isPerformingAction@{isPerformingAction}}
+\index{isPerformingAction@{isPerformingAction}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{isPerformingAction}{isPerformingAction}}
+{\footnotesize\ttfamily boolean entities.\+Goblin\+Boss.\+is\+Performing\+Action = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul execută o acțiune în prezent. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_aa28f3c7388ed7419d0d746666207dea1}\label{classentities_1_1GoblinBoss_aa28f3c7388ed7419d0d746666207dea1}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Goblin\+Boss.\+level\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Datele nivelului curent, folosite pentru coliziuni și navigație. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a3e4b6d9bf534fa26894ade6ea879f54c}\label{classentities_1_1GoblinBoss_a3e4b6d9bf534fa26894ade6ea879f54c}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!maxHealthBoss@{maxHealthBoss}}
+\index{maxHealthBoss@{maxHealthBoss}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{maxHealthBoss}{maxHealthBoss}}
+{\footnotesize\ttfamily int entities.\+Goblin\+Boss.\+max\+Health\+Boss = 300\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea maximă a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a4e7e130bd4ad009c2dcff6c8056a9c57}\label{classentities_1_1GoblinBoss_a4e7e130bd4ad009c2dcff6c8056a9c57}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!meleeAttackRange@{meleeAttackRange}}
+\index{meleeAttackRange@{meleeAttackRange}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{meleeAttackRange}{meleeAttackRange}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+melee\+Attack\+Range = hitbox.\+width $\ast$ 0.\+7f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța de la care \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ul poate efectua un atac melee. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a54c35e59d7b17e8f9873d66e99a806b9}\label{classentities_1_1GoblinBoss_a54c35e59d7b17e8f9873d66e99a806b9}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!playerDetected@{playerDetected}}
+\index{playerDetected@{playerDetected}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{playerDetected}{playerDetected}}
+{\footnotesize\ttfamily boolean entities.\+Goblin\+Boss.\+player\+Detected = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă jucătorul a fost detectat de \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a91b635f95bbeae0a5f9110ca595ee4cc}\label{classentities_1_1GoblinBoss_a91b635f95bbeae0a5f9110ca595ee4cc}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!playing@{playing}}
+\index{playing@{playing}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{playing}{playing}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} entities.\+Goblin\+Boss.\+playing\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referință la starea de joc \char`\"{}\+Playing\char`\"{}. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ad2cc7fd6cdff37b3ff44d5a039b6c606}\label{classentities_1_1GoblinBoss_ad2cc7fd6cdff37b3ff44d5a039b6c606}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!PREPARE\_ATTACK\_DURATION@{PREPARE\_ATTACK\_DURATION}}
+\index{PREPARE\_ATTACK\_DURATION@{PREPARE\_ATTACK\_DURATION}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{PREPARE\_ATTACK\_DURATION}{PREPARE\_ATTACK\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Goblin\+Boss.\+PREPARE\+\_\+\+ATTACK\+\_\+\+DURATION = 45\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Durata pregătirii unui atac. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a63b19de3f6355678bf3ad92bc1d6cd65}\label{classentities_1_1GoblinBoss_a63b19de3f6355678bf3ad92bc1d6cd65}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!REPOSITION\_COOLDOWN\_MAX@{REPOSITION\_COOLDOWN\_MAX}}
+\index{REPOSITION\_COOLDOWN\_MAX@{REPOSITION\_COOLDOWN\_MAX}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{REPOSITION\_COOLDOWN\_MAX}{REPOSITION\_COOLDOWN\_MAX}}
+{\footnotesize\ttfamily final int entities.\+Goblin\+Boss.\+REPOSITION\+\_\+\+COOLDOWN\+\_\+\+MAX = 75\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul maxim după o repoziționare. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ad41ebdd84d369492240e3c34e8d115b7}\label{classentities_1_1GoblinBoss_ad41ebdd84d369492240e3c34e8d115b7}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!runSpeed@{runSpeed}}
+\index{runSpeed@{runSpeed}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{runSpeed}{runSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+run\+Speed = 1.\+8f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de alergare a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a42edc7513b8cd279839a475b605da9aa}\label{classentities_1_1GoblinBoss_a42edc7513b8cd279839a475b605da9aa}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!sightRange@{sightRange}}
+\index{sightRange@{sightRange}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{sightRange}{sightRange}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+sight\+Range = 500f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța vizuală a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a9a70dca2aad6bb9ca5aa14d6e4876374}\label{classentities_1_1GoblinBoss_a9a70dca2aad6bb9ca5aa14d6e4876374}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!slideSpeed@{slideSpeed}}
+\index{slideSpeed@{slideSpeed}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{slideSpeed}{slideSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+slide\+Speed = 3.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de alunecare (slide) a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_ae61ccab10f44cb703da92cefe2ec8de1}\label{classentities_1_1GoblinBoss_ae61ccab10f44cb703da92cefe2ec8de1}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!targetX@{targetX}}
+\index{targetX@{targetX}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{targetX}{targetX}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+targetX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordonata X țintă pentru mișcările de repoziționare. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a01c156e46cf651139a349ab6d077d179}\label{classentities_1_1GoblinBoss_a01c156e46cf651139a349ab6d077d179}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!walkSpeed@{walkSpeed}}
+\index{walkSpeed@{walkSpeed}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{walkSpeed}{walkSpeed}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+walk\+Speed = 0.\+6f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mers a \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a2a59e25ff12cd75568d4f55fde9b769e}\label{classentities_1_1GoblinBoss_a2a59e25ff12cd75568d4f55fde9b769e}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!xDrawOffset@{xDrawOffset}}
+\index{xDrawOffset@{xDrawOffset}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{xDrawOffset}{xDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+x\+Draw\+Offset = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+X $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decalajul pe axa X pentru desenarea sprite-\/ului \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+\mbox{\Hypertarget{classentities_1_1GoblinBoss_a74186bd9557ee6e61c21e8f8f0840ec0}\label{classentities_1_1GoblinBoss_a74186bd9557ee6e61c21e8f8f0840ec0}} 
+\index{entities.GoblinBoss@{entities.GoblinBoss}!yDrawOffset@{yDrawOffset}}
+\index{yDrawOffset@{yDrawOffset}!entities.GoblinBoss@{entities.GoblinBoss}}
+\doxysubsubsection{\texorpdfstring{yDrawOffset}{yDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Goblin\+Boss.\+y\+Draw\+Offset = Constants.\+Enemy\+Constants.\+GOBLIN\+\_\+\+DRAW\+\_\+\+OFFSET\+\_\+Y $\ast$ \mbox{\hyperlink{classentities_1_1GoblinBoss_a152f60823d7313055b6a5cd9108fe96d}{BOSS\+\_\+\+SCALE\+\_\+\+FACTOR}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decalajul pe axa Y pentru desenarea sprite-\/ului \mbox{\hyperlink{classentities_1_1Goblin}{Goblin}} Boss-\/ului. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{GoblinBoss_8java}{Goblin\+Boss.\+java}}\end{DoxyCompactItemize}

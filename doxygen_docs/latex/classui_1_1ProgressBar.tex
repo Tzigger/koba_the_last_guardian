@@ -1,0 +1,232 @@
+\hypertarget{classui_1_1ProgressBar}{}\doxysection{ui.\+Progress\+Bar Class Reference}
+\label{classui_1_1ProgressBar}\index{ui.ProgressBar@{ui.ProgressBar}}
+
+
+Reprezintă o bară de progres personalizată pentru interfața utilizator.  
+
+
+
+
+Collaboration diagram for ui.\+Progress\+Bar\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classui_1_1ProgressBar__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classui_1_1ProgressBar_a5b32cbd4bbed75e8f1d31393bbac7e3f}{Progress\+Bar}} (int \mbox{\hyperlink{classui_1_1ProgressBar_ae9a5e48fdb3c31ee1ef89cb4b462d3c3}{x}}, int y, int width, int height)
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classui_1_1ProgressBar}{Progress\+Bar}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1ProgressBar_a89087eed2e3225e1e098c99f1be70531}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează bara de progres pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1ProgressBar_ac0eb78d31b9f27fa631d7ed71699d533}{set\+Progress}} (float \mbox{\hyperlink{classui_1_1ProgressBar_a358250af57980c1ab755e45e732dfe65}{progress}})
+\begin{DoxyCompactList}\small\item\em Setează progresul curent al barei. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classui_1_1ProgressBar_a2ad05cc17a76378d6d3a9c0663507025}{get\+Progress}} ()
+\begin{DoxyCompactList}\small\item\em Returnează progresul curent al barei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1ProgressBar_af381fc34c407409dc3e2c1c5c8339653}{set\+Fill\+Color}} (Color color)
+\begin{DoxyCompactList}\small\item\em Setează culoarea de umplere pentru partea de progres a barei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1ProgressBar_af8eded95e9ac095413c7bf0d84ede180}{set\+Position}} (int \mbox{\hyperlink{classui_1_1ProgressBar_ae9a5e48fdb3c31ee1ef89cb4b462d3c3}{x}}, int y)
+\begin{DoxyCompactList}\small\item\em Setează poziția colțului de sus-\/stânga al barei de progres. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1ProgressBar_a3d8b3d8f9e7192c651de68683ba854d8}{set\+Dimensions}} (int width, int height)
+\begin{DoxyCompactList}\small\item\em Setează dimensiunile barei de progres. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classui_1_1ProgressBar_aa691e94e9900a71e9deb14accf83b4ef}{load\+Images}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă imaginea de fundal (\char`\"{}șanțul\char`\"{}) pentru bara de progres. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classui_1_1ProgressBar_ae9a5e48fdb3c31ee1ef89cb4b462d3c3}{x}}
+\item 
+float \mbox{\hyperlink{classui_1_1ProgressBar_a358250af57980c1ab755e45e732dfe65}{progress}}
+\begin{DoxyCompactList}\small\item\em Progresul curent al barei, o valoare între 0.\+0f (0\%) și 1.\+0f (100\%). \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{classui_1_1ProgressBar_adc2456bd551d4251035b6455e5b4c9c2}{groover\+Img}}
+\begin{DoxyCompactList}\small\item\em Imaginea de fundal (\char`\"{}șanțul\char`\"{}) pentru bara de progres. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{classui_1_1ProgressBar_ad6f8f0abae20c38e62cc52daf576c2e0}{fill\+Color}}
+\begin{DoxyCompactList}\small\item\em Culoarea de umplere pentru partea de progres a barei. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă o bară de progres personalizată pentru interfața utilizator. 
+
+Poate fi folosită pentru a afișa diverse tipuri de progres, cum ar fi încărcarea, viața, experiența etc. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classui_1_1ProgressBar_a5b32cbd4bbed75e8f1d31393bbac7e3f}\label{classui_1_1ProgressBar_a5b32cbd4bbed75e8f1d31393bbac7e3f}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!ProgressBar@{ProgressBar}}
+\index{ProgressBar@{ProgressBar}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{ProgressBar()}{ProgressBar()}}
+{\footnotesize\ttfamily ui.\+Progress\+Bar.\+Progress\+Bar (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classui_1_1ProgressBar}{Progress\+Bar}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x a colțului de sus-\/stânga al barei de progres. \\
+\hline
+{\em y} & Poziția y a colțului de sus-\/stânga al barei de progres. \\
+\hline
+{\em width} & Lățimea barei de progres. \\
+\hline
+{\em height} & Înălțimea barei de progres. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classui_1_1ProgressBar_a89087eed2e3225e1e098c99f1be70531}\label{classui_1_1ProgressBar_a89087eed2e3225e1e098c99f1be70531}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!draw@{draw}}
+\index{draw@{draw}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void ui.\+Progress\+Bar.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează bara de progres pe ecran. 
+
+Include fundalul și partea de umplere corespunzătoare progresului.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classui_1_1ProgressBar_a2ad05cc17a76378d6d3a9c0663507025}\label{classui_1_1ProgressBar_a2ad05cc17a76378d6d3a9c0663507025}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!getProgress@{getProgress}}
+\index{getProgress@{getProgress}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{getProgress()}{getProgress()}}
+{\footnotesize\ttfamily float ui.\+Progress\+Bar.\+get\+Progress (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează progresul curent al barei. 
+
+\begin{DoxyReturn}{Returns}
+Progresul (între 0.\+0 și 1.\+0). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classui_1_1ProgressBar_aa691e94e9900a71e9deb14accf83b4ef}\label{classui_1_1ProgressBar_aa691e94e9900a71e9deb14accf83b4ef}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!loadImages@{loadImages}}
+\index{loadImages@{loadImages}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{loadImages()}{loadImages()}}
+{\footnotesize\ttfamily void ui.\+Progress\+Bar.\+load\+Images (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă imaginea de fundal (\char`\"{}șanțul\char`\"{}) pentru bara de progres. 
+
+\mbox{\Hypertarget{classui_1_1ProgressBar_a3d8b3d8f9e7192c651de68683ba854d8}\label{classui_1_1ProgressBar_a3d8b3d8f9e7192c651de68683ba854d8}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!setDimensions@{setDimensions}}
+\index{setDimensions@{setDimensions}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{setDimensions()}{setDimensions()}}
+{\footnotesize\ttfamily void ui.\+Progress\+Bar.\+set\+Dimensions (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Setează dimensiunile barei de progres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & Noua lățime. \\
+\hline
+{\em height} & Noua înălțime. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classui_1_1ProgressBar_af381fc34c407409dc3e2c1c5c8339653}\label{classui_1_1ProgressBar_af381fc34c407409dc3e2c1c5c8339653}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!setFillColor@{setFillColor}}
+\index{setFillColor@{setFillColor}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{setFillColor()}{setFillColor()}}
+{\footnotesize\ttfamily void ui.\+Progress\+Bar.\+set\+Fill\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})}
+
+
+
+Setează culoarea de umplere pentru partea de progres a barei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & Noua culoare de umplere. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classui_1_1ProgressBar_af8eded95e9ac095413c7bf0d84ede180}\label{classui_1_1ProgressBar_af8eded95e9ac095413c7bf0d84ede180}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void ui.\+Progress\+Bar.\+set\+Position (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Setează poziția colțului de sus-\/stânga al barei de progres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Noua coordonată x. \\
+\hline
+{\em y} & Noua coordonată y. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classui_1_1ProgressBar_ac0eb78d31b9f27fa631d7ed71699d533}\label{classui_1_1ProgressBar_ac0eb78d31b9f27fa631d7ed71699d533}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!setProgress@{setProgress}}
+\index{setProgress@{setProgress}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{setProgress()}{setProgress()}}
+{\footnotesize\ttfamily void ui.\+Progress\+Bar.\+set\+Progress (\begin{DoxyParamCaption}\item[{float}]{progress }\end{DoxyParamCaption})}
+
+
+
+Setează progresul curent al barei. 
+
+Valoarea este limitată între 0.\+0f și 1.\+0f.
+
+
+\begin{DoxyParams}{Parameters}
+{\em progress} & Noua valoare a progresului (între 0.\+0 și 1.\+0). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classui_1_1ProgressBar_ad6f8f0abae20c38e62cc52daf576c2e0}\label{classui_1_1ProgressBar_ad6f8f0abae20c38e62cc52daf576c2e0}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!fillColor@{fillColor}}
+\index{fillColor@{fillColor}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{fillColor}{fillColor}}
+{\footnotesize\ttfamily Color ui.\+Progress\+Bar.\+fill\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Culoarea de umplere pentru partea de progres a barei. 
+
+\mbox{\Hypertarget{classui_1_1ProgressBar_adc2456bd551d4251035b6455e5b4c9c2}\label{classui_1_1ProgressBar_adc2456bd551d4251035b6455e5b4c9c2}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!grooverImg@{grooverImg}}
+\index{grooverImg@{grooverImg}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{grooverImg}{grooverImg}}
+{\footnotesize\ttfamily Buffered\+Image ui.\+Progress\+Bar.\+groover\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Imaginea de fundal (\char`\"{}șanțul\char`\"{}) pentru bara de progres. 
+
+\mbox{\Hypertarget{classui_1_1ProgressBar_a358250af57980c1ab755e45e732dfe65}\label{classui_1_1ProgressBar_a358250af57980c1ab755e45e732dfe65}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!progress@{progress}}
+\index{progress@{progress}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{progress}{progress}}
+{\footnotesize\ttfamily float ui.\+Progress\+Bar.\+progress\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Progresul curent al barei, o valoare între 0.\+0f (0\%) și 1.\+0f (100\%). 
+
+\mbox{\Hypertarget{classui_1_1ProgressBar_ae9a5e48fdb3c31ee1ef89cb4b462d3c3}\label{classui_1_1ProgressBar_ae9a5e48fdb3c31ee1ef89cb4b462d3c3}} 
+\index{ui.ProgressBar@{ui.ProgressBar}!x@{x}}
+\index{x@{x}!ui.ProgressBar@{ui.ProgressBar}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int ui.\+Progress\+Bar.\+x\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/ui/\mbox{\hyperlink{ProgressBar_8java}{Progress\+Bar.\+java}}\end{DoxyCompactItemize}

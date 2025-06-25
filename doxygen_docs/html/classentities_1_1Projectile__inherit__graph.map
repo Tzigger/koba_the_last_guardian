@@ -1,0 +1,4 @@
+<map id="entities.Projectile" name="entities.Projectile">
+<area shape="rect" id="node1" title="Reprezintă un proiectil în joc." alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node2" href="$classentities_1_1Entity.html" title="Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici,..." alt="" coords="17,5,130,32"/>
+</map>

@@ -1,0 +1,305 @@
+\hypertarget{classlevels_1_1LevelManager}{}\doxysection{levels.\+Level\+Manager Class Reference}
+\label{classlevels_1_1LevelManager}\index{levels.LevelManager@{levels.LevelManager}}
+
+
+Gestionează încărcarea, desenarea și tranziția între nivelurile jocului.  
+
+
+
+
+Collaboration diagram for levels.\+Level\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlevels_1_1LevelManager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlevels_1_1LevelManager_ae17b2c1a67558546cf3f980c72943d64}{Level\+Manager}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classlevels_1_1LevelManager_a7b00edaa8166f82922078bcdf4ce571e}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classlevels_1_1LevelManager}{Level\+Manager}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1LevelManager_a0dfdbc2c28e3f47da528e764fac53e61}{load\+Level}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Încarcă un nivel specific pe baza numărului său. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1LevelManager_a82039bde1d7187cbe1f7b184ad7e59ac}{draw}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează nivelul curent pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1LevelManager_a7be4035d97ce7aa7ae1fafbf081caf7e}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează logica specifică managerului de niveluri. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1Level}{Level}} \mbox{\hyperlink{classlevels_1_1LevelManager_a4101e4b3409461f9d701674dfc172e7c}{get\+Current\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Returnează obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} curent încărcat. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1LevelManager_a5ee7132f355443717e2082b77fc9b15d}{get\+Current\+Level\+Number}} ()
+\begin{DoxyCompactList}\small\item\em Returnează numărul (indexul) nivelului curent. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classlevels_1_1LevelManager_a67a7b0a1899e8e10a7785da890aa75c4}{next\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Trece la următorul nivel, dacă există. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classlevels_1_1LevelManager_a00b1d5653097253aa7193f72d24ccf2a}{previous\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Trece la nivelul anterior, dacă există. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classlevels_1_1LevelManager_ae67746ae407e19f14944095cd75a7563}{import\+Background\+For\+Level}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Încarcă imaginea de fundal pentru nivelul specificat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1LevelManager_ab7fbf1328ba6941d2709891c61515b10}{import\+Sprites\+For\+Level}} (int level\+Number)
+\begin{DoxyCompactList}\small\item\em Încarcă și prelucrează atlasul de sprite-\/uri (tileset) pentru nivelul specificat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classlevels_1_1LevelManager_a7b00edaa8166f82922078bcdf4ce571e}{game}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classlevels_1_1LevelManager_a3ddcae64ecc22c0ebba431bbf4834348}{level\+Sprite}}
+\begin{DoxyCompactList}\small\item\em Array de imagini pentru tile-\/urile sprite-\/urilor nivelului curent. \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{classlevels_1_1LevelManager_ac942b07d1e40155673a371f262bf9d27}{background\+Image}}
+\begin{DoxyCompactList}\small\item\em Imaginea de fundal pentru nivelul curent. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1Level}{Level}} \mbox{\hyperlink{classlevels_1_1LevelManager_a7fe63349504be4cc5e2e65f41203c701}{current\+Level}}
+\begin{DoxyCompactList}\small\item\em Obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} curent încărcat. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1LevelFactory}{Level\+Factory}} \mbox{\hyperlink{classlevels_1_1LevelManager_a240ce0fdd2fa106615b351bdb6e91ffe}{level\+Factory}}
+\begin{DoxyCompactList}\small\item\em Fabrica utilizată pentru a crea obiecte de tip \mbox{\hyperlink{classlevels_1_1Level}{Level}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1LevelManager_ad15d1a356f2a805698395a3fd29f0510}{current\+Level\+Number}}
+\begin{DoxyCompactList}\small\item\em Numărul (indexul) nivelului curent. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gestionează încărcarea, desenarea și tranziția între nivelurile jocului. 
+
+Utilizează \mbox{\hyperlink{classlevels_1_1LevelFactory}{Level\+Factory}} pentru a crea instanțe de \mbox{\hyperlink{classlevels_1_1Level}{Level}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_ae17b2c1a67558546cf3f980c72943d64}\label{classlevels_1_1LevelManager_ae17b2c1a67558546cf3f980c72943d64}} 
+\index{levels.LevelManager@{levels.LevelManager}!LevelManager@{LevelManager}}
+\index{LevelManager@{LevelManager}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{LevelManager()}{LevelManager()}}
+{\footnotesize\ttfamily levels.\+Level\+Manager.\+Level\+Manager (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classlevels_1_1LevelManager}{Level\+Manager}}. 
+
+Inițializează fabrica de niveluri și încarcă primul nivel implicit.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a82039bde1d7187cbe1f7b184ad7e59ac}\label{classlevels_1_1LevelManager_a82039bde1d7187cbe1f7b184ad7e59ac}} 
+\index{levels.LevelManager@{levels.LevelManager}!draw@{draw}}
+\index{draw@{draw}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void levels.\+Level\+Manager.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Desenează nivelul curent pe ecran. 
+
+Mai întâi desenează imaginea de fundal, apoi tile-\/urile nivelului.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+{\em x\+Lvl\+Offset} & Offset-\/ul orizontal de derulare al nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a4101e4b3409461f9d701674dfc172e7c}\label{classlevels_1_1LevelManager_a4101e4b3409461f9d701674dfc172e7c}} 
+\index{levels.LevelManager@{levels.LevelManager}!getCurrentLevel@{getCurrentLevel}}
+\index{getCurrentLevel@{getCurrentLevel}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{getCurrentLevel()}{getCurrentLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1Level}{Level}} levels.\+Level\+Manager.\+get\+Current\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} curent încărcat. 
+
+\begin{DoxyReturn}{Returns}
+Nivelul curent. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a5ee7132f355443717e2082b77fc9b15d}\label{classlevels_1_1LevelManager_a5ee7132f355443717e2082b77fc9b15d}} 
+\index{levels.LevelManager@{levels.LevelManager}!getCurrentLevelNumber@{getCurrentLevelNumber}}
+\index{getCurrentLevelNumber@{getCurrentLevelNumber}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{getCurrentLevelNumber()}{getCurrentLevelNumber()}}
+{\footnotesize\ttfamily int levels.\+Level\+Manager.\+get\+Current\+Level\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează numărul (indexul) nivelului curent. 
+
+\begin{DoxyReturn}{Returns}
+Numărul nivelului curent. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_ae67746ae407e19f14944095cd75a7563}\label{classlevels_1_1LevelManager_ae67746ae407e19f14944095cd75a7563}} 
+\index{levels.LevelManager@{levels.LevelManager}!importBackgroundForLevel@{importBackgroundForLevel}}
+\index{importBackgroundForLevel@{importBackgroundForLevel}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{importBackgroundForLevel()}{importBackgroundForLevel()}}
+{\footnotesize\ttfamily void levels.\+Level\+Manager.\+import\+Background\+For\+Level (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă imaginea de fundal pentru nivelul specificat. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului pentru care se încarcă fundalul. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_ab7fbf1328ba6941d2709891c61515b10}\label{classlevels_1_1LevelManager_ab7fbf1328ba6941d2709891c61515b10}} 
+\index{levels.LevelManager@{levels.LevelManager}!importSpritesForLevel@{importSpritesForLevel}}
+\index{importSpritesForLevel@{importSpritesForLevel}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{importSpritesForLevel()}{importSpritesForLevel()}}
+{\footnotesize\ttfamily void levels.\+Level\+Manager.\+import\+Sprites\+For\+Level (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și prelucrează atlasul de sprite-\/uri (tileset) pentru nivelul specificat. 
+
+Extrage fiecare tile individual și îl stochează în array-\/ul
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classlevels_1_1LevelManager_a3ddcae64ecc22c0ebba431bbf4834348}{levelSprite}} }
+
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului pentru care se încarcă sprite-\/urile. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a0dfdbc2c28e3f47da528e764fac53e61}\label{classlevels_1_1LevelManager_a0dfdbc2c28e3f47da528e764fac53e61}} 
+\index{levels.LevelManager@{levels.LevelManager}!loadLevel@{loadLevel}}
+\index{loadLevel@{loadLevel}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{loadLevel()}{loadLevel()}}
+{\footnotesize\ttfamily void levels.\+Level\+Manager.\+load\+Level (\begin{DoxyParamCaption}\item[{int}]{level\+Number }\end{DoxyParamCaption})}
+
+
+
+Încarcă un nivel specific pe baza numărului său. 
+
+Importă sprite-\/urile și imaginea de fundal corespunzătoare și creează obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului de încărcat. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a67a7b0a1899e8e10a7785da890aa75c4}\label{classlevels_1_1LevelManager_a67a7b0a1899e8e10a7785da890aa75c4}} 
+\index{levels.LevelManager@{levels.LevelManager}!nextLevel@{nextLevel}}
+\index{nextLevel@{nextLevel}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{nextLevel()}{nextLevel()}}
+{\footnotesize\ttfamily boolean levels.\+Level\+Manager.\+next\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Trece la următorul nivel, dacă există. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă s-\/a trecut la următorul nivel cu succes,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ dacă nu mai sunt niveluri. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a00b1d5653097253aa7193f72d24ccf2a}\label{classlevels_1_1LevelManager_a00b1d5653097253aa7193f72d24ccf2a}} 
+\index{levels.LevelManager@{levels.LevelManager}!previousLevel@{previousLevel}}
+\index{previousLevel@{previousLevel}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{previousLevel()}{previousLevel()}}
+{\footnotesize\ttfamily boolean levels.\+Level\+Manager.\+previous\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Trece la nivelul anterior, dacă există. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă s-\/a trecut la nivelul anterior cu succes,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ dacă nu există un nivel anterior. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a7be4035d97ce7aa7ae1fafbf081caf7e}\label{classlevels_1_1LevelManager_a7be4035d97ce7aa7ae1fafbf081caf7e}} 
+\index{levels.LevelManager@{levels.LevelManager}!update@{update}}
+\index{update@{update}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void levels.\+Level\+Manager.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează logica specifică managerului de niveluri. 
+
+Momentan, nu conține logică de actualizare specifică. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classlevels_1_1LevelManager_ac942b07d1e40155673a371f262bf9d27}\label{classlevels_1_1LevelManager_ac942b07d1e40155673a371f262bf9d27}} 
+\index{levels.LevelManager@{levels.LevelManager}!backgroundImage@{backgroundImage}}
+\index{backgroundImage@{backgroundImage}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{backgroundImage}{backgroundImage}}
+{\footnotesize\ttfamily Buffered\+Image levels.\+Level\+Manager.\+background\+Image\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Imaginea de fundal pentru nivelul curent. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a7fe63349504be4cc5e2e65f41203c701}\label{classlevels_1_1LevelManager_a7fe63349504be4cc5e2e65f41203c701}} 
+\index{levels.LevelManager@{levels.LevelManager}!currentLevel@{currentLevel}}
+\index{currentLevel@{currentLevel}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{currentLevel}{currentLevel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1Level}{Level}} levels.\+Level\+Manager.\+current\+Level\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Obiectul \mbox{\hyperlink{classlevels_1_1Level}{Level}} curent încărcat. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelManager_ad15d1a356f2a805698395a3fd29f0510}\label{classlevels_1_1LevelManager_ad15d1a356f2a805698395a3fd29f0510}} 
+\index{levels.LevelManager@{levels.LevelManager}!currentLevelNumber@{currentLevelNumber}}
+\index{currentLevelNumber@{currentLevelNumber}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{currentLevelNumber}{currentLevelNumber}}
+{\footnotesize\ttfamily int levels.\+Level\+Manager.\+current\+Level\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numărul (indexul) nivelului curent. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a7b00edaa8166f82922078bcdf4ce571e}\label{classlevels_1_1LevelManager_a7b00edaa8166f82922078bcdf4ce571e}} 
+\index{levels.LevelManager@{levels.LevelManager}!game@{game}}
+\index{game@{game}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{game}{game}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1Game}{Game}} levels.\+Level\+Manager.\+game\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a240ce0fdd2fa106615b351bdb6e91ffe}\label{classlevels_1_1LevelManager_a240ce0fdd2fa106615b351bdb6e91ffe}} 
+\index{levels.LevelManager@{levels.LevelManager}!levelFactory@{levelFactory}}
+\index{levelFactory@{levelFactory}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{levelFactory}{levelFactory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1LevelFactory}{Level\+Factory}} levels.\+Level\+Manager.\+level\+Factory\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Fabrica utilizată pentru a crea obiecte de tip \mbox{\hyperlink{classlevels_1_1Level}{Level}}. 
+
+\mbox{\Hypertarget{classlevels_1_1LevelManager_a3ddcae64ecc22c0ebba431bbf4834348}\label{classlevels_1_1LevelManager_a3ddcae64ecc22c0ebba431bbf4834348}} 
+\index{levels.LevelManager@{levels.LevelManager}!levelSprite@{levelSprite}}
+\index{levelSprite@{levelSprite}!levels.LevelManager@{levels.LevelManager}}
+\doxysubsubsection{\texorpdfstring{levelSprite}{levelSprite}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]} levels.\+Level\+Manager.\+level\+Sprite\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Array de imagini pentru tile-\/urile sprite-\/urilor nivelului curent. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/levels/\mbox{\hyperlink{LevelManager_8java}{Level\+Manager.\+java}}\end{DoxyCompactItemize}

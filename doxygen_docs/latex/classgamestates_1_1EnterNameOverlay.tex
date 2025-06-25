@@ -1,0 +1,535 @@
+\hypertarget{classgamestates_1_1EnterNameOverlay}{}\doxysection{gamestates.\+Enter\+Name\+Overlay Class Reference}
+\label{classgamestates_1_1EnterNameOverlay}\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+
+
+Reprezintă un overlay pentru introducerea numelui jucătorului.  
+
+
+
+
+Inheritance diagram for gamestates.\+Enter\+Name\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1EnterNameOverlay__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Enter\+Name\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1EnterNameOverlay__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a57d5bc18ca714687a9538b88678be2bf}{Enter\+Name\+Overlay}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay}{Enter\+Name\+Overlay}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_aac0ec72c77765663888ae9cc8d7759a7}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea overlay-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_afe6e00e8efa750bd0b89e8e367d71c9a}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele overlay-\/ului pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_af26f6d67f057ee9956fd98988ebda2e2}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de click al mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a5b76795907c47c673b89ca643e4a309e}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a6a16cb61013206f54321314a4dcb457f}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de eliberare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a131f155ab992a314bf8688f941ffea39}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de mișcare a mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_ac85b5ad446d4d57d4beda1d01166df0c}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a148b891d3d9e93bd99bfcb8e5c47cd59}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de apăsare a tastelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a10c9a61df14ac4b928f7b941ef45f950}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a tastei (neutilizat). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_aa9f31529c576da26a78317aa24927a27}{load\+Start\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea de fundal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_ad7c29c67e7c1ab82b601e4e6d9ed0f74}{load\+Frame}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea cadrului pentru introducerea numelui. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_abed569b5ac01e1dc79937f6137245b49}{load\+Buttons}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează butonul de start. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a2ab4174a497a2588062a85b39409c24f}{process\+Username}} (String player\+Name)
+\begin{DoxyCompactList}\small\item\em Procesează numele de utilizator introdus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a80f98bf7e65ef0f8adec4c8fdb1e002d}{load\+Custom\+Font}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă fontul personalizat folosit în acest overlay. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a765c63fbc444dfa9247ec647cbf548cc}{startbg\+Img}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a7f812f4356fd1d324444c8e5eb055cc0}{frame\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a7a7e6b120fca59f47f01d016895511df}{startbgX}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a39e66570c8976d848896ae7c3f1005b8}{frameX}}
+\item 
+\mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}} \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a0434b5203991ac4facabc94e2c4f57f9}{start\+Button}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a30f5597d747e6d3f5b2aab32bd91793a}{close\+Button\+Bounds}}
+\item 
+String\+Builder \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_adf0ed70a4cd7134b4140395b5ab1cc5e}{username}} = new String\+Builder()
+\item 
+final int \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a9b4f02bf093de760552af6702e936bc0}{MAX\+\_\+\+NAME\+\_\+\+LENGTH}} = 15
+\begin{DoxyCompactList}\small\item\em Lungimea maximă permisă pentru numele de utilizator. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a9122d0a509f4ed3f551d77ff6339e666}{input\+Active}} = true
+\begin{DoxyCompactList}\small\item\em Indică dacă input-\/ul de la tastatură este activ pentru acest overlay. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a6c271f1e0d7fe5e076eb645ac84c338e}{previous\+State}} = null
+\item 
+Font \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a1eccc4ff935197d2f0ee9e461407bbda}{airstrike\+Font}}
+\item 
+String \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a085500b6648c69fdbf026014901ecbb3}{error\+Message}} = \char`\"{}\char`\"{}
+\item 
+boolean \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a6633e1d53049efefb8ffa827a5052286}{show\+Load\+Prompt}} = false
+\begin{DoxyCompactList}\small\item\em Indică dacă se afișează prompt-\/ul pentru încărcarea unui joc salvat existent. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_aa11b5fd8270a7f3ff85380a0af186da3}{yes\+Button}} = new Rectangle(775, 650, 100, 40)
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_adfbab3e320de99dd6c0f28ea50caa781}{no\+Button}} = new Rectangle(925, 650, 100, 40)
+\item 
+int \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_ab0e65d8db15a29e5e1482a82c73e62b7}{existing\+Level}} = 0
+\begin{DoxyCompactList}\small\item\em Numele tabelului principal pentru progresul jucătorului (neutilizat direct, se folosește username-\/ul). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_aadd2848f395c51e4092875299885d2f8}{existing\+Score}} = 0
+\item 
+int \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_ae60f4fb9d4ca5eac7f091fc0e13f29fe}{existing\+Health}} = 0
+\item 
+int \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a37cc0f9c97e8bd8eaac16e4f393c574b}{existing\+Coconuts}} = 0
+\item 
+float \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_a97ec2e6f2f3cddf452e0d4b6abe67b17}{existing\+PosX}} = 0
+\item 
+float \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_ab752f93e7995b29b754ed7224c459e67}{existing\+PosY}} = 0
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay_ab88fa7b1de3af6df719450c244fb6cdb}{DB\+\_\+\+FILE}} = \char`\"{}data/gamedatabase.\+db\char`\"{}
+\begin{DoxyCompactList}\small\item\em Calea către fișierul bazei de date. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă un overlay pentru introducerea numelui jucătorului. 
+
+Această stare permite jucătorului să introducă un nume, care este apoi folosit pentru a salva sau încărca progresul jocului. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a57d5bc18ca714687a9538b88678be2bf}\label{classgamestates_1_1EnterNameOverlay_a57d5bc18ca714687a9538b88678be2bf}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!EnterNameOverlay@{EnterNameOverlay}}
+\index{EnterNameOverlay@{EnterNameOverlay}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{EnterNameOverlay()}{EnterNameOverlay()}}
+{\footnotesize\ttfamily gamestates.\+Enter\+Name\+Overlay.\+Enter\+Name\+Overlay (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay}{Enter\+Name\+Overlay}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_afe6e00e8efa750bd0b89e8e367d71c9a}\label{classgamestates_1_1EnterNameOverlay_afe6e00e8efa750bd0b89e8e367d71c9a}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!draw@{draw}}
+\index{draw@{draw}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează elementele overlay-\/ului pe ecran. 
+
+Include fundalul, cadrul, câmpul pentru nume, mesajele de eroare și prompt-\/ul de încărcare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a148b891d3d9e93bd99bfcb8e5c47cd59}\label{classgamestates_1_1EnterNameOverlay_a148b891d3d9e93bd99bfcb8e5c47cd59}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de apăsare a tastelor. 
+
+Permite introducerea numelui de utilizator, ștergerea caracterelor (Backspace) și confirmarea numelui (Enter).
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a10c9a61df14ac4b928f7b941ef45f950}\label{classgamestates_1_1EnterNameOverlay_a10c9a61df14ac4b928f7b941ef45f950}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_abed569b5ac01e1dc79937f6137245b49}\label{classgamestates_1_1EnterNameOverlay_abed569b5ac01e1dc79937f6137245b49}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!loadButtons@{loadButtons}}
+\index{loadButtons@{loadButtons}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{loadButtons()}{loadButtons()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+load\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează butonul de start. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a80f98bf7e65ef0f8adec4c8fdb1e002d}\label{classgamestates_1_1EnterNameOverlay_a80f98bf7e65ef0f8adec4c8fdb1e002d}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!loadCustomFont@{loadCustomFont}}
+\index{loadCustomFont@{loadCustomFont}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{loadCustomFont()}{loadCustomFont()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+load\+Custom\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă fontul personalizat folosit în acest overlay. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_ad7c29c67e7c1ab82b601e4e6d9ed0f74}\label{classgamestates_1_1EnterNameOverlay_ad7c29c67e7c1ab82b601e4e6d9ed0f74}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!loadFrame@{loadFrame}}
+\index{loadFrame@{loadFrame}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{loadFrame()}{loadFrame()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+load\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea cadrului pentru introducerea numelui. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_aa9f31529c576da26a78317aa24927a27}\label{classgamestates_1_1EnterNameOverlay_aa9f31529c576da26a78317aa24927a27}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!loadStartImg@{loadStartImg}}
+\index{loadStartImg@{loadStartImg}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{loadStartImg()}{loadStartImg()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+load\+Start\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea de fundal. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_af26f6d67f057ee9956fd98988ebda2e2}\label{classgamestates_1_1EnterNameOverlay_af26f6d67f057ee9956fd98988ebda2e2}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de click al mouse-\/ului. 
+
+Procesează click-\/urile pe butonul de start sau pe opțiunile din prompt-\/ul de încărcare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_ac85b5ad446d4d57d4beda1d01166df0c}\label{classgamestates_1_1EnterNameOverlay_ac85b5ad446d4d57d4beda1d01166df0c}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a131f155ab992a314bf8688f941ffea39}\label{classgamestates_1_1EnterNameOverlay_a131f155ab992a314bf8688f941ffea39}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de mișcare a mouse-\/ului. 
+
+Setează starea \char`\"{}mouse over\char`\"{} pentru butonul de start.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a5b76795907c47c673b89ca643e4a309e}\label{classgamestates_1_1EnterNameOverlay_a5b76795907c47c673b89ca643e4a309e}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de apăsare a butonului mouse-\/ului. 
+
+Setează starea de apăsare pentru butonul de start și gestionează butonul de închidere.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a6a16cb61013206f54321314a4dcb457f}\label{classgamestates_1_1EnterNameOverlay_a6a16cb61013206f54321314a4dcb457f}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de eliberare a butonului mouse-\/ului. 
+
+Finalizează acțiunea butonului de start dacă a fost apăsat.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a2ab4174a497a2588062a85b39409c24f}\label{classgamestates_1_1EnterNameOverlay_a2ab4174a497a2588062a85b39409c24f}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!processUsername@{processUsername}}
+\index{processUsername@{processUsername}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{processUsername()}{processUsername()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+process\+Username (\begin{DoxyParamCaption}\item[{String}]{player\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Procesează numele de utilizator introdus. 
+
+Verifică dacă există un joc salvat pentru acest nume. Dacă da, afișează un prompt pentru încărcare. Dacă nu, creează o nouă salvare și trece la meniul principal.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Name} & Numele de utilizator de procesat. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_aac0ec72c77765663888ae9cc8d7759a7}\label{classgamestates_1_1EnterNameOverlay_aac0ec72c77765663888ae9cc8d7759a7}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!update@{update}}
+\index{update@{update}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Enter\+Name\+Overlay.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea overlay-\/ului. 
+
+Momentan, actualizează doar butonul de start. 
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a1eccc4ff935197d2f0ee9e461407bbda}\label{classgamestates_1_1EnterNameOverlay_a1eccc4ff935197d2f0ee9e461407bbda}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!airstrikeFont@{airstrikeFont}}
+\index{airstrikeFont@{airstrikeFont}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{airstrikeFont}{airstrikeFont}}
+{\footnotesize\ttfamily Font gamestates.\+Enter\+Name\+Overlay.\+airstrike\+Font\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a30f5597d747e6d3f5b2aab32bd91793a}\label{classgamestates_1_1EnterNameOverlay_a30f5597d747e6d3f5b2aab32bd91793a}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!closeButtonBounds@{closeButtonBounds}}
+\index{closeButtonBounds@{closeButtonBounds}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{closeButtonBounds}{closeButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Enter\+Name\+Overlay.\+close\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_ab88fa7b1de3af6df719450c244fb6cdb}\label{classgamestates_1_1EnterNameOverlay_ab88fa7b1de3af6df719450c244fb6cdb}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!DB\_FILE@{DB\_FILE}}
+\index{DB\_FILE@{DB\_FILE}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{DB\_FILE}{DB\_FILE}}
+{\footnotesize\ttfamily final String gamestates.\+Enter\+Name\+Overlay.\+DB\+\_\+\+FILE = \char`\"{}data/gamedatabase.\+db\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Calea către fișierul bazei de date. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a085500b6648c69fdbf026014901ecbb3}\label{classgamestates_1_1EnterNameOverlay_a085500b6648c69fdbf026014901ecbb3}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!errorMessage@{errorMessage}}
+\index{errorMessage@{errorMessage}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{errorMessage}{errorMessage}}
+{\footnotesize\ttfamily String gamestates.\+Enter\+Name\+Overlay.\+error\+Message = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a37cc0f9c97e8bd8eaac16e4f393c574b}\label{classgamestates_1_1EnterNameOverlay_a37cc0f9c97e8bd8eaac16e4f393c574b}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!existingCoconuts@{existingCoconuts}}
+\index{existingCoconuts@{existingCoconuts}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{existingCoconuts}{existingCoconuts}}
+{\footnotesize\ttfamily int gamestates.\+Enter\+Name\+Overlay.\+existing\+Coconuts = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_ae60f4fb9d4ca5eac7f091fc0e13f29fe}\label{classgamestates_1_1EnterNameOverlay_ae60f4fb9d4ca5eac7f091fc0e13f29fe}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!existingHealth@{existingHealth}}
+\index{existingHealth@{existingHealth}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{existingHealth}{existingHealth}}
+{\footnotesize\ttfamily int gamestates.\+Enter\+Name\+Overlay.\+existing\+Health = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_ab0e65d8db15a29e5e1482a82c73e62b7}\label{classgamestates_1_1EnterNameOverlay_ab0e65d8db15a29e5e1482a82c73e62b7}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!existingLevel@{existingLevel}}
+\index{existingLevel@{existingLevel}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{existingLevel}{existingLevel}}
+{\footnotesize\ttfamily int gamestates.\+Enter\+Name\+Overlay.\+existing\+Level = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numele tabelului principal pentru progresul jucătorului (neutilizat direct, se folosește username-\/ul). 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a97ec2e6f2f3cddf452e0d4b6abe67b17}\label{classgamestates_1_1EnterNameOverlay_a97ec2e6f2f3cddf452e0d4b6abe67b17}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!existingPosX@{existingPosX}}
+\index{existingPosX@{existingPosX}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{existingPosX}{existingPosX}}
+{\footnotesize\ttfamily float gamestates.\+Enter\+Name\+Overlay.\+existing\+PosX = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_ab752f93e7995b29b754ed7224c459e67}\label{classgamestates_1_1EnterNameOverlay_ab752f93e7995b29b754ed7224c459e67}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!existingPosY@{existingPosY}}
+\index{existingPosY@{existingPosY}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{existingPosY}{existingPosY}}
+{\footnotesize\ttfamily float gamestates.\+Enter\+Name\+Overlay.\+existing\+PosY = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_aadd2848f395c51e4092875299885d2f8}\label{classgamestates_1_1EnterNameOverlay_aadd2848f395c51e4092875299885d2f8}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!existingScore@{existingScore}}
+\index{existingScore@{existingScore}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{existingScore}{existingScore}}
+{\footnotesize\ttfamily int gamestates.\+Enter\+Name\+Overlay.\+existing\+Score = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a7f812f4356fd1d324444c8e5eb055cc0}\label{classgamestates_1_1EnterNameOverlay_a7f812f4356fd1d324444c8e5eb055cc0}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!frameImg@{frameImg}}
+\index{frameImg@{frameImg}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{frameImg}{frameImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Enter\+Name\+Overlay.\+frame\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a39e66570c8976d848896ae7c3f1005b8}\label{classgamestates_1_1EnterNameOverlay_a39e66570c8976d848896ae7c3f1005b8}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!frameX@{frameX}}
+\index{frameX@{frameX}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{frameX}{frameX}}
+{\footnotesize\ttfamily int gamestates.\+Enter\+Name\+Overlay.\+frameX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a9122d0a509f4ed3f551d77ff6339e666}\label{classgamestates_1_1EnterNameOverlay_a9122d0a509f4ed3f551d77ff6339e666}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!inputActive@{inputActive}}
+\index{inputActive@{inputActive}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{inputActive}{inputActive}}
+{\footnotesize\ttfamily boolean gamestates.\+Enter\+Name\+Overlay.\+input\+Active = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă input-\/ul de la tastatură este activ pentru acest overlay. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a9b4f02bf093de760552af6702e936bc0}\label{classgamestates_1_1EnterNameOverlay_a9b4f02bf093de760552af6702e936bc0}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!MAX\_NAME\_LENGTH@{MAX\_NAME\_LENGTH}}
+\index{MAX\_NAME\_LENGTH@{MAX\_NAME\_LENGTH}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{MAX\_NAME\_LENGTH}{MAX\_NAME\_LENGTH}}
+{\footnotesize\ttfamily final int gamestates.\+Enter\+Name\+Overlay.\+MAX\+\_\+\+NAME\+\_\+\+LENGTH = 15\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lungimea maximă permisă pentru numele de utilizator. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_adfbab3e320de99dd6c0f28ea50caa781}\label{classgamestates_1_1EnterNameOverlay_adfbab3e320de99dd6c0f28ea50caa781}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!noButton@{noButton}}
+\index{noButton@{noButton}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{noButton}{noButton}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Enter\+Name\+Overlay.\+no\+Button = new Rectangle(925, 650, 100, 40)\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a6c271f1e0d7fe5e076eb645ac84c338e}\label{classgamestates_1_1EnterNameOverlay_a6c271f1e0d7fe5e076eb645ac84c338e}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!previousState@{previousState}}
+\index{previousState@{previousState}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{previousState}{previousState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} gamestates.\+Enter\+Name\+Overlay.\+previous\+State = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a6633e1d53049efefb8ffa827a5052286}\label{classgamestates_1_1EnterNameOverlay_a6633e1d53049efefb8ffa827a5052286}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!showLoadPrompt@{showLoadPrompt}}
+\index{showLoadPrompt@{showLoadPrompt}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{showLoadPrompt}{showLoadPrompt}}
+{\footnotesize\ttfamily boolean gamestates.\+Enter\+Name\+Overlay.\+show\+Load\+Prompt = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă se afișează prompt-\/ul pentru încărcarea unui joc salvat existent. 
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a765c63fbc444dfa9247ec647cbf548cc}\label{classgamestates_1_1EnterNameOverlay_a765c63fbc444dfa9247ec647cbf548cc}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!startbgImg@{startbgImg}}
+\index{startbgImg@{startbgImg}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{startbgImg}{startbgImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Enter\+Name\+Overlay.\+startbg\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a7a7e6b120fca59f47f01d016895511df}\label{classgamestates_1_1EnterNameOverlay_a7a7e6b120fca59f47f01d016895511df}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!startbgX@{startbgX}}
+\index{startbgX@{startbgX}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{startbgX}{startbgX}}
+{\footnotesize\ttfamily int gamestates.\+Enter\+Name\+Overlay.\+startbgX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_a0434b5203991ac4facabc94e2c4f57f9}\label{classgamestates_1_1EnterNameOverlay_a0434b5203991ac4facabc94e2c4f57f9}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!startButton@{startButton}}
+\index{startButton@{startButton}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{startButton}{startButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}} gamestates.\+Enter\+Name\+Overlay.\+start\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_adf0ed70a4cd7134b4140395b5ab1cc5e}\label{classgamestates_1_1EnterNameOverlay_adf0ed70a4cd7134b4140395b5ab1cc5e}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!username@{username}}
+\index{username@{username}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{username}{username}}
+{\footnotesize\ttfamily String\+Builder gamestates.\+Enter\+Name\+Overlay.\+username = new String\+Builder()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1EnterNameOverlay_aa11b5fd8270a7f3ff85380a0af186da3}\label{classgamestates_1_1EnterNameOverlay_aa11b5fd8270a7f3ff85380a0af186da3}} 
+\index{gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}!yesButton@{yesButton}}
+\index{yesButton@{yesButton}!gamestates.EnterNameOverlay@{gamestates.EnterNameOverlay}}
+\doxysubsubsection{\texorpdfstring{yesButton}{yesButton}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Enter\+Name\+Overlay.\+yes\+Button = new Rectangle(775, 650, 100, 40)\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{EnterNameOverlay_8java}{Enter\+Name\+Overlay.\+java}}\end{DoxyCompactItemize}

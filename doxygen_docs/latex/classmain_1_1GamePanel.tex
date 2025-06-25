@@ -1,0 +1,183 @@
+\hypertarget{classmain_1_1GamePanel}{}\doxysection{main.\+Game\+Panel Class Reference}
+\label{classmain_1_1GamePanel}\index{main.GamePanel@{main.GamePanel}}
+
+
+Panoul principal al jocului, extinzând \mbox{\hyperlink{}{JPanel}}.  
+
+
+
+
+Inheritance diagram for main.\+Game\+Panel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{classmain_1_1GamePanel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for main.\+Game\+Panel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1GamePanel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1GamePanel_a4e38ea08748b823a8fe20a15df34dd84}{Game\+Panel}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classmain_1_1GamePanel_a61cf0451788a51f78e9b3ba43683b4de}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmain_1_1GamePanel_ac85b68c526ecf482047a049ed7108bed}{update\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Metodă destinată actualizării logicii jocului (momentan goală). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmain_1_1GamePanel_acde30e5c89c8a7d2d1df09b76c96da1b}{paint\+Component}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Suprascrie metoda \mbox{\hyperlink{}{JComponent\#paint\+Component(\+Graphics)}} pentru a desena conținutul jocului. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classmain_1_1GamePanel_a264efcafacdf09286b0798dd70a8fe0b}{get\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Returnează referința la instanța principală a jocului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classmain_1_1GamePanel_a6995973788109f13b0a24bf4d8c76998}{set\+Panel\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Setează dimensiunile preferate, maxime și minime ale panoului pe baza constantelor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classinputs_1_1KeyboardInputs}{Keyboard\+Inputs}} \mbox{\hyperlink{classmain_1_1GamePanel_aa460a8cf79a1758a7b8c04a1204d8763}{keyboard\+Inputs}}
+\begin{DoxyCompactList}\small\item\em Listener pentru input-\/ul de la tastatură. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classinputs_1_1MouseInputs}{Mouse\+Inputs}} \mbox{\hyperlink{classmain_1_1GamePanel_aa892bda01a50a9a2fb7305f27d5a23f9}{mouse\+Inputs}}
+\begin{DoxyCompactList}\small\item\em Listener pentru input-\/ul de la mouse. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classmain_1_1GamePanel_a61cf0451788a51f78e9b3ba43683b4de}{game}}
+\begin{DoxyCompactList}\small\item\em Referință la instanța principală a jocului \mbox{\hyperlink{classmain_1_1Game}{Game}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Panoul principal al jocului, extinzând \mbox{\hyperlink{}{JPanel}}. 
+
+Acesta este componenta Swing pe care se desenează întregul joc. De asemenea, inițializează și atașează listener-\/ii pentru input-\/ul de la tastatură și mouse. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1GamePanel_a4e38ea08748b823a8fe20a15df34dd84}\label{classmain_1_1GamePanel_a4e38ea08748b823a8fe20a15df34dd84}} 
+\index{main.GamePanel@{main.GamePanel}!GamePanel@{GamePanel}}
+\index{GamePanel@{GamePanel}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{GamePanel()}{GamePanel()}}
+{\footnotesize\ttfamily main.\+Game\+Panel.\+Game\+Panel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}}. 
+
+Inițializează referința la joc, listener-\/ii de input, setează dimensiunea panoului și adaugă listener-\/ii la panou.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{classmain_1_1Game}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1GamePanel_a264efcafacdf09286b0798dd70a8fe0b}\label{classmain_1_1GamePanel_a264efcafacdf09286b0798dd70a8fe0b}} 
+\index{main.GamePanel@{main.GamePanel}!getGame@{getGame}}
+\index{getGame@{getGame}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{getGame()}{getGame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1Game}{Game}} main.\+Game\+Panel.\+get\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează referința la instanța principală a jocului. 
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{classmain_1_1Game}{Game}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1GamePanel_acde30e5c89c8a7d2d1df09b76c96da1b}\label{classmain_1_1GamePanel_acde30e5c89c8a7d2d1df09b76c96da1b}} 
+\index{main.GamePanel@{main.GamePanel}!paintComponent@{paintComponent}}
+\index{paintComponent@{paintComponent}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{paintComponent()}{paintComponent()}}
+{\footnotesize\ttfamily void main.\+Game\+Panel.\+paint\+Component (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Suprascrie metoda \mbox{\hyperlink{}{JComponent\#paint\+Component(\+Graphics)}} pentru a desena conținutul jocului. 
+
+Apelează metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{render }
+
+\end{DoxyCode}
+ a obiectului \mbox{\hyperlink{classmain_1_1Game}{Game}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmain_1_1GamePanel_a6995973788109f13b0a24bf4d8c76998}\label{classmain_1_1GamePanel_a6995973788109f13b0a24bf4d8c76998}} 
+\index{main.GamePanel@{main.GamePanel}!setPanelSize@{setPanelSize}}
+\index{setPanelSize@{setPanelSize}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{setPanelSize()}{setPanelSize()}}
+{\footnotesize\ttfamily void main.\+Game\+Panel.\+set\+Panel\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Setează dimensiunile preferate, maxime și minime ale panoului pe baza constantelor. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{GAME\_WIDTH }
+
+\end{DoxyCode}
+ și
+\begin{DoxyCode}{0}
+\DoxyCodeLine{GAME\_HEIGHT }
+
+\end{DoxyCode}
+ din clasa \mbox{\hyperlink{classmain_1_1Game}{Game}}. \mbox{\Hypertarget{classmain_1_1GamePanel_ac85b68c526ecf482047a049ed7108bed}\label{classmain_1_1GamePanel_ac85b68c526ecf482047a049ed7108bed}} 
+\index{main.GamePanel@{main.GamePanel}!updateGame@{updateGame}}
+\index{updateGame@{updateGame}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{updateGame()}{updateGame()}}
+{\footnotesize\ttfamily void main.\+Game\+Panel.\+update\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodă destinată actualizării logicii jocului (momentan goală). 
+
+Ar putea fi apelată din bucla principală a jocului dacă \mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} ar gestiona direct actualizările. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classmain_1_1GamePanel_a61cf0451788a51f78e9b3ba43683b4de}\label{classmain_1_1GamePanel_a61cf0451788a51f78e9b3ba43683b4de}} 
+\index{main.GamePanel@{main.GamePanel}!game@{game}}
+\index{game@{game}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{game}{game}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1Game}{Game}} main.\+Game\+Panel.\+game\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referință la instanța principală a jocului \mbox{\hyperlink{classmain_1_1Game}{Game}}. 
+
+\mbox{\Hypertarget{classmain_1_1GamePanel_aa460a8cf79a1758a7b8c04a1204d8763}\label{classmain_1_1GamePanel_aa460a8cf79a1758a7b8c04a1204d8763}} 
+\index{main.GamePanel@{main.GamePanel}!keyboardInputs@{keyboardInputs}}
+\index{keyboardInputs@{keyboardInputs}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{keyboardInputs}{keyboardInputs}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classinputs_1_1KeyboardInputs}{Keyboard\+Inputs}} main.\+Game\+Panel.\+keyboard\+Inputs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Listener pentru input-\/ul de la tastatură. 
+
+\mbox{\Hypertarget{classmain_1_1GamePanel_aa892bda01a50a9a2fb7305f27d5a23f9}\label{classmain_1_1GamePanel_aa892bda01a50a9a2fb7305f27d5a23f9}} 
+\index{main.GamePanel@{main.GamePanel}!mouseInputs@{mouseInputs}}
+\index{mouseInputs@{mouseInputs}!main.GamePanel@{main.GamePanel}}
+\doxysubsubsection{\texorpdfstring{mouseInputs}{mouseInputs}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classinputs_1_1MouseInputs}{Mouse\+Inputs}} main.\+Game\+Panel.\+mouse\+Inputs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Listener pentru input-\/ul de la mouse. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/\mbox{\hyperlink{GamePanel_8java}{Game\+Panel.\+java}}\end{DoxyCompactItemize}

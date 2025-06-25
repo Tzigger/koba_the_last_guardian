@@ -1,0 +1,307 @@
+\hypertarget{classentities_1_1Coconut}{}\doxysection{entities.\+Coconut Class Reference}
+\label{classentities_1_1Coconut}\index{entities.Coconut@{entities.Coconut}}
+
+
+Reprezintă un obiect colectabil de tip \char`\"{}nucă de cocos\char`\"{} în joc.  
+
+
+
+
+Inheritance diagram for entities.\+Coconut\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{classentities_1_1Coconut__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Coconut\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{classentities_1_1Coconut__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Coconut_a1be41cb66a0b244f9f506d0872d84f9f}{Coconut}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Coconut_a0d2197c6ccd2deedbab91265bed7bfd2}{level\+Data}}, Buffered\+Image \mbox{\hyperlink{classentities_1_1Coconut_acfb9a1e07bfb4b92d6f07a3e462a3d6b}{image}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Coconut}{Coconut}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Coconut_a8b1aa93ebb9fc784269cbd3476e95a78}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea nucii de cocos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Coconut_a978807e7f50ea74ed61cbad5ef7f58ab}{draw}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează nuca de cocos pe ecran. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Coconut_a059b05a1568a98b03801c95338c201dc}{is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă nuca de cocos este activă. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Coconut_a5926ad635c7e59fd9e9a4d0ef8392f69}{set\+Active}} (boolean \mbox{\hyperlink{classentities_1_1Coconut_aae2065a8119295b469895bba05e4b993}{active}})
+\begin{DoxyCompactList}\small\item\em Setează starea de activare a nucii de cocos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{classentities_1_1Coconut_acfb9a1e07bfb4b92d6f07a3e462a3d6b}{image}}
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Coconut_aae2065a8119295b469895bba05e4b993}{active}} = true
+\begin{DoxyCompactList}\small\item\em Indică dacă nuca de cocos este activă (poate fi colectată și desenată). \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Coconut_a0d2197c6ccd2deedbab91265bed7bfd2}{level\+Data}}
+\begin{DoxyCompactList}\small\item\em Datele nivelului, potențial pentru interacțiuni viitoare cu terenul (momentan neutilizat activ pentru nuci de cocos). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_abfd505042898231a200d7bda76d4c60e}{originalY}}
+\begin{DoxyCompactList}\small\item\em Coordonata Y inițială (de bază) pentru animația de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_a30f7d02544326e00dd3c83db760e52bf}{float\+Speed}} = 0.\+05f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza animației de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_aa4842e13aefd39b2c453b4b9ec679548}{float\+Amplitude}} = 2.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Amplitudinea mișcării de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_ac90914b183aa96a36301e77eeb099936}{float\+Angle}} = 0
+\begin{DoxyCompactList}\small\item\em Unghiul curent în ciclul de plutire. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_a11ebc12636f8b503718404ac1073f39f}{original\+Width}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_a5e7efc51f1818910ce7e17f972a34e38}{original\+Height}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_a5bf81dd2f6e9519a727824e799fef715}{scale\+Factor}} = 1.\+0f
+\begin{DoxyCompactList}\small\item\em Factorul de scalare curent. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_a715cb46c5ccdc44b6a879ebadf80e8fb}{scale\+Speed}} = 0.\+005f
+\begin{DoxyCompactList}\small\item\em Viteza de schimbare a factorului de scalare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_ad2b152796b01024055c8e9bc17eea088}{min\+Scale}} = 0.\+9f
+\begin{DoxyCompactList}\small\item\em Factorul minim de scalare. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Coconut_a48d747dad2d13949e1d7a1678a7ff6de}{max\+Scale}} = 1.\+1f
+\begin{DoxyCompactList}\small\item\em Factorul maxim de scalare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Coconut_a2407d5eccd9bbe985cc48d5c322f3581}{scaling\+Up}} = true
+\begin{DoxyCompactList}\small\item\em Indică direcția scalării (mărire sau micșorare). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă un obiect colectabil de tip \char`\"{}nucă de cocos\char`\"{} în joc. 
+
+Nucile de cocos pot fi folosite de jucător, probabil ca proiectile. Această clasă gestionează animația de plutire și scalare a nucii de cocos. Extinde clasa \mbox{\hyperlink{classentities_1_1Entity}{Entity}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Coconut_a1be41cb66a0b244f9f506d0872d84f9f}\label{classentities_1_1Coconut_a1be41cb66a0b244f9f506d0872d84f9f}} 
+\index{entities.Coconut@{entities.Coconut}!Coconut@{Coconut}}
+\index{Coconut@{Coconut}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{Coconut()}{Coconut()}}
+{\footnotesize\ttfamily entities.\+Coconut.\+Coconut (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{Buffered\+Image}]{image }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Coconut}{Coconut}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x inițială a colțului stânga-\/sus al nucii de cocos. \\
+\hline
+{\em y} & Poziția y inițială a colțului stânga-\/sus al nucii de cocos. \\
+\hline
+{\em level\+Data} & Datele nivelului (momentan neutilizate activ). \\
+\hline
+{\em image} & Imaginea (sprite-\/ul) pentru nuca de cocos. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Coconut_a978807e7f50ea74ed61cbad5ef7f58ab}\label{classentities_1_1Coconut_a978807e7f50ea74ed61cbad5ef7f58ab}} 
+\index{entities.Coconut@{entities.Coconut}!draw@{draw}}
+\index{draw@{draw}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void entities.\+Coconut.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Desenează nuca de cocos pe ecran. 
+
+Aplică animația de scalare pentru efectul de \char`\"{}respirație\char`\"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+{\em x\+Lvl\+Offset} & Offset-\/ul orizontal al nivelului pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Coconut_a059b05a1568a98b03801c95338c201dc}\label{classentities_1_1Coconut_a059b05a1568a98b03801c95338c201dc}} 
+\index{entities.Coconut@{entities.Coconut}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean entities.\+Coconut.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă nuca de cocos este activă. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă este activă,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Coconut_a5926ad635c7e59fd9e9a4d0ef8392f69}\label{classentities_1_1Coconut_a5926ad635c7e59fd9e9a4d0ef8392f69}} 
+\index{entities.Coconut@{entities.Coconut}!setActive@{setActive}}
+\index{setActive@{setActive}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void entities.\+Coconut.\+set\+Active (\begin{DoxyParamCaption}\item[{boolean}]{active }\end{DoxyParamCaption})}
+
+
+
+Setează starea de activare a nucii de cocos. 
+
+O nucă de cocos inactivă nu este actualizată sau desenată. 
+\begin{DoxyParams}{Parameters}
+{\em active} & Noua stare de activare. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Coconut_a8b1aa93ebb9fc784269cbd3476e95a78}\label{classentities_1_1Coconut_a8b1aa93ebb9fc784269cbd3476e95a78}} 
+\index{entities.Coconut@{entities.Coconut}!update@{update}}
+\index{update@{update}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Coconut.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea nucii de cocos. 
+
+Gestionează animația de plutire și de \char`\"{}respirație\char`\"{} (scalare). Rulează doar dacă nuca de cocos este activă și are o imagine validă. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Coconut_aae2065a8119295b469895bba05e4b993}\label{classentities_1_1Coconut_aae2065a8119295b469895bba05e4b993}} 
+\index{entities.Coconut@{entities.Coconut}!active@{active}}
+\index{active@{active}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily boolean entities.\+Coconut.\+active = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă nuca de cocos este activă (poate fi colectată și desenată). 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_aa4842e13aefd39b2c453b4b9ec679548}\label{classentities_1_1Coconut_aa4842e13aefd39b2c453b4b9ec679548}} 
+\index{entities.Coconut@{entities.Coconut}!floatAmplitude@{floatAmplitude}}
+\index{floatAmplitude@{floatAmplitude}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{floatAmplitude}{floatAmplitude}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+float\+Amplitude = 2.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Amplitudinea mișcării de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_ac90914b183aa96a36301e77eeb099936}\label{classentities_1_1Coconut_ac90914b183aa96a36301e77eeb099936}} 
+\index{entities.Coconut@{entities.Coconut}!floatAngle@{floatAngle}}
+\index{floatAngle@{floatAngle}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{floatAngle}{floatAngle}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+float\+Angle = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Unghiul curent în ciclul de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a30f7d02544326e00dd3c83db760e52bf}\label{classentities_1_1Coconut_a30f7d02544326e00dd3c83db760e52bf}} 
+\index{entities.Coconut@{entities.Coconut}!floatSpeed@{floatSpeed}}
+\index{floatSpeed@{floatSpeed}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{floatSpeed}{floatSpeed}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+float\+Speed = 0.\+05f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza animației de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_acfb9a1e07bfb4b92d6f07a3e462a3d6b}\label{classentities_1_1Coconut_acfb9a1e07bfb4b92d6f07a3e462a3d6b}} 
+\index{entities.Coconut@{entities.Coconut}!image@{image}}
+\index{image@{image}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily Buffered\+Image entities.\+Coconut.\+image\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a0d2197c6ccd2deedbab91265bed7bfd2}\label{classentities_1_1Coconut_a0d2197c6ccd2deedbab91265bed7bfd2}} 
+\index{entities.Coconut@{entities.Coconut}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Coconut.\+level\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Datele nivelului, potențial pentru interacțiuni viitoare cu terenul (momentan neutilizat activ pentru nuci de cocos). 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a48d747dad2d13949e1d7a1678a7ff6de}\label{classentities_1_1Coconut_a48d747dad2d13949e1d7a1678a7ff6de}} 
+\index{entities.Coconut@{entities.Coconut}!maxScale@{maxScale}}
+\index{maxScale@{maxScale}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{maxScale}{maxScale}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+max\+Scale = 1.\+1f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul maxim de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_ad2b152796b01024055c8e9bc17eea088}\label{classentities_1_1Coconut_ad2b152796b01024055c8e9bc17eea088}} 
+\index{entities.Coconut@{entities.Coconut}!minScale@{minScale}}
+\index{minScale@{minScale}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{minScale}{minScale}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+min\+Scale = 0.\+9f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul minim de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a5e7efc51f1818910ce7e17f972a34e38}\label{classentities_1_1Coconut_a5e7efc51f1818910ce7e17f972a34e38}} 
+\index{entities.Coconut@{entities.Coconut}!originalHeight@{originalHeight}}
+\index{originalHeight@{originalHeight}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{originalHeight}{originalHeight}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+original\+Height\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a11ebc12636f8b503718404ac1073f39f}\label{classentities_1_1Coconut_a11ebc12636f8b503718404ac1073f39f}} 
+\index{entities.Coconut@{entities.Coconut}!originalWidth@{originalWidth}}
+\index{originalWidth@{originalWidth}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{originalWidth}{originalWidth}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+original\+Width\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Coconut_abfd505042898231a200d7bda76d4c60e}\label{classentities_1_1Coconut_abfd505042898231a200d7bda76d4c60e}} 
+\index{entities.Coconut@{entities.Coconut}!originalY@{originalY}}
+\index{originalY@{originalY}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{originalY}{originalY}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+originalY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Coordonata Y inițială (de bază) pentru animația de plutire. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a5bf81dd2f6e9519a727824e799fef715}\label{classentities_1_1Coconut_a5bf81dd2f6e9519a727824e799fef715}} 
+\index{entities.Coconut@{entities.Coconut}!scaleFactor@{scaleFactor}}
+\index{scaleFactor@{scaleFactor}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{scaleFactor}{scaleFactor}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+scale\+Factor = 1.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Factorul de scalare curent. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a715cb46c5ccdc44b6a879ebadf80e8fb}\label{classentities_1_1Coconut_a715cb46c5ccdc44b6a879ebadf80e8fb}} 
+\index{entities.Coconut@{entities.Coconut}!scaleSpeed@{scaleSpeed}}
+\index{scaleSpeed@{scaleSpeed}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{scaleSpeed}{scaleSpeed}}
+{\footnotesize\ttfamily float entities.\+Coconut.\+scale\+Speed = 0.\+005f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de schimbare a factorului de scalare. 
+
+\mbox{\Hypertarget{classentities_1_1Coconut_a2407d5eccd9bbe985cc48d5c322f3581}\label{classentities_1_1Coconut_a2407d5eccd9bbe985cc48d5c322f3581}} 
+\index{entities.Coconut@{entities.Coconut}!scalingUp@{scalingUp}}
+\index{scalingUp@{scalingUp}!entities.Coconut@{entities.Coconut}}
+\doxysubsubsection{\texorpdfstring{scalingUp}{scalingUp}}
+{\footnotesize\ttfamily boolean entities.\+Coconut.\+scaling\+Up = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică direcția scalării (mărire sau micșorare). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Coconut_8java}{Coconut.\+java}}\end{DoxyCompactItemize}

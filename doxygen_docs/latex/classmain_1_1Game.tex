@@ -1,0 +1,449 @@
+\hypertarget{classmain_1_1Game}{}\doxysection{main.\+Game Class Reference}
+\label{classmain_1_1Game}\index{main.Game@{main.Game}}
+
+
+Clasa principală a jocului, responsabilă pentru gestionarea stărilor de joc, bucla principală a jocului (game loop) și inițializarea componentelor cheie.  
+
+
+
+
+Inheritance diagram for main.\+Game\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classmain_1_1Game__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for main.\+Game\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1Game__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classmain_1_1Game_ab72dabea42b1477d4cacb4ea8e870cea}{set\+Session\+Username}} (String username)
+\begin{DoxyCompactList}\small\item\em Setează numele de utilizator pentru sesiunea curentă. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classmain_1_1Game_a91e4bc246ce3ff20998f0dc1da3babdd}{get\+Session\+Username}} ()
+\begin{DoxyCompactList}\small\item\em Returnează numele de utilizator al sesiunii curente. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmain_1_1Game_aeebb102b72cbaad8c5563e6bfdd6b812}{Game}} ()
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classmain_1_1Game}{Game}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmain_1_1Game_aa11b51b965c1f6e6003d803357176a34}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează logica jocului în funcție de starea curentă (\mbox{\hyperlink{}{Gamestate}}). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmain_1_1Game_abaa9b46a1dadc3882278096113a684b9}{render}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează conținutul jocului în funcție de starea curentă (\mbox{\hyperlink{}{Gamestate}}). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmain_1_1Game_a32e5debcc5e2912a54a9d8102c90eac3}{run}} ()
+\begin{DoxyCompactList}\small\item\em Metoda principală a buclei jocului, implementată din interfața \mbox{\hyperlink{}{Runnable}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmain_1_1Game_a582ee4a172a8c5a5f6f0646e886f2a78}{window\+Focus\+Lost}} ()
+\begin{DoxyCompactList}\small\item\em Metodă apelată când fereastra jocului pierde focusul. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgamestates_1_1Menu}{Menu}} \mbox{\hyperlink{classmain_1_1Game_abaa94a59fab9fdc26e5b5db8df114a13}{get\+Menu}} ()
+\item 
+\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classmain_1_1Game_a2a2811ce618e76a5d8c2c63a0ba6336b}{get\+Playing}} ()
+\item 
+\mbox{\hyperlink{classgamestates_1_1Options}{Options}} \mbox{\hyperlink{classmain_1_1Game_a47536329bc2372d9a9e0f16e0e7d5b24}{get\+Options}} ()
+\item 
+\mbox{\hyperlink{classgamestates_1_1Loadgame}{Loadgame}} \mbox{\hyperlink{classmain_1_1Game_a5c8f96964c032e71306e7a712e53766a}{get\+Loadgame}} ()
+\item 
+\mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}} \mbox{\hyperlink{classmain_1_1Game_acff3f511111e251a3006c631b07bc7df}{get\+Leaderboard}} ()
+\item 
+\mbox{\hyperlink{classgamestates_1_1EnterNameOverlay}{Enter\+Name\+Overlay}} \mbox{\hyperlink{classmain_1_1Game_a4cfdfa78e044d27c3e2e206b601e6163}{get\+Enter\+Name\+Overlay}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classmain_1_1Game_ab96e6fdd5a26e700bba355b44023f735}{TILES\+\_\+\+DEFAULT\+\_\+\+SIZE}} = 60
+\begin{DoxyCompactList}\small\item\em Dimensiunea implicită a unui tile (în pixeli) înainte de scalare. \end{DoxyCompactList}\item 
+static final float \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{SCALE}} = 1.\+0f
+\begin{DoxyCompactList}\small\item\em Factorul de scalare aplicat elementelor jocului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classmain_1_1Game_a75f90d1bc951e61d7a64d74f8d71bfb1}{TILES\+\_\+\+IN\+\_\+\+WIDTH}} = 32
+\begin{DoxyCompactList}\small\item\em Numărul de tile-\/uri vizibile pe lățimea ecranului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classmain_1_1Game_ac9a9e3f2d058a64cc09fd05c5b7436ad}{TILES\+\_\+\+IN\+\_\+\+HEIGHT}} = 18
+\begin{DoxyCompactList}\small\item\em Numărul de tile-\/uri vizibile pe înălțimea ecranului. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classmain_1_1Game_ae06d32ad296c9fc9d4f09bf5c0388339}{TILES\+\_\+\+SIZE}} = (int) (\mbox{\hyperlink{classmain_1_1Game_ab96e6fdd5a26e700bba355b44023f735}{TILES\+\_\+\+DEFAULT\+\_\+\+SIZE}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{SCALE}})
+\begin{DoxyCompactList}\small\item\em Dimensiunea finală a unui tile (în pixeli) după aplicarea scalei. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classmain_1_1Game_af113152bdbd435a58fdfa7a3762ab362}{GAME\+\_\+\+WIDTH}} = \mbox{\hyperlink{classmain_1_1Game_ae06d32ad296c9fc9d4f09bf5c0388339}{TILES\+\_\+\+SIZE}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a75f90d1bc951e61d7a64d74f8d71bfb1}{TILES\+\_\+\+IN\+\_\+\+WIDTH}}
+\begin{DoxyCompactList}\small\item\em Lățimea totală a ferestrei jocului în pixeli. \end{DoxyCompactList}\item 
+static final int \mbox{\hyperlink{classmain_1_1Game_a4e26b2f0aed7a2dd0e2483285d80ee1f}{GAME\+\_\+\+HEIGHT}} = \mbox{\hyperlink{classmain_1_1Game_ae06d32ad296c9fc9d4f09bf5c0388339}{TILES\+\_\+\+SIZE}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_ac9a9e3f2d058a64cc09fd05c5b7436ad}{TILES\+\_\+\+IN\+\_\+\+HEIGHT}}
+\begin{DoxyCompactList}\small\item\em Înălțimea totală a ferestrei jocului în pixeli. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classmain_1_1Game_adfc91bb3f672677fbe0ccfae4cb8eb39}{init\+Classes}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează toate instanțele stărilor de joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classmain_1_1Game_ae7931480b7d1b90680aea90260f48500}{start\+Game\+Loop}} ()
+\begin{DoxyCompactList}\small\item\em Pornește bucla principală a jocului într-\/un nou fir de execuție. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classmain_1_1Game_a8da98b133eb6acf756cc01a44cf8e343}{session\+Username}}
+\begin{DoxyCompactList}\small\item\em Numele de utilizator pentru sesiunea curentă de joc. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmain_1_1GameWindow}{Game\+Window}} \mbox{\hyperlink{classmain_1_1Game_aaa5264a5c71725f629b1e73cd6929256}{game\+Window}}
+\item 
+\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} \mbox{\hyperlink{classmain_1_1Game_ad6dedf26cd6f947c6d88a38c114d3226}{game\+Panel}}
+\item 
+Thread \mbox{\hyperlink{classmain_1_1Game_a453344a64e45a124eb6dd66075aad800}{game\+Thread}}
+\item 
+final double \mbox{\hyperlink{classmain_1_1Game_adcc9a26dac06028a6fed9178c10e4d8a}{FPS\+\_\+\+SET}} = 60
+\begin{DoxyCompactList}\small\item\em Numărul țintă de cadre pe secundă (Frames Per Second). \end{DoxyCompactList}\item 
+final double \mbox{\hyperlink{classmain_1_1Game_ab527f22158ad5081d42fbf807c7d9ada}{UPS\+\_\+\+SET}} = 120
+\begin{DoxyCompactList}\small\item\em Numărul țintă de actualizări logice pe secundă (Updates Per Second). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} \mbox{\hyperlink{classmain_1_1Game_af63ed8da75eed949d7f663181531b19d}{playing}}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Menu}{Menu}} \mbox{\hyperlink{classmain_1_1Game_af872699242b4e9a6ce1a5f465e642a08}{menu}}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Options}{Options}} \mbox{\hyperlink{classmain_1_1Game_aa271d6cadd7f72041de898080f1ba178}{options}}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Loadgame}{Loadgame}} \mbox{\hyperlink{classmain_1_1Game_ae99c62a37ec4a856f8e0f1bf44d332a5}{loadgame}}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}} \mbox{\hyperlink{classmain_1_1Game_a99b6602ee9ad8d589fd6a911b92a5924}{leaderboard}}
+\item 
+\mbox{\hyperlink{classgamestates_1_1EnterNameOverlay}{Enter\+Name\+Overlay}} \mbox{\hyperlink{classmain_1_1Game_aae166a8d12007a422b3618173bad7779}{enter\+Name\+Overlay}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa principală a jocului, responsabilă pentru gestionarea stărilor de joc, bucla principală a jocului (game loop) și inițializarea componentelor cheie. 
+
+Implementează interfața \mbox{\hyperlink{}{Runnable}} pentru a rula într-\/un fir de execuție separat. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1Game_aeebb102b72cbaad8c5563e6bfdd6b812}\label{classmain_1_1Game_aeebb102b72cbaad8c5563e6bfdd6b812}} 
+\index{main.Game@{main.Game}!Game@{Game}}
+\index{Game@{Game}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily main.\+Game.\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classmain_1_1Game}{Game}}. 
+
+Inițializează toate clasele necesare, panoul de joc, fereastra și pornește bucla principală a jocului. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1Game_a4cfdfa78e044d27c3e2e206b601e6163}\label{classmain_1_1Game_a4cfdfa78e044d27c3e2e206b601e6163}} 
+\index{main.Game@{main.Game}!getEnterNameOverlay@{getEnterNameOverlay}}
+\index{getEnterNameOverlay@{getEnterNameOverlay}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{getEnterNameOverlay()}{getEnterNameOverlay()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay}{Enter\+Name\+Overlay}} main.\+Game.\+get\+Enter\+Name\+Overlay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Instanța overlay-\/ului de introducere a numelui. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1Game_acff3f511111e251a3006c631b07bc7df}\label{classmain_1_1Game_acff3f511111e251a3006c631b07bc7df}} 
+\index{main.Game@{main.Game}!getLeaderboard@{getLeaderboard}}
+\index{getLeaderboard@{getLeaderboard}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{getLeaderboard()}{getLeaderboard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}} main.\+Game.\+get\+Leaderboard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Instanța stării de clasament. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1Game_a5c8f96964c032e71306e7a712e53766a}\label{classmain_1_1Game_a5c8f96964c032e71306e7a712e53766a}} 
+\index{main.Game@{main.Game}!getLoadgame@{getLoadgame}}
+\index{getLoadgame@{getLoadgame}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{getLoadgame()}{getLoadgame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Loadgame}{Loadgame}} main.\+Game.\+get\+Loadgame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Instanța stării de încărcare a jocului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1Game_abaa94a59fab9fdc26e5b5db8df114a13}\label{classmain_1_1Game_abaa94a59fab9fdc26e5b5db8df114a13}} 
+\index{main.Game@{main.Game}!getMenu@{getMenu}}
+\index{getMenu@{getMenu}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{getMenu()}{getMenu()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Menu}{Menu}} main.\+Game.\+get\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Instanța stării de meniu. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1Game_a47536329bc2372d9a9e0f16e0e7d5b24}\label{classmain_1_1Game_a47536329bc2372d9a9e0f16e0e7d5b24}} 
+\index{main.Game@{main.Game}!getOptions@{getOptions}}
+\index{getOptions@{getOptions}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{getOptions()}{getOptions()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Options}{Options}} main.\+Game.\+get\+Options (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Instanța stării de opțiuni. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1Game_a2a2811ce618e76a5d8c2c63a0ba6336b}\label{classmain_1_1Game_a2a2811ce618e76a5d8c2c63a0ba6336b}} 
+\index{main.Game@{main.Game}!getPlaying@{getPlaying}}
+\index{getPlaying@{getPlaying}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{getPlaying()}{getPlaying()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} main.\+Game.\+get\+Playing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Instanța stării de joc propriu-\/zis. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1Game_a91e4bc246ce3ff20998f0dc1da3babdd}\label{classmain_1_1Game_a91e4bc246ce3ff20998f0dc1da3babdd}} 
+\index{main.Game@{main.Game}!getSessionUsername@{getSessionUsername}}
+\index{getSessionUsername@{getSessionUsername}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{getSessionUsername()}{getSessionUsername()}}
+{\footnotesize\ttfamily String main.\+Game.\+get\+Session\+Username (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează numele de utilizator al sesiunii curente. 
+
+\begin{DoxyReturn}{Returns}
+Numele de utilizator. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1Game_adfc91bb3f672677fbe0ccfae4cb8eb39}\label{classmain_1_1Game_adfc91bb3f672677fbe0ccfae4cb8eb39}} 
+\index{main.Game@{main.Game}!initClasses@{initClasses}}
+\index{initClasses@{initClasses}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{initClasses()}{initClasses()}}
+{\footnotesize\ttfamily void main.\+Game.\+init\+Classes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează toate instanțele stărilor de joc. 
+
+\mbox{\Hypertarget{classmain_1_1Game_abaa9b46a1dadc3882278096113a684b9}\label{classmain_1_1Game_abaa9b46a1dadc3882278096113a684b9}} 
+\index{main.Game@{main.Game}!render@{render}}
+\index{render@{render}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void main.\+Game.\+render (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează conținutul jocului în funcție de starea curentă (\mbox{\hyperlink{}{Gamestate}}). 
+
+Deleagă desenarea către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{draw }
+
+\end{DoxyCode}
+ a stării active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmain_1_1Game_a32e5debcc5e2912a54a9d8102c90eac3}\label{classmain_1_1Game_a32e5debcc5e2912a54a9d8102c90eac3}} 
+\index{main.Game@{main.Game}!run@{run}}
+\index{run@{run}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void main.\+Game.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda principală a buclei jocului, implementată din interfața \mbox{\hyperlink{}{Runnable}}. 
+
+Gestionează sincronizarea actualizărilor logice (UPS) și a cadrelor desenate (FPS). \mbox{\Hypertarget{classmain_1_1Game_ab72dabea42b1477d4cacb4ea8e870cea}\label{classmain_1_1Game_ab72dabea42b1477d4cacb4ea8e870cea}} 
+\index{main.Game@{main.Game}!setSessionUsername@{setSessionUsername}}
+\index{setSessionUsername@{setSessionUsername}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{setSessionUsername()}{setSessionUsername()}}
+{\footnotesize\ttfamily void main.\+Game.\+set\+Session\+Username (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+
+
+Setează numele de utilizator pentru sesiunea curentă. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Noul nume de utilizator. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmain_1_1Game_ae7931480b7d1b90680aea90260f48500}\label{classmain_1_1Game_ae7931480b7d1b90680aea90260f48500}} 
+\index{main.Game@{main.Game}!startGameLoop@{startGameLoop}}
+\index{startGameLoop@{startGameLoop}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{startGameLoop()}{startGameLoop()}}
+{\footnotesize\ttfamily void main.\+Game.\+start\+Game\+Loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pornește bucla principală a jocului într-\/un nou fir de execuție. 
+
+\mbox{\Hypertarget{classmain_1_1Game_aa11b51b965c1f6e6003d803357176a34}\label{classmain_1_1Game_aa11b51b965c1f6e6003d803357176a34}} 
+\index{main.Game@{main.Game}!update@{update}}
+\index{update@{update}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void main.\+Game.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează logica jocului în funcție de starea curentă (\mbox{\hyperlink{}{Gamestate}}). 
+
+Deleagă actualizarea către metoda
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classmain_1_1Game_aa11b51b965c1f6e6003d803357176a34}{update}} }
+
+\end{DoxyCode}
+ a stării active. În cazul stării QUIT, închide aplicația. \mbox{\Hypertarget{classmain_1_1Game_a582ee4a172a8c5a5f6f0646e886f2a78}\label{classmain_1_1Game_a582ee4a172a8c5a5f6f0646e886f2a78}} 
+\index{main.Game@{main.Game}!windowFocusLost@{windowFocusLost}}
+\index{windowFocusLost@{windowFocusLost}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{windowFocusLost()}{windowFocusLost()}}
+{\footnotesize\ttfamily void main.\+Game.\+window\+Focus\+Lost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodă apelată când fereastra jocului pierde focusul. 
+
+Dacă starea curentă este PLAYING, resetează flag-\/urile de direcție ale jucătorului. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classmain_1_1Game_aae166a8d12007a422b3618173bad7779}\label{classmain_1_1Game_aae166a8d12007a422b3618173bad7779}} 
+\index{main.Game@{main.Game}!enterNameOverlay@{enterNameOverlay}}
+\index{enterNameOverlay@{enterNameOverlay}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{enterNameOverlay}{enterNameOverlay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1EnterNameOverlay}{Enter\+Name\+Overlay}} main.\+Game.\+enter\+Name\+Overlay\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_adcc9a26dac06028a6fed9178c10e4d8a}\label{classmain_1_1Game_adcc9a26dac06028a6fed9178c10e4d8a}} 
+\index{main.Game@{main.Game}!FPS\_SET@{FPS\_SET}}
+\index{FPS\_SET@{FPS\_SET}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{FPS\_SET}{FPS\_SET}}
+{\footnotesize\ttfamily final double main.\+Game.\+FPS\+\_\+\+SET = 60\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numărul țintă de cadre pe secundă (Frames Per Second). 
+
+\mbox{\Hypertarget{classmain_1_1Game_a4e26b2f0aed7a2dd0e2483285d80ee1f}\label{classmain_1_1Game_a4e26b2f0aed7a2dd0e2483285d80ee1f}} 
+\index{main.Game@{main.Game}!GAME\_HEIGHT@{GAME\_HEIGHT}}
+\index{GAME\_HEIGHT@{GAME\_HEIGHT}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{GAME\_HEIGHT}{GAME\_HEIGHT}}
+{\footnotesize\ttfamily final int main.\+Game.\+GAME\+\_\+\+HEIGHT = \mbox{\hyperlink{classmain_1_1Game_ae06d32ad296c9fc9d4f09bf5c0388339}{TILES\+\_\+\+SIZE}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_ac9a9e3f2d058a64cc09fd05c5b7436ad}{TILES\+\_\+\+IN\+\_\+\+HEIGHT}}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Înălțimea totală a ferestrei jocului în pixeli. 
+
+\mbox{\Hypertarget{classmain_1_1Game_af113152bdbd435a58fdfa7a3762ab362}\label{classmain_1_1Game_af113152bdbd435a58fdfa7a3762ab362}} 
+\index{main.Game@{main.Game}!GAME\_WIDTH@{GAME\_WIDTH}}
+\index{GAME\_WIDTH@{GAME\_WIDTH}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{GAME\_WIDTH}{GAME\_WIDTH}}
+{\footnotesize\ttfamily final int main.\+Game.\+GAME\+\_\+\+WIDTH = \mbox{\hyperlink{classmain_1_1Game_ae06d32ad296c9fc9d4f09bf5c0388339}{TILES\+\_\+\+SIZE}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a75f90d1bc951e61d7a64d74f8d71bfb1}{TILES\+\_\+\+IN\+\_\+\+WIDTH}}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Lățimea totală a ferestrei jocului în pixeli. 
+
+\mbox{\Hypertarget{classmain_1_1Game_ad6dedf26cd6f947c6d88a38c114d3226}\label{classmain_1_1Game_ad6dedf26cd6f947c6d88a38c114d3226}} 
+\index{main.Game@{main.Game}!gamePanel@{gamePanel}}
+\index{gamePanel@{gamePanel}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{gamePanel}{gamePanel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} main.\+Game.\+game\+Panel\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_a453344a64e45a124eb6dd66075aad800}\label{classmain_1_1Game_a453344a64e45a124eb6dd66075aad800}} 
+\index{main.Game@{main.Game}!gameThread@{gameThread}}
+\index{gameThread@{gameThread}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{gameThread}{gameThread}}
+{\footnotesize\ttfamily Thread main.\+Game.\+game\+Thread\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_aaa5264a5c71725f629b1e73cd6929256}\label{classmain_1_1Game_aaa5264a5c71725f629b1e73cd6929256}} 
+\index{main.Game@{main.Game}!gameWindow@{gameWindow}}
+\index{gameWindow@{gameWindow}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{gameWindow}{gameWindow}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1GameWindow}{Game\+Window}} main.\+Game.\+game\+Window\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_a99b6602ee9ad8d589fd6a911b92a5924}\label{classmain_1_1Game_a99b6602ee9ad8d589fd6a911b92a5924}} 
+\index{main.Game@{main.Game}!leaderboard@{leaderboard}}
+\index{leaderboard@{leaderboard}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{leaderboard}{leaderboard}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Leaderboard}{Leaderboard}} main.\+Game.\+leaderboard\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_ae99c62a37ec4a856f8e0f1bf44d332a5}\label{classmain_1_1Game_ae99c62a37ec4a856f8e0f1bf44d332a5}} 
+\index{main.Game@{main.Game}!loadgame@{loadgame}}
+\index{loadgame@{loadgame}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{loadgame}{loadgame}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Loadgame}{Loadgame}} main.\+Game.\+loadgame\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_af872699242b4e9a6ce1a5f465e642a08}\label{classmain_1_1Game_af872699242b4e9a6ce1a5f465e642a08}} 
+\index{main.Game@{main.Game}!menu@{menu}}
+\index{menu@{menu}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{menu}{menu}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Menu}{Menu}} main.\+Game.\+menu\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_aa271d6cadd7f72041de898080f1ba178}\label{classmain_1_1Game_aa271d6cadd7f72041de898080f1ba178}} 
+\index{main.Game@{main.Game}!options@{options}}
+\index{options@{options}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{options}{options}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Options}{Options}} main.\+Game.\+options\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_af63ed8da75eed949d7f663181531b19d}\label{classmain_1_1Game_af63ed8da75eed949d7f663181531b19d}} 
+\index{main.Game@{main.Game}!playing@{playing}}
+\index{playing@{playing}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{playing}{playing}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}} main.\+Game.\+playing\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}\label{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}} 
+\index{main.Game@{main.Game}!SCALE@{SCALE}}
+\index{SCALE@{SCALE}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{SCALE}{SCALE}}
+{\footnotesize\ttfamily final float main.\+Game.\+SCALE = 1.\+0f\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Factorul de scalare aplicat elementelor jocului. 
+
+\mbox{\Hypertarget{classmain_1_1Game_a8da98b133eb6acf756cc01a44cf8e343}\label{classmain_1_1Game_a8da98b133eb6acf756cc01a44cf8e343}} 
+\index{main.Game@{main.Game}!sessionUsername@{sessionUsername}}
+\index{sessionUsername@{sessionUsername}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{sessionUsername}{sessionUsername}}
+{\footnotesize\ttfamily String main.\+Game.\+session\+Username\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numele de utilizator pentru sesiunea curentă de joc. 
+
+\mbox{\Hypertarget{classmain_1_1Game_ab96e6fdd5a26e700bba355b44023f735}\label{classmain_1_1Game_ab96e6fdd5a26e700bba355b44023f735}} 
+\index{main.Game@{main.Game}!TILES\_DEFAULT\_SIZE@{TILES\_DEFAULT\_SIZE}}
+\index{TILES\_DEFAULT\_SIZE@{TILES\_DEFAULT\_SIZE}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{TILES\_DEFAULT\_SIZE}{TILES\_DEFAULT\_SIZE}}
+{\footnotesize\ttfamily final int main.\+Game.\+TILES\+\_\+\+DEFAULT\+\_\+\+SIZE = 60\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Dimensiunea implicită a unui tile (în pixeli) înainte de scalare. 
+
+\mbox{\Hypertarget{classmain_1_1Game_ac9a9e3f2d058a64cc09fd05c5b7436ad}\label{classmain_1_1Game_ac9a9e3f2d058a64cc09fd05c5b7436ad}} 
+\index{main.Game@{main.Game}!TILES\_IN\_HEIGHT@{TILES\_IN\_HEIGHT}}
+\index{TILES\_IN\_HEIGHT@{TILES\_IN\_HEIGHT}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{TILES\_IN\_HEIGHT}{TILES\_IN\_HEIGHT}}
+{\footnotesize\ttfamily final int main.\+Game.\+TILES\+\_\+\+IN\+\_\+\+HEIGHT = 18\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de tile-\/uri vizibile pe înălțimea ecranului. 
+
+\mbox{\Hypertarget{classmain_1_1Game_a75f90d1bc951e61d7a64d74f8d71bfb1}\label{classmain_1_1Game_a75f90d1bc951e61d7a64d74f8d71bfb1}} 
+\index{main.Game@{main.Game}!TILES\_IN\_WIDTH@{TILES\_IN\_WIDTH}}
+\index{TILES\_IN\_WIDTH@{TILES\_IN\_WIDTH}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{TILES\_IN\_WIDTH}{TILES\_IN\_WIDTH}}
+{\footnotesize\ttfamily final int main.\+Game.\+TILES\+\_\+\+IN\+\_\+\+WIDTH = 32\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Numărul de tile-\/uri vizibile pe lățimea ecranului. 
+
+\mbox{\Hypertarget{classmain_1_1Game_ae06d32ad296c9fc9d4f09bf5c0388339}\label{classmain_1_1Game_ae06d32ad296c9fc9d4f09bf5c0388339}} 
+\index{main.Game@{main.Game}!TILES\_SIZE@{TILES\_SIZE}}
+\index{TILES\_SIZE@{TILES\_SIZE}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{TILES\_SIZE}{TILES\_SIZE}}
+{\footnotesize\ttfamily final int main.\+Game.\+TILES\+\_\+\+SIZE = (int) (\mbox{\hyperlink{classmain_1_1Game_ab96e6fdd5a26e700bba355b44023f735}{TILES\+\_\+\+DEFAULT\+\_\+\+SIZE}} $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{SCALE}})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Dimensiunea finală a unui tile (în pixeli) după aplicarea scalei. 
+
+\mbox{\Hypertarget{classmain_1_1Game_ab527f22158ad5081d42fbf807c7d9ada}\label{classmain_1_1Game_ab527f22158ad5081d42fbf807c7d9ada}} 
+\index{main.Game@{main.Game}!UPS\_SET@{UPS\_SET}}
+\index{UPS\_SET@{UPS\_SET}!main.Game@{main.Game}}
+\doxysubsubsection{\texorpdfstring{UPS\_SET}{UPS\_SET}}
+{\footnotesize\ttfamily final double main.\+Game.\+UPS\+\_\+\+SET = 120\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numărul țintă de actualizări logice pe secundă (Updates Per Second). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/\mbox{\hyperlink{Game_8java}{Game.\+java}}\end{DoxyCompactItemize}

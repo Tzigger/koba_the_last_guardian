@@ -1,0 +1,262 @@
+\hypertarget{classentities_1_1Projectile}{}\doxysection{entities.\+Projectile Class Reference}
+\label{classentities_1_1Projectile}\index{entities.Projectile@{entities.Projectile}}
+
+
+Reprezintă un proiectil în joc.  
+
+
+
+
+Inheritance diagram for entities.\+Projectile\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{classentities_1_1Projectile__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Projectile\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{classentities_1_1Projectile__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Projectile_a2e9f9525f54b069f71df4789efa06243}{Projectile}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}}, int \mbox{\hyperlink{classentities_1_1Projectile_ade8c7c4ab019c6db5ababc2adcd86143}{direction}}, int \mbox{\hyperlink{classentities_1_1Projectile_aafc603559791f4309c4760e6a9606e31}{damage}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru proiectile simple, desenate ca dreptunghiuri. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classentities_1_1Projectile_ab53142dc7f2164e4b78f9f419fcd8bf4}{Projectile}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Projectile_ade8c7c4ab019c6db5ababc2adcd86143}{direction}}, Buffered\+Image \mbox{\hyperlink{classentities_1_1Projectile_acbfcc0e71ec913d3e487609ccbf69eb5}{img}}, int \mbox{\hyperlink{classentities_1_1Projectile_aafc603559791f4309c4760e6a9606e31}{damage}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru proiectile bazate pe sprite-\/uri. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Projectile_a9ec6d9dfe42842e02ec55c33f1a59884}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția proiectilului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Projectile_a20d0193eb662fd783b7dc23bb84a3903}{draw}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează proiectilul pe ecran. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Projectile_ae0a860b078f692d6b877f32b58485614}{is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă proiectilul este activ. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Projectile_afd2a1a0e72b4ddd7d81c41f929a4b86a}{set\+Active}} (boolean \mbox{\hyperlink{classentities_1_1Projectile_a87db5a93bf0dbf7f4dbb49de28a5cb19}{active}})
+\begin{DoxyCompactList}\small\item\em Setează starea de activitate a proiectilului. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Projectile_aa727fe060932f9f8422ffdfc16035c25}{get\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Returnează hitbox-\/ul proiectilului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Projectile_ada645c810d7960768c4d600bd22fbe00}{get\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Returnează daunele pe care le provoacă proiectilul. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Projectile_a87db5a93bf0dbf7f4dbb49de28a5cb19}{active}} = true
+\begin{DoxyCompactList}\small\item\em Indicator dacă proiectilul este activ și ar trebui actualizat/desenat. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Projectile_ade8c7c4ab019c6db5ababc2adcd86143}{direction}}
+\begin{DoxyCompactList}\small\item\em Direcția proiectilului (0 pentru stânga, 1 pentru dreapta, folosind constantele din Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Directions). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Projectile_a4d7e849469d3f9ff0b4a2586871a7e50}{speed}} = 4.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{main.\+Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de deplasare a proiectilului, scalată cu dimensiunea jocului. \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{classentities_1_1Projectile_acbfcc0e71ec913d3e487609ccbf69eb5}{img}}
+\begin{DoxyCompactList}\small\item\em Imaginea (sprite-\/ul) pentru proiectil. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Projectile_aafc603559791f4309c4760e6a9606e31}{damage}}
+\begin{DoxyCompactList}\small\item\em Daunele pe care le provoacă proiectilul la impact. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă un proiectil în joc. 
+
+Această clasă extinde clasa \mbox{\hyperlink{classentities_1_1Entity}{Entity}} și definește comportamentul specific și atributele pentru proiectile, cum ar fi direcția, viteza, daunele și starea (activ/inactiv). Poate fi desenat ca un simplu dreptunghi sau folosind un sprite. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Projectile_a2e9f9525f54b069f71df4789efa06243}\label{classentities_1_1Projectile_a2e9f9525f54b069f71df4789efa06243}} 
+\index{entities.Projectile@{entities.Projectile}!Projectile@{Projectile}}
+\index{Projectile@{Projectile}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{Projectile()}{Projectile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily entities.\+Projectile.\+Projectile (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int}]{direction,  }\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru proiectile simple, desenate ca dreptunghiuri. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția inițială pe axa X. \\
+\hline
+{\em y} & Poziția inițială pe axa Y. \\
+\hline
+{\em width} & Lățimea proiectilului. \\
+\hline
+{\em height} & Înălțimea proiectilului. \\
+\hline
+{\em direction} & Direcția de mișcare (0 = stânga, 1 = dreapta). \\
+\hline
+{\em damage} & Daunele provocate de proiectil. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Projectile_ab53142dc7f2164e4b78f9f419fcd8bf4}\label{classentities_1_1Projectile_ab53142dc7f2164e4b78f9f419fcd8bf4}} 
+\index{entities.Projectile@{entities.Projectile}!Projectile@{Projectile}}
+\index{Projectile@{Projectile}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{Projectile()}{Projectile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily entities.\+Projectile.\+Projectile (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{direction,  }\item[{Buffered\+Image}]{img,  }\item[{int}]{damage }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru proiectile bazate pe sprite-\/uri. 
+
+Lățimea și înălțimea sunt derivate din imagine și scalate. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția inițială pe axa X. \\
+\hline
+{\em y} & Poziția inițială pe axa Y. \\
+\hline
+{\em direction} & Direcția de mișcare (0 = stânga, 1 = dreapta). \\
+\hline
+{\em img} & Imaginea (sprite-\/ul) pentru proiectil. \\
+\hline
+{\em damage} & Daunele provocate de proiectil. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Projectile_a20d0193eb662fd783b7dc23bb84a3903}\label{classentities_1_1Projectile_a20d0193eb662fd783b7dc23bb84a3903}} 
+\index{entities.Projectile@{entities.Projectile}!draw@{draw}}
+\index{draw@{draw}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void entities.\+Projectile.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Desenează proiectilul pe ecran. 
+
+Dacă proiectilul nu este activ, nu desenează nimic. Desenează sprite-\/ul dacă este disponibil, altfel desenează un dreptunghi galben. Include logica pentru inversarea sprite-\/ului dacă se mișcă spre stânga. 
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic pentru desenare. \\
+\hline
+{\em x\+Lvl\+Offset} & Decalajul pe axa X al nivelului, pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Projectile_ada645c810d7960768c4d600bd22fbe00}\label{classentities_1_1Projectile_ada645c810d7960768c4d600bd22fbe00}} 
+\index{entities.Projectile@{entities.Projectile}!getDamage@{getDamage}}
+\index{getDamage@{getDamage}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{getDamage()}{getDamage()}}
+{\footnotesize\ttfamily int entities.\+Projectile.\+get\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează daunele pe care le provoacă proiectilul. 
+
+\begin{DoxyReturn}{Returns}
+Cantitatea de daune. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Projectile_aa727fe060932f9f8422ffdfc16035c25}\label{classentities_1_1Projectile_aa727fe060932f9f8422ffdfc16035c25}} 
+\index{entities.Projectile@{entities.Projectile}!getHitbox@{getHitbox}}
+\index{getHitbox@{getHitbox}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{getHitbox()}{getHitbox()}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Projectile.\+get\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează hitbox-\/ul proiectilului. 
+
+\begin{DoxyReturn}{Returns}
+Un obiect \mbox{\hyperlink{}{Rectangle2\+D.\+Float}} reprezentând hitbox-\/ul. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Entity_a499329a00226cbb0ca7db068833f4151}{entities.\+Entity}}.
+
+\mbox{\Hypertarget{classentities_1_1Projectile_ae0a860b078f692d6b877f32b58485614}\label{classentities_1_1Projectile_ae0a860b078f692d6b877f32b58485614}} 
+\index{entities.Projectile@{entities.Projectile}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean entities.\+Projectile.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă proiectilul este activ. 
+
+\begin{DoxyReturn}{Returns}
+true dacă proiectilul este activ, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Projectile_afd2a1a0e72b4ddd7d81c41f929a4b86a}\label{classentities_1_1Projectile_afd2a1a0e72b4ddd7d81c41f929a4b86a}} 
+\index{entities.Projectile@{entities.Projectile}!setActive@{setActive}}
+\index{setActive@{setActive}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void entities.\+Projectile.\+set\+Active (\begin{DoxyParamCaption}\item[{boolean}]{active }\end{DoxyParamCaption})}
+
+
+
+Setează starea de activitate a proiectilului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em active} & Noua stare de activitate (true pentru activ, false pentru inactiv). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Projectile_a9ec6d9dfe42842e02ec55c33f1a59884}\label{classentities_1_1Projectile_a9ec6d9dfe42842e02ec55c33f1a59884}} 
+\index{entities.Projectile@{entities.Projectile}!update@{update}}
+\index{update@{update}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Projectile.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează poziția proiectilului. 
+
+Dacă proiectilul nu este activ, nu face nimic. Mișcă proiectilul în direcția specificată cu viteza sa. Verificarea ieșirii din ecran este gestionată de \mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}}. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Projectile_a87db5a93bf0dbf7f4dbb49de28a5cb19}\label{classentities_1_1Projectile_a87db5a93bf0dbf7f4dbb49de28a5cb19}} 
+\index{entities.Projectile@{entities.Projectile}!active@{active}}
+\index{active@{active}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily boolean entities.\+Projectile.\+active = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă proiectilul este activ și ar trebui actualizat/desenat. 
+
+\mbox{\Hypertarget{classentities_1_1Projectile_aafc603559791f4309c4760e6a9606e31}\label{classentities_1_1Projectile_aafc603559791f4309c4760e6a9606e31}} 
+\index{entities.Projectile@{entities.Projectile}!damage@{damage}}
+\index{damage@{damage}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{damage}{damage}}
+{\footnotesize\ttfamily int entities.\+Projectile.\+damage\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Daunele pe care le provoacă proiectilul la impact. 
+
+\mbox{\Hypertarget{classentities_1_1Projectile_ade8c7c4ab019c6db5ababc2adcd86143}\label{classentities_1_1Projectile_ade8c7c4ab019c6db5ababc2adcd86143}} 
+\index{entities.Projectile@{entities.Projectile}!direction@{direction}}
+\index{direction@{direction}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{direction}{direction}}
+{\footnotesize\ttfamily int entities.\+Projectile.\+direction\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Direcția proiectilului (0 pentru stânga, 1 pentru dreapta, folosind constantele din Enemy\+\_\+\+Animation\+\_\+\+Rows.\+Directions). 
+
+\mbox{\Hypertarget{classentities_1_1Projectile_acbfcc0e71ec913d3e487609ccbf69eb5}\label{classentities_1_1Projectile_acbfcc0e71ec913d3e487609ccbf69eb5}} 
+\index{entities.Projectile@{entities.Projectile}!img@{img}}
+\index{img@{img}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{img}{img}}
+{\footnotesize\ttfamily Buffered\+Image entities.\+Projectile.\+img\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Imaginea (sprite-\/ul) pentru proiectil. 
+
+Poate fi null dacă se dorește un dreptunghi simplu. \mbox{\Hypertarget{classentities_1_1Projectile_a4d7e849469d3f9ff0b4a2586871a7e50}\label{classentities_1_1Projectile_a4d7e849469d3f9ff0b4a2586871a7e50}} 
+\index{entities.Projectile@{entities.Projectile}!speed@{speed}}
+\index{speed@{speed}!entities.Projectile@{entities.Projectile}}
+\doxysubsubsection{\texorpdfstring{speed}{speed}}
+{\footnotesize\ttfamily float entities.\+Projectile.\+speed = 4.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{main.\+Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de deplasare a proiectilului, scalată cu dimensiunea jocului. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Projectile_8java}{Projectile.\+java}}\end{DoxyCompactItemize}

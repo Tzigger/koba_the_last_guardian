@@ -1,0 +1,1393 @@
+\hypertarget{classentities_1_1Karagor}{}\doxysection{entities.\+Karagor Class Reference}
+\label{classentities_1_1Karagor}\index{entities.Karagor@{entities.Karagor}}
+
+
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} în joc, care poate funcționa ca un boss.  
+
+
+
+
+Inheritance diagram for entities.\+Karagor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classentities_1_1Karagor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Karagor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classentities_1_1Karagor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Karagor_aa1dd98df08cfcd523e4f5d3451723a2c}{Karagor}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}}, boolean \mbox{\hyperlink{classentities_1_1Karagor_a456d06ce8bf50a3b8c6013da827baeff}{is\+Boss}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a3ebeb8262696433fc32fa82e98fc602b}{set\+Platform\+Bounds}} (float \mbox{\hyperlink{classentities_1_1Karagor_a6f11cf842de512c7c64e6a0a57af5676}{left}}, float \mbox{\hyperlink{classentities_1_1Karagor_a62cf54db501cada7940e9113e067dcf5}{right}})
+\begin{DoxyCompactList}\small\item\em Setează limitele platformei pe care \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} poate patrula. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a095937f5478eefc8aa779365f090ed2e}{update\+Player\+Position}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Actualizează poziția lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} în funcție de poziția jucătorului (dacă este boss). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a1a6d3b72e98f7dbe91ff27be6a32396d}{update}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Metoda principală de actualizare pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a4c9f8e9cb0669ad38777b1b8d94f1c8d}{render}} (Graphics g, int lvl\+OffsetX)
+\begin{DoxyCompactList}\small\item\em Randează \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a4a6dde0a66841762dbc29748d1f55c09}{load\+Animations}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă animațiile pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} din sprite sheet. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a71bf3888a0bb59a7948fe015d7c26889}{load\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Karagor_aaef146468d3febbd711f063ef5dbdf57}{level\+Data}})
+\begin{DoxyCompactList}\small\item\em Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_aae5802a0406fef77a984b64957cac38b}{is\+Left}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_abf66b0b47027c6095d707894d5560e84}{set\+Left}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_a6f11cf842de512c7c64e6a0a57af5676}{left}})
+\begin{DoxyCompactList}\small\item\em Setează starea de mișcare la stânga. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_ae942e4e9697d17952884d1863e9f8a2d}{is\+Right}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_aa548eab218164bd3db71f1402fc829cb}{set\+Right}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_a62cf54db501cada7940e9113e067dcf5}{right}})
+\begin{DoxyCompactList}\small\item\em Setează starea de mișcare la dreapta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a66c2a6377ee2435de906ea7b6f4814bf}{reset\+Dir\+Booleans}} ()
+\begin{DoxyCompactList}\small\item\em Resetează toate flag-\/urile de direcție și atac. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_ab3d3081152fe1cc11d0383f758cb9a82}{reset\+In\+Air}} ()
+\begin{DoxyCompactList}\small\item\em Resetează starea \char`\"{}in\+Air\char`\"{} și inițiază animația de aterizare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_ae10e2123926c7602ab2239ef5e794610}{set\+Attack}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_aa6e4ac038a833519f0ed8cce6f239045}{attack}})
+\begin{DoxyCompactList}\small\item\em Setează starea de atac. \end{DoxyCompactList}\item 
+java.\+awt.\+geom.\+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Karagor_a481bb768e349ba66a2bdc36e260fc0f8}{get\+Attack\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Returnează hitbox-\/ul de atac al lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} dacă acesta atacă și se află într-\/un frame valid al animației de atac. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a56af7743318eb014e24f06c647db45b3}{set\+Has\+Hit}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_ab6b0eb6293214bb5bb3768354d00dc56}{has\+Hit}})
+\begin{DoxyCompactList}\small\item\em Marchează atacul curent ca fiind efectuat (a lovit ceva), pentru a preveni lovituri multiple cu același atac. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a8b0e682d9d18da7ee49cfaa92e3af03b}{has\+Hit}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă atacul curent a lovit deja ceva. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a684910a3c1f5f63b1e4ba1415aafea5f}{get\+Attack\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Returnează daunele provocate de atacurile lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a8241aa63fe003aed2753089871109db6}{is\+Attack}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a6f984e887e8d9a4375189802d0de5345}{is\+Crouch}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_af7f9546829b4249a828a4d7750625358}{set\+Crouch}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_a67e263a3f3d75d10236bbec8df3b4420}{crouch}})
+\begin{DoxyCompactList}\small\item\em Setează starea de ghemuire a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_afd941053517bed90835708ff24729ae4}{is\+Up}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_aaa7dafef1af1c7840d231629b2f2d6c5}{set\+Up}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_a9bb1d614537b8d87bd61e10e26533a0e}{up}})
+\begin{DoxyCompactList}\small\item\em Setează flag-\/ul \char`\"{}up\char`\"{}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a7a51a2c64057686c0b7195d2c14eb65d}{is\+Down}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a824687d684711c9906b5d7c1dafff9ff}{set\+Down}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_a585f1dac57c190532d65943cf2cace3f}{down}})
+\begin{DoxyCompactList}\small\item\em Setează flag-\/ul \char`\"{}down\char`\"{}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_afc93468caf10f3e525db42112a13ecbf}{is\+Jump}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a228880e1a08fc8b5a051419675ac1081}{set\+Jump}} (boolean \mbox{\hyperlink{classentities_1_1Karagor_a74cc0ced2d500641a799bf4d349781c9}{jump}})
+\begin{DoxyCompactList}\small\item\em Setează starea de săritură. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a39e25fc481bb030e59997efe82de93ea}{get\+Current\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_ae912f55ac5a73a89a1bc845478e4ad72}{get\+Max\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Returnează sănătatea maximă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_acf3e3a5ee424d970ed628f42adf9f053}{heal}} (int amount)
+\begin{DoxyCompactList}\small\item\em Crește sănătatea lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} cu o anumită valoare, fără a depăși sănătatea maximă. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a92dcb29e41a8f0a68ab70ba40f866a3f}{take\+Damage}} (int amount)
+\begin{DoxyCompactList}\small\item\em Aplică daune lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} și inițiază starea \char`\"{}hurt\char`\"{} și efectul de knockback. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_ad83eba1dc9fc897ef976c06c13b0dba7}{is\+Alive}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în viață (are sănătate mai mare decât 0). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a7ca79f1c7e902d3da1323953021e235f}{reset\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Resetează sănătatea lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} la valoarea maximă. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_aa0601a476f7bcd432551c0067675798c}{set\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Karagor_aaef146468d3febbd711f063ef5dbdf57}{level\+Data}})
+\begin{DoxyCompactList}\small\item\em Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}, folosite pentru coliziuni. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a0bcf3136b035b50448fa3a3bf3ec176d}{is\+Attacking}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} execută un atac. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a0a66ebfdec10a5008110a14de6a15998}{draw\+Hitbox}} = true
+\begin{DoxyCompactList}\small\item\em Indicator dacă hitbox-\/ul trebuie desenat (pentru debugging). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a81f48596bb69d2634e0babce1aeb5df0}{update\+Gravity}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează gravitația și mișcarea verticală a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a02963a3f7900470c14c96ad616fbb634}{perform\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Efectuează un atac aleatoriu din lista de animații de atac valide. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_aab786227c08df5d9d9baed96cfa07cfa}{update\+Hurt\+State}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea \char`\"{}hurt\char`\"{} (lovit). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a19efd0e20909b24272f21de11fea879e}{update\+Animation\+Tick}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează tick-\/ul de animație și indexul frame-\/ului curent. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a850dbe33c49de786214aab3f6671f753}{set\+Animation}} ()
+\begin{DoxyCompactList}\small\item\em Setează animația curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} pe baza stării sale. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_ad17e189383922c20ac896038968a7478}{reset\+Animation\+Tick}} ()
+\begin{DoxyCompactList}\small\item\em Resetează contorul de tick-\/uri și indexul frame-\/ului animației. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a3bd1b90e711a3e9238cd5e534c622fa8}{update\+Pos}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează poziția orizontală a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} pe baza input-\/ului (stânga/dreapta) și a săriturii. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_af7b501d49c51dcd4d57f28ea677df00e}{update\+XPos}} (float x\+Speed)
+\begin{DoxyCompactList}\small\item\em Actualizează poziția X a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}, verificând coliziunile cu pereții. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Karagor_a9066a659786c74432c93fa5ce1a716c0}{jump}} ()
+\begin{DoxyCompactList}\small\item\em Inițiază o săritură dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} nu este deja în aer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Karagor_ab6923d3e34e54a820412eb344c1c5fa7}{animations}}
+\begin{DoxyCompactList}\small\item\em Matrice bidimensională pentru stocarea animațiilor normale ale lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a9fa668e00d718a4260524b7ce4ef4172}{animation\+Tick}}
+\begin{DoxyCompactList}\small\item\em Contor pentru tick-\/urile de animație. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a7b71a214b54d52edf5f4295ebfd5bffc}{animation\+Index}}
+\begin{DoxyCompactList}\small\item\em Indexul frame-\/ului curent al animației. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_aa617f1faea551077e588eaef270443f4}{animation\+Speed}} = 3
+\begin{DoxyCompactList}\small\item\em Viteza animației (numărul de tick-\/uri per frame). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_ab2d8d2298e119066bd6f53362436e664}{karagor\+Action}} = Gorilla\+\_\+\+Animation\+\_\+rows.\+PUNCH\+\_\+\+STANDING.\+get\+Row\+Index()
+\begin{DoxyCompactList}\small\item\em Acțiunea curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (indexul rândului din sprite sheet). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a59cbf8068708d3b8c2300fe6f40b4929}{karagor\+Direction}} = -\/1
+\begin{DoxyCompactList}\small\item\em Direcția curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (-\/1 pentru stânga, 1 pentru dreapta -\/ deși neutilizat direct în logica de mișcare). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a118e6bcd9de7d848dcb0e2307f97e710}{moving}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_aa6e4ac038a833519f0ed8cce6f239045}{attack}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} atacă. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a8a46598ec0dce839e79cb24b79d3c090}{is\+Punching}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă animația de pumn este în desfășurare. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_ab6b0eb6293214bb5bb3768354d00dc56}{has\+Hit}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă atacul curent a lovit deja ceva. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a3891717478d661d9d1f7d617e7375d7a}{attack\+Damage}} = 5
+\begin{DoxyCompactList}\small\item\em Daunele provocate de atacurile lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a6f11cf842de512c7c64e6a0a57af5676}{left}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă la stânga. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a62cf54db501cada7940e9113e067dcf5}{right}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă la dreapta. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a9bb1d614537b8d87bd61e10e26533a0e}{up}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă în sus (neutilizat pentru mișcare, poate pentru săritură). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a585f1dac57c190532d65943cf2cace3f}{down}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă în jos (neutilizat pentru mișcare, poate pentru ghemuire). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_abf73fa3b23bbe88c7a98efd782ac8c20}{facing\+Right}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este orientat spre dreapta. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a6db612b1578742271a161a6172300b03}{player\+Speed}} = 1.\+5f
+\begin{DoxyCompactList}\small\item\em Viteza de mișcare a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a67e263a3f3d75d10236bbec8df3b4420}{crouch}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este ghemuit. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a2f0d70ebc1d2418522d147afa5bcbe92}{was\+Crouch\+Pressed}} = false
+\begin{DoxyCompactList}\small\item\em Starea anterioară a butonului de ghemuire. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a96560db1203b1bd87b1dfb69abccaa0f}{is\+Transitioning}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este într-\/o animație de tranziție (ex\+: stand to crouch). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_aaef146468d3febbd711f063ef5dbdf57}{level\+Data}} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em Datele nivelului curent, folosite pentru coliziuni și navigație. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a74cc0ced2d500641a799bf4d349781c9}{jump}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} încearcă să sară. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_ac9aaa8dfdc3be68eb1d60be44c101e14}{max\+Health}} = 150
+\begin{DoxyCompactList}\small\item\em Sănătatea maximă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_ae4873298a14b41c280f03d98aa377854}{current\+Health}} = 150
+\begin{DoxyCompactList}\small\item\em Sănătatea curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a05f810af1308e3bdf16ae8760a116963}{is\+Hurt}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în starea \char`\"{}hurt\char`\"{} (lovit). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_abe356496756ee4b1ae1bbf9149f34c6d}{hurt\+Timer}} = 0
+\begin{DoxyCompactList}\small\item\em Cronometru pentru durata animației \char`\"{}hurt\char`\"{}. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1Karagor_a4ec64d1563508eee817e4b21f9211724}{HURT\+\_\+\+ANIMATION\+\_\+\+DURATION}} = 30
+\begin{DoxyCompactList}\small\item\em Durata animației \char`\"{}hurt\char`\"{} în frame-\/uri. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a9648b5626cc26f987af915f2a3789bc2}{x\+Draw\+Offset}} = 66 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Decalajul pe axa X pentru desenarea sprite-\/ului lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a66c077c1451137349d4193ab6dc2016e}{y\+Draw\+Offset}} = 39 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Decalajul pe axa Y pentru desenarea sprite-\/ului lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a36d783fbd9d6188b42038352bcaa8c86}{air\+Speed}} = 0f
+\begin{DoxyCompactList}\small\item\em Viteza verticală a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} în aer. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a87a49d3a3c5b5a5cc23b4b4ae75f6a75}{gravity}} = 0.\+12f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Valoarea gravitației aplicate lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a6fb8c874404e41cc1b18c72a41f51e16}{jump\+Speed}} = -\/6.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza inițială a săriturii lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a584991880d82ca2682ab2f34937e999f}{fall\+Speed\+After\+Collision}} = 2.\+4f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\begin{DoxyCompactList}\small\item\em Viteza de cădere după o coliziune verticală (cu tavanul). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_aaec04e71760cef9de815ff45d25fb4c1}{in\+Air}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se află în aer. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a523033fb74af1ee3c4e5e3ba103d803f}{is\+Landing}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în animația de aterizare. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a13a5cede8f9679e359a7f8817ec48aaf}{landing\+Frame}} = 7
+\begin{DoxyCompactList}\small\item\em Frame-\/ul curent al animației de aterizare. \end{DoxyCompactList}\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Karagor_a5fca7db5e962adbad7c3cb9d77d12a93}{flipped\+Animations}}
+\begin{DoxyCompactList}\small\item\em Matrice bidimensională pentru stocarea animațiilor inversate (flipped) ale lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a456d06ce8bf50a3b8c6013da827baeff}{is\+Boss}} = true
+\begin{DoxyCompactList}\small\item\em Indicator dacă această instanță de \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este un boss. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_add42b0ad02be00234c17dcb7e9d4e435}{platform\+Right\+Bound}}
+\begin{DoxyCompactList}\small\item\em Limita dreaptă a platformei pe care se află \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (pentru patrulare). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_abf91d7ff0f2d1618f2ff81cad4757e8c}{platform\+Left\+Bound}}
+\begin{DoxyCompactList}\small\item\em Limita stângă a platformei pe care se află \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (pentru patrulare). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Karagor_a2226de200e1c7ce255c9d4c4e71f0b09}{attack\+Cooldown}} = 120
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul dintre atacuri. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Karagor_a24e26b91faba73cecc061aa43550d985}{detection\+Range}} = 500f
+\begin{DoxyCompactList}\small\item\em Distanța la care \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} poate detecta jucătorul. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Karagor_a003c39489b8d8db00435bb0f6afe305d}{is\+Attacking}} = false
+\begin{DoxyCompactList}\small\item\em Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} execută un atac. \end{DoxyCompactList}\item 
+final int \mbox{\hyperlink{classentities_1_1Karagor_a0429d7de855cae10f73758f3ff60b9ac}{ATTACK\+\_\+\+COOLDOWN}} = 120
+\begin{DoxyCompactList}\small\item\em Cooldown-\/ul maxim dintre atacuri (în tick-\/uri). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă entitatea \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} în joc, care poate funcționa ca un boss. 
+
+Această clasă extinde clasa \mbox{\hyperlink{classentities_1_1Player}{Player}}, sugerând că poate împărtăși unele mecanici cu jucătorul, dar are propriul set de animații, comportament de atac și atribute. Gestionează stările, mișcarea, atacurile și interacțiunea cu mediul și jucătorul. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Karagor_aa1dd98df08cfcd523e4f5d3451723a2c}\label{classentities_1_1Karagor_aa1dd98df08cfcd523e4f5d3451723a2c}} 
+\index{entities.Karagor@{entities.Karagor}!Karagor@{Karagor}}
+\index{Karagor@{Karagor}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{Karagor()}{Karagor()}}
+{\footnotesize\ttfamily entities.\+Karagor.\+Karagor (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{boolean}]{is\+Boss }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+Inițializează \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} cu o poziție, dimensiuni și specifică dacă este un boss. Setează atributele (sănătate, daune) în funcție de rolul de boss. Încarcă animațiile și inițializează hitbox-\/ul. 
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția inițială pe axa X. \\
+\hline
+{\em y} & Poziția inițială pe axa Y. \\
+\hline
+{\em width} & Lățimea entității. \\
+\hline
+{\em height} & Înălțimea entității. \\
+\hline
+{\em is\+Boss} & true dacă această instanță este un boss, false altfel. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Karagor_a684910a3c1f5f63b1e4ba1415aafea5f}\label{classentities_1_1Karagor_a684910a3c1f5f63b1e4ba1415aafea5f}} 
+\index{entities.Karagor@{entities.Karagor}!getAttackDamage@{getAttackDamage}}
+\index{getAttackDamage@{getAttackDamage}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{getAttackDamage()}{getAttackDamage()}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+get\+Attack\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează daunele provocate de atacurile lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\begin{DoxyReturn}{Returns}
+Cantitatea de daune. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a7cef40362dc7be6f84917dd20611137e}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a481bb768e349ba66a2bdc36e260fc0f8}\label{classentities_1_1Karagor_a481bb768e349ba66a2bdc36e260fc0f8}} 
+\index{entities.Karagor@{entities.Karagor}!getAttackHitbox@{getAttackHitbox}}
+\index{getAttackHitbox@{getAttackHitbox}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{getAttackHitbox()}{getAttackHitbox()}}
+{\footnotesize\ttfamily java.\+awt.\+geom.\+Rectangle2\+D.\+Float entities.\+Karagor.\+get\+Attack\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează hitbox-\/ul de atac al lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} dacă acesta atacă și se află într-\/un frame valid al animației de atac. 
+
+\begin{DoxyReturn}{Returns}
+Un obiect \mbox{\hyperlink{}{Rectangle2\+D.\+Float}} reprezentând zona de atac, sau null dacă nu atacă sau nu este un frame valid. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a7fa5adfb436fa13e4ba50c36dfa5c68f}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a39e25fc481bb030e59997efe82de93ea}\label{classentities_1_1Karagor_a39e25fc481bb030e59997efe82de93ea}} 
+\index{entities.Karagor@{entities.Karagor}!getCurrentHealth@{getCurrentHealth}}
+\index{getCurrentHealth@{getCurrentHealth}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{getCurrentHealth()}{getCurrentHealth()}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+get\+Current\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\begin{DoxyReturn}{Returns}
+Valoarea sănătății curente. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ae77301fc5fc01fb88c744b3b8f216c6d}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ae912f55ac5a73a89a1bc845478e4ad72}\label{classentities_1_1Karagor_ae912f55ac5a73a89a1bc845478e4ad72}} 
+\index{entities.Karagor@{entities.Karagor}!getMaxHealth@{getMaxHealth}}
+\index{getMaxHealth@{getMaxHealth}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{getMaxHealth()}{getMaxHealth()}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+get\+Max\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează sănătatea maximă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\begin{DoxyReturn}{Returns}
+Valoarea sănătății maxime. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_abb3b50d97341bd9e4ded8f81c43271e1}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a8b0e682d9d18da7ee49cfaa92e3af03b}\label{classentities_1_1Karagor_a8b0e682d9d18da7ee49cfaa92e3af03b}} 
+\index{entities.Karagor@{entities.Karagor}!hasHit@{hasHit}}
+\index{hasHit@{hasHit}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{hasHit()}{hasHit()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+has\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă atacul curent a lovit deja ceva. 
+
+\begin{DoxyReturn}{Returns}
+true dacă atacul a lovit, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a6f0f5369c29ee8390fa90cd3d22ec176}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_acf3e3a5ee424d970ed628f42adf9f053}\label{classentities_1_1Karagor_acf3e3a5ee424d970ed628f42adf9f053}} 
+\index{entities.Karagor@{entities.Karagor}!heal@{heal}}
+\index{heal@{heal}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{heal()}{heal()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+heal (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Crește sănătatea lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} cu o anumită valoare, fără a depăși sănătatea maximă. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em amount} & Cantitatea de sănătate adăugată. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a5e00cc261703798e9fe9da8f3c051e91}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ad83eba1dc9fc897ef976c06c13b0dba7}\label{classentities_1_1Karagor_ad83eba1dc9fc897ef976c06c13b0dba7}} 
+\index{entities.Karagor@{entities.Karagor}!isAlive@{isAlive}}
+\index{isAlive@{isAlive}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isAlive()}{isAlive()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Alive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în viață (are sănătate mai mare decât 0). 
+
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în viață, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_aa2cce3b623f9b2381979f6b2e1219b3f}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a8241aa63fe003aed2753089871109db6}\label{classentities_1_1Karagor_a8241aa63fe003aed2753089871109db6}} 
+\index{entities.Karagor@{entities.Karagor}!isAttack@{isAttack}}
+\index{isAttack@{isAttack}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isAttack()}{isAttack()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în starea de atac (flag general), false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ae91421b7ea5f6ada3b51ef26bde79c51}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a0bcf3136b035b50448fa3a3bf3ec176d}\label{classentities_1_1Karagor_a0bcf3136b035b50448fa3a3bf3ec176d}} 
+\index{entities.Karagor@{entities.Karagor}!isAttacking@{isAttacking}}
+\index{isAttacking@{isAttacking}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isAttacking()}{isAttacking()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Attacking (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} execută un atac. 
+
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} atacă, false altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Karagor_a6f984e887e8d9a4375189802d0de5345}\label{classentities_1_1Karagor_a6f984e887e8d9a4375189802d0de5345}} 
+\index{entities.Karagor@{entities.Karagor}!isCrouch@{isCrouch}}
+\index{isCrouch@{isCrouch}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isCrouch()}{isCrouch()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Crouch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este ghemuit, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a8e58e2b2f40492965d6bd41bf41971e4}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a7a51a2c64057686c0b7195d2c14eb65d}\label{classentities_1_1Karagor_a7a51a2c64057686c0b7195d2c14eb65d}} 
+\index{entities.Karagor@{entities.Karagor}!isDown@{isDown}}
+\index{isDown@{isDown}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isDown()}{isDown()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true dacă flag-\/ul \char`\"{}down\char`\"{} este activat, false altfel (neutilizat pentru mișcare). 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a302c3240cfd838824cefd0d64cc87e5e}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_afc93468caf10f3e525db42112a13ecbf}\label{classentities_1_1Karagor_afc93468caf10f3e525db42112a13ecbf}} 
+\index{entities.Karagor@{entities.Karagor}!isJump@{isJump}}
+\index{isJump@{isJump}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isJump()}{isJump()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} încearcă să sară, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_adcfb95a080cded7b50d8a51510bbce14}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aae5802a0406fef77a984b64957cac38b}\label{classentities_1_1Karagor_aae5802a0406fef77a984b64957cac38b}} 
+\index{entities.Karagor@{entities.Karagor}!isLeft@{isLeft}}
+\index{isLeft@{isLeft}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isLeft()}{isLeft()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă la stânga, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ad424a582df5344e798a060efc21e6cb7}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ae942e4e9697d17952884d1863e9f8a2d}\label{classentities_1_1Karagor_ae942e4e9697d17952884d1863e9f8a2d}} 
+\index{entities.Karagor@{entities.Karagor}!isRight@{isRight}}
+\index{isRight@{isRight}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isRight()}{isRight()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă la dreapta, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a7b12ad0eaa74aab2ab3e0a3325afd2ea}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_afd941053517bed90835708ff24729ae4}\label{classentities_1_1Karagor_afd941053517bed90835708ff24729ae4}} 
+\index{entities.Karagor@{entities.Karagor}!isUp@{isUp}}
+\index{isUp@{isUp}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isUp()}{isUp()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true dacă flag-\/ul \char`\"{}up\char`\"{} este activat, false altfel (neutilizat pentru mișcare). 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_acfd53a7511acd62e5af72798f3ce339f}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a9066a659786c74432c93fa5ce1a716c0}\label{classentities_1_1Karagor_a9066a659786c74432c93fa5ce1a716c0}} 
+\index{entities.Karagor@{entities.Karagor}!jump@{jump}}
+\index{jump@{jump}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{jump()}{jump()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițiază o săritură dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} nu este deja în aer. 
+
+Setează starea \char`\"{}in\+Air\char`\"{} și viteza verticală inițială. 
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ad91bcb2af4701683f66ee0de514b0836}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a4a6dde0a66841762dbc29748d1f55c09}\label{classentities_1_1Karagor_a4a6dde0a66841762dbc29748d1f55c09}} 
+\index{entities.Karagor@{entities.Karagor}!loadAnimations@{loadAnimations}}
+\index{loadAnimations@{loadAnimations}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{loadAnimations()}{loadAnimations()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+load\+Animations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Încarcă animațiile pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} din sprite sheet. 
+
+Sprite sheet-\/ul este încărcat folosind clasa Load\+Save. Animațiile sunt stocate în matricile {\ttfamily animations} și {\ttfamily flipped\+Animations}. 
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_aeda64de49a76e0c6215d70c63460cee9}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a71bf3888a0bb59a7948fe015d7c26889}\label{classentities_1_1Karagor_a71bf3888a0bb59a7948fe015d7c26889}} 
+\index{entities.Karagor@{entities.Karagor}!loadLevelData@{loadLevelData}}
+\index{loadLevelData@{loadLevelData}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{loadLevelData()}{loadLevelData()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+load\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & O matrice bidimensională reprezentând tile-\/urile nivelului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ae97f79ccefd926b8b51828f8eedbc713}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a02963a3f7900470c14c96ad616fbb634}\label{classentities_1_1Karagor_a02963a3f7900470c14c96ad616fbb634}} 
+\index{entities.Karagor@{entities.Karagor}!performAttack@{performAttack}}
+\index{performAttack@{performAttack}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{performAttack()}{performAttack()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+perform\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Efectuează un atac aleatoriu din lista de animații de atac valide. 
+
+Setează acțiunea Karagorului la animația de atac aleasă și resetează cooldown-\/ul. \mbox{\Hypertarget{classentities_1_1Karagor_a4c9f8e9cb0669ad38777b1b8d94f1c8d}\label{classentities_1_1Karagor_a4c9f8e9cb0669ad38777b1b8d94f1c8d}} 
+\index{entities.Karagor@{entities.Karagor}!render@{render}}
+\index{render@{render}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+render (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{lvl\+OffsetX }\end{DoxyParamCaption})}
+
+
+
+Randează \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} pe ecran. 
+
+Desenează frame-\/ul curent al animației la poziția corectă, luând în considerare decalajul nivelului. 
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic pentru desenare. \\
+\hline
+{\em lvl\+OffsetX} & Decalajul pe axa X al nivelului, pentru scrolling. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a44db2b7a9334d9de4ff86d1c84aec642}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ad17e189383922c20ac896038968a7478}\label{classentities_1_1Karagor_ad17e189383922c20ac896038968a7478}} 
+\index{entities.Karagor@{entities.Karagor}!resetAnimationTick@{resetAnimationTick}}
+\index{resetAnimationTick@{resetAnimationTick}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{resetAnimationTick()}{resetAnimationTick()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+reset\+Animation\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Resetează contorul de tick-\/uri și indexul frame-\/ului animației. 
+
+Folosit la schimbarea tipului de animație. 
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_aa78e767830eaff7cea976402309be2b5}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a66c2a6377ee2435de906ea7b6f4814bf}\label{classentities_1_1Karagor_a66c2a6377ee2435de906ea7b6f4814bf}} 
+\index{entities.Karagor@{entities.Karagor}!resetDirBooleans@{resetDirBooleans}}
+\index{resetDirBooleans@{resetDirBooleans}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{resetDirBooleans()}{resetDirBooleans()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+reset\+Dir\+Booleans (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resetează toate flag-\/urile de direcție și atac. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_aa5ec65e8c4e10aadef4d86d595db99b1}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a7ca79f1c7e902d3da1323953021e235f}\label{classentities_1_1Karagor_a7ca79f1c7e902d3da1323953021e235f}} 
+\index{entities.Karagor@{entities.Karagor}!resetHealth@{resetHealth}}
+\index{resetHealth@{resetHealth}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{resetHealth()}{resetHealth()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+reset\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resetează sănătatea lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} la valoarea maximă. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ad768f2b60e00ebed2ce437a987377817}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ab3d3081152fe1cc11d0383f758cb9a82}\label{classentities_1_1Karagor_ab3d3081152fe1cc11d0383f758cb9a82}} 
+\index{entities.Karagor@{entities.Karagor}!resetInAir@{resetInAir}}
+\index{resetInAir@{resetInAir}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{resetInAir()}{resetInAir()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+reset\+In\+Air (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resetează starea \char`\"{}in\+Air\char`\"{} și inițiază animația de aterizare. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_afbded2c7104acace88a05d06583e044d}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a850dbe33c49de786214aab3f6671f753}\label{classentities_1_1Karagor_a850dbe33c49de786214aab3f6671f753}} 
+\index{entities.Karagor@{entities.Karagor}!setAnimation@{setAnimation}}
+\index{setAnimation@{setAnimation}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setAnimation()}{setAnimation()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Animation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Setează animația curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} pe baza stării sale. 
+
+Gestionează prioritățile animațiilor (ex\+: \char`\"{}hurt\char`\"{} are prioritate maximă). 
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a6ef745fd0b96cf940e00b464de12a33c}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ae10e2123926c7602ab2239ef5e794610}\label{classentities_1_1Karagor_ae10e2123926c7602ab2239ef5e794610}} 
+\index{entities.Karagor@{entities.Karagor}!setAttack@{setAttack}}
+\index{setAttack@{setAttack}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setAttack()}{setAttack()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Attack (\begin{DoxyParamCaption}\item[{boolean}]{attack }\end{DoxyParamCaption})}
+
+
+
+Setează starea de atac. 
+
+Dacă se activează atacul și \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} nu atacă deja, inițiază animația de pumn și resetează starea de lovitură. 
+\begin{DoxyParams}{Parameters}
+{\em attack} & true pentru a iniția un atac. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a760b6e82d26a562f77410b3544657641}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_af7f9546829b4249a828a4d7750625358}\label{classentities_1_1Karagor_af7f9546829b4249a828a4d7750625358}} 
+\index{entities.Karagor@{entities.Karagor}!setCrouch@{setCrouch}}
+\index{setCrouch@{setCrouch}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setCrouch()}{setCrouch()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Crouch (\begin{DoxyParamCaption}\item[{boolean}]{crouch }\end{DoxyParamCaption})}
+
+
+
+Setează starea de ghemuire a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+Dacă se activează ghemuirea și \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} nu era ghemuit și nu este în aer, inițiază animația de tranziție corespunzătoare. 
+\begin{DoxyParams}{Parameters}
+{\em crouch} & true pentru a activa ghemuirea. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_acafc5a54b4505f78ef1f474b04882d8f}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a824687d684711c9906b5d7c1dafff9ff}\label{classentities_1_1Karagor_a824687d684711c9906b5d7c1dafff9ff}} 
+\index{entities.Karagor@{entities.Karagor}!setDown@{setDown}}
+\index{setDown@{setDown}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setDown()}{setDown()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Down (\begin{DoxyParamCaption}\item[{boolean}]{down }\end{DoxyParamCaption})}
+
+
+
+Setează flag-\/ul \char`\"{}down\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em down} & true pentru a activa flag-\/ul. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a082d09f19af5a216231570516c6e2a5d}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a56af7743318eb014e24f06c647db45b3}\label{classentities_1_1Karagor_a56af7743318eb014e24f06c647db45b3}} 
+\index{entities.Karagor@{entities.Karagor}!setHasHit@{setHasHit}}
+\index{setHasHit@{setHasHit}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setHasHit()}{setHasHit()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Has\+Hit (\begin{DoxyParamCaption}\item[{boolean}]{has\+Hit }\end{DoxyParamCaption})}
+
+
+
+Marchează atacul curent ca fiind efectuat (a lovit ceva), pentru a preveni lovituri multiple cu același atac. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em has\+Hit} & true dacă atacul a lovit, false altfel. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a493cde2bf1e35190246d60650019ee96}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a228880e1a08fc8b5a051419675ac1081}\label{classentities_1_1Karagor_a228880e1a08fc8b5a051419675ac1081}} 
+\index{entities.Karagor@{entities.Karagor}!setJump@{setJump}}
+\index{setJump@{setJump}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setJump()}{setJump()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Jump (\begin{DoxyParamCaption}\item[{boolean}]{jump }\end{DoxyParamCaption})}
+
+
+
+Setează starea de săritură. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em jump} & true pentru a iniția o săritură. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a6e4c3915e42bdedcdf7d409bff13ab74}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_abf66b0b47027c6095d707894d5560e84}\label{classentities_1_1Karagor_abf66b0b47027c6095d707894d5560e84}} 
+\index{entities.Karagor@{entities.Karagor}!setLeft@{setLeft}}
+\index{setLeft@{setLeft}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setLeft()}{setLeft()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Left (\begin{DoxyParamCaption}\item[{boolean}]{left }\end{DoxyParamCaption})}
+
+
+
+Setează starea de mișcare la stânga. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & true pentru a activa mișcarea la stânga. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a49e4c15b241dad77297696b8e6b59149}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aa0601a476f7bcd432551c0067675798c}\label{classentities_1_1Karagor_aa0601a476f7bcd432551c0067675798c}} 
+\index{entities.Karagor@{entities.Karagor}!setLevelData@{setLevelData}}
+\index{setLevelData@{setLevelData}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setLevelData()}{setLevelData()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Setează datele nivelului pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}, folosite pentru coliziuni. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Data} & O matrice bidimensională reprezentând tile-\/urile nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Karagor_a3ebeb8262696433fc32fa82e98fc602b}\label{classentities_1_1Karagor_a3ebeb8262696433fc32fa82e98fc602b}} 
+\index{entities.Karagor@{entities.Karagor}!setPlatformBounds@{setPlatformBounds}}
+\index{setPlatformBounds@{setPlatformBounds}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setPlatformBounds()}{setPlatformBounds()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Platform\+Bounds (\begin{DoxyParamCaption}\item[{float}]{left,  }\item[{float}]{right }\end{DoxyParamCaption})}
+
+
+
+Setează limitele platformei pe care \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} poate patrula. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & Limita stângă a platformei. \\
+\hline
+{\em right} & Limita dreaptă a platformei. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Karagor_aa548eab218164bd3db71f1402fc829cb}\label{classentities_1_1Karagor_aa548eab218164bd3db71f1402fc829cb}} 
+\index{entities.Karagor@{entities.Karagor}!setRight@{setRight}}
+\index{setRight@{setRight}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setRight()}{setRight()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Right (\begin{DoxyParamCaption}\item[{boolean}]{right }\end{DoxyParamCaption})}
+
+
+
+Setează starea de mișcare la dreapta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em right} & true pentru a activa mișcarea la dreapta. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ab5774ea9cb83a2db34d09d5a8e2bbfe3}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aaa7dafef1af1c7840d231629b2f2d6c5}\label{classentities_1_1Karagor_aaa7dafef1af1c7840d231629b2f2d6c5}} 
+\index{entities.Karagor@{entities.Karagor}!setUp@{setUp}}
+\index{setUp@{setUp}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{setUp()}{setUp()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+set\+Up (\begin{DoxyParamCaption}\item[{boolean}]{up }\end{DoxyParamCaption})}
+
+
+
+Setează flag-\/ul \char`\"{}up\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em up} & true pentru a activa flag-\/ul. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_aa0405f1c5da5e349141ad8e31234afd5}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a92dcb29e41a8f0a68ab70ba40f866a3f}\label{classentities_1_1Karagor_a92dcb29e41a8f0a68ab70ba40f866a3f}} 
+\index{entities.Karagor@{entities.Karagor}!takeDamage@{takeDamage}}
+\index{takeDamage@{takeDamage}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{takeDamage()}{takeDamage()}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+take\+Damage (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Aplică daune lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} și inițiază starea \char`\"{}hurt\char`\"{} și efectul de knockback. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em amount} & Cantitatea de daune primite. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este încă în viață după primirea daunelor, false altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a1489daf78875d09f408f81c120a7ebfd}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a1a6d3b72e98f7dbe91ff27be6a32396d}\label{classentities_1_1Karagor_a1a6d3b72e98f7dbe91ff27be6a32396d}} 
+\index{entities.Karagor@{entities.Karagor}!update@{update}}
+\index{update@{update}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+update (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Metoda principală de actualizare pentru \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+Actualizează poziția în funcție de jucător, gravitația, knockback-\/ul, animațiile și starea de \char`\"{}hurt\char`\"{}. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Karagor_a19efd0e20909b24272f21de11fea879e}\label{classentities_1_1Karagor_a19efd0e20909b24272f21de11fea879e}} 
+\index{entities.Karagor@{entities.Karagor}!updateAnimationTick@{updateAnimationTick}}
+\index{updateAnimationTick@{updateAnimationTick}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{updateAnimationTick()}{updateAnimationTick()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+update\+Animation\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează tick-\/ul de animație și indexul frame-\/ului curent. 
+
+Gestionează diferite tipuri de animații (în aer, aterizare, tranziție, pumn, normală). 
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_aba3623bac125032f6ec6490bc89fbacb}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a81f48596bb69d2634e0babce1aeb5df0}\label{classentities_1_1Karagor_a81f48596bb69d2634e0babce1aeb5df0}} 
+\index{entities.Karagor@{entities.Karagor}!updateGravity@{updateGravity}}
+\index{updateGravity@{updateGravity}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{updateGravity()}{updateGravity()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+update\+Gravity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Actualizează gravitația și mișcarea verticală a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+Gestionează starea \char`\"{}in\+Air\char`\"{} și coliziunile cu podeaua sau tavanul. 
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a9b1a17a0bb3acc7b50caaee8a528b9dc}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aab786227c08df5d9d9baed96cfa07cfa}\label{classentities_1_1Karagor_aab786227c08df5d9d9baed96cfa07cfa}} 
+\index{entities.Karagor@{entities.Karagor}!updateHurtState@{updateHurtState}}
+\index{updateHurtState@{updateHurtState}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{updateHurtState()}{updateHurtState()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+update\+Hurt\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează starea \char`\"{}hurt\char`\"{} (lovit). 
+
+Dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este lovit, incrementează un cronometru; după o durată specifică, iese din starea \char`\"{}hurt\char`\"{}. \mbox{\Hypertarget{classentities_1_1Karagor_a095937f5478eefc8aa779365f090ed2e}\label{classentities_1_1Karagor_a095937f5478eefc8aa779365f090ed2e}} 
+\index{entities.Karagor@{entities.Karagor}!updatePlayerPosition@{updatePlayerPosition}}
+\index{updatePlayerPosition@{updatePlayerPosition}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{updatePlayerPosition()}{updatePlayerPosition()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+update\+Player\+Position (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Actualizează poziția lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} în funcție de poziția jucătorului (dacă este boss). 
+
+\mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se va întoarce către jucător și se va deplasa spre el dacă nu este în raza de atac. Dacă este în raza de atac și cooldown-\/ul permite, va efectua un atac. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Karagor_a3bd1b90e711a3e9238cd5e534c622fa8}\label{classentities_1_1Karagor_a3bd1b90e711a3e9238cd5e534c622fa8}} 
+\index{entities.Karagor@{entities.Karagor}!updatePos@{updatePos}}
+\index{updatePos@{updatePos}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{updatePos()}{updatePos()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+update\+Pos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția orizontală a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} pe baza input-\/ului (stânga/dreapta) și a săriturii. 
+
+Gestionează coliziunile cu pereții. 
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_ab21843396353de0dfddd2fbd120102ae}{entities.\+Player}}.
+
+\mbox{\Hypertarget{classentities_1_1Karagor_af7b501d49c51dcd4d57f28ea677df00e}\label{classentities_1_1Karagor_af7b501d49c51dcd4d57f28ea677df00e}} 
+\index{entities.Karagor@{entities.Karagor}!updateXPos@{updateXPos}}
+\index{updateXPos@{updateXPos}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{updateXPos()}{updateXPos()}}
+{\footnotesize\ttfamily void entities.\+Karagor.\+update\+XPos (\begin{DoxyParamCaption}\item[{float}]{x\+Speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează poziția X a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}, verificând coliziunile cu pereții. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Speed} & Viteza orizontală care trebuie aplicată. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Player_a9fd37c1f298ffeea7327c5c894a97b14}{entities.\+Player}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Karagor_a36d783fbd9d6188b42038352bcaa8c86}\label{classentities_1_1Karagor_a36d783fbd9d6188b42038352bcaa8c86}} 
+\index{entities.Karagor@{entities.Karagor}!airSpeed@{airSpeed}}
+\index{airSpeed@{airSpeed}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{airSpeed}{airSpeed}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+air\+Speed = 0f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza verticală a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} în aer. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a7b71a214b54d52edf5f4295ebfd5bffc}\label{classentities_1_1Karagor_a7b71a214b54d52edf5f4295ebfd5bffc}} 
+\index{entities.Karagor@{entities.Karagor}!animationIndex@{animationIndex}}
+\index{animationIndex@{animationIndex}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{animationIndex}{animationIndex}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+animation\+Index\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indexul frame-\/ului curent al animației. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ab6923d3e34e54a820412eb344c1c5fa7}\label{classentities_1_1Karagor_ab6923d3e34e54a820412eb344c1c5fa7}} 
+\index{entities.Karagor@{entities.Karagor}!animations@{animations}}
+\index{animations@{animations}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{animations}{animations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Karagor.\+animations\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Matrice bidimensională pentru stocarea animațiilor normale ale lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aa617f1faea551077e588eaef270443f4}\label{classentities_1_1Karagor_aa617f1faea551077e588eaef270443f4}} 
+\index{entities.Karagor@{entities.Karagor}!animationSpeed@{animationSpeed}}
+\index{animationSpeed@{animationSpeed}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{animationSpeed}{animationSpeed}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+animation\+Speed = 3\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza animației (numărul de tick-\/uri per frame). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a9fa668e00d718a4260524b7ce4ef4172}\label{classentities_1_1Karagor_a9fa668e00d718a4260524b7ce4ef4172}} 
+\index{entities.Karagor@{entities.Karagor}!animationTick@{animationTick}}
+\index{animationTick@{animationTick}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{animationTick}{animationTick}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+animation\+Tick\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Contor pentru tick-\/urile de animație. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aa6e4ac038a833519f0ed8cce6f239045}\label{classentities_1_1Karagor_aa6e4ac038a833519f0ed8cce6f239045}} 
+\index{entities.Karagor@{entities.Karagor}!attack@{attack}}
+\index{attack@{attack}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{attack}{attack}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+attack = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} atacă. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a0429d7de855cae10f73758f3ff60b9ac}\label{classentities_1_1Karagor_a0429d7de855cae10f73758f3ff60b9ac}} 
+\index{entities.Karagor@{entities.Karagor}!ATTACK\_COOLDOWN@{ATTACK\_COOLDOWN}}
+\index{ATTACK\_COOLDOWN@{ATTACK\_COOLDOWN}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{ATTACK\_COOLDOWN}{ATTACK\_COOLDOWN}}
+{\footnotesize\ttfamily final int entities.\+Karagor.\+ATTACK\+\_\+\+COOLDOWN = 120\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul maxim dintre atacuri (în tick-\/uri). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a2226de200e1c7ce255c9d4c4e71f0b09}\label{classentities_1_1Karagor_a2226de200e1c7ce255c9d4c4e71f0b09}} 
+\index{entities.Karagor@{entities.Karagor}!attackCooldown@{attackCooldown}}
+\index{attackCooldown@{attackCooldown}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{attackCooldown}{attackCooldown}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+attack\+Cooldown = 120\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cooldown-\/ul dintre atacuri. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a3891717478d661d9d1f7d617e7375d7a}\label{classentities_1_1Karagor_a3891717478d661d9d1f7d617e7375d7a}} 
+\index{entities.Karagor@{entities.Karagor}!attackDamage@{attackDamage}}
+\index{attackDamage@{attackDamage}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{attackDamage}{attackDamage}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+attack\+Damage = 5\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Daunele provocate de atacurile lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a67e263a3f3d75d10236bbec8df3b4420}\label{classentities_1_1Karagor_a67e263a3f3d75d10236bbec8df3b4420}} 
+\index{entities.Karagor@{entities.Karagor}!crouch@{crouch}}
+\index{crouch@{crouch}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{crouch}{crouch}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+crouch = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este ghemuit. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ae4873298a14b41c280f03d98aa377854}\label{classentities_1_1Karagor_ae4873298a14b41c280f03d98aa377854}} 
+\index{entities.Karagor@{entities.Karagor}!currentHealth@{currentHealth}}
+\index{currentHealth@{currentHealth}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{currentHealth}{currentHealth}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+current\+Health = 150\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a24e26b91faba73cecc061aa43550d985}\label{classentities_1_1Karagor_a24e26b91faba73cecc061aa43550d985}} 
+\index{entities.Karagor@{entities.Karagor}!detectionRange@{detectionRange}}
+\index{detectionRange@{detectionRange}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{detectionRange}{detectionRange}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+detection\+Range = 500f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Distanța la care \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} poate detecta jucătorul. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a585f1dac57c190532d65943cf2cace3f}\label{classentities_1_1Karagor_a585f1dac57c190532d65943cf2cace3f}} 
+\index{entities.Karagor@{entities.Karagor}!down@{down}}
+\index{down@{down}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{down}{down}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+down = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă în jos (neutilizat pentru mișcare, poate pentru ghemuire). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a0a66ebfdec10a5008110a14de6a15998}\label{classentities_1_1Karagor_a0a66ebfdec10a5008110a14de6a15998}} 
+\index{entities.Karagor@{entities.Karagor}!drawHitbox@{drawHitbox}}
+\index{drawHitbox@{drawHitbox}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{drawHitbox}{drawHitbox}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+draw\+Hitbox = true}
+
+
+
+Indicator dacă hitbox-\/ul trebuie desenat (pentru debugging). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_abf73fa3b23bbe88c7a98efd782ac8c20}\label{classentities_1_1Karagor_abf73fa3b23bbe88c7a98efd782ac8c20}} 
+\index{entities.Karagor@{entities.Karagor}!facingRight@{facingRight}}
+\index{facingRight@{facingRight}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{facingRight}{facingRight}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+facing\+Right = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este orientat spre dreapta. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a584991880d82ca2682ab2f34937e999f}\label{classentities_1_1Karagor_a584991880d82ca2682ab2f34937e999f}} 
+\index{entities.Karagor@{entities.Karagor}!fallSpeedAfterCollision@{fallSpeedAfterCollision}}
+\index{fallSpeedAfterCollision@{fallSpeedAfterCollision}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{fallSpeedAfterCollision}{fallSpeedAfterCollision}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+fall\+Speed\+After\+Collision = 2.\+4f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de cădere după o coliziune verticală (cu tavanul). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a5fca7db5e962adbad7c3cb9d77d12a93}\label{classentities_1_1Karagor_a5fca7db5e962adbad7c3cb9d77d12a93}} 
+\index{entities.Karagor@{entities.Karagor}!flippedAnimations@{flippedAnimations}}
+\index{flippedAnimations@{flippedAnimations}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{flippedAnimations}{flippedAnimations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Karagor.\+flipped\+Animations\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Matrice bidimensională pentru stocarea animațiilor inversate (flipped) ale lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a87a49d3a3c5b5a5cc23b4b4ae75f6a75}\label{classentities_1_1Karagor_a87a49d3a3c5b5a5cc23b4b4ae75f6a75}} 
+\index{entities.Karagor@{entities.Karagor}!gravity@{gravity}}
+\index{gravity@{gravity}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{gravity}{gravity}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+gravity = 0.\+12f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valoarea gravitației aplicate lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ab6b0eb6293214bb5bb3768354d00dc56}\label{classentities_1_1Karagor_ab6b0eb6293214bb5bb3768354d00dc56}} 
+\index{entities.Karagor@{entities.Karagor}!hasHit@{hasHit}}
+\index{hasHit@{hasHit}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{hasHit}{hasHit}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+has\+Hit = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă atacul curent a lovit deja ceva. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a4ec64d1563508eee817e4b21f9211724}\label{classentities_1_1Karagor_a4ec64d1563508eee817e4b21f9211724}} 
+\index{entities.Karagor@{entities.Karagor}!HURT\_ANIMATION\_DURATION@{HURT\_ANIMATION\_DURATION}}
+\index{HURT\_ANIMATION\_DURATION@{HURT\_ANIMATION\_DURATION}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{HURT\_ANIMATION\_DURATION}{HURT\_ANIMATION\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Karagor.\+HURT\+\_\+\+ANIMATION\+\_\+\+DURATION = 30\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Durata animației \char`\"{}hurt\char`\"{} în frame-\/uri. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_abe356496756ee4b1ae1bbf9149f34c6d}\label{classentities_1_1Karagor_abe356496756ee4b1ae1bbf9149f34c6d}} 
+\index{entities.Karagor@{entities.Karagor}!hurtTimer@{hurtTimer}}
+\index{hurtTimer@{hurtTimer}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{hurtTimer}{hurtTimer}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+hurt\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cronometru pentru durata animației \char`\"{}hurt\char`\"{}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aaec04e71760cef9de815ff45d25fb4c1}\label{classentities_1_1Karagor_aaec04e71760cef9de815ff45d25fb4c1}} 
+\index{entities.Karagor@{entities.Karagor}!inAir@{inAir}}
+\index{inAir@{inAir}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{inAir}{inAir}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+in\+Air = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se află în aer. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a003c39489b8d8db00435bb0f6afe305d}\label{classentities_1_1Karagor_a003c39489b8d8db00435bb0f6afe305d}} 
+\index{entities.Karagor@{entities.Karagor}!isAttacking@{isAttacking}}
+\index{isAttacking@{isAttacking}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isAttacking}{isAttacking}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Attacking = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} execută un atac. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a456d06ce8bf50a3b8c6013da827baeff}\label{classentities_1_1Karagor_a456d06ce8bf50a3b8c6013da827baeff}} 
+\index{entities.Karagor@{entities.Karagor}!isBoss@{isBoss}}
+\index{isBoss@{isBoss}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isBoss}{isBoss}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Boss = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă această instanță de \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este un boss. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a05f810af1308e3bdf16ae8760a116963}\label{classentities_1_1Karagor_a05f810af1308e3bdf16ae8760a116963}} 
+\index{entities.Karagor@{entities.Karagor}!isHurt@{isHurt}}
+\index{isHurt@{isHurt}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isHurt}{isHurt}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Hurt = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în starea \char`\"{}hurt\char`\"{} (lovit). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a523033fb74af1ee3c4e5e3ba103d803f}\label{classentities_1_1Karagor_a523033fb74af1ee3c4e5e3ba103d803f}} 
+\index{entities.Karagor@{entities.Karagor}!isLanding@{isLanding}}
+\index{isLanding@{isLanding}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isLanding}{isLanding}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Landing = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este în animația de aterizare. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a8a46598ec0dce839e79cb24b79d3c090}\label{classentities_1_1Karagor_a8a46598ec0dce839e79cb24b79d3c090}} 
+\index{entities.Karagor@{entities.Karagor}!isPunching@{isPunching}}
+\index{isPunching@{isPunching}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isPunching}{isPunching}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Punching = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă animația de pumn este în desfășurare. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a96560db1203b1bd87b1dfb69abccaa0f}\label{classentities_1_1Karagor_a96560db1203b1bd87b1dfb69abccaa0f}} 
+\index{entities.Karagor@{entities.Karagor}!isTransitioning@{isTransitioning}}
+\index{isTransitioning@{isTransitioning}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{isTransitioning}{isTransitioning}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+is\+Transitioning = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} este într-\/o animație de tranziție (ex\+: stand to crouch). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a74cc0ced2d500641a799bf4d349781c9}\label{classentities_1_1Karagor_a74cc0ced2d500641a799bf4d349781c9}} 
+\index{entities.Karagor@{entities.Karagor}!jump@{jump}}
+\index{jump@{jump}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{jump}{jump}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+jump = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} încearcă să sară. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a6fb8c874404e41cc1b18c72a41f51e16}\label{classentities_1_1Karagor_a6fb8c874404e41cc1b18c72a41f51e16}} 
+\index{entities.Karagor@{entities.Karagor}!jumpSpeed@{jumpSpeed}}
+\index{jumpSpeed@{jumpSpeed}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{jumpSpeed}{jumpSpeed}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+jump\+Speed = -\/6.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza inițială a săriturii lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ab2d8d2298e119066bd6f53362436e664}\label{classentities_1_1Karagor_ab2d8d2298e119066bd6f53362436e664}} 
+\index{entities.Karagor@{entities.Karagor}!karagorAction@{karagorAction}}
+\index{karagorAction@{karagorAction}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{karagorAction}{karagorAction}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+karagor\+Action = Gorilla\+\_\+\+Animation\+\_\+rows.\+PUNCH\+\_\+\+STANDING.\+get\+Row\+Index()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Acțiunea curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (indexul rândului din sprite sheet). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a59cbf8068708d3b8c2300fe6f40b4929}\label{classentities_1_1Karagor_a59cbf8068708d3b8c2300fe6f40b4929}} 
+\index{entities.Karagor@{entities.Karagor}!karagorDirection@{karagorDirection}}
+\index{karagorDirection@{karagorDirection}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{karagorDirection}{karagorDirection}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+karagor\+Direction = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Direcția curentă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (-\/1 pentru stânga, 1 pentru dreapta -\/ deși neutilizat direct în logica de mișcare). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a13a5cede8f9679e359a7f8817ec48aaf}\label{classentities_1_1Karagor_a13a5cede8f9679e359a7f8817ec48aaf}} 
+\index{entities.Karagor@{entities.Karagor}!landingFrame@{landingFrame}}
+\index{landingFrame@{landingFrame}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{landingFrame}{landingFrame}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+landing\+Frame = 7\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Frame-\/ul curent al animației de aterizare. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a6f11cf842de512c7c64e6a0a57af5676}\label{classentities_1_1Karagor_a6f11cf842de512c7c64e6a0a57af5676}} 
+\index{entities.Karagor@{entities.Karagor}!left@{left}}
+\index{left@{left}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{left}{left}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+left = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă la stânga. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_aaef146468d3febbd711f063ef5dbdf57}\label{classentities_1_1Karagor_aaef146468d3febbd711f063ef5dbdf57}} 
+\index{entities.Karagor@{entities.Karagor}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Datele nivelului curent, folosite pentru coliziuni și navigație. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_ac9aaa8dfdc3be68eb1d60be44c101e14}\label{classentities_1_1Karagor_ac9aaa8dfdc3be68eb1d60be44c101e14}} 
+\index{entities.Karagor@{entities.Karagor}!maxHealth@{maxHealth}}
+\index{maxHealth@{maxHealth}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{maxHealth}{maxHealth}}
+{\footnotesize\ttfamily int entities.\+Karagor.\+max\+Health = 150\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sănătatea maximă a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a118e6bcd9de7d848dcb0e2307f97e710}\label{classentities_1_1Karagor_a118e6bcd9de7d848dcb0e2307f97e710}} 
+\index{entities.Karagor@{entities.Karagor}!moving@{moving}}
+\index{moving@{moving}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{moving}{moving}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+moving = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_abf91d7ff0f2d1618f2ff81cad4757e8c}\label{classentities_1_1Karagor_abf91d7ff0f2d1618f2ff81cad4757e8c}} 
+\index{entities.Karagor@{entities.Karagor}!platformLeftBound@{platformLeftBound}}
+\index{platformLeftBound@{platformLeftBound}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{platformLeftBound}{platformLeftBound}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+platform\+Left\+Bound\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita stângă a platformei pe care se află \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (pentru patrulare). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_add42b0ad02be00234c17dcb7e9d4e435}\label{classentities_1_1Karagor_add42b0ad02be00234c17dcb7e9d4e435}} 
+\index{entities.Karagor@{entities.Karagor}!platformRightBound@{platformRightBound}}
+\index{platformRightBound@{platformRightBound}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{platformRightBound}{platformRightBound}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+platform\+Right\+Bound\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita dreaptă a platformei pe care se află \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} (pentru patrulare). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a6db612b1578742271a161a6172300b03}\label{classentities_1_1Karagor_a6db612b1578742271a161a6172300b03}} 
+\index{entities.Karagor@{entities.Karagor}!playerSpeed@{playerSpeed}}
+\index{playerSpeed@{playerSpeed}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{playerSpeed}{playerSpeed}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+player\+Speed = 1.\+5f\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Viteza de mișcare a lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a62cf54db501cada7940e9113e067dcf5}\label{classentities_1_1Karagor_a62cf54db501cada7940e9113e067dcf5}} 
+\index{entities.Karagor@{entities.Karagor}!right@{right}}
+\index{right@{right}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{right}{right}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+right = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă la dreapta. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a9bb1d614537b8d87bd61e10e26533a0e}\label{classentities_1_1Karagor_a9bb1d614537b8d87bd61e10e26533a0e}} 
+\index{entities.Karagor@{entities.Karagor}!up@{up}}
+\index{up@{up}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{up}{up}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+up = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicator dacă \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}} se mișcă în sus (neutilizat pentru mișcare, poate pentru săritură). 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a2f0d70ebc1d2418522d147afa5bcbe92}\label{classentities_1_1Karagor_a2f0d70ebc1d2418522d147afa5bcbe92}} 
+\index{entities.Karagor@{entities.Karagor}!wasCrouchPressed@{wasCrouchPressed}}
+\index{wasCrouchPressed@{wasCrouchPressed}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{wasCrouchPressed}{wasCrouchPressed}}
+{\footnotesize\ttfamily boolean entities.\+Karagor.\+was\+Crouch\+Pressed = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Starea anterioară a butonului de ghemuire. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a9648b5626cc26f987af915f2a3789bc2}\label{classentities_1_1Karagor_a9648b5626cc26f987af915f2a3789bc2}} 
+\index{entities.Karagor@{entities.Karagor}!xDrawOffset@{xDrawOffset}}
+\index{xDrawOffset@{xDrawOffset}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{xDrawOffset}{xDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+x\+Draw\+Offset = 66 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decalajul pe axa X pentru desenarea sprite-\/ului lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+\mbox{\Hypertarget{classentities_1_1Karagor_a66c077c1451137349d4193ab6dc2016e}\label{classentities_1_1Karagor_a66c077c1451137349d4193ab6dc2016e}} 
+\index{entities.Karagor@{entities.Karagor}!yDrawOffset@{yDrawOffset}}
+\index{yDrawOffset@{yDrawOffset}!entities.Karagor@{entities.Karagor}}
+\doxysubsubsection{\texorpdfstring{yDrawOffset}{yDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Karagor.\+y\+Draw\+Offset = 39 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Decalajul pe axa Y pentru desenarea sprite-\/ului lui \mbox{\hyperlink{classentities_1_1Karagor}{Karagor}}. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Karagor_8java}{Karagor.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,993 @@
+\hypertarget{classgamestates_1_1Playing}{}\doxysection{gamestates.\+Playing Class Reference}
+\label{classgamestates_1_1Playing}\index{gamestates.Playing@{gamestates.Playing}}
+
+
+Reprezintă starea principală de joc (gameplay-\/ul propriu-\/zis).  
+
+
+
+
+Inheritance diagram for gamestates.\+Playing\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1Playing__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Playing\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1Playing__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Playing_a3736fae48e195037be09eae8c7d3fe75}{Playing}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a1c5daa7bd446f6a4b6f360e591fcb8c0}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează logica stării de joc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_aa8e64fd85ee48fb55e817ae47ddea819}{advance\+To\+Next\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Avansează la următorul nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a99940c255ab56ecf58d4b55586e31c55}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează toate elementele stării de joc, inclusiv nivelul, inamicii, jucătorul și HUD-\/ul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ac899be246459018309921a6b83be91d9}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de click al mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a260f7a72b9a362e4791e449b98acb78e}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de apăsare a tastelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a3f52df580033fc884bc86565e656bb17}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionează evenimentele de eliberare a tastelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_aadb9e3ca9105af6fce1b06e3ba4d3c06}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ae3655bc36d71099e73a23cb9afffaf35}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat aici). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_af76d77ca4a604b9bd37c353af9749750}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat aici). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a92d54046a9f6353706dbe214e50f68cf}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat aici). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a96319ffa18d763c4326c34b3952c9046}{window\+Focus\+Lost}} ()
+\begin{DoxyCompactList}\small\item\em Apelată când fereastra jocului pierde focusul, pentru a reseta input-\/urile jucătorului. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classentities_1_1Player}{Player}} \mbox{\hyperlink{classgamestates_1_1Playing_a0769219c58464e4d4beea45db48da5f5}{get\+Player}} ()
+\item 
+\mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}} \mbox{\hyperlink{classgamestates_1_1Playing_ae8dcbbdeba06b0d03386940105238a1b}{get\+Enemy\+Manager}} ()
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a7bc0d88e3db76aa390b1200646f5c6d4}{reset\+All}} ()
+\begin{DoxyCompactList}\small\item\em Resetează starea jocului (parțial, păstrând progresul). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a4a36fbe9337f211bb56d60ecda6eb887}{reset\+All}} (boolean full\+Reset)
+\begin{DoxyCompactList}\small\item\em Resetează starea jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_abaec8247b5dd2f3f5d88bb478ddaacc0}{set\+Player\+Name}} (String name)
+\begin{DoxyCompactList}\small\item\em Setează numele jucătorului (informativ, username este folosit pentru salvare/încărcare). \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classgamestates_1_1Playing_a65da5d191af4ec75faede64ed95234e9}{get\+Player\+Name}} ()
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_add22b6232e3e5946c3931f008b61476f}{set\+Previous\+State}} (\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} state)
+\begin{DoxyCompactList}\small\item\em Setează starea anterioară a jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a047ddbd0e80cfef79a71e377254d0974}{set\+Username}} (String \mbox{\hyperlink{classgamestates_1_1Playing_a536e7b46a890d523470f0bc6f248b624}{username}})
+\begin{DoxyCompactList}\small\item\em Setează numele de utilizator curent al sesiunii. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_aae0a153576d270623cce1ab2adcede55}{show\+Level\+Finished\+Overlay}} ()
+\begin{DoxyCompactList}\small\item\em Afișează overlay-\/ul de final de nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ab380515f2b81a0c8cd596126b6eb5001}{set\+Level\+Finished}} (boolean finished)
+\begin{DoxyCompactList}\small\item\em Setează starea de finalizare a nivelului. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classgamestates_1_1Playing_a83ec5095c875b219d28dc1eb286e670f}{get\+Username}} ()
+\item 
+\mbox{\hyperlink{classlevels_1_1LevelManager}{Level\+Manager}} \mbox{\hyperlink{classgamestates_1_1Playing_a2fe5df4b006867ef97a90973f5a2fc07}{get\+Level\+Manager}} ()
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a0958d00fae6b65d775f5eda086b2b7fe}{show\+Game\+Over\+Overlay}} ()
+\begin{DoxyCompactList}\small\item\em Afișează overlay-\/ul de Game Over și salvează progresul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a86f471c3e1e1ef865e9c40c69527b860}{set\+Game\+Over}} (boolean over)
+\begin{DoxyCompactList}\small\item\em Setează starea de Game Over. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ad31b151e9b117ca033183b52649c5b0d}{set\+Current\+Score}} (int score)
+\begin{DoxyCompactList}\small\item\em Setează scorul curent. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a2943dde72a373c7d3ecaaf2ab3677d16}{set\+Current\+Coconuts}} (int coconuts)
+\begin{DoxyCompactList}\small\item\em Setează numărul curent de nuci de cocos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_af9e12dbdee20825eac28a7735903a453}{set\+Timer}} (int timer)
+\begin{DoxyCompactList}\small\item\em Setează valoarea cronometrului (timpul scurs). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a02fc0972464d8ba63324df276d80a0f3}{get\+Elapsed\+Seconds}} ()
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a5ce13e7b98f9a053a923c6b13c878946}{get\+Current\+Score}} ()
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_ae913324ecc7691f3ea4e3b52cd00e341}{get\+Current\+Coconuts}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a3d0f0d64abc9d57aeb4086b91af8d000}{current\+Coconuts}} = 0
+\begin{DoxyCompactList}\small\item\em Numărul curent de nuci de cocos deținute de jucător. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ad621ea0699ee23af51660357deb57f3a}{draw\+Back\+Button}} (Graphics2D g2d)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} din HUD (dacă show\+Debug\+Hitbox este true). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_af0533b59c99c9834e720da7edc854b68}{init\+Classes}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează clasele principale necesare pentru starea de joc\+: Level\+Manager, Player, Enemy\+Manager. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ab29778d5d532d90a32132338d10e5d2d}{check\+Player\+Attack\+Hits}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă atacurile jucătorului lovesc inamici și aplică daune. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a17033c6c4fc2baa08a4d7bd98b0e75d7}{check\+Gem\+Collision}} ()
+\begin{DoxyCompactList}\small\item\em Verifică coliziunea jucătorului cu gem-\/urile (pietre prețioase). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ab37f7a09478e4400d32a8022a8db0c22}{update\+Bananas}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea bananelor active din nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_ab9aae4827f19a5ba155148feff7b0c61}{check\+Banana\+Collision}} ()
+\begin{DoxyCompactList}\small\item\em Verifică coliziunea jucătorului cu bananele și aplică efectul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a136b116103a72fd090cd2b32918c7b10}{update\+Coconuts}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea nucilor de cocos active din nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_abd45f13bc600ba0b5bca9ddc76bfbba2}{check\+Coconut\+Collision}} ()
+\begin{DoxyCompactList}\small\item\em Verifică coliziunea jucătorului cu nucile de cocos și actualizează contorul. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a1c36323a13e0e28067c4bab2138529ef}{check\+Player\+Throw}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă jucătorul a inițiat o aruncare și generează un proiectil (nucă de cocos). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_aa214dae8abda72dead292551bcc59b8f}{check\+Close\+To\+Border}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă jucătorul este aproape de marginile ecranului și ajustează offset-\/ul de scrolling al nivelului (. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_afcd7399e947f54ecd1df4fde43dff8d4}{draw\+Bananas}} (Graphics g, int \mbox{\hyperlink{classgamestates_1_1Playing_a9bf5df0b10e0a41171a9251aeb579303}{x\+Lvl\+Offset}})
+\begin{DoxyCompactList}\small\item\em Desenează bananele active din nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a596bc4e6aeca16ed3a9f231459def576}{draw\+Coconuts}} (Graphics g, int \mbox{\hyperlink{classgamestates_1_1Playing_a9bf5df0b10e0a41171a9251aeb579303}{x\+Lvl\+Offset}})
+\begin{DoxyCompactList}\small\item\em Desenează nucile de cocos active din nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a2fa2ad0028d0e7b0d820205973deb2a2}{draw\+HUD}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele HUD (Head-\/\+Up Display). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Playing_a7feb73c2b45f3d62d1506d42d79bd07e}{load\+Custom\+Font}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă fontul personalizat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Player}{Player}} \mbox{\hyperlink{classgamestates_1_1Playing_a5c64eb7ccc26b09f4a0580e21104b7f2}{player}}
+\item 
+\mbox{\hyperlink{classlevels_1_1LevelManager}{Level\+Manager}} \mbox{\hyperlink{classgamestates_1_1Playing_ac520cba49c0b5aadf69705c1145bb533}{level\+Manager}}
+\item 
+\mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}} \mbox{\hyperlink{classgamestates_1_1Playing_ae700424760268e94730be722ea9cee5b}{enemy\+Manager}}
+\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Playing_a0e960720b88e3750ffb7660f20797282}{paused}} = false
+\item 
+String \mbox{\hyperlink{classgamestates_1_1Playing_a4600f56d5810a9ca8fcf81f25289ef32}{player\+Name}} = \char`\"{}\char`\"{}
+\item 
+String \mbox{\hyperlink{classgamestates_1_1Playing_a536e7b46a890d523470f0bc6f248b624}{username}} = \char`\"{}\char`\"{}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a9bf5df0b10e0a41171a9251aeb579303}{x\+Lvl\+Offset}} = 0
+\begin{DoxyCompactList}\small\item\em Offset-\/ul orizontal al nivelului pentru scrolling. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a0afe9fcd76ef4fed03c2e6e12f13553b}{left\+Border}} = (int) (0.\+2 $\ast$ \mbox{\hyperlink{classmain_1_1Game_af113152bdbd435a58fdfa7a3762ab362}{Game.\+GAME\+\_\+\+WIDTH}})
+\begin{DoxyCompactList}\small\item\em Limita stângă a ecranului pentru inițierea scrolling-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a6c90d7cbb6e5bd41bafd5c11eeece3ee}{right\+Border}} = (int) (0.\+8 $\ast$ \mbox{\hyperlink{classmain_1_1Game_af113152bdbd435a58fdfa7a3762ab362}{Game.\+GAME\+\_\+\+WIDTH}})
+\begin{DoxyCompactList}\small\item\em Limita dreaptă a ecranului pentru inițierea scrolling-\/ului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_aa4fd45204867be41bd6b6677b6749667}{lvl\+Tiles\+Wide}}
+\begin{DoxyCompactList}\small\item\em Lățimea totală a nivelului curent, în tile-\/uri. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a122d07fb3f963ac482740c10dc26c971}{max\+Tiles\+Offset}}
+\begin{DoxyCompactList}\small\item\em Offset-\/ul maxim posibil al tile-\/urilor pentru scrolling. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a9c6e295d3008c0554f4c850f84050653}{max\+Lvl\+OffsetX}}
+\begin{DoxyCompactList}\small\item\em Offset-\/ul maxim posibil al nivelului în pixeli pentru scrolling. \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Playing_af8980b8d37484b0ec851f49a19e40f13}{game\+UI}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Playing_a977e0669b278b6f89b2b48adc89596a1}{coconut\+Icon}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Playing_a25d081c41eb97b699f0e0c3720e5403b}{crystal\+Icon}}
+\item 
+long \mbox{\hyperlink{classgamestates_1_1Playing_a59767139003465bc5647d8336de8421f}{level\+Start\+Time}}
+\begin{DoxyCompactList}\small\item\em Timpul de start al nivelului curent, în milisecunde. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a0edcc3bc7f4bbbe1ad5352d42a1ccd05}{elapsed\+Seconds}}
+\begin{DoxyCompactList}\small\item\em Numărul de secunde scurs de la începerea nivelului. \end{DoxyCompactList}\item 
+Font \mbox{\hyperlink{classgamestates_1_1Playing_a207c14ddf20d5093057c6bb8fbafdfa9}{airstrike\+Font}}
+\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Playing_ae261576657c356f7b2b70d839c3b42cd}{timer\+Started}} = false
+\begin{DoxyCompactList}\small\item\em Indică dacă cronometrul nivelului a pornit. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Playing_ae502c63e7d29ff9a125333b843260acd}{back\+Button\+Bounds}}
+\item 
+\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classgamestates_1_1Playing_a8ae242cfb3845477dc7f738b7ba21a4a}{previous\+State}} = null
+\item 
+\mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay}{Level\+Finished\+Overlay}} \mbox{\hyperlink{classgamestates_1_1Playing_adb1f2fc4e104aa092e0f7a65d252ab43}{level\+Finished\+Overlay}}
+\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Playing_a20b66bbb84bb7a344fc266bc8044a1a2}{level\+Finished}} = false
+\begin{DoxyCompactList}\small\item\em Indică dacă nivelul curent a fost finalizat. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Playing_aeb29fd7ea7e992ca410316bb6a9f2090}{game\+Over}} = false
+\begin{DoxyCompactList}\small\item\em Indică dacă jocul s-\/a terminat (Game Over). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgamestates_1_1GameOverOverlay}{Game\+Over\+Overlay}} \mbox{\hyperlink{classgamestates_1_1Playing_a9788bdd301f7cf5f413c226196d3d633}{game\+Over\+Overlay}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_ab41b4130608260f8c3089fe2584be0b3}{current\+Level}} = 1
+\begin{DoxyCompactList}\small\item\em Nivelul curent la care se joacă (index). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Playing_a41797a0534207da2a21b2165c69e4c44}{current\+Score}} = 0
+\begin{DoxyCompactList}\small\item\em Scorul curent al jucătorului în nivel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă starea principală de joc (gameplay-\/ul propriu-\/zis). 
+
+Gestionează jucătorul, nivelurile, inamicii, interfața utilizator (HUD), coliziunile, colectabilele și logica generală a jocului în desfășurare. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a3736fae48e195037be09eae8c7d3fe75}\label{classgamestates_1_1Playing_a3736fae48e195037be09eae8c7d3fe75}} 
+\index{gamestates.Playing@{gamestates.Playing}!Playing@{Playing}}
+\index{Playing@{Playing}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{Playing()}{Playing()}}
+{\footnotesize\ttfamily gamestates.\+Playing.\+Playing (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}. 
+
+Inițializează managerii, jucătorul și încarcă datele inițiale.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Playing_aa8e64fd85ee48fb55e817ae47ddea819}\label{classgamestates_1_1Playing_aa8e64fd85ee48fb55e817ae47ddea819}} 
+\index{gamestates.Playing@{gamestates.Playing}!advanceToNextLevel@{advanceToNextLevel}}
+\index{advanceToNextLevel@{advanceToNextLevel}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{advanceToNextLevel()}{advanceToNextLevel()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+advance\+To\+Next\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Avansează la următorul nivel. 
+
+Salvează progresul nivelului curent, încarcă datele pentru noul nivel și resetează starea jucătorului și a jocului. \mbox{\Hypertarget{classgamestates_1_1Playing_ab9aae4827f19a5ba155148feff7b0c61}\label{classgamestates_1_1Playing_ab9aae4827f19a5ba155148feff7b0c61}} 
+\index{gamestates.Playing@{gamestates.Playing}!checkBananaCollision@{checkBananaCollision}}
+\index{checkBananaCollision@{checkBananaCollision}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{checkBananaCollision()}{checkBananaCollision()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+check\+Banana\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică coliziunea jucătorului cu bananele și aplică efectul. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_aa214dae8abda72dead292551bcc59b8f}\label{classgamestates_1_1Playing_aa214dae8abda72dead292551bcc59b8f}} 
+\index{gamestates.Playing@{gamestates.Playing}!checkCloseToBorder@{checkCloseToBorder}}
+\index{checkCloseToBorder@{checkCloseToBorder}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{checkCloseToBorder()}{checkCloseToBorder()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+check\+Close\+To\+Border (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă jucătorul este aproape de marginile ecranului și ajustează offset-\/ul de scrolling al nivelului (. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1Playing_a9bf5df0b10e0a41171a9251aeb579303}{xLvlOffset}} }
+
+\end{DoxyCode}
+ ). \mbox{\Hypertarget{classgamestates_1_1Playing_abd45f13bc600ba0b5bca9ddc76bfbba2}\label{classgamestates_1_1Playing_abd45f13bc600ba0b5bca9ddc76bfbba2}} 
+\index{gamestates.Playing@{gamestates.Playing}!checkCoconutCollision@{checkCoconutCollision}}
+\index{checkCoconutCollision@{checkCoconutCollision}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{checkCoconutCollision()}{checkCoconutCollision()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+check\+Coconut\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică coliziunea jucătorului cu nucile de cocos și actualizează contorul. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a17033c6c4fc2baa08a4d7bd98b0e75d7}\label{classgamestates_1_1Playing_a17033c6c4fc2baa08a4d7bd98b0e75d7}} 
+\index{gamestates.Playing@{gamestates.Playing}!checkGemCollision@{checkGemCollision}}
+\index{checkGemCollision@{checkGemCollision}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{checkGemCollision()}{checkGemCollision()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+check\+Gem\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică coliziunea jucătorului cu gem-\/urile (pietre prețioase). 
+
+La coliziune, activează overlay-\/ul de final de nivel. \mbox{\Hypertarget{classgamestates_1_1Playing_ab29778d5d532d90a32132338d10e5d2d}\label{classgamestates_1_1Playing_ab29778d5d532d90a32132338d10e5d2d}} 
+\index{gamestates.Playing@{gamestates.Playing}!checkPlayerAttackHits@{checkPlayerAttackHits}}
+\index{checkPlayerAttackHits@{checkPlayerAttackHits}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{checkPlayerAttackHits()}{checkPlayerAttackHits()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+check\+Player\+Attack\+Hits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă atacurile jucătorului lovesc inamici și aplică daune. 
+
+Asigură că un atac lovește o singură dată. \mbox{\Hypertarget{classgamestates_1_1Playing_a1c36323a13e0e28067c4bab2138529ef}\label{classgamestates_1_1Playing_a1c36323a13e0e28067c4bab2138529ef}} 
+\index{gamestates.Playing@{gamestates.Playing}!checkPlayerThrow@{checkPlayerThrow}}
+\index{checkPlayerThrow@{checkPlayerThrow}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{checkPlayerThrow()}{checkPlayerThrow()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+check\+Player\+Throw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Verifică dacă jucătorul a inițiat o aruncare și generează un proiectil (nucă de cocos). 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a99940c255ab56ecf58d4b55586e31c55}\label{classgamestates_1_1Playing_a99940c255ab56ecf58d4b55586e31c55}} 
+\index{gamestates.Playing@{gamestates.Playing}!draw@{draw}}
+\index{draw@{draw}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează toate elementele stării de joc, inclusiv nivelul, inamicii, jucătorul și HUD-\/ul. 
+
+De asemenea, desenează overlay-\/urile de final de nivel sau game over, dacă sunt active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ad621ea0699ee23af51660357deb57f3a}\label{classgamestates_1_1Playing_ad621ea0699ee23af51660357deb57f3a}} 
+\index{gamestates.Playing@{gamestates.Playing}!drawBackButton@{drawBackButton}}
+\index{drawBackButton@{drawBackButton}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{drawBackButton()}{drawBackButton()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+draw\+Back\+Button (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} din HUD (dacă show\+Debug\+Hitbox este true). 
+
+
+
+Reimplemented from \mbox{\hyperlink{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}{gamestates.\+State}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_afcd7399e947f54ecd1df4fde43dff8d4}\label{classgamestates_1_1Playing_afcd7399e947f54ecd1df4fde43dff8d4}} 
+\index{gamestates.Playing@{gamestates.Playing}!drawBananas@{drawBananas}}
+\index{drawBananas@{drawBananas}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{drawBananas()}{drawBananas()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+draw\+Bananas (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează bananele active din nivel. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a596bc4e6aeca16ed3a9f231459def576}\label{classgamestates_1_1Playing_a596bc4e6aeca16ed3a9f231459def576}} 
+\index{gamestates.Playing@{gamestates.Playing}!drawCoconuts@{drawCoconuts}}
+\index{drawCoconuts@{drawCoconuts}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{drawCoconuts()}{drawCoconuts()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+draw\+Coconuts (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează nucile de cocos active din nivel. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a2fa2ad0028d0e7b0d820205973deb2a2}\label{classgamestates_1_1Playing_a2fa2ad0028d0e7b0d820205973deb2a2}} 
+\index{gamestates.Playing@{gamestates.Playing}!drawHUD@{drawHUD}}
+\index{drawHUD@{drawHUD}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{drawHUD()}{drawHUD()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+draw\+HUD (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desenează elementele HUD (Head-\/\+Up Display). 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ae913324ecc7691f3ea4e3b52cd00e341}\label{classgamestates_1_1Playing_ae913324ecc7691f3ea4e3b52cd00e341}} 
+\index{gamestates.Playing@{gamestates.Playing}!getCurrentCoconuts@{getCurrentCoconuts}}
+\index{getCurrentCoconuts@{getCurrentCoconuts}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getCurrentCoconuts()}{getCurrentCoconuts()}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+get\+Current\+Coconuts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Numărul curent de nuci de cocos. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a5ce13e7b98f9a053a923c6b13c878946}\label{classgamestates_1_1Playing_a5ce13e7b98f9a053a923c6b13c878946}} 
+\index{gamestates.Playing@{gamestates.Playing}!getCurrentScore@{getCurrentScore}}
+\index{getCurrentScore@{getCurrentScore}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getCurrentScore()}{getCurrentScore()}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+get\+Current\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Scorul curent. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a02fc0972464d8ba63324df276d80a0f3}\label{classgamestates_1_1Playing_a02fc0972464d8ba63324df276d80a0f3}} 
+\index{gamestates.Playing@{gamestates.Playing}!getElapsedSeconds@{getElapsedSeconds}}
+\index{getElapsedSeconds@{getElapsedSeconds}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getElapsedSeconds()}{getElapsedSeconds()}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+get\+Elapsed\+Seconds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Timpul scurs în secunde pentru nivelul curent. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_ae8dcbbdeba06b0d03386940105238a1b}\label{classgamestates_1_1Playing_ae8dcbbdeba06b0d03386940105238a1b}} 
+\index{gamestates.Playing@{gamestates.Playing}!getEnemyManager@{getEnemyManager}}
+\index{getEnemyManager@{getEnemyManager}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getEnemyManager()}{getEnemyManager()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}} gamestates.\+Playing.\+get\+Enemy\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Managerul de inamici. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a2fe5df4b006867ef97a90973f5a2fc07}\label{classgamestates_1_1Playing_a2fe5df4b006867ef97a90973f5a2fc07}} 
+\index{gamestates.Playing@{gamestates.Playing}!getLevelManager@{getLevelManager}}
+\index{getLevelManager@{getLevelManager}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getLevelManager()}{getLevelManager()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1LevelManager}{Level\+Manager}} gamestates.\+Playing.\+get\+Level\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Managerul de niveluri. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a0769219c58464e4d4beea45db48da5f5}\label{classgamestates_1_1Playing_a0769219c58464e4d4beea45db48da5f5}} 
+\index{gamestates.Playing@{gamestates.Playing}!getPlayer@{getPlayer}}
+\index{getPlayer@{getPlayer}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getPlayer()}{getPlayer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classentities_1_1Player}{Player}} gamestates.\+Playing.\+get\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Instanța jucătorului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a65da5d191af4ec75faede64ed95234e9}\label{classgamestates_1_1Playing_a65da5d191af4ec75faede64ed95234e9}} 
+\index{gamestates.Playing@{gamestates.Playing}!getPlayerName@{getPlayerName}}
+\index{getPlayerName@{getPlayerName}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getPlayerName()}{getPlayerName()}}
+{\footnotesize\ttfamily String gamestates.\+Playing.\+get\+Player\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Numele informativ al jucătorului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a83ec5095c875b219d28dc1eb286e670f}\label{classgamestates_1_1Playing_a83ec5095c875b219d28dc1eb286e670f}} 
+\index{gamestates.Playing@{gamestates.Playing}!getUsername@{getUsername}}
+\index{getUsername@{getUsername}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{getUsername()}{getUsername()}}
+{\footnotesize\ttfamily String gamestates.\+Playing.\+get\+Username (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Numele de utilizator curent. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Playing_af0533b59c99c9834e720da7edc854b68}\label{classgamestates_1_1Playing_af0533b59c99c9834e720da7edc854b68}} 
+\index{gamestates.Playing@{gamestates.Playing}!initClasses@{initClasses}}
+\index{initClasses@{initClasses}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{initClasses()}{initClasses()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+init\+Classes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează clasele principale necesare pentru starea de joc\+: Level\+Manager, Player, Enemy\+Manager. 
+
+Încarcă datele nivelului și inamicii. Configurează variabilele legate de dimensiunea nivelului și scrolling. Încarcă elementele UI și fonturile. \mbox{\Hypertarget{classgamestates_1_1Playing_a260f7a72b9a362e4791e449b98acb78e}\label{classgamestates_1_1Playing_a260f7a72b9a362e4791e449b98acb78e}} 
+\index{gamestates.Playing@{gamestates.Playing}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de apăsare a tastelor. 
+
+Controlează mișcarea jucătorului, săritura, ghemuirea, atacurile speciale și pauza.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a3f52df580033fc884bc86565e656bb17}\label{classgamestates_1_1Playing_a3f52df580033fc884bc86565e656bb17}} 
+\index{gamestates.Playing@{gamestates.Playing}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de eliberare a tastelor. 
+
+Oprește mișcarea jucătorului sau ghemuirea.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a7feb73c2b45f3d62d1506d42d79bd07e}\label{classgamestates_1_1Playing_a7feb73c2b45f3d62d1506d42d79bd07e}} 
+\index{gamestates.Playing@{gamestates.Playing}!loadCustomFont@{loadCustomFont}}
+\index{loadCustomFont@{loadCustomFont}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{loadCustomFont()}{loadCustomFont()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+load\+Custom\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă fontul personalizat. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ac899be246459018309921a6b83be91d9}\label{classgamestates_1_1Playing_ac899be246459018309921a6b83be91d9}} 
+\index{gamestates.Playing@{gamestates.Playing}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionează evenimentele de click al mouse-\/ului. 
+
+Inițiază cronometrul nivelului la primul click. Activează atacurile jucătorului (pumn sau whack) la click stânga/dreapta.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a92d54046a9f6353706dbe214e50f68cf}\label{classgamestates_1_1Playing_a92d54046a9f6353706dbe214e50f68cf}} 
+\index{gamestates.Playing@{gamestates.Playing}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat aici). 
+
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_af76d77ca4a604b9bd37c353af9749750}\label{classgamestates_1_1Playing_af76d77ca4a604b9bd37c353af9749750}} 
+\index{gamestates.Playing@{gamestates.Playing}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat aici). 
+
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_aadb9e3ca9105af6fce1b06e3ba4d3c06}\label{classgamestates_1_1Playing_aadb9e3ca9105af6fce1b06e3ba4d3c06}} 
+\index{gamestates.Playing@{gamestates.Playing}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a butonului mouse-\/ului. 
+
+Specific pentru butonul \char`\"{}Înapoi\char`\"{} din HUD, dacă este cazul. Salvează progresul la apăsarea butonului \char`\"{}Înapoi\char`\"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ae3655bc36d71099e73a23cb9afffaf35}\label{classgamestates_1_1Playing_ae3655bc36d71099e73a23cb9afffaf35}} 
+\index{gamestates.Playing@{gamestates.Playing}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a butonului mouse-\/ului (neutilizat aici). 
+
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a7bc0d88e3db76aa390b1200646f5c6d4}\label{classgamestates_1_1Playing_a7bc0d88e3db76aa390b1200646f5c6d4}} 
+\index{gamestates.Playing@{gamestates.Playing}!resetAll@{resetAll}}
+\index{resetAll@{resetAll}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{resetAll()}{resetAll()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+reset\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resetează starea jocului (parțial, păstrând progresul). 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a4a36fbe9337f211bb56d60ecda6eb887}\label{classgamestates_1_1Playing_a4a36fbe9337f211bb56d60ecda6eb887}} 
+\index{gamestates.Playing@{gamestates.Playing}!resetAll@{resetAll}}
+\index{resetAll@{resetAll}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{resetAll()}{resetAll()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+reset\+All (\begin{DoxyParamCaption}\item[{boolean}]{full\+Reset }\end{DoxyParamCaption})}
+
+
+
+Resetează starea jocului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em full\+Reset} & True pentru o resetare completă (la reîncercare nivel), false pentru o resetare parțială (păstrând scorul, etc. la încărcare). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a2943dde72a373c7d3ecaaf2ab3677d16}\label{classgamestates_1_1Playing_a2943dde72a373c7d3ecaaf2ab3677d16}} 
+\index{gamestates.Playing@{gamestates.Playing}!setCurrentCoconuts@{setCurrentCoconuts}}
+\index{setCurrentCoconuts@{setCurrentCoconuts}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setCurrentCoconuts()}{setCurrentCoconuts()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Current\+Coconuts (\begin{DoxyParamCaption}\item[{int}]{coconuts }\end{DoxyParamCaption})}
+
+
+
+Setează numărul curent de nuci de cocos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em coconuts} & Noul număr de nuci. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Playing_ad31b151e9b117ca033183b52649c5b0d}\label{classgamestates_1_1Playing_ad31b151e9b117ca033183b52649c5b0d}} 
+\index{gamestates.Playing@{gamestates.Playing}!setCurrentScore@{setCurrentScore}}
+\index{setCurrentScore@{setCurrentScore}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setCurrentScore()}{setCurrentScore()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Current\+Score (\begin{DoxyParamCaption}\item[{int}]{score }\end{DoxyParamCaption})}
+
+
+
+Setează scorul curent. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em score} & Noul scor. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a86f471c3e1e1ef865e9c40c69527b860}\label{classgamestates_1_1Playing_a86f471c3e1e1ef865e9c40c69527b860}} 
+\index{gamestates.Playing@{gamestates.Playing}!setGameOver@{setGameOver}}
+\index{setGameOver@{setGameOver}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setGameOver()}{setGameOver()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Game\+Over (\begin{DoxyParamCaption}\item[{boolean}]{over }\end{DoxyParamCaption})}
+
+
+
+Setează starea de Game Over. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ab380515f2b81a0c8cd596126b6eb5001}\label{classgamestates_1_1Playing_ab380515f2b81a0c8cd596126b6eb5001}} 
+\index{gamestates.Playing@{gamestates.Playing}!setLevelFinished@{setLevelFinished}}
+\index{setLevelFinished@{setLevelFinished}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setLevelFinished()}{setLevelFinished()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Level\+Finished (\begin{DoxyParamCaption}\item[{boolean}]{finished }\end{DoxyParamCaption})}
+
+
+
+Setează starea de finalizare a nivelului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_abaec8247b5dd2f3f5d88bb478ddaacc0}\label{classgamestates_1_1Playing_abaec8247b5dd2f3f5d88bb478ddaacc0}} 
+\index{gamestates.Playing@{gamestates.Playing}!setPlayerName@{setPlayerName}}
+\index{setPlayerName@{setPlayerName}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setPlayerName()}{setPlayerName()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Player\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+
+
+Setează numele jucătorului (informativ, username este folosit pentru salvare/încărcare). 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_add22b6232e3e5946c3931f008b61476f}\label{classgamestates_1_1Playing_add22b6232e3e5946c3931f008b61476f}} 
+\index{gamestates.Playing@{gamestates.Playing}!setPreviousState@{setPreviousState}}
+\index{setPreviousState@{setPreviousState}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setPreviousState()}{setPreviousState()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Previous\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Setează starea anterioară a jocului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_af9e12dbdee20825eac28a7735903a453}\label{classgamestates_1_1Playing_af9e12dbdee20825eac28a7735903a453}} 
+\index{gamestates.Playing@{gamestates.Playing}!setTimer@{setTimer}}
+\index{setTimer@{setTimer}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setTimer()}{setTimer()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Timer (\begin{DoxyParamCaption}\item[{int}]{timer }\end{DoxyParamCaption})}
+
+
+
+Setează valoarea cronometrului (timpul scurs). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em timer} & Timpul în secunde. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a047ddbd0e80cfef79a71e377254d0974}\label{classgamestates_1_1Playing_a047ddbd0e80cfef79a71e377254d0974}} 
+\index{gamestates.Playing@{gamestates.Playing}!setUsername@{setUsername}}
+\index{setUsername@{setUsername}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{setUsername()}{setUsername()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+set\+Username (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+
+
+Setează numele de utilizator curent al sesiunii. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a0958d00fae6b65d775f5eda086b2b7fe}\label{classgamestates_1_1Playing_a0958d00fae6b65d775f5eda086b2b7fe}} 
+\index{gamestates.Playing@{gamestates.Playing}!showGameOverOverlay@{showGameOverOverlay}}
+\index{showGameOverOverlay@{showGameOverOverlay}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{showGameOverOverlay()}{showGameOverOverlay()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+show\+Game\+Over\+Overlay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Afișează overlay-\/ul de Game Over și salvează progresul. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_aae0a153576d270623cce1ab2adcede55}\label{classgamestates_1_1Playing_aae0a153576d270623cce1ab2adcede55}} 
+\index{gamestates.Playing@{gamestates.Playing}!showLevelFinishedOverlay@{showLevelFinishedOverlay}}
+\index{showLevelFinishedOverlay@{showLevelFinishedOverlay}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{showLevelFinishedOverlay()}{showLevelFinishedOverlay()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+show\+Level\+Finished\+Overlay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Afișează overlay-\/ul de final de nivel. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a1c5daa7bd446f6a4b6f360e591fcb8c0}\label{classgamestates_1_1Playing_a1c5daa7bd446f6a4b6f360e591fcb8c0}} 
+\index{gamestates.Playing@{gamestates.Playing}!update@{update}}
+\index{update@{update}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează logica stării de joc. 
+
+Include actualizarea nivelului, jucătorului, inamicilor, colectabilelor, verificarea coliziunilor și a condițiilor de final de joc. Rulează doar dacă jocul nu este în pauză. 
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ab37f7a09478e4400d32a8022a8db0c22}\label{classgamestates_1_1Playing_ab37f7a09478e4400d32a8022a8db0c22}} 
+\index{gamestates.Playing@{gamestates.Playing}!updateBananas@{updateBananas}}
+\index{updateBananas@{updateBananas}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{updateBananas()}{updateBananas()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+update\+Bananas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează starea bananelor active din nivel. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a136b116103a72fd090cd2b32918c7b10}\label{classgamestates_1_1Playing_a136b116103a72fd090cd2b32918c7b10}} 
+\index{gamestates.Playing@{gamestates.Playing}!updateCoconuts@{updateCoconuts}}
+\index{updateCoconuts@{updateCoconuts}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{updateCoconuts()}{updateCoconuts()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+update\+Coconuts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează starea nucilor de cocos active din nivel. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a96319ffa18d763c4326c34b3952c9046}\label{classgamestates_1_1Playing_a96319ffa18d763c4326c34b3952c9046}} 
+\index{gamestates.Playing@{gamestates.Playing}!windowFocusLost@{windowFocusLost}}
+\index{windowFocusLost@{windowFocusLost}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{windowFocusLost()}{windowFocusLost()}}
+{\footnotesize\ttfamily void gamestates.\+Playing.\+window\+Focus\+Lost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Apelată când fereastra jocului pierde focusul, pentru a reseta input-\/urile jucătorului. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Playing_a207c14ddf20d5093057c6bb8fbafdfa9}\label{classgamestates_1_1Playing_a207c14ddf20d5093057c6bb8fbafdfa9}} 
+\index{gamestates.Playing@{gamestates.Playing}!airstrikeFont@{airstrikeFont}}
+\index{airstrikeFont@{airstrikeFont}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{airstrikeFont}{airstrikeFont}}
+{\footnotesize\ttfamily Font gamestates.\+Playing.\+airstrike\+Font\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ae502c63e7d29ff9a125333b843260acd}\label{classgamestates_1_1Playing_ae502c63e7d29ff9a125333b843260acd}} 
+\index{gamestates.Playing@{gamestates.Playing}!backButtonBounds@{backButtonBounds}}
+\index{backButtonBounds@{backButtonBounds}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{backButtonBounds}{backButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Playing.\+back\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a977e0669b278b6f89b2b48adc89596a1}\label{classgamestates_1_1Playing_a977e0669b278b6f89b2b48adc89596a1}} 
+\index{gamestates.Playing@{gamestates.Playing}!coconutIcon@{coconutIcon}}
+\index{coconutIcon@{coconutIcon}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{coconutIcon}{coconutIcon}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Playing.\+coconut\+Icon\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a25d081c41eb97b699f0e0c3720e5403b}\label{classgamestates_1_1Playing_a25d081c41eb97b699f0e0c3720e5403b}} 
+\index{gamestates.Playing@{gamestates.Playing}!crystalIcon@{crystalIcon}}
+\index{crystalIcon@{crystalIcon}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{crystalIcon}{crystalIcon}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Playing.\+crystal\+Icon\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a3d0f0d64abc9d57aeb4086b91af8d000}\label{classgamestates_1_1Playing_a3d0f0d64abc9d57aeb4086b91af8d000}} 
+\index{gamestates.Playing@{gamestates.Playing}!currentCoconuts@{currentCoconuts}}
+\index{currentCoconuts@{currentCoconuts}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{currentCoconuts}{currentCoconuts}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+current\+Coconuts = 0}
+
+
+
+Numărul curent de nuci de cocos deținute de jucător. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ab41b4130608260f8c3089fe2584be0b3}\label{classgamestates_1_1Playing_ab41b4130608260f8c3089fe2584be0b3}} 
+\index{gamestates.Playing@{gamestates.Playing}!currentLevel@{currentLevel}}
+\index{currentLevel@{currentLevel}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{currentLevel}{currentLevel}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+current\+Level = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nivelul curent la care se joacă (index). 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a41797a0534207da2a21b2165c69e4c44}\label{classgamestates_1_1Playing_a41797a0534207da2a21b2165c69e4c44}} 
+\index{gamestates.Playing@{gamestates.Playing}!currentScore@{currentScore}}
+\index{currentScore@{currentScore}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{currentScore}{currentScore}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+current\+Score = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Scorul curent al jucătorului în nivel. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a0edcc3bc7f4bbbe1ad5352d42a1ccd05}\label{classgamestates_1_1Playing_a0edcc3bc7f4bbbe1ad5352d42a1ccd05}} 
+\index{gamestates.Playing@{gamestates.Playing}!elapsedSeconds@{elapsedSeconds}}
+\index{elapsedSeconds@{elapsedSeconds}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{elapsedSeconds}{elapsedSeconds}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+elapsed\+Seconds\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Numărul de secunde scurs de la începerea nivelului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ae700424760268e94730be722ea9cee5b}\label{classgamestates_1_1Playing_ae700424760268e94730be722ea9cee5b}} 
+\index{gamestates.Playing@{gamestates.Playing}!enemyManager@{enemyManager}}
+\index{enemyManager@{enemyManager}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{enemyManager}{enemyManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classentities_1_1EnemyManager}{Enemy\+Manager}} gamestates.\+Playing.\+enemy\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_aeb29fd7ea7e992ca410316bb6a9f2090}\label{classgamestates_1_1Playing_aeb29fd7ea7e992ca410316bb6a9f2090}} 
+\index{gamestates.Playing@{gamestates.Playing}!gameOver@{gameOver}}
+\index{gameOver@{gameOver}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{gameOver}{gameOver}}
+{\footnotesize\ttfamily boolean gamestates.\+Playing.\+game\+Over = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă jocul s-\/a terminat (Game Over). 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a9788bdd301f7cf5f413c226196d3d633}\label{classgamestates_1_1Playing_a9788bdd301f7cf5f413c226196d3d633}} 
+\index{gamestates.Playing@{gamestates.Playing}!gameOverOverlay@{gameOverOverlay}}
+\index{gameOverOverlay@{gameOverOverlay}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{gameOverOverlay}{gameOverOverlay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1GameOverOverlay}{Game\+Over\+Overlay}} gamestates.\+Playing.\+game\+Over\+Overlay\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_af8980b8d37484b0ec851f49a19e40f13}\label{classgamestates_1_1Playing_af8980b8d37484b0ec851f49a19e40f13}} 
+\index{gamestates.Playing@{gamestates.Playing}!gameUI@{gameUI}}
+\index{gameUI@{gameUI}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{gameUI}{gameUI}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Playing.\+game\+UI\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a0afe9fcd76ef4fed03c2e6e12f13553b}\label{classgamestates_1_1Playing_a0afe9fcd76ef4fed03c2e6e12f13553b}} 
+\index{gamestates.Playing@{gamestates.Playing}!leftBorder@{leftBorder}}
+\index{leftBorder@{leftBorder}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{leftBorder}{leftBorder}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+left\+Border = (int) (0.\+2 $\ast$ \mbox{\hyperlink{classmain_1_1Game_af113152bdbd435a58fdfa7a3762ab362}{Game.\+GAME\+\_\+\+WIDTH}})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita stângă a ecranului pentru inițierea scrolling-\/ului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a20b66bbb84bb7a344fc266bc8044a1a2}\label{classgamestates_1_1Playing_a20b66bbb84bb7a344fc266bc8044a1a2}} 
+\index{gamestates.Playing@{gamestates.Playing}!levelFinished@{levelFinished}}
+\index{levelFinished@{levelFinished}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{levelFinished}{levelFinished}}
+{\footnotesize\ttfamily boolean gamestates.\+Playing.\+level\+Finished = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă nivelul curent a fost finalizat. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_adb1f2fc4e104aa092e0f7a65d252ab43}\label{classgamestates_1_1Playing_adb1f2fc4e104aa092e0f7a65d252ab43}} 
+\index{gamestates.Playing@{gamestates.Playing}!levelFinishedOverlay@{levelFinishedOverlay}}
+\index{levelFinishedOverlay@{levelFinishedOverlay}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{levelFinishedOverlay}{levelFinishedOverlay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classgamestates_1_1LevelFinishedOverlay}{Level\+Finished\+Overlay}} gamestates.\+Playing.\+level\+Finished\+Overlay\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ac520cba49c0b5aadf69705c1145bb533}\label{classgamestates_1_1Playing_ac520cba49c0b5aadf69705c1145bb533}} 
+\index{gamestates.Playing@{gamestates.Playing}!levelManager@{levelManager}}
+\index{levelManager@{levelManager}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{levelManager}{levelManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlevels_1_1LevelManager}{Level\+Manager}} gamestates.\+Playing.\+level\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a59767139003465bc5647d8336de8421f}\label{classgamestates_1_1Playing_a59767139003465bc5647d8336de8421f}} 
+\index{gamestates.Playing@{gamestates.Playing}!levelStartTime@{levelStartTime}}
+\index{levelStartTime@{levelStartTime}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{levelStartTime}{levelStartTime}}
+{\footnotesize\ttfamily long gamestates.\+Playing.\+level\+Start\+Time\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Timpul de start al nivelului curent, în milisecunde. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_aa4fd45204867be41bd6b6677b6749667}\label{classgamestates_1_1Playing_aa4fd45204867be41bd6b6677b6749667}} 
+\index{gamestates.Playing@{gamestates.Playing}!lvlTilesWide@{lvlTilesWide}}
+\index{lvlTilesWide@{lvlTilesWide}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{lvlTilesWide}{lvlTilesWide}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+lvl\+Tiles\+Wide\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lățimea totală a nivelului curent, în tile-\/uri. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a9c6e295d3008c0554f4c850f84050653}\label{classgamestates_1_1Playing_a9c6e295d3008c0554f4c850f84050653}} 
+\index{gamestates.Playing@{gamestates.Playing}!maxLvlOffsetX@{maxLvlOffsetX}}
+\index{maxLvlOffsetX@{maxLvlOffsetX}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{maxLvlOffsetX}{maxLvlOffsetX}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+max\+Lvl\+OffsetX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset-\/ul maxim posibil al nivelului în pixeli pentru scrolling. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a122d07fb3f963ac482740c10dc26c971}\label{classgamestates_1_1Playing_a122d07fb3f963ac482740c10dc26c971}} 
+\index{gamestates.Playing@{gamestates.Playing}!maxTilesOffset@{maxTilesOffset}}
+\index{maxTilesOffset@{maxTilesOffset}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{maxTilesOffset}{maxTilesOffset}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+max\+Tiles\+Offset\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset-\/ul maxim posibil al tile-\/urilor pentru scrolling. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a0e960720b88e3750ffb7660f20797282}\label{classgamestates_1_1Playing_a0e960720b88e3750ffb7660f20797282}} 
+\index{gamestates.Playing@{gamestates.Playing}!paused@{paused}}
+\index{paused@{paused}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{paused}{paused}}
+{\footnotesize\ttfamily boolean gamestates.\+Playing.\+paused = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a5c64eb7ccc26b09f4a0580e21104b7f2}\label{classgamestates_1_1Playing_a5c64eb7ccc26b09f4a0580e21104b7f2}} 
+\index{gamestates.Playing@{gamestates.Playing}!player@{player}}
+\index{player@{player}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{player}{player}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classentities_1_1Player}{Player}} gamestates.\+Playing.\+player\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a4600f56d5810a9ca8fcf81f25289ef32}\label{classgamestates_1_1Playing_a4600f56d5810a9ca8fcf81f25289ef32}} 
+\index{gamestates.Playing@{gamestates.Playing}!playerName@{playerName}}
+\index{playerName@{playerName}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{playerName}{playerName}}
+{\footnotesize\ttfamily String gamestates.\+Playing.\+player\+Name = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a8ae242cfb3845477dc7f738b7ba21a4a}\label{classgamestates_1_1Playing_a8ae242cfb3845477dc7f738b7ba21a4a}} 
+\index{gamestates.Playing@{gamestates.Playing}!previousState@{previousState}}
+\index{previousState@{previousState}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{previousState}{previousState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} gamestates.\+Playing.\+previous\+State = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a6c90d7cbb6e5bd41bafd5c11eeece3ee}\label{classgamestates_1_1Playing_a6c90d7cbb6e5bd41bafd5c11eeece3ee}} 
+\index{gamestates.Playing@{gamestates.Playing}!rightBorder@{rightBorder}}
+\index{rightBorder@{rightBorder}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{rightBorder}{rightBorder}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+right\+Border = (int) (0.\+8 $\ast$ \mbox{\hyperlink{classmain_1_1Game_af113152bdbd435a58fdfa7a3762ab362}{Game.\+GAME\+\_\+\+WIDTH}})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limita dreaptă a ecranului pentru inițierea scrolling-\/ului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_ae261576657c356f7b2b70d839c3b42cd}\label{classgamestates_1_1Playing_ae261576657c356f7b2b70d839c3b42cd}} 
+\index{gamestates.Playing@{gamestates.Playing}!timerStarted@{timerStarted}}
+\index{timerStarted@{timerStarted}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{timerStarted}{timerStarted}}
+{\footnotesize\ttfamily boolean gamestates.\+Playing.\+timer\+Started = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă cronometrul nivelului a pornit. 
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a536e7b46a890d523470f0bc6f248b624}\label{classgamestates_1_1Playing_a536e7b46a890d523470f0bc6f248b624}} 
+\index{gamestates.Playing@{gamestates.Playing}!username@{username}}
+\index{username@{username}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{username}{username}}
+{\footnotesize\ttfamily String gamestates.\+Playing.\+username = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Playing_a9bf5df0b10e0a41171a9251aeb579303}\label{classgamestates_1_1Playing_a9bf5df0b10e0a41171a9251aeb579303}} 
+\index{gamestates.Playing@{gamestates.Playing}!xLvlOffset@{xLvlOffset}}
+\index{xLvlOffset@{xLvlOffset}!gamestates.Playing@{gamestates.Playing}}
+\doxysubsubsection{\texorpdfstring{xLvlOffset}{xLvlOffset}}
+{\footnotesize\ttfamily int gamestates.\+Playing.\+x\+Lvl\+Offset = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset-\/ul orizontal al nivelului pentru scrolling. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{Playing_8java}{Playing.\+java}}\end{DoxyCompactItemize}

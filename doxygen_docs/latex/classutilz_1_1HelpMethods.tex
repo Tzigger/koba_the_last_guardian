@@ -1,0 +1,294 @@
+\hypertarget{classutilz_1_1HelpMethods}{}\doxysection{utilz.\+Help\+Methods Class Reference}
+\label{classutilz_1_1HelpMethods}\index{utilz.HelpMethods@{utilz.HelpMethods}}
+
+
+Clasă utilitară ce conține metode statice ajutătoare, în principal pentru detecția coliziunilor și poziționarea entităților în cadrul nivelului.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classutilz_1_1HelpMethods_a22662b0cfa5f222363f305c3918a6a0d}{can\+Move\+Here}} (float x, float y, float width, float height, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data)
+\begin{DoxyCompactList}\small\item\em Verifică dacă o entitate se poate deplasa la o anumită poziție (x, y) fără a intra în coliziune cu tile-\/uri solide. \end{DoxyCompactList}\item 
+static boolean \mbox{\hyperlink{classutilz_1_1HelpMethods_a3af5db28b3c32e2432c66ddea816bd06}{is\+Solid}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data, float x, float y)
+\begin{DoxyCompactList}\small\item\em Verifică dacă un punct specific (x, y) din lume corespunde unui tile solid. \end{DoxyCompactList}\item 
+static boolean \mbox{\hyperlink{classutilz_1_1HelpMethods_afa1e9e3759ed2c15b4e9900d291f708c}{is\+Entity\+On\+Floor}} (Rectangle2\+D.\+Float hitbox, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data)
+\begin{DoxyCompactList}\small\item\em Verifică dacă o entitate se află pe sol. \end{DoxyCompactList}\item 
+static boolean \mbox{\hyperlink{classutilz_1_1HelpMethods_a9f41257f43695634a48d0b7501df2aa9}{is\+Entity\+On\+Wall}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data, int x, int y)
+\begin{DoxyCompactList}\small\item\em Verifică dacă o entitate se află lângă un perete (la dreapta sa). \end{DoxyCompactList}\item 
+static boolean \mbox{\hyperlink{classutilz_1_1HelpMethods_a5d49b30bfcc44ffcc0d02f4e9192190f}{is\+Entity\+On\+Ceiling}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data, int x, int y)
+\begin{DoxyCompactList}\small\item\em Verifică dacă o entitate se află sub un tavan. \end{DoxyCompactList}\item 
+static float \mbox{\hyperlink{classutilz_1_1HelpMethods_a516928207ab36912b29f3d779cae3469}{get\+Entity\+XPos\+Next\+To\+Wall}} (Rectangle2\+D.\+Float hitbox, float x\+Speed)
+\begin{DoxyCompactList}\small\item\em Calculează poziția X a unei entități astfel încât să fie exact lângă un perete, fără a-\/l penetra, în funcție de direcția de mișcare. \end{DoxyCompactList}\item 
+static float \mbox{\hyperlink{classutilz_1_1HelpMethods_a8409af3bf585e6f1b732ba18383db9e1}{get\+Entity\+YPos\+Under\+Roof\+Or\+Above\+Floor}} (Rectangle2\+D.\+Float hitbox, float air\+Speed)
+\begin{DoxyCompactList}\small\item\em Calculează poziția Y a unei entități astfel încât să fie exact sub un tavan sau deasupra unei podele, fără a le penetra, în funcție de direcția de mișcare verticală. \end{DoxyCompactList}\item 
+static boolean \mbox{\hyperlink{classutilz_1_1HelpMethods_aa00cd971965e5bd43e348517ecc18130}{can\+Boss\+Move\+Here}} (float x, float y, float width, float height, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} lvl\+Data, int direction)
+\begin{DoxyCompactList}\small\item\em O versiune mai puțin strictă a metodei \mbox{\hyperlink{classutilz_1_1HelpMethods_a22662b0cfa5f222363f305c3918a6a0d}{can\+Move\+Here(float, float, float, float, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]})}}, potențial pentru entități mai mari precum boșii. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasă utilitară ce conține metode statice ajutătoare, în principal pentru detecția coliziunilor și poziționarea entităților în cadrul nivelului. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_aa00cd971965e5bd43e348517ecc18130}\label{classutilz_1_1HelpMethods_aa00cd971965e5bd43e348517ecc18130}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!canBossMoveHere@{canBossMoveHere}}
+\index{canBossMoveHere@{canBossMoveHere}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{canBossMoveHere()}{canBossMoveHere()}}
+{\footnotesize\ttfamily static boolean utilz.\+Help\+Methods.\+can\+Boss\+Move\+Here (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{width,  }\item[{float}]{height,  }\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{direction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+O versiune mai puțin strictă a metodei \mbox{\hyperlink{classutilz_1_1HelpMethods_a22662b0cfa5f222363f305c3918a6a0d}{can\+Move\+Here(float, float, float, float, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]})}}, potențial pentru entități mai mari precum boșii. 
+
+Verifică mai puține puncte\+: cele 4 colțuri și centrul marginii frontale (în direcția de mișcare).
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x dorită a colțului stânga-\/sus al hitbox-\/ului. \\
+\hline
+{\em y} & Poziția y dorită a colțului stânga-\/sus al hitbox-\/ului. \\
+\hline
+{\em width} & Lățimea hitbox-\/ului entității. \\
+\hline
+{\em height} & Înălțimea hitbox-\/ului entității. \\
+\hline
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+{\em direction} & Direcția de mișcare a entității (de ex., 1 pentru dreapta, -\/1 sau 0 pentru stânga). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă entitatea se poate deplasa la noua poziție,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_a22662b0cfa5f222363f305c3918a6a0d}\label{classutilz_1_1HelpMethods_a22662b0cfa5f222363f305c3918a6a0d}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!canMoveHere@{canMoveHere}}
+\index{canMoveHere@{canMoveHere}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{canMoveHere()}{canMoveHere()}}
+{\footnotesize\ttfamily static boolean utilz.\+Help\+Methods.\+can\+Move\+Here (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{width,  }\item[{float}]{height,  }\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifică dacă o entitate se poate deplasa la o anumită poziție (x, y) fără a intra în coliziune cu tile-\/uri solide. 
+
+Verifică colțurile și puncte intermediare pe marginile hitbox-\/ului entității.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x dorită a colțului stânga-\/sus al hitbox-\/ului. \\
+\hline
+{\em y} & Poziția y dorită a colțului stânga-\/sus al hitbox-\/ului. \\
+\hline
+{\em width} & Lățimea hitbox-\/ului entității. \\
+\hline
+{\em height} & Înălțimea hitbox-\/ului entității. \\
+\hline
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă entitatea se poate deplasa la noua poziție,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_a516928207ab36912b29f3d779cae3469}\label{classutilz_1_1HelpMethods_a516928207ab36912b29f3d779cae3469}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!getEntityXPosNextToWall@{getEntityXPosNextToWall}}
+\index{getEntityXPosNextToWall@{getEntityXPosNextToWall}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{getEntityXPosNextToWall()}{getEntityXPosNextToWall()}}
+{\footnotesize\ttfamily static float utilz.\+Help\+Methods.\+get\+Entity\+XPos\+Next\+To\+Wall (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{hitbox,  }\item[{float}]{x\+Speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calculează poziția X a unei entități astfel încât să fie exact lângă un perete, fără a-\/l penetra, în funcție de direcția de mișcare. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hitbox} & Dreptunghiul de coliziune al entității. \\
+\hline
+{\em x\+Speed} & Viteza orizontală a entității (pozitivă pentru dreapta, negativă pentru stânga). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Noua coordonată X a hitbox-\/ului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_a8409af3bf585e6f1b732ba18383db9e1}\label{classutilz_1_1HelpMethods_a8409af3bf585e6f1b732ba18383db9e1}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!getEntityYPosUnderRoofOrAboveFloor@{getEntityYPosUnderRoofOrAboveFloor}}
+\index{getEntityYPosUnderRoofOrAboveFloor@{getEntityYPosUnderRoofOrAboveFloor}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{getEntityYPosUnderRoofOrAboveFloor()}{getEntityYPosUnderRoofOrAboveFloor()}}
+{\footnotesize\ttfamily static float utilz.\+Help\+Methods.\+get\+Entity\+YPos\+Under\+Roof\+Or\+Above\+Floor (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{hitbox,  }\item[{float}]{air\+Speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calculează poziția Y a unei entități astfel încât să fie exact sub un tavan sau deasupra unei podele, fără a le penetra, în funcție de direcția de mișcare verticală. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hitbox} & Dreptunghiul de coliziune al entității. \\
+\hline
+{\em air\+Speed} & Viteza verticală a entității (pozitivă pentru cădere, negativă pentru săritură). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Noua coordonată Y a hitbox-\/ului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_a5d49b30bfcc44ffcc0d02f4e9192190f}\label{classutilz_1_1HelpMethods_a5d49b30bfcc44ffcc0d02f4e9192190f}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!isEntityOnCeiling@{isEntityOnCeiling}}
+\index{isEntityOnCeiling@{isEntityOnCeiling}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{isEntityOnCeiling()}{isEntityOnCeiling()}}
+{\footnotesize\ttfamily static boolean utilz.\+Help\+Methods.\+is\+Entity\+On\+Ceiling (\begin{DoxyParamCaption}\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifică dacă o entitate se află sub un tavan. 
+
+Această metodă pare incompletă sau specifică unui anumit context, deoarece verifică doar un singur tile deasupra coordonatelor date.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+{\em x} & Coordonata x a tile-\/ului curent al entității (în unități de tile-\/uri). \\
+\hline
+{\em y} & Coordonata y a tile-\/ului curent al entității (în unități de tile-\/uri). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă tile-\/ul deasupra nu este gol (ID != 0),
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_afa1e9e3759ed2c15b4e9900d291f708c}\label{classutilz_1_1HelpMethods_afa1e9e3759ed2c15b4e9900d291f708c}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!isEntityOnFloor@{isEntityOnFloor}}
+\index{isEntityOnFloor@{isEntityOnFloor}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{isEntityOnFloor()}{isEntityOnFloor()}}
+{\footnotesize\ttfamily static boolean utilz.\+Help\+Methods.\+is\+Entity\+On\+Floor (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{hitbox,  }\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifică dacă o entitate se află pe sol. 
+
+Verifică punctele de sub colțurile stânga-\/jos și dreapta-\/jos ale hitbox-\/ului.
+
+
+\begin{DoxyParams}{Parameters}
+{\em hitbox} & Dreptunghiul de coliziune al entității. \\
+\hline
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă entitatea este pe sol,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_a9f41257f43695634a48d0b7501df2aa9}\label{classutilz_1_1HelpMethods_a9f41257f43695634a48d0b7501df2aa9}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!isEntityOnWall@{isEntityOnWall}}
+\index{isEntityOnWall@{isEntityOnWall}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{isEntityOnWall()}{isEntityOnWall()}}
+{\footnotesize\ttfamily static boolean utilz.\+Help\+Methods.\+is\+Entity\+On\+Wall (\begin{DoxyParamCaption}\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifică dacă o entitate se află lângă un perete (la dreapta sa). 
+
+Această metodă pare incompletă sau specifică unui anumit context, deoarece verifică doar un singur tile la dreapta coordonatelor date.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+{\em x} & Coordonata x a tile-\/ului curent al entității (în unități de tile-\/uri). \\
+\hline
+{\em y} & Coordonata y a tile-\/ului curent al entității (în unități de tile-\/uri). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă tile-\/ul din dreapta nu este gol (ID != 0),
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classutilz_1_1HelpMethods_a3af5db28b3c32e2432c66ddea816bd06}\label{classutilz_1_1HelpMethods_a3af5db28b3c32e2432c66ddea816bd06}} 
+\index{utilz.HelpMethods@{utilz.HelpMethods}!isSolid@{isSolid}}
+\index{isSolid@{isSolid}!utilz.HelpMethods@{utilz.HelpMethods}}
+\doxysubsubsection{\texorpdfstring{isSolid()}{isSolid()}}
+{\footnotesize\ttfamily static boolean utilz.\+Help\+Methods.\+is\+Solid (\begin{DoxyParamCaption}\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifică dacă un punct specific (x, y) din lume corespunde unui tile solid. 
+
+Un tile este considerat solid dacă valoarea sa în
+\begin{DoxyCode}{0}
+\DoxyCodeLine{lvlData }
+
+\end{DoxyCode}
+ este între 0 și 95 (inclusiv). De asemenea, verifică dacă punctul este în afara limitelor nivelului.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+{\em x} & Coordonata x a punctului de verificat (în pixeli). \\
+\hline
+{\em y} & Coordonata y a punctului de verificat (în pixeli). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă punctul este solid sau în afara limitelor,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/utilz/\mbox{\hyperlink{HelpMethods_8java}{Help\+Methods.\+java}}\end{DoxyCompactItemize}

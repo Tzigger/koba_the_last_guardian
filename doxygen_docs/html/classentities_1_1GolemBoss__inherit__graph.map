@@ -1,0 +1,5 @@
+<map id="entities.GolemBoss" name="entities.GolemBoss">
+<area shape="rect" id="node1" title="Reprezintă entitatea Golem Boss în joc." alt="" coords="5,155,155,181"/>
+<area shape="rect" id="node2" href="$classentities_1_1Enemy.html" title="Clasă abstractă de bază pentru toți inamicii din joc." alt="" coords="20,80,140,107"/>
+<area shape="rect" id="node3" href="$classentities_1_1Entity.html" title="Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici,..." alt="" coords="23,5,137,32"/>
+</map>

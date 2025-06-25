@@ -1,0 +1,80 @@
+\hypertarget{classmain_1_1GameWindow}{}\doxysection{main.\+Game\+Window Class Reference}
+\label{classmain_1_1GameWindow}\index{main.GameWindow@{main.GameWindow}}
+
+
+Reprezintă fereastra principală a jocului.  
+
+
+
+
+Collaboration diagram for main.\+Game\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classmain_1_1GameWindow__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1GameWindow_ab9e8f093e1ec65d3f731b7e416fc3c38}{Game\+Window}} (\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}} game\+Panel)
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classmain_1_1GameWindow}{Game\+Window}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+JFrame \mbox{\hyperlink{classmain_1_1GameWindow_a6ec3e3e15d510dd1c5dda7f59e21d04a}{jframe}}
+\begin{DoxyCompactList}\small\item\em Fereastra principală a jocului (obiectul JFrame). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă fereastra principală a jocului. 
+
+Această clasă creează și configurează obiectul \mbox{\hyperlink{}{JFrame}} care conține panoul jocului (\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}}). 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1GameWindow_ab9e8f093e1ec65d3f731b7e416fc3c38}\label{classmain_1_1GameWindow_ab9e8f093e1ec65d3f731b7e416fc3c38}} 
+\index{main.GameWindow@{main.GameWindow}!GameWindow@{GameWindow}}
+\index{GameWindow@{GameWindow}!main.GameWindow@{main.GameWindow}}
+\doxysubsubsection{\texorpdfstring{GameWindow()}{GameWindow()}}
+{\footnotesize\ttfamily main.\+Game\+Window.\+Game\+Window (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}}}]{game\+Panel }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classmain_1_1GameWindow}{Game\+Window}}. 
+
+Inițializează și configurează JFrame-\/ul, adaugă Game\+Panel-\/ul la acesta și setează un listener pentru focusul ferestrei.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Panel} & Panoul principal al jocului (\mbox{\hyperlink{classmain_1_1GamePanel}{Game\+Panel}}) care va fi afișat în fereastră. \\
+\hline
+\end{DoxyParams}
+Apelată când fereastra câștigă focusul. 
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul de focus al ferestrei.\\
+\hline
+\end{DoxyParams}
+Apelată când fereastra pierde focusul. Notifică jocul pentru a gestiona această situație (de ex., pauză, resetare input). 
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul de focus al ferestrei.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classmain_1_1GameWindow_a6ec3e3e15d510dd1c5dda7f59e21d04a}\label{classmain_1_1GameWindow_a6ec3e3e15d510dd1c5dda7f59e21d04a}} 
+\index{main.GameWindow@{main.GameWindow}!jframe@{jframe}}
+\index{jframe@{jframe}!main.GameWindow@{main.GameWindow}}
+\doxysubsubsection{\texorpdfstring{jframe}{jframe}}
+{\footnotesize\ttfamily JFrame main.\+Game\+Window.\+jframe\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Fereastra principală a jocului (obiectul JFrame). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/\mbox{\hyperlink{GameWindow_8java}{Game\+Window.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,339 @@
+\hypertarget{classentities_1_1Enemy}{}\doxysection{entities.\+Enemy Class Reference}
+\label{classentities_1_1Enemy}\index{entities.Enemy@{entities.Enemy}}
+
+
+Clasă abstractă de bază pentru toți inamicii din joc.  
+
+
+
+
+Inheritance diagram for entities.\+Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classentities_1_1Enemy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{classentities_1_1Enemy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Enemy_aaa066319ac40d52d65d4efb54f374939}{Enemy}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}}, int \mbox{\hyperlink{classentities_1_1Enemy_a7799664baf333d3413beeeed639e2cd5}{enemy\+Type}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa abstractă \mbox{\hyperlink{classentities_1_1Enemy}{Enemy}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Enemy_a0f78251e47b88172248672da898b8dfc}{update}} (Rectangle2\+D.\+Float player\+Hitbox)
+\begin{DoxyCompactList}\small\item\em Metodă de actualizare generală pentru inamic. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Enemy_a62b994de1f068f543cec65cebcfd43d9}{draw\+Hitbox}} (Graphics g, int x\+Lvl\+Offset)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul inamicului dacă flag-\/ul. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_af42dcd635a7c975a269e75861d8d2ff7}{get\+Ani\+Index}} ()
+\begin{DoxyCompactList}\small\item\em Returnează indexul frame-\/ului curent al animației. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_abc5ab3550884b74010a676ba647c0d4b}{get\+Enemy\+State}} ()
+\begin{DoxyCompactList}\small\item\em Returnează starea curentă a animației inamicului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Enemy_a90395872b7eb9a6dfc8b3c98e7a00649}{set\+Enemy\+State}} (int state)
+\begin{DoxyCompactList}\small\item\em Setează starea de animație a inamicului și resetează indexul și contorul animației. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_a30891c3ef01e3c8b068364e95667bcb0}{get\+Enemy\+Type}} ()
+\begin{DoxyCompactList}\small\item\em Returnează tipul specific al inamicului. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Enemy_a13094f343111039040c52b6a60e6f497}{get\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Returnează hitbox-\/ul inamicului (moștenit din \mbox{\hyperlink{classentities_1_1Entity}{Entity}}). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Enemy_af6055439e5c6e669d6a1295ee01ed146}{is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă inamicul este activ în joc. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Enemy_a17f2931a87cf493bf93221ed54c60b91}{update\+Animation\+Tick}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează contorul și indexul animației inamicului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_ac17311256be49158196e9a6d6a708146}{ani\+Index}}
+\begin{DoxyCompactList}\small\item\em Indexul frame-\/ului curent în animația inamicului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_aba2caaafaef9910ff4138d9c123f205e}{enemy\+State}}
+\begin{DoxyCompactList}\small\item\em Starea curentă a animației inamicului (de ex., IDLE, RUNNING, ATTACK). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_a7799664baf333d3413beeeed639e2cd5}{enemy\+Type}}
+\begin{DoxyCompactList}\small\item\em Tipul specific al inamicului (de ex., GOBLIN, NANITE). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_a88683ee803db5c16eb56bbe4ea22898a}{ani\+Tick}}
+\begin{DoxyCompactList}\small\item\em Contor pentru ciclul de animație. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Enemy_a5c1c663e60f30e4052d32c0ec5b4c9f3}{ani\+Speed}} = 5
+\begin{DoxyCompactList}\small\item\em Viteza animației (numărul de tick-\/uri de joc per frame de animație). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Enemy_afe610baf049efc25027b741e687f1d70}{draw\+Hitbox}} = false
+\begin{DoxyCompactList}\small\item\em Flag pentru a desena sau nu hitbox-\/ul inamicului (pentru depanare). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classentities_1_1Enemy_a2e0dd7a9809637e903c91a9993a1729d}{is\+Active}} = true
+\begin{DoxyCompactList}\small\item\em Indică dacă inamicul este activ în joc (viu și participă la logică/desenare). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasă abstractă de bază pentru toți inamicii din joc. 
+
+Definește proprietăți și comportamente comune pentru inamici, cum ar fi gestionarea animațiilor, starea (activ/inactiv) și tipul inamicului. Extinde clasa \mbox{\hyperlink{classentities_1_1Entity}{Entity}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Enemy_aaa066319ac40d52d65d4efb54f374939}\label{classentities_1_1Enemy_aaa066319ac40d52d65d4efb54f374939}} 
+\index{entities.Enemy@{entities.Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}}
+{\footnotesize\ttfamily entities.\+Enemy.\+Enemy (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int}]{enemy\+Type }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa abstractă \mbox{\hyperlink{classentities_1_1Enemy}{Enemy}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x inițială a inamicului. \\
+\hline
+{\em y} & Poziția y inițială a inamicului. \\
+\hline
+{\em width} & Lățimea inamicului. \\
+\hline
+{\em height} & Înălțimea inamicului. \\
+\hline
+{\em enemy\+Type} & Tipul specific al inamicului. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Enemy_a62b994de1f068f543cec65cebcfd43d9}\label{classentities_1_1Enemy_a62b994de1f068f543cec65cebcfd43d9}} 
+\index{entities.Enemy@{entities.Enemy}!drawHitbox@{drawHitbox}}
+\index{drawHitbox@{drawHitbox}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{drawHitbox()}{drawHitbox()}}
+{\footnotesize\ttfamily void entities.\+Enemy.\+draw\+Hitbox (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x\+Lvl\+Offset }\end{DoxyParamCaption})}
+
+
+
+Desenează hitbox-\/ul inamicului dacă flag-\/ul. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classentities_1_1Enemy_afe610baf049efc25027b741e687f1d70}{drawHitbox}} }
+
+\end{DoxyCode}
+ este activ. Util pentru depanare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}}. \\
+\hline
+{\em x\+Lvl\+Offset} & Offset-\/ul orizontal al nivelului pentru scrolling. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Enemy_af42dcd635a7c975a269e75861d8d2ff7}\label{classentities_1_1Enemy_af42dcd635a7c975a269e75861d8d2ff7}} 
+\index{entities.Enemy@{entities.Enemy}!getAniIndex@{getAniIndex}}
+\index{getAniIndex@{getAniIndex}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{getAniIndex()}{getAniIndex()}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+get\+Ani\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează indexul frame-\/ului curent al animației. 
+
+\begin{DoxyReturn}{Returns}
+Indexul frame-\/ului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Enemy_abc5ab3550884b74010a676ba647c0d4b}\label{classentities_1_1Enemy_abc5ab3550884b74010a676ba647c0d4b}} 
+\index{entities.Enemy@{entities.Enemy}!getEnemyState@{getEnemyState}}
+\index{getEnemyState@{getEnemyState}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{getEnemyState()}{getEnemyState()}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+get\+Enemy\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează starea curentă a animației inamicului. 
+
+\begin{DoxyReturn}{Returns}
+Starea animației (valoare din \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows}}). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Enemy_a30891c3ef01e3c8b068364e95667bcb0}\label{classentities_1_1Enemy_a30891c3ef01e3c8b068364e95667bcb0}} 
+\index{entities.Enemy@{entities.Enemy}!getEnemyType@{getEnemyType}}
+\index{getEnemyType@{getEnemyType}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{getEnemyType()}{getEnemyType()}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+get\+Enemy\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează tipul specific al inamicului. 
+
+\begin{DoxyReturn}{Returns}
+Tipul inamicului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classentities_1_1Enemy_a13094f343111039040c52b6a60e6f497}\label{classentities_1_1Enemy_a13094f343111039040c52b6a60e6f497}} 
+\index{entities.Enemy@{entities.Enemy}!getHitbox@{getHitbox}}
+\index{getHitbox@{getHitbox}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{getHitbox()}{getHitbox()}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Enemy.\+get\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează hitbox-\/ul inamicului (moștenit din \mbox{\hyperlink{classentities_1_1Entity}{Entity}}). 
+
+\begin{DoxyReturn}{Returns}
+Hitbox-\/ul. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classentities_1_1Entity_a499329a00226cbb0ca7db068833f4151}{entities.\+Entity}}.
+
+\mbox{\Hypertarget{classentities_1_1Enemy_af6055439e5c6e669d6a1295ee01ed146}\label{classentities_1_1Enemy_af6055439e5c6e669d6a1295ee01ed146}} 
+\index{entities.Enemy@{entities.Enemy}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{isActive()}{isActive()}}
+{\footnotesize\ttfamily boolean entities.\+Enemy.\+is\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă inamicul este activ în joc. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă este activ,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Nanite_ac72563055d848d1faf005c16659fd032}{entities.\+Nanite}}, and \mbox{\hyperlink{classentities_1_1Goblin_af4d26284b8c2255ac0e64a14357cef5e}{entities.\+Goblin}}.
+
+\mbox{\Hypertarget{classentities_1_1Enemy_a90395872b7eb9a6dfc8b3c98e7a00649}\label{classentities_1_1Enemy_a90395872b7eb9a6dfc8b3c98e7a00649}} 
+\index{entities.Enemy@{entities.Enemy}!setEnemyState@{setEnemyState}}
+\index{setEnemyState@{setEnemyState}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{setEnemyState()}{setEnemyState()}}
+{\footnotesize\ttfamily void entities.\+Enemy.\+set\+Enemy\+State (\begin{DoxyParamCaption}\item[{int}]{state }\end{DoxyParamCaption})}
+
+
+
+Setează starea de animație a inamicului și resetează indexul și contorul animației. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Noua stare de animație. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Enemy_a0f78251e47b88172248672da898b8dfc}\label{classentities_1_1Enemy_a0f78251e47b88172248672da898b8dfc}} 
+\index{entities.Enemy@{entities.Enemy}!update@{update}}
+\index{update@{update}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Enemy.\+update (\begin{DoxyParamCaption}\item[{Rectangle2\+D.\+Float}]{player\+Hitbox }\end{DoxyParamCaption})}
+
+
+
+Metodă de actualizare generală pentru inamic. 
+
+Momentan, actualizează doar animația. Subclasele ar trebui să suprascrie această metodă pentru a adăuga logica specifică de comportament (AI).
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Hitbox} & Hitbox-\/ul jucătorului, pentru interacțiuni. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Nanite_aed6d46469799927961f623a95e4ff8b8}{entities.\+Nanite}}, and \mbox{\hyperlink{classentities_1_1Goblin_a17ef543630faa038c3b1dbbee3abf997}{entities.\+Goblin}}.
+
+\mbox{\Hypertarget{classentities_1_1Enemy_a17f2931a87cf493bf93221ed54c60b91}\label{classentities_1_1Enemy_a17f2931a87cf493bf93221ed54c60b91}} 
+\index{entities.Enemy@{entities.Enemy}!updateAnimationTick@{updateAnimationTick}}
+\index{updateAnimationTick@{updateAnimationTick}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{updateAnimationTick()}{updateAnimationTick()}}
+{\footnotesize\ttfamily void entities.\+Enemy.\+update\+Animation\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Actualizează contorul și indexul animației inamicului. 
+
+Gestionează buclarea animațiilor și tranziția la starea inactivă după animația de moarte. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Enemy_ac17311256be49158196e9a6d6a708146}\label{classentities_1_1Enemy_ac17311256be49158196e9a6d6a708146}} 
+\index{entities.Enemy@{entities.Enemy}!aniIndex@{aniIndex}}
+\index{aniIndex@{aniIndex}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{aniIndex}{aniIndex}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+ani\+Index\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Indexul frame-\/ului curent în animația inamicului. 
+
+\mbox{\Hypertarget{classentities_1_1Enemy_a5c1c663e60f30e4052d32c0ec5b4c9f3}\label{classentities_1_1Enemy_a5c1c663e60f30e4052d32c0ec5b4c9f3}} 
+\index{entities.Enemy@{entities.Enemy}!aniSpeed@{aniSpeed}}
+\index{aniSpeed@{aniSpeed}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{aniSpeed}{aniSpeed}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+ani\+Speed = 5\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Viteza animației (numărul de tick-\/uri de joc per frame de animație). 
+
+\mbox{\Hypertarget{classentities_1_1Enemy_a88683ee803db5c16eb56bbe4ea22898a}\label{classentities_1_1Enemy_a88683ee803db5c16eb56bbe4ea22898a}} 
+\index{entities.Enemy@{entities.Enemy}!aniTick@{aniTick}}
+\index{aniTick@{aniTick}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{aniTick}{aniTick}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+ani\+Tick\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Contor pentru ciclul de animație. 
+
+\mbox{\Hypertarget{classentities_1_1Enemy_afe610baf049efc25027b741e687f1d70}\label{classentities_1_1Enemy_afe610baf049efc25027b741e687f1d70}} 
+\index{entities.Enemy@{entities.Enemy}!drawHitbox@{drawHitbox}}
+\index{drawHitbox@{drawHitbox}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{drawHitbox}{drawHitbox}}
+{\footnotesize\ttfamily boolean entities.\+Enemy.\+draw\+Hitbox = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Flag pentru a desena sau nu hitbox-\/ul inamicului (pentru depanare). 
+
+\mbox{\Hypertarget{classentities_1_1Enemy_aba2caaafaef9910ff4138d9c123f205e}\label{classentities_1_1Enemy_aba2caaafaef9910ff4138d9c123f205e}} 
+\index{entities.Enemy@{entities.Enemy}!enemyState@{enemyState}}
+\index{enemyState@{enemyState}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{enemyState}{enemyState}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+enemy\+State\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Starea curentă a animației inamicului (de ex., IDLE, RUNNING, ATTACK). 
+
+Folosește valori din \mbox{\hyperlink{enumutilz_1_1Enemy__Animation__Rows}{utilz.\+Enemy\+\_\+\+Animation\+\_\+\+Rows}}. \mbox{\Hypertarget{classentities_1_1Enemy_a7799664baf333d3413beeeed639e2cd5}\label{classentities_1_1Enemy_a7799664baf333d3413beeeed639e2cd5}} 
+\index{entities.Enemy@{entities.Enemy}!enemyType@{enemyType}}
+\index{enemyType@{enemyType}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{enemyType}{enemyType}}
+{\footnotesize\ttfamily int entities.\+Enemy.\+enemy\+Type\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Tipul specific al inamicului (de ex., GOBLIN, NANITE). 
+
+Folosește constante definite în subclase sau \mbox{\hyperlink{}{utilz.\+Constants.\+Enemy\+Constants}}. \mbox{\Hypertarget{classentities_1_1Enemy_a2e0dd7a9809637e903c91a9993a1729d}\label{classentities_1_1Enemy_a2e0dd7a9809637e903c91a9993a1729d}} 
+\index{entities.Enemy@{entities.Enemy}!isActive@{isActive}}
+\index{isActive@{isActive}!entities.Enemy@{entities.Enemy}}
+\doxysubsubsection{\texorpdfstring{isActive}{isActive}}
+{\footnotesize\ttfamily boolean entities.\+Enemy.\+is\+Active = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Indică dacă inamicul este activ în joc (viu și participă la logică/desenare). 
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Nanite_ac72563055d848d1faf005c16659fd032}{entities.\+Nanite}}, and \mbox{\hyperlink{classentities_1_1Goblin_af4d26284b8c2255ac0e64a14357cef5e}{entities.\+Goblin}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Enemy_8java}{Enemy.\+java}}\end{DoxyCompactItemize}

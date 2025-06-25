@@ -1,0 +1,380 @@
+\hypertarget{classlevels_1_1Level}{}\doxysection{levels.\+Level Class Reference}
+\label{classlevels_1_1Level}\index{levels.Level@{levels.Level}}
+
+
+Reprezintă un nivel individual în joc.  
+
+
+
+
+Collaboration diagram for levels.\+Level\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlevels_1_1Level__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlevels_1_1Level_a72e2a249341ba4731a2a046c3d5584d0}{Level}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classlevels_1_1Level_a1483bb51902fda4771b3b19e99f1fa04}{lvl\+Data}}, int \mbox{\hyperlink{classlevels_1_1Level_a08f8d18286729a49b87465f3aec4e9ce}{level\+Id}})
+\begin{DoxyCompactList}\small\item\em Constructor principal pentru clasa \mbox{\hyperlink{classlevels_1_1Level}{Level}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlevels_1_1Level_a151d21224124aa2ba3e6eb668a6baeaf}{Level}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classlevels_1_1Level_a1483bb51902fda4771b3b19e99f1fa04}{lvl\+Data}})
+\begin{DoxyCompactList}\small\item\em Constructor secundar pentru compatibilitate cu codul existent, care nu specifică un ID de nivel. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_a3b560e1043cee9d23fa938f89e9a1693}{get\+Sprite\+Index}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Returnează indexul (ID-\/ul) sprite-\/ului pentru un tile la coordonatele specificate. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1Level_aef40f09326373b7188167853aa23b6c3}{update}} (int playerX)
+\begin{DoxyCompactList}\small\item\em Actualizează offset-\/ul de derulare al nivelului pe baza poziției jucătorului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_a501688118ddad1cac66a19002b918a4c}{get\+Level\+Offset}} ()
+\begin{DoxyCompactList}\small\item\em Returnează offset-\/ul curent de derulare orizontală a nivelului, în tile-\/uri. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_aff6351a68f7e6076a206e9a2c0b0ef25}{get\+Max\+Level\+OffsetX}} ()
+\begin{DoxyCompactList}\small\item\em Returnează offset-\/ul maxim de derulare orizontală a nivelului, în pixeli. \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classlevels_1_1Level_ae6b2c71a4f61e9c50a3074ce115a5808}{get\+Level\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Returnează matricea 2D cu datele tile-\/urilor nivelului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_a15f38c87692ecdcd4fe61809a45089d7}{get\+Level\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Returnează ID-\/ul nivelului curent. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1Level_ad8649399b56273e52a6afbef4ce332a6}{set\+Level\+Id}} (int \mbox{\hyperlink{classlevels_1_1Level_a08f8d18286729a49b87465f3aec4e9ce}{level\+Id}})
+\begin{DoxyCompactList}\small\item\em Setează ID-\/ul nivelului. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Banana}{Banana}} $>$ \mbox{\hyperlink{classlevels_1_1Level_ab8ac7bc8b7c0138b712591cc04217dbc}{get\+Bananas}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de banane din nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1Level_a4318fb84a7223d7953db8c352eacbb06}{set\+Bananas}} (Array\+List$<$ \mbox{\hyperlink{classentities_1_1Banana}{Banana}} $>$ \mbox{\hyperlink{classlevels_1_1Level_a552fd4dee02c4b3d4becd5b97f19dae8}{bananas}})
+\begin{DoxyCompactList}\small\item\em Setează lista de banane pentru nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1Level_a5bc0a31ca331d8faa4be57fe804ae32f}{add\+Banana}} (\mbox{\hyperlink{classentities_1_1Banana}{Banana}} b)
+\begin{DoxyCompactList}\small\item\em Adaugă o banană la lista de banane a nivelului. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Coconut}{Coconut}} $>$ \mbox{\hyperlink{classlevels_1_1Level_a63cfcec1112ea42378b4a0ca65578b86}{get\+Coconuts}} ()
+\begin{DoxyCompactList}\small\item\em Returnează lista de nuci de cocos din nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1Level_aa387c3e2e36adc317fa0c5e105c6f8dd}{set\+Coconuts}} (Array\+List$<$ \mbox{\hyperlink{classentities_1_1Coconut}{Coconut}} $>$ \mbox{\hyperlink{classlevels_1_1Level_a434e2a584a7925055198e21995e4b380}{coconuts}})
+\begin{DoxyCompactList}\small\item\em Setează lista de nuci de cocos pentru nivel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlevels_1_1Level_aaff51ef7d96f296426184d53fe9b4bd6}{add\+Coconut}} (\mbox{\hyperlink{classentities_1_1Coconut}{Coconut}} c)
+\begin{DoxyCompactList}\small\item\em Adaugă o nucă de cocos la lista de nuci de cocos a nivelului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classlevels_1_1Level_a1483bb51902fda4771b3b19e99f1fa04}{lvl\+Data}}
+\begin{DoxyCompactList}\small\item\em Matrice bidimensională ce conține datele despre tile-\/urile nivelului (ID-\/urile sprite-\/urilor). \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Banana}{Banana}} $>$ \mbox{\hyperlink{classlevels_1_1Level_a552fd4dee02c4b3d4becd5b97f19dae8}{bananas}}
+\begin{DoxyCompactList}\small\item\em Lista bananelor prezente în nivel. \end{DoxyCompactList}\item 
+Array\+List$<$ \mbox{\hyperlink{classentities_1_1Coconut}{Coconut}} $>$ \mbox{\hyperlink{classlevels_1_1Level_a434e2a584a7925055198e21995e4b380}{coconuts}}
+\begin{DoxyCompactList}\small\item\em Lista nucilor de cocos prezente în nivel. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_a664706436ede0dc208b0a95c9d16972d}{level\+Offset}}
+\begin{DoxyCompactList}\small\item\em Offset-\/ul curent de derulare orizontală a nivelului, în tile-\/uri. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_a6e6a0a38ae62d6a75c86b10443c4aae1}{max\+Tiles\+Offset}}
+\begin{DoxyCompactList}\small\item\em Offset-\/ul maxim de derulare orizontală a nivelului, în tile-\/uri. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_af498a6f037365c4a27ee091c0b5a0f71}{max\+Level\+OffsetX}}
+\begin{DoxyCompactList}\small\item\em Offset-\/ul maxim de derulare orizontală a nivelului, în pixeli. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlevels_1_1Level_a08f8d18286729a49b87465f3aec4e9ce}{level\+Id}}
+\begin{DoxyCompactList}\small\item\em Identificatorul numeric al nivelului (de ex., 1, 2, 3). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă un nivel individual în joc. 
+
+Stochează datele despre tile-\/urile nivelului, obiectele colectabile (banane, nuci de cocos) și gestionează offset-\/ul de derulare (scrolling) al nivelului. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classlevels_1_1Level_a72e2a249341ba4731a2a046c3d5584d0}\label{classlevels_1_1Level_a72e2a249341ba4731a2a046c3d5584d0}} 
+\index{levels.Level@{levels.Level}!Level@{Level}}
+\index{Level@{Level}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{Level()}{Level()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily levels.\+Level.\+Level (\begin{DoxyParamCaption}\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{level\+Id }\end{DoxyParamCaption})}
+
+
+
+Constructor principal pentru clasa \mbox{\hyperlink{classlevels_1_1Level}{Level}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+{\em level\+Id} & Identificatorul numeric al nivelului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1Level_a151d21224124aa2ba3e6eb668a6baeaf}\label{classlevels_1_1Level_a151d21224124aa2ba3e6eb668a6baeaf}} 
+\index{levels.Level@{levels.Level}!Level@{Level}}
+\index{Level@{Level}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{Level()}{Level()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily levels.\+Level.\+Level (\begin{DoxyParamCaption}\item[{int}]{lvl\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Constructor secundar pentru compatibilitate cu codul existent, care nu specifică un ID de nivel. 
+
+Implicit, se consideră nivelul 1.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lvl\+Data} & Matricea 2D cu datele tile-\/urilor nivelului. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classlevels_1_1Level_a5bc0a31ca331d8faa4be57fe804ae32f}\label{classlevels_1_1Level_a5bc0a31ca331d8faa4be57fe804ae32f}} 
+\index{levels.Level@{levels.Level}!addBanana@{addBanana}}
+\index{addBanana@{addBanana}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{addBanana()}{addBanana()}}
+{\footnotesize\ttfamily void levels.\+Level.\+add\+Banana (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Banana}{Banana}}}]{b }\end{DoxyParamCaption})}
+
+
+
+Adaugă o banană la lista de banane a nivelului. 
+
+Inițializează lista dacă este null. 
+\begin{DoxyParams}{Parameters}
+{\em b} & Banana de adăugat. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1Level_aaff51ef7d96f296426184d53fe9b4bd6}\label{classlevels_1_1Level_aaff51ef7d96f296426184d53fe9b4bd6}} 
+\index{levels.Level@{levels.Level}!addCoconut@{addCoconut}}
+\index{addCoconut@{addCoconut}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{addCoconut()}{addCoconut()}}
+{\footnotesize\ttfamily void levels.\+Level.\+add\+Coconut (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentities_1_1Coconut}{Coconut}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Adaugă o nucă de cocos la lista de nuci de cocos a nivelului. 
+
+Inițializează lista dacă este null. 
+\begin{DoxyParams}{Parameters}
+{\em c} & Nuca de cocos de adăugat. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1Level_ab8ac7bc8b7c0138b712591cc04217dbc}\label{classlevels_1_1Level_ab8ac7bc8b7c0138b712591cc04217dbc}} 
+\index{levels.Level@{levels.Level}!getBananas@{getBananas}}
+\index{getBananas@{getBananas}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{getBananas()}{getBananas()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Banana}{Banana}}$>$ levels.\+Level.\+get\+Bananas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de banane din nivel. 
+
+\begin{DoxyReturn}{Returns}
+O listă de obiecte \mbox{\hyperlink{}{Banana}}. Poate fi null dacă nu au fost adăugate banane. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1Level_a63cfcec1112ea42378b4a0ca65578b86}\label{classlevels_1_1Level_a63cfcec1112ea42378b4a0ca65578b86}} 
+\index{levels.Level@{levels.Level}!getCoconuts@{getCoconuts}}
+\index{getCoconuts@{getCoconuts}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{getCoconuts()}{getCoconuts()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Coconut}{Coconut}}$>$ levels.\+Level.\+get\+Coconuts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează lista de nuci de cocos din nivel. 
+
+\begin{DoxyReturn}{Returns}
+O listă de obiecte \mbox{\hyperlink{}{Coconut}}. Poate fi null dacă nu au fost adăugate nuci de cocos. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1Level_ae6b2c71a4f61e9c50a3074ce115a5808}\label{classlevels_1_1Level_ae6b2c71a4f61e9c50a3074ce115a5808}} 
+\index{levels.Level@{levels.Level}!getLevelData@{getLevelData}}
+\index{getLevelData@{getLevelData}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{getLevelData()}{getLevelData()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} levels.\+Level.\+get\+Level\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează matricea 2D cu datele tile-\/urilor nivelului. 
+
+\begin{DoxyReturn}{Returns}
+Datele nivelului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1Level_a15f38c87692ecdcd4fe61809a45089d7}\label{classlevels_1_1Level_a15f38c87692ecdcd4fe61809a45089d7}} 
+\index{levels.Level@{levels.Level}!getLevelId@{getLevelId}}
+\index{getLevelId@{getLevelId}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{getLevelId()}{getLevelId()}}
+{\footnotesize\ttfamily int levels.\+Level.\+get\+Level\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează ID-\/ul nivelului curent. 
+
+\begin{DoxyReturn}{Returns}
+ID-\/ul nivelului (de ex., 1, 2, 3). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1Level_a501688118ddad1cac66a19002b918a4c}\label{classlevels_1_1Level_a501688118ddad1cac66a19002b918a4c}} 
+\index{levels.Level@{levels.Level}!getLevelOffset@{getLevelOffset}}
+\index{getLevelOffset@{getLevelOffset}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{getLevelOffset()}{getLevelOffset()}}
+{\footnotesize\ttfamily int levels.\+Level.\+get\+Level\+Offset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează offset-\/ul curent de derulare orizontală a nivelului, în tile-\/uri. 
+
+\begin{DoxyReturn}{Returns}
+Offset-\/ul nivelului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1Level_aff6351a68f7e6076a206e9a2c0b0ef25}\label{classlevels_1_1Level_aff6351a68f7e6076a206e9a2c0b0ef25}} 
+\index{levels.Level@{levels.Level}!getMaxLevelOffsetX@{getMaxLevelOffsetX}}
+\index{getMaxLevelOffsetX@{getMaxLevelOffsetX}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{getMaxLevelOffsetX()}{getMaxLevelOffsetX()}}
+{\footnotesize\ttfamily int levels.\+Level.\+get\+Max\+Level\+OffsetX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează offset-\/ul maxim de derulare orizontală a nivelului, în pixeli. 
+
+\begin{DoxyReturn}{Returns}
+Offset-\/ul maxim al nivelului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1Level_a3b560e1043cee9d23fa938f89e9a1693}\label{classlevels_1_1Level_a3b560e1043cee9d23fa938f89e9a1693}} 
+\index{levels.Level@{levels.Level}!getSpriteIndex@{getSpriteIndex}}
+\index{getSpriteIndex@{getSpriteIndex}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{getSpriteIndex()}{getSpriteIndex()}}
+{\footnotesize\ttfamily int levels.\+Level.\+get\+Sprite\+Index (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Returnează indexul (ID-\/ul) sprite-\/ului pentru un tile la coordonatele specificate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordonata x a tile-\/ului (în unități de tile-\/uri). \\
+\hline
+{\em y} & Coordonata y a tile-\/ului (în unități de tile-\/uri). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ID-\/ul sprite-\/ului pentru tile-\/ul respectiv. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlevels_1_1Level_a4318fb84a7223d7953db8c352eacbb06}\label{classlevels_1_1Level_a4318fb84a7223d7953db8c352eacbb06}} 
+\index{levels.Level@{levels.Level}!setBananas@{setBananas}}
+\index{setBananas@{setBananas}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{setBananas()}{setBananas()}}
+{\footnotesize\ttfamily void levels.\+Level.\+set\+Bananas (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classentities_1_1Banana}{Banana}} $>$}]{bananas }\end{DoxyParamCaption})}
+
+
+
+Setează lista de banane pentru nivel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bananas} & Noua listă de banane. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1Level_aa387c3e2e36adc317fa0c5e105c6f8dd}\label{classlevels_1_1Level_aa387c3e2e36adc317fa0c5e105c6f8dd}} 
+\index{levels.Level@{levels.Level}!setCoconuts@{setCoconuts}}
+\index{setCoconuts@{setCoconuts}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{setCoconuts()}{setCoconuts()}}
+{\footnotesize\ttfamily void levels.\+Level.\+set\+Coconuts (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classentities_1_1Coconut}{Coconut}} $>$}]{coconuts }\end{DoxyParamCaption})}
+
+
+
+Setează lista de nuci de cocos pentru nivel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em coconuts} & Noua listă de nuci de cocos. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1Level_ad8649399b56273e52a6afbef4ce332a6}\label{classlevels_1_1Level_ad8649399b56273e52a6afbef4ce332a6}} 
+\index{levels.Level@{levels.Level}!setLevelId@{setLevelId}}
+\index{setLevelId@{setLevelId}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{setLevelId()}{setLevelId()}}
+{\footnotesize\ttfamily void levels.\+Level.\+set\+Level\+Id (\begin{DoxyParamCaption}\item[{int}]{level\+Id }\end{DoxyParamCaption})}
+
+
+
+Setează ID-\/ul nivelului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Id} & Noul ID pentru nivel. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlevels_1_1Level_aef40f09326373b7188167853aa23b6c3}\label{classlevels_1_1Level_aef40f09326373b7188167853aa23b6c3}} 
+\index{levels.Level@{levels.Level}!update@{update}}
+\index{update@{update}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void levels.\+Level.\+update (\begin{DoxyParamCaption}\item[{int}]{playerX }\end{DoxyParamCaption})}
+
+
+
+Actualizează offset-\/ul de derulare al nivelului pe baza poziției jucătorului. 
+
+Această metodă nu este apelată direct în fluxul principal de actualizare al jocului, logica de scrolling fiind gestionată în clasa \mbox{\hyperlink{}{Playing}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em playerX} & Poziția x a jucătorului (în pixeli). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classlevels_1_1Level_a552fd4dee02c4b3d4becd5b97f19dae8}\label{classlevels_1_1Level_a552fd4dee02c4b3d4becd5b97f19dae8}} 
+\index{levels.Level@{levels.Level}!bananas@{bananas}}
+\index{bananas@{bananas}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{bananas}{bananas}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Banana}{Banana}}$>$ levels.\+Level.\+bananas\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lista bananelor prezente în nivel. 
+
+\mbox{\Hypertarget{classlevels_1_1Level_a434e2a584a7925055198e21995e4b380}\label{classlevels_1_1Level_a434e2a584a7925055198e21995e4b380}} 
+\index{levels.Level@{levels.Level}!coconuts@{coconuts}}
+\index{coconuts@{coconuts}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{coconuts}{coconuts}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classentities_1_1Coconut}{Coconut}}$>$ levels.\+Level.\+coconuts\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lista nucilor de cocos prezente în nivel. 
+
+\mbox{\Hypertarget{classlevels_1_1Level_a08f8d18286729a49b87465f3aec4e9ce}\label{classlevels_1_1Level_a08f8d18286729a49b87465f3aec4e9ce}} 
+\index{levels.Level@{levels.Level}!levelId@{levelId}}
+\index{levelId@{levelId}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{levelId}{levelId}}
+{\footnotesize\ttfamily int levels.\+Level.\+level\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Identificatorul numeric al nivelului (de ex., 1, 2, 3). 
+
+\mbox{\Hypertarget{classlevels_1_1Level_a664706436ede0dc208b0a95c9d16972d}\label{classlevels_1_1Level_a664706436ede0dc208b0a95c9d16972d}} 
+\index{levels.Level@{levels.Level}!levelOffset@{levelOffset}}
+\index{levelOffset@{levelOffset}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{levelOffset}{levelOffset}}
+{\footnotesize\ttfamily int levels.\+Level.\+level\+Offset\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset-\/ul curent de derulare orizontală a nivelului, în tile-\/uri. 
+
+\mbox{\Hypertarget{classlevels_1_1Level_a1483bb51902fda4771b3b19e99f1fa04}\label{classlevels_1_1Level_a1483bb51902fda4771b3b19e99f1fa04}} 
+\index{levels.Level@{levels.Level}!lvlData@{lvlData}}
+\index{lvlData@{lvlData}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{lvlData}{lvlData}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} levels.\+Level.\+lvl\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Matrice bidimensională ce conține datele despre tile-\/urile nivelului (ID-\/urile sprite-\/urilor). 
+
+\mbox{\Hypertarget{classlevels_1_1Level_af498a6f037365c4a27ee091c0b5a0f71}\label{classlevels_1_1Level_af498a6f037365c4a27ee091c0b5a0f71}} 
+\index{levels.Level@{levels.Level}!maxLevelOffsetX@{maxLevelOffsetX}}
+\index{maxLevelOffsetX@{maxLevelOffsetX}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{maxLevelOffsetX}{maxLevelOffsetX}}
+{\footnotesize\ttfamily int levels.\+Level.\+max\+Level\+OffsetX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset-\/ul maxim de derulare orizontală a nivelului, în pixeli. 
+
+\mbox{\Hypertarget{classlevels_1_1Level_a6e6a0a38ae62d6a75c86b10443c4aae1}\label{classlevels_1_1Level_a6e6a0a38ae62d6a75c86b10443c4aae1}} 
+\index{levels.Level@{levels.Level}!maxTilesOffset@{maxTilesOffset}}
+\index{maxTilesOffset@{maxTilesOffset}!levels.Level@{levels.Level}}
+\doxysubsubsection{\texorpdfstring{maxTilesOffset}{maxTilesOffset}}
+{\footnotesize\ttfamily int levels.\+Level.\+max\+Tiles\+Offset\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset-\/ul maxim de derulare orizontală a nivelului, în tile-\/uri. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/levels/\mbox{\hyperlink{Level_8java}{Level.\+java}}\end{DoxyCompactItemize}

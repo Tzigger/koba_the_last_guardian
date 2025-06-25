@@ -1,0 +1,5 @@
+<map id="entities.Gem" name="entities.Gem">
+<area shape="rect" id="node1" title="Reprezintă un obiect de tip &quot;Gem&quot; (piatră prețioasă) în joc." alt="" coords="73,95,179,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="135,5,253,32"/>
+</map>

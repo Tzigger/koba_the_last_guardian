@@ -1,0 +1,451 @@
+\hypertarget{classgamestates_1_1Loadgame}{}\doxysection{gamestates.\+Loadgame Class Reference}
+\label{classgamestates_1_1Loadgame}\index{gamestates.Loadgame@{gamestates.Loadgame}}
+
+
+Reprezintă starea de joc pentru ecranul de încărcare a unui joc salvat.  
+
+
+
+
+Inheritance diagram for gamestates.\+Loadgame\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1Loadgame__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Loadgame\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1Loadgame__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Loadgame_aa2a1d2d38a1e8cb18024dcfd06c6f334}{Loadgame}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Loadgame}{Loadgame}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a868c74b0c3b1b373ce3b2106a6f8979a}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea butoanelor din ecranul de încărcare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_abba296201a6d4742ceb750c71b03d3b9}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele ecranului de încărcare a jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a3fde752312a2f021f825a5cdc938a37d}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de click al mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a29d4b41151e9be1e26b4d81e38fd9305}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_ab830041a9905f30168e0568320f5d58e}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de eliberare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a3976bf8af26b33d04950a763585e4d0b}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de mișcare a mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a5550f29fbe9efa4b171fac7c545b49e2}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a903aae83f723226030ae6049ce797d27}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a tastelor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_ae66551332c0248289e49f8f952abb3f2}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a tastei (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_ae04819adb2c2b7a29509f93b0d2dcc13}{set\+Previous\+State}} (\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} state)
+\begin{DoxyCompactList}\small\item\em Setează starea anterioară a jocului, pentru a permite revenirea la aceasta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_aaca18a2ae99f03d0643a3d8084659729}{draw\+Back\+Button}} (Graphics2D g2d)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (X). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_aa9b8ce0f42d5af4e20aa5adac99e70d6}{load\+Start\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea de fundal generală. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a31f7b46d103b7a0a21624d246953299d}{load\+Background}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea specifică a cadrului pentru ecranul de încărcare. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a33ac4e26668c6f3bdce8b3de7d305dcc}{load\+Level\+Buttons}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează și poziționează butoanele de selecție a nivelului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a7f67df7645b6ed75416b0548159a25c2}{load\+Buttons}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează butoanele de meniu (de ex., un buton \char`\"{}\+Load\char`\"{} general, dacă ar fi necesar). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a756c4548a3cbbc02febdfe8c95fe77c9}{reset\+Buttons}} ()
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Loadgame_a38f825f701187196221690f20fd68bcd}{load\+Level}} (int level\+Number, String username)
+\begin{DoxyCompactList}\small\item\em Încarcă un nivel specific pentru un utilizator dat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classgamestates_1_1Loadgame_ae2155afd66856dae4255c7304cf7f108}{buttons}} = new \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}}\mbox{[}5\mbox{]}
+\item 
+\mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classgamestates_1_1Loadgame_a2f3f9655c6177945d9a60bc4de71b574}{level\+Button}} = new \mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}}\mbox{[}3\mbox{]}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Loadgame_a229d7a47cfe8e76ba6260129dc9c15a3}{background\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Loadgame_aa1bcb4423e4891f8bb3cb74b61e5c294}{menuX}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Loadgame_a6006eca9e0dde7e8666b002f01d67812}{startbg\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Loadgame_afe1d99342621bd4d064b7ef9fa169561}{startbgX}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Loadgame_a3d57e44e8f7cbc3a45533a99e17d7974}{back\+Button\+Bounds}}
+\item 
+\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classgamestates_1_1Loadgame_adce29baf7cd986ec9a5b84547350eb19}{previous\+State}} = null
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă starea de joc pentru ecranul de încărcare a unui joc salvat. 
+
+Permite jucătorului să selecteze un nivel salvat pentru a continua jocul. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_aa2a1d2d38a1e8cb18024dcfd06c6f334}\label{classgamestates_1_1Loadgame_aa2a1d2d38a1e8cb18024dcfd06c6f334}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!Loadgame@{Loadgame}}
+\index{Loadgame@{Loadgame}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{Loadgame()}{Loadgame()}}
+{\footnotesize\ttfamily gamestates.\+Loadgame.\+Loadgame (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Loadgame}{Loadgame}}. 
+
+Inițializează butoanele, imaginile de fundal și alte elemente UI.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_abba296201a6d4742ceb750c71b03d3b9}\label{classgamestates_1_1Loadgame_abba296201a6d4742ceb750c71b03d3b9}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!draw@{draw}}
+\index{draw@{draw}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează elementele ecranului de încărcare a jocului. 
+
+Include fundalul, cadrul și butoanele.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_aaca18a2ae99f03d0643a3d8084659729}\label{classgamestates_1_1Loadgame_aaca18a2ae99f03d0643a3d8084659729}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!drawBackButton@{drawBackButton}}
+\index{drawBackButton@{drawBackButton}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{drawBackButton()}{drawBackButton()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+draw\+Back\+Button (\begin{DoxyParamCaption}\item[{Graphics2D}]{g2d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul butonului \char`\"{}Înapoi\char`\"{} (X). 
+
+Suprascrie metoda din \mbox{\hyperlink{classgamestates_1_1State}{State}}. 
+\begin{DoxyParams}{Parameters}
+{\em g2d} & Contextul grafic 2D. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classgamestates_1_1State_af7b50a11b08647c8fe4ab2e92d2135af}{gamestates.\+State}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a903aae83f723226030ae6049ce797d27}\label{classgamestates_1_1Loadgame_a903aae83f723226030ae6049ce797d27}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a tastelor. 
+
+Tasta Enter poate fi folosită pentru a confirma o acțiune (de ex., încărcarea unui slot implicit).
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_ae66551332c0248289e49f8f952abb3f2}\label{classgamestates_1_1Loadgame_ae66551332c0248289e49f8f952abb3f2}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a31f7b46d103b7a0a21624d246953299d}\label{classgamestates_1_1Loadgame_a31f7b46d103b7a0a21624d246953299d}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!loadBackground@{loadBackground}}
+\index{loadBackground@{loadBackground}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{loadBackground()}{loadBackground()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+load\+Background (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea specifică a cadrului pentru ecranul de încărcare. 
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a7f67df7645b6ed75416b0548159a25c2}\label{classgamestates_1_1Loadgame_a7f67df7645b6ed75416b0548159a25c2}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!loadButtons@{loadButtons}}
+\index{loadButtons@{loadButtons}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{loadButtons()}{loadButtons()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+load\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează butoanele de meniu (de ex., un buton \char`\"{}\+Load\char`\"{} general, dacă ar fi necesar). 
+
+Momentan, pare să inițializeze un buton care duce la starea PLAYING, posibil pentru un slot de salvare general. \mbox{\Hypertarget{classgamestates_1_1Loadgame_a38f825f701187196221690f20fd68bcd}\label{classgamestates_1_1Loadgame_a38f825f701187196221690f20fd68bcd}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!loadLevel@{loadLevel}}
+\index{loadLevel@{loadLevel}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{loadLevel()}{loadLevel()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+load\+Level (\begin{DoxyParamCaption}\item[{int}]{level\+Number,  }\item[{String}]{username }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă un nivel specific pentru un utilizator dat. 
+
+Preia datele salvate din baza de date și configurează starea jocului (\mbox{\hyperlink{classgamestates_1_1Playing}{Playing}}).
+
+
+\begin{DoxyParams}{Parameters}
+{\em level\+Number} & Numărul nivelului de încărcat. \\
+\hline
+{\em username} & Numele utilizatorului pentru care se încarcă nivelul. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a33ac4e26668c6f3bdce8b3de7d305dcc}\label{classgamestates_1_1Loadgame_a33ac4e26668c6f3bdce8b3de7d305dcc}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!loadLevelButtons@{loadLevelButtons}}
+\index{loadLevelButtons@{loadLevelButtons}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{loadLevelButtons()}{loadLevelButtons()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+load\+Level\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează și poziționează butoanele de selecție a nivelului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_aa9b8ce0f42d5af4e20aa5adac99e70d6}\label{classgamestates_1_1Loadgame_aa9b8ce0f42d5af4e20aa5adac99e70d6}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!loadStartImg@{loadStartImg}}
+\index{loadStartImg@{loadStartImg}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{loadStartImg()}{loadStartImg()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+load\+Start\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea de fundal generală. 
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a3fde752312a2f021f825a5cdc938a37d}\label{classgamestates_1_1Loadgame_a3fde752312a2f021f825a5cdc938a37d}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de click al mouse-\/ului (neutilizat). 
+
+Acțiunile sunt gestionate în \mbox{\hyperlink{classgamestates_1_1Loadgame_a29d4b41151e9be1e26b4d81e38fd9305}{mouse\+Pressed(\+Mouse\+Event)}} și \mbox{\hyperlink{classgamestates_1_1Loadgame_ab830041a9905f30168e0568320f5d58e}{mouse\+Released(\+Mouse\+Event)}}. 
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a5550f29fbe9efa4b171fac7c545b49e2}\label{classgamestates_1_1Loadgame_a5550f29fbe9efa4b171fac7c545b49e2}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de tragere a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a3976bf8af26b33d04950a763585e4d0b}\label{classgamestates_1_1Loadgame_a3976bf8af26b33d04950a763585e4d0b}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de mișcare a mouse-\/ului. 
+
+Setează starea \char`\"{}mouse over\char`\"{} pentru butoanele interactive.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a29d4b41151e9be1e26b4d81e38fd9305}\label{classgamestates_1_1Loadgame_a29d4b41151e9be1e26b4d81e38fd9305}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a butonului mouse-\/ului. 
+
+Setează starea de apăsare pentru butoanele interactive și gestionează butonul \char`\"{}\+X\char`\"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_ab830041a9905f30168e0568320f5d58e}\label{classgamestates_1_1Loadgame_ab830041a9905f30168e0568320f5d58e}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de eliberare a butonului mouse-\/ului. 
+
+Aplică acțiunea corespunzătoare butonului apăsat (încărcare nivel sau altă acțiune de meniu).
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a756c4548a3cbbc02febdfe8c95fe77c9}\label{classgamestates_1_1Loadgame_a756c4548a3cbbc02febdfe8c95fe77c9}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!resetButtons@{resetButtons}}
+\index{resetButtons@{resetButtons}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{resetButtons()}{resetButtons()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+reset\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_ae04819adb2c2b7a29509f93b0d2dcc13}\label{classgamestates_1_1Loadgame_ae04819adb2c2b7a29509f93b0d2dcc13}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!setPreviousState@{setPreviousState}}
+\index{setPreviousState@{setPreviousState}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{setPreviousState()}{setPreviousState()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+set\+Previous\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Setează starea anterioară a jocului, pentru a permite revenirea la aceasta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Starea anterioară \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a868c74b0c3b1b373ce3b2106a6f8979a}\label{classgamestates_1_1Loadgame_a868c74b0c3b1b373ce3b2106a6f8979a}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!update@{update}}
+\index{update@{update}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Loadgame.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea butoanelor din ecranul de încărcare. 
+
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a3d57e44e8f7cbc3a45533a99e17d7974}\label{classgamestates_1_1Loadgame_a3d57e44e8f7cbc3a45533a99e17d7974}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!backButtonBounds@{backButtonBounds}}
+\index{backButtonBounds@{backButtonBounds}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{backButtonBounds}{backButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Loadgame.\+back\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a229d7a47cfe8e76ba6260129dc9c15a3}\label{classgamestates_1_1Loadgame_a229d7a47cfe8e76ba6260129dc9c15a3}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!backgroundImg@{backgroundImg}}
+\index{backgroundImg@{backgroundImg}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{backgroundImg}{backgroundImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Loadgame.\+background\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_ae2155afd66856dae4255c7304cf7f108}\label{classgamestates_1_1Loadgame_ae2155afd66856dae4255c7304cf7f108}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!buttons@{buttons}}
+\index{buttons@{buttons}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{buttons}{buttons}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}} \mbox{[}$\,$\mbox{]} gamestates.\+Loadgame.\+buttons = new \mbox{\hyperlink{classui_1_1MenuButton}{Menu\+Button}}\mbox{[}5\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a2f3f9655c6177945d9a60bc4de71b574}\label{classgamestates_1_1Loadgame_a2f3f9655c6177945d9a60bc4de71b574}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!levelButton@{levelButton}}
+\index{levelButton@{levelButton}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{levelButton}{levelButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}} \mbox{[}$\,$\mbox{]} gamestates.\+Loadgame.\+level\+Button = new \mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}}\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_aa1bcb4423e4891f8bb3cb74b61e5c294}\label{classgamestates_1_1Loadgame_aa1bcb4423e4891f8bb3cb74b61e5c294}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!menuX@{menuX}}
+\index{menuX@{menuX}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{menuX}{menuX}}
+{\footnotesize\ttfamily int gamestates.\+Loadgame.\+menuX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_adce29baf7cd986ec9a5b84547350eb19}\label{classgamestates_1_1Loadgame_adce29baf7cd986ec9a5b84547350eb19}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!previousState@{previousState}}
+\index{previousState@{previousState}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{previousState}{previousState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} gamestates.\+Loadgame.\+previous\+State = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_a6006eca9e0dde7e8666b002f01d67812}\label{classgamestates_1_1Loadgame_a6006eca9e0dde7e8666b002f01d67812}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!startbgImg@{startbgImg}}
+\index{startbgImg@{startbgImg}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{startbgImg}{startbgImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Loadgame.\+startbg\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Loadgame_afe1d99342621bd4d064b7ef9fa169561}\label{classgamestates_1_1Loadgame_afe1d99342621bd4d064b7ef9fa169561}} 
+\index{gamestates.Loadgame@{gamestates.Loadgame}!startbgX@{startbgX}}
+\index{startbgX@{startbgX}!gamestates.Loadgame@{gamestates.Loadgame}}
+\doxysubsubsection{\texorpdfstring{startbgX}{startbgX}}
+{\footnotesize\ttfamily int gamestates.\+Loadgame.\+startbgX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{Loadgame_8java}{Loadgame.\+java}}\end{DoxyCompactItemize}

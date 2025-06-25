@@ -1,0 +1,5 @@
+<map id="gamestates.EnterNameOverlay" name="gamestates.EnterNameOverlay">
+<area shape="rect" id="node1" title="Reprezintă un overlay pentru introducerea numelui jucătorului." alt="" coords="55,80,282,107"/>
+<area shape="rect" id="node2" href="$classgamestates_1_1State.html" title="Clasă de bază pentru diferitele stări ale jocului (de ex., Meniu, Joc propriu&#45;zis)." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node3" href="$interfacegamestates_1_1Statemethods.html" title="Interfață ce definește metodele comune pe care toate stările de joc (gamestates) trebuie să le implem..." alt="" coords="167,5,362,32"/>
+</map>

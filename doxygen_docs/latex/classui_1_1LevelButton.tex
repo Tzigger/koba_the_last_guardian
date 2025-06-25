@@ -1,0 +1,362 @@
+\hypertarget{classui_1_1LevelButton}{}\doxysection{ui.\+Level\+Button Class Reference}
+\label{classui_1_1LevelButton}\index{ui.LevelButton@{ui.LevelButton}}
+
+
+Reprezintă un buton specific pentru selectarea nivelurilor în interfața utilizator.  
+
+
+
+
+Collaboration diagram for ui.\+Level\+Button\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classui_1_1LevelButton__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classui_1_1LevelButton_a19443f4b04eea562c92e6ac7220ff32c}{Level\+Button}} (int \mbox{\hyperlink{classui_1_1LevelButton_aca62f5fd458898c68a64e2af9fd6cf7f}{x\+Pos}}, int y\+Pos, int \mbox{\hyperlink{classui_1_1LevelButton_a17fdd8dd6d40840896e09b1b3808b35a}{row\+Index}}, \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classui_1_1LevelButton_a55d21edf01491cd0b7755002841c6418}{state}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru \mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_a1242d73faf804024bd566e4564126371}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează butonul pe ecran, folosind imaginea corespunzătoare stării curente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_adb68456d86c18c9b037f2b90d4e212bd}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea vizuală a butonului (indexul imaginii) pe baza interacțiunii cu mouse-\/ul. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classui_1_1LevelButton_abd07044b24101e6f3cd7f082846f4796}{is\+Mouse\+Over}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă mouse-\/ul este deasupra butonului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_a90ee39cf7aa2da485d6c392bbb29a590}{set\+Mouse\+Over}} (boolean \mbox{\hyperlink{classui_1_1LevelButton_a00df70b91a25aac67c0795bdb8759d64}{mouse\+Over}})
+\begin{DoxyCompactList}\small\item\em Setează starea \char`\"{}mouse over\char`\"{} a butonului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classui_1_1LevelButton_a94046348e34f0de5fdfd6dadfc6bbde8}{is\+Mouse\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Verifică dacă butonul este apăsat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_a4fc16bb4a5d60f72ada8b11ff0b4d8ed}{set\+Mouse\+Pressed}} (boolean mouse\+Pressed)
+\begin{DoxyCompactList}\small\item\em Setează starea de apăsare a butonului. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{classui_1_1LevelButton_a854f40f9c295f736023b956e50f57324}{get\+Bounds}} ()
+\begin{DoxyCompactList}\small\item\em Returnează limitele dreptunghiulare (hitbox) ale butonului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_a5eb09fab454d8e2b70d126461d28a3a5}{apply\+Gamestate}} ()
+\begin{DoxyCompactList}\small\item\em Aplică starea de joc asociată cu acest buton, schimbând starea globală a jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_afdaa854f7fb06d9c9eed344f0819a407}{reset\+Bools}} ()
+\begin{DoxyCompactList}\small\item\em Resetează flag-\/urile de interacțiune cu mouse-\/ul (mouse\+Over și mouse\+Pressed) la valorile implicite (false). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classui_1_1LevelButton_aed780e7946fbe9746ef83b7200aa5434}{get\+Row\+Index}} ()
+\begin{DoxyCompactList}\small\item\em Returnează indexul rândului din spritesheet folosit pentru imaginile acestui buton. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_ab4f4c50fc622064db67c2327b10c1963}{init\+Bounds}} ()
+\begin{DoxyCompactList}\small\item\em Inițializează limitele dreptunghiulare (hitbox) ale butonului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classui_1_1LevelButton_a7b39e6df0a687a2bcc3b2358a74dbab1}{load\+Imgs}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă imaginile pentru buton din spritesheet-\/ul global de butoane. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classui_1_1LevelButton_aca62f5fd458898c68a64e2af9fd6cf7f}{x\+Pos}}
+\item 
+int \mbox{\hyperlink{classui_1_1LevelButton_a17fdd8dd6d40840896e09b1b3808b35a}{row\+Index}}
+\begin{DoxyCompactList}\small\item\em Indexul rândului din spritesheet-\/ul de butoane de unde se încarcă imaginile pentru acest tip de buton. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classui_1_1LevelButton_a30f94a325bff8eb88f2e12d4079c59fc}{index}}
+\begin{DoxyCompactList}\small\item\em Indexul imaginii curente din array-\/ul. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classui_1_1LevelButton_a8f39510efa6fcd53100a438f1a4e3c95}{x\+Offset\+Center}} = L\+\_\+\+WIDTH / 2
+\begin{DoxyCompactList}\small\item\em Offset orizontal pentru centrarea imaginii butonului față de. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classui_1_1LevelButton_a55d21edf01491cd0b7755002841c6418}{state}}
+\begin{DoxyCompactList}\small\item\em Starea de joc \mbox{\hyperlink{}{Gamestate}} care va fi activată la apăsarea butonului. \end{DoxyCompactList}\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classui_1_1LevelButton_aea854f749d840770a14d801e24f26d10}{imgs}}
+\begin{DoxyCompactList}\small\item\em Array de imagini pentru diferitele stări ale butonului (normal, mouse over, apăsat). \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classui_1_1LevelButton_a00df70b91a25aac67c0795bdb8759d64}{mouse\+Over}}
+\item 
+Rectangle \mbox{\hyperlink{classui_1_1LevelButton_a8bb9114b0aad7f1b53217658448f6bf2}{bounds}}
+\begin{DoxyCompactList}\small\item\em Dreptunghiul care definește limitele butonului pentru detecția coliziunilor cu mouse-\/ul. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă un buton specific pentru selectarea nivelurilor în interfața utilizator. 
+
+Gestionează stările vizuale ale butonului (normal, mouse over, apăsat) și acțiunea asociată. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classui_1_1LevelButton_a19443f4b04eea562c92e6ac7220ff32c}\label{classui_1_1LevelButton_a19443f4b04eea562c92e6ac7220ff32c}} 
+\index{ui.LevelButton@{ui.LevelButton}!LevelButton@{LevelButton}}
+\index{LevelButton@{LevelButton}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{LevelButton()}{LevelButton()}}
+{\footnotesize\ttfamily ui.\+Level\+Button.\+Level\+Button (\begin{DoxyParamCaption}\item[{int}]{x\+Pos,  }\item[{int}]{y\+Pos,  }\item[{int}]{row\+Index,  }\item[{\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru \mbox{\hyperlink{classui_1_1LevelButton}{Level\+Button}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+Pos} & Poziția x a centrului butonului. \\
+\hline
+{\em y\+Pos} & Poziția y a colțului de sus-\/stânga al butonului. \\
+\hline
+{\em row\+Index} & Indexul rândului din spritesheet-\/ul de butoane. \\
+\hline
+{\em state} & Starea de joc \mbox{\hyperlink{}{Gamestate}} asociată cu acest buton. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classui_1_1LevelButton_a5eb09fab454d8e2b70d126461d28a3a5}\label{classui_1_1LevelButton_a5eb09fab454d8e2b70d126461d28a3a5}} 
+\index{ui.LevelButton@{ui.LevelButton}!applyGamestate@{applyGamestate}}
+\index{applyGamestate@{applyGamestate}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{applyGamestate()}{applyGamestate()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+apply\+Gamestate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Aplică starea de joc asociată cu acest buton, schimbând starea globală a jocului. 
+
+\mbox{\Hypertarget{classui_1_1LevelButton_a1242d73faf804024bd566e4564126371}\label{classui_1_1LevelButton_a1242d73faf804024bd566e4564126371}} 
+\index{ui.LevelButton@{ui.LevelButton}!draw@{draw}}
+\index{draw@{draw}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează butonul pe ecran, folosind imaginea corespunzătoare stării curente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classui_1_1LevelButton_a854f40f9c295f736023b956e50f57324}\label{classui_1_1LevelButton_a854f40f9c295f736023b956e50f57324}} 
+\index{ui.LevelButton@{ui.LevelButton}!getBounds@{getBounds}}
+\index{getBounds@{getBounds}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{getBounds()}{getBounds()}}
+{\footnotesize\ttfamily Rectangle ui.\+Level\+Button.\+get\+Bounds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează limitele dreptunghiulare (hitbox) ale butonului. 
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{}{Rectangle}} reprezentând limitele. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classui_1_1LevelButton_aed780e7946fbe9746ef83b7200aa5434}\label{classui_1_1LevelButton_aed780e7946fbe9746ef83b7200aa5434}} 
+\index{ui.LevelButton@{ui.LevelButton}!getRowIndex@{getRowIndex}}
+\index{getRowIndex@{getRowIndex}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{getRowIndex()}{getRowIndex()}}
+{\footnotesize\ttfamily int ui.\+Level\+Button.\+get\+Row\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează indexul rândului din spritesheet folosit pentru imaginile acestui buton. 
+
+\begin{DoxyReturn}{Returns}
+Indexul rândului. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classui_1_1LevelButton_ab4f4c50fc622064db67c2327b10c1963}\label{classui_1_1LevelButton_ab4f4c50fc622064db67c2327b10c1963}} 
+\index{ui.LevelButton@{ui.LevelButton}!initBounds@{initBounds}}
+\index{initBounds@{initBounds}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{initBounds()}{initBounds()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+init\+Bounds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Inițializează limitele dreptunghiulare (hitbox) ale butonului. 
+
+\mbox{\Hypertarget{classui_1_1LevelButton_abd07044b24101e6f3cd7f082846f4796}\label{classui_1_1LevelButton_abd07044b24101e6f3cd7f082846f4796}} 
+\index{ui.LevelButton@{ui.LevelButton}!isMouseOver@{isMouseOver}}
+\index{isMouseOver@{isMouseOver}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{isMouseOver()}{isMouseOver()}}
+{\footnotesize\ttfamily boolean ui.\+Level\+Button.\+is\+Mouse\+Over (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă mouse-\/ul este deasupra butonului. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă mouse-\/ul este deasupra,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classui_1_1LevelButton_a94046348e34f0de5fdfd6dadfc6bbde8}\label{classui_1_1LevelButton_a94046348e34f0de5fdfd6dadfc6bbde8}} 
+\index{ui.LevelButton@{ui.LevelButton}!isMousePressed@{isMousePressed}}
+\index{isMousePressed@{isMousePressed}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{isMousePressed()}{isMousePressed()}}
+{\footnotesize\ttfamily boolean ui.\+Level\+Button.\+is\+Mouse\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifică dacă butonul este apăsat. 
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+
+\end{DoxyCode}
+ dacă butonul este apăsat,
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+
+\end{DoxyCode}
+ altfel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classui_1_1LevelButton_a7b39e6df0a687a2bcc3b2358a74dbab1}\label{classui_1_1LevelButton_a7b39e6df0a687a2bcc3b2358a74dbab1}} 
+\index{ui.LevelButton@{ui.LevelButton}!loadImgs@{loadImgs}}
+\index{loadImgs@{loadImgs}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{loadImgs()}{loadImgs()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+load\+Imgs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă imaginile pentru buton din spritesheet-\/ul global de butoane. 
+
+Folosește
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classui_1_1LevelButton_a17fdd8dd6d40840896e09b1b3808b35a}{rowIndex}} }
+
+\end{DoxyCode}
+ pentru a selecta setul corect de imagini. \mbox{\Hypertarget{classui_1_1LevelButton_afdaa854f7fb06d9c9eed344f0819a407}\label{classui_1_1LevelButton_afdaa854f7fb06d9c9eed344f0819a407}} 
+\index{ui.LevelButton@{ui.LevelButton}!resetBools@{resetBools}}
+\index{resetBools@{resetBools}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{resetBools()}{resetBools()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+reset\+Bools (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Resetează flag-\/urile de interacțiune cu mouse-\/ul (mouse\+Over și mouse\+Pressed) la valorile implicite (false). 
+
+\mbox{\Hypertarget{classui_1_1LevelButton_a90ee39cf7aa2da485d6c392bbb29a590}\label{classui_1_1LevelButton_a90ee39cf7aa2da485d6c392bbb29a590}} 
+\index{ui.LevelButton@{ui.LevelButton}!setMouseOver@{setMouseOver}}
+\index{setMouseOver@{setMouseOver}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{setMouseOver()}{setMouseOver()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+set\+Mouse\+Over (\begin{DoxyParamCaption}\item[{boolean}]{mouse\+Over }\end{DoxyParamCaption})}
+
+
+
+Setează starea \char`\"{}mouse over\char`\"{} a butonului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mouse\+Over} & Noua stare \char`\"{}mouse over\char`\"{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classui_1_1LevelButton_a4fc16bb4a5d60f72ada8b11ff0b4d8ed}\label{classui_1_1LevelButton_a4fc16bb4a5d60f72ada8b11ff0b4d8ed}} 
+\index{ui.LevelButton@{ui.LevelButton}!setMousePressed@{setMousePressed}}
+\index{setMousePressed@{setMousePressed}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{setMousePressed()}{setMousePressed()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+set\+Mouse\+Pressed (\begin{DoxyParamCaption}\item[{boolean}]{mouse\+Pressed }\end{DoxyParamCaption})}
+
+
+
+Setează starea de apăsare a butonului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mouse\+Pressed} & Noua stare de apăsare. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classui_1_1LevelButton_adb68456d86c18c9b037f2b90d4e212bd}\label{classui_1_1LevelButton_adb68456d86c18c9b037f2b90d4e212bd}} 
+\index{ui.LevelButton@{ui.LevelButton}!update@{update}}
+\index{update@{update}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void ui.\+Level\+Button.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea vizuală a butonului (indexul imaginii) pe baza interacțiunii cu mouse-\/ul. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classui_1_1LevelButton_a8bb9114b0aad7f1b53217658448f6bf2}\label{classui_1_1LevelButton_a8bb9114b0aad7f1b53217658448f6bf2}} 
+\index{ui.LevelButton@{ui.LevelButton}!bounds@{bounds}}
+\index{bounds@{bounds}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{bounds}{bounds}}
+{\footnotesize\ttfamily Rectangle ui.\+Level\+Button.\+bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dreptunghiul care definește limitele butonului pentru detecția coliziunilor cu mouse-\/ul. 
+
+\mbox{\Hypertarget{classui_1_1LevelButton_aea854f749d840770a14d801e24f26d10}\label{classui_1_1LevelButton_aea854f749d840770a14d801e24f26d10}} 
+\index{ui.LevelButton@{ui.LevelButton}!imgs@{imgs}}
+\index{imgs@{imgs}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{imgs}{imgs}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]} ui.\+Level\+Button.\+imgs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Array de imagini pentru diferitele stări ale butonului (normal, mouse over, apăsat). 
+
+\mbox{\Hypertarget{classui_1_1LevelButton_a30f94a325bff8eb88f2e12d4079c59fc}\label{classui_1_1LevelButton_a30f94a325bff8eb88f2e12d4079c59fc}} 
+\index{ui.LevelButton@{ui.LevelButton}!index@{index}}
+\index{index@{index}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily int ui.\+Level\+Button.\+index\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indexul imaginii curente din array-\/ul. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classui_1_1LevelButton_aea854f749d840770a14d801e24f26d10}{imgs}} }
+
+\end{DoxyCode}
+ , determinat de starea mouse-\/ului. \mbox{\Hypertarget{classui_1_1LevelButton_a00df70b91a25aac67c0795bdb8759d64}\label{classui_1_1LevelButton_a00df70b91a25aac67c0795bdb8759d64}} 
+\index{ui.LevelButton@{ui.LevelButton}!mouseOver@{mouseOver}}
+\index{mouseOver@{mouseOver}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{mouseOver}{mouseOver}}
+{\footnotesize\ttfamily boolean ui.\+Level\+Button.\+mouse\+Over\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classui_1_1LevelButton_a17fdd8dd6d40840896e09b1b3808b35a}\label{classui_1_1LevelButton_a17fdd8dd6d40840896e09b1b3808b35a}} 
+\index{ui.LevelButton@{ui.LevelButton}!rowIndex@{rowIndex}}
+\index{rowIndex@{rowIndex}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{rowIndex}{rowIndex}}
+{\footnotesize\ttfamily int ui.\+Level\+Button.\+row\+Index\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indexul rândului din spritesheet-\/ul de butoane de unde se încarcă imaginile pentru acest tip de buton. 
+
+\mbox{\Hypertarget{classui_1_1LevelButton_a55d21edf01491cd0b7755002841c6418}\label{classui_1_1LevelButton_a55d21edf01491cd0b7755002841c6418}} 
+\index{ui.LevelButton@{ui.LevelButton}!state@{state}}
+\index{state@{state}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} ui.\+Level\+Button.\+state\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Starea de joc \mbox{\hyperlink{}{Gamestate}} care va fi activată la apăsarea butonului. 
+
+\mbox{\Hypertarget{classui_1_1LevelButton_a8f39510efa6fcd53100a438f1a4e3c95}\label{classui_1_1LevelButton_a8f39510efa6fcd53100a438f1a4e3c95}} 
+\index{ui.LevelButton@{ui.LevelButton}!xOffsetCenter@{xOffsetCenter}}
+\index{xOffsetCenter@{xOffsetCenter}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{xOffsetCenter}{xOffsetCenter}}
+{\footnotesize\ttfamily int ui.\+Level\+Button.\+x\+Offset\+Center = L\+\_\+\+WIDTH / 2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Offset orizontal pentru centrarea imaginii butonului față de. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classui_1_1LevelButton_aca62f5fd458898c68a64e2af9fd6cf7f}{xPos}} }
+
+\end{DoxyCode}
+ . \mbox{\Hypertarget{classui_1_1LevelButton_aca62f5fd458898c68a64e2af9fd6cf7f}\label{classui_1_1LevelButton_aca62f5fd458898c68a64e2af9fd6cf7f}} 
+\index{ui.LevelButton@{ui.LevelButton}!xPos@{xPos}}
+\index{xPos@{xPos}!ui.LevelButton@{ui.LevelButton}}
+\doxysubsubsection{\texorpdfstring{xPos}{xPos}}
+{\footnotesize\ttfamily int ui.\+Level\+Button.\+x\+Pos\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/ui/\mbox{\hyperlink{LevelButton_8java}{Level\+Button.\+java}}\end{DoxyCompactItemize}

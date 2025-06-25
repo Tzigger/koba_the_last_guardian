@@ -1,0 +1,4 @@
+<map id="entities.Entity" name="entities.Entity">
+<area shape="rect" id="node1" title="Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici,..." alt="" coords="5,95,119,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,5,115,32"/>
+</map>

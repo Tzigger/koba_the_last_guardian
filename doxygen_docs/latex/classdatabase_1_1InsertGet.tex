@@ -1,0 +1,184 @@
+\hypertarget{classdatabase_1_1InsertGet}{}\doxysection{database.\+Insert\+Get Class Reference}
+\label{classdatabase_1_1InsertGet}\index{database.InsertGet@{database.InsertGet}}
+
+
+Collaboration diagram for database.\+Insert\+Get\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classdatabase_1_1InsertGet__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classdatabase_1_1InsertGet_ac29108b5fcf635693482d3554549ffea}{ensure\+Player\+Table\+Exists}} (String db\+Path, String nume\+Tabela)
+\item 
+static void \mbox{\hyperlink{classdatabase_1_1InsertGet_ac2bd48d77ed328f40e90ff0ef24f17a2}{Save\+Into\+Database}} (String nume\+\_\+fisier, String nume\+\_\+tabela, int level\+Index, int Scor, int current\+Health, int coconut\+Number, float posX, float posY, int timer)
+\begin{DoxyCompactList}\small\item\em Functia se ocupa de salvarea datelor in baza de date. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{classdatabase_1_1InsertGet_a4c6d6354bed480a4408fcb9c88a76732}{Load\+Level\+Index}} (String nume\+\_\+fisier, String nume\+\_\+tabela)
+\begin{DoxyCompactList}\small\item\em Functia se ocupa de incarcarea indexului nivelului din baza de date. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{classdatabase_1_1InsertGet_a7040b471968d52fa381ef147552c29cb}{Load\+Score}} (String nume\+\_\+fisier, String nume\+\_\+tabela)
+\item 
+static int \mbox{\hyperlink{classdatabase_1_1InsertGet_aa7231005081a6cce5e02573c1d5d9e5f}{Load\+Current\+Health}} (String nume\+\_\+fisier, String nume\+\_\+tabela)
+\item 
+static int \mbox{\hyperlink{classdatabase_1_1InsertGet_a7fe634a9664ece40fc38849d3a718164}{Load\+Coconut\+Number}} (String nume\+\_\+fisier, String nume\+\_\+tabela)
+\item 
+static float \mbox{\hyperlink{classdatabase_1_1InsertGet_a72850166c619d9702d5d321c72f0f765}{Load\+XPosition}} (String nume\+\_\+fisier, String nume\+\_\+tabela)
+\item 
+static float \mbox{\hyperlink{classdatabase_1_1InsertGet_a4904c9c9aa53eff43469f23a8f1ee986}{Load\+YPosition}} (String nume\+\_\+fisier, String nume\+\_\+tabela)
+\item 
+static int \mbox{\hyperlink{classdatabase_1_1InsertGet_a31cca98e9a5ae3451fd53921e3da3604}{Load\+Timer}} (String nume\+\_\+fisier, String nume\+\_\+tabela)
+\item 
+static List$<$ String $>$ \mbox{\hyperlink{classdatabase_1_1InsertGet_a7cbc429c5062dbc3ce988626b34700a8}{get\+Player\+List}} ()
+\item 
+static String \mbox{\hyperlink{classdatabase_1_1InsertGet_a185b3566fee451015613134f5a460cf6}{Load\+Username}} (String nume\+\_\+fisier)
+\item 
+static void \mbox{\hyperlink{classdatabase_1_1InsertGet_a66ee8673d39477bbc6bed0ffe8a8563d}{Save\+Username}} (String nume\+\_\+fisier, String username)
+\item 
+static void \mbox{\hyperlink{classdatabase_1_1InsertGet_a4b684a457aee49a6f7eb4a66f6b53c1f}{create\+Level\+Progress\+Table}} (String table\+Name)
+\item 
+static boolean \mbox{\hyperlink{classdatabase_1_1InsertGet_a3bafbf6ba834207a9938b8910bab81ad}{check\+If\+Table\+Exists}} (String db\+Path, String table\+Name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Connection \mbox{\hyperlink{classdatabase_1_1InsertGet_a649b4f75d104880bdc772405f4bd1239}{get\+Connection}} ()  throws SQLException 
+\item 
+static int \mbox{\hyperlink{classdatabase_1_1InsertGet_a7c6fafd89d2fd9caf2e0ca83ae3668bb}{load\+Level\+Data}} (String nume\+\_\+fisier, String nume\+\_\+tabela, String column)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Reentrant\+Lock \mbox{\hyperlink{classdatabase_1_1InsertGet_a86d9599c152fee02611f8b6b14bdea8f}{db\+Lock}} = new Reentrant\+Lock()
+\item 
+static final String \mbox{\hyperlink{classdatabase_1_1InsertGet_a45fbb1a532cbbd5bf8dc6de1f292fc71}{DB\+\_\+\+URL}} = \char`\"{}jdbc\+:sqlite\+:data/gamedatabase.\+db\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a3bafbf6ba834207a9938b8910bab81ad}\label{classdatabase_1_1InsertGet_a3bafbf6ba834207a9938b8910bab81ad}} 
+\index{database.InsertGet@{database.InsertGet}!checkIfTableExists@{checkIfTableExists}}
+\index{checkIfTableExists@{checkIfTableExists}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{checkIfTableExists()}{checkIfTableExists()}}
+{\footnotesize\ttfamily static boolean database.\+Insert\+Get.\+check\+If\+Table\+Exists (\begin{DoxyParamCaption}\item[{String}]{db\+Path,  }\item[{String}]{table\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a4b684a457aee49a6f7eb4a66f6b53c1f}\label{classdatabase_1_1InsertGet_a4b684a457aee49a6f7eb4a66f6b53c1f}} 
+\index{database.InsertGet@{database.InsertGet}!createLevelProgressTable@{createLevelProgressTable}}
+\index{createLevelProgressTable@{createLevelProgressTable}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{createLevelProgressTable()}{createLevelProgressTable()}}
+{\footnotesize\ttfamily static void database.\+Insert\+Get.\+create\+Level\+Progress\+Table (\begin{DoxyParamCaption}\item[{String}]{table\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_ac29108b5fcf635693482d3554549ffea}\label{classdatabase_1_1InsertGet_ac29108b5fcf635693482d3554549ffea}} 
+\index{database.InsertGet@{database.InsertGet}!ensurePlayerTableExists@{ensurePlayerTableExists}}
+\index{ensurePlayerTableExists@{ensurePlayerTableExists}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{ensurePlayerTableExists()}{ensurePlayerTableExists()}}
+{\footnotesize\ttfamily static void database.\+Insert\+Get.\+ensure\+Player\+Table\+Exists (\begin{DoxyParamCaption}\item[{String}]{db\+Path,  }\item[{String}]{nume\+Tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a649b4f75d104880bdc772405f4bd1239}\label{classdatabase_1_1InsertGet_a649b4f75d104880bdc772405f4bd1239}} 
+\index{database.InsertGet@{database.InsertGet}!getConnection@{getConnection}}
+\index{getConnection@{getConnection}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{getConnection()}{getConnection()}}
+{\footnotesize\ttfamily static Connection database.\+Insert\+Get.\+get\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws SQLException\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a7cbc429c5062dbc3ce988626b34700a8}\label{classdatabase_1_1InsertGet_a7cbc429c5062dbc3ce988626b34700a8}} 
+\index{database.InsertGet@{database.InsertGet}!getPlayerList@{getPlayerList}}
+\index{getPlayerList@{getPlayerList}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{getPlayerList()}{getPlayerList()}}
+{\footnotesize\ttfamily static List$<$String$>$ database.\+Insert\+Get.\+get\+Player\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a7fe634a9664ece40fc38849d3a718164}\label{classdatabase_1_1InsertGet_a7fe634a9664ece40fc38849d3a718164}} 
+\index{database.InsertGet@{database.InsertGet}!LoadCoconutNumber@{LoadCoconutNumber}}
+\index{LoadCoconutNumber@{LoadCoconutNumber}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadCoconutNumber()}{LoadCoconutNumber()}}
+{\footnotesize\ttfamily static int database.\+Insert\+Get.\+Load\+Coconut\+Number (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_aa7231005081a6cce5e02573c1d5d9e5f}\label{classdatabase_1_1InsertGet_aa7231005081a6cce5e02573c1d5d9e5f}} 
+\index{database.InsertGet@{database.InsertGet}!LoadCurrentHealth@{LoadCurrentHealth}}
+\index{LoadCurrentHealth@{LoadCurrentHealth}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadCurrentHealth()}{LoadCurrentHealth()}}
+{\footnotesize\ttfamily static int database.\+Insert\+Get.\+Load\+Current\+Health (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a7c6fafd89d2fd9caf2e0ca83ae3668bb}\label{classdatabase_1_1InsertGet_a7c6fafd89d2fd9caf2e0ca83ae3668bb}} 
+\index{database.InsertGet@{database.InsertGet}!loadLevelData@{loadLevelData}}
+\index{loadLevelData@{loadLevelData}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{loadLevelData()}{loadLevelData()}}
+{\footnotesize\ttfamily static int database.\+Insert\+Get.\+load\+Level\+Data (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela,  }\item[{String}]{column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a4c6d6354bed480a4408fcb9c88a76732}\label{classdatabase_1_1InsertGet_a4c6d6354bed480a4408fcb9c88a76732}} 
+\index{database.InsertGet@{database.InsertGet}!LoadLevelIndex@{LoadLevelIndex}}
+\index{LoadLevelIndex@{LoadLevelIndex}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadLevelIndex()}{LoadLevelIndex()}}
+{\footnotesize\ttfamily database.\+Insert\+Get.\+Load\+Level\+Index (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Functia se ocupa de incarcarea indexului nivelului din baza de date. 
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a7040b471968d52fa381ef147552c29cb}\label{classdatabase_1_1InsertGet_a7040b471968d52fa381ef147552c29cb}} 
+\index{database.InsertGet@{database.InsertGet}!LoadScore@{LoadScore}}
+\index{LoadScore@{LoadScore}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadScore()}{LoadScore()}}
+{\footnotesize\ttfamily static int database.\+Insert\+Get.\+Load\+Score (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a31cca98e9a5ae3451fd53921e3da3604}\label{classdatabase_1_1InsertGet_a31cca98e9a5ae3451fd53921e3da3604}} 
+\index{database.InsertGet@{database.InsertGet}!LoadTimer@{LoadTimer}}
+\index{LoadTimer@{LoadTimer}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadTimer()}{LoadTimer()}}
+{\footnotesize\ttfamily static int database.\+Insert\+Get.\+Load\+Timer (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a185b3566fee451015613134f5a460cf6}\label{classdatabase_1_1InsertGet_a185b3566fee451015613134f5a460cf6}} 
+\index{database.InsertGet@{database.InsertGet}!LoadUsername@{LoadUsername}}
+\index{LoadUsername@{LoadUsername}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadUsername()}{LoadUsername()}}
+{\footnotesize\ttfamily static String database.\+Insert\+Get.\+Load\+Username (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a72850166c619d9702d5d321c72f0f765}\label{classdatabase_1_1InsertGet_a72850166c619d9702d5d321c72f0f765}} 
+\index{database.InsertGet@{database.InsertGet}!LoadXPosition@{LoadXPosition}}
+\index{LoadXPosition@{LoadXPosition}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadXPosition()}{LoadXPosition()}}
+{\footnotesize\ttfamily static float database.\+Insert\+Get.\+Load\+XPosition (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a4904c9c9aa53eff43469f23a8f1ee986}\label{classdatabase_1_1InsertGet_a4904c9c9aa53eff43469f23a8f1ee986}} 
+\index{database.InsertGet@{database.InsertGet}!LoadYPosition@{LoadYPosition}}
+\index{LoadYPosition@{LoadYPosition}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{LoadYPosition()}{LoadYPosition()}}
+{\footnotesize\ttfamily static float database.\+Insert\+Get.\+Load\+YPosition (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_ac2bd48d77ed328f40e90ff0ef24f17a2}\label{classdatabase_1_1InsertGet_ac2bd48d77ed328f40e90ff0ef24f17a2}} 
+\index{database.InsertGet@{database.InsertGet}!SaveIntoDatabase@{SaveIntoDatabase}}
+\index{SaveIntoDatabase@{SaveIntoDatabase}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{SaveIntoDatabase()}{SaveIntoDatabase()}}
+{\footnotesize\ttfamily database.\+Insert\+Get.\+Save\+Into\+Database (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{nume\+\_\+tabela,  }\item[{int}]{level\+Index,  }\item[{int}]{Scor,  }\item[{int}]{current\+Health,  }\item[{int}]{coconut\+Number,  }\item[{float}]{posX,  }\item[{float}]{posY,  }\item[{int}]{timer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Functia se ocupa de salvarea datelor in baza de date. 
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a66ee8673d39477bbc6bed0ffe8a8563d}\label{classdatabase_1_1InsertGet_a66ee8673d39477bbc6bed0ffe8a8563d}} 
+\index{database.InsertGet@{database.InsertGet}!SaveUsername@{SaveUsername}}
+\index{SaveUsername@{SaveUsername}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{SaveUsername()}{SaveUsername()}}
+{\footnotesize\ttfamily static void database.\+Insert\+Get.\+Save\+Username (\begin{DoxyParamCaption}\item[{String}]{nume\+\_\+fisier,  }\item[{String}]{username }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a45fbb1a532cbbd5bf8dc6de1f292fc71}\label{classdatabase_1_1InsertGet_a45fbb1a532cbbd5bf8dc6de1f292fc71}} 
+\index{database.InsertGet@{database.InsertGet}!DB\_URL@{DB\_URL}}
+\index{DB\_URL@{DB\_URL}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{DB\_URL}{DB\_URL}}
+{\footnotesize\ttfamily final String database.\+Insert\+Get.\+DB\+\_\+\+URL = \char`\"{}jdbc\+:sqlite\+:data/gamedatabase.\+db\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatabase_1_1InsertGet_a86d9599c152fee02611f8b6b14bdea8f}\label{classdatabase_1_1InsertGet_a86d9599c152fee02611f8b6b14bdea8f}} 
+\index{database.InsertGet@{database.InsertGet}!dbLock@{dbLock}}
+\index{dbLock@{dbLock}!database.InsertGet@{database.InsertGet}}
+\doxysubsubsection{\texorpdfstring{dbLock}{dbLock}}
+{\footnotesize\ttfamily final Reentrant\+Lock database.\+Insert\+Get.\+db\+Lock = new Reentrant\+Lock()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/database/\mbox{\hyperlink{InsertGet_8java}{Insert\+Get.\+java}}\end{DoxyCompactItemize}

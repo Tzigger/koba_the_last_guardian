@@ -1,0 +1,574 @@
+\hypertarget{classgamestates_1_1Options}{}\doxysection{gamestates.\+Options Class Reference}
+\label{classgamestates_1_1Options}\index{gamestates.Options@{gamestates.Options}}
+
+
+Reprezintă starea de joc pentru meniul de opțiuni.  
+
+
+
+
+Inheritance diagram for gamestates.\+Options\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classgamestates_1_1Options__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gamestates.\+Options\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgamestates_1_1Options__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgamestates_1_1Options_aaca54b0649a91c15b2dae5ff9d71d91a}{Options}} (\mbox{\hyperlink{classmain_1_1Game}{Game}} \mbox{\hyperlink{classgamestates_1_1State_ab78ce47fed299bc19470b11b1f7891c5}{game}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Options}{Options}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a3f353af8ca884fe210b07bc0aa488da4}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizează starea meniului de opțiuni. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a7478147dcab20ca3d5e78d3894e8bdbd}{draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează elementele meniului de opțiuni. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a50afae230a2050c3baf51a964b8a1120}{mouse\+Clicked}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de click al mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a0b54cf00490bcbba7e867da65b2b57e9}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de apăsare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a59bba68c91383353faf8d9470cea7f3a}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de eliberare a butonului mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a737166c682f5a916c32c12f8cac7f383}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a3a2af86fa532627e4e782153688e4fac}{mouse\+Dragged}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionază evenimentele de tragere a mouse-\/ului (drag). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Options_a225b5ccb95ae7fa5c109dc17591fd153}{get\+Music\+Volume}} ()
+\begin{DoxyCompactList}\small\item\em Returnează valoarea curentă a volumului muzicii. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Options_a962f113266075eba8dbc62f6e2cfd749}{get\+Sfx\+Volume}} ()
+\begin{DoxyCompactList}\small\item\em Returnează valoarea curentă a volumului efectelor sonore. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_aa4285e0986990bea0ff0e87b2a8622e1}{key\+Pressed}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de apăsare a tastei (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a89d1cabbdb7d3766d339b90b3f42e337}{key\+Released}} (Key\+Event e)
+\begin{DoxyCompactList}\small\item\em Gestionarea evenimentului de eliberare a tastei (neutilizat). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a7879ba4eab3225056fd83205ef86c358}{set\+Previous\+State}} (\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} state)
+\begin{DoxyCompactList}\small\item\em Setează starea anterioară a jocului, pentru a permite revenirea la aceasta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_ad34febd1557739a4dc00e98b4fdc7d6b}{load\+Start\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea de fundal generală. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_aa0525590edc5717611ab805fa6503f48}{load\+Background}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă și configurează imaginea specifică a cadrului pentru meniul de opțiuni. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_ae243f189b362d66d23880a120eb05388}{load\+Slider\+Images}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă imaginile pentru componentele slider-\/elor (buton și șanț). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_ace2d7dd75eea825daab5dbc068ead032}{load\+Custom\+Font}} ()
+\begin{DoxyCompactList}\small\item\em Încarcă fontul personalizat folosit pentru textul din meniul de opțiuni. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_aa06d585a0216ea3928f5c57ade83666f}{update\+Music\+Value}} (int x)
+\begin{DoxyCompactList}\small\item\em Actualizează valoarea volumului muzicii pe baza poziției x a mouse-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgamestates_1_1Options_a94b2b5e1b8f30badc02f64fbe04af68c}{update\+Sfx\+Value}} (int x)
+\begin{DoxyCompactList}\small\item\em Actualizează valoarea volumului efectelor sonore pe baza poziției x a mouse-\/ului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Options_a8c1bd85ba68730db9b5b0265ee532efc}{background\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Options_a1c9bf8be24ff05bd4172c9458114bff2}{menuX}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Options_ad90a160fb968bfd76ea6a7e4056eef46}{startbg\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Options_adabe8dbebda8973dbee5d5ca6064da9c}{startbgX}}
+\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Options_aee3914b67b9c56c4f1f76ea4b90dcfef}{main\+Menu\+Button\+Bounds}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Options_ab09c2cdb1d3e49f27c193254ee994501}{buffer}}
+\begin{DoxyCompactList}\small\item\em Un buffer grafic pentru a desena conținutul înainte de a-\/l afișa pe ecran. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Options_a1f5f3b9e723dbf4d085db691ef9ed26b}{needs\+Redraw}} = true
+\begin{DoxyCompactList}\small\item\em Flag care indică dacă este necesară redesenarea conținutului buffer-\/ului. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} \mbox{\hyperlink{classgamestates_1_1Options_ad817bb2e43e9e3081f902587558d5d76}{previous\+State}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Options_a801427e1f4030adab2614866d9585776}{knob\+Img}}
+\item 
+Buffered\+Image \mbox{\hyperlink{classgamestates_1_1Options_aae885ca268cdc8f3b3d7f9d531bdab2f}{groover\+Img}}
+\item 
+int \mbox{\hyperlink{classgamestates_1_1Options_abb639c5ebe49009009ac49633943943d}{music\+Value}} = 50
+\begin{DoxyCompactList}\small\item\em Valoarea curentă a volumului muzicii (0-\/100). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classgamestates_1_1Options_a7194cf2d2453977b0cd56e6bb3bc4ad5}{sfx\+Value}} = 50
+\begin{DoxyCompactList}\small\item\em Valoarea curentă a volumului efectelor sonore (0-\/100). \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Options_afa274c48f91f20861810c778ee9c5f5c}{music\+Slider\+Bounds}}
+\begin{DoxyCompactList}\small\item\em Limitele dreptunghiulare pentru slider-\/ul de muzică. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{classgamestates_1_1Options_a304772c377b95daccec0a72ec046fbd9}{sfx\+Slider\+Bounds}}
+\begin{DoxyCompactList}\small\item\em Limitele dreptunghiulare pentru slider-\/ul de efecte sonore. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Options_ad8fda481d06a5ca12b208c82ad41307f}{music\+Slider\+Dragging}} = false
+\begin{DoxyCompactList}\small\item\em Indică dacă utilizatorul trage de slider-\/ul de muzică. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classgamestates_1_1Options_a192a18c617166d91fb26f9c6d8c65f99}{sfx\+Slider\+Dragging}} = false
+\begin{DoxyCompactList}\small\item\em Indică dacă utilizatorul trage de slider-\/ul de efecte sonore. \end{DoxyCompactList}\item 
+Font \mbox{\hyperlink{classgamestates_1_1Options_a98f3729317d3afea3931e40e66e69d5c}{airstrike\+Font}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Reprezintă starea de joc pentru meniul de opțiuni. 
+
+Permite jucătorului să ajusteze setări precum volumul muzicii și al efectelor sonore. Extinde \mbox{\hyperlink{classgamestates_1_1State}{State}} și implementează \mbox{\hyperlink{interfacegamestates_1_1Statemethods}{Statemethods}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Options_aaca54b0649a91c15b2dae5ff9d71d91a}\label{classgamestates_1_1Options_aaca54b0649a91c15b2dae5ff9d71d91a}} 
+\index{gamestates.Options@{gamestates.Options}!Options@{Options}}
+\index{Options@{Options}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{Options()}{Options()}}
+{\footnotesize\ttfamily gamestates.\+Options.\+Options (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru starea \mbox{\hyperlink{classgamestates_1_1Options}{Options}}. 
+
+Inițializează elementele UI, inclusiv sliderele de volum.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referință la instanța principală a jocului \mbox{\hyperlink{}{Game}}. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Options_a7478147dcab20ca3d5e78d3894e8bdbd}\label{classgamestates_1_1Options_a7478147dcab20ca3d5e78d3894e8bdbd}} 
+\index{gamestates.Options@{gamestates.Options}!draw@{draw}}
+\index{draw@{draw}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Desenează elementele meniului de opțiuni. 
+
+Utilizează un buffer pentru a desena elementele doar atunci când este necesar (
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1Options_a1f5f3b9e723dbf4d085db691ef9ed26b}{needsRedraw}} }
+
+\end{DoxyCode}
+ ). Include fundalul, cadrul, sliderele de volum și valorile acestora.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a09c7c77dc9dd9f825867de290ab8ff72}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a225b5ccb95ae7fa5c109dc17591fd153}\label{classgamestates_1_1Options_a225b5ccb95ae7fa5c109dc17591fd153}} 
+\index{gamestates.Options@{gamestates.Options}!getMusicVolume@{getMusicVolume}}
+\index{getMusicVolume@{getMusicVolume}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{getMusicVolume()}{getMusicVolume()}}
+{\footnotesize\ttfamily int gamestates.\+Options.\+get\+Music\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează valoarea curentă a volumului muzicii. 
+
+\begin{DoxyReturn}{Returns}
+Volumul muzicii (0-\/100). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Options_a962f113266075eba8dbc62f6e2cfd749}\label{classgamestates_1_1Options_a962f113266075eba8dbc62f6e2cfd749}} 
+\index{gamestates.Options@{gamestates.Options}!getSfxVolume@{getSfxVolume}}
+\index{getSfxVolume@{getSfxVolume}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{getSfxVolume()}{getSfxVolume()}}
+{\footnotesize\ttfamily int gamestates.\+Options.\+get\+Sfx\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează valoarea curentă a volumului efectelor sonore. 
+
+\begin{DoxyReturn}{Returns}
+Volumul SFX (0-\/100). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgamestates_1_1Options_aa4285e0986990bea0ff0e87b2a8622e1}\label{classgamestates_1_1Options_aa4285e0986990bea0ff0e87b2a8622e1}} 
+\index{gamestates.Options@{gamestates.Options}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+key\+Pressed (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de apăsare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aaf96c58fc4aa76b6411c1d8c461c6f62}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a89d1cabbdb7d3766d339b90b3f42e337}\label{classgamestates_1_1Options_a89d1cabbdb7d3766d339b90b3f42e337}} 
+\index{gamestates.Options@{gamestates.Options}!keyReleased@{keyReleased}}
+\index{keyReleased@{keyReleased}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{keyReleased()}{keyReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+key\+Released (\begin{DoxyParamCaption}\item[{Key\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de eliberare a tastei (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Key\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_adb08b5c86cb7692d9a03168a1c21b18a}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_aa0525590edc5717611ab805fa6503f48}\label{classgamestates_1_1Options_aa0525590edc5717611ab805fa6503f48}} 
+\index{gamestates.Options@{gamestates.Options}!loadBackground@{loadBackground}}
+\index{loadBackground@{loadBackground}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{loadBackground()}{loadBackground()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+load\+Background (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea specifică a cadrului pentru meniul de opțiuni. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_ace2d7dd75eea825daab5dbc068ead032}\label{classgamestates_1_1Options_ace2d7dd75eea825daab5dbc068ead032}} 
+\index{gamestates.Options@{gamestates.Options}!loadCustomFont@{loadCustomFont}}
+\index{loadCustomFont@{loadCustomFont}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{loadCustomFont()}{loadCustomFont()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+load\+Custom\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă fontul personalizat folosit pentru textul din meniul de opțiuni. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_ae243f189b362d66d23880a120eb05388}\label{classgamestates_1_1Options_ae243f189b362d66d23880a120eb05388}} 
+\index{gamestates.Options@{gamestates.Options}!loadSliderImages@{loadSliderImages}}
+\index{loadSliderImages@{loadSliderImages}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{loadSliderImages()}{loadSliderImages()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+load\+Slider\+Images (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă imaginile pentru componentele slider-\/elor (buton și șanț). 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_ad34febd1557739a4dc00e98b4fdc7d6b}\label{classgamestates_1_1Options_ad34febd1557739a4dc00e98b4fdc7d6b}} 
+\index{gamestates.Options@{gamestates.Options}!loadStartImg@{loadStartImg}}
+\index{loadStartImg@{loadStartImg}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{loadStartImg()}{loadStartImg()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+load\+Start\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Încarcă și configurează imaginea de fundal generală. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a50afae230a2050c3baf51a964b8a1120}\label{classgamestates_1_1Options_a50afae230a2050c3baf51a964b8a1120}} 
+\index{gamestates.Options@{gamestates.Options}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de click al mouse-\/ului (neutilizat). 
+
+Acțiunile sunt gestionate în \mbox{\hyperlink{classgamestates_1_1Options_a0b54cf00490bcbba7e867da65b2b57e9}{mouse\+Pressed(\+Mouse\+Event)}} și \mbox{\hyperlink{classgamestates_1_1Options_a3a2af86fa532627e4e782153688e4fac}{mouse\+Dragged(\+Mouse\+Event)}}. 
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a77b894f698a7b52ddbe66153dfb4c918}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a3a2af86fa532627e4e782153688e4fac}\label{classgamestates_1_1Options_a3a2af86fa532627e4e782153688e4fac}} 
+\index{gamestates.Options@{gamestates.Options}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de tragere a mouse-\/ului (drag). 
+
+Actualizează valorile slider-\/elor dacă sunt trase.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_aae65223cce1a0bc796bcd1ad8b5350a7}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a737166c682f5a916c32c12f8cac7f383}\label{classgamestates_1_1Options_a737166c682f5a916c32c12f8cac7f383}} 
+\index{gamestates.Options@{gamestates.Options}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionarea evenimentului de mișcare a mouse-\/ului (neutilizat). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ad56c487f438b0d73d02a5e39363f8143}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a0b54cf00490bcbba7e867da65b2b57e9}\label{classgamestates_1_1Options_a0b54cf00490bcbba7e867da65b2b57e9}} 
+\index{gamestates.Options@{gamestates.Options}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de apăsare a butonului mouse-\/ului. 
+
+Verifică dacă s-\/a apăsat pe un slider de volum sau pe butonul de întoarcere.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_ab1ee728b7e7cec3542be7dc3d09438dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a59bba68c91383353faf8d9470cea7f3a}\label{classgamestates_1_1Options_a59bba68c91383353faf8d9470cea7f3a}} 
+\index{gamestates.Options@{gamestates.Options}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Gestionază evenimentele de eliberare a butonului mouse-\/ului. 
+
+Oprește tragerea slider-\/elor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Evenimentul \mbox{\hyperlink{}{Mouse\+Event}}. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a0e39fad48f49df4340846514a469570c}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a7879ba4eab3225056fd83205ef86c358}\label{classgamestates_1_1Options_a7879ba4eab3225056fd83205ef86c358}} 
+\index{gamestates.Options@{gamestates.Options}!setPreviousState@{setPreviousState}}
+\index{setPreviousState@{setPreviousState}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{setPreviousState()}{setPreviousState()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+set\+Previous\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}}]{state }\end{DoxyParamCaption})}
+
+
+
+Setează starea anterioară a jocului, pentru a permite revenirea la aceasta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Starea anterioară \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Options_a3f353af8ca884fe210b07bc0aa488da4}\label{classgamestates_1_1Options_a3f353af8ca884fe210b07bc0aa488da4}} 
+\index{gamestates.Options@{gamestates.Options}!update@{update}}
+\index{update@{update}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizează starea meniului de opțiuni. 
+
+Momentan, nu necesită actualizări logice per frame, deoarece redesenarea este gestionată de flag-\/ul
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classgamestates_1_1Options_a1f5f3b9e723dbf4d085db691ef9ed26b}{needsRedraw}} }
+
+\end{DoxyCode}
+ și interacțiunile cu mouse-\/ul. 
+
+Implements \mbox{\hyperlink{interfacegamestates_1_1Statemethods_a1ca7b6f7094a2a9c6d23736a9afd13dc}{gamestates.\+Statemethods}}.
+
+\mbox{\Hypertarget{classgamestates_1_1Options_aa06d585a0216ea3928f5c57ade83666f}\label{classgamestates_1_1Options_aa06d585a0216ea3928f5c57ade83666f}} 
+\index{gamestates.Options@{gamestates.Options}!updateMusicValue@{updateMusicValue}}
+\index{updateMusicValue@{updateMusicValue}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{updateMusicValue()}{updateMusicValue()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+update\+Music\+Value (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează valoarea volumului muzicii pe baza poziției x a mouse-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x a mouse-\/ului. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classgamestates_1_1Options_a94b2b5e1b8f30badc02f64fbe04af68c}\label{classgamestates_1_1Options_a94b2b5e1b8f30badc02f64fbe04af68c}} 
+\index{gamestates.Options@{gamestates.Options}!updateSfxValue@{updateSfxValue}}
+\index{updateSfxValue@{updateSfxValue}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{updateSfxValue()}{updateSfxValue()}}
+{\footnotesize\ttfamily void gamestates.\+Options.\+update\+Sfx\+Value (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Actualizează valoarea volumului efectelor sonore pe baza poziției x a mouse-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x a mouse-\/ului. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classgamestates_1_1Options_a98f3729317d3afea3931e40e66e69d5c}\label{classgamestates_1_1Options_a98f3729317d3afea3931e40e66e69d5c}} 
+\index{gamestates.Options@{gamestates.Options}!airstrikeFont@{airstrikeFont}}
+\index{airstrikeFont@{airstrikeFont}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{airstrikeFont}{airstrikeFont}}
+{\footnotesize\ttfamily Font gamestates.\+Options.\+airstrike\+Font\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a8c1bd85ba68730db9b5b0265ee532efc}\label{classgamestates_1_1Options_a8c1bd85ba68730db9b5b0265ee532efc}} 
+\index{gamestates.Options@{gamestates.Options}!backgroundImg@{backgroundImg}}
+\index{backgroundImg@{backgroundImg}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{backgroundImg}{backgroundImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Options.\+background\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_ab09c2cdb1d3e49f27c193254ee994501}\label{classgamestates_1_1Options_ab09c2cdb1d3e49f27c193254ee994501}} 
+\index{gamestates.Options@{gamestates.Options}!buffer@{buffer}}
+\index{buffer@{buffer}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{buffer}{buffer}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Options.\+buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un buffer grafic pentru a desena conținutul înainte de a-\/l afișa pe ecran. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_aae885ca268cdc8f3b3d7f9d531bdab2f}\label{classgamestates_1_1Options_aae885ca268cdc8f3b3d7f9d531bdab2f}} 
+\index{gamestates.Options@{gamestates.Options}!grooverImg@{grooverImg}}
+\index{grooverImg@{grooverImg}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{grooverImg}{grooverImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Options.\+groover\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a801427e1f4030adab2614866d9585776}\label{classgamestates_1_1Options_a801427e1f4030adab2614866d9585776}} 
+\index{gamestates.Options@{gamestates.Options}!knobImg@{knobImg}}
+\index{knobImg@{knobImg}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{knobImg}{knobImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Options.\+knob\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_aee3914b67b9c56c4f1f76ea4b90dcfef}\label{classgamestates_1_1Options_aee3914b67b9c56c4f1f76ea4b90dcfef}} 
+\index{gamestates.Options@{gamestates.Options}!mainMenuButtonBounds@{mainMenuButtonBounds}}
+\index{mainMenuButtonBounds@{mainMenuButtonBounds}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{mainMenuButtonBounds}{mainMenuButtonBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Options.\+main\+Menu\+Button\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a1c9bf8be24ff05bd4172c9458114bff2}\label{classgamestates_1_1Options_a1c9bf8be24ff05bd4172c9458114bff2}} 
+\index{gamestates.Options@{gamestates.Options}!menuX@{menuX}}
+\index{menuX@{menuX}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{menuX}{menuX}}
+{\footnotesize\ttfamily int gamestates.\+Options.\+menuX\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_afa274c48f91f20861810c778ee9c5f5c}\label{classgamestates_1_1Options_afa274c48f91f20861810c778ee9c5f5c}} 
+\index{gamestates.Options@{gamestates.Options}!musicSliderBounds@{musicSliderBounds}}
+\index{musicSliderBounds@{musicSliderBounds}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{musicSliderBounds}{musicSliderBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Options.\+music\+Slider\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limitele dreptunghiulare pentru slider-\/ul de muzică. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_ad8fda481d06a5ca12b208c82ad41307f}\label{classgamestates_1_1Options_ad8fda481d06a5ca12b208c82ad41307f}} 
+\index{gamestates.Options@{gamestates.Options}!musicSliderDragging@{musicSliderDragging}}
+\index{musicSliderDragging@{musicSliderDragging}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{musicSliderDragging}{musicSliderDragging}}
+{\footnotesize\ttfamily boolean gamestates.\+Options.\+music\+Slider\+Dragging = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă utilizatorul trage de slider-\/ul de muzică. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_abb639c5ebe49009009ac49633943943d}\label{classgamestates_1_1Options_abb639c5ebe49009009ac49633943943d}} 
+\index{gamestates.Options@{gamestates.Options}!musicValue@{musicValue}}
+\index{musicValue@{musicValue}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{musicValue}{musicValue}}
+{\footnotesize\ttfamily int gamestates.\+Options.\+music\+Value = 50\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valoarea curentă a volumului muzicii (0-\/100). 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a1f5f3b9e723dbf4d085db691ef9ed26b}\label{classgamestates_1_1Options_a1f5f3b9e723dbf4d085db691ef9ed26b}} 
+\index{gamestates.Options@{gamestates.Options}!needsRedraw@{needsRedraw}}
+\index{needsRedraw@{needsRedraw}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{needsRedraw}{needsRedraw}}
+{\footnotesize\ttfamily boolean gamestates.\+Options.\+needs\+Redraw = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Flag care indică dacă este necesară redesenarea conținutului buffer-\/ului. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_ad817bb2e43e9e3081f902587558d5d76}\label{classgamestates_1_1Options_ad817bb2e43e9e3081f902587558d5d76}} 
+\index{gamestates.Options@{gamestates.Options}!previousState@{previousState}}
+\index{previousState@{previousState}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{previousState}{previousState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumgamestates_1_1Gamestate}{Gamestate}} gamestates.\+Options.\+previous\+State\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a304772c377b95daccec0a72ec046fbd9}\label{classgamestates_1_1Options_a304772c377b95daccec0a72ec046fbd9}} 
+\index{gamestates.Options@{gamestates.Options}!sfxSliderBounds@{sfxSliderBounds}}
+\index{sfxSliderBounds@{sfxSliderBounds}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{sfxSliderBounds}{sfxSliderBounds}}
+{\footnotesize\ttfamily Rectangle gamestates.\+Options.\+sfx\+Slider\+Bounds\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Limitele dreptunghiulare pentru slider-\/ul de efecte sonore. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a192a18c617166d91fb26f9c6d8c65f99}\label{classgamestates_1_1Options_a192a18c617166d91fb26f9c6d8c65f99}} 
+\index{gamestates.Options@{gamestates.Options}!sfxSliderDragging@{sfxSliderDragging}}
+\index{sfxSliderDragging@{sfxSliderDragging}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{sfxSliderDragging}{sfxSliderDragging}}
+{\footnotesize\ttfamily boolean gamestates.\+Options.\+sfx\+Slider\+Dragging = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indică dacă utilizatorul trage de slider-\/ul de efecte sonore. 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_a7194cf2d2453977b0cd56e6bb3bc4ad5}\label{classgamestates_1_1Options_a7194cf2d2453977b0cd56e6bb3bc4ad5}} 
+\index{gamestates.Options@{gamestates.Options}!sfxValue@{sfxValue}}
+\index{sfxValue@{sfxValue}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{sfxValue}{sfxValue}}
+{\footnotesize\ttfamily int gamestates.\+Options.\+sfx\+Value = 50\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Valoarea curentă a volumului efectelor sonore (0-\/100). 
+
+\mbox{\Hypertarget{classgamestates_1_1Options_ad90a160fb968bfd76ea6a7e4056eef46}\label{classgamestates_1_1Options_ad90a160fb968bfd76ea6a7e4056eef46}} 
+\index{gamestates.Options@{gamestates.Options}!startbgImg@{startbgImg}}
+\index{startbgImg@{startbgImg}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{startbgImg}{startbgImg}}
+{\footnotesize\ttfamily Buffered\+Image gamestates.\+Options.\+startbg\+Img\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classgamestates_1_1Options_adabe8dbebda8973dbee5d5ca6064da9c}\label{classgamestates_1_1Options_adabe8dbebda8973dbee5d5ca6064da9c}} 
+\index{gamestates.Options@{gamestates.Options}!startbgX@{startbgX}}
+\index{startbgX@{startbgX}!gamestates.Options@{gamestates.Options}}
+\doxysubsubsection{\texorpdfstring{startbgX}{startbgX}}
+{\footnotesize\ttfamily int gamestates.\+Options.\+startbgX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/gamestates/\mbox{\hyperlink{Options_8java}{Options.\+java}}\end{DoxyCompactItemize}

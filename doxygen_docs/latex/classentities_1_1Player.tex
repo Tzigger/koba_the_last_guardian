@@ -1,0 +1,1225 @@
+\hypertarget{classentities_1_1Player}{}\doxysection{entities.\+Player Class Reference}
+\label{classentities_1_1Player}\index{entities.Player@{entities.Player}}
+
+
+Inheritance diagram for entities.\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classentities_1_1Player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classentities_1_1Player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Player_a116cd815d084a5ae5788ef55f76ae7c7}{Player}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}})
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a5980d93acff7f2bdf63837498d4bb919}{update}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a44db2b7a9334d9de4ff86d1c84aec642}{render}} (Graphics g, int lvl\+OffsetX)
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_aeda64de49a76e0c6215d70c63460cee9}{load\+Animations}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_ae97f79ccefd926b8b51828f8eedbc713}{load\+Level\+Data}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Player_abfd005a6825f1373eeef1e40fa9d4c95}{level\+Data}})
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ad424a582df5344e798a060efc21e6cb7}{is\+Left}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a49e4c15b241dad77297696b8e6b59149}{set\+Left}} (boolean \mbox{\hyperlink{classentities_1_1Player_a56c30b7efa0a5aa26903dc189a37aebf}{left}})
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a7b12ad0eaa74aab2ab3e0a3325afd2ea}{is\+Right}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_ab5774ea9cb83a2db34d09d5a8e2bbfe3}{set\+Right}} (boolean \mbox{\hyperlink{classentities_1_1Player_abcfc76572475489794ede0b7b0a62b6d}{right}})
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_aa5ec65e8c4e10aadef4d86d595db99b1}{reset\+Dir\+Booleans}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_afbded2c7104acace88a05d06583e044d}{reset\+In\+Air}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a760b6e82d26a562f77410b3544657641}{set\+Attack}} (boolean attack)
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a8bfd00c0e838c19822c8eb35bdf57d97}{set\+Throw\+Attack}} (boolean throw\+Attack)
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a0b642cc72c77b7eaf1b6d69f4f5b0d54}{set\+Whack\+Attack}} (boolean whack\+Attack)
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a7912ac7dd781947f160c7b77b83a6ab4}{set\+Jump\+Slam\+Attack}} (boolean jump\+Slam\+Attack)
+\item 
+java.\+awt.\+geom.\+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Player_a7fa5adfb436fa13e4ba50c36dfa5c68f}{get\+Attack\+Hitbox}} ()
+\item 
+java.\+awt.\+geom.\+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Player_aaa211913627f3ef9b0e1b43a4fed24ee}{get\+Whack\+Hitbox}} ()
+\item 
+java.\+awt.\+geom.\+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Player_af1f3788b73ea34495a681bece38d3894}{get\+Jump\+Slam\+Hitbox}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a493cde2bf1e35190246d60650019ee96}{set\+Has\+Hit}} (boolean \mbox{\hyperlink{classentities_1_1Player_a6f0f5369c29ee8390fa90cd3d22ec176}{has\+Hit}})
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a77050a8c4ea29fd92ee55a29734a33d9}{has\+Hit}} ()
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a7cef40362dc7be6f84917dd20611137e}{get\+Attack\+Damage}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a35c9e10aafd061a5c743d49c4954f622}{collect\+Banana\+Effect}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_ab1ab8ae72e55c5430ee8c3110df36ff6}{collect\+Coconut\+Effect}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ae91421b7ea5f6ada3b51ef26bde79c51}{is\+Attack}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a8e58e2b2f40492965d6bd41bf41971e4}{is\+Crouch}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_acafc5a54b4505f78ef1f474b04882d8f}{set\+Crouch}} (boolean \mbox{\hyperlink{classentities_1_1Player_ae388317ab0877a1c116fac58bc6dc882}{crouch}})
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_acfd53a7511acd62e5af72798f3ce339f}{is\+Up}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_aa0405f1c5da5e349141ad8e31234afd5}{set\+Up}} (boolean \mbox{\hyperlink{classentities_1_1Player_aef1934b50965b8a20f4ad63f049875de}{up}})
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a302c3240cfd838824cefd0d64cc87e5e}{is\+Down}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a082d09f19af5a216231570516c6e2a5d}{set\+Down}} (boolean \mbox{\hyperlink{classentities_1_1Player_ae790e0d2ac9c4075476ba5c713dc5f1a}{down}})
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_adcfb95a080cded7b50d8a51510bbce14}{is\+Jump}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a6e4c3915e42bdedcdf7d409bff13ab74}{set\+Jump}} (boolean \mbox{\hyperlink{classentities_1_1Player_ad91bcb2af4701683f66ee0de514b0836}{jump}})
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_ae77301fc5fc01fb88c744b3b8f216c6d}{get\+Current\+Health}} ()
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_abb3b50d97341bd9e4ded8f81c43271e1}{get\+Max\+Health}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a5e00cc261703798e9fe9da8f3c051e91}{heal}} (int amount)
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a1489daf78875d09f408f81c120a7ebfd}{take\+Damage}} (int amount)
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aa2cce3b623f9b2381979f6b2e1219b3f}{is\+Alive}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a1219e4feea6e7186761ba8226bd612be}{is\+Damaged}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_aec2310bf15aebbb33a42f2dfa7350793}{apply\+Knockback}} (float \mbox{\hyperlink{classentities_1_1Player_a7360495b2fb5729670514fbc11d56687}{knockbackX}}, float \mbox{\hyperlink{classentities_1_1Player_ac75b81e922f57aed575e90698dcd73bf}{knockbackY}})
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_ad768f2b60e00ebed2ce437a987377817}{reset\+Health}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a3226553c836f9b1874e392bce27e7a6a}{set\+Current\+Health}} (int health)
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_ad8ea460393adadf4d6bca32cf9b9be6b}{set\+Position}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}})
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a00d58e634ca80b9d05876fbccb1f9b57}{reset\+To\+Start\+Position}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aafab3b14bbe83eff41ff6c16566478a2}{is\+Throwing}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_abb56970cf96ed24d5d44edb4b8ba1923}{is\+Punching}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_adcd36bfd0de380d4afea7599f1852c9f}{is\+Whacking}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a6db2dca292b5a3457d9c6c6458313e5d}{is\+Jump\+Slamming}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a4e44bae26c44c371a57d8ae4a7907980}{set\+Jump\+Slam\+Unlocked}} (boolean unlocked)
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aab5f741e4cd6660bcef12e937312bf60}{is\+Crystal\+Rush\+Unlocked}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a60ca0bc547864971a30170196b36ae56}{unlock\+Crystal\+Rush}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aee577e571f0127a2ca15793f8bb3403d}{is\+Crystal\+Rush\+Active}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_addd4868805378621903ecd3632766fa5}{activate\+Crystal\+Rush}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a887525e37494732d272edb44b411af7e}{is\+Facing\+Right}} ()
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a35cf826ee721d86fa4f6c97d31603949}{get\+Animation\+Index}} ()
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a3c22ec627fde30a1d4ebf69d4970d48b}{get\+Whack\+Index}} ()
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ad57bb180e950feec599c227523c4d70d}{can\+Spawn\+Projectile\+And\+Consume}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a66309feb37fa0b24d827a77f902b8317}{update\+Knockback}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a84ea700d69d1079a438d24f68032ad94}{update\+Damage\+Effect}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a9b1a17a0bb3acc7b50caaee8a528b9dc}{update\+Gravity}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_aba3623bac125032f6ec6490bc89fbacb}{update\+Animation\+Tick}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a6ef745fd0b96cf940e00b464de12a33c}{set\+Animation}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_aa78e767830eaff7cea976402309be2b5}{reset\+Animation\+Tick}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_ab21843396353de0dfddd2fbd120102ae}{update\+Pos}} ()
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a9fd37c1f298ffeea7327c5c894a97b14}{update\+XPos}} (float x\+Speed)
+\item 
+void \mbox{\hyperlink{classentities_1_1Player_a5712cbb84c3bef71f06b78863393869a}{jump}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Player_ab4d1c1176f95d6d9ccb056b0c84c39ae}{animations}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Player_ad0500b5ae2afa41f7fb34cbabc7979a6}{flipped\+Animations}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Player_a3e15146413c486e73d9e2b90f44fb20b}{crystal\+Rush\+Animations}}
+\item 
+Buffered\+Image\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classentities_1_1Player_a9d38658e5b0f12fe5fd53c43f827a1f2}{flipped\+Crystal\+Rush\+Animations}}
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_aa59913e52376cb226a471c8467d4f046}{animation\+Tick}}
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_af25839eab4a0e3ce6a9e354efa089f43}{player\+Action}} = Gorilla\+\_\+\+Animation\+\_\+rows.\+PUNCH\+\_\+\+STANDING.\+get\+Row\+Index()
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a496dacfcc18a72afe4dbb6d007b7f7ef}{player\+Direction}} = -\/1
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a27a5adc8e45608e1d8fc12ccd0cef069}{moving}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aaeef9ea613830cfe7a3dad5d44b53e0c}{is\+Punching}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a1b779fdfabf0ae758782426080b2380a}{is\+Throwing}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a78ce502203f2beefc1a6bc5fb4f44b73}{is\+Whacking}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aa7babe582917478ae9390a8d3dd5d8f6}{is\+Jump\+Slamming}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a6f0f5369c29ee8390fa90cd3d22ec176}{has\+Hit}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_af718fb31ea041aa42ed233cdde5d0e6f}{has\+Thrown}} = false
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a3bad99fe766b2452f3311a78f96473e6}{attack\+Damage}} = 10
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a56c30b7efa0a5aa26903dc189a37aebf}{left}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_abcfc76572475489794ede0b7b0a62b6d}{right}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aef1934b50965b8a20f4ad63f049875de}{up}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ae790e0d2ac9c4075476ba5c713dc5f1a}{down}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_acb760abd2e6c5200b28e170f61705de9}{facing\+Right}} = false
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_acde013b38e9be2883b5897da88b08fa9}{player\+Speed}} = 2.\+4f
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ae388317ab0877a1c116fac58bc6dc882}{crouch}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_aa031e8eb26c5de74e984eacdc5c12bf5}{was\+Crouch\+Pressed}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ac2eecc3f7206fe133268eee857a8f2f1}{is\+Transitioning}} = false
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_abfd005a6825f1373eeef1e40fa9d4c95}{level\+Data}} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ad91bcb2af4701683f66ee0de514b0836}{jump}} = false
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_acabd4ef531593b76ca14a1452cffc336}{max\+Health}} = 100
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a07e6669a0b490886ac32cf941a289293}{current\+Health}} = 100
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_afa7029fd99bf219da42cdcc44666656e}{is\+Damaged}} = false
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a6035764850ad72cbd4e5b6682b00f689}{damage\+Flash\+Timer}} = 0
+\item 
+final int \mbox{\hyperlink{classentities_1_1Player_ad50813f1f6f218a4b2fa7b53a67cce4c}{DAMAGE\+\_\+\+FLASH\+\_\+\+DURATION}} = 20
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a45a7c638a507df36bc4c0eb6b66b0660}{permanent\+Max\+Hp\+Bonus}} = 0
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a0377da0077d310f879f4012d1d171415}{permanent\+Attack\+Damage\+Bonus}} = 0
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_a7360495b2fb5729670514fbc11d56687}{knockbackX}} = 0
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_ac75b81e922f57aed575e90698dcd73bf}{knockbackY}} = 0
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a161ac352066a4bb57f8a3599b589e217}{knockback\+Duration}} = 0
+\item 
+final int \mbox{\hyperlink{classentities_1_1Player_a10ffec558de613947fe3350be821388c}{KNOCKBACK\+\_\+\+DURATION}} = 15
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_ae66ef04d142d8bcd803179d73b0240d3}{x\+Draw\+Offset}} = 66 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_a9db6e2575e778b2d813c2ecc3bb3284b}{y\+Draw\+Offset}} = 39 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_a6089ae95bccc2d987423b24d4d6f43aa}{air\+Speed}} = 0f
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_a9a89551a68c42dae8c02d9c54fae1082}{gravity}} = 0.\+12f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_aa2d30905c18c1c5b1f04b9bfa5ce044f}{jump\+Speed}} = -\/6.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_a42ce65ff9bd619361d213d663790a1eb}{fall\+Speed\+After\+Collision}} = 2.\+4f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_ae79e80025749d6dcab7ed9acf4459850}{in\+Air}} = false
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a2d8bf00d66ca02ac68332a125b772acd}{is\+Landing}} = false
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a69032d48b04dee9e68cd7b0a19604d2f}{landing\+Frame}} = 7
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_af9361cc17ca944e96f530f0e5012da0f}{punch\+Tick}} = 0
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_ab02dc8f44ca0b4aaba717e38c8b899c5}{throw\+Tick}} = 0
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a7bf4800f755e69632be48349b65f8cb6}{whack\+Tick}} = 0
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a0a3307e4f2c62b7d44f3935595ff78ff}{jump\+Slam\+Tick}} = 0
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a3026d122998ee82e9bdd8f7708dff23a}{jump\+Slam\+Unlocked}} = false
+\item 
+final float \mbox{\hyperlink{classentities_1_1Player_a84340d2c7825d50a8c8a9fec8264c3a8}{JUMP\+\_\+\+SLAM\+\_\+\+DASH\+\_\+\+SPEED}} = 8.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a632ad9293d460d666a671fb0061c4e1e}{jump\+Slam\+Cooldown\+Timer}} = 0
+\item 
+final int \mbox{\hyperlink{classentities_1_1Player_a5562db5e5084b91bca18f6e1f6af5090}{JUMP\+\_\+\+SLAM\+\_\+\+COOLDOWN\+\_\+\+DURATION}} = 1200
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_ae6a16778ac3be752023d245f9a17f494}{whack\+Cooldown\+Timer}} = 0
+\item 
+final int \mbox{\hyperlink{classentities_1_1Player_a6b4b7fbd64fa208ac48e08b600862eb5}{WHACK\+\_\+\+COOLDOWN\+\_\+\+DURATION}} = 45
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a843f981ae75b109b269cbc8f1310c394}{is\+Crystal\+Rush\+Active}} = false
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_ad15a93f770088ed5a77dbf9868582b90}{crystal\+Rush\+Timer}} = 0
+\item 
+final int \mbox{\hyperlink{classentities_1_1Player_aa6d0b7bd47ff8a6921ab45efdc08a1ee}{CRYSTAL\+\_\+\+RUSH\+\_\+\+DURATION}} = 1200
+\item 
+int \mbox{\hyperlink{classentities_1_1Player_a16e4455a7fd2b2d541e0314c5deed89a}{crystal\+Rush\+Cooldown\+Timer}} = 0
+\item 
+final int \mbox{\hyperlink{classentities_1_1Player_ade81020ffe16bebd77824e40284b868f}{CRYSTAL\+\_\+\+RUSH\+\_\+\+COOLDOWN\+\_\+\+DURATION}} = 3600
+\item 
+boolean \mbox{\hyperlink{classentities_1_1Player_a5e5a8ee918f161d7ce06b57baa5797ba}{crystal\+Rush\+Unlocked}} = false
+\item 
+float \mbox{\hyperlink{classentities_1_1Player_a9a3f04bb55b22825c6046893dd4450af}{original\+Player\+Speed}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Player_a116cd815d084a5ae5788ef55f76ae7c7}\label{classentities_1_1Player_a116cd815d084a5ae5788ef55f76ae7c7}} 
+\index{entities.Player@{entities.Player}!Player@{Player}}
+\index{Player@{Player}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily entities.\+Player.\+Player (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Player_addd4868805378621903ecd3632766fa5}\label{classentities_1_1Player_addd4868805378621903ecd3632766fa5}} 
+\index{entities.Player@{entities.Player}!activateCrystalRush@{activateCrystalRush}}
+\index{activateCrystalRush@{activateCrystalRush}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{activateCrystalRush()}{activateCrystalRush()}}
+{\footnotesize\ttfamily void entities.\+Player.\+activate\+Crystal\+Rush (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_aec2310bf15aebbb33a42f2dfa7350793}\label{classentities_1_1Player_aec2310bf15aebbb33a42f2dfa7350793}} 
+\index{entities.Player@{entities.Player}!applyKnockback@{applyKnockback}}
+\index{applyKnockback@{applyKnockback}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{applyKnockback()}{applyKnockback()}}
+{\footnotesize\ttfamily void entities.\+Player.\+apply\+Knockback (\begin{DoxyParamCaption}\item[{float}]{knockbackX,  }\item[{float}]{knockbackY }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_ad57bb180e950feec599c227523c4d70d}\label{classentities_1_1Player_ad57bb180e950feec599c227523c4d70d}} 
+\index{entities.Player@{entities.Player}!canSpawnProjectileAndConsume@{canSpawnProjectileAndConsume}}
+\index{canSpawnProjectileAndConsume@{canSpawnProjectileAndConsume}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{canSpawnProjectileAndConsume()}{canSpawnProjectileAndConsume()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+can\+Spawn\+Projectile\+And\+Consume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a35c9e10aafd061a5c743d49c4954f622}\label{classentities_1_1Player_a35c9e10aafd061a5c743d49c4954f622}} 
+\index{entities.Player@{entities.Player}!collectBananaEffect@{collectBananaEffect}}
+\index{collectBananaEffect@{collectBananaEffect}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{collectBananaEffect()}{collectBananaEffect()}}
+{\footnotesize\ttfamily void entities.\+Player.\+collect\+Banana\+Effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_ab1ab8ae72e55c5430ee8c3110df36ff6}\label{classentities_1_1Player_ab1ab8ae72e55c5430ee8c3110df36ff6}} 
+\index{entities.Player@{entities.Player}!collectCoconutEffect@{collectCoconutEffect}}
+\index{collectCoconutEffect@{collectCoconutEffect}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{collectCoconutEffect()}{collectCoconutEffect()}}
+{\footnotesize\ttfamily void entities.\+Player.\+collect\+Coconut\+Effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a35cf826ee721d86fa4f6c97d31603949}\label{classentities_1_1Player_a35cf826ee721d86fa4f6c97d31603949}} 
+\index{entities.Player@{entities.Player}!getAnimationIndex@{getAnimationIndex}}
+\index{getAnimationIndex@{getAnimationIndex}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getAnimationIndex()}{getAnimationIndex()}}
+{\footnotesize\ttfamily int entities.\+Player.\+get\+Animation\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a7cef40362dc7be6f84917dd20611137e}\label{classentities_1_1Player_a7cef40362dc7be6f84917dd20611137e}} 
+\index{entities.Player@{entities.Player}!getAttackDamage@{getAttackDamage}}
+\index{getAttackDamage@{getAttackDamage}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getAttackDamage()}{getAttackDamage()}}
+{\footnotesize\ttfamily int entities.\+Player.\+get\+Attack\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a684910a3c1f5f63b1e4ba1415aafea5f}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a7fa5adfb436fa13e4ba50c36dfa5c68f}\label{classentities_1_1Player_a7fa5adfb436fa13e4ba50c36dfa5c68f}} 
+\index{entities.Player@{entities.Player}!getAttackHitbox@{getAttackHitbox}}
+\index{getAttackHitbox@{getAttackHitbox}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getAttackHitbox()}{getAttackHitbox()}}
+{\footnotesize\ttfamily java.\+awt.\+geom.\+Rectangle2\+D.\+Float entities.\+Player.\+get\+Attack\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a481bb768e349ba66a2bdc36e260fc0f8}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_ae77301fc5fc01fb88c744b3b8f216c6d}\label{classentities_1_1Player_ae77301fc5fc01fb88c744b3b8f216c6d}} 
+\index{entities.Player@{entities.Player}!getCurrentHealth@{getCurrentHealth}}
+\index{getCurrentHealth@{getCurrentHealth}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getCurrentHealth()}{getCurrentHealth()}}
+{\footnotesize\ttfamily int entities.\+Player.\+get\+Current\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a39e25fc481bb030e59997efe82de93ea}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_af1f3788b73ea34495a681bece38d3894}\label{classentities_1_1Player_af1f3788b73ea34495a681bece38d3894}} 
+\index{entities.Player@{entities.Player}!getJumpSlamHitbox@{getJumpSlamHitbox}}
+\index{getJumpSlamHitbox@{getJumpSlamHitbox}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getJumpSlamHitbox()}{getJumpSlamHitbox()}}
+{\footnotesize\ttfamily java.\+awt.\+geom.\+Rectangle2\+D.\+Float entities.\+Player.\+get\+Jump\+Slam\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_abb3b50d97341bd9e4ded8f81c43271e1}\label{classentities_1_1Player_abb3b50d97341bd9e4ded8f81c43271e1}} 
+\index{entities.Player@{entities.Player}!getMaxHealth@{getMaxHealth}}
+\index{getMaxHealth@{getMaxHealth}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getMaxHealth()}{getMaxHealth()}}
+{\footnotesize\ttfamily int entities.\+Player.\+get\+Max\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_ae912f55ac5a73a89a1bc845478e4ad72}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_aaa211913627f3ef9b0e1b43a4fed24ee}\label{classentities_1_1Player_aaa211913627f3ef9b0e1b43a4fed24ee}} 
+\index{entities.Player@{entities.Player}!getWhackHitbox@{getWhackHitbox}}
+\index{getWhackHitbox@{getWhackHitbox}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getWhackHitbox()}{getWhackHitbox()}}
+{\footnotesize\ttfamily java.\+awt.\+geom.\+Rectangle2\+D.\+Float entities.\+Player.\+get\+Whack\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a3c22ec627fde30a1d4ebf69d4970d48b}\label{classentities_1_1Player_a3c22ec627fde30a1d4ebf69d4970d48b}} 
+\index{entities.Player@{entities.Player}!getWhackIndex@{getWhackIndex}}
+\index{getWhackIndex@{getWhackIndex}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{getWhackIndex()}{getWhackIndex()}}
+{\footnotesize\ttfamily int entities.\+Player.\+get\+Whack\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a77050a8c4ea29fd92ee55a29734a33d9}\label{classentities_1_1Player_a77050a8c4ea29fd92ee55a29734a33d9}} 
+\index{entities.Player@{entities.Player}!hasHit@{hasHit}}
+\index{hasHit@{hasHit}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{hasHit()}{hasHit()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+has\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a8b0e682d9d18da7ee49cfaa92e3af03b}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a5e00cc261703798e9fe9da8f3c051e91}\label{classentities_1_1Player_a5e00cc261703798e9fe9da8f3c051e91}} 
+\index{entities.Player@{entities.Player}!heal@{heal}}
+\index{heal@{heal}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{heal()}{heal()}}
+{\footnotesize\ttfamily void entities.\+Player.\+heal (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_acf3e3a5ee424d970ed628f42adf9f053}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_aa2cce3b623f9b2381979f6b2e1219b3f}\label{classentities_1_1Player_aa2cce3b623f9b2381979f6b2e1219b3f}} 
+\index{entities.Player@{entities.Player}!isAlive@{isAlive}}
+\index{isAlive@{isAlive}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isAlive()}{isAlive()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Alive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_ad83eba1dc9fc897ef976c06c13b0dba7}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_ae91421b7ea5f6ada3b51ef26bde79c51}\label{classentities_1_1Player_ae91421b7ea5f6ada3b51ef26bde79c51}} 
+\index{entities.Player@{entities.Player}!isAttack@{isAttack}}
+\index{isAttack@{isAttack}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isAttack()}{isAttack()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a8241aa63fe003aed2753089871109db6}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a8e58e2b2f40492965d6bd41bf41971e4}\label{classentities_1_1Player_a8e58e2b2f40492965d6bd41bf41971e4}} 
+\index{entities.Player@{entities.Player}!isCrouch@{isCrouch}}
+\index{isCrouch@{isCrouch}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isCrouch()}{isCrouch()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Crouch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a6f984e887e8d9a4375189802d0de5345}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_aee577e571f0127a2ca15793f8bb3403d}\label{classentities_1_1Player_aee577e571f0127a2ca15793f8bb3403d}} 
+\index{entities.Player@{entities.Player}!isCrystalRushActive@{isCrystalRushActive}}
+\index{isCrystalRushActive@{isCrystalRushActive}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isCrystalRushActive()}{isCrystalRushActive()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Crystal\+Rush\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_aab5f741e4cd6660bcef12e937312bf60}\label{classentities_1_1Player_aab5f741e4cd6660bcef12e937312bf60}} 
+\index{entities.Player@{entities.Player}!isCrystalRushUnlocked@{isCrystalRushUnlocked}}
+\index{isCrystalRushUnlocked@{isCrystalRushUnlocked}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isCrystalRushUnlocked()}{isCrystalRushUnlocked()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Crystal\+Rush\+Unlocked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a1219e4feea6e7186761ba8226bd612be}\label{classentities_1_1Player_a1219e4feea6e7186761ba8226bd612be}} 
+\index{entities.Player@{entities.Player}!isDamaged@{isDamaged}}
+\index{isDamaged@{isDamaged}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isDamaged()}{isDamaged()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Damaged (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a302c3240cfd838824cefd0d64cc87e5e}\label{classentities_1_1Player_a302c3240cfd838824cefd0d64cc87e5e}} 
+\index{entities.Player@{entities.Player}!isDown@{isDown}}
+\index{isDown@{isDown}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isDown()}{isDown()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a7a51a2c64057686c0b7195d2c14eb65d}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a887525e37494732d272edb44b411af7e}\label{classentities_1_1Player_a887525e37494732d272edb44b411af7e}} 
+\index{entities.Player@{entities.Player}!isFacingRight@{isFacingRight}}
+\index{isFacingRight@{isFacingRight}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isFacingRight()}{isFacingRight()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Facing\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_adcfb95a080cded7b50d8a51510bbce14}\label{classentities_1_1Player_adcfb95a080cded7b50d8a51510bbce14}} 
+\index{entities.Player@{entities.Player}!isJump@{isJump}}
+\index{isJump@{isJump}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isJump()}{isJump()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_afc93468caf10f3e525db42112a13ecbf}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a6db2dca292b5a3457d9c6c6458313e5d}\label{classentities_1_1Player_a6db2dca292b5a3457d9c6c6458313e5d}} 
+\index{entities.Player@{entities.Player}!isJumpSlamming@{isJumpSlamming}}
+\index{isJumpSlamming@{isJumpSlamming}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isJumpSlamming()}{isJumpSlamming()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Jump\+Slamming (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_ad424a582df5344e798a060efc21e6cb7}\label{classentities_1_1Player_ad424a582df5344e798a060efc21e6cb7}} 
+\index{entities.Player@{entities.Player}!isLeft@{isLeft}}
+\index{isLeft@{isLeft}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isLeft()}{isLeft()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_aae5802a0406fef77a984b64957cac38b}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_abb56970cf96ed24d5d44edb4b8ba1923}\label{classentities_1_1Player_abb56970cf96ed24d5d44edb4b8ba1923}} 
+\index{entities.Player@{entities.Player}!isPunching@{isPunching}}
+\index{isPunching@{isPunching}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isPunching()}{isPunching()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Punching (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a7b12ad0eaa74aab2ab3e0a3325afd2ea}\label{classentities_1_1Player_a7b12ad0eaa74aab2ab3e0a3325afd2ea}} 
+\index{entities.Player@{entities.Player}!isRight@{isRight}}
+\index{isRight@{isRight}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isRight()}{isRight()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_ae942e4e9697d17952884d1863e9f8a2d}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_aafab3b14bbe83eff41ff6c16566478a2}\label{classentities_1_1Player_aafab3b14bbe83eff41ff6c16566478a2}} 
+\index{entities.Player@{entities.Player}!isThrowing@{isThrowing}}
+\index{isThrowing@{isThrowing}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isThrowing()}{isThrowing()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Throwing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_acfd53a7511acd62e5af72798f3ce339f}\label{classentities_1_1Player_acfd53a7511acd62e5af72798f3ce339f}} 
+\index{entities.Player@{entities.Player}!isUp@{isUp}}
+\index{isUp@{isUp}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isUp()}{isUp()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_afd941053517bed90835708ff24729ae4}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_adcd36bfd0de380d4afea7599f1852c9f}\label{classentities_1_1Player_adcd36bfd0de380d4afea7599f1852c9f}} 
+\index{entities.Player@{entities.Player}!isWhacking@{isWhacking}}
+\index{isWhacking@{isWhacking}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isWhacking()}{isWhacking()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Whacking (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a5712cbb84c3bef71f06b78863393869a}\label{classentities_1_1Player_a5712cbb84c3bef71f06b78863393869a}} 
+\index{entities.Player@{entities.Player}!jump@{jump}}
+\index{jump@{jump}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{jump()}{jump()}}
+{\footnotesize\ttfamily void entities.\+Player.\+jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a9066a659786c74432c93fa5ce1a716c0}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_aeda64de49a76e0c6215d70c63460cee9}\label{classentities_1_1Player_aeda64de49a76e0c6215d70c63460cee9}} 
+\index{entities.Player@{entities.Player}!loadAnimations@{loadAnimations}}
+\index{loadAnimations@{loadAnimations}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{loadAnimations()}{loadAnimations()}}
+{\footnotesize\ttfamily void entities.\+Player.\+load\+Animations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a4a6dde0a66841762dbc29748d1f55c09}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_ae97f79ccefd926b8b51828f8eedbc713}\label{classentities_1_1Player_ae97f79ccefd926b8b51828f8eedbc713}} 
+\index{entities.Player@{entities.Player}!loadLevelData@{loadLevelData}}
+\index{loadLevelData@{loadLevelData}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{loadLevelData()}{loadLevelData()}}
+{\footnotesize\ttfamily void entities.\+Player.\+load\+Level\+Data (\begin{DoxyParamCaption}\item[{int}]{level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a71bf3888a0bb59a7948fe015d7c26889}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a44db2b7a9334d9de4ff86d1c84aec642}\label{classentities_1_1Player_a44db2b7a9334d9de4ff86d1c84aec642}} 
+\index{entities.Player@{entities.Player}!render@{render}}
+\index{render@{render}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void entities.\+Player.\+render (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{lvl\+OffsetX }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a4c9f8e9cb0669ad38777b1b8d94f1c8d}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_aa78e767830eaff7cea976402309be2b5}\label{classentities_1_1Player_aa78e767830eaff7cea976402309be2b5}} 
+\index{entities.Player@{entities.Player}!resetAnimationTick@{resetAnimationTick}}
+\index{resetAnimationTick@{resetAnimationTick}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{resetAnimationTick()}{resetAnimationTick()}}
+{\footnotesize\ttfamily void entities.\+Player.\+reset\+Animation\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_ad17e189383922c20ac896038968a7478}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_aa5ec65e8c4e10aadef4d86d595db99b1}\label{classentities_1_1Player_aa5ec65e8c4e10aadef4d86d595db99b1}} 
+\index{entities.Player@{entities.Player}!resetDirBooleans@{resetDirBooleans}}
+\index{resetDirBooleans@{resetDirBooleans}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{resetDirBooleans()}{resetDirBooleans()}}
+{\footnotesize\ttfamily void entities.\+Player.\+reset\+Dir\+Booleans (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a66c2a6377ee2435de906ea7b6f4814bf}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_ad768f2b60e00ebed2ce437a987377817}\label{classentities_1_1Player_ad768f2b60e00ebed2ce437a987377817}} 
+\index{entities.Player@{entities.Player}!resetHealth@{resetHealth}}
+\index{resetHealth@{resetHealth}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{resetHealth()}{resetHealth()}}
+{\footnotesize\ttfamily void entities.\+Player.\+reset\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a7ca79f1c7e902d3da1323953021e235f}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_afbded2c7104acace88a05d06583e044d}\label{classentities_1_1Player_afbded2c7104acace88a05d06583e044d}} 
+\index{entities.Player@{entities.Player}!resetInAir@{resetInAir}}
+\index{resetInAir@{resetInAir}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{resetInAir()}{resetInAir()}}
+{\footnotesize\ttfamily void entities.\+Player.\+reset\+In\+Air (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_ab3d3081152fe1cc11d0383f758cb9a82}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a00d58e634ca80b9d05876fbccb1f9b57}\label{classentities_1_1Player_a00d58e634ca80b9d05876fbccb1f9b57}} 
+\index{entities.Player@{entities.Player}!resetToStartPosition@{resetToStartPosition}}
+\index{resetToStartPosition@{resetToStartPosition}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{resetToStartPosition()}{resetToStartPosition()}}
+{\footnotesize\ttfamily void entities.\+Player.\+reset\+To\+Start\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a6ef745fd0b96cf940e00b464de12a33c}\label{classentities_1_1Player_a6ef745fd0b96cf940e00b464de12a33c}} 
+\index{entities.Player@{entities.Player}!setAnimation@{setAnimation}}
+\index{setAnimation@{setAnimation}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setAnimation()}{setAnimation()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Animation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a850dbe33c49de786214aab3f6671f753}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a760b6e82d26a562f77410b3544657641}\label{classentities_1_1Player_a760b6e82d26a562f77410b3544657641}} 
+\index{entities.Player@{entities.Player}!setAttack@{setAttack}}
+\index{setAttack@{setAttack}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setAttack()}{setAttack()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Attack (\begin{DoxyParamCaption}\item[{boolean}]{attack }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_ae10e2123926c7602ab2239ef5e794610}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_acafc5a54b4505f78ef1f474b04882d8f}\label{classentities_1_1Player_acafc5a54b4505f78ef1f474b04882d8f}} 
+\index{entities.Player@{entities.Player}!setCrouch@{setCrouch}}
+\index{setCrouch@{setCrouch}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setCrouch()}{setCrouch()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Crouch (\begin{DoxyParamCaption}\item[{boolean}]{crouch }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_af7f9546829b4249a828a4d7750625358}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a3226553c836f9b1874e392bce27e7a6a}\label{classentities_1_1Player_a3226553c836f9b1874e392bce27e7a6a}} 
+\index{entities.Player@{entities.Player}!setCurrentHealth@{setCurrentHealth}}
+\index{setCurrentHealth@{setCurrentHealth}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setCurrentHealth()}{setCurrentHealth()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Current\+Health (\begin{DoxyParamCaption}\item[{int}]{health }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a082d09f19af5a216231570516c6e2a5d}\label{classentities_1_1Player_a082d09f19af5a216231570516c6e2a5d}} 
+\index{entities.Player@{entities.Player}!setDown@{setDown}}
+\index{setDown@{setDown}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setDown()}{setDown()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Down (\begin{DoxyParamCaption}\item[{boolean}]{down }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a824687d684711c9906b5d7c1dafff9ff}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a493cde2bf1e35190246d60650019ee96}\label{classentities_1_1Player_a493cde2bf1e35190246d60650019ee96}} 
+\index{entities.Player@{entities.Player}!setHasHit@{setHasHit}}
+\index{setHasHit@{setHasHit}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setHasHit()}{setHasHit()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Has\+Hit (\begin{DoxyParamCaption}\item[{boolean}]{has\+Hit }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a56af7743318eb014e24f06c647db45b3}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a6e4c3915e42bdedcdf7d409bff13ab74}\label{classentities_1_1Player_a6e4c3915e42bdedcdf7d409bff13ab74}} 
+\index{entities.Player@{entities.Player}!setJump@{setJump}}
+\index{setJump@{setJump}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setJump()}{setJump()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Jump (\begin{DoxyParamCaption}\item[{boolean}]{jump }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a228880e1a08fc8b5a051419675ac1081}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a7912ac7dd781947f160c7b77b83a6ab4}\label{classentities_1_1Player_a7912ac7dd781947f160c7b77b83a6ab4}} 
+\index{entities.Player@{entities.Player}!setJumpSlamAttack@{setJumpSlamAttack}}
+\index{setJumpSlamAttack@{setJumpSlamAttack}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setJumpSlamAttack()}{setJumpSlamAttack()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Jump\+Slam\+Attack (\begin{DoxyParamCaption}\item[{boolean}]{jump\+Slam\+Attack }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a4e44bae26c44c371a57d8ae4a7907980}\label{classentities_1_1Player_a4e44bae26c44c371a57d8ae4a7907980}} 
+\index{entities.Player@{entities.Player}!setJumpSlamUnlocked@{setJumpSlamUnlocked}}
+\index{setJumpSlamUnlocked@{setJumpSlamUnlocked}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setJumpSlamUnlocked()}{setJumpSlamUnlocked()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Jump\+Slam\+Unlocked (\begin{DoxyParamCaption}\item[{boolean}]{unlocked }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a49e4c15b241dad77297696b8e6b59149}\label{classentities_1_1Player_a49e4c15b241dad77297696b8e6b59149}} 
+\index{entities.Player@{entities.Player}!setLeft@{setLeft}}
+\index{setLeft@{setLeft}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setLeft()}{setLeft()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Left (\begin{DoxyParamCaption}\item[{boolean}]{left }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_abf66b0b47027c6095d707894d5560e84}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_ad8ea460393adadf4d6bca32cf9b9be6b}\label{classentities_1_1Player_ad8ea460393adadf4d6bca32cf9b9be6b}} 
+\index{entities.Player@{entities.Player}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Position (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_ab5774ea9cb83a2db34d09d5a8e2bbfe3}\label{classentities_1_1Player_ab5774ea9cb83a2db34d09d5a8e2bbfe3}} 
+\index{entities.Player@{entities.Player}!setRight@{setRight}}
+\index{setRight@{setRight}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setRight()}{setRight()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Right (\begin{DoxyParamCaption}\item[{boolean}]{right }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_aa548eab218164bd3db71f1402fc829cb}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a8bfd00c0e838c19822c8eb35bdf57d97}\label{classentities_1_1Player_a8bfd00c0e838c19822c8eb35bdf57d97}} 
+\index{entities.Player@{entities.Player}!setThrowAttack@{setThrowAttack}}
+\index{setThrowAttack@{setThrowAttack}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setThrowAttack()}{setThrowAttack()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Throw\+Attack (\begin{DoxyParamCaption}\item[{boolean}]{throw\+Attack }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_aa0405f1c5da5e349141ad8e31234afd5}\label{classentities_1_1Player_aa0405f1c5da5e349141ad8e31234afd5}} 
+\index{entities.Player@{entities.Player}!setUp@{setUp}}
+\index{setUp@{setUp}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setUp()}{setUp()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Up (\begin{DoxyParamCaption}\item[{boolean}]{up }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_aaa7dafef1af1c7840d231629b2f2d6c5}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a0b642cc72c77b7eaf1b6d69f4f5b0d54}\label{classentities_1_1Player_a0b642cc72c77b7eaf1b6d69f4f5b0d54}} 
+\index{entities.Player@{entities.Player}!setWhackAttack@{setWhackAttack}}
+\index{setWhackAttack@{setWhackAttack}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{setWhackAttack()}{setWhackAttack()}}
+{\footnotesize\ttfamily void entities.\+Player.\+set\+Whack\+Attack (\begin{DoxyParamCaption}\item[{boolean}]{whack\+Attack }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a1489daf78875d09f408f81c120a7ebfd}\label{classentities_1_1Player_a1489daf78875d09f408f81c120a7ebfd}} 
+\index{entities.Player@{entities.Player}!takeDamage@{takeDamage}}
+\index{takeDamage@{takeDamage}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{takeDamage()}{takeDamage()}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+take\+Damage (\begin{DoxyParamCaption}\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a92dcb29e41a8f0a68ab70ba40f866a3f}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a60ca0bc547864971a30170196b36ae56}\label{classentities_1_1Player_a60ca0bc547864971a30170196b36ae56}} 
+\index{entities.Player@{entities.Player}!unlockCrystalRush@{unlockCrystalRush}}
+\index{unlockCrystalRush@{unlockCrystalRush}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{unlockCrystalRush()}{unlockCrystalRush()}}
+{\footnotesize\ttfamily void entities.\+Player.\+unlock\+Crystal\+Rush (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_a5980d93acff7f2bdf63837498d4bb919}\label{classentities_1_1Player_a5980d93acff7f2bdf63837498d4bb919}} 
+\index{entities.Player@{entities.Player}!update@{update}}
+\index{update@{update}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void entities.\+Player.\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classentities_1_1Player_aba3623bac125032f6ec6490bc89fbacb}\label{classentities_1_1Player_aba3623bac125032f6ec6490bc89fbacb}} 
+\index{entities.Player@{entities.Player}!updateAnimationTick@{updateAnimationTick}}
+\index{updateAnimationTick@{updateAnimationTick}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{updateAnimationTick()}{updateAnimationTick()}}
+{\footnotesize\ttfamily void entities.\+Player.\+update\+Animation\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a19efd0e20909b24272f21de11fea879e}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a84ea700d69d1079a438d24f68032ad94}\label{classentities_1_1Player_a84ea700d69d1079a438d24f68032ad94}} 
+\index{entities.Player@{entities.Player}!updateDamageEffect@{updateDamageEffect}}
+\index{updateDamageEffect@{updateDamageEffect}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{updateDamageEffect()}{updateDamageEffect()}}
+{\footnotesize\ttfamily void entities.\+Player.\+update\+Damage\+Effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a9b1a17a0bb3acc7b50caaee8a528b9dc}\label{classentities_1_1Player_a9b1a17a0bb3acc7b50caaee8a528b9dc}} 
+\index{entities.Player@{entities.Player}!updateGravity@{updateGravity}}
+\index{updateGravity@{updateGravity}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{updateGravity()}{updateGravity()}}
+{\footnotesize\ttfamily void entities.\+Player.\+update\+Gravity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a81f48596bb69d2634e0babce1aeb5df0}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a66309feb37fa0b24d827a77f902b8317}\label{classentities_1_1Player_a66309feb37fa0b24d827a77f902b8317}} 
+\index{entities.Player@{entities.Player}!updateKnockback@{updateKnockback}}
+\index{updateKnockback@{updateKnockback}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{updateKnockback()}{updateKnockback()}}
+{\footnotesize\ttfamily void entities.\+Player.\+update\+Knockback (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ab21843396353de0dfddd2fbd120102ae}\label{classentities_1_1Player_ab21843396353de0dfddd2fbd120102ae}} 
+\index{entities.Player@{entities.Player}!updatePos@{updatePos}}
+\index{updatePos@{updatePos}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{updatePos()}{updatePos()}}
+{\footnotesize\ttfamily void entities.\+Player.\+update\+Pos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a3bd1b90e711a3e9238cd5e534c622fa8}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a9fd37c1f298ffeea7327c5c894a97b14}\label{classentities_1_1Player_a9fd37c1f298ffeea7327c5c894a97b14}} 
+\index{entities.Player@{entities.Player}!updateXPos@{updateXPos}}
+\index{updateXPos@{updateXPos}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{updateXPos()}{updateXPos()}}
+{\footnotesize\ttfamily void entities.\+Player.\+update\+XPos (\begin{DoxyParamCaption}\item[{float}]{x\+Speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_af7b501d49c51dcd4d57f28ea677df00e}{entities.\+Karagor}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Player_a6089ae95bccc2d987423b24d4d6f43aa}\label{classentities_1_1Player_a6089ae95bccc2d987423b24d4d6f43aa}} 
+\index{entities.Player@{entities.Player}!airSpeed@{airSpeed}}
+\index{airSpeed@{airSpeed}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{airSpeed}{airSpeed}}
+{\footnotesize\ttfamily float entities.\+Player.\+air\+Speed = 0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ab4d1c1176f95d6d9ccb056b0c84c39ae}\label{classentities_1_1Player_ab4d1c1176f95d6d9ccb056b0c84c39ae}} 
+\index{entities.Player@{entities.Player}!animations@{animations}}
+\index{animations@{animations}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{animations}{animations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Player.\+animations\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_aa59913e52376cb226a471c8467d4f046}\label{classentities_1_1Player_aa59913e52376cb226a471c8467d4f046}} 
+\index{entities.Player@{entities.Player}!animationTick@{animationTick}}
+\index{animationTick@{animationTick}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{animationTick}{animationTick}}
+{\footnotesize\ttfamily int entities.\+Player.\+animation\+Tick\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a3bad99fe766b2452f3311a78f96473e6}\label{classentities_1_1Player_a3bad99fe766b2452f3311a78f96473e6}} 
+\index{entities.Player@{entities.Player}!attackDamage@{attackDamage}}
+\index{attackDamage@{attackDamage}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{attackDamage}{attackDamage}}
+{\footnotesize\ttfamily int entities.\+Player.\+attack\+Damage = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ae388317ab0877a1c116fac58bc6dc882}\label{classentities_1_1Player_ae388317ab0877a1c116fac58bc6dc882}} 
+\index{entities.Player@{entities.Player}!crouch@{crouch}}
+\index{crouch@{crouch}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{crouch}{crouch}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+crouch = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ade81020ffe16bebd77824e40284b868f}\label{classentities_1_1Player_ade81020ffe16bebd77824e40284b868f}} 
+\index{entities.Player@{entities.Player}!CRYSTAL\_RUSH\_COOLDOWN\_DURATION@{CRYSTAL\_RUSH\_COOLDOWN\_DURATION}}
+\index{CRYSTAL\_RUSH\_COOLDOWN\_DURATION@{CRYSTAL\_RUSH\_COOLDOWN\_DURATION}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{CRYSTAL\_RUSH\_COOLDOWN\_DURATION}{CRYSTAL\_RUSH\_COOLDOWN\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Player.\+CRYSTAL\+\_\+\+RUSH\+\_\+\+COOLDOWN\+\_\+\+DURATION = 3600\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_aa6d0b7bd47ff8a6921ab45efdc08a1ee}\label{classentities_1_1Player_aa6d0b7bd47ff8a6921ab45efdc08a1ee}} 
+\index{entities.Player@{entities.Player}!CRYSTAL\_RUSH\_DURATION@{CRYSTAL\_RUSH\_DURATION}}
+\index{CRYSTAL\_RUSH\_DURATION@{CRYSTAL\_RUSH\_DURATION}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{CRYSTAL\_RUSH\_DURATION}{CRYSTAL\_RUSH\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Player.\+CRYSTAL\+\_\+\+RUSH\+\_\+\+DURATION = 1200\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a3e15146413c486e73d9e2b90f44fb20b}\label{classentities_1_1Player_a3e15146413c486e73d9e2b90f44fb20b}} 
+\index{entities.Player@{entities.Player}!crystalRushAnimations@{crystalRushAnimations}}
+\index{crystalRushAnimations@{crystalRushAnimations}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{crystalRushAnimations}{crystalRushAnimations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Player.\+crystal\+Rush\+Animations\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a16e4455a7fd2b2d541e0314c5deed89a}\label{classentities_1_1Player_a16e4455a7fd2b2d541e0314c5deed89a}} 
+\index{entities.Player@{entities.Player}!crystalRushCooldownTimer@{crystalRushCooldownTimer}}
+\index{crystalRushCooldownTimer@{crystalRushCooldownTimer}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{crystalRushCooldownTimer}{crystalRushCooldownTimer}}
+{\footnotesize\ttfamily int entities.\+Player.\+crystal\+Rush\+Cooldown\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ad15a93f770088ed5a77dbf9868582b90}\label{classentities_1_1Player_ad15a93f770088ed5a77dbf9868582b90}} 
+\index{entities.Player@{entities.Player}!crystalRushTimer@{crystalRushTimer}}
+\index{crystalRushTimer@{crystalRushTimer}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{crystalRushTimer}{crystalRushTimer}}
+{\footnotesize\ttfamily int entities.\+Player.\+crystal\+Rush\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a5e5a8ee918f161d7ce06b57baa5797ba}\label{classentities_1_1Player_a5e5a8ee918f161d7ce06b57baa5797ba}} 
+\index{entities.Player@{entities.Player}!crystalRushUnlocked@{crystalRushUnlocked}}
+\index{crystalRushUnlocked@{crystalRushUnlocked}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{crystalRushUnlocked}{crystalRushUnlocked}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+crystal\+Rush\+Unlocked = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a07e6669a0b490886ac32cf941a289293}\label{classentities_1_1Player_a07e6669a0b490886ac32cf941a289293}} 
+\index{entities.Player@{entities.Player}!currentHealth@{currentHealth}}
+\index{currentHealth@{currentHealth}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{currentHealth}{currentHealth}}
+{\footnotesize\ttfamily int entities.\+Player.\+current\+Health = 100\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ad50813f1f6f218a4b2fa7b53a67cce4c}\label{classentities_1_1Player_ad50813f1f6f218a4b2fa7b53a67cce4c}} 
+\index{entities.Player@{entities.Player}!DAMAGE\_FLASH\_DURATION@{DAMAGE\_FLASH\_DURATION}}
+\index{DAMAGE\_FLASH\_DURATION@{DAMAGE\_FLASH\_DURATION}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{DAMAGE\_FLASH\_DURATION}{DAMAGE\_FLASH\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Player.\+DAMAGE\+\_\+\+FLASH\+\_\+\+DURATION = 20\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a6035764850ad72cbd4e5b6682b00f689}\label{classentities_1_1Player_a6035764850ad72cbd4e5b6682b00f689}} 
+\index{entities.Player@{entities.Player}!damageFlashTimer@{damageFlashTimer}}
+\index{damageFlashTimer@{damageFlashTimer}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{damageFlashTimer}{damageFlashTimer}}
+{\footnotesize\ttfamily int entities.\+Player.\+damage\+Flash\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ae790e0d2ac9c4075476ba5c713dc5f1a}\label{classentities_1_1Player_ae790e0d2ac9c4075476ba5c713dc5f1a}} 
+\index{entities.Player@{entities.Player}!down@{down}}
+\index{down@{down}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{down}{down}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+down = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_acb760abd2e6c5200b28e170f61705de9}\label{classentities_1_1Player_acb760abd2e6c5200b28e170f61705de9}} 
+\index{entities.Player@{entities.Player}!facingRight@{facingRight}}
+\index{facingRight@{facingRight}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{facingRight}{facingRight}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+facing\+Right = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a42ce65ff9bd619361d213d663790a1eb}\label{classentities_1_1Player_a42ce65ff9bd619361d213d663790a1eb}} 
+\index{entities.Player@{entities.Player}!fallSpeedAfterCollision@{fallSpeedAfterCollision}}
+\index{fallSpeedAfterCollision@{fallSpeedAfterCollision}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{fallSpeedAfterCollision}{fallSpeedAfterCollision}}
+{\footnotesize\ttfamily float entities.\+Player.\+fall\+Speed\+After\+Collision = 2.\+4f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ad0500b5ae2afa41f7fb34cbabc7979a6}\label{classentities_1_1Player_ad0500b5ae2afa41f7fb34cbabc7979a6}} 
+\index{entities.Player@{entities.Player}!flippedAnimations@{flippedAnimations}}
+\index{flippedAnimations@{flippedAnimations}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{flippedAnimations}{flippedAnimations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Player.\+flipped\+Animations\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a9d38658e5b0f12fe5fd53c43f827a1f2}\label{classentities_1_1Player_a9d38658e5b0f12fe5fd53c43f827a1f2}} 
+\index{entities.Player@{entities.Player}!flippedCrystalRushAnimations@{flippedCrystalRushAnimations}}
+\index{flippedCrystalRushAnimations@{flippedCrystalRushAnimations}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{flippedCrystalRushAnimations}{flippedCrystalRushAnimations}}
+{\footnotesize\ttfamily Buffered\+Image \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} entities.\+Player.\+flipped\+Crystal\+Rush\+Animations\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a9a89551a68c42dae8c02d9c54fae1082}\label{classentities_1_1Player_a9a89551a68c42dae8c02d9c54fae1082}} 
+\index{entities.Player@{entities.Player}!gravity@{gravity}}
+\index{gravity@{gravity}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{gravity}{gravity}}
+{\footnotesize\ttfamily float entities.\+Player.\+gravity = 0.\+12f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a6f0f5369c29ee8390fa90cd3d22ec176}\label{classentities_1_1Player_a6f0f5369c29ee8390fa90cd3d22ec176}} 
+\index{entities.Player@{entities.Player}!hasHit@{hasHit}}
+\index{hasHit@{hasHit}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{hasHit}{hasHit}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+has\+Hit = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a8b0e682d9d18da7ee49cfaa92e3af03b}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_af718fb31ea041aa42ed233cdde5d0e6f}\label{classentities_1_1Player_af718fb31ea041aa42ed233cdde5d0e6f}} 
+\index{entities.Player@{entities.Player}!hasThrown@{hasThrown}}
+\index{hasThrown@{hasThrown}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{hasThrown}{hasThrown}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+has\+Thrown = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ae79e80025749d6dcab7ed9acf4459850}\label{classentities_1_1Player_ae79e80025749d6dcab7ed9acf4459850}} 
+\index{entities.Player@{entities.Player}!inAir@{inAir}}
+\index{inAir@{inAir}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{inAir}{inAir}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+in\+Air = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a843f981ae75b109b269cbc8f1310c394}\label{classentities_1_1Player_a843f981ae75b109b269cbc8f1310c394}} 
+\index{entities.Player@{entities.Player}!isCrystalRushActive@{isCrystalRushActive}}
+\index{isCrystalRushActive@{isCrystalRushActive}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isCrystalRushActive}{isCrystalRushActive}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Crystal\+Rush\+Active = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_afa7029fd99bf219da42cdcc44666656e}\label{classentities_1_1Player_afa7029fd99bf219da42cdcc44666656e}} 
+\index{entities.Player@{entities.Player}!isDamaged@{isDamaged}}
+\index{isDamaged@{isDamaged}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isDamaged}{isDamaged}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Damaged = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_aa7babe582917478ae9390a8d3dd5d8f6}\label{classentities_1_1Player_aa7babe582917478ae9390a8d3dd5d8f6}} 
+\index{entities.Player@{entities.Player}!isJumpSlamming@{isJumpSlamming}}
+\index{isJumpSlamming@{isJumpSlamming}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isJumpSlamming}{isJumpSlamming}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Jump\+Slamming = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a2d8bf00d66ca02ac68332a125b772acd}\label{classentities_1_1Player_a2d8bf00d66ca02ac68332a125b772acd}} 
+\index{entities.Player@{entities.Player}!isLanding@{isLanding}}
+\index{isLanding@{isLanding}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isLanding}{isLanding}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Landing = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_aaeef9ea613830cfe7a3dad5d44b53e0c}\label{classentities_1_1Player_aaeef9ea613830cfe7a3dad5d44b53e0c}} 
+\index{entities.Player@{entities.Player}!isPunching@{isPunching}}
+\index{isPunching@{isPunching}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isPunching}{isPunching}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Punching = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a1b779fdfabf0ae758782426080b2380a}\label{classentities_1_1Player_a1b779fdfabf0ae758782426080b2380a}} 
+\index{entities.Player@{entities.Player}!isThrowing@{isThrowing}}
+\index{isThrowing@{isThrowing}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isThrowing}{isThrowing}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Throwing = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ac2eecc3f7206fe133268eee857a8f2f1}\label{classentities_1_1Player_ac2eecc3f7206fe133268eee857a8f2f1}} 
+\index{entities.Player@{entities.Player}!isTransitioning@{isTransitioning}}
+\index{isTransitioning@{isTransitioning}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isTransitioning}{isTransitioning}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Transitioning = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a78ce502203f2beefc1a6bc5fb4f44b73}\label{classentities_1_1Player_a78ce502203f2beefc1a6bc5fb4f44b73}} 
+\index{entities.Player@{entities.Player}!isWhacking@{isWhacking}}
+\index{isWhacking@{isWhacking}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{isWhacking}{isWhacking}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+is\+Whacking = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ad91bcb2af4701683f66ee0de514b0836}\label{classentities_1_1Player_ad91bcb2af4701683f66ee0de514b0836}} 
+\index{entities.Player@{entities.Player}!jump@{jump}}
+\index{jump@{jump}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{jump}{jump}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+jump = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Karagor_a9066a659786c74432c93fa5ce1a716c0}{entities.\+Karagor}}.
+
+\mbox{\Hypertarget{classentities_1_1Player_a5562db5e5084b91bca18f6e1f6af5090}\label{classentities_1_1Player_a5562db5e5084b91bca18f6e1f6af5090}} 
+\index{entities.Player@{entities.Player}!JUMP\_SLAM\_COOLDOWN\_DURATION@{JUMP\_SLAM\_COOLDOWN\_DURATION}}
+\index{JUMP\_SLAM\_COOLDOWN\_DURATION@{JUMP\_SLAM\_COOLDOWN\_DURATION}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{JUMP\_SLAM\_COOLDOWN\_DURATION}{JUMP\_SLAM\_COOLDOWN\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Player.\+JUMP\+\_\+\+SLAM\+\_\+\+COOLDOWN\+\_\+\+DURATION = 1200\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a84340d2c7825d50a8c8a9fec8264c3a8}\label{classentities_1_1Player_a84340d2c7825d50a8c8a9fec8264c3a8}} 
+\index{entities.Player@{entities.Player}!JUMP\_SLAM\_DASH\_SPEED@{JUMP\_SLAM\_DASH\_SPEED}}
+\index{JUMP\_SLAM\_DASH\_SPEED@{JUMP\_SLAM\_DASH\_SPEED}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{JUMP\_SLAM\_DASH\_SPEED}{JUMP\_SLAM\_DASH\_SPEED}}
+{\footnotesize\ttfamily final float entities.\+Player.\+JUMP\+\_\+\+SLAM\+\_\+\+DASH\+\_\+\+SPEED = 8.\+0f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a632ad9293d460d666a671fb0061c4e1e}\label{classentities_1_1Player_a632ad9293d460d666a671fb0061c4e1e}} 
+\index{entities.Player@{entities.Player}!jumpSlamCooldownTimer@{jumpSlamCooldownTimer}}
+\index{jumpSlamCooldownTimer@{jumpSlamCooldownTimer}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{jumpSlamCooldownTimer}{jumpSlamCooldownTimer}}
+{\footnotesize\ttfamily int entities.\+Player.\+jump\+Slam\+Cooldown\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a0a3307e4f2c62b7d44f3935595ff78ff}\label{classentities_1_1Player_a0a3307e4f2c62b7d44f3935595ff78ff}} 
+\index{entities.Player@{entities.Player}!jumpSlamTick@{jumpSlamTick}}
+\index{jumpSlamTick@{jumpSlamTick}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{jumpSlamTick}{jumpSlamTick}}
+{\footnotesize\ttfamily int entities.\+Player.\+jump\+Slam\+Tick = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a3026d122998ee82e9bdd8f7708dff23a}\label{classentities_1_1Player_a3026d122998ee82e9bdd8f7708dff23a}} 
+\index{entities.Player@{entities.Player}!jumpSlamUnlocked@{jumpSlamUnlocked}}
+\index{jumpSlamUnlocked@{jumpSlamUnlocked}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{jumpSlamUnlocked}{jumpSlamUnlocked}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+jump\+Slam\+Unlocked = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_aa2d30905c18c1c5b1f04b9bfa5ce044f}\label{classentities_1_1Player_aa2d30905c18c1c5b1f04b9bfa5ce044f}} 
+\index{entities.Player@{entities.Player}!jumpSpeed@{jumpSpeed}}
+\index{jumpSpeed@{jumpSpeed}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{jumpSpeed}{jumpSpeed}}
+{\footnotesize\ttfamily float entities.\+Player.\+jump\+Speed = -\/6.\+5f $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a10ffec558de613947fe3350be821388c}\label{classentities_1_1Player_a10ffec558de613947fe3350be821388c}} 
+\index{entities.Player@{entities.Player}!KNOCKBACK\_DURATION@{KNOCKBACK\_DURATION}}
+\index{KNOCKBACK\_DURATION@{KNOCKBACK\_DURATION}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{KNOCKBACK\_DURATION}{KNOCKBACK\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Player.\+KNOCKBACK\+\_\+\+DURATION = 15\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a161ac352066a4bb57f8a3599b589e217}\label{classentities_1_1Player_a161ac352066a4bb57f8a3599b589e217}} 
+\index{entities.Player@{entities.Player}!knockbackDuration@{knockbackDuration}}
+\index{knockbackDuration@{knockbackDuration}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{knockbackDuration}{knockbackDuration}}
+{\footnotesize\ttfamily int entities.\+Player.\+knockback\+Duration = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a7360495b2fb5729670514fbc11d56687}\label{classentities_1_1Player_a7360495b2fb5729670514fbc11d56687}} 
+\index{entities.Player@{entities.Player}!knockbackX@{knockbackX}}
+\index{knockbackX@{knockbackX}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{knockbackX}{knockbackX}}
+{\footnotesize\ttfamily float entities.\+Player.\+knockbackX = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ac75b81e922f57aed575e90698dcd73bf}\label{classentities_1_1Player_ac75b81e922f57aed575e90698dcd73bf}} 
+\index{entities.Player@{entities.Player}!knockbackY@{knockbackY}}
+\index{knockbackY@{knockbackY}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{knockbackY}{knockbackY}}
+{\footnotesize\ttfamily float entities.\+Player.\+knockbackY = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a69032d48b04dee9e68cd7b0a19604d2f}\label{classentities_1_1Player_a69032d48b04dee9e68cd7b0a19604d2f}} 
+\index{entities.Player@{entities.Player}!landingFrame@{landingFrame}}
+\index{landingFrame@{landingFrame}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{landingFrame}{landingFrame}}
+{\footnotesize\ttfamily int entities.\+Player.\+landing\+Frame = 7\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a56c30b7efa0a5aa26903dc189a37aebf}\label{classentities_1_1Player_a56c30b7efa0a5aa26903dc189a37aebf}} 
+\index{entities.Player@{entities.Player}!left@{left}}
+\index{left@{left}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{left}{left}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+left = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_abfd005a6825f1373eeef1e40fa9d4c95}\label{classentities_1_1Player_abfd005a6825f1373eeef1e40fa9d4c95}} 
+\index{entities.Player@{entities.Player}!levelData@{levelData}}
+\index{levelData@{levelData}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{levelData}{levelData}}
+{\footnotesize\ttfamily int entities.\+Player.\+level\+Data\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_acabd4ef531593b76ca14a1452cffc336}\label{classentities_1_1Player_acabd4ef531593b76ca14a1452cffc336}} 
+\index{entities.Player@{entities.Player}!maxHealth@{maxHealth}}
+\index{maxHealth@{maxHealth}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{maxHealth}{maxHealth}}
+{\footnotesize\ttfamily int entities.\+Player.\+max\+Health = 100\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a27a5adc8e45608e1d8fc12ccd0cef069}\label{classentities_1_1Player_a27a5adc8e45608e1d8fc12ccd0cef069}} 
+\index{entities.Player@{entities.Player}!moving@{moving}}
+\index{moving@{moving}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{moving}{moving}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+moving = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a9a3f04bb55b22825c6046893dd4450af}\label{classentities_1_1Player_a9a3f04bb55b22825c6046893dd4450af}} 
+\index{entities.Player@{entities.Player}!originalPlayerSpeed@{originalPlayerSpeed}}
+\index{originalPlayerSpeed@{originalPlayerSpeed}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{originalPlayerSpeed}{originalPlayerSpeed}}
+{\footnotesize\ttfamily float entities.\+Player.\+original\+Player\+Speed\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a0377da0077d310f879f4012d1d171415}\label{classentities_1_1Player_a0377da0077d310f879f4012d1d171415}} 
+\index{entities.Player@{entities.Player}!permanentAttackDamageBonus@{permanentAttackDamageBonus}}
+\index{permanentAttackDamageBonus@{permanentAttackDamageBonus}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{permanentAttackDamageBonus}{permanentAttackDamageBonus}}
+{\footnotesize\ttfamily int entities.\+Player.\+permanent\+Attack\+Damage\+Bonus = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a45a7c638a507df36bc4c0eb6b66b0660}\label{classentities_1_1Player_a45a7c638a507df36bc4c0eb6b66b0660}} 
+\index{entities.Player@{entities.Player}!permanentMaxHpBonus@{permanentMaxHpBonus}}
+\index{permanentMaxHpBonus@{permanentMaxHpBonus}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{permanentMaxHpBonus}{permanentMaxHpBonus}}
+{\footnotesize\ttfamily int entities.\+Player.\+permanent\+Max\+Hp\+Bonus = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_af25839eab4a0e3ce6a9e354efa089f43}\label{classentities_1_1Player_af25839eab4a0e3ce6a9e354efa089f43}} 
+\index{entities.Player@{entities.Player}!playerAction@{playerAction}}
+\index{playerAction@{playerAction}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{playerAction}{playerAction}}
+{\footnotesize\ttfamily int entities.\+Player.\+player\+Action = Gorilla\+\_\+\+Animation\+\_\+rows.\+PUNCH\+\_\+\+STANDING.\+get\+Row\+Index()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a496dacfcc18a72afe4dbb6d007b7f7ef}\label{classentities_1_1Player_a496dacfcc18a72afe4dbb6d007b7f7ef}} 
+\index{entities.Player@{entities.Player}!playerDirection@{playerDirection}}
+\index{playerDirection@{playerDirection}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{playerDirection}{playerDirection}}
+{\footnotesize\ttfamily int entities.\+Player.\+player\+Direction = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_acde013b38e9be2883b5897da88b08fa9}\label{classentities_1_1Player_acde013b38e9be2883b5897da88b08fa9}} 
+\index{entities.Player@{entities.Player}!playerSpeed@{playerSpeed}}
+\index{playerSpeed@{playerSpeed}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{playerSpeed}{playerSpeed}}
+{\footnotesize\ttfamily float entities.\+Player.\+player\+Speed = 2.\+4f\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_af9361cc17ca944e96f530f0e5012da0f}\label{classentities_1_1Player_af9361cc17ca944e96f530f0e5012da0f}} 
+\index{entities.Player@{entities.Player}!punchTick@{punchTick}}
+\index{punchTick@{punchTick}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{punchTick}{punchTick}}
+{\footnotesize\ttfamily int entities.\+Player.\+punch\+Tick = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_abcfc76572475489794ede0b7b0a62b6d}\label{classentities_1_1Player_abcfc76572475489794ede0b7b0a62b6d}} 
+\index{entities.Player@{entities.Player}!right@{right}}
+\index{right@{right}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{right}{right}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+right = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ab02dc8f44ca0b4aaba717e38c8b899c5}\label{classentities_1_1Player_ab02dc8f44ca0b4aaba717e38c8b899c5}} 
+\index{entities.Player@{entities.Player}!throwTick@{throwTick}}
+\index{throwTick@{throwTick}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{throwTick}{throwTick}}
+{\footnotesize\ttfamily int entities.\+Player.\+throw\+Tick = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_aef1934b50965b8a20f4ad63f049875de}\label{classentities_1_1Player_aef1934b50965b8a20f4ad63f049875de}} 
+\index{entities.Player@{entities.Player}!up@{up}}
+\index{up@{up}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{up}{up}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+up = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_aa031e8eb26c5de74e984eacdc5c12bf5}\label{classentities_1_1Player_aa031e8eb26c5de74e984eacdc5c12bf5}} 
+\index{entities.Player@{entities.Player}!wasCrouchPressed@{wasCrouchPressed}}
+\index{wasCrouchPressed@{wasCrouchPressed}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{wasCrouchPressed}{wasCrouchPressed}}
+{\footnotesize\ttfamily boolean entities.\+Player.\+was\+Crouch\+Pressed = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a6b4b7fbd64fa208ac48e08b600862eb5}\label{classentities_1_1Player_a6b4b7fbd64fa208ac48e08b600862eb5}} 
+\index{entities.Player@{entities.Player}!WHACK\_COOLDOWN\_DURATION@{WHACK\_COOLDOWN\_DURATION}}
+\index{WHACK\_COOLDOWN\_DURATION@{WHACK\_COOLDOWN\_DURATION}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{WHACK\_COOLDOWN\_DURATION}{WHACK\_COOLDOWN\_DURATION}}
+{\footnotesize\ttfamily final int entities.\+Player.\+WHACK\+\_\+\+COOLDOWN\+\_\+\+DURATION = 45\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ae6a16778ac3be752023d245f9a17f494}\label{classentities_1_1Player_ae6a16778ac3be752023d245f9a17f494}} 
+\index{entities.Player@{entities.Player}!whackCooldownTimer@{whackCooldownTimer}}
+\index{whackCooldownTimer@{whackCooldownTimer}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{whackCooldownTimer}{whackCooldownTimer}}
+{\footnotesize\ttfamily int entities.\+Player.\+whack\+Cooldown\+Timer = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a7bf4800f755e69632be48349b65f8cb6}\label{classentities_1_1Player_a7bf4800f755e69632be48349b65f8cb6}} 
+\index{entities.Player@{entities.Player}!whackTick@{whackTick}}
+\index{whackTick@{whackTick}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{whackTick}{whackTick}}
+{\footnotesize\ttfamily int entities.\+Player.\+whack\+Tick = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_ae66ef04d142d8bcd803179d73b0240d3}\label{classentities_1_1Player_ae66ef04d142d8bcd803179d73b0240d3}} 
+\index{entities.Player@{entities.Player}!xDrawOffset@{xDrawOffset}}
+\index{xDrawOffset@{xDrawOffset}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{xDrawOffset}{xDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Player.\+x\+Draw\+Offset = 66 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classentities_1_1Player_a9db6e2575e778b2d813c2ecc3bb3284b}\label{classentities_1_1Player_a9db6e2575e778b2d813c2ecc3bb3284b}} 
+\index{entities.Player@{entities.Player}!yDrawOffset@{yDrawOffset}}
+\index{yDrawOffset@{yDrawOffset}!entities.Player@{entities.Player}}
+\doxysubsubsection{\texorpdfstring{yDrawOffset}{yDrawOffset}}
+{\footnotesize\ttfamily float entities.\+Player.\+y\+Draw\+Offset = 39 $\ast$ \mbox{\hyperlink{classmain_1_1Game_a21133ad32bff41f4bcbcde78fbd2b54d}{Game.\+SCALE}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Player_8java}{Player.\+java}}\end{DoxyCompactItemize}

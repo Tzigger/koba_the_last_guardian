@@ -1,0 +1,199 @@
+\hypertarget{classentities_1_1Entity}{}\doxysection{entities.\+Entity Class Reference}
+\label{classentities_1_1Entity}\index{entities.Entity@{entities.Entity}}
+
+
+Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici, obiecte).  
+
+
+
+
+Inheritance diagram for entities.\+Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classentities_1_1Entity__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for entities.\+Entity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{classentities_1_1Entity__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classentities_1_1Entity_aa054ad00f6a9a2f43f4c8525b3b76d73}{Entity}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}})
+\begin{DoxyCompactList}\small\item\em Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Entity}{Entity}}. \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Entity_a499329a00226cbb0ca7db068833f4151}{get\+Hitbox}} ()
+\begin{DoxyCompactList}\small\item\em Returnează hitbox-\/ul entității. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classentities_1_1Entity_a4f0e5ba3e5e8968253c36f2f3b610281}{init\+Hitbox}} (float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}, float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}, float \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}, float \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}})
+\begin{DoxyCompactList}\small\item\em Inițializează hitbox-\/ul entității cu coordonatele și dimensiunile specificate. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classentities_1_1Entity_ad4463bf263cd134f854d0be724e68063}{draw\+Hitbox}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Desenează hitbox-\/ul entității pe ecran. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}{x}}
+\begin{DoxyCompactList}\small\item\em Coordonata x a colțului stânga-\/sus al entității (poate fi pentru desenare). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}{y}}
+\begin{DoxyCompactList}\small\item\em Coordonata y a colțului stânga-\/sus al entității (poate fi pentru desenare). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}{width}}
+\begin{DoxyCompactList}\small\item\em Lățimea entității (poate fi pentru desenare). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}{height}}
+\begin{DoxyCompactList}\small\item\em Înălțimea entității (poate fi pentru desenare). \end{DoxyCompactList}\item 
+Rectangle2\+D.\+Float \mbox{\hyperlink{classentities_1_1Entity_a314b344d2c224e9f42052398d08c6353}{hitbox}}
+\begin{DoxyCompactList}\small\item\em Dreptunghiul de coliziune (hitbox) al entității. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasă abstractă de bază pentru toate entitățile din joc (de ex., jucător, inamici, obiecte). 
+
+Definește proprietăți comune precum poziția (x, y), dimensiunile (lățime, înălțime) și un hitbox pentru detecția coliziunilor. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classentities_1_1Entity_aa054ad00f6a9a2f43f4c8525b3b76d73}\label{classentities_1_1Entity_aa054ad00f6a9a2f43f4c8525b3b76d73}} 
+\index{entities.Entity@{entities.Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{Entity()}{Entity()}}
+{\footnotesize\ttfamily entities.\+Entity.\+Entity (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructor pentru clasa \mbox{\hyperlink{classentities_1_1Entity}{Entity}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x inițială a entității. \\
+\hline
+{\em y} & Poziția y inițială a entității. \\
+\hline
+{\em width} & Lățimea inițială a entității. \\
+\hline
+{\em height} & Înălțimea inițială a entității. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classentities_1_1Entity_ad4463bf263cd134f854d0be724e68063}\label{classentities_1_1Entity_ad4463bf263cd134f854d0be724e68063}} 
+\index{entities.Entity@{entities.Entity}!drawHitbox@{drawHitbox}}
+\index{drawHitbox@{drawHitbox}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{drawHitbox()}{drawHitbox()}}
+{\footnotesize\ttfamily void entities.\+Entity.\+draw\+Hitbox (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Desenează hitbox-\/ul entității pe ecran. 
+
+Utilizată în principal pentru depanare.
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic \mbox{\hyperlink{}{Graphics}} pe care se va desena. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classentities_1_1Entity_a499329a00226cbb0ca7db068833f4151}\label{classentities_1_1Entity_a499329a00226cbb0ca7db068833f4151}} 
+\index{entities.Entity@{entities.Entity}!getHitbox@{getHitbox}}
+\index{getHitbox@{getHitbox}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{getHitbox()}{getHitbox()}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Entity.\+get\+Hitbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returnează hitbox-\/ul entității. 
+
+\begin{DoxyReturn}{Returns}
+Obiectul \mbox{\hyperlink{}{Rectangle2\+D.\+Float}} reprezentând hitbox-\/ul. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classentities_1_1Projectile_aa727fe060932f9f8422ffdfc16035c25}{entities.\+Projectile}}, and \mbox{\hyperlink{classentities_1_1Enemy_a13094f343111039040c52b6a60e6f497}{entities.\+Enemy}}.
+
+\mbox{\Hypertarget{classentities_1_1Entity_a4f0e5ba3e5e8968253c36f2f3b610281}\label{classentities_1_1Entity_a4f0e5ba3e5e8968253c36f2f3b610281}} 
+\index{entities.Entity@{entities.Entity}!initHitbox@{initHitbox}}
+\index{initHitbox@{initHitbox}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{initHitbox()}{initHitbox()}}
+{\footnotesize\ttfamily void entities.\+Entity.\+init\+Hitbox (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y,  }\item[{float}]{width,  }\item[{float}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Inițializează hitbox-\/ul entității cu coordonatele și dimensiunile specificate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Poziția x a colțului stânga-\/sus al hitbox-\/ului. \\
+\hline
+{\em y} & Poziția y a colțului stânga-\/sus al hitbox-\/ului. \\
+\hline
+{\em width} & Lățimea hitbox-\/ului. \\
+\hline
+{\em height} & Înălțimea hitbox-\/ului. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}\label{classentities_1_1Entity_adfeb93969a5fd29cb71ffe45b882ec09}} 
+\index{entities.Entity@{entities.Entity}!height@{height}}
+\index{height@{height}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{height}{height}}
+{\footnotesize\ttfamily int entities.\+Entity.\+height\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Înălțimea entității (poate fi pentru desenare). 
+
+\mbox{\Hypertarget{classentities_1_1Entity_a314b344d2c224e9f42052398d08c6353}\label{classentities_1_1Entity_a314b344d2c224e9f42052398d08c6353}} 
+\index{entities.Entity@{entities.Entity}!hitbox@{hitbox}}
+\index{hitbox@{hitbox}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{hitbox}{hitbox}}
+{\footnotesize\ttfamily Rectangle2\+D.\+Float entities.\+Entity.\+hitbox\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dreptunghiul de coliziune (hitbox) al entității. 
+
+\mbox{\Hypertarget{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}\label{classentities_1_1Entity_a65e6a7cdefcbd3dcd6fc6a918ea9ce6b}} 
+\index{entities.Entity@{entities.Entity}!width@{width}}
+\index{width@{width}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily int entities.\+Entity.\+width\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Lățimea entității (poate fi pentru desenare). 
+
+\mbox{\Hypertarget{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}\label{classentities_1_1Entity_a77802ee39cd4e603d934dc48050d89ff}} 
+\index{entities.Entity@{entities.Entity}!x@{x}}
+\index{x@{x}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily float entities.\+Entity.\+x\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Coordonata x a colțului stânga-\/sus al entității (poate fi pentru desenare). 
+
+\mbox{\Hypertarget{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}\label{classentities_1_1Entity_a43e269b1811e6a6aed35e79f6f1aad3f}} 
+\index{entities.Entity@{entities.Entity}!y@{y}}
+\index{y@{y}!entities.Entity@{entities.Entity}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily float entities.\+Entity.\+y\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Coordonata y a colțului stânga-\/sus al entității (poate fi pentru desenare). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/entities/\mbox{\hyperlink{Entity_8java}{Entity.\+java}}\end{DoxyCompactItemize}
